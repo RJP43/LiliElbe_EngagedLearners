@@ -1,2 +1,2 @@
-# Welcome, LiliElbe_EngagedLearners!
+# Welcome, Lili Elbe Digital Archive Engaged Learners!
 
