@@ -2,8 +2,7 @@
 Pamela Caughie's Spring 2019 ENGL-283  
 
 ## Here are some quick links:
-Our Sakai Homepage: https://sakai.luc.edu/x/u42wPb  
-[GitHub Guides](https://guides.github.com/) - a fantastic resource for learning more about using GitHub  
+Our Sakai Homepage: https://sakai.luc.edu/x/u42wPb   
   
 ## Tentative February Syllabus:  
 
