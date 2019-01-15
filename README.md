@@ -1,7 +1,7 @@
 # Welcome, Lili Elbe Digital Archive Engaged Learners!  
 Pamela Caughie's Spring 2019 ENGL-283  
   
-## Tentative February Syllabus  
+## Tentative February Syllabus:  
 
 **Tuesday, Feb. 5th**
 *Lesson:* Basic XML / Exploring our Documents  
@@ -38,8 +38,8 @@ Pamela Caughie's Spring 2019 ENGL-283
 **Thursday, Feb. 28th**  
 *Lesson:* Project Work  
 
-## Here are some quick links
-Our Sakai Homepage: https://sakai.luc.edu/x/u42wPb
+## Here are some quick links:
+Our Sakai Homepage: https://sakai.luc.edu/x/u42wPb  
 
   
 
