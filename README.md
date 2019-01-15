@@ -1,5 +1,9 @@
 # Welcome, Lili Elbe Digital Archive Engaged Learners!  
 Pamela Caughie's Spring 2019 ENGL-283  
+
+## Here are some quick links:
+Our Sakai Homepage: https://sakai.luc.edu/x/u42wPb  
+[GitHub Guides](https://guides.github.com/) - a fantastic resource for learning more about using GitHub  
   
 ## Tentative February Syllabus:  
 
@@ -37,9 +41,4 @@ Pamela Caughie's Spring 2019 ENGL-283
 
 **Thursday, Feb. 28th**  
 *Lesson:* Project Work  
-
-## Here are some quick links:
-Our Sakai Homepage: https://sakai.luc.edu/x/u42wPb  
-
   
-
