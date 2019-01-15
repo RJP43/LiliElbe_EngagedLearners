@@ -7,7 +7,7 @@ Rebecca Parker's Office Hours and Technical Calendar: http://bit.ly/2MdASUn
   
 ## Tentative February Syllabus:  
 
-**Tuesday, Feb. 5th**  
+**Tuesday, Feb. 5th**     
 *Lesson:* Basic XML / Exploring our Documents   
 *Before Class:* Install oXygen and sign-up for 30 day trial, create GitHub account  
 *By Next Class:* XML Exercise  
