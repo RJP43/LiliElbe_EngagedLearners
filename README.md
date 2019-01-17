@@ -3,7 +3,7 @@ Pamela Caughie's Spring 2019 ENGL-283
 
 ## Here are some quick links:
 Our Sakai Homepage: https://sakai.luc.edu/x/u42wPb   
-Rebecca Parker's Office Hours and Technical Calendar: http://bit.ly/2MdASUn   
+Rebecca Parker's Office Hours and Tech. Team Calendar: http://bit.ly/2MdASUn   
 Getting Started - https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!
   
 ## Tentative February Syllabus:  
