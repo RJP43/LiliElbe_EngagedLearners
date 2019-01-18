@@ -31,14 +31,14 @@ Getting Started - https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome
 **Tuesday, Feb. 19th**  
 *Lesson:* XPath - Navigating XML  
 *Before Class:* TEI Header Exercise 2  
-*By Next Class:* XPath Exercise, Have Read - “Storm Clouds on the Horizon..”  
+*By Next Class:* XPath Exercise, Have Read - “Storm Clouds on the Horizon...”  
    
 **Thursday, Feb. 21th**  
-*Lesson:* Discuss Storm Clouds on the Horizn, Seeing XML issues with XPath / XSLT  
+*Lesson:* Discuss “Storm Clouds on the Horizon...”, Seeing XML issues with XPath / XSLT  
 *Before Class:* XPath Exercise  
   
 **Tuesday, Feb. 26th**  
-*Lesson:* Proofing HTML with HYpothes.is our XML knowledge  
+*Lesson:* Proofing HTML with HYpothes.is and our XML knowledge  
 
 **Thursday, Feb. 28th**  
 *Lesson:* Project Work  
