@@ -38,7 +38,7 @@ Getting Started - https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome
 *Before Class:* XPath Exercise  
   
 **Tuesday, Feb. 26th**  
-*Lesson:* Proofing HTML with HYpothes.is and our XML knowledge  
+*Lesson:* Proofing HTML with Hypothes.is and our XML knowledge  
 
 **Thursday, Feb. 28th**  
 *Lesson:* Project Work  
