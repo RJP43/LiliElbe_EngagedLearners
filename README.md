@@ -24,7 +24,7 @@ Getting Started - https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome
 *By Next Class:* TEI Header Exercise   
   
 **Thursday, Feb. 14th**  
-*Lesson:* TEI Header - MIW  
+*Lesson:* TEI Header - MIW; with MIW Encoders, Translators, Editors, and Project Manager
 *Before Class:* TEI Header Exercise 1  
 *By Next Class:* TEI Header Exercise 2 - MIW   
   
