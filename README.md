@@ -10,7 +10,7 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 
 **Tuesday, Feb. 5th**     
 *Lesson:* [Working-in-GitHub Course Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#course-workflow) and [Exploring a Document, but Encoding a Text](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Exploring-a-Document,-but-Encoding-a-Text)        
-*Before Class:* [Installed oXygen]() and [Get Started with GitHub](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!#getting-started-with-github)    
+*Before Class:* [Installed oXygen](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Installing-Oxygen) and [Get Started with GitHub](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!#getting-started-with-github)    
 *By Next Class:* [XML Exercise]()  
   
 **Thursday, Feb. 7th**  
