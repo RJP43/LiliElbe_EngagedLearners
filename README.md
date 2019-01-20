@@ -39,7 +39,7 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 *By Next Class:* Finish [XPath/RegEx Exercise]()  
   
 **Tuesday, Feb. 26th**  
-*Lesson:* [Proofing HTML with Hypothes.is and our XML knowledge]()      
+*Lesson:* [Proofing HTML with Hypothes.is and our XML knowledge](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Proofing-HTML)      
 *Before Class:* Completed XPath/RegEx Exercise submitted via Sakai     
 *By Next Class:* Commit to Project / Project Team on Issues Board - [Let's Discuss Project Assignments Issue #2](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/2)  
 
