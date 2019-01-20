@@ -34,7 +34,7 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 *By Next Class:* Start on [XPath/RegEx Exercise](), Have Read - [“Storm Clouds on the Horizon...”](https://doi.org/10.1080/24692921.2018.1505819) and posted 2 discussion questions on Issues Board - [Let's Discuss "Storm Clouds on the Horizon" Issue #1](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1)    
    
 **Thursday, Feb. 21th**  
-*Lesson:* [Discuss “Storm Clouds on the Horizon...”](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1), [Proofing XML with XPath and XSLT](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Proofing-XML-with-XPath-and-XSLT)  
+*Lesson:* [Discuss “Storm Clouds on the Horizon...”](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) and [Proofing XML with XPath and XSLT](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Proofing-XML-with-XPath-and-XSLT)  
 *Before Class:* Start on XPath/RegEx Exercise   
 *By Next Class:* Finish [XPath/RegEx Exercise]()  
   
@@ -44,12 +44,14 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 *By Next Class:* Commit to Project / Project Team on Issues Board - [Let's Discuss Project Assignments Issue #2](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/2)  
 
 **Thursday, Feb. 28th**  
-*Lesson:* Project Work - communicate. collaborate with proper attribution. document. - [Working-in-GitHub Project Team Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#project-team-workflow)    
+*Lesson:* [Working-in-GitHub Project Team Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#project-team-workflow)    
+*Before Class:* commented on Let's Discuss Project Assignments Issue #2  
+*By Next Class:* Emailed project team's distribution of work to Dr. Caughie and Rebecca. 
   
 ***  
   
 ### Why are we using GitHub?  
-As an academic and professional in an increasingly digital world it is important to consider our online presence. For students and faculty alike engaging and traversing a variety of digital environments is a powerful professional skill. The open access nature of GitHub and the powerful version-control of Git has placed GitHub among the most used as well as most useful tools of today's tech. developers. By asking our students to create GitHub profiles and contribute to content on this platform we are placing students in an environment where the opportunities for personal knowledge development are truly extensible. For this course we are committed to having students engage with the command line control of the underlying software linked to Github, Git, as well as some of the social/collaborative components of this interface including ([our Repo. Wiki](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki) and [our Issues Board](https://github.com/RJP43/LiliElbe_EngagedLearners/issues)). If you are interested in learning more about Git check out [git-scm.com](https://git-scm.com/). If you are interested in learning more about GitHub check out [the GitHub guides](https://guides.github.com/).  
+As an academic and professional in an increasingly digital world it is important to consider our online presence. For students and faculty alike engaging and traversing a variety of digital environments is a powerful professional skill. The open-access nature of GitHub and the powerful version-control of Git has placed GitHub among the most used as well as most useful tools of today's tech. developers. By asking our students to create GitHub profiles and contribute to content on this platform we are placing students in an environment where the opportunities for personal knowledge development are truly extensible. At the same time, we hope to broaden the resources and materials made available on GitHub not just for the tech. developers of the world but for the public more broadly. In this course we are committed to having students engage with the command line control of the underlying software linked to Github, Git, as well as some of the social/collaborative components of this interface including ([our Repo. Wiki](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki) and [our Issues Board](https://github.com/RJP43/LiliElbe_EngagedLearners/issues)). If you are interested in learning more about Git check out [git-scm.com](https://git-scm.com/). If you are interested in learning more about GitHub check out [the GitHub guides](https://guides.github.com/).  
  
  **This repository is public-facing and is licensed under a CC BY-NC-SA license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).**
   
