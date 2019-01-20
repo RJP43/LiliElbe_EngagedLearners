@@ -10,7 +10,7 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 
 **Tuesday, Feb. 5th**     
 *Lesson:* [Working-in-GitHub Course Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#course-workflow) and [Exploring a Document, but Encoding a Text](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Exploring-a-Document,-but-Encoding-a-Text)        
-*Before Class:* [Install oXygen]() and [Get Started with GitHub](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!#getting-started-with-github)    
+*Before Class:* [Installed oXygen]() and [Get Started with GitHub](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!#getting-started-with-github)    
 *By Next Class:* [XML Exercise]()  
   
 **Thursday, Feb. 7th**  
@@ -45,8 +45,8 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 
 **Thursday, Feb. 28th**  
 *Lesson:* [Working-in-GitHub Project Team Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#project-team-workflow)    
-*Before Class:* commented on Let's Discuss Project Assignments Issue #2  
-*By Next Class:* Emailed project team's distribution of work to Dr. Caughie and Rebecca. 
+*Before Class:* Commented on Let's Discuss Project Assignments Issue #2  
+*By Next Class:* Email project team's distribution of work to Dr. Caughie and Rebecca. 
   
 ***  
   
