@@ -1,5 +1,5 @@
 # Welcome, Lili Elbe Digital Archive Engaged Learners!  
-Pamela Caughie's Spring 2019 ENGL-283  
+Pamela Caughie's [Spring 2019 ENGL-283](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/ENGL-283.06E:-Transgender-in-Literature)  
 
 ## Here are some quick links:
 [Our Sakai Homepage](https://sakai.luc.edu/x/u42wPb)   
