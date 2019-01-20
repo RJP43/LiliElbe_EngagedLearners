@@ -31,11 +31,11 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 **Tuesday, Feb. 19th**  
 *Lesson:*  [Finding Patterns and Climbing Trees: A Lesson in XPath and Regular Expressions]()  
 *Before Class:* TEI Header Exercise 2 submitted via Sakai      
-*By Next Class:* Start on [XPath/RegEx Exercise]() and Read - [“Storm Clouds on the Horizon...”](https://doi.org/10.1080/24692921.2018.1505819) and posted 2 discussion questions on Issues Board - [Let's Discuss "Storm Clouds on the Horizon" Issue #1](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1)    
+*By Next Class:* Start on [XPath/RegEx Exercise]() and Read - [“Storm Clouds on the Horizon...”](https://doi.org/10.1080/24692921.2018.1505819) and posted 2 discussion questions or 1 question and one response on Issues Board - [Let's Discuss "Storm Clouds on the Horizon" Issue #1](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1)    
    
 **Thursday, Feb. 21th**  
 *Lesson:* [Discuss “Storm Clouds on the Horizon...”](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) and [Proofing XML with XPath and XSLT](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Proofing-XML-with-XPath-and-XSLT)  
-*Before Class:* Start on XPath/RegEx Exercise   
+*Before Class:* Start on XPath/RegEx Exercise and posted 2 discussion questions or 1 question and one response on Let's Discuss "Storm Clouds on the Horizon" Issue #1   
 *By Next Class:* Finish [XPath/RegEx Exercise]()  
   
 **Tuesday, Feb. 26th**  
