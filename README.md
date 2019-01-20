@@ -24,7 +24,7 @@ Getting Started - https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome
 *By Next Class:* [TEI Header Exercise 1]()   
   
 **Thursday, Feb. 14th**  
-*Lesson:* [Capturing Project Metadata in `<teiHeader>`](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Project-Metadata) with the help of our project manager, Emily Datskou, and our graduate student encoders, Miss Xiamara Hohman and Miss Danielle Richards    
+*Lesson:* [Capturing Project Metadata in `<teiHeader>`](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Project-Metadata) with the help of our project manager, Mrs. Emily Datskou, and our graduate student encoders, Miss Xiamara Hohman and Miss Danielle Richards    
 *Before Class:* TEI Header Exercise 1 submitted via Sakai     
 *By Next Class:* [TEI Header Exercise 2]()   
   
