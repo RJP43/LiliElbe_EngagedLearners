@@ -31,7 +31,7 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 **Tuesday, Feb. 19th**  
 *Lesson:*  [Finding Patterns and Climbing Trees: A Lesson in XPath and Regular Expressions](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Finding-Patterns-and-Climbing-Trees)  
 *Before Class:* TEI Header Exercise 2 submitted via Sakai      
-*By Next Class:* Start on [XPath/RegEx Exercise]() and post 2 discussion questions or 1 question and one response on Issues Board - [Let's Discuss "Storm Clouds on the Horizon" Issue #1](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) after reading [“Storm Clouds on the Horizon...”](https://doi.org/10.1080/24692921.2018.1505819)   
+*By Next Class:* Start on [XPath/RegEx Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/XPath-Regex_exercise.md) and post 2 discussion questions or 1 question and one response on Issues Board - [Let's Discuss "Storm Clouds on the Horizon" Issue #1](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) after reading [“Storm Clouds on the Horizon...”](https://doi.org/10.1080/24692921.2018.1505819)   
    
 **Thursday, Feb. 21th**  
 *Lesson:* [Discuss “Storm Clouds on the Horizon...”](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) and [Proofing XML with XPath and XSLT](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Proofing-XML-with-XPath-and-XSLT)  
