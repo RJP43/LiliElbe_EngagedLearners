@@ -1,5 +1,5 @@
 # Welcome, Lili Elbe Digital Archive Engaged Learners!  
-This module was created for Dr. Pamela Caughie's [Spring 2019 ENGL-283 Transgender Literature course](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/ENGL-283.06E:-Transgender-in-Literature) and as a contribution to the [Lili Elbe Digital Archive](http://lilielbe.org/). **This repository is public-facing and the course materials as well as exercises herein are licensed under a CC BY-NC-SA license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).**       
+This module was created for Dr. Pamela Caughie's [Spring 2019 ENGL-283 Transgender Literature course](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/ENGL-283.06E:-Transgender-in-Literature) and as a contribution to the [Lili Elbe Digital Archive](http://lilielbe.org/). **This repository is public-facing and the lessons as well as exercises herein are licensed under a CC BY-NC-SA license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).**       
   
 ## Here are some quick links:
 [Our Sakai Homepage](https://sakai.luc.edu/x/u42wPb)  
