@@ -1,8 +1,8 @@
 # Welcome, Lili Elbe Digital Archive Engaged Learners!  
-Pamela Caughie's [Spring 2019 ENGL-283](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/ENGL-283.06E:-Transgender-in-Literature)  
-
+This module was created for Dr. Pamela Caughie's [Spring 2019 ENGL-283 Transgender Literature course](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/ENGL-283.06E:-Transgender-in-Literature) and as a contribution to the [Lili Elbe Digital Archive](http://lilielbe.org/)       
+  
 ## Here are some quick links:
-[Our Sakai Homepage](https://sakai.luc.edu/x/u42wPb)   
+[Our Sakai Homepage](https://sakai.luc.edu/x/u42wPb)
 [Rebecca Parker's Office Hours and Tech. Team Calendar](http://bit.ly/2MdASUn)     
 Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!)  
   
