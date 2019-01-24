@@ -1,5 +1,5 @@
 # Welcome, Lili Elbe Digital Archive Engaged Learners!  
-This module was created for Dr. Pamela Caughie's [Spring 2019 ENGL-283 Transgender Literature course](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/ENGL-283.06E:-Transgender-in-Literature) and as a contribution to the [Lili Elbe Digital Archive](http://lilielbe.org/)       
+This module was created for Dr. Pamela Caughie's [Spring 2019 ENGL-283 Transgender Literature course](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/ENGL-283.06E:-Transgender-in-Literature) and as a contribution to the [Lili Elbe Digital Archive](http://lilielbe.org/). **This repository is public-facing and the course materials as well as exercises herein are licensed under a CC BY-NC-SA license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).**       
   
 ## Here are some quick links:
 [Our Sakai Homepage](https://sakai.luc.edu/x/u42wPb)
@@ -52,6 +52,5 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
   
 ### Why are we using GitHub?  
 As an academic and professional in an increasingly digital world it is important to consider our online presence. For students and faculty alike engaging and traversing a variety of digital environments is a powerful professional skill. The open-access nature of GitHub and the powerful version-control of Git has placed GitHub among the most used as well as most useful tools of today's tech. developers. By asking our students to create GitHub profiles and contribute to content on this platform we are placing students in an environment where the opportunities for personal knowledge development are truly extensible. At the same time, we hope to broaden the resources and materials made available on GitHub not just for the tech. developers of the world but for the public more broadly. In this course we are committed to having students engage with the command line control of the underlying software linked to Github, Git, as well as some of the social/collaborative components of this interface including ([our Repo. Wiki](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki) and [our Issues Board](https://github.com/RJP43/LiliElbe_EngagedLearners/issues)). If you are interested in learning more about Git check out [git-scm.com](https://git-scm.com/). If you are interested in learning more about GitHub check out [the GitHub guides](https://guides.github.com/).  
- 
- **This repository is public-facing and is licensed under a CC BY-NC-SA license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).**
+
   
