@@ -6,7 +6,7 @@ Pamela Caughie's [Spring 2019 ENGL-283](https://github.com/RJP43/LiliElbe_Engage
 [Rebecca Parker's Office Hours and Tech. Team Calendar](http://bit.ly/2MdASUn)     
 Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!)  
   
-## Tentative February Syllabus:  
+## February Syllabus:  
 
 **Tuesday, Feb. 5th**     
 *Lesson:* [Working-in-GitHub Course Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#course-workflow) and [Exploring a Document, but Encoding a Text](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Exploring-a-Document,-but-Encoding-a-Text)        
