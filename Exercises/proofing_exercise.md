@@ -1,3 +1,0 @@
-# Proofing Exercise
-
-*coming soon*
