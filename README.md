@@ -9,39 +9,41 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 ## February Syllabus:  
 
 **Tuesday, Feb. 5th**     
-*Lesson:* [Working-in-GitHub Course Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#course-workflow) and [Exploring a Document, but Encoding a Text](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Exploring-a-Document,-but-Encoding-a-Text)        
+*Lesson:* Finish MIW narrative discussion and [Working-in-GitHub Course Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#course-workflow)            
 *Before Class:* [Get Started with GitHub](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!#getting-started-with-github) and [Install oXygen](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Installing-Oxygen)      
-*By Next Class:* [XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/XML_exercise.md)  
+*By Next Class:* upload two **short** documents to [sandbox space](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/sandbox)       
   
 **Thursday, Feb. 7th**  
-*Lesson:* [Schematizing XML: TEI and Project Constraints](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Schematizing-XML:-TEI-and-Project-Constraints)  
-*Before Class:* XML Exercise submitted via Sakai   
-*By Next Class:* [TEI XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIxml_exercise.md) using [Project Documents](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs)  
+*Lesson:* [Exploring a Document, but Encoding a Text](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Exploring-a-Document,-but-Encoding-a-Text)    
+*Before Class:* upload two **short** documents to sandbox space  
+*By Next Class:* [XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/XML_exercise.md)  
   
 **Tuesday, Feb. 12th**  
-*Lesson:* [Capturing Document Metadata in `<teiHeader>`](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Document-Metadata)   
-*Before Class:* TEI XML Exercise submitted via Sakai      
-*By Next Class:* [TEI Header Exercise 1](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIheader_exercise_01.md)   
+*Lesson:* [Schematizing XML: TEI and Project Constraints](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Schematizing-XML:-TEI-and-Project-Constraints)  
+*Before Class:* completed XML Exercise submitted via Sakai      
+*By Next Class:* start on [TEI XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIxml_exercise.md) using [Project Documents](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs)        
   
 **Thursday, Feb. 14th**  
-*Lesson:* [Capturing Project Metadata in `<teiHeader>`](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Project-Metadata) with the help of our project manager, Emily Datskou, and our graduate student encoders, Xiamara Hohman and Danielle Richards    
-*Before Class:* TEI Header Exercise 1 submitted via Sakai     
-*By Next Class:* [TEI Header Exercise 2](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIheader_exercise_02.md)   
+*Lesson:* Exploring MIW project XML, metadata, and documentation with the help of our project manager, Emily Datskou, and our graduate student encoders, Xiamara Hohman and Danielle Richards    
+*Before Class:* a start on TEI XML Exercise     
+*By Next Class:* complete [TEI XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIxml_exercise.md) using [Project Documents](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs)    
   
 **Tuesday, Feb. 19th**  
-*Lesson:*  TBD  
-*Before Class:* TEI Header Exercise 2 submitted via Sakai      
-*By Next Class:* Post 2 discussion questions or 1 question and one response on Issues Board - [Let's Discuss "Storm Clouds on the Horizon" Issue #1](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) after reading [“Storm Clouds on the Horizon...”](https://doi.org/10.1080/24692921.2018.1505819)   
+*Lesson:*  [Capturing Project Metadata in `<teiHeader>`](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Project-Metadata)     
+*Before Class:* completed TEI Exercise submitted via Sakai     
+*By Next Class:* start on [TEI Header Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIheader_exercise.md)      
+**AND**
+Post 2 discussion questions or 1 question and one response on Issues Board - [Let's Discuss "Storm Clouds on the Horizon" Issue #1](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) after reading [“Storm Clouds on the Horizon...”](https://doi.org/10.1080/24692921.2018.1505819)   
    
 **Thursday, Feb. 21th**  
-*Lesson:* [Discuss “Storm Clouds on the Horizon...”](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) and [Proofing XML with XPath and XSLT](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Proofing-XML-with-XPath-and-XSLT)  
-*Before Class:* posted 2 discussion questions or 1 question and one response on Let's Discuss "Storm Clouds on the Horizon" Issue #1   
-*By Next Class:* TBD 
+*Lesson:* [Discuss “Storm Clouds on the Horizon...”](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) **AND** [Capturing Document Metadata in `<teiHeader>`](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Document-Metadata)   
+*Before Class:* start on TEI Header Exercise and post 2 discussion questions or 1 question and one response on Let's Discuss "Storm Clouds on the Horizon" Issue #1   
+*By Next Class:* Complete [TEI Header Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIheader_exercise.md)     
   
 **Tuesday, Feb. 26th**  
 *Lesson:* [Proofing HTML with Hypothes.is and our XML knowledge](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Proofing-HTML)    
-*Before Class:* TBD     
-*By Next Class:* Commit to Project / Project Team on Issues Board - [Let's Discuss Project Assignments Issue #2](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/2)  
+*Before Class:* comlete TEI Header Exercise submitted via Sakai     
+*By Next Class:* Commit to Project / Project Team on Issues Board - [Let's Discuss Project Assignments Issue #2](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/2)       
 
 **Thursday, Feb. 28th**  
 *Lesson:* [Working-in-GitHub Project Team Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#project-team-workflow)    
