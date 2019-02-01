@@ -37,7 +37,7 @@ Post 2 discussion questions or 1 question and one response on Issues Board - [Le
    
 **Thursday, Feb. 21th**  
 *Lesson:* [Discuss “Storm Clouds on the Horizon...”](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) **AND** [Capturing Document Metadata in `<teiHeader>`](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Document-Metadata)   
-*Before Class:* start on TEI Header Exercise and post 2 discussion questions or 1 question and one response on Let's Discuss "Storm Clouds on the Horizon" Issue #1   
+*Before Class:* start on TEI Header Exercise and meet post requirements on Let's Discuss "Storm Clouds on the Horizon" Issue #1   
 *By Next Class:* Complete [TEI Header Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIheader_exercise.md)     
   
 **Tuesday, Feb. 26th**  
