@@ -31,7 +31,8 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 **Tuesday, Feb. 19th**  
 *Lesson:*  [Capturing Project Metadata in `<teiHeader>`](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Project-Metadata)     
 *Before Class:* submit completed TEI Exercise via Sakai     
-*By Next Class:* start on [TEI Header Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIheader_exercise.md)        
+*By Next Class:*   
+start on [TEI Header Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIheader_exercise.md)        
 **AND**  
 Post 2 discussion questions or 1 question and one response on Issues Board - [Let's Discuss "Storm Clouds on the Horizon" Issue #1](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) after reading [“Storm Clouds on the Horizon...”](https://doi.org/10.1080/24692921.2018.1505819)   
    
