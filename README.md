@@ -9,7 +9,7 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 ## February Syllabus:  
 
 **Tuesday, Feb. 5th**     
-*Lesson:* Finish MIW narrative discussion and [Working-in-GitHub Course Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#course-workflow)            
+*Lesson:* Finish MIW narrative discussion **AND** [Working-in-GitHub Course Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#course-workflow)            
 *Before Class:* [Get Started with GitHub](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!#getting-started-with-github) and [Install oXygen](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Installing-Oxygen)      
 *By Next Class:* upload two **short** documents to [sandbox space](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/sandbox)       
   
