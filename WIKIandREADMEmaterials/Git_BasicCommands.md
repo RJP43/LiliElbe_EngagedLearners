@@ -22,9 +22,9 @@
 **`cd` means "change directories"** and in the above command you are *stepping down* into Documents (or Desktop) and into the GitHub folder. Use **`ls`** to list out the contents of the directory you have stepped down into.
 
 * If you need to **clone** a repository, do so here, because then the new repository will sit as a *child* inside your GitHub directory. Go to the git remote website and get its "Download/Clone" URL by copying it (green icon on right side of the repo's main page). 
-Then, in the Terminal/Command Line Shell, type `git clone` and paste in the the URL after that. So it looks like this for our DHClass-Hub:
+Then, in the Terminal/Command Line Shell, type `git clone` and paste in the the URL after that. So it looks like this for our class repo:
 ````
-git clone https://github.com/ebeshero/DHClass-Hub.git
+git clone https://github.com/RJP43/LiliElbe_EngagedLearners.git
 ````
 Hit enter, and watch the lines scroll away in the command line terminal as the repository clones itself on your local computer inside your GitHub directory. 
 
@@ -40,10 +40,6 @@ This moves up to a parent directory.
 cd directoryName
 ````
 This moves down into a directory. 
-
-* To make sure you're in the right directory, the top level of the DHClass-Hub, also check to see the directory name at the terminal prompt. Yours should look similar to this, and the key part is "DHClass-Hub":
-`gbg-wireless-pittnet-150-212-105-8:DHClass-Hub ebb8$ `
-
 Then to pull in any changes from the remote "mothership" repo, type:
 ````
 git pull
@@ -63,7 +59,7 @@ The period means *all* -- as in add *all* new files to be tracked by Git.
 ````
 git commit -m "your detailed commit message should go in here"
 ````
-Think of these commit messages as breadcrumbs for you and others to use in recording your project's progress! Check out our issue on [Effective Git Commit Messages](https://github.com/ebeshero/DHClass-Hub/issues/217).
+Think of these commit messages as breadcrumbs for you and others to use in recording your project's progress! Check out this issue on [Effective Git Commit Messages](https://github.com/ebeshero/DHClass-Hub/issues/217) made available via a sister-course at the University of Pittsburgh at Greensburg.
 
 * Next, you push the commit through, with:
 ````
@@ -122,16 +118,5 @@ Type `git add` and `git commit -m "your message about resolving the merge confli
 
 Your team members should now do a `git pull` and pull in your resolution of the merge conflict, and all may continue their work as before. 
   
-### Git commands for a Forked Repo workflow
-* `git pull upstream master` (This pulls any changes that were made to the original repository since you last synced into your forked repository.)
-* Save changes / move files into directory through File Explorer / Finder
-* `git status` (shows the differences/changes between the master and your fork/branch -- should be red)
-* `git add .` OR `git add -A` (You're adding your changes to your branch.)
-* `git status` (To see that you added your changes to your branch -- should be green.)
-* `git commit -m "your commit message here"` (Commits your changes to your branch with a message describing changes.)
-* `git status` (To see that your commit was successful and your branch is ahead of your remote fork.)
-* `git push` (Push your committed changes to your remote fork.)
-* Create a pull request on the web repository from your fork to the original repo
-
-## Further Reading: Becca Parker's ["Explain Git Shell"](http://dh.newtfire.org/explainGitShell.html) tutorial  
+**Further Reading: My ["Explain Git Shell"](http://dh.newtfire.org/explainGitShell.html) tutorial hosted on newtfire.org out of the University of Pittsburgh at Greensburg** 
 
