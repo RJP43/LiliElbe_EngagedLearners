@@ -30,7 +30,7 @@ Hit enter, and watch the lines scroll away in the command line terminal as the r
 
 2) You interact with your local directory the way you would any other. You can drag files into it using the Finder/File Explorer, save files into it, and check in with the remote repository to **pull** new files in.  
 So this is what you should do:
-Open Terminal/Command Line Shell, and step down into your GitHub directory, and then down into the DHClass-Hub (or desired repo), and check that you are where you want to be **by typing `ls`.** The ls command will **show the contents of the directory** in which you've positioned yourself. You can **`cd`** up or down (cd means change directory), by moving like this:
+Open Terminal/Command Line Shell, and step down into your GitHub directory, and then down into our repo, and check that you are where you want to be **by typing `ls`.** The ls command will **show the contents of the directory** in which you've positioned yourself. You can **`cd`** up or down (cd means change directory), by moving like this:
 ````
 cd ..
 ````
@@ -47,7 +47,7 @@ git pull
 
 3) When you want to share you local changes to the repo with the remote mothership and other collaborators, you need to **add**, **commit**, and **push** those changes. Here's how you do it:
 
-* Make sure you're in the DHClass-Hub repo at the top level
+* Make sure you're in the LileElbe_EngagedLearners repo at the top level
 * Then type:
 ````
 git add .
