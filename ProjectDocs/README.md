@@ -8,5 +8,5 @@ The files in this folder are attributed to the <a xmlns:cc="http://creativecommo
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
   
 ![clipart showing 3 blank pages](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/WIKIandREADMEmaterials/sheikh-tuhin-notes.svg "clipart titled 'notes' by sheikh_tuhin via openclipart.org")  
-_clipart titled 'notes' by sheikh_tuhin via openclipart.org_  
+_Clipart titled ['notes' by sheikh_tuhin via openclipart.org](https://openclipart.org/detail/19940/notes)._  
   
