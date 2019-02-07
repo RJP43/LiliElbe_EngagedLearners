@@ -1,5 +1,7 @@
 # Using Git through Command Line  
   
+This file has been modified from its original rendition made available via [@ebeshero's DHClass-Hub](https://github.com/ebeshero/DHClass-Hub).
+  
 ## Quick reference
 * Open terminal / command line shell
 * Navigate to repo.
