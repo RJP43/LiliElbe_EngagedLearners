@@ -15,7 +15,7 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
   
 **Thursday, Feb. 7th**  
 *Lesson:* [Exploring a Document, but Encoding a Text](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Exploring-a-Document,-but-Encoding-a-Text)    
-*Before Class:* upload two **short** documents to sandbox space  
+*Before Class:* Respond to our classroom community's Declaration of Committment and upload two **short** documents to sandbox space  
 *By Next Class:* [XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/XML_exercise.md)  
   
 **Tuesday, Feb. 12th**  
