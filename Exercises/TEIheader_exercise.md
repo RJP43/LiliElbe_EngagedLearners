@@ -1,3 +1,3 @@
-# TEI Header Exercise One
+# TEI Header Exercise
 
 *coming soon*
