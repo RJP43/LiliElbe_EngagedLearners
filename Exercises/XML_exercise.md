@@ -1,9 +1,24 @@
 # XML Exercise  
-![]()  
+Learners should consult our February 7th lesson, [Exploring a Document, but Encoding a Text](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Exploring-a-Document,-but-Encoding-a-Text), while completing this exercise.  
+![clipart of a document with the .XML file extension written across it](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/WIKIandREADMEmaterials/xml_document_clipart.png "clipart titled 'XML icon' by ousia via openclipart.org")  
+*Clipart titled ['XML icon' by ousia via openclipart.org](https://openclipart.org/detail/309871/xml-icon).*
   
-## Exercise Objectives  
-1. Write well-formed XML using elements and attributes.
-Making decisions in how to write XML so that it binds related kinds of information together by:
-Thinking of elements and attributes working together (like file folders with labels attached).
-Nesting elements that relate to each other.
-Using basic features of the <oXygen/> software environment.
+## Requirements  
+1. Create a single XML document from any two documents found in [our community sandbox](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/sandbox). I encourage you to use one document you uploaded to the sandbox and one document uploaded by another learner; however, feel free to use the documents you uploaded if you so desire. Either way, you will want to choose two documents that have "link-able" content. So you might pick two documents because they share similar formatting or structure (i.e. 2 poems) OR you might choose two documents that are contextually relative to each other (i.e. song lyrics and an interview with the artist about the lyrics). 
+2. Your XML must logically link the two documents not only by bringing them into a single `.xml` file but also by using repeatable elements and attributes across both texts. So, if you decide to work with two poems, marking line endings in the first poem means it is logical to mark line endings with the same element and attribute names in the second poem.  
+3. Your XML must be [well-formed](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Exploring-a-Document,-but-Encoding-a-Text#rules-for-well-formed-xml) and [logically nested](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Exploring-a-Document,-but-Encoding-a-Text#understanding-the-xml-hierarchy).
+4. You are required to include at least one [self-closing element](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Exploring-a-Document,-but-Encoding-a-Text#this-is-a-self-closing-element) and at least one [XML comment](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Exploring-a-Document,-but-Encoding-a-Text#this-is-a-xml-comment). 
+5. You are also required to use at least 5 unique elements and 2 of those elements must have at least one  associated attribute name-value pair. 
+
+## Logistics  
+1. Highlight and copy the text of your first document.  
+2. Open a new XML document in `<oXygen/>`. Click on the icon at top left that looks like a piece of paper with a folded corner (or go to File and New...), type XML in the filter window, and click the Create button to launch a new XML document.  
+3. Paste in the copied text from your first document, and begin marking it to apply elements and add attributes.   
+  
+_Tips: Watch the color of the square in the upper right corner: **if it is green, your code is well-formed, but if it turns angry red, you will know there is an error**, perhaps tangled tags or a missing angle bracket, or a missing root element. Notice how <oXygen/> generates a closing tag every time you type your own start tag. One handy trick is to you use your mouse to highlight text you want to wrap in an element, and use Control+E in Windows (or Command+E on a Mac) to bring up a window to enter an element name. (You have to add the attributes after you set an element name.)_  
+  
+4. Then paste in the copied text from your second document, finding a way to logically nest the two documents in your single XML file.   
+5. Continue applying elements and attributes to both documents to create a well-formed, logically nested XML file.  
+6. Be sure to save your work frequently. Name your file with your Loyola username followed by an underscore and the exercise name - `rparker3_XMLexercise.xml`. 
+7. Finally, be sure you have "saved as" a `.xml` file extension prior to uploading your exercise submission to Sakai under the [XML exercise assignment](https://sakai.luc.edu/x/6Nkhm3).
+
