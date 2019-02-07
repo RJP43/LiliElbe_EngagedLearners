@@ -11,11 +11,11 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 **Tuesday, Feb. 5th**     
 *Lesson:* Finish MIW narrative discussion **AND** [Working-in-GitHub Course Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#course-workflow)            
 *Before Class:* [Get Started with GitHub](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!#getting-started-with-github) and [Install oXygen](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Installing-Oxygen)      
-*By Next Class:* Respond to our classroom community's [Declaration of Committment](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/3) on the issues board and upload two **short** documents to the [sandbox space](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/sandbox) following our detailed instructions [here](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#uploading-to-the-sandbox). Recommended document types include recipes, short letters, song lyrics, poetry, or short prose excerpts. Your two documents should have "link-able" content -- similar formatting/structure (ie. 2 poems) and/or be contextually relative to each other (ie. song lyrics and an interview with the artist about the lyrics).   
+*By Next Class:* Respond to our classroom community's [Declaration of Commitment](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/3) on the issues board and upload two **short** documents to the [sandbox space](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/sandbox) following our detailed instructions [here](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#uploading-to-the-sandbox). Recommended document types include recipes, short letters, song lyrics, poetry, or short prose excerpts. Your two documents should have "link-able" content -- similar formatting/structure (ie. 2 poems) and/or be contextually relative to each other (ie. song lyrics and an interview with the artist about the lyrics).   
   
 **Thursday, Feb. 7th**  
 *Lesson:* [Exploring a Document, but Encoding a Text](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Exploring-a-Document,-but-Encoding-a-Text)    
-*Before Class:* Respond to our classroom community's Declaration of Committment and upload two **short** documents to sandbox space  
+*Before Class:* Respond to our classroom community's Declaration of Commitment and upload two **short** documents to sandbox space  
 *By Next Class:* [XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/XML_exercise.md)  
   
 **Tuesday, Feb. 12th**  
