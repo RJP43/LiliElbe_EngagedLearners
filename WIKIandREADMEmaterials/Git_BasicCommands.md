@@ -1,6 +1,6 @@
 # Using Git through Command Line  
   
-This file has been modified from its original rendition made available via [@ebeshero's DHClass-Hub](https://github.com/ebeshero/DHClass-Hub).
+This file has been modified from its original rendition made available via [@ebeshero's DHClass-Hub](https://github.com/ebeshero/DHClass-Hub). **Further Reading: My ["Explain Git Shell"](http://dh.newtfire.org/explainGitShell.html) tutorial hosted on newtfire.org at the University of Pittsburgh at Greensburg**   
   
 ## Quick reference
 * Open terminal / command line shell
@@ -116,7 +116,4 @@ You'll need to read this carefully and delete the version that's not wanted, as 
 
 Type `git add` and `git commit -m "your message about resolving the merge conflict here"`. Then try a `git status` to make sure all is well, and if GitHub approves, go ahead and type `git push` to resolve the conflict.
 
-Your team members should now do a `git pull` and pull in your resolution of the merge conflict, and all may continue their work as before. 
-  
-**Further Reading: My ["Explain Git Shell"](http://dh.newtfire.org/explainGitShell.html) tutorial hosted on newtfire.org out of the University of Pittsburgh at Greensburg** 
-
+Your team members should now do a `git pull` and pull in your resolution of the merge conflict, and all may continue their work as before.   
