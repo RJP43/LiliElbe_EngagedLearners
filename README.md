@@ -20,12 +20,12 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
   
 **Tuesday, Feb. 12th**  
 *Lesson:* Review [Example XML](https://github.com/RJP43/LiliElbe_EngagedLearners/commit/3a929ebbb9cfcab3c7de245d3428e15bf3fb3011) **AND** [Schematizing XML: TEI and Project Constraints](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Schematizing-XML:-TEI-and-Project-Constraints)  
-*Before Class:* submit completed XML Exercise via Sakai      
-*By Next Class:* start on [TEI XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIxml_exercise.md) using [Project Documents](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs)        
+*Before Class:* submit XML Exercise via Sakai      
+*By Next Class:* revise and resubmit [XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/XML_exercise.md)  ; reference our in-class [Example XML](https://github.com/RJP43/LiliElbe_EngagedLearners/commit/3a929ebbb9cfcab3c7de245d3428e15bf3fb3011)        
   
 **Thursday, Feb. 14th**  
 *Lesson:* Exploring the MIW Project with Emily Datskou, Xiamara Hohman, and Danielle Richards      
-*Before Class:* start on TEI XML Exercise     
+*Before Class:* submit revised XML Exercise     
 *By Next Class:* complete [TEI XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIxml_exercise.md) using [Project Documents](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs)    
   
 **Tuesday, Feb. 19th**  
