@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song>
+<!-- kejcat 2019-02-12: This markup only contains two of the song's verses. I have encoded just some of the possible tags relating to all the historical people and events, in the interest of time.  -->
+<songtitle>We Didn't Start the Fire</songtitle><lb/>
+    <composer><singer>Billy Joel</singer></composer>lb/>
+<productionteam>Produced by Mick Jones (Foreigner) &amp; Billy Joel</productionteam><lb/>
+<album>Album Storm Front<lb/></album>
+<lb/>
+    <verse n="1"><person>Harry Truman</person>, <person>Doris Day</person>, <place>Red China</place>, <person>Johnnie Ray</person><lb/>
+    <place>South Pacific</place>, <person>Walter Winchell</person>, <person>Joe DiMaggio</person><lb/>
+    Joe McCarthy, Richard Nixon, <consumeritem>Studebaker</consumeritem>, <consumeritem>Television</consumeritem><lb/>
+    North Korea, South Korea, Marilyn Monroe<lb/>
+    Rosenbergs, H-Bomb, <person>Sugar Ray</person>, Panmunjom<lb/>
+    Brando, <musical>The King And I</musical>, and <booktitle>The Catcher In The Rye</booktitle>,<lb/>
+    Eisenhower, <medicaladvance>Vaccine</medicaladvance>, <event>England's got a new queen</event><lb/>
+    Marciano, Liberace, Santayana goodbye<lb/></verse>
+    <lb/>
+    <chorus><chorusrepeat n="first"/>[Chorus]<lb/>
+    We didn't start the fire<lb/>
+        It was always burning since the world's been turning<lb/>
+        We didn't start the fire<lb/>
+    No, we didn't light it, but we tried to fight it<lb/></chorus>
+        <lb/>
+    <verse n="2"><person>Joseph Stalin</person>, Malenkov, Nasser and Prokofiev<lb/>
+        Rockefeller, Campanella, Communist Block<lb/>
+        Roy Cohn, Juan Peron, Toscanini, Dacron<lb/>
+        Dien Bien Phu Falls, <popsong>"Rock Around the Clock"</popsong><lb/>
+        Einstein, James Dean, <event>Brooklyn's got a winning team</event><lb/>
+        Davy Crockett, Peter Pan, Elvis Presley, Disneyland<lb/>
+        Bardot, Budapest, Alabama, Khrushchev<lb/>
+        Princess Grace, <booktitle>Peyton Place</booktitle>, <event>Trouble in the Suez</event><lb/></verse>
+    <chorus><chorusrepeat n="second"/>[Chorus]<lb/>
+        We didn't start the fire<lb/>
+        It was always burning since the world's been turning<lb/>
+        We didn't start the fire<lb/>
+        No, we didn't light it, but we tried to fight it<lb/></chorus>
+    <lb/>
+</song>
