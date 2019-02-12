@@ -19,7 +19,7 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 *By Next Class:* [XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/XML_exercise.md)  
   
 **Tuesday, Feb. 12th**  
-*Lesson:* [Schematizing XML: TEI and Project Constraints](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Schematizing-XML:-TEI-and-Project-Constraints)  
+*Lesson:* Review [Example XML](https://github.com/RJP43/LiliElbe_EngagedLearners/commit/3a929ebbb9cfcab3c7de245d3428e15bf3fb3011) **AND** [Schematizing XML: TEI and Project Constraints](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Schematizing-XML:-TEI-and-Project-Constraints)  
 *Before Class:* submit completed XML Exercise via Sakai      
 *By Next Class:* start on [TEI XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIxml_exercise.md) using [Project Documents](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs)        
   
