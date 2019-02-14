@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../lili-elbe-code/schema/tei_le_2.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Letter to <persName key="knudsenP">Poul Knudsen</persName>
+				</title>
+				<author>
+					<persName key="lili">Lili Ilse Elvenes</persName>
+				</author>
+				<respStmt>
+					<resp>Translation completed on <date when="2017-11-13">13 November 2017</date>
+					</resp>
+					<persName ref="kj">Kristin Jacobsen</persName>
+					<persName ref="mb">Maiken Boysen</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding updated on <date when="2018-11-26">26 November 2018</date>
+					</resp>
+					<persName ref="tnm">Tyler Monaghan</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+		<!-- tnm 11/05/2018: key still needed for hasselbalch, only other issue is upside-down rendering to vibeke-->
+	</teiHeader>
+	<text>
+
+		<body>
+			<div type="original">
+				<div type="opener">
+					<p>
+						<placeName key="lindevangen">Lindevangen</placeName> 8 31-I-1931
+					</p>
+					<!-- should I indicate that this is on the top right of the page, or that there's a gap between 8 and 31? -->
+				</div>
+				<!-- end "opener" div -->
+				<div type="body">
+					<p style="salutation">Kære <persName key="knudsenP">Poul</persName>
+					</p>
+					<p>Jeg har lige læst Hr. <persName key="magnusE">Erwin Magnus</persName> Brev til Direktor <persName key="?">Hasselbalch</persName>
+						<note type="encoder" source="tnm">the translated document reads "Haseselbalch" and had been amended to "Hasselbalch" which is the reading in the letter image</note> – og for nylig Brudstykket af Manuskriptet. Fru <persName key="louLou">Loulou Lassen</persName> har arrangeret det efter mit og afdæmpet det til Brug for om jeg saa maa sige ”kyske og kyniske danske Øren” - og saa har det endda været for skrapt.
+					</p>
+					<p>Det har ikke været beregnet paa Export, og havde Hr. <persName key="?">Hasselbalch</persName> spurgt mig, havde jeg gjort opmærksom derpaa.</p>
+					<p>Det hele beror altsaa paa Misforstaaelser og Fejltagelser o.s.v.. Mit Manuskript er langt mere <hi rend="underline">pikant</hi> og fuldt af næbbede Bemærkninger. </p>
+					<p>Der er pjanket som jeg selv – en Dyd ogsaa for et Manuskript!</p>
+					<!-- should I be encoding that "manuskript" is hyphenated across lines in the original image? -->
+					<p>Det er en Apotheose til <persName key="kreutz">Werner von Kreutz</persName> – naturligvis!</p>
+					<p>Men det er lige nedskrevet og ikke omarbejdet – altsaa Raamateriale paa daarligt Dansk, da jeg havde glemt en hel Del af Sprogets Finesser og Grovheder. Du husker jo nok, <persName key="sparreAn">Bé</persName> var og er en læst og pæn fransk Forfatter. ”Le Livre de Viking”. 20 Oplag.</p>
+					<p>Jeg vil ikke skjule for Dig, at jeg er meget ulykkelig over Forsinkelsen med min Bog – som jeg skylder min Skyhed og jomfruelige Tilbageholdenhed. Jeg har endnu ikke talt med <persName key="?">Hasselbalch</persName>.</p>
+					<pb />
+					<p special="upside-down">Tusinde Hilsener til <persName key="vibeke">Vibeke</persName>
+						<note type="translator?">Written upside down at top of page.</note>
+					</p>
+					<!-- tnm: The previous line is written as if the page were held upside-down, so the top-right corner of the page when held right-side up. Translators have just appended it to the end of the translation (Lili did use something similar in her closing of a previous letter) -->
+					<p>Men hvorledes kan vi organisere et Samarbejde Paa Grundlag af mit Manuskript?</p>
+					<p>Ser Du, kære <persName key="knudsenP">Poul</persName>, jeg ejer nu lidt over 25 Kr. saa Penge begynder at interessere mig. Der skal noget til til [sic] de daglige Silkestrømper.</p>
+					<!-- how to handle the [sic] above? Translators note? -->
+					<p>Hvorledes kan vi arrangere os rent økonomisk?</p>
+					<p>Altsaa Delingen af Rovet!</p>
+					<!-- it's arguable based on the image whether the two preceeding paragraphs are really intended as two separate paragraphs -->
+					<p>Jeg kan laane Penge og komme en Tur til <placeName key="berlin">Berlin</placeName>, hvis det vil være godt.</p>
+					<p>Vær rar hurtigst at tale med Hr. <persName key="magnusE">Magnus</persName> derom; thi det haster! Jeg kaster Blod op af Sorrig over denne Historie, men er ligeglad. Gaar det ikke med min Bog, gaar det heller ikke med mig.</p>
+					<p>Maa vi betragte <persName key="?">Hr. Hasselbalch</persName>s Mission som endt – eller vil det være honnet af Hensyn til <persName key="magnusE">Hr. Erwin Magnus</persName> at lade det gaa igennem den danske Forlægger, hvis det er Meningen eller at henvende sig til Ullstein.<note type="translator">Name of a publisher.</note>
+					</p>
+					<p>Jeg venter iøvrigt snart Svar fra "Drei Masken"</p>
+					<p>Forøvrigt giver det første Brudstykke slet ikke nogen komplet Idé om Bogen, der er fast komponeret – og Slutningen er det bedste.</p>
+					<p>Som Titel havde jeg: ”Hvorledes Lili blev til en rigtig Pige”</p>
+					<p>”Fra Mand til Kvinde” er lidt tør og misvisende. <persName key="sparreAn">Bé</persName> var nok en Gentleman, men eller [sic] tror jeg ikke han havde meget at rose sig af. Sligt husker heldigvis Din lille uskyldige Veninde ikke noget om.</p>
+					<!-- tnm 10/13 how to handle [sic] above - make it a translator's/editor's note? which? -->
+				</div> <!-- end body(original) div -->
+				<div type="closer">
+					<p>Din <hi rend="underline">
+							<persName key="lili">Lili</persName>
+						</hi>
+					</p>
+					<!-- I didn't do a <p valediction> because "your Lili" is just on one single line -->
+				</div> <!-- end closer(original) div -->
+			</div>
+			<!--end "original" div -->
+			<div type="translation">
+				<div type="opener">
+					<p>Lindevangen 8 31-I-1931</p>
+					<!-- should I indicate that this is on the top right of the page, or that there's a gap between 8 and 31? -->
+				</div>
+				<!-- end "opener" div -->
+				<div type="body">
+					<p style="salutation">Dear <persName key="knudsenP">Poul</persName>
+					</p>
+					<p>I have just read Mr. <persName key="magnusE">Erwin Magnus</persName>’ letter to Director <persName key="?">Hasselbalch</persName> – and recently the fragment of the manuscript. Mrs. <persName key="louLou">Loulou Lassen</persName> has arranged it and toned it down for what I call “chaste and cynical Danish ears” – and even then it was too blunt.</p>
+					<p>It has not been intended for export, and had Mr. <persName key="?">Hasselbalch</persName> asked me, I would have made him aware of this.</p>
+					<p>Therefore it is all due to misunderstandings and mistakes and so on. My manuscript is far more <hi rend="underline">graphic</hi> and full of bickering comments.</p>
+					<p>It is just as giddy as I am – a virtue also for a manuscript!</p>
+					<p>It is an apotheosis to <persName key="kreutz">Werner von Kreutz</persName> – of course!</p>
+					<p>But it is just written and not edited – thus raw material in bad Danish, because I had forgotten some parts of the language’s subtelties and harshness. As you remember, <persName key="sparreAn">Bé</persName> was and is a read and respectable French author. “The Viking Book,” 20th printing.</p>
+					<p>I do not want to hide from you that I am very unhappy about the delay of my book – which I blame on my shyness and virginal restraint. I have not yet spoken with <persName key="?">Hasselbalch</persName>.</p>
+					<pb />
+					<p special="upside-down">A thousand greetings to <persName key="vibeke">Vibeke</persName>
+						<note type="translator?">Written upside down at top of page.</note>
+					</p>
+					<!-- tnm: The previous line is written as if the page were held upside-down, so the top-right corner of the page when held right-side up. Translators have just appended it to the end of the translation (Lili did use something similar in her closing of a previous letter) -->
+					<p>But how can we organize a collaboration based on my manuscript?</p>
+					<p>You see, dear <persName key="knudsenP">Poul</persName>, I now own a little more than 25 Kr. so money begins to interest me. It is necessary to buy the daily silk stockings.</p>
+					<!-- how to handle the [sic] above? Translators note? -->
+					<p>How can we arrange ourselves financially?</p>
+					<p>That is, the sharing of the spoils!</p>
+					<!-- it's arguable based on the image whether the two preceeding paragraphs are really intended as two separate paragraphs -->
+					<p>I can borrow money and make a trip to <placeName key="berlin">Berlin</placeName>, if it will be good.</p>
+					<p>Please talk soon with <persName key="magnusE">Mr. Magnus</persName> about this; for it is urgent! I throw up blood in sorrow over this story, but I don’t care. If it is not going well with my book, it won’t go well with me.</p>
+					<p>Must we consider <persName key="?">Mr. Hasselbalch</persName>’s mission as ended – or will it be respectful of <persName key="magnusE">Mr. Erwin Magnus</persName> to let it go through the Danish publisher, if that is the intention or to turn to Ullstein.<note type="translator">Name of a publisher.</note>
+					</p>
+					<p>By the way, I am awaiting a response from ”Drei Masken”<note type="translator">Name of a publisher.</note> soon</p>
+					<p>However, the first fragment by itself does not give a complete idea about the book, which is tightly written – and the end is the best.</p>
+					<p>As the title I had: ”How Lili Became a Real Girl”</p>
+					<p>"From Man Into Woman" is a little dry and misleading. <persName key="sparreAn">Bé</persName> might have been a gentleman, but apart from that I do not think he had much to boast of. Fortunately, that is something your little innocent friend does not remember.</p>
+				</div> <!-- end body(original) div -->
+				<div type="closer">
+					<p>Your <hi rend="underline">
+							<persName key="lili">Lili</persName>
+						</hi>
+					</p>
+					<!-- tnm: I didn't do a <p valediction> because "your Lili" is just on one single line -->
+				</div> <!-- end closer(translation) div -->
+			</div> <!-- end translation div -->
+		</body>
+	</text>
+</TEI>
+<!-- tnm: ending here 10/13/18. added placeNames and persNames, need to go back and correct when keys are added  -->
