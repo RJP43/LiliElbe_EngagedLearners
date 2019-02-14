@@ -26,7 +26,7 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 **Thursday, Feb. 14th**  
 *Lesson:* Exploring the MIW Project with Emily Datskou, Xiamara Hohman, and Danielle Richards      
 *Before Class:* submit revised XML Exercise     
-*By Next Class:* complete [TEI XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIxml_exercise.md) using [Project Documents](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs)    
+*By Next Class:* complete [TEI XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIxml_exercise.md)  using [Archival Materials](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs/archivalMaterials)   
   
 **Tuesday, Feb. 19th**  
 *Lesson:*  [Capturing Project Metadata in `<teiHeader>`](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Project-Metadata)     
