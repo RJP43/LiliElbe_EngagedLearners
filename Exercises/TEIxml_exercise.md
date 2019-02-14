@@ -1,3 +1,11 @@
-# TEI XML Exercise
+# TEI XML Exercise  
+  
+Learners should consult our February 12th/14th lesson, [Schematizing XML: TEI and Project Constraints](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Schematizing-XML:-TEI-and-Project-Constraints), and our February 14th in-class example, [German letter 2](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/9), while completing this exercise. For this exercise learners will be working in pairs to analyze the encoding of the Lili Elbe project's [archival materials](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs/archivalMaterials).   
+  
+## Logistics  
+  
+To begin, download both your specific team's XML and our project schema. Then associate our schema to your team's assigned XML. Instructions to download and associate are available under the section title "[How to Associate the Lili Elbe Digital Archive's (TEI-based) Schema](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Schematizing-XML:-TEI-and-Project-Constraints#how-to-associate-the-lili-elbe-digital-archives-tei-based-schema)" of our [Schematizing XML: TEI and Project Constraints](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Schematizing-XML:-TEI-and-Project-Constraints) lesson.  
 
-*coming soon*
+Learners will also need to have the word document and images from which their XML file was created at hand for quick reference. These materials can be found alongside the XML document in the document's specific folder in our class repo's [archival materials folder](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs/archivalMaterials).  
+  
+Learners will answer the questions and information requests under the "Requirements" section of this document in the issue each team has been assigned to on [our class's issues board](https://github.com/RJP43/LiliElbe_EngagedLearners/issues). In order to complete this assignment each learner of the team must equally contribute by responding on the specific issue they are assigned. There will not anything each team needs to upload to SAKAI; however, **one member for each team will be required to re-upload the team's assigned XML file in order to prove the team has correctly associated the project schema**. 
