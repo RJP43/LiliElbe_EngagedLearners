@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../lili-elbe-code/schema/tei_le_2.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to <persName key="kellerH">Herta Keller</persName></title>
+                <author>
+                    <persName key="lili">Lili</persName>
+                </author>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <persName ref="sm">Sabine Meyer</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding started on <date when="2018-09-13">13 September 2018</date>
+                        by</resp>
+                    <persName ref="zo">Zanabe Othman</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letterOG">
+                <p><subst>
+                    <del type="strikethrough">Anlage 5</del>
+                        <add place="above" type="overwrite" rend="redCrayon">mein Brief</add>
+                </subst></p><!-- RJP:2018-09-21: Met with Tatjana and she thinks the crossed out word might be "Anlage 5" meaning "Attachment 5"; since we are unsure if this is correct we have decided to mark intially marked as a gap. Encoded like this: del type="strikethrough"><gap rend="pencil" extent="6"/><gap rend="pencil" extent="1"/></del> --><!-- RJP:2018-10-01: After reviewing letter 3 we have now confirmed a second hand is marking each letter with the text "Anlage" meaning "attachment" followed by a number indicating some kind of numerical categorization. -->
+                <div type="opener">
+                    <p>Dresden
+                        -A.<!-- zo:2018/09/17:In word document the "-A." was excluded. Is this a translation error? --></p>
+                    <p>
+                        <seg n="g01"
+                            >D<!-- zo:2018/09/17:In word document d was lower case and in the manuscript it's capitalized. Determine if this is a translation error or a silent "modernization/standardization" correction that we need to mark. -->en
+                                <date when="1931-06-27">27. Juni 1931</date></seg>
+                    </p>
+                </div>
+                <div type="body">
+                    <p style="salutation">
+                        <seg n="g02">Liebe Freundin,</seg>
+                    </p>
+                    <p><seg n="g03">Tausend Dank für Ihren Brief. Der Ihrige ist der erste, den ich nach
+                            meiner Operation geöffnet habe.</seg>
+                        <seg n="g04">Ich kann noch nicht selbst schreiben.</seg>
+                        <seg n="g05">Diese letzte Operation war furchtbar.</seg>
+                        <seg n="g06">Jedesmal Verbinden verursacht mir furchtbare Schmerzen.</seg>
+                        <seg n="g07">Ich bekomme fast nichts zu essen und zu trinken. So bleibt es
+                            sicherlich noch eine Woche.</seg>
+                        <seg n="g08">Ich sehe mit Schrecken dem Moment entgegen, wenn die Klammern aus
+                            beiden Wunden entfernt werden.</seg>
+                        <seg n="g09">Sie sind glücklich in der Sommerfrische da in Hven.</seg> <seg>Montag
+                            will ich nach <placeName key="paris">Paris</placeName> schreiben, dass ihr Gatte so schnell wie möglich
+                            Photographien von unserer Arbeit bekommen wird.</seg>
+                    </p>
+                    <p>
+                        <seg n="g10">Ich finde es auch besser, <subst><del type="strikethrough">daß</del><add place="below" type="overwrite" rend="blackInk">wenn</add></subst> die dänische Arbeit später herauskommen
+                            wird als die deutsche.</seg>
+                        <seg n="g11">Nächste Woche bekommen auch Sie einen besseren Brief.</seg>
+                    </p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"><seg n="g12">Viel Liebe und Grüße</seg>
+                    <seg n="g13">Von Ihrer armen kleinen Freundin.</seg></p> 
+                    <p><seg n="g14">Viele Grüße an Ihren lieben Mann, <persName key="">Lilimoe</persName> und seinem Bruder.</seg></p> 
+                    <p><!-- RJP:2018-09-17: We should find a way to mark signatures since sometimes they fall outside of the valediction. Or perhaps sitting within the closer is enough? --><persName key="lili">Lili Elbe</persName></p>                    
+                </div>
+            </div>
+            <div type="letterTranslate">
+               <p><subst>
+                   <del type="strikethrough">Attachment 5</del>
+                    <add place="above" type="overwrite" rend="redCrayon">my Letter</add>
+               </subst></p><!-- RJP:2018-09-21: Met with Tatjana and she thinks the crossed out word might be "Anlage 5" meaning "Attachment 5"; since we are unsure if this is correct we have decided to mark intially marked as a gap. Encoded like this: del type="strikethrough"><gap rend="pencil" extent="6"/><gap rend="pencil" extent="1"/></del> --><!-- RJP:2018-10-01: After reviewing letter 3 we have now confirmed a second hand is marking each letter with the text "Anlage" meaning "attachment" followed by a number indicating some kind of numerical categorization. -->
+                <div type="opener">
+                    <p>Dresden -A.<!-- zo:2018/09/17:In word document the "-A." was excluded. Is this a translation error? --></p>
+                    <p>
+                        <seg corresp="#g01">the <date when="1931-06-27">27th of June 1931</date>.</seg>
+                    </p>
+                </div>
+                <div type="body">
+                    <p style="salutation">
+                        <seg corresp="#g02">Dear Girlfriend,</seg>
+                    </p>
+                    <p><seg corresp="#g03">Thank you so much for your letter. Yours is the first one that I opened after my operation.</seg>
+                        <seg corresp="#g04">I can’t write by myself  yet.</seg>
+                        <seg corresp="#g05">This last operation was awful.</seg>
+                        <seg corresp="#g06">Every change of bandages causes me terrible pain.</seg>
+                        <seg corresp="#g07">I barely get anything to eat or to drink. This is probably how it will be for another week.</seg>
+                        <seg corresp="#g08">I am dreading the  moment  when  they  will  remove  the  staples from both wounds.</seg>
+                        <seg corresp="#g09">You are happy in the breezy summer weather in Hven.</seg>
+                        <seg corresp="#g10">On Monday I am going to write to <placeName key="paris">Paris</placeName>, so that your husband can receive photographs of our work as soon as possible.</seg>
+                    </p>
+                    <p>
+                        <seg corresp="#g11">I would prefer, <subst><del type="strikethrough">that</del><add place="below" type="overwrite" rend="blackInk">if</add></subst> the Danish work would be published later than the German work.</seg>
+                        <seg corresp="#g12">Next week you’ll receive a better letter.</seg>
+                    </p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"><seg corresp="#g13">Much love and greetings<!-- zo: 2018/09/17: the translator added a comma after greetings which does not exist in the manuscript. --></seg>
+                        <seg corresp="#g14">from your poor little friend.</seg></p> 
+                    <p><seg corresp="#g15">Greetings to your dear husband, <persName>Lilimoe</persName> and his brother.</seg></p> 
+                    <p><!-- RJP:2018-09-17: We should find a way to mark signatures since sometimes they fall outside of the valediction. Or perhaps sitting within the closer is enough? --><persName key="lili">Lili Elbe</persName></p></div>
+            </div>
+        </body>
+    </text>
+</TEI>
