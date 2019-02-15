@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../lili-elbe-code/schema/tei_le_2.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -36,7 +35,7 @@
                 <p><seg n="g01"><add place="above" type="insertion" rend="blackInk">Ich habe <persName key="lili">Lili Elbe</persName> 1913 kennengelernt.</add></seg>
                     <seg n="g03"> Damals war sie ein Mann und
                         hieß <persName key="wegenerE">Einar Wegner</persName></seg>.
-                    <seg n="g04"></add> Im Jahre 1913
+                    <seg n="g04"> Im Jahre 1913
                     traf ich im damaligen <placeName key="">Hotel Brutze</placeName> in <placeName
                         key="copenhagen">Kopenhagen</placeName>
                     <persName key="wegenerE">Einar Wegner</persName>.</seg> 
@@ -59,7 +58,7 @@
                     <seg n="g15"> – sehr elegant, pariserisch, damals hatte <gap extent="4"/> für die Bezeichnung <gap extent="7"/> dafür, gab er mir
                     dann zum Abschied die Hand.</seg> 
                     <seg n="g16"> Seine Stimme hatte einen sehr <gap extent="8"/>
-                    <gap extent="7"/> Bariton.</p></seg>
+                    <gap extent="7"/> Bariton.</seg></p>
                 <p style="heading"><hi rend="bold">II</hi></p>
                 <!-- zo: 2018-10-01: Tatjana, Rebecca, and I believe this is not written in the same hand, or at a different times. However, the division was placed between paragraphs and so not to speculate on the hand of the text, we decided to encode this as a heading paragraph -->
                 <p><seg n="g17">Fast 20 Jahre später, im Februar 1931 trat bei mir eine elegante, dunkeläugige,
@@ -90,7 +89,7 @@
                     frauliche Hände, die entzückendsten Beine, auch sie <gap extent="5"/>
                     <gap extent="5"/>
                     <gap extent="5"/> ? werden – sprechen wie ? <persName key="wegenerE"
-                        >Einar</persName> war es ein dritter <gap extent="7"/>.</p>
+                        >Einar</persName> war es ein dritter <gap extent="7"/>.</seg></p>
                 <p style="heading"><hi rend="bold">III</hi></p>
                 <!-- zo: 2018-10-01: Tatjana, Rebecca, and I believe this is not written in the same hand, or at a different times. However, the division was placed between paragraphs and so not to speculate on the hand of the text, we decided to encode this as a heading paragraph -->
                 <p>Die letzte <gap extent="6"/>
@@ -102,7 +101,7 @@
             <div type="letterTranslate">
                 <p>I met <persName key="lili">Lili Elbe</persName> in 1913. At the time, she was a
                     man and her name was <persName key="wegenerE">Einar Wegner</persName>. In 1913,
-                    I met <persName key="wegenerE">Einar Wegner</persName> in what used to be
+                    I met <persName key="wegnerE">Einar Wegner</persName> in what used to be
                         <placeName key="">Hotel Brutze</placeName> in <placeName key="copenhagen"
                         >Copenhagen</placeName>. I can still see <persName key="lili">Lili
                         Elbe</persName> in front of me: a delicate, always good-looking man, barely

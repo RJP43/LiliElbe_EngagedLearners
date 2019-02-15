@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../lili-elbe-code/schema/tei_le_2.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -67,7 +66,7 @@
 				<div type="body">
 					<p style="salutation">Dear Friend</p>
 					<p>A thousand thanks for the letter!</p>
-					<p>I spoke this morning with <persName key="kreutz">the professor</persName> about the book. He thinks <hi rend="underline">everything is very good</hi> – and only has some purely scientific objections about what <hi rend="underline">I</hi> have misunderstood.</p>
+					<p>I spoke this morning with <persName key="?">the professor</persName> about the book. He thinks <hi rend="underline">everything is very good</hi> – and only has some purely scientific objections about what <hi rend="underline">I</hi> have misunderstood.</p>
 					<p>As soon as possible he will let me know about it. But he is not the best at writing letters – he almost never does it – and he is so busy these days because he is taking vacation at the beginning of next week.</p>
 					<p>Can you believe, I have not yet gotten permission to get up. But it cannot be long before I am on my feet again.</p>
 				</div> <!-- end body(translation) div -->

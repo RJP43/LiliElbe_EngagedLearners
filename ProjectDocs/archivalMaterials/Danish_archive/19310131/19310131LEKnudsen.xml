@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../lili-elbe-code/schema/tei_le_2.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -55,7 +54,7 @@
 					<p>Men det er lige nedskrevet og ikke omarbejdet – altsaa Raamateriale paa daarligt Dansk, da jeg havde glemt en hel Del af Sprogets Finesser og Grovheder. Du husker jo nok, <persName key="sparreAn">Bé</persName> var og er en læst og pæn fransk Forfatter. ”Le Livre de Viking”. 20 Oplag.</p>
 					<p>Jeg vil ikke skjule for Dig, at jeg er meget ulykkelig over Forsinkelsen med min Bog – som jeg skylder min Skyhed og jomfruelige Tilbageholdenhed. Jeg har endnu ikke talt med <persName key="?">Hasselbalch</persName>.</p>
 					<pb />
-					<p special="upside-down">Tusinde Hilsener til <persName key="vibeke">Vibeke</persName>
+					<p style="upsideDown">Tusinde Hilsener til <persName key="vibeke">Vibeke</persName>
 						<note type="translator?">Written upside down at top of page.</note>
 					</p>
 					<!-- tnm: The previous line is written as if the page were held upside-down, so the top-right corner of the page when held right-side up. Translators have just appended it to the end of the translation (Lili did use something similar in her closing of a previous letter) -->
@@ -101,7 +100,7 @@
 					<p>But it is just written and not edited – thus raw material in bad Danish, because I had forgotten some parts of the language’s subtelties and harshness. As you remember, <persName key="sparreAn">Bé</persName> was and is a read and respectable French author. “The Viking Book,” 20th printing.</p>
 					<p>I do not want to hide from you that I am very unhappy about the delay of my book – which I blame on my shyness and virginal restraint. I have not yet spoken with <persName key="?">Hasselbalch</persName>.</p>
 					<pb />
-					<p special="upside-down">A thousand greetings to <persName key="vibeke">Vibeke</persName>
+					<p style="upsideDown">A thousand greetings to <persName key="vibeke">Vibeke</persName>
 						<note type="translator?">Written upside down at top of page.</note>
 					</p>
 					<!-- tnm: The previous line is written as if the page were held upside-down, so the top-right corner of the page when held right-side up. Translators have just appended it to the end of the translation (Lili did use something similar in her closing of a previous letter) -->

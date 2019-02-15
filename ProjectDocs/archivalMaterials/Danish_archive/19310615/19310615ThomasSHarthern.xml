@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Hi Taylor! I think we should review the requirements for a TEI XML file, as this file wasn't valid TEI XML file when I opened it, 
+    without the required "TEI" root element surrounding the teiHeader and text elements. There should also be a single text and body element
+    for a given letter, with only the div elements within it to delineate between pages and the original vs. the translation, which are 
+    encoded using the @type values within those divs. Once you get the superstructure in place, then we can work on checking the specific 
+    letter content. Let me know if you would like to chat sometime to review, or Liz should also be able to review requirements for a TEI file. 
+    You can see my quick edits below where I have added the required elements and commented out the unneeded ones.     NW -->
+
+<!-- ^In response: I got rid of the extra body and text elements and commented throughout the code. While I feel I would have benefited from feeback 
+about the letter content I understand that the structural markup needs to be correct. I studied Tyler's xml for similarities and differences and 
+made changes to my own in light of these. I am still a bit confused about how I should break up the lines/parapgraphs (see my comment below). 
+Also, I used the paraText division element Becca provided in the Technical Issues spreadsheet for the hand drawn breaks. 
+I'll update this once a concensus is reached for how we should mark these up. TB -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to <persName key="harthernE">Ernst Ludwig Harthern
+                    Jacobsen</persName></title>
+                <author><persName key="wegenerS">Sigurd Wegener Thomsen</persName></author>
+                <respStmt>
+                    <resp>Translation completed on <date when="2017-11-20">20 November
+                        2017</date></resp> <!-- Additional translation notes and changes were made 2018-11-20 by Marianne. -->
+                    <persName ref="kj">Kristin Jacobsen</persName>
+                    <persName ref="mb">Maiken Boysen</persName>
+                    <persName ref="mo">Marianne</persName> <!-- I added Marianne as a third translator. -->
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding updated on <date when="2017-10-18">18.11.26</date></resp>
+                    <persName ref="tb">Taylor Brown</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt> <p style="letter header"><persName key="wegenerS">SIGURD WEGENER THOMSEN</persName>
+                STUD. MED. GENTOFTEGADE 14. <placeName key="gentofter">GENTOFTE</placeName></p>            
+                </publicationStmt>
+            <sourceDesc><!-- This is a general note at the top of the page that describes where the source document is from. I added 
+            the translator's note element though I'm not sure who actually wrote the note. -->
+                <p><note type="translator">Letter is in the <persName key="harthernE">Harthern</persName> Archives. Note:
+                    All items in brackets were written by <persName key="wegenerS">Sigurd Wegener
+                        Thomsen</persName> and are not translator insertions. <persName
+                            key="wegenerS">Sigurd</persName> seems to have written in haste, leading to a number of mistakes, missing words, or incomplete sentences, which are noted when practical. The original letter includes notations and underlining in red and sometimes black, which most likely were added by <persName key="harthernE">Harthern</persName>.</note></p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <div type="opener"> <!-- Start Danish Entry 1 -->
+                    <p><date when="1931-06-15">15.6.31</date></p>
+                </div>
+                <div type="body">
+                    <p style="salutation">Kære Red.<note type="translator">Red. is the abbreviation
+                            for the Redaktør, or Editor in English.</note><persName key="harthernE"
+                            >Harthern</persName>!</p>
+                    <p>Mange tak for sidst – og tak fordi de<note type="translator">The de should be capitalized since it is being used as the formal version of you.</note> vilde låne mig den bog,– som jeg desværre glemte over vor interessante samtale.–</p>
+                        <p>Jeg havde fået det indtryk, at de<note type="translator">Again, de should be capitalized.</note> vilde skrive bogen råt og brutalt – og det glædede mig overordentligt at se, at de<note type="translator">Again, de should be capitalized.</note> ikke vil det – men gøre den ægte, sandfærdig og menneskelig – og <pb style="page" n="2"/> "germanisere" bogens atmosfære.</p>
+                        <p>Jeg er enig med dem i deres syn på hvordan bogen skulde skrives – og er oprigtig ked af det, at de<note type="translator">The implied word "are" is included in the translation.</note> bunden af et utilfredsstillende grundlag og af personlige hensyn – fordi bogen skal skrives nu. –</p>
+                        <p>Jeg vil gerne hjælpe dem så meget jeg kan – ved at sætte dem ind i hendes reactioner i den første tid hun var her i <placeName key="denmark">Danmark</placeName>, idet jeg er ganske tryg mht. deres discretion. –</p> <!-- This should be a metamark element. You can see the TS encoding guidelines for 
+                        the info on how to add these. In our schema, p elements don't nest inside eachother, 
+                        they would be "siblings" in the hierarchy, since a paragraph doesn't include, but 
+                        only precedes or follows another paragraph (at least that's the logic we're using). 
+                        
+                        NW -->
+                        <p style="paraText" rend="division">x</p>
+                        <p><note type="translator">Small flourish.</note> Da jeg – som vordende læge, også har interesseret mig meget for det anatomiske og <pb style="page" n="3"/> fysiologiske, har jeg en del optegnelser vedrørende disse ^ ting<note type="translator">The word "ting," which is "matters" in English, is written above the line.</note> – Da de pointerede, at de ikke var interreserede heri,- springer jeg dem over – eller medtager dem i forkortet form – hvis de bidrager til forståelse af hendes psyche. – 
+                            </p><p style="paraText" rend="division">x</p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"/>
+                </div>
+                <div type="postscript"/>
+            </div> <!-- End Danish Entry 1 -->
+            <div type="translation"> <!-- Start English Entry 1 -->
+                <div type="opener">
+                    <p><date when="1931-06-15">15.6.31</date></p>
+                </div>
+                <div type="body">
+                    <p style="salutation">Dear Ed. <persName key="harthernE"
+                        >Harthern</persName>!</p>
+                    <p>Thank you for last time – and thank you for letting me borrow your book –
+                        which I unfortunately forgot as a result of our interesting
+                        conversation.</p>
+                    <p>I had gotten the impression that you wanted to write the book rough and crude
+                        – and it made me extraordinarily happy to see that you do not want that –
+                        but make it real, true, and human – and <pb style="page" n="2"/> "Germanize"
+                        the book's atmosphere. I agree with you in your thinking about how the book
+                        should be written – and am sincerely sorry that you are bound by an
+                        unsatisfactory reason<note type="translator">MO-grundlag normally means basis or foundation. I don’t know what it refers to here. Reason may be he right translation.</note> and by personal regard – because the book should be
+                        written now. –</p>
+                    <p>I would like to help you as much as I can – by explaining her reactions
+                        during the first time she was here in Denmark, because I am quite sure about
+                        your discretion. –</p>
+                    <p style="paraText" rend="division">x</p>
+                    <p>Because I – as a doctor in waiting, have a great interest in the anatomical
+                        and <pb style="page" n="3"/> physiological, I have some notes concerning
+                        these matters – Since you pointed out that you were not interested herein I
+                        will skip over them – or include them in an abbreviated form – if they will
+                        contribute to understanding her psyche. –</p>
+                    <p style="paraText" rend="division">x</p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"/>
+                </div>
+                <div type="postscript"/>
+            </div> <!-- End English Entry 1 -->
+            <div type="original"> <!-- Start Danish Entry 2 -->
+                <div type="opener">
+                    <p><date when="1931-08-16">16/8-31.</date></p>
+                </div>
+                <div type="body">
+                    <p><persName key="lili">Lili</persName> og <persName key="wegenerG">Gerda</persName> kom her til formiddag. <persName key="lili">Lili</persName> skal bo her. Hun er her i <placeName key="copenhagen">København</placeName> for at få ansigtshuden feminiseret.</p>
+                        <p>Hendes psyche er ganske kvindelig - -</p>
+                        <p>- - . Det svage punkt er ansigtet. Håret er: paryk! Og underansigtet er endu mas<pb style="page" n="4"/>culint<note type="translator">The word should be maskulin rather than maskulint.</note>.– De brune øjne er imidlertid decideret kvindelige og ganske smukke, -- med pæne øjenbryn og vipper.</p>
+                        <p>Jeg gik en tur i haven – og ned langs med <placeName key="gentofter">Gentofte</placeName> sø, og fik talt med hende. Hendes menneskelige atmosfære er fuldent feminin.</p>
+                        <p>- - Han og Gerda havde jo aldrig sådan været gift: kun været gode kammerater og suppleret hinanden.</p>
+                        <p>[Skildring af <persName key="wegenerE">Einars</persName> påtænkte selvmord.] – Dette fortalte hun mig i en pjanket tone, men jeg har indtryk af, at det var <persName key="wegenerE">Be's</persName> alvor. –</p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"/>
+                </div>
+                <div type="postscript"/>
+            </div> <!-- End Danish Entry 2 -->
+            <div type="translation"> <!-- Start English Entry 2 -->
+                <div type="opener">
+                    <p><date when="1931-08-16">16/8-31.</date></p>
+                </div>
+                <div type="body">
+                    <p><persName key="lili">Lili</persName> and <persName key="wegenerG"
+                            >Gerda</persName> came here this morning. <persName key="lili"
+                            >Lili</persName> will live here. She is here in <placeName
+                            key="copenhagen">Copenhagen</placeName> to get her facial skin
+                        feminized.</p>
+                    <p>Her psyche is quite womanly - -</p>
+                    <p>- - . A weak point is her face. Her hair is: a wig! And her lower face is still mas-<pb style="page" n="4"/>culine. –
+                        However, the brown eyes are decidedly womanly and quite beautiful, with
+                        pretty eyebrows and lashes.</p>
+                    <p>I took a walk in the garden – and along <placeName key="gentofter">Gentofte
+                            lake</placeName>, and talked with her. Her human atmosphere is fully
+                        feminine.</p>
+                    <p>- - He and <persName key="wegenerG">Gerda</persName> had never really been
+                        married: only been good friends and complemented each other.</p>
+                    <p>[The description of <persName key="wegenerE">Einar's</persName> planned suicide.] This she told me in a silly tone, but I have the impression that <persName key="wegenerE">Bé</persName> was serious. –</p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"/>
+                </div>
+                <div type="postscript"/>
+            </div> <!-- End English Entry 2 -->
+            <div type="original"> <!-- Start Danish Entry 3 -->
+                <div type="opener">
+                    <p><date when="1931-08-18">18/8.</date></p>
+                </div>
+                <div type="body">
+                    <p><pb style="page" n="5"/><persName key="lili">Lili</persName> og jeg har
+                        snakket meget sammen på vore<note type="translator">The word should be vores
+                            rather than vore.</note><note type="translator">MO-Vore is quite normal in a text from this period. Today it would be very formal as you point out.</note> små ture ved <placeName key="gentofter"
+                            >Gentofte sø</placeName> – som hun finder "aldeles henrivende".</p>
+                    <p>Bag det pjankede pigebarn, er der et<note type="translator">Should be
+                        en.</note><note type="translator">MO-This should really be en and not et as the word Sjæl is neutrum.</note> meget klart tænkende, forstående og følende sjæl. Det er
+                        nemlig <persName key="mother">mor</persName> vi har drøftet. <persName
+                            key="lili">Lili</persName> synes <persName key="mother">mors</persName>
+                        mangler består i</p>
+                    <p>1. - - - - - - Vil man endelig fortælle om sine sygdomme olig. skal man
+                        gøre det livligt og spøgende – og kun én gang!</p>
+                    <p>4. Forsømt sit ydre<note type="translator">The out-of-sequence 4 not a
+                            mistake but what is written in the letter.</note><pb style="page" n="6"/>
+                        <persName key="lili">Lili</persName> og jeg er bleven meget fine venner, –
+                        og jeg sætter mere og mere pris på hende.</p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"/>
+                </div>
+                <div type="postscript"/>
+            </div> <!-- End Danish Entry 3 -->
+            <div type="translation"> <!-- Start English Entry 3 -->
+                <div type="opener">
+                    <p><date when="1931-08-18">18/8.</date></p>
+                </div>
+                <div type="body">
+                    <p><persName key="lili">Lili</persName> and I have talked a lot together on our
+                        little walks by <placeName key="gentofter">Gentofte lake</placeName> – which
+                        she finds "utterly adorable".</p>
+                    <p>Behind the silly girl, there is a very clearly thinking, understanding and
+                        feeling soul. It is namely mother we have discussed. <persName key="lili"
+                            >Lili</persName> thinks <persName key="mother">mother's</persName>
+                        deficiencies consist of</p>
+                    <p>1. - - - - - - If one really wants to tell about one’s sickness and so on,
+                        one should do it lively and jokingly – and only one time! - - - -</p>
+                    <p>4. Neglected her appearance <pb style="page" n="6"/><persName key="lili"
+                            >Lili</persName> and I have become very fine friends, – and I value her
+                        more and more.</p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"/>
+                </div>
+                <div type="postscript"/>
+            </div> <!-- End English Entry 3 -->
+            <div type="original"> <!-- Start Danish Entry 4 -->
+                <div type="opener">
+                    <p><date when="1931-08-22">22/8</date></p>
+                </div>
+                <div type="body">
+                    <p><persName key="mother">Mor</persName> har nu fortalt <persName key="lili"
+                            >Lili</persName> hele historien<note type="translator">Mor, which is
+                            Mother in English, refers to Sigurd’s mother, who is Lili’s sister. It
+                            is unclear to which story Sigurd is referring, but it is most likely an
+                            event from Lili’s childhood rather than her surgery.</note> – og
+                            <persName key="lili">Lili</persName> har tålmodigt ofret den nødvendige eftermiddag. Ovenpå det var hun temmelig ødelagt – og <persName
+                            key="mother">mor</persName> oprevet. <persName key="lili"
+                            >Lili</persName> blev uenig med <persName key="mother">mor</persName>
+                        over en lille biting – og sa<note type="translator">Should be så.</note>
+                        havde <persName key="mother">mor</persName> sagt, at så måtte <persName
+                            key="lili">Lili</persName> hellere flytte.</p>
+                    <p><persName key="lili">Lili</persName> tog det imidlertid roligt – og det kom
+                        ikke til brud. <pb style="page" n="7"/>- - <persName key="mother"
+                            >Mor</persName> været<note type="translator">Should be har været.</note>
+                        modstander af operationen – og forfærdet og uforstående overfor det hele - -
+                            sorgeligt<note type="translator">The word should be sørgeligt rather
+                            than sorgeligt.</note> og tragisk, at hendes <persName key="brotherSing"
+                            >bror</persName>, som hun holdt så meget af,– er bleven et pjanket,
+                        forfængeligt væsen.–</p>
+                    <p>- - Også navnet "<persName key="lili">Lili</persName>" finder hun
+                        forfærdeligt. Det havde hans <persName key="mother">mor</persName> aldrig
+                        kaldt ham, hvis han havde begyndt som pige. - -</p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"/>
+                </div>
+                <div type="postscript"/>
+            </div> <!-- End Danish Entry 4 -->
+            <div type="translation"> <!-- Start English Entry 4 -->
+                <div type="opener">
+                    <p><date when="1931-08-22">22/8</date></p>
+                </div>
+                <div type="body">
+                    <p><persName key="mother">Mother</persName> has now told <persName key="lili"
+                            >Lili</persName> the whole story – and <persName key="lili"
+                            >Lili</persName> has patiently sacrificed the necessary afternoon.
+                        Afterwards she was quite destroyed – and <persName key="mother"
+                            >mother</persName> upset. <persName key="lili">Lili</persName> quarreled
+                        with mother about a little detail – and then <persName key="mother"
+                            >mother</persName> had said that <persName key="lili">Lili</persName>
+                        had better move.</p>
+                    <p><persName key="lili">Lili</persName> took it, however, quietly – and it did
+                        not come to a break up. –<pb style="page" n="7"/>- - <persName key="mother"
+                            >Mother</persName> was an opponent of the operation – and terrified and
+                        uncomprehending about it all - - sad and tragic that her <persName
+                            key="brotherSing">brother</persName>, whom she loved so much, - has
+                        become a giddy, vain creature.</p>
+                    <p>- - Also the name "<persName key="lili">Lili</persName>" – she finds
+                        terrible. His <persName key="mother">mother</persName> would never have
+                        called him this, if he had started as a girl. - -</p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"/>
+                </div>
+                <div type="postscript"/>
+            </div> <!-- End English Entry 4 -->
+            <div type="original"> <!-- Start Danish Entry 5 -->
+                <div type="opener">
+                    <p><date when="1931-08-23">23/8</date></p>
+                </div>
+                <div type="body">
+                    <p><persName key="wegenerG">Gerda</persName> var her. Hun er stadig sløj ovenpå operationen – og bekymringer over <persName key="lili">Lili</persName>.</p>
+                    <p><persName key="lili">Lili</persName> har lavet hende de <pb style="page"
+                            n="8"/> frygteligste scener over sit udseende, og snakket om selvmord,
+                        hvis hun ikke hurtigt kom til at se godt ud.</p>
+                    <p><persName key="wegenerG">Gerda</persName> bad os søge at gøre <persName
+                            key="lili">Lili</persName> mindre selvoptaget, og se at få hende til at
+                        skrive på sin bog.</p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"/>
+                </div>
+                <div type="postscript"/>
+            </div> <!-- End Danish Entry 5 -->
+            <div type="translation"> <!-- Start English Entry 5 -->
+                <div type="opener">
+                    <p><date when="1931-08-23">23/8</date></p>
+                </div>
+                <div type="body">
+                    <p><persName key="wegenerG">Gerda</persName> was here. She is still not feeling
+                        well after the operation – and worries about <persName key="lili"
+                            >Lili</persName>. </p>
+                    <p><persName key="lili">Lili</persName> has made the<note type="translator">MO-This is as strange in Danish as it is in English. Perhaps it is better to leave it out as you have.</note> <pb style="page" n="8"/>
+                        most horrible scenes over her appearance, and talked about suicide, if she
+                        could not look good quickly.</p>
+                    <p><persName key="wegenerG">Gerda</persName> asked us to try to help <persName
+                            key="lili">Lili</persName> be less self-absorbed, and get her to write
+                        on her book.</p>
+                    <div type="closer">
+                        <p style="valediction"/>
+                    </div>
+                    <div type="postscript"/>
+                </div>
+            </div> <!-- End English Entry 5 -->
+            <div type="original"> <!-- Start Danish Entry 6 -->
+                <div type="opener">
+                    <p><date when="1931-08-24">24/8</date></p>
+                </div>
+                <div type="body">
+                    <p>Talt med <persName key="lili">Lili</persName>. Nu er hun godt i gange med at
+                        skrive på sin bog. Lod hende begynde inde<note type="translator">MO-Could perhaps be inde</note>hos mig – medens jeg sad og
+                        læste anatomi. Arbejdsatmosfæren påvirkede hende – og hun vilde ikke
+                        forstyrre mig <pb style="page" n="9"/> eller risikere min utilfreshed, hvis
+                        hun var doven.</p>
+                    <div type="closer">
+                        <p style="valediction"/>
+                    </div>
+                    <div type="postscript"/>
+                </div> 
+                </div> <!-- End Danish Entry 6 -->
+                <div type="translation"> <!-- Start English Entry 6 -->
+                    <div type="opener">
+                        <p><date when="1931-08-24">24/8</date></p>
+                    </div>
+                    <div type="body">
+                        <p>Talked with <persName key="lili">Lili</persName>. Now she is doing well
+                            with writing on her book. I let her begin at my house – while I studied
+                            anatomy. The work atmosphere affected her – and she did not want to
+                            disturb me <pb style="page" n="9"/> or to risk my discontent, if she was
+                            lazy.</p>
+                        <div type="closer">
+                            <p style="valediction"/>
+                        </div>
+                        <div type="postscript"/>
+                    </div>
+                </div> <!-- End English Entry 6 -->
+                <div type="original"> <!-- Start Danish Entry 7 -->
+                <div type="opener">
+                    <p><date when="1931-08-25">25/8</date></p>
+                </div>
+                <div type="body">
+                    <p><persName key="mother">Mor</persName> kom grædende ind til <persName
+                            key="lili">Lili</persName> kl 7 og vækkede hende. <persName key="lili"
+                            >Lili</persName> tabte tålmodigheden og fortalte - -</p> <p style="paraText"
+                            rend="division">x</p>
+                    <div type="closer">
+                        <p style="valediction"/>
+                    </div>
+                    <div type="postscript"/>
+                </div> 
+                </div> <!-- End Danish Entry 7 -->
+                    <div type="translation"> <!-- Start English Entry 7 -->
+                    <div type="opener">
+                        <p><date when="1931-08-25">25/8</date></p>
+                    </div>
+                    <div type="body">
+                        <p><persName key="mother">Mother</persName> came crying into<note type="translator">MO-I think that what is meant is into Lili’s room.</note> <persName
+                                key="lili">Lili's</persName> room at 7 o’clock and woke her.
+                                <persName key="lili">Lili</persName> lost her patience and told - -
+                                </p><p style="paraText" rend="division">x</p>
+                        <div type="closer">
+                            <p style="valediction"/>
+                        </div>
+                        <div type="postscript"> </div>
+                    </div>
+                </div> <!-- End English Entry 7 -->
+            <div type="original"> <!-- Start Danish Entry 8 -->
+                <div type="opener"> 
+                <p><date when="1931-09-18">18/9.</date></p>
+            </div>
+            <div type="body">
+                <p><persName key="lili">Lili</persName> bor nu her og skriver på sin bog.</p>
+                <p><persName key="wegenerG">Gerda</persName> fortæller mig, at alle deres venner
+                    søger at få hende til at skilles – ikke alene formelt – men også reelt fra
+                        <persName key="lili">Lili</persName>.<note type="translator">A vertical red
+                        line has been drawn to the left of the paragraph.</note> – <pb style="page"
+                        n="10"/> Hun er uhyre forfengelig<note type="translator">The word should be
+                        "forfængelig" rather than "forfengelig."</note> og hævder at "skønhed er en
+                    kvindes existens berettigelse"!!<note type="translator">A vertical red line has
+                        been drawn to the left of the paragraph.</note></p>
+                <p>Når vi skal gå en tur, spørger hun, om man kan "se noget". – I betragtning af den
+                    enorme mængde "kosmetik" anvendt,– er dette som regel umuligt. – Svarer jeg<note
+                        type="translator">There is an implied "if" here, i.e. "If I answer
+                        negatively…."</note><note type="translator">MO-In a way, but this is a standard way of constructing a conditional sentence in Danish.</note> benægtende – tror hun mig ikke – men binder et silke
+                    lommetørklæde om underansigtet, som havde hun tandpine.<note type="translator">A
+                        vertical red line has been drawn to the left of first three lines, seventh
+                        line, and last three lines of the paragraph.</note></p>
+                <p>Den første tid hun var her – var hun <hi rend="underline">virkelig</hi> sky af
+                    sig – og holdt ikke af at møde mennesker, – og jeg tog hende derfor ad<note
+                        type="translator">Two vertical red lines have been drawn to the left of the
+                        paragraph.</note>
+                    <pb style="page" n="11"/> biveje. – Nu er det bleven mindre – og hun koketterer
+                    endog med det!<note type="translator">Two vertical red lines have been drawn to
+                        the left of the paragraph.</note></p>
+                <p>Hun er meget interesseret i mænd – og fortæller med alle tegn på fryd,– hvor
+                    "væmmeligt" det er, at de ser efter hende!<note type="translator">Two vertical
+                        red lines have been drawn to the left of the paragraph.</note></p>
+                <p>Hun elsker at tro sig selv en "skælvende due" forfulgt af store, interesserede
+                    mandfolk. –</p>
+            </div>
+            <div type="closer">
+                <p style="valediction"/>
+            </div>
+            <div type="postscript"> 
+            </div>
+            </div> <!-- End Danish Entry 8 -->
+            <div type="translation"> <!-- Start English Entry 8 -->
+                <div type="opener">
+                    <p><date when="1931-09-18">18/9.</date></p>
+                </div>
+                <div type="body">
+                    <p><persName key="lili">Lili</persName> lives here now and writes on her
+                        book.</p>
+                    <p><persName key="wegenerG">Gerda</persName> tells me that all their friends
+                        seek to get her to get a divorce – not just formally – but also in actual
+                        fact from <persName key="lili">Lili</persName>. – <pb style="page" n="10"/>
+                        She is extremely vain and claims that "beauty is a woman’s reason for
+                        existence"!!</p>
+                    <p>When we go for a walk, she asks if one can "see something". – In
+                        consideration of the enormous amount of "cosmetics" used, – this is usually
+                        impossible. – If I answer negatively – she does not believe me – but binds a
+                        silk handkerchief around her lower face as if she had a toothache.</p>
+                    <p>In the beginning when she was here – she was <hi rend="underline">really</hi>
+                        shy – and was uncomfortable meeting people, – and that’s why I took her
+                        along <pb style="page" n="11"/> the side roads. – Now it is less – and she
+                        even flirts with it!</p>
+                    <p>She is very interested in men – and tells me with all signs of joy, – how
+                        "nasty" it is that they look at her!</p>
+                    <p>She loves to think herself a "trembling dove" persecuted by big, interested
+                        menfolk. –</p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"/>
+                </div>
+                <div type="postscript"/>
+            </div> <!-- End English Entry 8 -->
+            <div type="original"> <!-- Start Danish Entry 9 -->
+            <div type="opener"> 
+                <p><date when="1931-10-06">6/10.</date></p>
+            </div>
+            <div type="body">
+                <p>Hun holder ikke på <hi rend="underline">kvindens frigørelse. Hun siger,– at hvis
+                    hun bliver gift, vil hun elske sin mand, gøre det<note type="translator">MO-I read this as alt (everything). This makes more sense in combination with the following hvad (what or that). AGREED</note> hvad han<note
+                            type="translator">A vertical red line has been drawn to the left of the
+                            paragraph. The underlining is in red.</note></hi>
+                    <pb style="page" n="12"/>
+                    <hi rend="underline">siger – og kun<note type="translator">MO-I read this as kun (only).</note> tænke<note type="translator">Should be
+                            tænker.</note> på at</hi> være så smuk som mulig – <hi rend="underline"
+                        >glæde ham – og opmuntre ham, når</hi> han kommer fra <hi rend="underline"
+                        >kontoret. –</hi><note type="translator">A vertical red line has been drawn
+                        to the left of the paragraph. The underlining is in red.</note>
+                    </p><p style="paraText" rend="division">x</p>
+                <p>Hun holder meget af kærtegn og af at kærtegne. <persName key="father"
+                        >Far</persName> tillader hende at kysse ham farvel om morgenen og godnat om
+                        aftenen.<note type="translator">A vertical red line has been drawn to the
+                        left of the paragraph.</note></p>
+                <p>Jeg vil ikke.</p>
+                <p>Hun gør stadig, spøgende tilløb til det,– og kilder mig katteagtigt op ad armen.
+                    Men jeg afværger venligt og fast. – og det respekterer hun – og kalder mig <pb
+                        style="page" n="13"/> "den strenge Hr. Doktor<persName key="wegenerS">Hr.
+                        Doktor</persName>" – </p><p style="paraText" rend="division">x</p>
+                <p>Overfor far og jeg er hun skikkelig: – Gerda laver hun ofte hysteriske scener –
+                    med hysterisk tøsestemme – og ender med at tude. –</p>
+                <p><hi rend="underline">Nå – ovenpå hvad hun har <del type="strikethrough"
+                            >ha</del><note type="translator">Appears to be the beginning of the
+                            Danish word har that was crossed out because it was repeated.</note>
+                        gået igennem, er det ikke så mærkeligt</hi><note type="translator">The
+                        underlining is in red.</note> – at hendes sind er vanskeligt.</p> <p
+                        style="paraText" rend="division">x</p>
+                <p>I dag blev <persName key="wegenerG">Gerdas</persName> og <persName key="lili"
+                        >Lilis</persName> ægteskab omstødt. Jeg spurgte <persName key="lili"
+                        >Lili</persName>: – Var det civilretten? – Ja, sagde <persName key="lili"
+                        >Lilli</persName><note type="translator">"Lilli" is the spelling written in
+                        the letter. </note>. – Hvor ved du det fra? – Dommeren var i civil!<note
+                        type="translator">Lili is both playing dumb and playing on words. The phrase
+                        "in civil" is understood to mean clothing but also implies the court. A
+                        vertical red line and 6/10 has been written to the left of the
+                        paragraph.</note>
+                    </p><p style="paraText" rend="division">x</p>
+                <p><pb style="page" n="14"/> Hun omtaler ofte sig selv som "stakkels lille <persName
+                        key="lili">Lili</persName>" – og ønsker at blive trøstet og kælet for - - -.
+                        <hi rend="underline">Men i det store og hele er hun i godt humør. og
+                        gouterer en vittighed – selvom den går ud over hende selv – når blot den er
+                        god!</hi><note type="translator">The underlining is in red.</note></p>
+                <p>Hun er rar og venlig og optager alt i bedste mening.</p> 
+                <p style="paraText" rend="division">x</p>
+                <p><hi rend="underline">Den ene dag taler hun om at gå i kloster. Den næste om at
+                        gå</hi> i harem.<note type="translator">The underlining is in red.</note> –
+                    Lige efter operationen havde hun en "nonneperiode" siger hun. –</p>
+                <p><pb style="page" n="15"/> Hun er meget forfængelig af sin figur og ben – og
+                    mangler i nogen grad blufærdighed – der dog vist delvis skyldes hendes mangel på
+                    øvelse i at sidde – etc. – i kvindetøj. –<note type="translator">A vertical
+                        red squiggle has been drawn to the left of the paragraph.</note>
+                    </p><p style="paraText" rend="division">x</p>
+                <p>Psykisk – som kvinde,<note type="translator">Above "kvinde" another hand has
+                        written "kvinde/".</note>
+                    <hi rend="underline">har hun to aldre. – Når hun kan bruge den viden som
+                            <persName key="wegenerE">Einar</persName> havde – og det af hans
+                        karakter, – der er almenmenneskeligt – er hun en godmodig, klog og vittig
+                        kvinde – godt op i fyrrene! men når hun taler om "mænd" eller "klæder". – er
+                        hun en pjanket pige på sejsten!</hi><note type="translator">Should be
+                        "seksten" to indicate sixteen years of age.</note> -</p> 
+                <p style="paraText" rend="division">x</p>
+            </div>
+            <div type="closer">
+                <p style="valediction"/>
+            </div>
+            <div type="postscript"> 
+            </div>
+            </div> <!-- End Danish Entry 9 -->
+            <div type="translation"> <!-- Start English Entry 9 -->
+                <div type="opener">
+                    <p><date when="1931-10-06">6/10.</date></p>
+                </div>
+                <div type="body">
+                    <p>She does not agree with <hi rend="underline">women’s liberation. She says, –
+                            that if she gets married, she will love her husband, do everything that
+                            he</hi>
+                        <pb style="page" n="12"/>
+                        says – and only think of being as beautiful as possible – making him happy – and cheering him up, when he comes from the office.–</p>
+                    <p style="paraText" rend="division">x</p>
+                    <p>She likes caresses and to caress. <persName key="father">Father</persName>
+                        allows her to kiss him goodbye in the morning and goodnight in the
+                        evening.</p>
+                    <p>I don’t want that.</p>
+                    <p>She continues to jokingly make attempts,– and tickles me catlike up my arm.
+                        But I fend her off kindly and firmly. – and she respects that – and calls me
+                            <pb style="page" n="13"/> "the strict <persName key="wegenerS">Mr.
+                            Doctor</persName>" – </p><p style="paraText" rend="division">x</p>
+                    <p>Towards <persName key="father">father</persName> and me she is good natured:
+                        towards Gerda she often makes hysterical scenes – with hysterical girly
+                        voice – and ends with crying. –</p>
+                    <p><hi rend="underline">Well – after what she has <del type="strikethrough">belief</del> gone through it is not
+                            so odd</hi>– that her mind is difficult.</p>
+                    <p style="paraText" rend="division">x</p>
+                    <p>Today <persName key="wegenerG">Gerda's</persName> and <persName key="lili">Lili's</persName> marriage was
+                        revoked. I asked <persName key="lili">Lili</persName>: – Was it the civil
+                        court? – Yes, said <persName key="lili">Lili</persName>. – How do you know
+                        that? – The judge was in civil!</p> 
+                    <p style="paraText" rend="division">x</p>
+                    <p><pb style="page" n="14"/> She often refers to herself as "poor little
+                            <persName key="lili">Lili</persName>" – and wishes to be comforted and
+                        cuddled - - -. <hi rend="underline">But overall she is in good humor. And
+                            appreciates a joke – even though it is at her expense – as long as it is
+                            good!</hi></p>
+                    <p>She is nice and friendly and takes everything in the best way.</p> 
+                    <p style="paraText" rend="division">x</p>
+                    <p><hi rend="underline">One day she talks about going to a convent. The next about going</hi> to a harem.
+                        – Just after the operation she said she had a "nun period." –</p>
+                    <p><pb style="page" n="15"/> She is very vain about her figure and legs – and to
+                        some degree lacks modesty – partially owing to her lack of practice in
+                        sitting – etc. – in woman’s clothing.</p> 
+                    <p style="paraText" rend="division">x</p>
+                    <p>Mentally – as a woman, <hi rend="underline">she has two ages. – When she can
+                            use the knowledge that <persName key="wegenerE">Einar</persName> had –
+                            and that of his character, – that is only human – she is a good-natured,
+                            smart and witty woman – well up in her forties! – but when she talks
+                            about "men" or "clothes". – she is a giddy girl of sixteen!</hi> -</p> 
+                    <p style="paraText" rend="division">x</p>
+                </div>
+                <div type="closer">
+                    <p style="valediction"/>
+                </div>
+                <div type="postscript"/>
+            </div> <!-- End English Entry 9 -->
+            <div type="original"> <!-- Start Danish Entry 10 -->
+                <div type="opener">
+                    <p><date when="1932-06-13">13/6</date></p>
+                </div>
+                <div type="body">
+                    <p style="salutation">NB!</p>
+                    <p><pb style="page" n="16"/> Tænker jeg tilbage – og skal sige noget om hendes
+                            <hi rend="underline">udvikling siden operationen.</hi> – må det være
+                        dette. –</p>
+                    <p>Hendes skyhed overfor mennesker i almindelighed og mænd i særdeleshed er
+                        total forsvunden, – og hendes glæde over den opsigt hun vækker hos mændene,
+                        er lidt pralende – og henføres til en "mystisk tiltrækning kraft"<note
+                            type="translator">Should be "tiltrækningskraft" as one word.</note> – og
+                        ikke til hendes umådeholdne brug af pudder. og rødt – o.s.v. –</p>
+                    <p>I begyndelsen <hi rend="underline">var hun slankere, virkede næsten</hi><note
+                            type="translator">The underlining is in red.</note> mere feminin
+                        sjæleligt end<note type="translator">A red vertical line has been drawn to
+                            the left of all three paragraphs on the page. </note>
+                        <pb style="page" n="17"/>
+                        <hi rend="underline">nu, – hvor så meget er forceret og uægte, – og besad
+                            virkelig en egen indtagende "jomfruelighed" – der nu desværre ganske
+                            er forsvunden.</hi><note type="translator">The underlining is in
+                            red.</note></p>
+                    <p><hi rend="underline">At hendes venner har svigtet hende, har gjort hende ondt
+                        – men ikke bitter,</hi> – de<note type="translator">MO-Should probably have been da, but I agree that it looks like de.</note> hun har <hi rend="underline">en så
+                            venlig</hi> ^ forstående<note type="translator">The word "forstående" is
+                            written above the line.</note> natur.<note type="translator">The
+                            underlining is in red.</note>
+                        </p><p style="paraText" rend="division">x</p>
+                    <p>Jeg håber at de<note type="translator">The "de" should be capitalized since
+                            it is being used as the formal version of "you."</note> kan have nogen
+                        fornøjelse af dette.</p>
+                    <p>En dag jeg er inde i byen, vil jeg gerne have lov til at hente den bog
+                            de<note type="translator">Again, the "de" should be capitalized.</note>
+                        var så venlig at tilbyde at låne mig. – Jeg ringer i forvejen.</p>
+                    <p>Igen tak for sidst.</p>
+                </div>
+                <div type="closer">
+                    <p style="valediction">deres<note type="translator">The word "deres" should be
+                            capitalized because it is used in the formal sense.</note> ærbødige.
+                            <persName key="wegenerS">Sigurd Thomsen</persName><note
+                            type="translator">Sigurd has written a flourish under the signature.
+                        </note></p>
+                </div>
+                <div type="postscript"/>
+            </div> <!-- End Danish Entry 10 -->
+            <div type="translation"> <!-- Start English Entry 10 -->
+                <div type="opener"/>                    
+                    
+                    <div type="body">
+                        <p style="salutation">NB!</p>
+                        <p><date when="1932-06-13">13/6</date></p>
+                        <p>When I think back – <hi rend="underline">and should say something about
+                                her development since the operation,</hi> – it must be this.</p>
+                        <p>Her shyness towards people in general and men in particular has totally
+                            disappeared, – and her joy over the stir she causes among the men, is a
+                            little boastful – and is being attributed to a "mysterious power of
+                            attraction" – and not to her excessive use of powder. and rouge – and so
+                            on –</p>
+                        <p>In the beginning <hi rend="underline">she was slimmer, seemed almost</hi> more feminine mentally
+                            than <pb style="page" n="17"/>
+                            <hi rend="underline">now, where so much is forced and fake, – and she
+                                really possessed her own endearing “virginity” – which unfortunately
+                                has quite gone.</hi></p>
+                        <p><hi rend="underline">That her friends have betrayed her, has caused her
+                                pain – but not bitterness,</hi> – as she has <hi rend="underline"
+                                >such a friendly,</hi> understanding nature.</p> 
+                        <p style="paraText" rend="division">x</p>
+                        <p>I hope that you can have some pleasure of this.</p>
+                        <p>One day when I am in town, I would like to pick up the book you were so
+                            kind to offer to lend me. I will call beforehand.</p>
+                        <p>Again, thank you for last time.</p>
+                    </div>
+                    <div type="closer">
+                        <p style="valediction">Yours sincerely. <persName key="wegnerS">Sigurd
+                                Thomsen</persName></p>
+                    </div>
+                    <div type="postscript"/> 
+                     <!-- End English Entry 10 --></div>
+        </body>
+    </text>
+</TEI>
+

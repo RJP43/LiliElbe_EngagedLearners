@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../lili-elbe-code/schema/tei_le_2.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -33,6 +31,7 @@
                    <p>Aussig, den 09.03.32
                    <seg n="d01">den</seg>
                         </p>
+                </div>
                 <div type="body">
                     <p><seg>Ich las eine Besprechung Ihres Buches „Fra Mann til Kvinde“ und würde es gerne ins Deutsche übersetzen..</seg></p> 
                     <p><seg>Bitte schreiben sie mir, ob und zu welchen Bedingungen Sie mir das Übersetzungsrecht überlassen wollen.</seg></p>

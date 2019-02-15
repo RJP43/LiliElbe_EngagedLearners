@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../lili-elbe-code/schema/tei_le_2.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -255,7 +254,7 @@
                   memory of <persName key="sparreAn">Andreas Sparre</persName>'s life and feelings
                   has gradually almost completely vanished, so that oftentimes, in the part of the
                   book dealing with <persName key="sparreAn">Andreas</persName>, I would have to
-                  turn to <persName key="wegenerG">Grete</persName>, his former wife until his extinction, and her memories of him, –
+                  turn to <persName key="wegnerG">Grete</persName>, his former wife until his extinction, and her memories of him, –
                   I still believe that emotionally I am able to understand him better than other
                   people could. And perhaps there is a bridge of consciousness inside of me that <pb
                      n="03"/> conquers the abyss that usually separates man and woman.</seg></p>

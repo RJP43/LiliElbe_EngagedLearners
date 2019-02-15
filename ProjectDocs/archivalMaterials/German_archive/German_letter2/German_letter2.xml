@@ -43,7 +43,7 @@
                 </div>
                 <div type="body">
                     <p style="salutation">
-                        <seg n="g02">Liebe Freundin,</seg>
+                        <seg n="g02">Liebe <persName key="?">Freundin</persName>,</seg>
                     </p>
                     <p><seg n="g03">Tausend Dank für Ihren Brief. Der Ihrige ist der erste, den ich nach
                             meiner Operation geöffnet habe.</seg>
