@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lili Elbe Digital Archive Prosopography</title>
+            <respStmt>
+               <resp>XML template created by</resp>
+               <name xml:id="rjp">Rebecca J. Parker</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Lili Elbe Digital Archive, Loyola University</publisher>
+            <pubPlace>Chicago, IL</pubPlace>
+            <date>2019</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <head>List of place mentioned in Lili Elbe Digital Archive</head>
+            <place xml:id="europe">
+               <placeName>Europe</placeName><!-- list primary name first -->
+               <placeName>Europa</placeName><!-- could add additional names -->
+               <!-- opportunity to add note with description that could appear on mouseover --><note/>
+            </place>
+         </listPlace>
+         <listPerson>
+            <head>List of people mentioned in Lili Elbe Digital Archive</head>
+            <person xml:id="sparreAn" source="narrative" synch="#wegenerE #lili">
+               <persName>Andreas Sparre</persName>
+            </person>
+            <person xml:id="wegenerE" source="historical" synch="#sparreAn #lili">
+               <persName>Einar Wegener</persName>
+            </person>
+            <person xml:id="lili" source="narrative historical" synch="#sparreAn #wegenerE">
+               <persName>Lili Elbe</persName>
+               <persName>Lili Ilse Elvenes</persName>
+               <persName>Lili Courtaud</persName>
+               <persName>Lili Courtot</persName>
+            </person>
+            <person xml:id="sparreGre" source="narrative" synch="#wegenerG">
+               <persName>Grete Sparre</persName>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
