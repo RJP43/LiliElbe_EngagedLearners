@@ -25,7 +25,7 @@
    <text>
       <body>
          <listPlace>
-            <head>List of place mentioned in Lili Elbe Digital Archive</head>
+            <head>List of places mentioned in Lili Elbe Digital Archive</head>
             <place xml:id="europe">
                <placeName>Europe</placeName><!-- list primary name first -->
                <placeName>Europa</placeName><!-- could add additional names -->
