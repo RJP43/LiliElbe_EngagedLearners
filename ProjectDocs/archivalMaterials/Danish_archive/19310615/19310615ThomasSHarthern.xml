@@ -11,6 +11,7 @@ about the letter content I understand that the structural markup needs to be cor
 made changes to my own in light of these. I am still a bit confused about how I should break up the lines/parapgraphs (see my comment below). 
 Also, I used the paraText division element Becca provided in the Technical Issues spreadsheet for the hand drawn breaks. 
 I'll update this once a concensus is reached for how we should mark these up. TB -->
+<?xml-model href="MIWschema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
