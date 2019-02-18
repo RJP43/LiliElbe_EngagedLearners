@@ -1,0 +1,183 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to <persName ref="#Webb_Mary_younger">Mary Webb</persName>, 29 January 1821.</title>
+                <author ref="#MRM">Mary Russell Mitford</author>
+                <editor ref="#mco">Molly C. O'Donnell</editor>
+                <sponsor>
+                    <orgName>Mary Russell Mitford Society: Digital Mitford
+               Project</orgName>
+                </sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Elisa Beshero-Bondar</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="#mco">Molly C. O'Donnell</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofing and corrections by</resp>
+                    <persName ref="#lmw">Lisa M. Wilson</persName><!--lmw: Proofing against ms. 2015 09 28.  Header not checked yet.-->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: 11 March 2015. P5.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+                <pubPlace>Greensburg, PA, USA</pubPlace>
+                <date>2014</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <placeName>Reading Central Library</placeName>.</p>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#ReadingCL">Reading Central Library</repository>
+                        <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                        <idno>qB/TU/MIT Vol. 4 ff.441 Horizon No.: 1361550</idno>
+                    </msIdentifier>
+                    <head>Letter from Mary Russell Mitford to Mary Webb, <date when="1821-01-29">29 January 1821</date>. </head>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Folio sheet of <material>paper</material> folded in half to form six <!-- LMW:  fix header:  this letter is four pages, no stamps, likely enclosed in another. -->
+                              quarto pages, with correspondence on 1-6 and address leaf on page 6,
+                              then folded in thirds twice more and sealed for posting.</p>
+                                    <p>Address leaf bearing one postmark: partial black stamp that is illegible<stamp/>
+                                    </p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <p>Red wax seal</p>
+                        </sealDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="black_ink" medium="black_ink">This letter is prefaced by a separate sheet of paper on which <persName ref="#Needham_Francis">Francis Needham</persName> has noted in black ink and sometimes in pencil, "To <persName ref="#Webb_Mary_younger">Mary Webb</persName>
+                    <del rend="strikethrough">
+                        <supplied resp="#mco">date</supplied>
+                    </del>
+                    <add place="above">29</add> January, 1821] <persName ref="#James_Miss">Miss James</persName>, and her sister Emily’s illness. <persName ref="#Wheeler_Kate">Kate Wheeler</persName>'s prescription of a syringe and soapsuds has completely cured <persName ref="#MRM">M.R.M.</persName>'s deafness. Her <persName ref="#Mitford_Geo">father</persName>’s bowel complaint. Postscript: 'Just finished my <title ref="#Fiesco_MRMplay">play,</title> &amp; going to send it to <persName ref="#Talfourd_Thos">Mr. Talfourd</persName>--though I mean to write two of the acts over again—after consulting him on the alterations.' <del rend="strikethrough">
+                        <supplied resp="#mco">['At the end of the month the complete tragedy was dispatched to <persName ref="#Talfourd_Thos">Talfourd</persName>,' <persName ref="#Watson_Vera">Watson</persName> 138]. But of letter to <persName ref="#Haydon">Haydon</persName>
+                            <unclear>
+                                <supplied resp="#mco">perhaps</supplied>
+                            </unclear> 7 Jan (<persName ref="#Harness_Wm"> Harness</persName> II 123-4), in which she says,' "<title ref="#Fiesco_MRMplay">Fiesco</title>" is now with <persName ref="#Talfourd_Thos">Mr. Talfourd</persName>.']</supplied>
+                    </del> [For the date, see Diary.]"</handNote>
+                <handNote corresp="#pencil" medium="pencil">Someone cataloging the letters wrote the date <date>
+                        <del rend="strikethrough">
+                            <unclear>
+                                <supplied resp="#mco">c. 10</supplied>
+                            </unclear>
+                        </del>
+                        <add place="above">date</add>Jan. 1821</date> in under <persName ref="#MRM">Mitford</persName>'s "Monday," at the top left of page 1.&gt;</handNote>
+            </handNotes>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Mitford’s spelling and punctuation are retained, except where a word is split at the
+               end of a line and the beginning of the next in the manuscript. Where Mitford’s
+               spelling and hyphenation of words deviates from the standard, in order to facilitate
+               searching we are using the TEI elements “choice," “sic," and “reg" to encode both
+               Mitford’s spelling and the regular international standard of Oxford English spelling,
+               following the first listed spelling in the Oxford English Dictionary. The long s and
+               ligatured forms are not encoded.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="witness">
+                <listWit>
+                    <witness xml:id="mco">Molly O'Donnell</witness>
+                    <witness xml:id="LEst1870">
+                        <bibl>
+                            <title>The Life of Mary Russell Mitford Related in a Selection from Her
+                        Letters to Her Friends, Second and Revised edition</title>, 3 vols., Ed.
+                        <author>Alfred Guy Kingan L’Estrange</author>. <pubPlace>London</pubPlace>:
+                        <publisher>Richard Bentley</publisher>, <date>1870</date>. </bibl>
+                    </witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1821-01-29">
+                            <add>
+                                <handShift resp="#pencil"/>[<del rend="strikethrough">c. 10</del>
+                                <add place="above">date</add>Jan. 1821]</add>Monday.</date> <!--lmw:  checked.  29th was a Monday.-->
+                    </dateline>
+                </opener>
+                <p>My dear Friend						
+               You will be sorry to hear that I have just had a letter from <persName ref="#James_Miss">Miss James</persName> who has been hurried from <placeName ref="#Birmingham_city">Birmingham</placeName> by the illness of her sister <persName ref="#James_Emily">Emily</persName> so that we shall not have the pleasure of seeing her this winter or spring. She wrote just as she was getting into the coach &amp; promised to send me word how she found her sister in a few days. She did not herself fear that her illness <pb n="2"/> was dangerous but thought it necessary to hurry home to take care of their four pupils &amp; to relieve <persName ref="#James_Emily">Emily</persName>’s mind from such a charge. This is a great disappointment--she begs me to say every thing that is kind &amp; grateful from her to you &amp; to express how very sorry she is to miss the pleasure of waiting on you.--Tell <persName ref="#Wheeler_Kate">Kate Wheeler</persName> there is no calling such a loveable person <emph rend="underline">Miss</emph> &amp; that her prescription of the syringe &amp; soapsuds has completely relieved my deafness--she will be glad to hear this for she has the <pb n="3"/> delightful quality of being in<unclear>
+                        <gap quantity="1" unit="word" reason="wax seal covers"/>
+                        <supplied resp="#mco">volved</supplied>
+                    </unclear> in everybody’s comforts. Poor <persName ref="#Mitford_Geo">Papa</persName> is not quite well--he has had something of a bowel complaint &amp; been out in the <unclear>
+                        <gap quantity="1" unit="word" reason="illegible"/>
+                        <supplied resp="#mco">cob</supplied>
+                    </unclear><!-- lmw:  doesn't look like a 'b' to me.  cot?  I'm not sure either. The last letter could be an 'o' even though it is crossed at the top like a t.--> too long--I hope he will be better tomorrow--It is such a bad thing to see him ill. How are you all my dear Friends? Your head?  <persName ref="#Webb_Eliza">Eliza</persName>’s rheumatism &amp; the dear <persName ref="#Webb_James">Papa</persName>’s Eyes? Send me a good account of you all round.--Kindest regards to everybody.
+            </p>
+                <lb/>
+                <closer>
+                    <salute>Most faithfully <choice>
+                            <sic>your's<reg>yours</reg>
+                            </sic>
+                        </choice>
+                    </salute>
+                    <signed>
+                        <app>
+                            <lem wit="#mco">
+                                <persName ref="#MRM"/>MR Mitford.</lem>
+                            <rdg wit="#LEst1870">M. R. Mitford.</rdg>
+                        </app>
+                    </signed>
+                </closer>
+                <lb/>
+                <postscript>
+                    <p>
+                  Just finished <title ref="#Fiesco_MRMplay">my play</title> &amp; going to send it to <persName ref="#Talfourd_Thos">Mr. Talfourd</persName>—though I mean to write two of the acts over again--after consulting him on the alterations.--
+               </p>
+                </postscript>
+                <closer>
+                    <address>
+                        <addrLine>To Miss Webb.</addrLine> 
+                  <!-- lmw:  on block above is written:  Miss M W In another hand? Code or add to header?-->
+                    </address>
+                </closer>
+            </div>
+        </body>
+        <back>
+            <div>
+                <listPlace>
+                    <place xml:id="Birmingham_city">
+                        <placeName>Birmingham</placeName>
+                    </place>
+                </listPlace>
+                <listPerson>
+                    <person xml:id="James_Emily" sex="2">
+                        <persName>
+                            <surname>James</surname>
+                            <forename>Emily</forename>
+                        </persName>
+                        <note resp="#lmw">Sister to Susan James and cared for pupils with her.</note>
+                    </person>
+                </listPerson>
+            </div>
+        </back>
+    </text>
+</TEI>

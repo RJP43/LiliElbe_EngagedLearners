@@ -1,0 +1,73 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader type="text">
+    <fileDesc>
+      <titleStmt>
+        <title level="m" type="main">After the Argument</title>
+        <title level="m" type="sub">a machine readable transcription</title>
+        <author>Walt Whitman</author>
+        <editor xml:id="KP">Ken Price</editor>
+        <editor xml:id="EF">Ed Folsom</editor>
+        <respStmt>
+          <resp>Transcription and encoding</resp>
+          <orgName xml:id="WWAstaff">the Walt Whitman Archive staff</orgName>
+          <name xml:id="AJ">Andrew Jewell</name>
+          <name xml:id="BB">Brett Barney</name>
+          <name xml:id="ZB">Zach Bajaber</name>
+          <name xml:id="MS">Melissa Sinner</name>
+        </respStmt>
+        <sponsor>The Institute for Advanced Technology in the Humanities</sponsor>
+        <sponsor>University of Iowa</sponsor>
+        <sponsor>University of Nebraska-Lincoln</sponsor>
+        <funder>The National Endowment for the Humanities</funder>
+        <funder>The United States Department of Education</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2002</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <idno>loc.00001</idno>
+        <distributor>The Walt Whitman Archive</distributor>
+        <address>
+          <addrLine>The Institute for Advanced Technology in the Humanities</addrLine>
+          <addrLine>Alderman Library</addrLine>
+          <addrLine>University of Virginia</addrLine>
+          <addrLine>P.O. Box 400115</addrLine>
+          <addrLine>Charlottesville, VA 22904-4115</addrLine>
+          <addrLine>whitman@jefferson.village.virginia.edu</addrLine>
+        </address>
+        <availability>
+          <p>Copyright © 2001 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, The Institute for Advanced Technology in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="project" target="#dat1">This manuscript was likely written in <date notBefore="1890" notAfter="1891">1890 or early 1891</date>, shortly before the poem's publication.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Walt Whitman</author>
+          <title>After the Argument</title>
+          <date cert="high" notBefore="1890" notAfter="1891" xml:id="dat1">1890 or 1891</date>
+          <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, Library of Congress, Washington, DC</orgName>
+          <note type="project">Transcribed from Joel Myerson, ed. The Walt Whitman Archive I: Whitman Manuscripts at the Library of Congress, New York: Garland, 1993, Part I: 121; Major American Authors on Cd-Rom: Walt Whitman, Westport, CT: Primary Source Media, 1997; our own digital image of original manuscript.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2004-11-18" who="#KP #AJ">Addition of Date and Work Markup</change>
+      <change when="2004-07-20" who="#BB">Updated closer/signature</change>
+      <change when="2003-10-02" who="#BB">Conversion to camel-case</change>
+      <change when="2002-09-09" who="#BB">Blessed</change>
+      <change when="2002-08-00" who="#ZB">Updated to current practice</change>
+      <change when="2002-00-00" who="#KP">Checked by editor</change>
+      <change when="2002-00-00" who="#BB">Revised</change>
+      <change when="2001-00-00" who="#MS">Encoded</change>
+      <change when="2000-00-00" who="JSC">Transcribed</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="english">
+    <body>
+    </body>
+  </text>
+</TEI>
