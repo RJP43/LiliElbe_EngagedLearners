@@ -1,136 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="MIWschema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>Letter to <persName key="garlandM">Maria Garland</persName>
-				</title>
-				<author>
-					<persName key="lili">Lili Ilse Elvenes</persName>
-				</author>
-				<respStmt>
-					<resp>Translation completed on <date when="2017-11-20">20 November 2017</date>
-					</resp>
-					<persName ref="kj">Kristin Jacobsen</persName>
-					<persName ref="mb">Maiken Boysen</persName>
-				</respStmt>
-				<respStmt>
-					<resp>Encoding updated on <date when="2018-11-26">26 November 2018</date>
-					</resp>
-					<persName ref="tnm">Tyler Monaghan</persName>
-				</respStmt>
-				<!-- tnm 10/19/2018: see note about capitalization @ line 113. awaiting persName keys Johannes and Ulla Poulsen. please check <add> @ line 40/89. -->
-			</titleStmt>
-			<publicationStmt>
-				<p>Publication Information</p>
-			</publicationStmt>
-			<sourceDesc>
-				<p>Information about the source</p>
-			</sourceDesc>
-		</fileDesc>
-	</teiHeader>
-	<text>
-		<body>
-
-			<div type="original">
-
-				<div type="opener">
-					<p>
-						<add place="pageTopLeftCorner" type="insertion" rend="red-pencil">Mein <hi rend="underline">Brief</hi>
-						</add>
-						<note type="editor" source="kj mb">Written in red in top left corner and seems to be in another person's handwriting.</note>
-					</p>
-					<p>
-						<hi rend="underline">Tirsdag</hi>
-					</p>
-					<!-- this underline doesn't appear in the docx translation, but it's in the image. -->
-					<p>Dresden. 16 Juni 1931</p>
-				</div>
-				<!-- end "opener(original)" div -->
-
-				<div type="body">
-					<p style="salutation">Kære Veninde.</p>
-					<p>Jeg har skrevet til Deres Mand og bedt ham, som vi allerede havde aftalt, at sende de færdige Kapitler til <persName key="warnekros">Prof. Warnekros</persName>; men hvis de ikke allerede er afsendt, vilde jeg meget gerne have dem til min Adresse. Det er saadan et udmærket Anledning til at tale med den strænge Herre.</p>
-					<p>Jeg er nemlig straks blevet saa lille<note type="translator">The implication is little in the sense of delicate. She is a shy, shrinking violet.</note> som sidste Aar. De aner ikke, hvilken Evne han har til at lokke alt det mest kvindelige frem i mig.</p>
-					<p>Man mener, jeg bliver opereret i morgen – jeg troede, det allerede var for idag, men jeg tør ikke spørge ham derom. Sligt taler han ikke med Piger om – og nu hengaar min Tid med at vente paa ham og drømme om hans Mandighed og Skønhed. I min Beundring forstaar jeg nu, at Gud skabte Manden i sit Billede.</p>
-					<p>Jeg ønsker intet mere end blot at have Lov til at være i hans Nærhed, og jeg er slet ikke bange for alle de slemme Smærter, der venter mig; thi saa ser jeg ham mere – og et Smil fra ham er alle de grusomste Smærter værd.</p>
-					<pb />
-					<p>De kan tro, det er en Overraskelse for mig, at jeg nu er her i Stedet for i <placeName key="paris">Paris</placeName>. Men jeg forstaar Professoren har grebet dette gunstige Øjeblik til den sidste store Operation, uden hvilken jeg aldrig bliver helt rask, hverken fysisk eller moralsk.</p>
-					<!-- I'm not totally sure about this paragraph break. It's in the English translated docx, but ambiguous (to me) in the image -tnm -->
-					<p>Jeg sidder ude i Haven; men af og til kniber det lidt med Modet og saa maa jeg kile rundt<note type="translator">The word could also be køle, though the correct phrase would be køle af rundt.</note> i Gangene mellem de lyse Birke; jeg ved nemlig kun altfor godt, hvad der venter mig – og store underlivsopera tioner er gyselige, men jeg tænker slet ikke paa at dø; det har jeg ikke Lov<note type="translator">The word lov literally means law, so either permission or allowance would work.</note> til. Det vilde være et Forræderi. Skriv til mig. Det vil trøste mig.</p>
-					<p>Det er mig ogsaa en stor Beroligelse at vide, at deres Mand sidder og arbejder med vort fælles Værk. Bogen eller rettere Romanen begynder maaske allerede at udkomme, medens jeg endnu ligger her.</p>
-					<p>Jeg sender en Del Fotografier herfra og faar Bekendte til at samle en Del i <placeName key="paris">Paris</placeName>.</p>
-				</div>
-				<!-- end body div -->
-
-				<div type="closer">
-					<p style="valediction">Mine allerhjærtligste Hilsner til Dem og Deres Mand</p>
-					<!-- not confident about the above line being part of valediction or even of closing? -tnm -->
-					<p style="valediction">Deres</p>
-					<p>
-						<persName key="lili">Lili Elvenes</persName>
-					</p>
-				</div>
-				<!-- end "closer"(original) div -->
-
-				<div type="postscript">
-					<p>P.S. Jeg venter Visit her af <persName key="?">Johannes</persName> og <persName key="?">Ulla Poulsen</persName>
-					</p>
-				</div>
-				<!-- end postscript(original) div -->
-			</div>
-			<!-- end original div -->
-
-			<div type="translation">
-
-				<div type="opener">
-					<p>
-						<add place="pageTopLeftCorner" type="insertion" rend="red-pencil">My <hi rend="underline">Letter</hi>
-						</add>
-						<!-- need to double check this <add> and its parameters above, not sure if this is used correctly -->
-						<note type="editor" source="kj mb">Written in red in top left corner and seems to be in another person's handwriting.</note>
-					</p>
-					<p>
-						<hi rend="underline">Tuesday</hi>
-					</p>
-					<!-- this underline doesn't appear in the docx translation, but it's in the image. -->
-					<p>Dresden. 16 June 1931</p>
-				</div>
-				<!-- end "opener(original)" div -->
-
-				<div type="body">
-					<p style="salutation">Dear Friend.</p>
-					<p>I have written to your husband and asked him, as we had already agreed, to send the completed chapters to <persName key="warnekros">Prof. Warnekros</persName>; but if they have not already been shipped, I would like to have them to my address. It is such an excellent occasion to talk with the strict gentleman.</p>
-					<p>I have immediately become just as little<note type="translator">The implication is little in the sense of delicate. She is a shy, shrinking violet.</note> as last year. You wouldn’t guess the power he has to entice the utmost feminine side of me.</p>
-					<p>They think I’ll undergo surgery tomorrow – I thought it was already due today but I don’t dare to ask him about it. He doesn’t discuss such things with girls – and now I spend my time waiting for him and dreaming about his masculinity and beauty. In my admiration I now understand that God created man in his image.</p>
-					<!-- should God be tagged as a person? -->
-					<p>I wish for no more than just to be allowed to be in his proximity, and I am not at all afraid of all the horrible pain that awaits me, for then I will see him more – and a smile from him is worth all the most gruesome pain.</p>
-					<pb />
-					<p>You can believe it is a surprise to me, that I am now here instead of in <placeName key="paris">Paris</placeName>. But I understand the professor has grabbed this favorable moment for the last big operation, without which I will never become fully healthy, neither physically nor morally.</p>
-					<!-- I'm not totally sure about this paragraph break. It's in the English translated docx, but ambiguous (to me) in the image -tnm -->
-					<p>I am sitting out in the garden; but courage is a little scarce and so I must dash around<note type="translator">The word could also be køle, though the correct phrase would be køle af rundt.</note> among the bright birch trees; I know only too well what waits for me – and big abdominal operations are horrible, but I really do not think about dying at all; I do not have the permission<note type="translator">The word lov literally means law, so either permission or allowance would work.</note> to do that. It would be a betrayal. Write to me. It will comfort me.</p>
-					<!-- tnm: I'm not 100% sure the first translator's note above is in the right place. The footnote is not marked in the English translation. -->
-					<p>It is also a big reassurance to me to know that your husband works with<note type="editor">Or "on?"</note> our common work. The book, or rather the novel, might be released while I am still here. </p>
-					<p>I am sending a handful of photographs from here and will have friends collect some in <placeName key="paris">Paris</placeName>.</p>
-				</div>
-				<!-- end body(translation) div -->
-
-				<div type="closer">
-					<p style="valediction">My heartiest greetings to you and Your Husband</p>
-					<!-- capitalization on this English translation is confusing to me. In other contexts tante or onkel were not caps but when translated they used Aunt and Uncle next to the person's name. Here we have seemingly the opposite, where Deres Mand is capitalized in Danish and the capitalization is retained (in a way that feels unnatural to me) in the English translation. So, are the caps carrying over literally in the trasnlation sometimes and not others, or are the translators making the call that "Your Husband" is a kind of title in the same way as "Uncle Einar" would be? -->
-					<!-- not confident about the above line being part of valediction or even of closing? -tnm -->
-					<p style="valediction">Your</p>
-					<p>
-						<persName key="lili">Lili Elvenes</persName>
-					</p>
-				</div>
-				<!-- end "closer"(translation) div -->
-
-				<div type="postscript">
-					<p>P.S. I await the visit here of <persName key="?">Johannes</persName> and <persName key="?">Ulla Poulsen</persName></p>
-				</div><!-- end postscript(translation) div -->
-			</div><!-- end translation div -->
-		</body>
-	</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to <persName key="garlandM">Maria Garland</persName>
+                </title>
+                <author>
+                    <persName key="lili">Lili Ilse Elvenes</persName>
+                </author>
+                <respStmt>
+                    <resp>Translation completed on <date when="2017-11-20">20 November 2017</date>
+                    </resp>
+                    <persName ref="kj">Kristin Jacobsen</persName>
+                    <persName ref="mb">Maiken Boysen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding updated on <date when="2018-11-26">26 November 2018</date>
+                    </resp>
+                    <persName ref="tnm">Tyler Monaghan</persName>
+                </respStmt>
+                <!-- tnm 10/19/2018: see note about capitalization @ line 113. awaiting persName keys Johannes and Ulla Poulsen. please check <add> @ line 40/89. -->
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="original">
+                
+                <div type="opener">
+                    <p>
+                        <add place="pageTopLeftCorner" type="insertion" rend="red-pencil">Mein <hi rend="underline">Brief</hi>
+                        </add>
+                        <note type="editor" source="kj mb">Written in red in top left corner and seems to be in another person's handwriting.</note>
+                    </p>
+                    <p>
+                        <hi rend="underline">Tirsdag</hi>
+                    </p>
+                    <!-- this underline doesn't appear in the docx translation, but it's in the image. -->
+                    <p>Dresden. 16 Juni 1931</p>
+                </div>
+                <!-- end "opener(original)" div -->
+                
+                <div type="body">
+                    <p style="salutation">Kære Veninde.</p>
+                    <p>Jeg har skrevet til Deres Mand og bedt ham, som vi allerede havde aftalt, at sende de færdige Kapitler til <persName key="warnekros">Prof. Warnekros</persName>; men hvis de ikke allerede er afsendt, vilde jeg meget gerne have dem til min Adresse. Det er saadan et udmærket Anledning til at tale med den strænge Herre.</p>
+                    <p>Jeg er nemlig straks blevet saa lille<note type="translator">The implication is little in the sense of delicate. She is a shy, shrinking violet.</note> som sidste Aar. De aner ikke, hvilken Evne han har til at lokke alt det mest kvindelige frem i mig.</p>
+                    <p>Man mener, jeg bliver opereret i morgen – jeg troede, det allerede var for idag, men jeg tør ikke spørge ham derom. Sligt taler han ikke med Piger om – og nu hengaar min Tid med at vente paa ham og drømme om hans Mandighed og Skønhed. I min Beundring forstaar jeg nu, at Gud skabte Manden i sit Billede.</p>
+                    <p>Jeg ønsker intet mere end blot at have Lov til at være i hans Nærhed, og jeg er slet ikke bange for alle de slemme Smærter, der venter mig; thi saa ser jeg ham mere – og et Smil fra ham er alle de grusomste Smærter værd.</p>
+                    <pb />
+                    <p>De kan tro, det er en Overraskelse for mig, at jeg nu er her i Stedet for i <placeName key="paris">Paris</placeName>. Men jeg forstaar Professoren har grebet dette gunstige Øjeblik til den sidste store Operation, uden hvilken jeg aldrig bliver helt rask, hverken fysisk eller moralsk.</p>
+                    <!-- I'm not totally sure about this paragraph break. It's in the English translated docx, but ambiguous (to me) in the image -tnm -->
+                    <p>Jeg sidder ude i Haven; men af og til kniber det lidt med Modet og saa maa jeg kile rundt<note type="translator">The word could also be køle, though the correct phrase would be køle af rundt.</note> i Gangene mellem de lyse Birke; jeg ved nemlig kun altfor godt, hvad der venter mig – og store underlivsopera tioner er gyselige, men jeg tænker slet ikke paa at dø; det har jeg ikke Lov<note type="translator">The word lov literally means law, so either permission or allowance would work.</note> til. Det vilde være et Forræderi. Skriv til mig. Det vil trøste mig.</p>
+                    <p>Det er mig ogsaa en stor Beroligelse at vide, at deres Mand sidder og arbejder med vort fælles Værk. Bogen eller rettere Romanen begynder maaske allerede at udkomme, medens jeg endnu ligger her.</p>
+                    <p>Jeg sender en Del Fotografier herfra og faar Bekendte til at samle en Del i <placeName key="paris">Paris</placeName>.</p>
+                </div>
+                <!-- end body div -->
+                
+                <div type="closer">
+                    <p style="valediction">Mine allerhjærtligste Hilsner til Dem og Deres Mand</p>
+                    <!-- not confident about the above line being part of valediction or even of closing? -tnm -->
+                    <p style="valediction">Deres</p>
+                    <p>
+                        <persName key="lili">Lili Elvenes</persName>
+                    </p>
+                </div>
+                <!-- end "closer"(original) div -->
+                
+                <div type="postscript">
+                    <p>P.S. Jeg venter Visit her af <persName key="?">Johannes</persName> og <persName key="?">Ulla Poulsen</persName>
+                    </p>
+                </div>
+                <!-- end postscript(original) div -->
+            </div>
+            <!-- end original div -->
+            
+            <div type="translation">
+                
+                <div type="opener">
+                    <p>
+                        <add place="pageTopLeftCorner" type="insertion" rend="red-pencil">My <hi rend="underline">Letter</hi>
+                        </add>
+                        <!-- need to double check this <add> and its parameters above, not sure if this is used correctly -->
+                        <note type="editor" source="kj mb">Written in red in top left corner and seems to be in another person's handwriting.</note>
+                    </p>
+                    <p>
+                        <hi rend="underline">Tuesday</hi>
+                    </p>
+                    <!-- this underline doesn't appear in the docx translation, but it's in the image. -->
+                    <p>Dresden. 16 June 1931</p>
+                </div>
+                <!-- end "opener(original)" div -->
+                
+                <div type="body">
+                    <p style="salutation">Dear Friend.</p>
+                    <p>I have written to your husband and asked him, as we had already agreed, to send the completed chapters to <persName key="warnekros">Prof. Warnekros</persName>; but if they have not already been shipped, I would like to have them to my address. It is such an excellent occasion to talk with the strict gentleman.</p>
+                    <p>I have immediately become just as little<note type="translator">The implication is little in the sense of delicate. She is a shy, shrinking violet.</note> as last year. You wouldn’t guess the power he has to entice the utmost feminine side of me.</p>
+                    <p>They think I’ll undergo surgery tomorrow – I thought it was already due today but I don’t dare to ask him about it. He doesn’t discuss such things with girls – and now I spend my time waiting for him and dreaming about his masculinity and beauty. In my admiration I now understand that God created man in his image.</p>
+                    <!-- should God be tagged as a person? -->
+                    <p>I wish for no more than just to be allowed to be in his proximity, and I am not at all afraid of all the horrible pain that awaits me, for then I will see him more – and a smile from him is worth all the most gruesome pain.</p>
+                    <pb />
+                    <p>You can believe it is a surprise to me, that I am now here instead of in <placeName key="paris">Paris</placeName>. But I understand the professor has grabbed this favorable moment for the last big operation, without which I will never become fully healthy, neither physically nor morally.</p>
+                    <!-- I'm not totally sure about this paragraph break. It's in the English translated docx, but ambiguous (to me) in the image -tnm -->
+                    <p>I am sitting out in the garden; but courage is a little scarce and so I must dash around<note type="translator">The word could also be køle, though the correct phrase would be køle af rundt.</note> among the bright birch trees; I know only too well what waits for me – and big abdominal operations are horrible, but I really do not think about dying at all; I do not have the permission<note type="translator">The word lov literally means law, so either permission or allowance would work.</note> to do that. It would be a betrayal. Write to me. It will comfort me.</p>
+                    <!-- tnm: I'm not 100% sure the first translator's note above is in the right place. The footnote is not marked in the English translation. -->
+                    <p>It is also a big reassurance to me to know that your husband works with<note type="editor">Or "on?"</note> our common work. The book, or rather the novel, might be released while I am still here. </p>
+                    <p>I am sending a handful of photographs from here and will have friends collect some in <placeName key="paris">Paris</placeName>.</p>
+                </div>
+                <!-- end body(translation) div -->
+                
+                <div type="closer">
+                    <p style="valediction">My heartiest greetings to you and Your Husband</p>
+                    <!-- capitalization on this English translation is confusing to me. In other contexts tante or onkel were not caps but when translated they used Aunt and Uncle next to the person's name. Here we have seemingly the opposite, where Deres Mand is capitalized in Danish and the capitalization is retained (in a way that feels unnatural to me) in the English translation. So, are the caps carrying over literally in the trasnlation sometimes and not others, or are the translators making the call that "Your Husband" is a kind of title in the same way as "Uncle Einar" would be? -->
+                    <!-- not confident about the above line being part of valediction or even of closing? -tnm -->
+                    <p style="valediction">Your</p>
+                    <p>
+                        <persName key="lili">Lili Elvenes</persName>
+                    </p>
+                </div>
+                <!-- end "closer"(translation) div -->
+                
+                <div type="postscript">
+                    <p>P.S. I await the visit here of <persName key="?">Johannes</persName> and <persName key="?">Ulla Poulsen</persName></p>
+                </div><!-- end postscript(translation) div -->
+            </div><!-- end translation div -->
+        </body>
+    </text>
 </TEI>
 <!-- tnm 10/14: added persName and placeNames. Missing keys for Johannes and Ulla Poulsen as well as Maria Garland. Should God be tagged? Tons of pronoun use - seems Warnekros would merit a tag in a paragraph comparing his masculinity to god, but his name is not used there. -->
