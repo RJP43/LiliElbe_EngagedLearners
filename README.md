@@ -26,29 +26,29 @@ Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/R
 **Thursday, Feb. 14th**  
 *Lesson:* Exploring the MIW Project with Emily Datskou, Xiamara Hohman, and Danielle Richards      
 *Before Class:* submit revised XML Exercise     
-*By Next Class:* complete [TEI XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIxml_exercise.md)  using [Archival Materials](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs/archivalMaterials)   
+*By Next Class:* work on [TEI XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIxml_exercise.md) using [Archival Materials](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs/archivalMaterials)     
   
 **Tuesday, Feb. 19th**  
-*Lesson:*  [Capturing Project Metadata in `<teiHeader>`](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Project-Metadata)     
-*Before Class:* submit completed TEI Exercise via Sakai     
+*Lesson:* Discuss TEI XML Exercise **AND** Team Time on TEI XML Exercise
+*Before Class:* start TEI XML Exercise     
 *By Next Class:*   
-start on [TEI Header Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIheader_exercise.md)        
+complete [TEI XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIxml_exercise.md) using [Archival Materials](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs/archivalMaterials)        
 **AND**  
 Post 2 discussion questions or 1 question and one response on Issues Board - [Let's Discuss "Storm Clouds on the Horizon" Issue #1](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) after reading [“Storm Clouds on the Horizon...”](https://doi.org/10.1080/24692921.2018.1505819)   
    
 **Thursday, Feb. 21th**  
-*Lesson:* [Discuss “Storm Clouds on the Horizon...”](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) **AND** [Capturing Document Metadata in `<teiHeader>`](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Document-Metadata)   
-*Before Class:* start on TEI Header Exercise **AND** post on Let's Discuss "Storm Clouds on the Horizon" Issue #1    
+*Lesson:* [Discuss “Storm Clouds on the Horizon...”](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/1) **AND** [Capturing Metadata in `<teiHeader>`](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Metadata)   
+*Before Class:* complete TEI XML Exercise **AND** post on Let's Discuss "Storm Clouds on the Horizon" Issue #1    
 *By Next Class:* Complete [TEI Header Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIheader_exercise.md)     
   
 **Tuesday, Feb. 26th**  
 *Lesson:* [Proofing HTML with Hypothes.is and our XML knowledge](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Proofing-HTML)    
 *Before Class:* submit completed TEI Header Exercise via Sakai     
-*By Next Class:* Commit to Project / Project Team on Issues Board - [Let's Discuss Project Assignments Issue #2](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/2)       
+*By Next Class:* Reply on [Let's Discuss Project Assignments Issue #2](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/2)       
 
 **Thursday, Feb. 28th**  
-*Lesson:* Continue [Proofing HTML with Hypothes.is and our XML knowledge](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Proofing-HTML) **AND** [Working-in-GitHub Project Team Workflow](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Working-in-GitHub#project-team-workflow)    
-*Before Class:* Comment on Let's Discuss Project Assignments Issue #2   
+*Lesson:* Continue [Proofing HTML with Hypothes.is and our XML knowledge](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Proofing-HTML)    
+*Before Class:* Reply on Let's Discuss Project Assignments Issue #2   
 *By Next Class:* Email project distribution of work and workflow to Dr. Caughie and Rebecca
   
 ***  
