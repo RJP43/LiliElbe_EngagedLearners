@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="MIWschema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> <persName key="">
+                </persName></title>
+                <author><persName key=""></persName></author>
+                <respStmt>
+                    <resp>Translation on <date when=></date> by</resp>
+                    <persName ref=""></persName>
+                    <persName ref=""></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding on <date when="2018-09-12">12 September 2018</date> by</resp>
+                    <persName ref="zo">Zanabe Othman</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letterOG">
+                <div type="opener">
+                    <p>Aussig, den 09.03.32
+                        <seg n="d01">den</seg>
+                    </p>
+                </div>
+                <div type="body">
+                    <p><seg>Ich las eine Besprechung Ihres Buches „Fra Mann til Kvinde“ und würde es gerne ins Deutsche übersetzen..</seg></p> 
+                    <p><seg>Bitte schreiben sie mir, ob und zu welchen Bedingungen Sie mir das Übersetzungsrecht überlassen wollen.</seg></p>
+                    
+                </div>
+                <div type="closer">
+                    <p style="valediction"><seg n="d02">Hochachtungsvoll,</seg></p>
+                    <p><persName key="?">Herta Keller</persName></p>
+                </div>
+                <div type="postscript"/>
+            </div>
+            <div type="letterTranslate">
+                <div type="opener">
+                    <p>Thomsen</p>
+                    <p>Gentoftegade 14. Gentofte Tlf. Gentofte 144 </p>
+                </div>
+                <div type="body">
+                    <p style="salutation">Hr. <persName key="hoyerNiels">Niels Hoyer</persName> Havnegade
+                        47 København</p>
+                    <p><seg corresp="#d01">As agreed with <persName key="lili">Mrs. Lili
+                        Elvenes</persName> I hereby send you a picture (which I would like you to
+                        <hi rend="underline">return</hi> as it is the only one I own) of my
+                        brother-in-law painter <persName key="wegenerE">Einar
+                            Wegener</persName>.</seg></p>
+                    <p><seg corresp="#d02">I ask you to talk to me <hi rend="underline">before</hi>
+                        sending any transcript of the manuscript to <placeName key="germany"
+                            >Germany</placeName> – my telephone number after 6:30 is Gentofte 144, and
+                        during the day it is : Central 4726.</seg></p>
+                </div>
+                <div type="closer">
+                    <p style=" valediction"><seg corresp="#d03">With much respect</seg></p>
+                    <p><hi rend="underline"><persName key="thomsenTC">TC Thomsen</persName></hi></p>
+                    <p><seg corresp="#d04"><hi rend="underline">Engineer</hi></seg></p>
+                </div>
+                <div type="postscript"/>
+            </div>
+        </body>
+    </text>
+</TEI>
+
