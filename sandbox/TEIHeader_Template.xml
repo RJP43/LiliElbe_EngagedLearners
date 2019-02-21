@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <!-- For Letters -->
          <titleStmt>
@@ -16,15 +16,17 @@
                <persName ref="plc">Pamela Caughie</persName>
             </respStmt>
             <respStmt>
-               <resp>Images prepared by</resp>
+               <resp>Images prepared from <date>August to December, 2018</date> by</resp>
                <persName ref="mg">Matthew Gallagher</persName>
             </respStmt>
             <respStmt>
-               <resp>Transcription completed from <date><!-- month --> to <!--month-->, <!-- year --></date> by</resp>
+               <resp>Transcription completed from <date><!-- month --> to <!--month-->,
+                     <!-- year --></date> by</resp>
                <persName><!-- Name of Translator --></persName>
             </respStmt>
             <respStmt>
-               <resp>Translation completed from <date><!-- month --> to <!--month-->, <!-- year --></date> by</resp>
+               <resp>Translation completed from <date><!-- month --> to <!--month-->,
+                     <!-- year --></date> by</resp>
                <persName><!-- Name of Translator --></persName>
             </respStmt>
             <respStmt>
@@ -32,7 +34,8 @@
                <persName><!-- Name of Translation Reviewer --></persName>
             </respStmt>
             <respStmt>
-               <resp>Encoding completed from <date><!-- month --> to <!--month-->, <!-- year --></date> by</resp>
+               <resp>Encoding completed from <date><!-- month --> to <!--month-->,
+                     <!-- year --></date> by</resp>
                <persName><!-- Name of Encoder --></persName>
             </respStmt>
             <respStmt>
@@ -43,16 +46,18 @@
             </respStmt>
             <respStmt>
                <resp>Assigned <date>Spring 2019</date> Engaged Learner(s)</resp>
-               <persName><!-- Name of Encoder/Proofer --></persName>
-               <persName><!-- Name of Encoder/Proofer --></persName>
-               <persName><!-- Name of Encoder/Proofer --></persName>
+               <persName><!-- Name of Learner --></persName>
+               <persName><!-- Name of Learner --></persName>
+               <persName><!-- Name of Learner --></persName>
             </respStmt>
             <respStmt>
-               <resp>XML transformed into HTML on <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+               <resp>XML transformed into HTML on
+                     <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
             </respStmt>
             <respStmt>
-               <resp>HTML proofing completed from <date><!-- month --> to <!--month-->, <!-- year --></date> by</resp>
+               <resp>HTML proofing completed from <date><!-- month --> to <!--month-->,
+                     <!-- year --></date> by</resp>
                <persName><!-- Name of Encoder/Proofer --></persName>
                <persName><!-- Name of Encoder/Proofer --></persName>
             </respStmt>
@@ -61,19 +66,24 @@
             <sponsor>Danish Arts Foundation</sponsor>
          </titleStmt>
          <publicationStmt>
-            <distributor>Ernst Harthern Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement’s Archives and Library)</distributor>
-            <address>
-               <placeName>Huddinge, Sweden</placeName>
-            </address>
+            <authority>Lili Elbe Digital Archive</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date>July 6th, 2019</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName>
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International licence.</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p><!-- describe anything you think worth noting about the physical text document from looking at the photograph --></p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <p>Some text here.</p>
       </body>
-  </text>
+   </text>
 </TEI>
