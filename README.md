@@ -46,7 +46,7 @@ complete [TEI XML Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/bl
 **Tuesday, Feb. 26th**  
 *Lesson:* [Proofing HTML with Hypothes.is and our XML knowledge](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Proofing-HTML)    
 *Before Class:* begin TEI Header Exercise on team's assigned issue     
-*By Next Class:* submit completed TEI Header Exercise via GitHub upload and team response on assigned issue       
+*By Next Class:* submit completed [TEI Header Exercise](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Exercises/TEIheader_exercise.md) via GitHub upload and team response on assigned issue       
 
 **Thursday, Feb. 28th**  
 *Lesson:* Continue [Proofing HTML with Hypothes.is and our XML knowledge](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Proofing-HTML)    
