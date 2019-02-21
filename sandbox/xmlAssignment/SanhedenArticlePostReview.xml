@@ -8,6 +8,10 @@
          <titleStmt>
             <title>En bog om, hvordan Hr. Wegener blev til Frøken Wegener.</title> 
             <respStmt>
+               <resp>Translation completed on <date>11 October 2017</date> by</resp>
+               <persName>Marianne Ølholm</persName>
+            </respStmt> <!-- KEJCAT 2019-02-19: Why do we need respStmt nested twice? -->
+            <respStmt>
                <resp>Encoding updated on <date when="2019-02-19">19 February 2019</date></resp>
                <persName ref="@kejcat">Kristin Jacobsen</persName>
             </respStmt>
@@ -17,6 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <p>Information about the source</p> <!-- KEJCAT 2019-02-19: No source information available in translation Word document or jpeg of original. -->
+            <!-- KEJCAT 2019-02-19: Do I need the sponsor or publicationStmt tags in the header? -->
          </sourceDesc>
       </fileDesc>
    </teiHeader>
