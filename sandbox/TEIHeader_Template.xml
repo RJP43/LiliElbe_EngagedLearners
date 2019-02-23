@@ -3,11 +3,14 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that should match their name in the Prosopography. For project team members and organizations use the @ref attribute and the two-letter (or three-letter, if available in the info provided) initials of the person on the persName/orgName elements. For dates notice there are some instances where exact dates are given and other places only month ranges are available. While in this template we have placed certain date formats in particular resp. statements, the matching is arbitrary and encoders should use whichever format fits the info provided for each resp. statement. -->
    <teiHeader>
       <fileDesc>
-         <!-- For Letters -->
          <titleStmt>
-            <title>Letter to <persName key=""><!-- Person Letter Addressed To --></persName></title>
+            <!-- For Letters -->
+            <title>Letter to <persName key=""
+               ><!-- Person Letter Is Addressed To --></persName></title>
+            <!-- For Letters -->
             <author>
                <persName key=""><!-- Writer of Letter --></persName>
             </author>
@@ -70,14 +73,15 @@
             <pubPlace>Chicago, IL, USA</pubPlace>
             <date>July 6th, 2019</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName>
+               <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
+                     <placeName><!-- location of archive --></placeName>
                </p>
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                   4.0 International licence.</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p><!-- describe anything you think worth noting about the physical text document from looking at the photograph --></p>
+            <p><!-- describe anything you think worth noting about the physical text document from looking at the photograph; encoder's description must be in complete, logical sentences --></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
