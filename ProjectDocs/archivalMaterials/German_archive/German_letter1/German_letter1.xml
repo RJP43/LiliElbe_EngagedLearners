@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="MIWschema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title> <persName key="">
-                   </persName></title>
+                </persName></title>
                 <author><persName key=""></persName></author>
                 <respStmt>
-                    <resp>Translation on <date when=""></date> by</resp>
+                    <resp>Translation on <date when=></date> by</resp>
                     <persName ref=""></persName>
                     <persName ref=""></persName>
                 </respStmt>
@@ -28,14 +30,14 @@
         <body>
             <div type="letterOG">
                 <div type="opener">
-                   <p>Aussig, den 09.03.32
-                   <seg n="d01">den</seg>
-                        </p>
+                    <p>Aussig, den 09.03.32
+                        <seg n="d01">den</seg>
+                    </p>
                 </div>
                 <div type="body">
                     <p><seg>Ich las eine Besprechung Ihres Buches „Fra Mann til Kvinde“ und würde es gerne ins Deutsche übersetzen..</seg></p> 
                     <p><seg>Bitte schreiben sie mir, ob und zu welchen Bedingungen Sie mir das Übersetzungsrecht überlassen wollen.</seg></p>
-                      
+                    
                 </div>
                 <div type="closer">
                     <p style="valediction"><seg n="d02">Hochachtungsvoll,</seg></p>
