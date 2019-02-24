@@ -8,12 +8,16 @@
       <fileDesc>
          <titleStmt>
             <!-- For Letters -->
-            <title>Letter to <persName key=""
-               ><!-- Person Letter Is Addressed To --></persName></title>
-            <!-- For Letters -->
+            <title>
+               Letter to <persName key=""><!-- Person Letter Is Addressed To --></persName>
+            </title>            
+            <!-- For texts with translations (that are not letters) -->            
+               <title><!--Include title of original work here.--></title>
+               <title xml:lang="eng"><!--Include translated title of original work here!--></title> 
+            
             <author>
-               <persName key=""><!-- Writer of Letter --></persName>
-            </author>
+               <persName key=""><!-- Writer of Letter; or author of text --></persName>
+            </author>           
             <respStmt>
                <resp>Photographed <date>August 16-17, 2017</date> by</resp>
                <persName ref="plc">Pamela Caughie</persName>
