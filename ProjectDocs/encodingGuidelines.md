@@ -45,7 +45,7 @@ _See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as exampl
 ````
   
 ### Texts with Translations  
-_Any text that has an English translation, except for the editions with translations, should have the following `<div>` structure surrounding that particular text-type's encoding structure. Therefore, if encoding a letter that has a translation then first implement this structural markup and then continue with the structural markup specified under the text-type "Letters" heading for the original-language text as well as the translated text. _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._   
+Any text that has an English translation, except for the editions with translations, should have the following `<div>` structure surrounding that particular text-type's encoding structure. Therefore, if encoding a letter that has a translation then first implement this structural markup and then continue with the structural markup specified under the text-type "Letters" heading for the original-language text as well as the translated text. _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._   
   
 ````
 <text>
