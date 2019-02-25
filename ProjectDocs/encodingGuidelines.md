@@ -63,7 +63,7 @@ Any text that has an English translation, except for the editions with translati
 ````
   
 ### Journal, Magazine, Newspaper Articles  
-  
+  _coming soon_  
   
 ### Letters  
 _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._  
@@ -83,7 +83,8 @@ _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob
 ````
     
 ## Internal Structural Markup  
-
+The following elements exist as `child::` elements of the above text-type specific structural markup.  
+  
 ### Paragraphs  
 ### Page and Column Breaks   
 ### Translation Segmentation  
