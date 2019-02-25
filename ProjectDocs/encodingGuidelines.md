@@ -4,10 +4,10 @@ _Note: These guidelines define the Lili Elbe digital archive's encoding expectat
   
 ## Basic Structural Encoding 
   
-The Lili Elbe Digital Archive deals with several different types of texts including: entire books, book sections and chapters, diary entries, magazine and journal articles, and letters. Each of these different text-types require slightly different structuring of the TEI `<text>` element's descendant elements. In this section of the guidelines each text types' basic structure is defined.   
+The Lili Elbe Digital Archive deals with several different types of texts including: entire books, book sections and chapters, diary entries, magazine and journal articles, and letters. Each of these different text-types require slightly different structuring of the TEI `<text>` element's descendant elements. In this section of the guidelines each text-types' basic structure is defined.   
   
 ### Books / Book Sections / Book Chapters   
-_See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as example._  
+_See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as example._ For book sections and single chapters use the `<body>` element as the only `child::` of your `<text>` element. _See [Lili's Foreword](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/LiliForward/LiliForeword.xml) as example._  
 
 ````
 <text>
@@ -24,6 +24,7 @@ _See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as exampl
     <!--additional <p> elements should be used for each of the paragraphs in the various divisions
     and/or text sitting directly in <front>-->
   </front>
+  
   <body>
     <div type="chapter" n="#"><!--@n numerical value changes pending on chapter number in book-->
       <p style="heading">
@@ -37,6 +38,7 @@ _See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as exampl
     <!--use multiple div[@type="chapter"] elements to account for every chpt being encoded from the book-->
     
   </body>
+  
   <back>
     <!--place any text that appears after the chpt divisions in <back>;
     additional <p> elements should be used for each of the paragraphs within <back>-->
@@ -45,7 +47,7 @@ _See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as exampl
 ````
   
 ### Texts with Translations  
-Any text that has an English translation, except for the editions with translations, should have the following `<div>` structure surrounding that particular text-type's encoding structure. Therefore, if encoding a letter that has a translation then first implement this structural markup and then continue with the structural markup specified under the text-type "Letters" heading for the original-language text as well as the translated text. _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._   
+Any text that has an English translation, except for the editions with translations, should have the following `<div>` structure surrounding that particular text-type's encoding structure. For example, if encoding a letter that has a translation then first implement this "Texts with Translations" structural markup and then continue with the structural markup specified under the "Letters" text-type heading for the original-language text inside the `<div type="translation">` as well as the translated text inside the `<div type="original">`. _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._   
   
 ````
 <text>
