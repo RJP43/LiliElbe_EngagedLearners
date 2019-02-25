@@ -47,7 +47,7 @@ _See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as exampl
 ````
   
 ### Texts with Translations  
-Any text that has an English translation, except for the editions with translations, should have the following `<div>` structure surrounding that particular text-type's encoding structure. For example, if encoding a letter that has a translation then first implement this "Texts with Translations" structural markup and then continue with the structural markup specified under the "Letters" text-type heading for the original-language text inside the `<div type="translation">` as well as the translated text inside the `<div type="original">`. _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._   
+Any text that has an English translation, except for the editions with translations, should have the following `<div>` structure surrounding that particular text-type's encoding structure. For example, if encoding a letter that has a translation then first implement this "Texts with Translations" structural markup and then continue with the structural markup specified under the "Letters" text-type heading for the original-language text inside the `<div type="original">` as well as the translated text inside the `<div type="translation">`. _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._   
   
 ````
 <text>
@@ -61,11 +61,30 @@ Any text that has an English translation, except for the editions with translati
   </body>
 </text>
 ````
- 
+  
 ### Journal, Magazine, Newspaper Articles  
   
   
 ### Letters  
 _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._  
   
+````
+<div subtype="head">
+  <!--letter head; often includes address lines (with <placeName> elements) and date (in <date> elements)-->
+</div>
+<div subtype="body">
+  <salute><!--salutation; dear so and so--></salute>
+  <!--<p> elements should be used for each of the paragraphs making up the letter body-->
+  <closer>
+    <salute><!--valediction; best wishes--></salute>
+    <signed><!-- transcription of signature in a linked <persName> element-->
+  </closer>
+</div>
+````
+    
+## Internal Structural Markup  
+
+### Paragraphs  
+### Page and Column Breaks   
+### Translation Segmentation  
 
