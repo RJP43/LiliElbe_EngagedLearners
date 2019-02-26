@@ -15,29 +15,30 @@
                <persName key="">Sigurd Wegener Thomsen</persName>
             </author>           
             <respStmt>
-               <resp>Photographed <date>August 16-17, 2017</date> by</resp>
+               <resp>Photographed<date>August 16-17, 2017</date>by</resp>
                <persName ref="plc">Pamela Caughie</persName>
             </respStmt>
             <respStmt>
-               <resp>Images prepared from <date>November 2017</date> by</resp>
+               <resp>Images prepared on<date>November 2017</date>by</resp>
                <persName ref="mg">Matthew Gallagher</persName>
             </respStmt>
             <respStmt>
-               <resp>Transcription completed from <date>to 20 November,
-                     2017 </date> by</resp>
+               <resp>Transcription completed on<date>November 20,
+                     2017</date>by</resp>
                <persName>Kristin Jacobsen</persName>
             </respStmt>
             <respStmt>
-               <resp>Translation completed from <date>20 November 2017</date> by</resp>
+               <resp>Translation completed on<date>November 20, 2017</date>by</resp>
                <persName>Kristin Jacobsen</persName>
             </respStmt>
             <respStmt>
-               <resp>Translation reviewed in <date>July to September, November 2018</date>by</resp>
-               <persName>Marianne Ølholm, Maiken Boysen</persName>
+               <resp>Translation reviewed in<date>July to September, 2018</date>and<date>November 2018</date>by</resp>
+               <persName>Marianne Ølholm</persName>
+               <persName>Maiken Boysen</persName>
             </respStmt>
             <respStmt>
-               <resp>Encoding completed from <date>October to December,
-                     2018</date> by</resp>
+               <resp>Encoding completed from<date>October to December,
+                     2018</date>by</resp>
                <persName>Taylor Brown</persName>
             </respStmt>
             <respStmt>
@@ -46,7 +47,7 @@
                <persName>Nikolaus Wasmoen</persName>
             </respStmt>
             <respStmt>
-               <resp>Assigned <date>Spring 2019</date> Engaged Learner(s)</resp>
+               <resp>Assigned<date>Spring 2019</date>Engaged Learner(s)</resp>
                <persName>Aliana Capati</persName>
                <persName>Sophie Karrow</persName>
                <persName>Eleni Pamboukis</persName>
@@ -71,7 +72,7 @@
             <pubPlace>Chicago, IL, USA</pubPlace>
             <date>July 6th, 2019</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName>Ernst Harthern Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and Library)</orgName> in
+               <p>Reproduced by courtesy of the<orgName>Ernst Harthern Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and Library)</orgName> in
                      <placeName>Huddinge, Sweden</placeName>
                </p>
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
@@ -79,7 +80,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Page numbers are written in the center of the top of the page. Dates are written with the day as the first number and the month as the second. Red marks, presumably from crayon, are in the margins of some pages. </p>
+            <p>Page numbers are written in the center of the top of the page. Dates are written with the day as the first number and the month as the second. Red marks, presumably from crayon, are in the margins of some pages.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
