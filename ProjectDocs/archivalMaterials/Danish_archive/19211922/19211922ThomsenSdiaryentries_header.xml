@@ -4,13 +4,18 @@
 
 <teiHeader>
   <fileDesc>
-    <!-- For Letters -->
-    <titleStmt>
-      <title>Letter to <persName key=""><!-- Person Letter Addressed To --></persName></title>
-      <author>
-        <persName key=""><!-- Writer of Letter --></persName>
-      </author>
+    <!-- Danish Letters dates November 25, 1921-January 9, 1922 -->
+    <titleStmt> 
+      <encodingDesc> The text was normalized in the electronic transcription by obviously being translated to English and being documented/encoded through digital media. </encodingDesc> 
+      <profileDesc> in the letter dated 29/12, there are 2 underlined words. </profileDesc>
+     <translators><persName> Kristin Jacobsen</persName>and <persName> Maiken Boysen </persName></translators>
       <respStmt>
+        <resp> translated <date> April 11, 2018 </date></resp></respStmt>
+      <title>Letter to Lilli <persName key=""><!-- Person Letter Addressed To Lilli --></persName></title>
+      <author> Ernst Herthern</author>
+        <persName key=""><!-- Sigurd Wegener Thomsen --></persName>
+      <author> Ernst Harthern</author> 
+      <respStmt> 
         <resp>Photographed <date>August 16-17, 2017</date> by</resp>
         <persName ref="plc">Pamela Caughie</persName>
       </respStmt>
