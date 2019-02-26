@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader>
+    </fileDesc>
+        </title>
+<Lili Ilse Elvenes>
+    <persName key="lili"><!-- Writer of Letter; or author of text --></persName>
+    </author>           
+    <respStmt>
+        <resp>Photographed <date>August 16-17, 2017</date> by</resp>
+        <persName ref="plc">Pamela Caughie</persName>
+    </respStmt>
+    <respStmt>
+        <resp>Images prepared from <date>August to December, 2018</date> by</resp>
+        <persName ref="mg">Matthew Gallagher</persName>
+    </respStmt>
+    <respStmt>
+        <resp>Transcription completed from <20><!-- November --> to <!--November-->,
+            <!-- 2017 --></20> by</resp>
+        <persName><!-- Kristin Jacobsen --></persName>
+        <persName><!-- Maiken Boysen --></persName>
+    </respStmt>
+    <respStmt>
+        <resp>Translation completed from <20><!-- November --> to <!--November-->,
+            <!-- 2017 --></30> by</resp>
+        <persName><!-- Kristin Jacobsen --></persName>
+    </respStmt>
+    <respStmt>
+        <resp>Translation reviewed in  <date><!-- July --> to <!--September, November-->,
+            <!-- 2018 --></date> by</resp>
+        <persName><!-- Maiken Boysenr --></persName>
+        <persName><!-- Marianne Ølholm --></persName>
+    </respStmt>
+    <respStmt>
+        <resp>Encoding completed from <date><!-- October --> to <!--December-->,
+            <!-- 2018 --></date> by</resp>
+        <persName><!-- Tyler Monaghan --></persName>
+    </respStmt>
+    <respStmt>
+        <resp>Encoding assistance and/or XML proofing completed by</resp>
+        <persName ref="rjp">Rebecca J. Parker</persName>
+        <persName><!--Nikolaus Wasmoen --></persName>
+    </respStmt>
+    <respStmt>
+        <resp>Assigned <date>Spring 2019</date> Engaged Learner(s)</resp>
+        <persName><!-- Audrey McCan --></persName>
+        <persName><!-- Katherine Schoen --></persName>
+    </respStmt>
+    <respStmt>
+        <resp>XML transformed into HTML on
+            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+        <persName ref="rjp">Rebecca J. Parker</persName>
+    </respStmt>
+    <respStmt>
+        <resp>HTML proofing completed from <date><!-- month --> to <!--month-->,
+            <!-- year --></date> by</resp>
+        <persName><!-- Name of Encoder/Proofer --></persName>
+        <persName><!-- Name of Encoder/Proofer --></persName>
+    </respStmt>
+    <sponsor>Loyola University Chicago</sponsor>
+    <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+    <sponsor>Danish Arts Foundation</sponsor>
+    </titleStmt>
+    <publicationStmt>
+        <authority>Lili Elbe Digital Archive</authority>
+        <pubPlace>Chicago, IL, USA</pubPlace>
+        <date>July 6th, 2019</date>
+        <availability>
+            <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
+                <placeName><!-- Ernst Harthern Archives, Abertarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and Library), Huddinge, Sweden --></placeName>
+            </p>
+            <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                4.0 International licence.</licence>
+        </availability>
+    </publicationStmt>
+    <sourceDesc>
+        <p><!-- There is a tear or burn on the upper left corner. There is underlining in the middle of the third sentence as well as a word that looks like it begins with "j" underlined three times. The document has noticeable folds. --></p>
+    </sourceDesc>
+        </title>
+    </fileDesc>
+</teiHeader>
