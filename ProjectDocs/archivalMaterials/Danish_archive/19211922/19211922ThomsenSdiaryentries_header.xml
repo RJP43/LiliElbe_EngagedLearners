@@ -175,7 +175,8 @@
           </head>
           <p>
             <persName key="wegenerE">Uncle Einar</persName> and <persName key="wegenerG">Aunt Gerda</persName> left on the train at 10:20 via <placeName key="gedser">Gedser</placeName>
-          </p> in the letter dated 29/12, there are 2 underlined words. The dates are numbered by day first, then month.  
+          </p> 
+          <p>in the letter dated 29/12, there are 2 underlined words. The dates are numbered by day first, then month.</p>  
         </div> <!-- end div 9/1 -->
       </div> <!-- end div TRANSLATION -->
     </body>
