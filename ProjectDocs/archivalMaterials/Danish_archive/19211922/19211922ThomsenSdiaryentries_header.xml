@@ -4,7 +4,7 @@
 
 <teiHeader>
   <fileDesc>
-    <!-- Danish Letters dates November 25, 1921-January 9, 1922 -->
+    <-- Danish Letters dates November 25, 1921-January 9, 1922 -->
     <titleStmt> 
       <encodingDesc> The text was normalized in the electronic transcription by obviously being translated to English and being documented/encoded through digital media. </encodingDesc> 
       <profileDesc> in the letter dated 29/12, there are 2 underlined words. </profileDesc>
@@ -175,7 +175,7 @@
           </head>
           <p>
             <persName key="wegenerE">Uncle Einar</persName> and <persName key="wegenerG">Aunt Gerda</persName> left on the train at 10:20 via <placeName key="gedser">Gedser</placeName>
-          </p>
+          </p> in the letter dated 29/12, there are 2 underlined words. The dates are numbered by day first, then month.  
         </div> <!-- end div 9/1 -->
       </div> <!-- end div TRANSLATION -->
     </body>
