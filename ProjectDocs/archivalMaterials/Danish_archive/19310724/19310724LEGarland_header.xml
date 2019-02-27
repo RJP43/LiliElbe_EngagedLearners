@@ -47,7 +47,7 @@
             <respStmt>
                 <resp>Assigned <date>Spring 2019</date> Engaged Learner(s)</resp>
                 <persName>Katarzyna Klimek</persName>
-                <persName><!-- Name of Learner --></persName>
+                <persName>Joaquin Davalos</persName>
                 
             </respStmt>
             <respStmt>
@@ -58,8 +58,8 @@
             <respStmt>
                 <resp>HTML proofing completed from <date><!-- month --> to <!--month-->,
                     <!-- year --></date> by</resp>
-                <persName><!-- Name of Encoder/Proofer --></persName>
-                <persName><!-- Name of Encoder/Proofer --></persName>
+                <persName>Tyler Monaghan</persName>
+                <persName>Tyler Monaghan</persName>
             </respStmt>
             <sponsor>Loyola University Chicago</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -70,15 +70,16 @@
             <pubPlace>Chicago, IL, USA</pubPlace>
             <date>July 6th, 2019</date>
             <availability>
-                <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
-                    <placeName><!-- location of archive --></placeName>
+                <p>Reproduced by courtesy of the <orgName>Ernst Harthern Archices, Arbetarrorelsens Arkiv och Bibliotek (Swedish Labour Movement’s Archives and Library)</orgName> in
+                    <placeName>Huddinge, Sweden</placeName>
                 </p>
                 <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                     4.0 International licence.</licence>
             </availability>
         </publicationStmt>
         <sourceDesc>
-            <p><!-- describe anything you think worth noting about the physical text document from looking at the photograph; encoder's description must be in complete, logical sentences --></p>
+            <p>I found it noting that the letter is a little bit disorganized. There are sentences all over the page, including the top border. The writing is not only written horizontal, but also in a round ></p>
         </sourceDesc>
     </fileDesc>
 </teiHeader>
+
