@@ -2,29 +2,21 @@
 <!-- Hi Tyler! This is coming along nicely. My notes below, most of which refer to things we need to probably delineate further on the editorial/ encoding policy level, since these are things that are coming up across a lot of items. NW -->
 <?xml-model href="MIWschema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<teiHeader>
-  <fileDesc>
-    <-- Danish Letters dates November 25, 1921-January 9, 1922 -->
-    <titleStmt> 
-      <encodingDesc> The text was normalized in the electronic transcription by obviously being translated to English and being documented/encoded through digital media. </encodingDesc> 
-      <profileDesc> in the letter dated 29/12, there are 2 underlined words. </profileDesc>
-     <translators><persName> Kristin Jacobsen</persName>and <persName> Maiken Boysen </persName></translators>
-      <respStmt>
-        <resp> translated <date> April 11, 2018 </date></resp></respStmt>
-      <title>Letter to <persName> Lilli </persName></title>
-      <author> Ernst Herthern</author>
-        <persName> key"Sigurd Wegener Thomsen"  </persName>
-      <author> Ernst Harthern</author> 
-      <respStmt> 
-        <resp>Photographed <date>August 16-17, 2017</date> by</resp>
-        <persName ref="plc">Pamela Caughie</persName>
-      </respStmt>
-      <respStmt>
-        <resp>Images prepared from <date>August to December, 2018</date> by</resp>
-        <persName ref="mg">Matthew Gallagher</persName>
-      </respStmt>
-</teiHeader>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that should match their name in the Prosopography. For project team members and organizations use the @ref attribute and the two-letter (or three-letter, if available in the info provided) initials of the person on the persName/orgName elements. For dates notice there are some instances where exact dates are given and other places only month ranges are available. While in this template we have placed certain date formats in particular resp. statements, the matching is arbitrary and encoders should use whichever format fits the info provided for each resp. statement. -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- For Letters -->
+            <title>
+               Letter to <persName key=""><!-- Lilli --></persName>
+            </title>            
+            <!-- Diary entries of Sigurd Wegener Thomsen (nephew of Lili Ilse Elvenes) (document is in the Ernst Harthern archive) -->            
+               <title><!--Diary entries to Lili--></title>
+               <title xml:lang="eng"><!--Diary entries of Sigurd Wegener Thomsen (nephew of Lili Ilse Elvenes) (document is in the Ernst Harthern archive)--></title> 
 
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
