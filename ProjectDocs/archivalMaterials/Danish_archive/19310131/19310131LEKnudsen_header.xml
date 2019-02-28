@@ -10,8 +10,8 @@
                Letter to <persName key="knudsenP">Poul Knudsen</persName>
             </title>            
             <!-- For texts with translations (that are not letters) -->            
-               <title><!--Include title of original work here.--></title>
-               <title xml:lang="eng"><!--Include translated title of original work here!--></title> 
+            <title><!--Include title of original work here.--></title>
+            <title xml:lang="eng"><!--Include translated title of original work here!--></title> 
             <author>
                <persName key="lili">Lili Ilse Elvenes</persName>
             </author>           
@@ -38,7 +38,7 @@
             </respStmt>
             <respStmt>
                <resp>Encoding completed from <date>October to December,
-                     2018</date> by</resp>
+                  2018</date> by</resp>
                <persName ref="tnm">Tyler Monaghan</persName>
             </respStmt>
             <respStmt>
@@ -53,12 +53,12 @@
             </respStmt>
             <respStmt>
                <resp>XML transformed into HTML on
-                     <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                  <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
             </respStmt>
             <respStmt>
                <resp>HTML proofing completed from <date><!-- month --> to <!--month-->,
-                     <!-- year --></date> by</resp>
+                  <!-- year --></date> by</resp>
                <persName><!-- Name of Encoder/Proofer --></persName>
                <persName><!-- Name of Encoder/Proofer --></persName>
             </respStmt>
@@ -71,15 +71,15 @@
             <pubPlace>Chicago, IL, USA</pubPlace>
             <date>July 6th, 2019</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
-                     <placeName><!-- location of archive --></placeName>
+               <p>Reproduced by courtesy of the <orgName><!-- Ernst Harthern Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and Library) --></orgName> in
+                  <placeName><!-- Huddinge, Sweden --></placeName>
                </p>
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                   4.0 International licence.</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p><!-- describe anything you think worth noting about the physical text document from looking at the photograph; encoder's description must be in complete, logical sentences --></p>
+            <p><!-- The handwritten documents are written in cursive, which was customary for the time. The pages themselves are tinted a brownish-yellow with slight crinkles and a 4-way fold, but have otherwise been well preserved. The date has been provided in the upper right-hand corner of the first page.   --></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
