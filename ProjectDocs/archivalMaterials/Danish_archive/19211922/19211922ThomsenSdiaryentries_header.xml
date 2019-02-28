@@ -12,6 +12,11 @@
          <titleStmt>
             <!-- For Letters -->
             <title>
+		    <dates><!-- Danish Letters dates November 25, 1921-January 9, 1922 --></dates>
+    <titleStmt> 
+      <encodingDesc> The text was normalized in the electronic transcription by obviously being translated to English and being documented/encoded through digital media. </encodingDesc> 
+      <profileDesc> in the letter dated 29/12, there are 2 underlined words. </profileDesc>
+     <translators><persName> Kristin Jacobsen</persName>and <persName> Maiken Boysen </persName></translators>
                Letter to <persName key=""><!-- Lilli --></persName>
             </title>            
             <!-- Diary entries of Sigurd Wegener Thomsen (nephew of Lili Ilse Elvenes) (document is in the Ernst Harthern archive) -->            
