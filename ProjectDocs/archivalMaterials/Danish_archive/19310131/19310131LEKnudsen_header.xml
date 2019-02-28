@@ -71,15 +71,15 @@
             <pubPlace>Chicago, IL, USA</pubPlace>
             <date>July 6th, 2019</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName><!-- Ernst Harthern Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and Library) --></orgName> in
-                  <placeName><!-- Huddinge, Sweden --></placeName>
+               <p>Reproduced by courtesy of the <orgName>Ernst Harthern Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and Library)</orgName> in
+                  <placeName>Huddinge, Sweden</placeName>
                </p>
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                   4.0 International licence.</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p><!-- The handwritten documents are written in cursive, which was customary for the time. The pages themselves are tinted a brownish-yellow with slight crinkles and a 4-way fold, but have otherwise been well preserved. The date has been provided in the upper right-hand corner of the first page.   --></p>
+            <p>The handwritten documents are written in cursive, which was customary for the time. The pages themselves are tinted a brownish-yellow with slight crinkles and a 4-way fold, but have otherwise been well preserved. The date has been provided in the upper right-hand corner of the first page.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
