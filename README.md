@@ -6,7 +6,7 @@ This module was created for Dr. Pamela Caughie's [Spring 2019 ENGL-283 Transgend
 [Rebecca Parker's Office Hours and Tech. Team Calendar](http://bit.ly/2MdASUn)       
 Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!)    
 
-Project Manager - Emily Datskou - manintowoman@gmail.com  _backup email: ecottrell@luc.edu_  
+Project Manager - Emily Datskou - manintowoman@gmail.com  [_backup email: ecottrell@luc.edu_ ] 
   
 ## February Syllabus:  
 
