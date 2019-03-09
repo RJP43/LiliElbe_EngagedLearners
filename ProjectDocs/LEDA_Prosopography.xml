@@ -9,8 +9,18 @@
             <title>Lili Elbe Digital Archive Prosopography</title>
             <respStmt>
                <resp>XML template created by</resp>
-               <name xml:id="rjp">Rebecca J. Parker</name>
+               <persName ref="rjp">Rebecca J. Parker</persName>
                <note>Created on <date when="2019-02-17">February 17, 2019</date>.</note>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="rjp">Rebecca J. Parker</persName>
+               <!--RJP: add other encoders here-->
+            </respStmt>
+            <respStmt>
+               <resp>Prosopography terms and IDs determined by</resp>
+               <persName ref="plc">Pamela Caughie</persName>
+               <persName ref="sm">Sabine Meyer</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -24,35 +34,450 @@
       </fileDesc>
    </teiHeader>
    <text>
-      <body>
+      <body><!-- consider source attribute on each name to indicate language/edition -->
          <listPlace>
             <head>List of places mentioned in Lili Elbe Digital Archive</head>
+            <place xml:id="dreiMasken">
+               <placeName>Drei Masken</placeName>
+               <note>German publishing house</note><!-- RJP: wondering if this should be an org -->
+            </place>
             <place xml:id="europe">
                <placeName>Europe</placeName><!-- list primary name first -->
                <placeName>Europa</placeName><!-- could add additional names -->
                <!-- opportunity to add note with description that could appear on mouseover --><note/>
             </place>
+            <place xml:id="ullstein">
+               <placeName>Ullstein</placeName>
+               <note>German publishing house</note><!-- RJP: wondering if this should be an org -->
+            </place>
          </listPlace>
          <listPerson>
-            <head>List of people mentioned in Lili Elbe Digital Archive</head>            
-            <person xml:id="lili" source="narrative historical" synch="#sparreAn #wegenerE"><!-- notice linking between xml:ids with synch attribute; source attribute could be a place for us to group by narrative vs historical OR editions vs supplemental materials; xml:id matches our current key attribute value -->
-               <persName>Lili Elbe</persName><!-- list primary name first -->
+            <head>List of people mentioned in Lili Elbe Digital Archive</head>
+            <person xml:id="aphrodite" source="fictional">
+               <persName>Aphrodite</persName>
+               <note>mythological</note>
+            </person>
+            <person xml:id="arcJoan" source="historical">
+               <persName source="#A1">Joan of Arc</persName>
+               <persName source="#D1 #TR #G1">Jeanne D'Arc</persName>
+               <note/>
+            </person>
+            <person xml:id="arns" source="fictional">
+               <persName>Professor Arns</persName>
+               <persName>Arns</persName>
+               <persName source="#D1">Professor Arno</persName>
+               <note>Historical figure not identified</note>
+            </person>
+            <person xml:id="botticelli" source="historical">
+               <persName>Sandro Botticelli</persName>
+               <persName source="#A1 #D1 #TR">Botticelli</persName>
+               <birth>1445</birth>
+               <death>1510</death>
+               <note/>
+            </person>
+            <person xml:id="bourbons" source="historical"><!-- RJP: wondering if this should be an org -->
+               <persName source="#A1 #TR">the Bourbons</persName>
+               <persName source="#D1">Bourbon'erne</persName>
+               <persName source="#G1">Bourbonen</persName>
+               <note>French royal family</note>
+            </person>
+            <person xml:id="bramsonK" source="historical">
+               <persName>Karen Bramson</persName>
+               <note>Danish author</note>
+            </person>
+            <person xml:id="brandsetterO" source="historical">
+               <persName>Oscar Brandstetter</persName>
+               <note>German publisher</note>
+            </person>
+            <person xml:id="brotherChris" source="fictional" synch="#thomsenTC">
+               <persName source="#A1 #TR">brother-in-law</persName>
+               <persName source="#A1 #G1">Christian</persName>
+               <persName source="#D1">svoger</persName>
+               <persName source="#G1">de Mann seiner Schwester</persName>
+               <persName source="#G1">des Schwagers</persName>
+               <note><persName key="sparreAn">Andreas Sparre</persName>'s sister's husband.</note>
+            </person>
+            <person xml:id="brotherSing" source="fictional" synch="#wegenerHo">
+               <persName source="#A1 #TR">brother</persName>
+               <persName source="#D1">broder</persName>
+               <persName source="#G1">brüder</persName>
+               <note><persName key="sparreAn">Andreas Sparre</persName>'s unnamed brother in narrative</note>
+            </person>
+            <person xml:id="brotherPlur" source="fictional" synch="#wegenerHo #wegenerHe"><!-- RJP: wondering if this should be an org -->
+               <persName source="#A1 #TR">brothers</persName>
+               <persName source="#D1">brødre</persName>
+               <persName source="#G1">beiden brüder</persName>
+               <persName source="#G1">brüdern</persName>
+               <note><persName key="sparreAn">Andreas Sparre</persName>'s unnamed brothers in narrative</note>
+            </person>
+            <person xml:id="casanova" source="fictional">
+               <persName>Casanova</persName>
+               <note/>
+            </person>
+            <person xml:id="cousin" source="fictional">
+               <persName source="#A1 #TR">cousin</persName>
+               <persName source="#D1">fætter</persName>
+               <persName source="#G1">vetter</persName>
+               <note><persName key="sparreAn">Andreas Sparre</persName>'s unnamed cousin in narrative; historical figure not identified</note>
+            </person>
+            <person xml:id="cupid" source="fictional">
+               <persName source="#A1 #TR">Cupid</persName>
+               <persName source="#D1 #G1">Amor</persName>
+               <note><persName key="lili">Lili</persName> plays/dresses as Cupid in narrative</note>
+            </person>
+            <person xml:id="father" source="fictional" synch="#wegenerV">
+               <persName source="#A1 #TR">father</persName>
+               <persName source="#D1">fa'r</persName>
+               <persName source="#G1">vater</persName>
+               <note><persName key="sparreAn">Andreas Sparre</persName>'s father in narrative</note>
+            </person>
+            <person xml:id="feruzziRi" source="fictional" synch="#portaF">
+               <persName>Ridolfo Feruzzi</persName>
+               <persName>Feruzzi</persName>
+               <note><persName key="sparreGre">Grete Sparre</persName>'s second-husband/love interest in narrative</note><!-- RJP: have Pamela check this note -->
+            </person> 
+            <person xml:id="flavio" source="fictional">
+               <persName>Signora Favio</persName>
+               <persName>Favio</persName>
+               <note>Historical figure not identified</note>
+            </person>
+            <person xml:id="francois" source="fictional">
+               <persName source="#A1 #D1 #TR">Monsieur François</persName>
+               <persName source="#A1 #D1 #TR">François</persName>
+               <note/>
+            </person>
+            <person xml:id="gebhard" source="fictional" synch="#gohrbandt">
+               <persName source="#A1 #TR #D1">Dr. Gebhard</persName>
+               <persName source="#A1 #TR #D1 #G1">Professor Gebhard</persName>
+               <persName source="#A1 #TR">senior physician</persName>
+               <persName source="#D1">Oberarzt</persName>
+               <note/>
+            </person>
+            <person xml:id="gohrbandt" source="historical" synch="#gebhard">
+               <persName>Edwin Gohrbandt</persName>
+               <persName>Professor G</persName>
+               <note/>
+            </person>
+            <person xml:id="guyot" source="Historical">
+               <persName source="#A1 #G1">Ch. Gyuot</persName>
+               <persName>Charles Guyot</persName>
+               <note/>
+            </person>
+            <person xml:id="hardenfeld" source="fictional" synch="#hirschfeld">
+               <persName source="#A1 #D1 #TR">Monsieur François</persName>
+               <persName source="#A1 #D1 #TR">François</persName>
+               <note/>
+            </person>
+            <person xml:id="haslund" source="historical">
+               <persName>Ole Georg Haslund</persName>
+               <note>Danish art dealer who exhibited Einar's and Gerda's work</note><!-- RJP: wondering if this should be an org; is this an individual? -->
+            </person>
+            <person xml:id="hasselbalchS" source="historical">
+               <persName>Steen Hasselbach</persName>
+               <note>Danish publisher</note>
+            </person>
+            <person xml:id="harthernE">
+               <persName>Ernst Harthern</persName>
+               <persName>Ernst Ludwig Harthern Jacobsen</persName>
+               <note/>
+            </person>
+            <person xml:id="hermes" source="fictional">
+               <persName>Hermes</persName>
+               <note>mythological</note>
+            </person>
+            <person xml:id="hirschfeld" source="historical" synch="#hardenfeld">
+               <persName>Magnus Hirschfeld</persName>
+               <note/>
+            </person>
+            <person xml:id="hvappe" source="fictional historical">
+               <persName source="#D1 #TR">Hvappe</persName>
+               <persName source="#G1">Hauwitz</persName>
+               <note>Not mentioned in <ref source="#A1">A1</ref>; name of Sparres' dog in narrative and name of <persName key="wegenerE">Einar</persName>'s and <persName key="wegenerG">Gerda</persName>'s dog</note>
+            </person>
+            <person xml:id="hvideIng" source="fictional" synch="#knudsenV">
+               <persName>Inger Hvide</persName>
+               <persName>Inger</persName>
+               <note/>
+            </person>
+            <person xml:id="hvideNiels" source="fictional" synch="#knudsenP">
+               <persName>Niels Hvide</persName>
+               <persName>Niels</persName>
+               <persName>Hjalmar Hvide</persName>
+               <note>Hjalmar was the fictious name first used for Niels Hvide</note><!-- RJP: check note with Pamela -->
+            </person>
+            <person xml:id="jager" source="historical">
+               <persName>Hans Henrik Jæger</persName>
+               <persName source="#A1 #G1">Hans Jager</persName>
+               <note>Not mentioned in <ref source="#D1">D1</ref>; Norweigan writer and activist</note>
+            </person>
+            <person xml:id="karner" source="fictional">
+               <persName source="#A1 #D1 #TR">Dr. Karner</persName>
+               <persName source="#G1">Doktor Karner</persName>
+               <note>Historical figure not identified</note>
+            </person>
+            <person xml:id="keller" source="historical">
+               <persName>Lilimoe</persName>
+               <note>Lilimoe is a nickname given to <persName key="kellerH">Herta Keller</persName>'s husband in <ref source="#19310627LEKellerH">German Letter 2</ref></note>
+            </person>
+            <person xml:id="kellerH" source="historical">
+               <persName>Herta Keller</persName>
+               <note>Lili's friend; mentioned in Danish letters, but identity is unknown</note>
+            </person>
+            <person xml:id="king" source="historical">
+               <persName source="#A1 #TR">the King</persName>
+               <persName source="#D1">Kongen</persName>
+               <persName source="#G1">König</persName>
+               <note>Ruled <placeName>Denmark</placeName> from 1912 to 1947</note>
+            </person>
+            <person xml:id="knudsenP" source="historical" synch="#hvideNiels">
+               <persName>Poul Knudsen</persName>
+               <note>Husband of <persName key="knudsenV">Vibeke Knudsen</persName></note>
+            </person>
+            <person xml:id="knudsenV" source="historical" synch="#hvideIng">
+               <persName>Vibeke Knudsen</persName>
+               <note>Wife of <persName key="knudsenP">Poul Knudsen</persName></note>
+            </person>
+            <person xml:id="kreutz" source="fictional" synch="#warnekros">
+               <persName source="#A1 #D1 #G1 #TR">Kreutz Werner</persName>
+               <persName source="#A1 #D1 #TR">Kreutz</persName>
+               <persName source="#A1 #D1 #TR">the professor</persName>
+               <persName source="#A1 #D1 #TR">Professor Werner</persName>
+               <persName source="#G1">deutschen Professor</persName>
+               <persName source="#G1">der Professor</persName>
+               <persName source="#G1">Der/Des deutsche(n) Arzt(es)</persName>
+               <note/>
+            </person>
+            <person xml:id="larsen" source="fictional">
+               <persName source="#A1 #G1">Anna Larsen</persName>
+               <persName source="#D1 #TR">the actress</persName>
+               <note>Modeled on <persName>Anna Larssen</persName>, a Danish actress</note>
+            </person>
+            <person xml:id="lejeuneClaude" source="fictional">
+               <persName>Claude Lejeune</persName>
+               <persName>Claude</persName>
+               <note>Historical figure not identified</note>
+            </person>
+            <person xml:id="lili" source="fictional historical" synch="#sparreAn #wegenerE"><!-- notice linking between xml:ids with synch attribute; source attribute could be a place for us to group by narrative vs historical OR editions vs supplemental materials; xml:id matches our current key attribute value -->
+               <persName>Lili</persName><!-- list primary name first -->
+               <persName>Lili Elbe</persName>
                <persName>Lili Ilse Elvenes</persName><!-- could add additional names -->
                <persName>Lili Courtaud</persName>
                <persName>Lili Courtot</persName>
-               <!-- opportunity to add note with description that could appear on mouseover --><note/>
+               <note>Unable to verify that Lili Elbe used the pseudonym Lili Courtaud outside of its use in the narrative</note><!-- opportunity to add note with description that could appear on mouseover -->
             </person>
-            <person xml:id="sparreAn" source="narrative" synch="#wegenerE #lili">
-               <persName>Andreas Sparre</persName>
+            <person xml:id="madonna" source="fictional">
+               <persName>Madonna</persName>
+               <note>Not mentioned in <ref source="#G1">G1</ref>; religious reference</note>
+            </person>
+            <person xml:id="magnusE" source="historical">
+               <persName>Erwin Magnus</persName>
+               <note>German literary agent, author and translator</note>
+            </person>
+            <person xml:id="matron" source="fictional">
+               <persName source="#A1 #TR">the Matron</persName>
+               <persName source="#D1">Forstanderinden</persName>
+               <persName source="#G1">Oberin</persName>
+               <persName source="#G1">Frau Oberin</persName>
+               <note>Modeled on <persName>Margarete Leifert</persName>, or possibly Seifert, a nurse at the <placeName key="womensClinic"><placeName key="dresden">Dresden</placeName> clinic</placeName></note>
+            </person>
+            <person xml:id="mother" source="fictional" synch="#wegenerAM">
+               <persName source="#A1 #TR">mother</persName>
+               <persName source="#D1">mo'r</persName>
+               <persName source="#G1">mutter</persName>
+               <note><persName key="sparreAn">Andreas Sparre</persName>'s mother in narrative</note>
+            </person>
+            <person xml:id="nephew" source="fictional" synch="#wegenerS">
+               <persName source="#A1 #TR">nephew</persName>
+               <persName source="#D1">søstersøn</persName>
+               <persName source="#G1">sohn ihrer schwester</persName>
+               <note><persName key="sparreAn">Andreas Sparre</persName>'s nephew in narrative</note>
+            </person>
+            <person xml:id="niece" source="fictional">
+               <persName>niece</persName>
+               <note>Historical figure not identified</note>
+            </person>
+            <person xml:id="nurseHannah" source="fictional">
+               <persName source="#A1">Nurse Hannah</persName>
+               <persName source="#A1">Sister Hannah</persName>
+               <persName source="#D1">Søster Hanna</persName>
+               <persName source="#G1">Schwester Hanna</persName>
+               <persName source="#TR">Sister Hanna</persName>
+               <note>Historical figure not identified</note>
+            </person>
+            <person xml:id="nurseMargaret" source="fictional">
+               <persName source="#A1">Nurse Margaret</persName>
+               <persName source="#A1">Sister Margaret</persName>
+               <persName source="#D1">Søster Frieda</persName>
+               <persName source="#G1">Schwester Margarete</persName>
+               <persName source="#G1">Schwester Frieda</persName>
+               <persName source="#TR">Sister Frieda</persName>
+               <note>Historical figure not identified</note>
+            </person>
+            <person xml:id="nurseMarianne" source="fictional">
+               <persName source="#D1">Søster Marianne</persName>
+               <persName source="#TR">Sister Marianne</persName>
+               <note>Not mentioned in <ref source="#A1">A1</ref> or <ref source="#G1">G1</ref>; Historical figure not identified</note>
+            </person>
+            <person xml:id="pan" source="fictional">
+               <persName>Pan</persName>
+               <note>Not mentioned in <ref source="#G1">G1</ref></note>
+            </person>
+            <person xml:id="persenEb" source="fictional">
+               <persName source="#A1 #G1">Ebba Persen</persName>
+               <persName source="#D1 #TR">the beautiful dancer</persName>
+               <note>Modeled on <persName>Ulla Britta Poulsen</persName></note>
+            </person>
+            <person xml:id="persenIv" source="fictional">
+               <persName source="#A1 #G1">Iven Persen</persName>
+               <persName source="#D1 #TR">the Royal Theatre's greatest actor</persName>
+               <note>Modeled on <persName>Johannes Poulsen</persName></note>
+            </person>
+            <person xml:id="plato" source="historical">
+               <persName source="#A1 #D1 #TR">Plato</persName>
+               <persName source="#G1">Platon</persName>
+               <note>Athenian philosopher</note>
+            </person>
+            <person xml:id="praxiteles" source="historical">
+               <persName>Praxiteles</persName>
+               <note>Athenian sculptor</note>
+            </person>
+            <person xml:id="rene" source="fictional">
+               <persName>Monsieur René</persName>
+               <note>Possibly modeled on <persName>Dr. Charles HyverNaud</persName>, mayor of <placeName>Beaugency</placeName> from 1908 to 1940, or his assistants, <persName>Moïse Adrien Bruant</persName>, <persName>Gabriel Descauses</persName>, and <persName>Henri René Goujon</persName></note>
+            </person>
+            <person xml:id="rossiniEl" source="fictional" synch="#allatiniH">
+               <persName>Elena Rossini</persName>
+               <persName>Elena</persName>
                <note/>
             </person>
+            <person xml:id="rossiniEr" source="fictional" synch="#allatiniE">
+               <persName>Ernesto Rossini</persName>
+               <persName>Ernesto</persName>
+               <note/>
+            </person>
+            <person xml:id="ruth" source="fictional">
+               <persName>Ruth</persName>
+               <note>Modeled on <persName>Ruth Hanna Harthern-Thaning</persName>, <persName key="harthernE">Ernst Harthern</persName>'s daughter</note>
+            </person>
+            <person xml:id="schildtBar" source="fictional">
+               <persName>Baronin Schildt</persName>
+               <note>Modeled on <persName>Anne-Marie Goldschmidt-Rothschild</persName></note>
+            </person>
+            <person xml:id="schumannE" source="historical">
+               <persName>Elisabeth Schumann</persName>
+               <note>German opera singer</note>
+            </person>
+            <person xml:id="sister" source="fictional">
+               <persName source="#A1 #TR">sister</persName>
+               <persName source="#D1">søster</persName>
+               <persName source="#G1">schwester</persName>
+               <note><persName key="sparreAn">Andreas Sparre</persName>'s sister in narrative; modeled on <persName>Christiane Wegener Thomsen</persName>, <persName key="wegenerE">Einar</persName>'s sister</note>
+            </person>
+            <person xml:id="sisterInLaw" source="fictional">
+               <persName source="#A1 #TR">sister-in-law</persName>
+               <persName source="#D1">svigerinde</persName>
+               <persName source="#G1">schwägerin</persName>
+               <persName source="#G1">frau des bruders</persName>
+               <note>Modeled on <persName>Musse</persName>, a nickname for <persName key="#wegenerHo">Holger Wegener</persName>'s wife</note>
+            </person>
+            <person xml:id="sparreAn" source="fictional" synch="#wegenerE #lili">
+               <persName>Andreas Sparre</persName>
+               <persName>Andreas</persName>
+               <persName source="#G1">Monsier Sparre</persName>
+               <note/>
+            </person>
+            <person xml:id="sparreGre" source="fictional" synch="#wegenerG">
+               <persName>Grete Sparre</persName>
+               <persName>Grete</persName>
+               <persName>Mrs. Sparre</persName>
+               <persName source="#G1">Madame Sparre</persName>
+               <note/>
+            </person>
+            <person xml:id="steinach" source="historical">
+               <persName>Steinach</persName>
+               <persName>Eugen Steinach</persName>
+               <note/>
+            </person>
+            <person xml:id="stuart" source="fictional">
+               <persName source="#A1 #G1">Julie Stuart</persName>
+               <persName source="#D1 #TR">Julie Humbert</persName>
+               <note>Historical figure not identified</note>
+            </person>
+            <person xml:id="tempeteJean" source="fictional">
+               <persName>Jean Tempete</persName>
+               <persName>Jean Tempète</persName>
+               <persName>Jean Tempête</persName>
+               <persName>Jean Tempéte</persName>
+               <persName>Tempète</persName>
+               <note>Modeled on <persName>Léon Leyritz</persName>, French sculptor</note>
+            </person>
+            <person xml:id="trempe" source="fictional">
+               <persName source="#A1 #TR">Count de la Trempe</persName>
+               <persName source="#G1">Graf</persName>
+               <persName source="#G1">le Comte de Trempe</persName>
+               <persName source="#D1">Grev de la Trempe</persName>
+               <note>Historical figure not identified</note>
+            </person>
+            <person xml:id="wagner" source="historical">
+               <persName>Wagner</persName>
+               <persName>Richard Wagner</persName>
+               <note>German composer</note>
+            </person>
+            <person xml:id="wardalKar" source="fictional">
+               <persName source="#A1">Karen Wardal</persName>
+               <persName source="#A1">Karen Wardel</persName>
+               <persName source="#G1">Karen Wärdal</persName>
+               <persName source="#D1 #TR">Karen Warren</persName>
+               <note>Possibly modeled on <persName>Sascha Wamberg</persName></note>
+            </person>
+            <person xml:id="warnekros" source="historical" synch="#kreutz">
+               <persName>Kurt Warnekros</persName>
+               <persName>Warnekros</persName>
+               <note/>
+            </person>
+            <person xml:id="watteau" source="historical">
+               <persName>Jean-Antoine Watteau</persName>
+               <persName>Watteau</persName>
+               <note>Not mentioned in <ref source="#G1">G1</ref>; French painter</note>
+            </person>
+            <person xml:id="wegenerAM" source="historical" synch="#mother">
+               <persName>Ane Marie Wegener</persName>
+               <note><persName key="wegenerE">Einar Wegener</persName>'s mother</note>
+            </person> 
             <person xml:id="wegenerE" source="historical" synch="#sparreAn #lili">
                <persName>Einar Wegener</persName>
+               <persName>Einar</persName>
+               <persName>Bé</persName>
                <note/>
+            </person> 
+            <person xml:id="wegenerG" source="historical" synch="#sparreGre">
+               <persName>Gerda Wegener</persName>
+               <persName>Gerda</persName>
+               <note/>
+            </person> 
+            <person xml:id="wegenerHe" source="historical" synch="#brotherSing #brotherPlur">
+               <persName>Henrik Wegener</persName>
+               <note><persName key="wegenerE">Einar Wegener</persName>'s brother</note>
             </person>
-            <person xml:id="sparreGre" source="narrative" synch="#wegenerG">
-               <persName>Grete Sparre</persName>
-               <note/>
+            <person xml:id="wegenerHo" source="historical" synch="#brotherSing #brotherPlur">
+               <persName>Holger Wegener</persName>
+               <note><persName key="wegenerE">Einar Wegener</persName>'s brother</note>
+            </person>
+            <person xml:id="wegenerS" source="historical" synch="#nephew">
+               <persName>Sigurd Wegener Thomsen</persName>
+               <note><persName key="wegenerE">Einar Wegener</persName>'s nephew; son of <persName>Christiane Wegener Thomsen</persName>, Einar's sister </note>
+            </person>
+            <person xml:id="wegenerV" source="historical" synch="#father">
+               <persName>Vilhelm Wegener</persName>
+               <note><persName key="wegenerE">Einar Wegener</persName>'s father</note>
+            </person>
+            <person xml:id="wilde" source="historical">
+               <persName>Oscar Wilde</persName>
+               <note>British writer</note>
+            </person>
+            <person xml:id="zeus" source="fictional">
+               <persName>Zeus</persName>
+               <note>mythological</note>
             </person>
          </listPerson>
       </body>
