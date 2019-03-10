@@ -13,9 +13,8 @@
                <note>Created on <date when="2019-02-17">February 17, 2019</date>.</note>
             </respStmt>
             <respStmt>
-               <resp>Encoding completed by</resp>
+               <resp>Encoding completed on <date when="2019-03-10">March 10, 2019</date> by</resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
-               <!--RJP: add other encoders here-->
             </respStmt>
             <respStmt>
                <resp>Prosopography IDs, terms, and notes determined by</resp>
@@ -33,9 +32,17 @@
       </fileDesc>
    </teiHeader>
    <text>
-      <body><!-- consider source attribute on each name to indicate language/edition -->
+      <body>
          <listPlace>
             <head>List of places mentioned in Lili Elbe Digital Archive</head>
+            <!--
+               Sample Place Entry
+            <place xml:id="europe">
+               <placeName>Europe</placeName><!-\- list primary name first -\->
+               <placeName>Europa</placeName><!-\- could add additional names -\->
+               <!-\- opportunity to add note with description that could appear on mouseover -\-><note/>
+            </place>
+            -->
             <place xml:id="academyArt">
                <placeName source="#A1">Art Academy</placeName>
                <placeName source="#D1">Kunstakademi</placeName>
@@ -163,9 +170,9 @@
                <note>Mountain range in <placeName>Germany</placeName></note>
             </place>
             <place xml:id="europe">
-               <placeName>Europe</placeName><!-- list primary name first -->
-               <placeName>Europa</placeName><!-- could add additional names -->
-               <!-- opportunity to add note with description that could appear on mouseover --><note/>
+               <placeName>Europe</placeName>
+               <placeName>Europa</placeName>
+               <note/>
             </place>
             <place xml:id="facciano">
                <placeName>Facciano</placeName>
@@ -510,6 +517,17 @@
          </listPlace>
          <listPerson>
             <head>List of people mentioned in Lili Elbe Digital Archive</head>
+            <!--
+               Sample Person Entry
+            <person xml:id="lili" source="fictional historical" synch="#sparreAn #wegenerE"><!-\- notice linking between xml:ids with synch attribute; source attribute could be a place for us to group by narrative vs historical OR editions vs supplemental materials; xml:id matches our current key attribute value -\->
+               <persName>Lili</persName><!-\- list primary name first -\->
+               <persName>Lili Elbe</persName>
+               <persName>Lili Ilse Elvenes</persName><!-\- could add additional names -\->
+               <persName>Lili Courtaud</persName>
+               <persName>Lili Courtot</persName>
+               <note>Unable to verify that Lili Elbe used the pseudonym Lili Courtaud outside of its use in the narrative</note><!-\- opportunity to add note with description that could appear on mouseover -\->
+            </person>
+            -->
             <person xml:id="allatiniE" source="historical" synch="#rossiniEr">
                <persName>Eric Moïse Allatini</persName>
                <note>Husband of <persName key="allatiniH">Hélène Allatini</persName></note>
@@ -763,13 +781,13 @@
                <persName>Claude</persName>
                <note>Historical figure not identified</note>
             </person>
-            <person xml:id="lili" source="fictional historical" synch="#sparreAn #wegenerE"><!-- notice linking between xml:ids with synch attribute; source attribute could be a place for us to group by narrative vs historical OR editions vs supplemental materials; xml:id matches our current key attribute value -->
-               <persName>Lili</persName><!-- list primary name first -->
+            <person xml:id="lili" source="fictional historical" synch="#sparreAn #wegenerE">
+               <persName>Lili</persName>
                <persName>Lili Elbe</persName>
-               <persName>Lili Ilse Elvenes</persName><!-- could add additional names -->
+               <persName>Lili Ilse Elvenes</persName>
                <persName>Lili Courtaud</persName>
                <persName>Lili Courtot</persName>
-               <note>Unable to verify that Lili Elbe used the pseudonym Lili Courtaud outside of its use in the narrative</note><!-- opportunity to add note with description that could appear on mouseover -->
+               <note>Unable to verify that Lili Elbe used the pseudonym Lili Courtaud outside of its use in the narrative</note>
             </person>
             <person xml:id="madameB" source="historical">
                <persName>Madame de B.</persName>
@@ -1008,7 +1026,7 @@
             </person>
             <person xml:id="wegenerS" source="historical" synch="#nephew">
                <persName>Sigurd Wegener Thomsen</persName>
-               <note><persName key="wegenerE">Einar Wegener</persName>'s nephew; son of <persName>Christiane Wegener Thomsen</persName>, Einar's sister </note>
+               <note><persName key="wegenerE">Einar Wegener</persName>'s nephew; son of <persName>Christiane Wegener Thomsen</persName>, Einar's sister</note>
             </person>
             <person xml:id="wegenerV" source="historical" synch="#father">
                <persName>Vilhelm Wegener</persName>
