@@ -1,6 +1,6 @@
 # Using Git through Command Line  
   
-This file has been modified from its original rendition made available via [@ebeshero's DHClass-Hub](https://github.com/ebeshero/DHClass-Hub). **Further Reading: My ["Explain Git Shell"](http://dh.newtfire.org/explainGitShell.html) tutorial hosted on newtfire.org at the University of Pittsburgh at Greensburg**   
+This file has been modified from its original rendition made available via [@ebeshero's DHClass-Hub](https://github.com/ebeshero/DHClass-Hub). **Further Reading: [@RPJ43 "Explain Git Shell"](http://dh.newtfire.org/explainGitShell.html) tutorial hosted on newtfire.org at the University of Pittsburgh at Greensburg**   
   
 ## Quick reference
 * Open terminal / command line shell
