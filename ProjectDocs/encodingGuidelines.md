@@ -90,7 +90,8 @@ The following elements exist as `child::` elements of the above text-type specif
 The `<p>` element can only have the following attribute: `@style` `@rend`  
 The contents of the `<p>` element should be the exact text from the original, print rendtion or child:: elements   
   
- **attribute examples**  
+ **Examples of Acceptable Attributes and Attribute-Values**    
+   
  `<p style="pubInfo">Translated from the German by <persName key="stenningHJ">H. J. STENNING</persName></p>`  
  _should only be used to indicate content is publication information_   
    
@@ -102,12 +103,26 @@ _should mimic Text/Symbols dividing text in original, print rendition; is the p 
 ### Collation Paragraphs
 _note: Besides letter and diary entries collation IDs for paragraphs are added in the pipeline process transforming to HTML. See [A1/B1 Paragraph Numbering XSLT](https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/numberingParagraphs_MIW_A1andB1.xsl) for example._   
   
-`<p style="letter" xml:id="a1c09l01p01">Letter Text</p>`  
-`<p style="GreteDiary" xml:id="a1c10d01p01">Diary Text</p>`  
-`<p style="LiliDiary" xml:id="a1c18d01p01">Diary Text</p>`
+`<p style="letter" xml:id="a1c00l00p00">Letter Text</p>`  
+`<p style="GreteDiary" xml:id="a1c00d00p00">Diary Text</p>`  
+`<p style="LiliDiary" xml:id="a1c00d00p00">Diary Text</p>`
 
-_note: change xml:id attribute-value to match the paragraph collation ID found in the [collation spreadsheets](https://gitlab.com/ctsdh/lili-elbe-code/tree/master/collationSpreadsheets). Every paragraph of each letter has a unique ID reflecting the edition, chapter, letter|diary entry #, and paragraph # (within the letter|diary entry)_
+_note: change xml:id attribute-value to match the paragraph collation ID found in the [collation spreadsheets](https://gitlab.com/ctsdh/lili-elbe-code/tree/master/collationSpreadsheets). Every paragraph of each letter has a unique ID reflecting the edition (a1 | b1 | g1 | d1 | tr |ts), chapter, letter|diary entry #, and paragraph # (within the letter|diary entry)_
   
-### Page and Column Breaks   
+### Page and Column Breaks  
+  
+**Recurring Page Headers**  
+		`<pb style="heading" rend="MIW"/>`  
+		`<pb style="heading" rend="Introduction"/>`  
+		`<pb style="heading" rend="Foreword"/>`  
+**Page Number**
+_When a page number literally appears in the original, print rendition capture it with the following encoding:_
+`<pb style="page" n="v"/>`  
+  
+`<pb style="page" n="16"/>`  
+  	
+_Capture artificial page numbers (either of the Word Document transcriptions or implied when text continues on a new page) with the following encoding:_  
+`<pb n="18"/>`  
+  
 ### Translation Segmentation  
 
