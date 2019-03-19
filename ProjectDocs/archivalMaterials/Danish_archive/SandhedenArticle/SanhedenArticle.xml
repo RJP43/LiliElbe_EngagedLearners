@@ -3,24 +3,28 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="MIWschema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- ENCODE COMMENTS FROM TRANSLATOR LAST -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>En bog om, hvordan Hr. Wegener blev til Frøken Wegener.</title> 
+            <title>En bog om, hvordan Hr. Wegener blev til Frøken Wegener.</title>
             <respStmt>
-               <resp>Translation completed on <date>11 October 2017</date> by</resp>
+               <resp>Translation completed on <date>11 October 2017</date> by<persName>Marianne
+                     Ølholm</persName></resp>
                <persName>Marianne Ølholm</persName>
-            </respStmt> <!-- KEJCAT 2019-02-19: Why do we need respStmt nested twice? -->
+            </respStmt>
             <respStmt>
-               <resp>Encoding updated on <date when="2019-02-19">19 February 2019</date></resp>
+               <resp>Encoding updated on <date when="2019-03-18">21 February 2019</date></resp>
                <persName ref="@kejcat">Kristin Jacobsen</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p> <!-- KEJCAT 2019-02-19: No publication information available in translation Word document or jpeg of original. -->
+            <p>Publication Information</p>
+            <!-- KEJCAT 2019-02-19: No publication information available in translation Word document or jpeg of original. -->
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p> <!-- KEJCAT 2019-02-19: No source information available in translation Word document or jpeg of original. -->
+            <p>Information about the source</p>
+            <!-- KEJCAT 2019-02-19: No source information available in translation Word document or jpeg of original. -->
             <!-- KEJCAT 2019-02-19: Do I need the sponsor or publicationStmt tags in the header? -->
          </sourceDesc>
       </fileDesc>
@@ -28,62 +32,100 @@
    <text>
       <body>
          <div type="original">
-         <head>Sanheden</head>
-            <!-- KEJCAT 2019-02-21: How do I indicate italics? Also, newspaper title is not listed on the original pages. Do I put the name of the publication above in the Publication Information? -->
-         <dateline>
-            <date when="yyyy-mm-dd">Publication Date Listed on Newspaper</date>
-            <placeName type="publication">Place of publication</placeName>
-            <placeName type="distribution">Place of distribution</placeName>
-         </dateline>
-            <!-- KEJCAT 2019-02-21: Why am I getting an error re dateline? Can I remove it since there is no dateline printed on the original article? -->
-         <div type="headlines">
-            <list>
-               <item rend="primary">En bog om, hvordan Hr. Wegener blev til Frøken Wegener.</item>
+            <div type="headlines">
+               <list>
+                  <item rend="primary">En bog om, hvordan Hr. Wegener blev til Frøken
+                     Wegener.</item>
                   <item>Hasselbalch udgiver Skandalebogen.</item>
-               <!-- KEJCAT 2019-02-21: How do I indicate that the headline in the original article has an initial letter E that drops below the line and acts as the start of a thick line running under the headline? --> 
-               <!-- KEJCAT 2019-02-19: How do I indicate that the headline and thick black line spread over both pages of the arricle. -->
-            </list>
-         </div>
+                  <!-- KEJCAT 2019-02-21: How do I indicate that the headline in the original article has an initial letter E that drops below the line and acts as the start of a thick line running under the headline? -->
+                  <!-- KEJCAT 2019-02-19: How do I indicate that the headline and thick black line spread over both pages of the arricle. -->
+               </list>
+            </div>
             <div type="articleBody">
-               <p style="paraText" rend="division">SPEKULATIONEN <!-- KEJCAT 2019-02-21: How do I indicate that initial letter S is bigger than other letters in the word and that it drops down to the next line? --> i Tryksager, som berører det kønslige Omraade, har efterhaanden faaet saadan et Omfang, at man skulde tro, at Politidirektøren sov og lod Anstødelighedsparagraffer være Anstødelighedsparagraffer. Maaske er Sandheden den, at Politidirektøren, bistaaet af Hr. Mellerup, den drabelige Væbner, har saa travlt med at beskytte Steincke, at de ikke kan have Blikket rettet mod andre Steder end dette Blad.</p> 
-               <p style="paraText" rend="division">For imidlertid at hjælpe Politidirektøren, underretter vi herved ham og Læserne om, at der i Foraaret vil udkomme en Bog hos Hasselbalch, og den er en saa oplagt Spekulation i Folks Nyfigenhed overfor de seksuelle Spørgsmaal, at der absolut er Grund til Indskriden.</p> 
-               <p style="paraText" rend="division">Bogen er skrevet af Maleren Wegener, der tidligere var Gerda Wegeners Mand. Den handler om Malerens Oplevelser under Forvandlingen fra Mand til Kvinde.</p>
-               <p style="paraText" rend="division">Denne Forvandling fandt Sted for ikke længe siden i Berlin, hvor Wegener paa Operationsbordet lod sig forvandle fra Mand til Kvinde.</p> 
+               <p>SPEKULATIONEN <!-- KEJCAT 2019-02-21: How do I indicate that initial letter S is bigger than other letters in the word and that it drops down to the next line? -->
+                  i Tryksager, som berører det kønslige Omraade, har efterhaanden faaet saadan et
+                  Omfang, at man skulde tro, at Politidirektøren sov og lod
+                  Anstødelighedsparagraffer være Anstødelighedsparagraffer. Maaske er Sandheden den,
+                  at Politidirektøren, bistaaet af Hr. Mellerup, den drabelige Væbner, har saa
+                  travlt med at beskytte Steincke, at de ikke kan have Blikket rettet mod andre
+                  Steder end dette Blad.</p>
+               <p>For imidlertid at hjælpe Politidirektøren, underretter vi herved ham og Læserne
+                  om, at der i Foraaret vil udkomme en Bog hos Hasselbalch, og den er en saa oplagt
+                  Spekulation i Folks Nyfigenhed overfor de seksuelle Spørgsmaal, at der absolut er
+                  Grund til Indskriden.</p>
+               <p>Bogen er skrevet af Maleren Wegener, der tidligere var Gerda Wegeners Mand. Den
+                  handler om Malerens Oplevelser under Forvandlingen fra Mand til Kvinde.</p>
+               <p>Denne Forvandling fandt Sted for ikke længe siden i Berlin, hvor Wegener paa
+                  Operationsbordet lod sig forvandle fra Mand til Kvinde.</p>
+               <p style="heading" rend="division"><b>Et ulykkeligt Ægteskab.</b></p>
+               <p>Malerens Ægteskab var ulykkeligt. Han var ikke en rask og naturlig Mand. Halvvejs
+                  var han Kvinde, og dette medførte voldsomme Brydninger i Hjemmet. Wegener led
+                  meget under de fortvivlede Forhold i Hjemmet. Han elskede sin Hustru med dyb og
+                  ægte Hengivenhed, men han havde ikke imod hende det naturlige mandige Begær, som
+                  en rigtig Mand føler overfor den Kvinde, han elsker. Han kæmper samtidigt en
+                  fortvivlet Kamp mod en Dragelse mod andre Mænd, som han følte i sig.</p>
+               <p>Han grublede mere og mere over disse Forhold, indtil han en Dag hørte om de
+                  Operationer, tyske Videnskabsmænd foretager, og som gør Mennesker af hans Slags
+                  sunde og naturlige ved at give dem deres rette Køn.</p>
+               
+               <!-- KEJCAT 2019-03-18: INSERT MIDDLE PART OF TRANSLATION HERE. -->
+               
+               <p>Det viste sig yderst vanskeligt at faa disse Papirer. Der krævedes et Utal af
+                  Undersøgelser og Attester fra Embedslæger og Retslægeraad, men omsider faldt da
+                  Ministeriets Afgørelse, som gik ud paa, at naar hun faktisk <i>var</i> Kvinde, saa
+                  skulde hun <pb n="1"/> ogsaa have Papirer, der lød paa at hun var det. Hun antog
+                  da Navnet <i>ily Wegener</i>L, og som saadan blev hun ogsaa indført i
+                  Kirkebøgerne. Manden Wegener blev samtidigt slettet af Kirkebogen, og Frk.
+                  Wegeners Ret til at bære Kvindenavnet var derefter uomstødelig.</p>
+               <!-- KEJCAT 2019-02-21: Cartoon begins here and spreads over both columns of the page. -->
+               <figure xml:id="i00">
+                  <figDesc>I vore Dage kan man vente sig alt. Forleden kom min Fætter op og besøgte
+                     mig. Hun var blevet til en Kusine, siden jeg sidst saa hende.</figDesc>
+                  <note type="desc" source="#kj">PUT DESCRIPTION HERE</note>
+               </figure>
                <div type="headlines">
-                  <list> <!-- KEJCAT 2019-02-21: Do I need this list tag? It doesn't seem like there is a list here. -->
-                     <item>Et ulykkeligt Ægteskab.</item> <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
+                  <list>
+                     <!-- KEJCAT 2019-02-21: Do I need this list tag? It doesn't seem like there is a list here. -->
+                     <item>Mødet med den tidligere Hustru.</item>
+                     <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
                   </list>
                </div>
-              <p style="paraText" rend="division">Malerens Ægteskab var ulykkeligt. Han var ikke en rask og naturlig Mand. Halvvejs var han Kvinde, og dette medførte voldsomme Brydninger i Hjemmet. Wegener led meget under de fortvivlede Forhold i Hjemmet. Han elskede sin Hustru med dyb og ægte Hengivenhed, men han havde ikke imod hende det naturlige mandige Begær, som en rigtig Mand føler overfor den Kvinde, han elsker. Han kæmper samtidigt en fortvivlet Kamp mod en Dragelse mod andre Mænd, som han følte i sig.</p>
-              <p style="paraText" rend="division">Han grublede mere og mere over disse Forhold, indtil han en Dag hørte om de Operationer, tyske Videnskabsmænd foretager, og som gør Mennesker af hans Slags sunde og naturlige ved at give dem deres rette Køn.</p>
-            <!-- KEJCAT 2019-02-21: NEED TO INSERT REST OF DANISH TEXT. -->
-             <p style="paraText" rend="division">Det viste sig yderst vanskeligt at faa disse Papirer. Der krævedes et Utal af Undersøgelser og Attester fra Embedslæger og Retslægeraad, men omsider faldt da Ministeriets Afgørelse, som gik ud paa, at naar hun faktisk var Kvinde, saa skulde hun <!-- KEJCAT 2019-02-21: The page ends here. Do I need to indicate that this is the end of the page in the original? --> ogsaa have Papirer, der lød paa at hun var det. Hun antog da Navnet Lily Wegener, og som saadan blev hun ogsaa indført i Kirkebøgerne. Manden Wegener blev samtidigt slettet af Kirkebogen, og Frk. Wegeners Ret til at bære Kvindenavnet var derefter uomstødelig.</p>
-             <!-- KEJCAT 2019-02-21: Cartoon begins here and spreads over both columns of the page. -->
-            <figure xml:id="i00">
-               <figDesc>I vore Dage kan man vente sig alt. Forleden kom min Fætter op og besøgte mig. Hun var blevet til en Kusine, siden jeg sidst saa hende.</figDesc>
-               <note type="desc" source="#ID">Encoder description of image (that can be used as alt. text); any information about the placement of the photo on the print page and image credit. Please use complete sentences.</note>
-            </figure>
-               <p corresp=”#i00>Reference to image.</p> <!-- KEJCAT 2019-02-21: What is this tag for? Why am I getting an error message for it? -->
-           <div type="headlines">
-                   <list> <!-- KEJCAT 2019-02-21: Do I need this list tag? It doesn't seem like there is a list here. -->
-                   <item>Mødet med den tidligere Hustru.</item> <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
-                   </list>
-            </div>
-                  <p style="paraText" rend="division">Ikke ret længe efter mødte Lily Wegener sin tidligere Hustru.</p>
-                  <p style="paraText" rend="division">Det var med ikke ringe Spænding, hun gik til dette Møde. Hun skulde nu for første Gang gense den Kvinde, som hun havde været gift med, og som hun i Ægteskabet havde pint og skuffet saa smerteligt.</p>
-                  <p style="paraText" rend="division">Men Gerda Wegener sluttede Lily i sine Arme, saa snart de mødtes. De var nu to Kvinder, der stod overfor hinanden. De var paa lige Fod, og al den gamle Sympati fra Forlovelsens og Hvedebrødsdagenes Tid dukkede op i hende.</p>
-                  <p style="paraText" rend="division">Og Lily gik det lige saadan. Hun var rørt til Taarer over Gensynet. Vel smilede hun, men store Taarer trillede hende dog ned over Kinderne.</p>
-<!-- KEJCAT 2019-02-21: There is a column break here. How do I indicate that? -->
-                  <p style="paraText" rend="division">De to Damer sluttede et nyt Venskab, og det endte med, at de enedes om, at Gerda skulde adoptere sin tidligere Mand, saa hun blev hendes Datter. </p> 
-                  <p style="paraText" rend="division">Der viste sig ikke store Vanskeligheder ved Adoptionen. Ministeriet bevilgede gerne, at Fru Wegener adopterede Frk. Lily Wegener, og paa denne Maade <!-- KEJCAT 2019-02-21: The cartoon breaks up the text at this point in the second column. Do I need to indicate that? --> blev den tidligere Ægtemand nu Datter i Huset hos sin forhenværende Hustru.</p> 
-<!-- KEJCAT 2019-02-21: INSERT REST OF DANISH TEXT. -->
-            </div> <!-- KEJCAT 2019-02-21: Notes end of article body. -->
-         </div> <!-- KEJCAT 2019-02-21: Notes end of original Danish version of article. -->
-         
-         <div type="translation"> 
+               <p>Ikke ret længe efter mødte Lily Wegener sin tidligere Hustru.</p>
+               <p>Det var med ikke ringe Spænding, hun gik til dette Møde. Hun skulde nu for første
+                  Gang gense den Kvinde, som hun havde været gift med, og som hun i Ægteskabet havde
+                  pint og skuffet saa smerteligt.</p>
+               <p>Men Gerda Wegener sluttede Lily i sine Arme, saa snart de mødtes. De var nu to
+                  Kvinder, der stod overfor hinanden. De var paa lige Fod, og al den gamle Sympati
+                  fra Forlovelsens og Hvedebrødsdagenes Tid dukkede op i hende.</p>
+               <p>Og Lily gik det lige saadan. Hun var rørt til Taarer over Gensynet. Vel smilede
+                  hun, men store Taarer trillede hende dog ned over Kinderne.</p>
+               <!-- KEJCAT 2019-02-21: There is a column break here. How do I indicate that? -->
+               <p>De to Damer sluttede et nyt Venskab, og det endte med, at de enedes om, at Gerda
+                  skulde adoptere sin tidligere Mand, saa hun blev hendes Datter. </p>
+               <p>Der viste sig ikke store Vanskeligheder ved Adoptionen. Ministeriet bevilgede
+                  gerne, at Fru Wegener adopterede Frk. Lily Wegener, og paa denne Maade
+                  <!-- KEJCAT 2019-02-21: The cartoon breaks up the text at this point in the second column. Do I need to indicate that? -->
+                  blev den tidligere Ægtemand nu Datter i Huset hos sin forhenværende Hustru.</p>
+               <div type="headlines">
+                  <list>
+                     <!-- KEJCAT 2019-02-21: Do I need this list tag? It doesn't seem like there is a list here. -->
+                     <item>Skandalebogen.</item>
+                     <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
+                  </list>
+               </div>
+               <p>Alt dette kunde være meget godt, men det, der maa vække enhver sundttænkende Mands
+                  Forargelse, er den Omstændighed, at Frk. Wegener nu vil udgive en Skandalebog.</p>
+               <p>Bogen kommer i Frk. Wegeners Navn, men <i>Loulou Lassen</i> fra
+                  “Politiken” har skrevet den for hende, og den giver en udpenslet Skildring af de erotiske
+                  Fornemmelser, Mennesket Wegener har oplevet, dels som mand og dels som Kvinde.</p>
+               <p>Kan man virkelig det?</p>
+               <p><i>Er</i> en saadan Udpensling ikke for utiltalende for et anset Forlag som
+                  Hasselbalchs. Vi troede Jo, men Hasselbalch mener altsaa Nej.</p>
+            </div><!-- KEJCAT 2019-02-21: Notes end of article body. -->
+         </div><!-- KEJCAT 2019-02-21: Notes end of original Danish version of article. -->
+         <div type="translation">
             <!-- KEJCAT 2019-02-21: Insert translation here. -->
          </div>
       </body>
    </text>
 </TEI>
-
