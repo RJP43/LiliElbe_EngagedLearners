@@ -6,7 +6,8 @@ _Note: These guidelines define the Lili Elbe digital archive's encoding expectat
   
 ### Capturing Special Characters
 Change any XML special characters to designated XML entities (ie. `&` becomes `&amp;`).   
-_For special characters, use the HTML Entity codes preceded by “&#” and followed by a semicolon “;”. For example, to render an en dash (HTML Entity Code 8211), you would enter “&#8211;”. Here’s a list of HTML Entity Codes: https://www.html.am/reference/html-special-characters.cfm - Use column titled: HTML Entity Number.   
+_For special characters, use the HTML Entity codes preceded by “&#” and followed by a semicolon “;”. For example, to render an en dash (HTML Entity Code 8211), you would enter “&#8211;”. Here’s a list of HTML Entity Codes: https://www.html.am/reference/html-special-characters.cfm - Use column titled: HTML Entity Number._
+  
 ### Standardize XML Filename  
 _note: XML documents should be named the same as the .docx transcription files without the parentheticals and any text that follows the first whitespace._  
 ````
