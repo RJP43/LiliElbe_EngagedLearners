@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="Coding/MIWschema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Book About how Mr. Wegener became Miss Wegener.</title>
+            <respStmt>
+               <resp>Encoding updated on <date when="2019-02-19">19 February 2019</date></resp>
+               <persName ref="@kejcat">Kristin Jacobsen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>Newspaper Title</head>
+         <dateline>
+            <date when="yyyy-mm-dd">Publication Date Listed on Newspaper</date>
+            <placeName type="publication">Place of publication</placeName>
+            <placeName type="distribution">Place of distribution</placeName>
+         </dateline>
+         <div type="headlines">
+            <list>
+               <item>Headline Text</item>
+               *note: each headline gets its own <item> element. To indicate a headline is larger, more prominent, or the primary headline(s) use @rend="primary"
+                  <item rend="primary">Headline Text</item>
+            </list>
+         </div>
+         <div type="articleBody">
+            (use additional <p> elements to make further divisions of text; specifying information about the text with paragraph attributes listed later in this document.
+         </div>
+      </body>
+   </text>
+</TEI>
+
