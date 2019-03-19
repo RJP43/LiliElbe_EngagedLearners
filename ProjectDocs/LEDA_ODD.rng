@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-03-14T15:44:28Z. .
+Schema generated from ODD source 2019-03-19T17:16:20Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -1518,6 +1518,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <choice>
          <ref name="teireg"/>
          <ref name="teiorig"/>
+         <ref name="teiadd"/>
          <ref name="teidel"/>
          <ref name="teiunclear"/>
       </choice>
@@ -1526,6 +1527,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <choice>
          <ref name="teireg"/>
          <ref name="teiorig"/>
+         <ref name="teiadd"/>
          <ref name="teidel"/>
          <ref name="teiunclear"/>
       </choice>
@@ -1533,6 +1535,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
    <define name="teimodel.pPart.transcriptional_sequence">
       <ref name="teireg"/>
       <ref name="teiorig"/>
+      <ref name="teiadd"/>
       <ref name="teidel"/>
       <ref name="teiunclear"/>
    </define>
@@ -1542,6 +1545,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       </optional>
       <optional>
          <ref name="teiorig"/>
+      </optional>
+      <optional>
+         <ref name="teiadd"/>
       </optional>
       <optional>
          <ref name="teidel"/>
@@ -1558,6 +1564,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="teiorig"/>
       </zeroOrMore>
       <zeroOrMore>
+         <ref name="teiadd"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="teidel"/>
       </zeroOrMore>
       <zeroOrMore>
@@ -1570,6 +1579,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       </oneOrMore>
       <oneOrMore>
          <ref name="teiorig"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="teiadd"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="teidel"/>
@@ -1914,6 +1926,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <choice>
          <ref name="teimodel.ptrLike"/>
          <ref name="teidate"/>
+         <ref name="teipubPlace"/>
          <ref name="teiidno"/>
          <ref name="teiavailability"/>
       </choice>
@@ -1982,6 +1995,8 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
    </define>
    <define name="teimodel.respLike">
       <choice>
+         <ref name="teiauthor"/>
+         <ref name="teirespStmt"/>
          <ref name="teisponsor"/>
          <ref name="teifunder"/>
          <ref name="teiprincipal"/>
@@ -2420,8 +2435,6 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
             <attribute name="style">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
-                  <value>heading</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>pubInfo</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>paraText</value>
@@ -2429,10 +2442,6 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
                   <value>return</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Use this encoding when in the print rendition there is an extra
                               carriage return.) </a:documentation>
-                  <value>salutation</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>valediction</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>GreteDiary</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Used to indicate Grete diary entry in editions'
                               narratives.) </a:documentation>
@@ -2589,6 +2598,75 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                </data>
             </attribute>
          </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="teiadd">
+      <element name="add">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(addition) contains letters, words, or phrases inserted in the source text by an author, scribe, or a previous annotator or corrector. [3.4.3. Additions, Deletions, and Omissions]</a:documentation>
+         <ref name="teimacro.paraContent"/>
+         <ref name="teiatt.global.attribute.xmlid"/>
+         <ref name="teiatt.global.attribute.n"/>
+         <ref name="teiatt.global.attribute.xmllang"/>
+         <ref name="teiatt.global.attribute.xmlbase"/>
+         <ref name="teiatt.global.attribute.xmlspace"/>
+         <ref name="teiatt.global.rendition.attribute.style"/>
+         <ref name="teiatt.global.rendition.attribute.rendition"/>
+         <ref name="teiatt.global.linking.attribute.corresp"/>
+         <ref name="teiatt.global.linking.attribute.synch"/>
+         <ref name="teiatt.global.linking.attribute.sameAs"/>
+         <ref name="teiatt.global.linking.attribute.copyOf"/>
+         <ref name="teiatt.global.linking.attribute.next"/>
+         <ref name="teiatt.global.linking.attribute.prev"/>
+         <ref name="teiatt.global.linking.attribute.exclude"/>
+         <ref name="teiatt.global.linking.attribute.select"/>
+         <ref name="teiatt.global.facs.attribute.facs"/>
+         <ref name="teiatt.global.change.attribute.change"/>
+         <ref name="teiatt.global.responsibility.attribute.cert"/>
+         <ref name="teiatt.global.responsibility.attribute.resp"/>
+         <ref name="teiatt.global.source.attribute.source"/>
+         <ref name="teiatt.transcriptional.attributes"/>
+         <ref name="teiatt.typed.attribute.subtype"/>
+         <ref name="teiatt.dimensions.attributes"/>
+         <attribute name="rend">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>pencil</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>blackInk</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>redPencil</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>redCrayon</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
+         <attribute name="place">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>leftMargin</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>rightMargin</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>above</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>below</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>inline</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>insertion</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>overwrite</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>overtype</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
          <empty/>
       </element>
    </define>
@@ -2966,6 +3044,64 @@ Elements]</a:documentation>
          <empty/>
       </element>
    </define>
+   <define name="teiauthor">
+      <element name="author">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement]</a:documentation>
+         <ref name="teimacro.phraseSeq"/>
+         <ref name="teiatt.global.attributes"/>
+         <ref name="teiatt.naming.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teirespStmt">
+      <element name="respStmt">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organizations which have played a role in the production or distribution of a bibliographic work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]</a:documentation>
+         <group>
+            <choice>
+               <group>
+          
+                  <oneOrMore>
+                     <ref name="teiresp"/>
+                  </oneOrMore>
+          
+          
+                  <oneOrMore>
+                     <ref name="teimodel.nameLike.agent"/>
+                  </oneOrMore>
+          
+               </group>
+               <group>
+          
+                  <oneOrMore>
+                     <ref name="teimodel.nameLike.agent"/>
+                  </oneOrMore>
+          
+          
+                  <oneOrMore>
+                     <ref name="teiresp"/>
+                  </oneOrMore>
+          
+               </group>
+            </choice>
+            <zeroOrMore>
+               <ref name="teinote"/>
+            </zeroOrMore>
+         </group>
+         <ref name="teiatt.global.attributes"/>
+         <ref name="teiatt.canonical.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="teiresp">
+      <element name="resp">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role in the production or distribution of a work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]</a:documentation>
+         <ref name="teimacro.phraseSeq.limited"/>
+         <ref name="teiatt.global.attributes"/>
+         <ref name="teiatt.canonical.attributes"/>
+         <ref name="teiatt.datable.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="teititle">
       <element name="title">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a title for any kind of work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]</a:documentation>
@@ -3000,6 +3136,15 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
                </choice>
             </attribute>
          </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="teipubPlace">
+      <element name="pubPlace">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication place) contains the name of the place where a bibliographic item was published. [3.11.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
+         <ref name="teimacro.phraseSeq"/>
+         <ref name="teiatt.global.attributes"/>
+         <ref name="teiatt.naming.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3345,7 +3490,10 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
         
         
                <zeroOrMore>
-                  <empty/>
+                  <choice>
+            
+                     <ref name="teirespStmt"/>
+                  </choice>
                </zeroOrMore>
         
         
@@ -4711,6 +4859,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>guyot</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Ch. Gyuot, Charles
                               Guyot) </a:documentation>
+                  <value>haireNorman</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Norman Haire | Note:
+                              Wrote A1's introduction.) </a:documentation>
                   <value>hardenfeld</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Professor Hardenfeld,
                               Dr. Hardenfeld, Hardenfeld | Linked Keys: #hirschfeld) </a:documentation>
@@ -4797,6 +4948,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>magreM</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Maurice Magre | Note:
                               French author nominated for the Nobel prize in literature) </a:documentation>
+                  <value>maranonGreg</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Professor Gregorio
+                              Marañon | Note: Mentioned in A1's introductions as author of The
+                              Evolution of Sex and Intersexual Conditions) </a:documentation>
                   <value>marquisSG</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Marquis Emilio de SG |
                               Note: Mentioned in Allatini's memoir) </a:documentation>
@@ -4889,6 +5044,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>steinach</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Steinach, Eugen
                               Steinach) </a:documentation>
+                  <value>stenningHJ</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): H.J. Stenning | Note:
+                              A1 translator from German.) </a:documentation>
                   <value>stuart</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Julie Stuart, Julie
                               Humbert | Note: Historical figure not identified) </a:documentation>
@@ -4986,6 +5144,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): the Alps, Alperne, Alpen) </a:documentation>
                   <value>america</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): America, Amerika) </a:documentation>
+                  <value>australia</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Australia) </a:documentation>
                   <value>balgencia</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Balgencia, Balgancie | Note: Fictional name
                               given for Beaugency, France in narrative) </a:documentation>
@@ -5001,12 +5161,13 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Republic) </a:documentation>
                   <value>brandenburg</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Brandenburg Gate, Brandenburger Thors,
-                              Brandenburger Tor) </a:documentation>
+                              Brandenburg Tor, Brandenburger Tor) </a:documentation>
                   <value>capri</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Capri | Note: Island in Italy) </a:documentation>
                   <value>cathedralSeville</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Cathedral in Seville, Cathedral of Seville,
-                              Katedralen i Sevilla, Kathedrale in Sevilla) </a:documentation>
+                              Katedralen i Sevilla, Kathedrale in Sevilla | Note: Likely the
+                              Catedral de Santa María de la Sede) </a:documentation>
                   <value>champs</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Champs de Mars | Note: Paris street) </a:documentation>
                   <value>chateauNeuf</value>
@@ -5027,7 +5188,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>dreiMasken</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Drei Masken | Note: German publishing
                               house) </a:documentation>
-                  <value>dreseden</value>
+                  <value>dresden</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Dresden | Note: City in Germany) </a:documentation>
                   <value>ecoleBeauxarts</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): École des Beaux-Arts, Ecole des Beaux Arts,
@@ -5049,6 +5210,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>florence</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Florence, Florens, Florenz | Note: City in
                               Italy) </a:documentation>
+                  <value>france</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): France | Note: Country in Europe) </a:documentation>
                   <value>friedrichsstrasse</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Friedrichsstrasse, Friedrichstrasse,
                               Friedrichstraße | Note: Street in Berlin, Germany) </a:documentation>
@@ -5084,7 +5247,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               the park of Versailles, Paris.) </a:documentation>
                   <value>institutePsychiatry</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Institute for Psychiatry, Institut for
-                              Seksualforskning, Instituts für Seelenkunde, Institut von Dr.
+                              Seksualforskning, Institut für Seelenkunde, Institut von Dr.
                               Hardenfeld, Institute of Sexual Science | Note: Fictional name in
                               narrative for Institut für Sexualwissenschaft (Institute for Sexual
                               Science) in Berlin, Germany) </a:documentation>
@@ -5109,6 +5272,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>loire</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Loire, Loirefloden | Note: River in
                               France) </a:documentation>
+                  <value>london</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): London | Note: City in England) </a:documentation>
                   <value>marrakech</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Marrakech | Note: A major city of the Kingdom
                               of Morocco) </a:documentation>
@@ -5188,6 +5353,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>studioLille</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): studio on rue de Lille | Note: Einar's and
                               Gerda's studio location in Paris) </a:documentation>
+                  <value>sydney</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Sydney | Note: City in Australia) </a:documentation>
                   <value>theatreRoyal</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): the Royal Theatre, (Det) Kongelige Teater,
                               Königlichen Theater) </a:documentation>
@@ -6180,7 +6347,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(substitution) groups one or more deletions with one or more additions when the combination is to be regarded as a single intervention in the text. [11.3.1.5. Substitutions]</a:documentation>
          <oneOrMore>
             <choice>
-      
+               <ref name="teiadd"/>
                <ref name="teidel"/>
                <ref name="teimodel.milestoneLike"/>
             </choice>

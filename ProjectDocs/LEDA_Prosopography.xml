@@ -69,11 +69,15 @@
                <placeName source="#D1 #G1">Amerika</placeName>
                <note/>
             </place>
+            <place xml:id="australia">
+               <placeName>Australia</placeName>
+               <note/>
+            </place>
             <place xml:id="balgencia">
                <placeName source="#A1 #D1 #G1 #TR">Balgencia</placeName>
                <placeName source="#G1">Balgancie</placeName>
                <note>Fictional name given for <placeName>Beaugency</placeName>,
-                     <placeName>France</placeName> in narrative</note>
+                     <placeName key="france">France</placeName> in narrative</note>
             </place>
             <place xml:id="belgium">
                <placeName source="#A1 #TR">Belgium</placeName>
@@ -98,6 +102,7 @@
             <place xml:id="brandenburg">
                <placeName source="#A1 #TR">Brandenburg Gate</placeName>
                <placeName source="#D1">Brandenburger Thors</placeName>
+               <placeName source="#TR">Brandenburg Tor</placeName>
                <placeName source="#G1">Brandenburger Tor</placeName>
                <note/>
             </place>
@@ -110,7 +115,7 @@
                <placeName source="#A1">Cathedral of Seville</placeName>
                <placeName source="#D1">Katedralen i Sevilla</placeName>
                <placeName source="#G1">Kathedrale in Sevilla</placeName>
-               <note/>
+               <note>Likely the Catedral de Santa María de la Sede</note>
             </place>
             <place xml:id="champs">
                <placeName>Champs de Mars</placeName>
@@ -148,9 +153,9 @@
                <note>German publishing house</note>
                <!-- RJP: wondering if this should be an org -->
             </place>
-            <place xml:id="dreseden">
+            <place xml:id="dresden">
                <placeName>Dresden</placeName>
-               <note>City in <placeName>Germany</placeName></note>
+               <note>City in <placeName key="germany">Germany</placeName></note>
             </place>
             <place xml:id="ecoleBeauxarts">
                <placeName source="#A1 #D1 #TR">École des Beaux-Arts</placeName>
@@ -163,7 +168,7 @@
                <placeName source="#D1">Eiffeltaarnet</placeName>
                <placeName source="#G1">Eiffelturm</placeName>
                <note>In <placeName key="paris">Paris</placeName>,
-                  <placeName>France</placeName></note>
+                  <placeName key="france">France</placeName></note>
             </place>
             <place xml:id="elbeRiver">
                <placeName source="#A1 #TR">Elbe</placeName>
@@ -190,6 +195,10 @@
                <placeName source="#D1">Florens</placeName>
                <placeName source="#G1">Florenz</placeName>
                <note>City in <placeName key="italy">Italy</placeName></note>
+            </place>
+            <place xml:id="france">
+               <placeName>France</placeName>
+               <note>Country in <placeName key="europe">Europe</placeName></note>
             </place>
             <place xml:id="friedrichsstrasse">
                <placeName source="#A1 #D1 #TR">Friedrichsstrasse</placeName>
@@ -308,6 +317,10 @@
                <placeName source="#A1 #G1 #TR">Loire</placeName>
                <placeName source="#D1">Loirefloden</placeName>
                <note>River in <placeName key="france">France</placeName></note>
+            </place>
+            <place xml:id="london">
+               <placeName>London</placeName>
+               <note>City in <placeName>England</placeName></note>
             </place>
             <place xml:id="marrakech">
                <placeName>Marrakech</placeName>
@@ -471,6 +484,10 @@
                <note><persName key="wegenerE">Einar</persName>'s and <persName key="wegenerG"
                      >Gerda</persName>'s studio location in <placeName>Paris</placeName></note>
             </place>
+            <place xml:id="sydney">
+               <placeName>Sydney</placeName>
+               <note>City in <placeName key="australia">Australia</placeName></note>
+            </place>
             <place xml:id="theatreRoyal">
                <placeName source="#A1 #TR">the Royal Theatre</placeName>
                <placeName source="#D1">(Det) Kongelige Teater</placeName>
@@ -531,7 +548,7 @@
             <place xml:id="womensClinic">
                <placeName source="#A1">Women's Clinic</placeName>
                <placeName source="#A1">Municipal Women's Clinic</placeName>
-               <placeName source="#D1 #TR">Frauenklinik</placeName>
+               <placeName source="#D1 #TR">Frauenklinik</placeName><!-- Side Note: The German word is for Women's Clinic is used in D1 even though the expected name is Kvindersklinik-->
                <placeName source="#G1">Frauenklinik</placeName>
                <placeName source="#D1 #G1 #TR">Staatliche Frauenklinik</placeName>
                <note>Staatliche Frauenklinik, Pfotenhauerstr. 90, <placeName key="dresden"
@@ -712,6 +729,10 @@
                <persName>Charles Guyot</persName>
                <note/>
             </person>
+            <person xml:id="haireNorman" source="historical">
+               <persName>Norman Haire</persName>
+               <note>Wrote <ref source="#A1">A1</ref>'s introduction.</note>
+            </person>
             <person xml:id="hardenfeld" source="fictional" synch="#hirschfeld">
                <persName>Professor Hardenfeld</persName>
                <persName>Dr. Hardenfeld</persName>
@@ -846,6 +867,10 @@
             <person xml:id="magreM" source="historical">
                <persName>Maurice Magre</persName>
                <note>French author nominated for the Nobel prize in literature</note>
+            </person>
+            <person xml:id="maranonGreg" source="historical">
+               <persName>Professor Gregorio Marañon</persName>
+               <note>Mentioned in <ref source="#A1">A1</ref>'s introductions as author of The Evolution of Sex and Intersexual Conditions</note> <!--RJP: check note with Pamela -->
             </person>
             <person xml:id="marquisSG" source="historical">
                <persName>Marquis Emilio de SG</persName>
@@ -997,6 +1022,10 @@
                <persName>Steinach</persName>
                <persName>Eugen Steinach</persName>
                <note/>
+            </person>
+            <person xml:id="stenningHJ" source="historical">
+               <persName>H.J. Stenning</persName>
+               <note><ref source="#A1">A1</ref> translator from German.</note>
             </person>
             <person xml:id="stuart" source="fictional">
                <persName source="#A1 #G1">Julie Stuart</persName>
