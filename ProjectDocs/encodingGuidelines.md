@@ -116,13 +116,30 @@ _note: change xml:id attribute-value to match the paragraph collation ID found i
 		`<pb style="heading" rend="Introduction"/>`  
 		`<pb style="heading" rend="Foreword"/>`  
 **Page Number**
-_When a page number literally appears in the original, print rendition capture it with the following encoding:_
+_When a page number literally appears in the original, print rendition capture it with the following encoding:_  
 `<pb style="page" n="v"/>`  
-  
+   
 `<pb style="page" n="16"/>`  
   	
-_Capture artificial page numbers (either of the Word Document transcriptions or implied when text continues on a new page) with the following encoding:_  
+_Capture artificial page numbers (either of the Word Document transcriptions or implied when text continues on a new page) with the following encoding:_   
 `<pb n="18"/>`  
   
+_In articles, there are sometime columns. At the end of each column use the `<cb/>` self-closing element with the `@n` attribute and attribute-value matching the number of column break it is._  
+`<cb n="#"/>`  
+    
 ### Translation Segmentation  
+  
+_note: For smaller texts like letters and diary entries, we are linking shorter segments of text so as to better align the transcription and translation when transformed into HTML. With larger prose text, segments tend to be longer but never longer than a single paragraph again to try to keep the alignment between transcription and translation as clear as possible._  
+  
+**Steps for Linking Transcription and Translation**  
+1.  Determine text divisions based on side-by-side translations.  _(sentences or paragraphs)_  
+2.  Wrap segment in original text in a `<seg>` element. _`<seg>` elements should fall inside larger structural divisions (i.e. `<div>`, `<p>`)_  
+3.  Assign n attribute value. _segment IDs (`@n` attribute values) should start with a lowercase letter indicating the language of the original text (ex. d for Danish) followed by a two-digit number indicating the numerical numbering of text segments with translations._  
+4.  Then wrap segment in translated text in a `<seg>` element.  `<seg>` elements should fall inside larger structural divisions (i.e. `<div>`, `<p>`)_   
+5.  Link `@corresp` attribute-value with `@n` attribute from transcription `<seg>` element created in step 3. _`@corresp` segment IDs should start with a hash symbol (#)_  
+
+**Examples:**
+<seg n="d01">Original Text</seg>
+
+<seg corresp=”#d01”>Translated Text</seg>
 
