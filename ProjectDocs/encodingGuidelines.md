@@ -2,7 +2,7 @@
   
 _Note: These guidelines define the Lili Elbe digital archive's encoding expectations and customizations of the TEI guidelines as defined in [the project's ODD schema file](https://gitlab.com/ctsdh/lili-elbe-code/blob/master/schema/LEDA_ODD.ODD). These guidelines focus on the encoding of the TEI `<text>` element; therefore, encoders should reference [the project's TEI Header template](https://raw.githubusercontent.com/RJP43/LiliElbe_EngagedLearners/master/ProjectDocs/TEIHeader_Template.xml) for encoding expectations/customizations regarding the `<teiHeader>` element._   
   
-## Basic Structural Encoding 
+## Basic Text-Type Structural Encoding 
   
 The Lili Elbe Digital Archive deals with several different types of texts including: entire books, book sections and chapters, diary entries, magazine and journal articles, and letters. Each of these different text-types require slightly different structuring of the TEI `<text>` element's descendant elements. In this section of the guidelines each text-types' basic structure is defined.   
   
@@ -84,11 +84,13 @@ _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob
 ````
     
 ## Internal Structural Markup  
+Before adding additional encoding beyond the generic basic documenting structuring please be sure your XML file is [associated to the project schema](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Schematizing-XML:-TEI-and-Project-Constraints#lili-elbe-digital-archive-schema), saved, and uploaded to your text's respective GitHub or Gitlab folder.
+  
 The following elements exist as `child::` elements of the above text-type specific structural markup.  
   
 ### Paragraphs  
-The `<p>` element can only have the following attribute: `@style` `@rend`  
-The contents of the `<p>` element should be the exact text from the original, print rendtion or child:: elements   
+The `<p>` element can only have the following attribute: `@style` `@rend`.    
+The contents of the `<p>` element should be the exact text from the original, print rendtion or child:: elements.   
   
  **Examples of Acceptable Attributes and Attribute-Values**    
    
@@ -107,16 +109,17 @@ _note: Besides letter and diary entries collation IDs for paragraphs are added i
 `<p style="GreteDiary" xml:id="a1c00d00p00">Diary Text</p>`  
 `<p style="LiliDiary" xml:id="a1c00d00p00">Diary Text</p>`
 
-_note: change xml:id attribute-value to match the paragraph collation ID found in the [collation spreadsheets](https://gitlab.com/ctsdh/lili-elbe-code/tree/master/collationSpreadsheets). Every paragraph of each letter has a unique ID reflecting the edition (a1 | b1 | g1 | d1 | tr |ts), chapter, letter|diary entry #, and paragraph # (within the letter|diary entry)_
+_note: change xml:id attribute-value to match the paragraph collation ID found in the [collation spreadsheets](https://gitlab.com/ctsdh/lili-elbe-code/tree/master/collationSpreadsheets). Every paragraph of each letter has a unique ID reflecting the edition (a1 | b1 | g1 | d1 | tr |ts), chapter, letter|diary entry #, and paragraph # (within the letter|diary entry)_  
   
 ### Page and Column Breaks  
   
 **Recurring Page Headers**  
-		`<pb style="heading" rend="MIW"/>`  
-		`<pb style="heading" rend="Introduction"/>`  
-		`<pb style="heading" rend="Foreword"/>`  
-**Page Number**
-_When a page number literally appears in the original, print rendition capture it with the following encoding:_  
+`<pb style="heading" rend="MIW"/>`   
+`<pb style="heading" rend="Introduction"/>`   
+`<pb style="heading" rend="Foreword"/>`   
+  
+**Page Numbers**
+_When a page number literally appears in the original, print rendition capture it with the following encoding:_    
 `<pb style="page" n="v"/>`  
    
 `<pb style="page" n="16"/>`  
@@ -124,7 +127,7 @@ _When a page number literally appears in the original, print rendition capture i
 _Capture artificial page numbers (either of the Word Document transcriptions or implied when text continues on a new page) with the following encoding:_   
 `<pb n="18"/>`  
   
-_In articles, there are sometime columns. At the end of each column use the `<cb/>` self-closing element with the `@n` attribute and attribute-value matching the number of column break it is._  
+_In articles, there are sometime columns. At the end of each column use the `<cb/>` self-closing element with the `@n` attribute and attribute-value matching the number of column break it is._    
 `<cb n="#"/>`  
     
 ### Translation Segmentation  
@@ -135,11 +138,14 @@ _note: For smaller texts like letters and diary entries, we are linking shorter 
 1.  Determine text divisions based on side-by-side translations.  _(sentences or paragraphs)_  
 2.  Wrap segment in original text in a `<seg>` element. _`<seg>` elements should fall inside larger structural divisions (i.e. `<div>`, `<p>`)_  
 3.  Assign n attribute value. _segment IDs (`@n` attribute values) should start with a lowercase letter indicating the language of the original text (ex. d for Danish) followed by a two-digit number indicating the numerical numbering of text segments with translations._  
-4.  Then wrap segment in translated text in a `<seg>` element.  `<seg>` elements should fall inside larger structural divisions (i.e. `<div>`, `<p>`)_   
+4.  Then wrap segment in translated text in a `<seg>` element.  _`<seg>` elements should fall inside larger structural divisions (i.e. `<div>`, `<p>`)_   
 5.  Link `@corresp` attribute-value with `@n` attribute from transcription `<seg>` element created in step 3. _`@corresp` segment IDs should start with a hash symbol (#)_  
 
 **Examples:**
-<seg n="d01">Original Text</seg>
-
-<seg corresp=”#d01”>Translated Text</seg>
-
+`<seg n="d01">Original Text</seg>` _- this text as an original transcription with a linked translation will be a direct `child::` of a `<p>` or a `<div>` element and should always exist as a `descendant::` of a `<div>` element with the `@type` attribute-value of `original` - `<div type="original">`._  
+`<seg corresp=”#d01”>Translated Text</seg>` _- this text as a translation will be a direct `child::` of a `<p>` or a `<div>` element and should always exist as a `descendant::` of a `<div>` element with the `@type` attribute-value of `translation` - `<div type="translation">`._  
+  
+`<seg n="g03">Tausend Dank für Ihren Brief. Der Ihrige ist der erste, den ich nach meiner Operation geöffnet habe.</seg>`  
+`<p><seg corresp="#g03">Thank you so much for your letter. Yours is the first one that I opened after my operation.</seg>`  
+  
+### Prosopography Markup
