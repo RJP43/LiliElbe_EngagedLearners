@@ -8,7 +8,7 @@
                 <title type="original">The Unknown Sex Chapter XII: Androgyne Mania</title>
                 <!-- zo:2018-11-30: best guess at translation, received help from Abdur-->
                 <author>
-                    <persName key="mHirschfeld">Mangnus Hirschfeld</persName>
+                    <persName key="hirschfeld">Magnus Hirschfeld</persName>
                 </author>
                 <respStmt>
                     <resp>Transcription reviewed on <date when="2018-10-12">12 October
@@ -33,7 +33,7 @@
             <div type="original">
                 <p style="pubInfo">LE SEXE INCONNU Traduit et adapté de l’allemand par W.H.
                     Fürst</p>
-                <div type="chapter" n="12">
+                <div type="original" n="12">
                     <p style="heading">
                         <num style="chapter">Chapitre XII: la manie androgyne</num>
                     </p>
