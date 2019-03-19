@@ -141,7 +141,7 @@ _note: For smaller texts like letters and diary entries, we are linking shorter 
 4.  Then wrap segment in translated text in a `<seg>` element.  _`<seg>` elements should fall inside larger structural divisions (i.e. `<div>`, `<p>`)_   
 5.  Link `@corresp` attribute-value with `@n` attribute from transcription `<seg>` element created in step 3. _`@corresp` segment IDs should start with a hash symbol (#)_  
 
-**Examples:**
+**Examples:**   
 `<seg n="d01">Original Text</seg>`  
 _- this text as an original transcription with a linked translation will be a direct `child::` of a `<p>` or a `<div>` element and should always exist as a `descendant::` of a `<div>` element with the `@type` attribute-value of `original` - `<div type="original">`._  
   
@@ -161,7 +161,7 @@ _note: All proper people and places (and some not proper) are captured in the fo
    
 **When encoding people and places be sure to only include the name of the person or place inside of the element. As with most elements, exclude any unnecessary spaces within the element content, but you will also want to be particularly aware when encoding people and places to not include apostrophes or pluralizations within the element.**   
 
-**Examples:** 
+**Examples:**    
 `<persName key="lili">Lili</persName>’s lover`  
   
 `<persName key="lili">Mrs. Lili Elvenes</persName>`
