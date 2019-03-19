@@ -78,7 +78,24 @@ _See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as editio
 ````  
   
 ### Journal, Magazine, Newspaper Articles  
-  _coming soon_  
+_linked example coming soon_  
+  
+````
+<div rend="head"<!--text that appears before headlines; could include title, byline, and date-->
+      <title><!--name of newspaper/mag/journal, if included in facsimile image--></title>
+      <author><!--<persName> of newspaper/mag/journal article author, if included in facsimile image--></author>
+      <date when="yyyy-mm-dd"><!--exact transcription of date, if included in facsimile image--></date>
+</div>
+<div rend="headlines">
+      <list>
+           <item rend="primary"><!--text of main headline--></item>
+           <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
+      </list>
+</div>
+<div rend="body">
+<!--<p> elements should be used for each of the paragraphs making up the article body-->
+</div>
+````  
   
 ### Letters  
 _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._  
@@ -95,7 +112,7 @@ _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob
     <signed><!-- transcription of signature in a linked <persName> element-->
   </closer>
 </div>
-````
+````  
     
 ## Internal Structural Markup  
 Before adding additional encoding beyond the generic basic documenting structuring please be sure your XML file is [associated to the project schema](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Schematizing-XML:-TEI-and-Project-Constraints#lili-elbe-digital-archive-schema), saved, and uploaded|pushed to your text's respective GitHub or Gitlab folder.
