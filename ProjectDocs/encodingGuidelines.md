@@ -101,7 +101,8 @@ The contents of the `<p>` element should be the exact text from the original, pr
 _should mimic Text/Symbols dividing text in original, print rendition; is the p has a @rend it must have the division attribute-value as well as the @style equal to paraText attribute-value_  
 
 `<p style="return"/>`
- _used to indicate there is a carriage return in the original, print rendition; this is the only acceptable self-closing `<p>` element_  
+ _used to indicate there is a carriage return in the original, print rendition; this is the only acceptable self-closing `<p>` element_   
+   
 ### Collation Paragraphs
 _note: Besides letter and diary entries collation IDs for paragraphs are added in the pipeline process transforming to HTML. See [A1/B1 Paragraph Numbering XSLT](https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/numberingParagraphs_MIW_A1andB1.xsl) for example._   
   
@@ -146,18 +147,21 @@ _note: For smaller texts like letters and diary entries, we are linking shorter 
 _- this text as an original transcription with a linked translation will be a direct `child::` of a `<p>` or a `<div>` element and should always exist as a `descendant::` of a `<div>` element with the `@type` attribute-value of `original` - `<div type="original">`._  
   
 `<seg corresp=”#d01”>Translated Text</seg>`   
-_- this text as a translation will be a direct `child::` of a `<p>` or a `<div>` element and should always exist as a `descendant::` of a `<div>` element with the `@type` attribute-value of `translation` - `<div type="translation">`._    
+_- this text as a translation will be a direct `child::` of a `<p>` or a `<div>` element and should always exist as a `descendant::` of a `<div>` element with the `@type` attribute-value of `translation` - `<div type="translation">`._ 
   
-`<seg n="g03">  
+````  
+<seg n="g03">  
 Tausend Dank für Ihren Brief. Der Ihrige ist der erste, den ich nach meiner Operation geöffnet habe.  
-</seg>`    
-
-`<seg corresp="#g03">  
-Thank you so much for your letter. Yours is the first one that I opened after my operation.  
-</seg>`   
+</seg>  
+````
+````
+`<seg corresp="#g03">    
+Thank you so much for your letter. Yours is the first one that I opened after my operation.    
+</seg>  
+````
   
 ### Prosopography Markup   
-_note: All proper people and places (and some not proper) are captured in the following two elements: `<persName>` and `<placeName>`. Both elements have a key attribute whose value is checked against a prosopography list imported into our project ODD schema of all the people and places across the entire project. This allows us to keep track of people and place across files no matter if the literal string of text is directly providing the proper name of the person/place or not. When encoding prosopography information it is important to refer to our [`LEDA_Prosopography.xml`](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) in order to determine the appropriate keys to use for each person or place you come across in your XML. Every `@xml:id` attribute-value in the [`LEDA_Prosopography.xml` file](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) is a possible key attribute value that can be used in your XML files. If a person or place is not listed [`LEDA_Prosopography.xml`](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml), or if there is an alternate name used in your text for an existing person/place, then encoders are instructed to notify Rebecca - **@RJP43** in their team issue or [create an issue]() to alert Dr Caughie - **@profPLC** and the rest of the team of the newly identified person.  From there the project editors will determine if the person or place will get a key ID or simply exist as an encoded `<persName>` or `<placeName>` without a key attribute-value pairing._    
+_note: All proper people and places (and some not proper) are captured in the following two elements: `<persName>` and `<placeName>`. Both elements can have a key attribute-value that gets checked against a prosopography list imported into our ODD schema of all the people and places across the entire project. This allows us to keep track of people and place across files no matter if the literal string of text is directly providing the proper name of the person/place or not. When encoding prosopography information it is important to refer to our [`LEDA_Prosopography.xml`](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) in order to determine the appropriate keys to use for each person or place you come across in your XML. Every `@xml:id` attribute-value in the [`LEDA_Prosopography.xml` file](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) is a possible key attribute-value that can be used in your XML files. If a person or place is not listed [`LEDA_Prosopography.xml`](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml), or if there is an alternate name used in your XML for an existing person/place not included in the `LEDA_Prosopography.xml`, then encoders are instructed to notify Rebecca - **@RJP43** in their team issue or [create an issue](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/23) to alert Dr. Caughie - **@profPLC** and the rest of the team of the newly identified person/place.  From there the project editors will determine if the person or place will get a key ID or simply exist as an encoded `<persName>` or `<placeName>` without a key attribute-value pairing._    
    
 **When encoding people and places be sure to only include the name of the person or place inside of the element. As with most elements, exclude any unnecessary spaces within the element content, but you will also want to be particularly aware when encoding people and places to not include apostrophes or pluralizations within the element.**   
 
@@ -179,28 +183,149 @@ _note: All proper people and places (and some not proper) are captured in the fo
 </placeName>`  
 
 **Creating Prosopography Documentation**  
-At the start of encoding a document, encoders should complete a document analysis to determine the sections of these Encoding Guidelines you will need to reference as well as to create a basic prosopography file. A prosopography file is simply a list of all the people and places in a file that links all of the alternate names for a place or a person to our [`LEDA_Prosopography.xml` file](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml).   
+At the start of encoding a document, encoders should complete a document analysis to determine the sections of these Encoding Guidelines necessary to reference as well as to create a basic prosopography file. A prosopography file is simply a list of all the people and places in a XML text that links all of the alternate names for a place or a person to our [`LEDA_Prosopography.xml` file](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml).   
     
-Please create a google doc or spreadsheet with three (or more) columns. Prosopography documentation is the very first round of proofing feedback an encoder can receive from the primary project editors. Dr. Caughie goes through each prosopography file and verifies the correct names are being associated to the correct key IDs, and this file also informs the technical team of important documentation on each person and place that gets added to the schema. Please list the following information for each person and place mentioned in your XML file:  
+Please create a Google doc or spreadsheet with three (or more) columns. Prosopography documentation is the very first round of proofing feedback an encoder can receive from the primary project editors. Dr. Caughie goes through each prosopography file and verifies the correct names are being associated to the correct key IDs, and this file also informs the technical team of important documentation on each person and place that gets added to the schema. Please list the following information for each person and place mentioned in your XML file:  
   
->  Key ID (assigned or suggested), Full Name (person or place), Names used in Text   
-Example: 
+>  Key ID (assigned or suggested), Full Name (person or place), Names used in Text    
+Example:     
 wegenerE (assigned), Einar Wegener (person), Einar Wegener | Einar | Mr. Wegener   
 barkerBob (suggested), Robert Barker (person), Bobby Boy   
     
 ### Mimicking Print Stylistic Renderings
-_note: In the XML Word Document stylings (underline, bold, etc.) seen in the original transcription disappear; therefore, it is necessary for you to refer to the manuscript or print typescript/edition and use the encoding below to capture such instances pf word styling._  
+_note: When text is copied from a Word Document with stylings (underline, bold, etc.) the stylings disappear; therefore, it is necessary for you to refer to the facsimile images of the document and the original Word Document transcription. Use the encoding below to capture such instances of word stylings._   
    
-`<hi rend="italics">Italicized Text</hi>`  
-  
-`<hi rend="emphasis">German Emphasized Text</hi>`   
+`<hi rend="italics">Italicized Text</hi>`    
+      
+`<hi rend="emphasis">German Emphasized Text</hi>`    
 _note: Once captured in encoding remove the spaces between letters - which is simply pseudo markup used to indicate German emphasis._  
-
-`<hi rend="bold">Bold Text</hi>`  
-   
-`<hi rend="underline">Underlined Text</hi>`  
-
-`<hi rend="super">Superscript text</hi>`  
-_This markup comes after we found in some manuscripts the minutes of a time are written out as superscript to the hour.  
-Example: `10<hi rend="super">30</hi>`_  
   
+`<hi rend="bold">Bold Text</hi>`    
+    
+`<hi rend="underline">Underlined Text</hi>`   
+   
+`<hi rend="super">Superscript text</hi>`  
+_This markup comes after we found in some manuscripts the minutes of a time are written out as superscript to the hour.   
+Example: `10<hi rend="super">30</hi>`_     
+  
+### Blank Pages
+	`<note style="descText" type="blankPage"/>`   
+  
+	`<note style="descText" type="blankPage" subtype="rightCover"/>`   
+	 
+### Publisher Marks  
+	`<note style="pubInfo">Publisher Mark</note>`  
+	
+### Footnotes / Endnotes   
+````
+<anchor type="footRefStart" n="1"/>  
+<hi rend="italics">sakkoanzug</hi>  
+<anchor type="footRefEnd" n="1"/>  
+<note corresp="fn_001" type="foot" rend="asterisk">Frock-coat.</note>  
+````  
+**Possible Attribute-Value Pairs**  
+  
+`@type "foot" or "end"`  
+`@rend "asterisk" or numericaal value`   
+   
+### Correcting Errors from Print / Facsimile Images
+_note: The LEDA project has decided to make no silent corrections; however, we want to be able to display a corrected version of misspelled text, punctuation errors, etc. for searchability and standardization._  
+````
+<choice>  
+<orig>Text from the Original</orig>  
+<reg>Corrected Text</reg>  
+</choice>  
+````  
+**Missing Text/Punctuation in Original**  
+````
+<choice>  
+<orig/>  
+<reg>missing text/punctuation</reg>  
+</choice>  
+````
+**Errors with Descendant Elements**  
+````
+<choice>  
+<orig><persName key="hvideNiels">Niel</persName>'s</orig>  
+<reg><persName key="hvideNiels">Niels</persName>'</reg>  
+</choice>  face   
+````
+**Errors as Descendant Elements**
+````
+<persName key="wardalKar">Fräulein Karen   
+<choice>  
+<orig>Wardel</orig>  
+<reg>Wardal</reg>  
+</choice>  
+</persName>  
+````    
+  
+### Encoding Tricky Transcriptions
+_note: The following elements can be used individually or in combination with each other within the `<subst>` element for encoding substitutions (when some text is deleted - whether that be erased, crossed out, written over, etc. - and some other text is inserted as replacement text._  
+  
+**Substitutions**  
+````
+<subst>
+<del type="XXX"><gap extent="X"/> OR best guess at deleted text</del>
+<add place="XXX" type="XXX" rend="XXX">replacement text</add>
+</subst>  
+````
+**Unclear Text**
+_note: Use this encoding for stretches of illegible or missing text (cutaways, holes, smudges, etc.). Define the size of the gap by indicating a number of em-spaces in the `@extent` attribute-value. If there is a clear separation of words then include a gap for each word with the `@extent` attribute-value indicating the number of em-spaces for each word respectively._  
+`<gap extent="#"/>`   
+  
+**Additions**     
+  `<add place="XXX" type="XXX" rend="XXX">`  
+**Possible Attribute-Value Pairs**  
+  
+`@place`  
+"leftMargin"  
+"rightMargin"   
+"above"  
+"below"
+"inline"   
+	
+`@type`  
+"insertion"  
+"overwrite"  
+"overtype"  
+  
+`@rend`
+"pencil"   
+"blackInk"  
+"redCrayon"   
+“redPencil”  
+			 
+**Deletions**  
+`<del type="XXX">`
+**Possible Attribute-Value Pairs**  
+  
+`@type`   
+"strikethrough"  
+"overwrite"  
+"overtype"   
+  
+### Editor/Translator Comments   
+````
+<anchor type="commentRangeStart" n="comment#"/>TEXT BEING REFERENCED  
+<anchor type="commentRangeEnd" n="comment#"/>  
+<note type="translator or editor" source="team member ID"   
+xml:id="comment_comment#">COMMENTED TEXT IN COMPLETE SENTENCES</note>  
+````
+
+_If there are multiple editors/translators and comments are not able to be directly identified to a single person than simply put u (for unidentified) as the source attribute-value. Source attribute-values should be changed to the two or three letter editor's, encoder’s, or translator's initials, which should also be identified in the `<respStmt>` elements in the XML’s teiHeader. Encoders should select whether translator or editor for the note type attribute and changes the comment# to reflect the order of the comment in relation to all of the other comments in the file._  
+
+**Example of nested comments referencing the same string of text:**  
+````
+<anchor type="commentRangeStart" n="4"/>  
+<anchor type="commentRangeStart" n="5"/>warm  
+<anchor type="commentRangeEnd" n="4"/><note type="translator" source="u" xml:id="comment_4">/m/ added in by hand to /war/ to read /warm/</note>  
+<anchor type="commentRangeEnd" n="5"/><note type="translator" source="xeh" xml:id="comment_5">The m was added by hand.</note>  
+````
+  
+### Encoder Comments
+`<!-- Encoder Initials:yyyy-mm-dd: Encoder comment here.-->`
+_Change yyyy-mm-dd date to the date of the XML comment's creation._  
+  
+### Responsibility Stmts and Source Attributes  
+_note: When linking an encoder, editor, or translator to a note the encoder’s, editor’s, or translator’s full name and the digitization task associated to them should be detailed in `<respStmt>` elements of the teiHeader. The ref attribute-value linked to the persName in the teiHeader `<respStmt>` elements are what get used as the values in the source attribute of any note elements in the rest of the XML._
