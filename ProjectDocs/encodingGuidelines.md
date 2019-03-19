@@ -1,6 +1,6 @@
 # Lili Elbe Digital Archive Encoding Guidelines  
   
-_Note: These guidelines define the Lili Elbe digital archive's encoding expectations and customizations of the TEI guidelines as defined in [the project's ODD schema file](https://gitlab.com/ctsdh/lili-elbe-code/blob/master/schema/LEDA_ODD.ODD). These guidelines focus on the encoding of the TEI `<text>` element; therefore, encoders should reference [the project's TEI Header template](https://raw.githubusercontent.com/RJP43/LiliElbe_EngagedLearners/master/ProjectDocs/TEIHeader_Template.xml) for encoding expectations/customizations regarding the `<teiHeader>` element._   
+_Note: These guidelines define the Lili Elbe digital archive's encoding expectations and customizations of the TEI guidelines as defined in [the project's ODD schema file](https://gitlab.com/ctsdh/lili-elbe-code/blob/master/schema/LEDA_ODD.ODD). These guidelines focus on the encoding of the TEI `<text>` element; therefore, encoders should reference [the project's TEI Header template](https://raw.githubusercontent.com/RJP43/LiliElbe_EngagedLearners/master/ProjectDocs/TEIHeader_Template.xml) and the associated [Capturing Metadate lesson](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Metadata) for encoding expectations/customizations regarding the `<teiHeader>` element._   
   
 ## Basic Text-Type Structural Encoding 
   
@@ -149,3 +149,55 @@ _note: For smaller texts like letters and diary entries, we are linking shorter 
 `<p><seg corresp="#g03">Thank you so much for your letter. Yours is the first one that I opened after my operation.</seg>`  
   
 ### Prosopography Markup
+_note: All proper people and places (and some not proper) are captured in the following two elements: `<persName>` and `<placeName>`. Both elements have a key attribute whose value is checked against a prosopography list imported into our project ODD schema of all the people and places across the entire project. This allows us to keep track of people and place across files no matter if the literal string of text is directly providing the proper name of the person/place or not. When encoding prosopography information it is important to refer to our [`LEDA_Prosopography.xml`](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) in order to determine the appropriate keys to use for each person or place you come across in your XML. Every `@xml:id` attribute-value in the [`LEDA_Prosopography.xml` file](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) is a possible key attribute value that can be used in your XML files. If a person or place is not listed [`LEDA_Prosopography.xml`](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml), or if there is an alternate name used in your text for an existing person/place, then encoders are instructed to notify Rebecca - **@RJP43** in their team issue or [create an issue]() to alert the Dr Caughie - **@profPLC** and the rest of the team of the newly identified person.  From there the project editors will determine if the person or place will get a key ID or simply exist as an encoded `<persName>` or `<placeName>` without a key attribute-value pairing. 
+  
+  
+
+
+
+When a person or place is mentioned in a paragraph multiple times in a row we have decided on a policy where if we have a clear name we give that priority by tagging just that instance. However, tagging multiple references in a single paragraph is necessary when a place or person is being referenced and it could be unclear of who/where exactly is being referenced. 
+
+Also, when encoding people and place be sure to only include the name of the person or place inside of the element. As with most elements, exclude any unnecessary spaces within the element content but you will also want to be particularly aware when encoding people and places to not include apostrophes and pluralizations with in the element. 
+
+Example: <persName key="lili">Lili</persName>’s lover
+People
+<persName key="lili">Mrs. Lili Elvenes</persName>
+
+<persName key=”lili”>Lili</persName>
+
+<persName key="king">King of <placeName key="denmark">Denmark</placeName></persName>
+Places
+<placeName key="dresden">Dresden</placeName>
+
+<placeName key="dresden">German city</placeName>
+
+<placeName key="womensClinic"><persName key="kreutz">the Professor</persName>'s clinic</placeName>
+Creating Prosopography Files
+At the start of encoding a document, an encoder should complete a document analysis to determine the sections of these Encoding Guidelines they will need to reference as well as to create a basic prosopography file. A prosopography file is simply a list of all the people and places in a file that links all of the alternate names for a place a person. See this example prosopography file. 
+
+I recommend creating a google doc or spreadsheet with three (or more) columns.This document is the very first round of proofing feedback an encoder can receive from the primary project editors. Dr. Caughie goes through each prosopography file and verifies the correct names are being associated to the correct key IDs and this file also informs the technical team of important documentation on each person and place that gets added to the schema.  See example of possible table/spreadsheet setup below:
+
+Key ID (assigned or suggested)
+Full Name (person or place)
+Names used in Text
+wegenerE (assigned)
+Einar Wegener (person)
+Einar Wegener
+
+
+
+
+Einar Wegner
+
+
+
+
+Einar
+
+
+
+
+Mr. Wegener
+barkerBob (suggested)
+Robert Barker (person)
+Bobby Boy
