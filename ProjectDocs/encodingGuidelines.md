@@ -2,6 +2,19 @@
   
 _Note: These guidelines define the Lili Elbe digital archive's encoding expectations and customizations of the TEI guidelines as defined in [the project's ODD schema file](https://gitlab.com/ctsdh/lili-elbe-code/blob/master/schema/LEDA_ODD.ODD). These guidelines focus on the encoding of the TEI `<text>` element; therefore, encoders should reference [the project's TEI Header template](https://raw.githubusercontent.com/RJP43/LiliElbe_EngagedLearners/master/ProjectDocs/TEIHeader_Template.xml) and the associated [Capturing Metadate lesson](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Metadata) for encoding expectations/customizations regarding the `<teiHeader>` element._   
   
+## Steps to take before Encoding  
+  
+### Capturing Special Characters
+Change any XML special characters to designated XML entities (ie. `&` becomes `&amp;`).   
+_For special characters, use the HTML Entity codes preceded by “&#” and followed by a semicolon “;”. For example, to render an en dash (HTML Entity Code 8211), you would enter “&#8211;”. Here’s a list of HTML Entity Codes: https://www.html.am/reference/html-special-characters.cfm - Use column titled: HTML Entity Number.   
+### Standardize XML Filename  
+_note: XML documents should be named the same as the .docx transcription files without the parentheticals and any text that follows the first whitespace._  
+````
+19211922ThomsenSdiaryentries Comments(9.21.18).docx   
+↓  
+19211922ThomsenSdiaryentries.xml  
+````  
+   
 ## Basic Text-Type Structural Encoding 
   
 The Lili Elbe Digital Archive deals with several different types of texts including: entire books, book sections and chapters, diary entries, magazine and journal articles, and letters. Each of these different text-types require slightly different structuring of the TEI `<text>` element's descendant elements. In this section of the guidelines each text-types' basic structure is defined.   
