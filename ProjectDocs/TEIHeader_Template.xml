@@ -1,74 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-   
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that should match their name in the Prosopography. For project team members and organizations use the @ref attribute and the two-letter (or three-letter, if available in the info provided) initials of the person on the persName/orgName elements. For dates notice there are some instances where exact dates are given and other places only month ranges are available. While in this template we have placed certain date formats in particular resp. statements, the matching is arbitrary and encoders should use whichever format fits the info provided for each resp. statement. -->
+   <!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. 
+      For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that
+      should match their name in the Prosopography. For project team members and organizations use the @ref attribute 
+      and the two-letter (or three-letter, if available in the info provided) initials of the person on the persName elements.-->
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!-- For Letters -->
+            <!-- For Letters: Remove the following if not encoding a letter -->
             <title>
+               <date><!--date defined in teiHeader info; numerical values of filename (which indicate letter date)--></date>
                Letter to <persName key=""><!-- Person Letter Is Addressed To --></persName>
-            </title>            
-            <!-- For texts with translations (that are not letters) -->            
-               <title><!--Include title of original work here.--></title>
-               <title xml:lang="eng"><!--Include translated title of original work here!--></title> 
+            </title>
+            
+            <!-- For Articles: Remove the following if not encoding an article -->
+            <title><!-- Name of Newspaper/Journal/Magazine-->
+               <date><!-- article publication date in yyyy-mm-dd --></date></title>
+            
+            <!-- For Book Chapters; Remove the following if not encoding a book chapter -->
+            <title><!-- Chapter Title if not just numerical value; otherwise "Chapter #" --> within
+               <!-- Book Title --></title>
+            
+            <!-- For Editions; Remove the following if not encoding a book chapter -->
+            <title><!-- Language --> Edition</title>
             
             <author>
-               <persName key=""><!-- Writer of Letter; or author of text --></persName>
-            </author>           
+               <persName key=""><!-- Writer of Letter; or Author of Text --></persName>
+            </author>
+            
+            <!-- Formatting dates in <respStmt> elements:            
+            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
+            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
+            If given month: <date>Month(written out), Year(as YYYY)</date>-->
+            
+            <!-- People in <respStmt> elements: 
+            Each person on the project team has a special identifier (including you as an encoder).
+            These IDs should be used in the blank ref attribute-values below. 
+            IDs are created by taking the first and last initial of the person's name. 
+            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
             <respStmt>
-               <resp>Photographed <date>August 16-17, 2017</date> by</resp>
-               <persName ref="plc">Pamela Caughie</persName>
+               <resp>Photographed <date><!--insert date; see formatting suggestions above--></date>
+                  by</resp>
+               <persName ref=""><!-- Name of Photographer --></persName>
             </respStmt>
             <respStmt>
-               <resp>Images prepared from <date>August to December, 2018</date> by</resp>
-               <persName ref="mg">Matthew Gallagher</persName>
+               <resp>Images prepared
+                  <date><!--insert date; see formatting suggestions above--></date> by</resp>
+               <persName ref=""><!-- Name of Image Preparer --></persName>
             </respStmt>
             <respStmt>
-               <resp>Transcription completed from <date><!-- month --> to <!--month-->,
-                     <!-- year --></date> by</resp>
-               <persName><!-- Name of Transriber --></persName>
+               <resp>Transcription completed
+                  <date><!--insert date; see formatting suggestions above--></date> by</resp>
+               <persName ref=""><!-- Name of Transriber --></persName>
             </respStmt>
             <respStmt>
-               <resp>Translation completed from <date><!-- month --> to <!--month-->,
-                     <!-- year --></date> by</resp>
-               <persName><!-- Name of Translator --></persName>
+               <resp>Translation completed
+                  <date><!--insert date; see formatting suggestions above--></date> by</resp>
+               <persName ref=""><!-- Name of Translator --></persName>
             </respStmt>
             <respStmt>
-               <resp>Translation reviewed in <date><!-- month -->, <!-- year --></date> by</resp>
-               <persName><!-- Name of Translation Reviewer --></persName>
+               <resp>Translation reviewed
+                  <date><!--insert date; see formatting suggestions above--></date> by</resp>
+               <persName ref=""><!-- Name of Translation Reviewer --></persName>
             </respStmt>
             <respStmt>
-               <resp>Encoding completed from <date><!-- month --> to <!--month-->,
-                     <!-- year --></date> by</resp>
-               <persName><!-- Name of Encoder --></persName>
+               <resp>Encoding completed
+                  <date><!--insert date; see formatting suggestions above--></date> by</resp>
+               <persName ref=""><!-- Name of Primary Encoder --></persName>
             </respStmt>
             <respStmt>
                <resp>Encoding assistance and/or XML proofing completed by</resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
-               <persName><!-- Name of Encoder/Proofer --></persName>
-               <persName><!-- Name of Encoder/Proofer --></persName>
+               <persName ref=""><!-- Name of Encoder/Proofer --></persName>
+               <!-- Remove any additional persName elements not used -->
+               <persName ref=""><!-- Name of Encoder/Proofer --></persName>
+               <!-- Remove any additional persName elements not used -->
             </respStmt>
             <respStmt>
-               <resp>Assigned <date>Spring 2019</date> Engaged Learner(s)</resp>
-               <persName><!-- Name of Learner --></persName>
-               <persName><!-- Name of Learner --></persName>
-               <persName><!-- Name of Learner --></persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML transformed into HTML on
-                     <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+               <resp>XML transformed into HTML
+                  <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
             </respStmt>
             <respStmt>
-               <resp>HTML proofing completed from <date><!-- month --> to <!--month-->,
-                     <!-- year --></date> by</resp>
-               <persName><!-- Name of Encoder/Proofer --></persName>
-               <persName><!-- Name of Encoder/Proofer --></persName>
+               <resp>HTML proofing completed
+                  <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+               <persName ref=""><!-- Name of Proofer --></persName>
+               <persName ref=""><!-- Name of Proofer --></persName>
+               <!-- Remove any additional persName elements not used -->
             </respStmt>
             <sponsor>Loyola University Chicago</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
-            <sponsor>Danish Arts Foundation</sponsor>
          </titleStmt>
          <publicationStmt>
             <authority>Lili Elbe Digital Archive</authority>
@@ -76,14 +98,15 @@
             <date>July 6th, 2019</date>
             <availability>
                <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
-                     <placeName><!-- location of archive --></placeName>
+                  <placeName><!-- location of archive --></placeName>
                </p>
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
-                  4.0 International licence.</licence>
+                  4.0 International license.</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p><!-- describe anything you think worth noting about the physical text document from looking at the photograph; encoder's description must be in complete, logical sentences --></p>
+            <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+               encoder's description must be in complete, logical sentences --></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
