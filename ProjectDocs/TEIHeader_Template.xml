@@ -84,7 +84,7 @@
             </respStmt>
             <respStmt>
                <resp>HTML proofing completed
-                  <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                  <date><!-- insert date; see formatting suggestions above --></date> by</resp>
                <persName ref=""><!-- Name of Proofer --></persName>
                <persName ref=""><!-- Name of Proofer --></persName>
                <!-- Remove any additional persName elements not used -->

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="../../../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -72,13 +73,12 @@
                     <p>Saa er jeg tilmed bange for, at den anden Form skulde tynge Bogen, og jeg ønsker netop at faa frem, at jeg er koket, sorgløs, overfladisk og pjanket – og det har været mig om at faa frem, at hvad der er af kunstnerisk, af Livsvisdom og alvorlig mandig Viden, kommer fra <persName key="sparreAn">Andreas</persName>, der var Kunstner og et honnet Mandfolk, medens min Indsats er en vis letbenet og tøset Filosofi! (Du ser, det er i Virkeligheden en Nedskrivning af Aktiverne) Bed Her <persName key="magnusE">Ervin<note type="translator">The name should be Erwin.</note> Magnus</persName> at ville høre med Sympathi paa dette mit Forsvar for Bogens Form.</p>
                 
                 <closer>
-                    <salute>Din stakkeles lille Veninde,</salute><hi rend="underline">
-                        <persName key="lili">Lili</persName> Elvenes
-                    </hi> Mille baisers à <persName key="knudsenV">Vibeke</persName>
-                        <hi rend="underline">
-                            <persName key="lili">Lili</persName>
-                        </hi>
-                    </closer>
+                    <salute>Din stakkeles lille Veninde,</salute>
+                    <signed>
+                        <hi rend="underline"><persName key="lili">Lili</persName> Elvenes</hi></signed>
+                    <salute>Mille baisers à <persName key="knudsenV">Vibeke</persName></salute>
+                        <signed><hi rend="underline"><persName key="lili">Lili</persName></hi></signed>
+                </closer>
                     <!-- tnm 10/9: should probably do additional markup on the line above, seems to be two signatures and a small PS? -->
                </div>
             </div> <!-- end "original" div -->
@@ -121,12 +121,10 @@
                     <p>So I am even afraid that the other form should weigh down the book and I really wish to show that I am coquettish, carefree, superficial, and giddy – and it has been important to me to show that what is of artistic, wisdom and seriously manly knowledge, comes from <persName key="sparreAn">Andreas</persName>, who was an artist and a respectable man, while my contribution is a certain shallow and girlish philosophy! (You see, it is in reality a writing down of the assets) Ask Mr. <persName key="magnusE">Ervin<note type="translator">The name should be Erwin.</note> Magnus</persName> to listen with sympathy to this my defense of the form of the book.</p>
                 
                 <closer>
-                    <salute>Your poor little friend</salute><hi rend="underline">
-                        <persName key="lili">Lili Elvenes</persName>
-                    </hi> A thousand kisses to <persName key="knudsenV">Vibeke</persName>
-                        <hi rend="underline">
-                            <persName key="lili">Lili</persName>
-                        </hi>
+                    <salute>Your poor little friend</salute>
+                    <signed><hi rend="underline"><persName key="lili">Lili Elvenes</persName></hi></signed>
+                    <salute>A thousand kisses to <persName key="knudsenV">Vibeke</persName></salute>
+                    <signed><hi rend="underline"><persName key="lili">Lili</persName></hi></signed>
                     </closer>
                     <!-- should probably do additional markup on the line above, seems to be two signatures and a small PS? -->
                 </div>
