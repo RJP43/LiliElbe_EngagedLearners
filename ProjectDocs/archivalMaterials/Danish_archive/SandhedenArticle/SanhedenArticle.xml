@@ -14,13 +14,14 @@
                <persName>Marianne Ølholm</persName>
             </respStmt>
             <respStmt>
-               <resp>Encoding updated on <date when="2019-03-18">21 February 2019</date></resp>
+               <resp>Encoding updated on <date when="2019-03-20">20 March 2019</date></resp>
                <persName ref="@kejcat">Kristin Jacobsen</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
             <!-- KEJCAT 2019-02-19: No publication information available in translation Word document or jpeg of original. -->
+            <!-- KEJCAT 2019-30-20: Should I describe the fact that the article is one of many that have been bound into a book? -->
          </publicationStmt>
          <sourceDesc>
             <p>Information about the source</p>
@@ -34,15 +35,17 @@
          <div type="original">
             <div type="headlines">
                <list>
-                  <item rend="primary">En bog om, hvordan Hr. Wegener blev til Frøken
-                     Wegener.</item>
-                  <item>Hasselbalch udgiver Skandalebogen.</item>
-                  <!-- KEJCAT 2019-02-21: How do I indicate that the headline in the original article has an initial letter E that drops below the line and acts as the start of a thick line running under the headline? -->
-                  <!-- KEJCAT 2019-02-19: How do I indicate that the headline and thick black line spread over both pages of the arricle. -->
+                  <item rend="primary"><b><En bog om, hvordan Hr. Wegener blev til Frøken Wegener.</b></item>
+                  <!-- KEJCAT 2019-03-20: I don't know how to address this error. The message says that that word "bog" is associate with an element type. -->
+                  <!-- KEJCAT 2019-03-20: How do I indicate that the headline runs across both pages of the article. -->
+                  <!-- KEJCAT 2019-03-20: How do I indicate that the headline in the original article has an initial letter E that drops below the line and acts as the start of a thick line running under the headline? -->
+                  <!-- KEJCAT 2019-02-19: How do I indicate that the headline and thick black line spread over both pages of the arricle? -->
+                  <item><b>Hasselbalch udgiver Skandalebogen.</b></item>
                </list>
             </div>
             <div type="articleBody">
-               <p>SPEKULATIONEN <!-- KEJCAT 2019-02-21: How do I indicate that initial letter S is bigger than other letters in the word and that it drops down to the next line? -->
+               <p>SPEKULATIONEN
+                  <!-- KEJCAT 2019-02-21: How do I indicate that initial letter S is bigger than other letters in the word and that it drops down to the next line? -->
                   i Tryksager, som berører det kønslige Omraade, har efterhaanden faaet saadan et
                   Omfang, at man skulde tro, at Politidirektøren sov og lod
                   Anstødelighedsparagraffer være Anstødelighedsparagraffer. Maaske er Sandheden den,
@@ -57,7 +60,11 @@
                   handler om Malerens Oplevelser under Forvandlingen fra Mand til Kvinde.</p>
                <p>Denne Forvandling fandt Sted for ikke længe siden i Berlin, hvor Wegener paa
                   Operationsbordet lod sig forvandle fra Mand til Kvinde.</p>
-               <p style="heading" rend="division"><b>Et ulykkeligt Ægteskab.</b></p>
+               <list>
+                  <!-- KEJCAT 2019-30-20: Do I need this list tag? It doesn't seem like there is a list here. -->
+                  <item><p style="heading" rend="division"><b>Et ulykkeligt Ægteskab.</b></p></item>
+               </list><!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
+               
                <p>Malerens Ægteskab var ulykkeligt. Han var ikke en rask og naturlig Mand. Halvvejs
                   var han Kvinde, og dette medførte voldsomme Brydninger i Hjemmet. Wegener led
                   meget under de fortvivlede Forhold i Hjemmet. Han elskede sin Hustru med dyb og
@@ -67,9 +74,28 @@
                <p>Han grublede mere og mere over disse Forhold, indtil han en Dag hørte om de
                   Operationer, tyske Videnskabsmænd foretager, og som gør Mennesker af hans Slags
                   sunde og naturlige ved at give dem deres rette Køn.</p>
+               <list>
+                  <!-- KEJCAT 2019-30-20: Do I need this list tag? It doesn't seem like there is a list here. -->
+                  <item><p style="heading" rend="division"><b>Hellere skifte Køn end blive ved at være ulykkelig.</b></p></item>
+               </list><!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
                
-               <!-- KEJCAT 2019-03-18: INSERT MIDDLE PART OF TRANSLATION HERE. -->
-               
+               <p>Fra det Øjeblik tog Wegeners Tanker ny Retning. Han syntes næsten ikke, han kunde blive ved med at udholde den Skæbne, der havde givet ham en Kvindesjæl i en Mandskrop. Han tænkte da, at det maatte være bedre at skifte Køn end at blive ved at være ulykkelig. Hans Hustru forlangte nu Skilsmisse, og Wegener gik gerne med dertil. Ikke fordi han ikke satte umaadelig Pris paa sin Hustru – for det gjorde han, – men fordi Drifterne i hans Krop ikke længere var vendt imod hendes.</p>
+               <p>Han fandt nu, at det bedste, han kunne gøre, var at rejse til Tyskland og der underkaste sig den Operation, der kunde forandre ham til en rigtig Kvinde.</p>
+               <p>Han realiserede sin Plan og stod nogle Uger senere udenfor en Privatklinik i Berlins fornemme Kvarter.</p>
+               <p>Han ringede paa og blev modtaget af en venlig Sygeplejerske, der bad ham tage Plads og skrive sit Navn i en Modtagelsesbog, som blev forevist Lægen. Wegener skrev sit Navn og satte sig ned for at vente, men han havde næppe taget Plads, før Døren paany gik op, og Lægen traadte ind.</p>
+               <list>
+                  <!-- KEJCAT 2019-30-20: Do I need this list tag? It doesn't seem like there is a list here. -->
+                  <item><p style="heading" rend="division"><b>“Det er ikke værre end at gaa til Tandlægen,”</b></p></item>
+               </list><!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
+               <p>sagde han til Wegener, da han havde angivet sit Ærinde, som gik ud paa at spørge, om det var en meget alvorlig Operation, der skulde til for at gøre ham til Kvinde.</p><!-- Paragraph does not indent in the original article because it continues a quote started in the subheading. -->
+               <p>Wegener lod sig derpaa indlægge paa Kliniken, og et Par Dage efter fandt Operationen Sted.</p> 
+               <p>Wegeners Baare blev kørt ind i Operationsstuen, der blev lagt en Kloroformmaske paa hans Ansigt, og for sidste Gang sov han ind som Mand.</p>
+               <p>Da han vaagnede i sin Seng, var han Kvinde. Operationen var overstaaet, og den var forløbet heldigt.</p>
+               <p>“Naa, Frøken, hvordan gaar det?” spurgte Overlægen venligt. Wegener smilede.</p>
+               <p>For første Gang var hun blevet tiltalt som Kvinde, og hendes Kvindesjæl frydede sig over endelig at bo i et Kvindelegeme.</p>
+               <p>…. Det varede ikke ret længe, før hun var kommet sig fuldkommen efter Operationen og blev udskrevet fra Kliniken.</p>
+               <p>Hun befandt sig nu pludselig i en højst mærkværdig Situation. Kvinde var hun, men hun slæbte stadig rundt med et Mandsnavn og med Papirer, der lød paa, at hun var Mand.</p>
+               <p>Hun havde hurtigt vænnet sig til Kvindetøj, og hun befandt sig langt bedre i denne Klædning end i Mandstøj. Men nu maatte hun ogsaa have Papirer, der lød paa, at hun var Kvinde.</p>
                <p>Det viste sig yderst vanskeligt at faa disse Papirer. Der krævedes et Utal af
                   Undersøgelser og Attester fra Embedslæger og Retslægeraad, men omsider faldt da
                   Ministeriets Afgørelse, som gik ud paa, at naar hun faktisk <i>var</i> Kvinde, saa
@@ -81,12 +107,12 @@
                <figure xml:id="i00">
                   <figDesc>I vore Dage kan man vente sig alt. Forleden kom min Fætter op og besøgte
                      mig. Hun var blevet til en Kusine, siden jeg sidst saa hende.</figDesc>
-                  <note type="desc" source="#kj">PUT DESCRIPTION HERE</note>
+                  <note type="desc" source="#kj">A man in striped pajamas is sitting up in a bed. A woman with short hair, dressed in an elegant pantsuit, sits at the end of the bed smiling at the man. A lit candle is on the bedside table. The cartoon is signed A.R. CANE.</note>
                </figure>
                <div type="headlines">
                   <list>
                      <!-- KEJCAT 2019-02-21: Do I need this list tag? It doesn't seem like there is a list here. -->
-                     <item>Mødet med den tidligere Hustru.</item>
+                     <item><b>Mødet med den tidligere Hustru.</b></item>
                      <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
                   </list>
                </div>
@@ -109,20 +135,22 @@
                <div type="headlines">
                   <list>
                      <!-- KEJCAT 2019-02-21: Do I need this list tag? It doesn't seem like there is a list here. -->
-                     <item>Skandalebogen.</item>
+                     <item><b>Skandalebogen.</b></item>
                      <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
                   </list>
                </div>
                <p>Alt dette kunde være meget godt, men det, der maa vække enhver sundttænkende Mands
                   Forargelse, er den Omstændighed, at Frk. Wegener nu vil udgive en Skandalebog.</p>
-               <p>Bogen kommer i Frk. Wegeners Navn, men <i>Loulou Lassen</i> fra
-                  “Politiken” har skrevet den for hende, og den giver en udpenslet Skildring af de erotiske
+               <p>Bogen kommer i Frk. Wegeners Navn, men <i>Loulou Lassen</i> fra “Politiken” har
+                  skrevet den for hende, og den giver en udpenslet Skildring af de erotiske
                   Fornemmelser, Mennesket Wegener har oplevet, dels som mand og dels som Kvinde.</p>
                <p>Kan man virkelig det?</p>
                <p><i>Er</i> en saadan Udpensling ikke for utiltalende for et anset Forlag som
                   Hasselbalchs. Vi troede Jo, men Hasselbalch mener altsaa Nej.</p>
-            </div><!-- KEJCAT 2019-02-21: Notes end of article body. -->
-         </div><!-- KEJCAT 2019-02-21: Notes end of original Danish version of article. -->
+            </div>
+            <!-- KEJCAT 2019-02-21: Notes end of article body. -->
+         </div>
+         <!-- KEJCAT 2019-02-21: Notes end of original Danish version of article. -->
          <div type="translation">
             <!-- KEJCAT 2019-02-21: Insert translation here. -->
          </div>

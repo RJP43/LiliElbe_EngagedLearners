@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="MIWschema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Letter to <persName key="garlandM">Maria Garland</persName>
-            </title>
-            <author>
-               <persName key="lili">Lili Ilse Elvenes</persName>
-            </author>
-            <respStmt>
-               <resp>Translation completed on <date when="2017-11-20">20 November 2017</date>
-               </resp>
-               <persName ref="kj">Kristin Jacobsen</persName>
-               <persName ref="mb">Maiken Boysen</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Encoding updated on <date when="2018-11-05">05 November 2018</date>
-               </resp>
-               <persName ref="tnm">Tyler Monaghan</persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         
-         <div type="original">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to <persName key="garlandM">Maria Garland</persName>
+                </title>
+                <author>
+                    <persName key="lili">Lili Ilse Elvenes</persName>
+                </author>
+                <respStmt>
+                    <resp>Translation completed on <date when="2017-11-20">20 November 2017</date>
+                    </resp>
+                    <persName ref="kj">Kristin Jacobsen</persName>
+                    <persName ref="mb">Maiken Boysen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding updated on <date when="2018-11-05">05 November 2018</date>
+                    </resp>
+                    <persName ref="tnm">Tyler Monaghan</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
             
-            <div type="opener">
-               <p><date when="1931-08-07">7 August 1931</date></p>
-            </div> <!-- end opener(original) div -->
+            <div type="original">
+                
+                <div type="opener">
+                    <p><date when="1931-08-07">7 August 1931</date></p>
+                </div> <!-- end opener(original) div -->
+                
+                <div type="body">
+                    <p style="salutation">Kære Veninde</p>
+                    <p>Tusind Tak for Brevet!</p>
+                    <p>Jeg talte imorges med <persName key="kreutz">Professoren</persName> om Bogen. Han synes, <hi rend="underline">det er udmærket altsammen</hi> – og har kun nogle rent videnskabelige Indvendinger, over for hvad <hi rend="underline">jeg</hi>
+                        <note type="editor">Underlined three times</note> har misforstaaet.
+                    </p>
+                    <p>Snarest muligt giver han Besked derom. Men han er ikke slem til at skrive Breve – gør det næsten aldrig – og han har saa travelt<note type="translator">[sic]</note> i disse Dage, fordi han i Begyndelsen af næste Uge tager Ferie.</p>
+                    <p>Tænk, jeg har endnu ikke faaet Lov til at komme op. Men nu kan det ikke være længe, inden jeg atter er paa Benene.</p>
+                </div> <!-- end body(original) div -->
+                
+                <div type="closer">
+                    <p>Tusind hjærtelige Hilsner til Dem og Deres Mand</p>
+                    <p style="valediction">Deres</p>
+                    <p>
+                        <persName key="lili">Lili Elvenes</persName>
+                    </p>
+                </div> <!-- end closer(original) div -->
+            </div> <!-- end original div -->
             
-            <div type="body">
-               <p style="salutation">Kære Veninde</p>
-               <p>Tusind Tak for Brevet!</p>
-               <p>Jeg talte imorges med <persName key="kreutz">Professoren</persName> om Bogen. Han synes, <hi rend="underline">det er udmærket altsammen</hi> – og har kun nogle rent videnskabelige Indvendinger, over for hvad <hi rend="underline">jeg</hi>
-                  <note type="editor">Underlined three times</note> har misforstaaet.
-               </p>
-               <p>Snarest muligt giver han Besked derom. Men han er ikke slem til at skrive Breve – gør det næsten aldrig – og han har saa travelt<note type="translator">[sic]</note> i disse Dage, fordi han i Begyndelsen af næste Uge tager Ferie.</p>
-               <p>Tænk, jeg har endnu ikke faaet Lov til at komme op. Men nu kan det ikke være længe, inden jeg atter er paa Benene.</p>
-            </div> <!-- end body(original) div -->
-            
-            <div type="closer">
-               <p>Tusind hjærtelige Hilsner til Dem og Deres Mand</p>
-               <p style="valediction">Deres</p>
-               <p>
-                  <persName key="lili">Lili Elvenes</persName>
-               </p>
-            </div> <!-- end closer(original) div -->
-         </div> <!-- end original div -->
-         
-         <div type="translation">
-            
-            <div type="opener">
-               <p><date when="1931-08-07">7 August 1931</date></p>
-               <!-- tnm 2018-10-14 should I be indicating that these dates are right-justified? -->
-            </div> <!-- end opener(translation) div -->
-            
-            <div type="body">
-               <p style="salutation">Dear Friend</p>
-               <p>A thousand thanks for the letter!</p>
-               <p>I spoke this morning with <persName key="?">the professor</persName> about the book. He thinks <hi rend="underline">everything is very good</hi> – and only has some purely scientific objections about what <hi rend="underline">I</hi> have misunderstood.</p>
-               <p>As soon as possible he will let me know about it. But he is not the best at writing letters – he almost never does it – and he is so busy these days because he is taking vacation at the beginning of next week.</p>
-               <p>Can you believe, I have not yet gotten permission to get up. But it cannot be long before I am on my feet again.</p>
-            </div> <!-- end body(translation) div -->
-            
-            <div type="closer">
-               <p>A thousand hearty greetings to You and Your Husband</p>
-               <p style="valediction">Your</p>
-               <p>
-                  <persName key="lili">Lili Elvenes</persName>
-               </p>
-            </div> <!-- end closer(translation) div -->
-         </div> <!-- end translation div -->
-      </body>
-   </text>
+            <div type="translation">
+                
+                <div type="opener">
+                    <p><date when="1931-08-07">7 August 1931</date></p>
+                    <!-- tnm 2018-10-14 should I be indicating that these dates are right-justified? -->
+                </div> <!-- end opener(translation) div -->
+                
+                <div type="body">
+                    <p style="salutation">Dear Friend</p>
+                    <p>A thousand thanks for the letter!</p>
+                    <p>I spoke this morning with <persName key="?">the professor</persName> about the book. He thinks <hi rend="underline">everything is very good</hi> – and only has some purely scientific objections about what <hi rend="underline">I</hi> have misunderstood.</p>
+                    <p>As soon as possible he will let me know about it. But he is not the best at writing letters – he almost never does it – and he is so busy these days because he is taking vacation at the beginning of next week.</p>
+                    <p>Can you believe, I have not yet gotten permission to get up. But it cannot be long before I am on my feet again.</p>
+                </div> <!-- end body(translation) div -->
+                
+                <div type="closer">
+                    <p>A thousand hearty greetings to You and Your Husband</p>
+                    <p style="valediction">Your</p>
+                    <p>
+                        <persName key="lili">Lili Elvenes</persName>
+                    </p>
+                </div> <!-- end closer(translation) div -->
+            </div> <!-- end translation div -->
+        </body>
+    </text>
 </TEI>
