@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Il et Elle within Mosaïques</title>
+                <title>French, Éditions de la Nouvelle Revue Critique</title>
+                <author>
+                    <persName key="allatiniH">Hélène Allatini</persName>
+                </author>
+                <respStmt>
+                    <resp>Photographed
+                            <date><!--The date when the photo has been taken is not available. --></date>
+                        by</resp>
+                    <persName><!-- There is no mention of the photographer, nor a key ID. --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Images prepared
+                            <date><!--The date when the image has been prepared is not available.--></date>
+                        by</resp>
+                    <persName><!--  There is no mention of the image preparer's name, nor a key ID. --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed <date>March 22, 2019</date> by</resp>
+                    <persName ref="bc">Cristiana Bertola</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation completed
+                            <date><!--The date when the translation has been completed is not available.--></date>
+                        by</resp>
+                    <persName>Anne M. Callahan</persName>
+                    <!-- There is not a key ID for the translator.-->
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed
+                            <date><!--  The date when the translation has been reviewed is not available. --></date>
+                        by</resp>
+                    <persName>Anne M. Callahan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed <date>March 22, 2019</date> by</resp>
+                    <persName ref="bc">Cristiana Bertola</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed
+                            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                    <persName><!-- Name of Proofer --></persName>
+                </respStmt>
+                <sponsor>Loyola University Chicago</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date>July 6th, 2019</date>
+                <availability>
+                    <p>Reproduced by courtesy of the
+                            <orgName><!-- What do I type here? --></orgName> in
+                            <placeName><!-- What do I type here? --></placeName>
+                    </p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><!-- This is a well preserved page, the verso of the folio, with a small, white mark on the seventh line above the page end. --></p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <pb style="page" n="206"/>
+                <p><!-- RJP: 2019-03-25: The starting p tag will actually be on the previous page (including it here until preceeding page inserted -->amis
+                    communs. On fait circuler l'image qui stupéfia tout le monde. Notre amie,
+                        <persName>la marquise de
+                    S.G.</persName><!--The marquise has the same key ID as her husband. Shouldn't they be identified separately, as two distinct persons and characters?-->,
+                    dont le mari était en retard, s'écria: "Faisons une farce à <persName
+                        key="marquisSG">Emilio</persName>, il va arriver d'une instant à l'autre.
+                    Que <persName key="wegenerG">Gerda</persName> lui montre la photo comme celle
+                    d'une de ses amies, et nous verrons s'il reconnaît <persName key="wegenerE"
+                        >Einar</persName>." En bon Napolitain, coureur de femmes, <persName
+                        key="marquisSG">le marquis</persName> fut complètement affolé par ce nu
+                    ravissant: "Oh! Qui est-ce, <persName key="wegenerG">Gerda</persName>? Vous
+                    dites que c'est une amie à vous qui a posé pour vous faire plaisir... mais il
+                    faut que je la connaisse tout de suite. Jurez-moi que vous me présenterez à
+                    elle." Contenant mal son envie de rire, <persName key="wegenerG"
+                        >Gerda</persName> le lui promit, mais ajouta que la personne en question
+                    était assez farouche et d'ailleurs, absente de <placeName key="paris"
+                        >Paris</placeName> en ce moment. Plus elle faisait surgir de difficultés,
+                    plus le pauvre <persName key="marquisSG">marquis</persName> s'enflammait. Il
+                    prenait même <persName key="wegenerE">Bé</persName> à témoin, le priant de
+                    rappeler à <persName key="wegenerG">sa femme</persName>, s'il le fallait, la
+                    promesse qu'elle venait de faire. Nous en pleurions de rire. Le brave <persName
+                        key="marquisSG">Emilio</persName> refusa net de rendre la photo. Il la garda
+                    dans son portefeuille et, depuis, il ne se passa pas de jour qu'il ne se
+                    renseignât sur le retour de <persName key="wegenerE">la belle
+                        bacchante</persName>. Il en avait à ce point perdu la tête qu'en sortant
+                    d'une grande soirée, au moment de présenter son numéro de vestiaire, il donna
+                    par erreur la fameuse photo: "Vieux saligaud! Pour qui me prenez-vous?" lui cria
+                        <persName>la vierge mûre</persName> du vestiaire, en la lui lançant presque
+                    au visage.</p>
+                <p>Devant le tour tragique que semblaient prendre les événements, nous décidâmes de
+                    révéler la vérité <pb style="page" n="207"/>
+                    <pb style="heading" rend="Mozaïques"/> à l'incandescent <persName
+                        key="marquisSG">marquis</persName>. Il le prit fort mal, déchira la photo,
+                    dans un accès de rage noire, et, pendant des semaines, n'adressa plus la parole
+                    à aucun de nous.</p>
+                <p>Je ne
+                    puis<!--I think that the verb should be followed by the negative particle "pas".-->
+                    m'empêcher de sortir encore une fois de mon sujet, pour vous raconter une
+                    anecdote qui date d'environ cinquante ans et dont le héros est <persName
+                        key="naplesArchbishop">l'archevêque</persName> de <placeName key="naples"
+                        >Naples</placeName>, oncle de notre <persName key="marquisSG"
+                        >marquis</persName>. Ce <persName key="naplesArchbishop">prélat</persName>,
+                    connu pour son avarice, avait depuis des années un unique
+                        <persName>valet</persName>
+                    <!--Should this character be given a key ID?--> qui servait d'homme à tout
+                    faire, et auquel il ne donnait cependant que huit lires par mois
+                    d'appointements. Ce serviteur vint un jour lui demander une augmentation.</p>
+                <p>- <persName key="naplesArchbishop">Monseigneur</persName> sait combien je lui
+                    suis attaché et que je serais inconsolable de devoir quitter son service, mais
+                    je ne puis continuer ainsi. Le prix de la vie augmente tous les jours et je
+                    n'arrive plus à m'acheter l'essentiel, avec mes huit lires. D'ailleurs, tous les
+                    autres gagnent jusqu'à vingt lires et vont encore être augmentés. Je viens donc
+                    prier <persName key="naplesArchbishop">Monseigneur</persName> de m'accorder au
+                    moins deux lires de plus par mois.</p>
+                <p>- Ce que tu viens de dire est juste, répliqua <persName key="naplesArchbishop"
+                        >Son Excellence</persName>, mais, à mon vif regret, il m'est impossible de
+                    te donner davantage. Cependant, comme je comprends fort bien que ton salaire
+                    actuel soit insuffisant et comme je suis très satisfait de tes services, je veux
+                    faire quelque chose pour toi. Je t'accorde donc, à partir d'aujourd'hui, deux
+                    heures de liberté chaque après-midi, de une à trois heures, au moment où la
+                    circulation est le <pb style="page" n="208"/>
+                    <pb style="heading" rend="Mozaïques"/> plus dense, sur <placeName>le Pont du
+                        Château de l'Oeuf</placeName>
+                    <!-- This place isn't included in the proposography. Should it get a key ID?-->,
+                    tu pourras y aller mendier. Ainsi, tout s'arrangera pour le mieux."</p>
+                <p>Et l'on pu voir quotidiennement, à l'entrée du Pont, le
+                        <persName>valet</persName>
+                    <!-- Should this character appear in the prosopography and get a key ID?--> de
+                        <persName key="naplesArchbishop">l'archevêque</persName> tendre la main. Et
+                    cela ne choquait personne... O dolce <placeName key="naples"
+                    >Napoli</placeName>!</p>
+                <p>Je reviens aux <orgName>Wegener</orgName>
+                    <!-- This is a plural, how should it be marked up that is is about both Einar and Gerda?-->
+                    pour ne plus les quitter. Je demandai à <persName key="wegenerG"
+                        >Gerda</persName> depuis quand elle s'était aperçue, pour la première fois,
+                    des contours féminins de <persName key="wegenerE">Bé</persName>.</p>
+                <p>- Cela remonte loin, me répondit-elle, même avant la guerre. Nous étions encore à
+                        <placeName key="copenhagen">Copenhague</placeName> et je faisais le portrait
+                    d'une <persName key="larsen">actrice</persName> très connue. Un jour, elle
+                    téléphona, au dernier moment, pour décommander la séance. J'étais furieuse et
+                    déçue, ayant gardé mon après-midi pour elle. <persName key="wegenerE"
+                        >Bé</persName>, me voyant contrariée de ne pouvoir avancer mon travail,
+                    s'offrit à remplacer le <persName key="larsen">modèle</persName>, du moins pour
+                    la robe, s'il parvenait à la passer. Je fus stupéfaite de voir que, non
+                    seulement elle lui allait à merveille, mais encore qu'il avait des épaules de
+                    femme, éblouissantes. Je m'amusai alors à compléter l'illusion en posant sur sa
+                    tête une perruque blonde, qui me restait du carnaval et en le fardant de mon
+                    mieux. Je me mis ensuite à peindre et fus surprise, en plein travail, par mon
+                    veritable <persName key="larsen">modèle</persName>, qui venait s'excuser de
+                    m'avoir fait faux bond. En voyant sa robe sur une autre personne, elle fut un
+                    peu étonnée, mais ne reconnut pas <persName key="wegenerE">Einar</persName>.
+                    Pendant un bon moment je lui fis croire qu'une amie l'avait remplacée pour me
+                    rendre service <pb style="page" n="209"/>
+                    <pb style="heading" rend="Mozaïques"/> et me permettre d'avancer son portrait.
+                    Le timbre de voix de <persName key="wegenerE">Bé</persName> finit par le trahir
+                    et <persName key="larsen">la jeune femme</persName>, riant à gorge déployée, ne
+                    parvenait pas à revenir de son ébahissement. Elle s'invita à dîner et fit monter
+                    du champagne "pour boire à la santé de sa nouvelle amie, <persName key="lili"
+                        >Lily</persName>." Pendant le repas, on baptisa <persName key="wegenerE"
+                        >Bé</persName> au champagne, et depuis lors, il posa souvent pour moi, se
+                    déguisant en femme chaque fois que l'occasion s'en présentait. <persName
+                        key="wegenerE">Bé</persName> adorait ce genre de travail et aimait à
+                    mystifier les gens, qui le prenaient invariablement pour une fille d'Eve.
+                    <!--It is a figure of speech, but it referes to a person, though biblical figure. Should it be marked up and given a key ID?-->
+                    A
+                    <!-- It might be the font choice, but this is a preposition and it should have an accent on, as in À.-->
+                    divers bals costumés, il fit sensation et prit de plus en plus l'habitude de
+                    personnifier <persName key="lili">Lily</persName>. Un soir, qu'enrhumée, je ne
+                    pouvais sortir, il mit ma plus jolie robe décolletée. Après que je l'eus
+                    soigneusement coiffé et maquillé, il se rendit, en compagnie d'un de nos jeunes
+                    amis <!-- Should he be marked up as person and be given a key ID? -->, à un
+                    dîner suivi de soirée dansante qu'on donnait chaque quinzaine à un club
+                    d'artistes et de gens du monde
+                    <!-- Should both these nouns be marked up and given key IDs?--> auquel nous
+                    appartenions. A <!--As a preposition, it should appear as À.--> part ce jeune
+                    ami <!-- Should he be marked up and given a key ID?--> et une <persName
+                        key="madameB">dame</persName> de notre connaissance, personne n'était dans
+                    le secret. Tous deux présentèrent <persName key="lili">la nouvelle
+                        venue</persName> comme la soeur du peintre <persName key="wegenerE">Einar
+                        Wegener</persName> et ma belle-soeur, ajoutant que nous étions retenus à la
+                    maison par la grippe. La belle <persName key="lili">Lily</persName> eut un
+                    succès fou et décrocha d'une façon foudroyante le coeur d'un officier de
+                    cavalerie, <persName key="countT">le comte de T.</persName>, âgé de
+                    cinquante-cinq à soixante ans, qui, de toute la soirée, ne la quitta pas et
+                    l'accabla de compliments. Elle dut promettre de le revoir; il tint à la
+                    reconduire jusque chez elle et prit congé d'elle <pb style="page" n="210"/>
+                    <pb style="heading" rend="Mozaïques"/> à regret. Le surlendemain, comme je
+                    travaillais seule dans mon atelier, on sonna à la porte; quelle ne fut ma
+                    surprise en me trouvant face à face avec le <persName key="countT"
+                        >monsieur</persName>, mûr et correct, que <persName key="lili"
+                        >Lily</persName> m'avait décrit comme son amoureux et qui se tenait sur le
+                    seuil, un peu gêné, les bras chargés de fleurs. Les miens faillirent en
+                    tomber!</p>
+                <p>- N'est-ce pas ici que demeure M<hi rend="super">lle</hi>
+                    <!--It is printed as capital M and lle as superscript. How can this be marked up?-->
+                    <persName key="lili">Lily Wegener</persName>
+                    <!--Lili Wegener is not mentioned underneath the key ID "lili".-->? balbutia le
+                    pauvre homme. Auriez-vous l'obligeance de lui dire que <persName key="countT">le
+                        colonel de T.</persName> désirerait la voir.</p>
+                <p>Je le priais d'entrer et de s'asseoir, expliquant que, malheureusement, ma
+                        <persName key="lili">belle-soeur</persName> était sortie et rentrerait tard.
+                    Il en parut bouleversé et resta une bonne demi-heure à m'entretenir des qualités
+                    physiques et morales de <persName key="lili">Lily</persName>. Tout en approvant,
+                    j'avais toutes les peines du monde à garder mon serieux. Je pris cependant
+                    l'initiative de lui apprendre que cette <persName key="lili">enfant</persName>
+                    allait repartir bientót, ayant à régler des affaires de famille au <placeName
+                        key="denmark">Danemark</placeName>. Enfin, le <persName key="countT">comte
+                        de T.</persName> se retira, en m'assurant qu'il ne tarderait pas à revenir.
+                    Il tint parole. Entretemps, notre amie, <persName key="madameB">Mme de
+                        B.</persName><!--The last two letters in Mme are superscript. How should it be marked up?-->,
+                    qui avait assisté au fameux dîner et au coup de foudre militaire, vint nous
+                    raconter que le pauvre <persName key="countT">colonel</persName>, de plus en
+                    plus fou, ne songeait qu'à <persName key="lili">Lily</persName> et parlait même
+                    de divorcer pour l'épouser. Aussi, quand il revint pour la voir, lui annonçai-je
+                    qu'elle était partie subitement la veille, pour <placeName key="copenhagen"
+                        >Copenhague</placeName>. Le malheureux fut au désespoir. Il se confia à
+                        <persName key="wegenerE">Bé</persName>, et lui dit son étonnement de lui
+                    trouver si peu de
+                    res-<!--How do I mark up a word split within a split paragraph?--><!--How do I mark a split paragraph?--></p>
+            </div>
+        </body>
+    </text>
+</TEI>
