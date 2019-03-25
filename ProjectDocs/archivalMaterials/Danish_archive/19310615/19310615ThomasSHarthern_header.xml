@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../Desktop/Lili%20Elbe%20Project/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that should match their name in the Prosopography. For project team members and organizations use the @ref attribute and the two-letter (or three-letter, if available in the info provided) initials of the person on the persName/orgName elements. For dates notice there are some instances where exact dates are given and other places only month ranges are available. While in this template we have placed certain date formats in particular resp. statements, the matching is arbitrary and encoders should use whichever format fits the info provided for each resp. statement. -->
    <teiHeader>
@@ -9,32 +9,33 @@
          <titleStmt>
             <!-- For Letters -->
             <title>
-               Letter to <persName key="">Ernst Ludwig Harthern</persName>
+               Letter to <persName key="harthernE">Ernst Ludwig Harthern</persName>
             </title>               
             <author>
-               <persName key="">Sigurd Wegener Thomsen</persName>
+               <persName key="wegenerS">Sigurd Wegener Thomsen</persName>
             </author>           
             <respStmt>
-               <resp>Photographed<date>August 16-17, 2017</date>by</resp>
-               <persName ref="plc">Pamela Caughie</persName>
+               <resp>Photographed<date>August 16 to 17, 2017</date>by</resp>
+               <persName ref="plc">Pamela L. Caughie</persName>
             </respStmt>
             <respStmt>
-               <resp>Images prepared on<date>November 2017</date>by</resp>
+               <resp>Images prepared on<date>November, 2017</date>by</resp>
                <persName ref="mg">Matthew Gallagher</persName>
             </respStmt>
             <respStmt>
                <resp>Transcription completed on<date>November 20,
                      2017</date>by</resp>
-               <persName>Kristin Jacobsen</persName>
+               <persName ref="kj">Kristin Jacobsen</persName>
             </respStmt>
             <respStmt>
                <resp>Translation completed on<date>November 20, 2017</date>by</resp>
-               <persName>Kristin Jacobsen</persName>
+               <persName ref="kj">Kristin Jacobsen</persName>
             </respStmt>
             <respStmt>
-               <resp>Translation reviewed in<date>July to September, 2018</date>and<date>November 2018</date>by</resp>
+               <resp>Translation reviewed in<date>July to September, 2018</date>and
+                  <date>November 2018</date>by</resp>
                <persName>Marianne Ølholm</persName>
-               <persName>Maiken Boysen</persName>
+               <persName ref="mb">Maiken Boysen</persName>
             </respStmt>
             <respStmt>
                <resp>Encoding completed from<date>October to December,
@@ -47,10 +48,9 @@
                <persName>Nikolaus Wasmoen</persName>
             </respStmt>
             <respStmt>
-               <resp>Assigned<date>Spring 2019</date>Engaged Learner(s)</resp>
+               <resp>Assigned<date>Spring, 2019</date>Engaged Learner(s)</resp>
                <persName>Aliana Capati</persName>
                <persName>Sophie Karrow</persName>
-               <persName>Eleni Pamboukis</persName>
             </respStmt>
             <respStmt>
                <resp>XML transformed into HTML on
