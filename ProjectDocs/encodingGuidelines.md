@@ -1,6 +1,6 @@
 # Lili Elbe Digital Archive Encoding Guidelines  
   
-_Note: These guidelines define the Lili Elbe digital archive's encoding expectations and customizations of the TEI guidelines as defined in [the project's ODD](https://gitlab.com/ctsdh/lili-elbe-code/blob/master/schema/LEDA_ODD.ODD) and [LEDA_ODD.rng schema](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_ODD.rng). These guidelines focus on the encoding of the TEI `<text>` element; therefore, encoders should reference [the project's TEI Header template](https://raw.githubusercontent.com/RJP43/LiliElbe_EngagedLearners/master/ProjectDocs/TEIHeader_Template.xml) and the associated [Capturing Metadata lesson](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Metadata) for encoding expectations/customizations regarding the `<teiHeader>` element._   
+_note: These guidelines define the Lili Elbe digital archive's encoding expectations and customizations of the TEI guidelines as defined in [the project's ODD](https://gitlab.com/ctsdh/lili-elbe-code/blob/master/schema/LEDA_ODD.ODD) and [LEDA_ODD.rng schema](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_ODD.rng). These guidelines focus on the encoding of the TEI `<text>` element; therefore, encoders should reference [the project's TEI Header template](https://raw.githubusercontent.com/RJP43/LiliElbe_EngagedLearners/master/ProjectDocs/TEIHeader_Template.xml) and the associated [Capturing Metadata lesson](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Metadata) for encoding expectations/customizations regarding the `<teiHeader>` element._   
   
 ## Steps to take before Encoding  
   
@@ -147,7 +147,7 @@ _note: change xml:id attribute-value to match the paragraph collation ID found i
 ### Page and Column Breaks  
   
 **Recurring Page Headers**    
-_Note: In instances where a page number and a recurring heading are both present, logical element hierarchy is to put the page beginning with the numbering before the heading because the heading exists on the page (being indicated by the pb with the oage numbering)._  
+_note: In instances where a page number and a recurring heading are both present, logical element hierarchy is to put the page beginning with the numbering before the heading because the heading exists on the page (being indicated by the pb with the oage numbering)._  
 
 `<pb style="heading" rend="MIW"/>`   
 `<pb style="heading" rend="Introduction"/>`   
@@ -165,7 +165,7 @@ _Capture artificial page numbers (either of the Word Document transcriptions or 
 _In articles, there are sometime columns. At the end of each column use the `<cb/>` self-closing element with the `@n` attribute and attribute-value matching the number of column break it is._    
 `<cb n="#"/>`  
   
-_Note: When transcribing a text we have made the decision as a project to remove line break hyphenation. Therefore, if a word in the print rendition of a text is hyphenated because there was not enough room in the print rendition to fit the entire word on a single line simply remove the hyphenation. **When a word is split over a page break/beginning - `<pb/>` take the second part of the word (after the hyphenation) and paste it directly after the first part of the word (removing the hyphenation) and then proceed with the `<pb>` encoding._
+_note: When transcribing a text we have made the decision as a project to remove line break hyphenation. Therefore, if a word in the print rendition of a text is hyphenated because there was not enough room in the print rendition to fit the entire word on a single line simply remove the hyphenation. **When a word is split over a page break/beginning - `<pb/>` take the second part of the word (after the hyphenation) and paste it directly after the first part of the word (removing the hyphenation) and then proceed with the `<pb>` encoding.**_   
     
 ### Translation Segmentation  
   
