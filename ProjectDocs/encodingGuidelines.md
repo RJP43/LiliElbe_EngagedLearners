@@ -146,7 +146,9 @@ _note: change xml:id attribute-value to match the paragraph collation ID found i
   
 ### Page and Column Breaks  
   
-**Recurring Page Headers**  
+**Recurring Page Headers**    
+_Note: In instances where a page number and a recurring heading are both present, logical element hierarchy is to put the page beginning with the numbering before the heading because the heading exists on the page (being indicated by the pb with the oage numbering)._  
+
 `<pb style="heading" rend="MIW"/>`   
 `<pb style="heading" rend="Introduction"/>`   
 `<pb style="heading" rend="Foreword"/>`   
@@ -162,6 +164,8 @@ _Capture artificial page numbers (either of the Word Document transcriptions or 
   
 _In articles, there are sometime columns. At the end of each column use the `<cb/>` self-closing element with the `@n` attribute and attribute-value matching the number of column break it is._    
 `<cb n="#"/>`  
+  
+_Note: When transcribing a text we have made the decision as a project to remove line break hyphenation. Therefore, if a word in the print rendition of a text is hyphenated because there was not enough room in the print rendition to fit the entire word on a single line simply remove the hyphenation. **When a word is split over a page break/beginning - `<pb/>` take the second part of the word (after the hyphenation) and paste it directly after the first part of the word (removing the hyphenation) and then proceed with the `<pb>` encoding._
     
 ### Translation Segmentation  
   

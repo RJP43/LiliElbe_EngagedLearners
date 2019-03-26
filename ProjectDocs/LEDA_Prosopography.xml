@@ -28,6 +28,17 @@
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
+            <p>People and Places encoded in this file are pulled from the following linked LEDA texts:
+               <ref xml:id="A1">American Edition</ref>
+               <ref xml:id="B1">British Edition</ref>
+               <ref xml:id="G1">German Edition</ref>
+               <ref xml:id="D1">Danish Edition</ref>
+               <ref xml:id="TR">English Translation of Danish Edition</ref>
+               <ref xml:id="TS">German Typescript</ref>
+               <ref xml:id="danishSupp">Danish Language Archive/Supplemental Materials</ref>
+               <ref xml:id="germanSupp">German Language Archive/Supplemental Materials</ref>
+               <ref xml:id="frenchSupp">Danish Language Archive/Supplemental Materials</ref>            
+            </p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -140,6 +151,10 @@
                <placeName source="#D1">Katedralen i Sevilla</placeName>
                <placeName source="#G1">Kathedrale in Sevilla</placeName>
                <note>Likely the Catedral de Santa María de la Sede</note>
+            </place>
+            <place xml:id="chambord">
+               <placeName>Chambord</placeName>
+               <note>City in <placeName key="france">France</placeName></note>
             </place>
             <place xml:id="champs">
                <placeName>Champs de Mars</placeName>
@@ -354,6 +369,7 @@
                <placeName source="#A1">Leipzigerstrassev</placeName>
                <placeName source="#D1 #TR">Leipzigerstrasse</placeName>
                <placeName source="#G1">Leipziger Straße</placeName>
+               <placeName source="#G1">Leipzig</placeName>
                <note>In <placeName key="berlin">Berlin</placeName>, <placeName key="germany"
                      >Germany</placeName></note>
             </place>
@@ -631,6 +647,7 @@
                <placeName source="#D1 #TR">Frauenklinik</placeName><!-- Side Note: The German word is for Women's Clinic is used in D1 even though the expected name is Kvindersklinik-->
                <placeName source="#G1">Frauenklinik</placeName>
                <placeName source="#D1 #G1 #TR">Staatliche Frauenklinik</placeName>
+               <placeName source="#frenchSupp">Frauenklinik de <placeName key="dreseden">Dresde</placeName></placeName>
                <note>Staatliche Frauenklinik, Pfotenhauerstr. 90, <placeName key="dresden"
                      >Dresden</placeName></note>
             </place>
@@ -1044,15 +1061,15 @@
                <persName>Pan</persName>
                <note>Not mentioned in <ref source="#G1">G1</ref></note>
             </person>
-            <person xml:id="persenEb" source="fictional">
+            <person xml:id="persenEb" source="fictional" synch="#poulsenU">
                <persName source="#A1 #G1">Ebba Persen</persName>
                <persName source="#D1 #TR">the beautiful dancer</persName>
-               <note>Modeled on <persName>Ulla Britta Poulsen</persName></note>
+               <note>Modeled on <persName key="poulsenU">Ulla Britta Poulsen</persName></note>
             </person>
-            <person xml:id="persenIv" source="fictional">
+            <person xml:id="persenIv" source="fictional" synch="#poulsenJ">
                <persName source="#A1 #G1">Iven Persen</persName>
                <persName source="#D1 #TR">the Royal Theatre's greatest actor</persName>
-               <note>Modeled on <persName>Johannes Poulsen</persName></note>
+               <note>Modeled on <persName key="poulsenJ">Johannes Poulsen</persName></note>
             </person>
             <person xml:id="pianistXX">
                <persName>pianist XX of <placeName key="hanover">Hanover</placeName></persName>
@@ -1067,9 +1084,21 @@
                <persName>Fernando Porta</persName>
                <note><persName key="wegenerG">Gerda</persName>'s second-husband</note>
             </person>
+            <person xml:id="poulsenJ" source="historical" synch="#persenIv">
+               <persName>Johannes Poulsen</persName>
+               <note/>
+            </person>
+            <person xml:id="poulsenU" source="historical" synch="#persenEb">
+               <persName>Ulla Britta Poulsen</persName>
+               <note/>
+            </person>
             <person xml:id="praxiteles" source="historical">
                <persName>Praxiteles</persName>
                <note>Athenian sculptor</note>
+            </person>
+            <person xml:id="reissnerCarl" source="historical">
+               <persName>Carl Reißner</persName>
+               <note>German publisher</note><!-- ask Pamela to check note -->
             </person>
             <person xml:id="rene" source="fictional">
                <persName>Monsieur René</persName>
@@ -1191,6 +1220,9 @@
             <person xml:id="warnekros" source="historical" synch="#kreutz">
                <persName>Kurt Warnekros</persName>
                <persName>Warnekros</persName>
+               <persName>Professor Warnekros</persName>
+               <persName>Professor W</persName>
+               <persName source="#frenchSupp">Professeur W</persName>
                <note/>
             </person>
             <person xml:id="watteau" source="historical">
