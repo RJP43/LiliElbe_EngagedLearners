@@ -314,7 +314,7 @@ _note: Use this encoding for stretches of illegible or missing text (cutaways, h
 "leftMargin"  
 "rightMargin"   
 "above"  
-"below"
+"below"  
 "inline"   
 	
 `@type`  
@@ -326,7 +326,7 @@ _note: Use this encoding for stretches of illegible or missing text (cutaways, h
 "pencil"   
 "blackInk"  
 "redCrayon"   
-“redPencil”  
+"redPencil"    
 			 
 **Deletions**  
 `<del type="XXX">`
