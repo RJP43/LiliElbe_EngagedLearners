@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="MIWschema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -28,10 +28,10 @@
     </teiHeader>
     <text>
         <body>
-            <div type="letterOG">
+            <div type="original">
                 <p><subst>
                     <del type="strikethrough">Anlage 5</del>
-                        <add place="above" type="overwrite" rend="redCrayon">mein Brief</add>
+                    <add place="above" type="overwrite" rend="redCrayon">mein Brief</add>
                 </subst></p><!-- RJP:2018-09-21: Met with Tatjana and she thinks the crossed out word might be "Anlage 5" meaning "Attachment 5"; since we are unsure if this is correct we have decided to mark intially marked as a gap. Encoded like this: del type="strikethrough"><gap rend="pencil" extent="6"/><gap rend="pencil" extent="1"/></del> --><!-- RJP:2018-10-01: After reviewing letter 3 we have now confirmed a second hand is marking each letter with the text "Anlage" meaning "attachment" followed by a number indicating some kind of numerical categorization. -->
                 <div type="opener">
                     <p>Dresden
@@ -39,7 +39,7 @@
                     <p>
                         <seg n="g01"
                             >D<!-- zo:2018/09/17:In word document d was lower case and in the manuscript it's capitalized. Determine if this is a translation error or a silent "modernization/standardization" correction that we need to mark. -->en
-                                <date when="1931-06-27">27. Juni 1931</date></seg>
+                            <date when="1931-06-27">27. Juni 1931</date></seg>
                     </p>
                 </div>
                 <div type="body">
@@ -47,7 +47,7 @@
                         <seg n="g02">Liebe <persName key="?">Freundin</persName>,</seg>
                     </p>
                     <p><seg n="g03">Tausend Dank für Ihren Brief. Der Ihrige ist der erste, den ich nach
-                            meiner Operation geöffnet habe.</seg>
+                        meiner Operation geöffnet habe.</seg>
                         <seg n="g04">Ich kann noch nicht selbst schreiben.</seg>
                         <seg n="g05">Diese letzte Operation war furchtbar.</seg>
                         <seg n="g06">Jedesmal Verbinden verursacht mir furchtbare Schmerzen.</seg>
@@ -67,16 +67,16 @@
                 </div>
                 <div type="closer">
                     <p style="valediction"><seg n="g12">Viel Liebe und Grüße</seg>
-                    <seg n="g13">Von Ihrer armen kleinen Freundin.</seg></p> 
+                        <seg n="g13">Von Ihrer armen kleinen Freundin.</seg></p> 
                     <p><seg n="g14">Viele Grüße an Ihren lieben Mann, <persName key="">Lilimoe</persName> und seinem Bruder.</seg></p> 
                     <p><!-- RJP:2018-09-17: We should find a way to mark signatures since sometimes they fall outside of the valediction. Or perhaps sitting within the closer is enough? --><persName key="lili">Lili Elbe</persName></p>                    
                 </div>
             </div>
-            <div type="letterTranslate">
-               <p><subst>
-                   <del type="strikethrough">Attachment 5</del>
+            <div type="translation">
+                <p><subst>
+                    <del type="strikethrough">Attachment 5</del>
                     <add place="above" type="overwrite" rend="redCrayon">my Letter</add>
-               </subst></p><!-- RJP:2018-09-21: Met with Tatjana and she thinks the crossed out word might be "Anlage 5" meaning "Attachment 5"; since we are unsure if this is correct we have decided to mark intially marked as a gap. Encoded like this: del type="strikethrough"><gap rend="pencil" extent="6"/><gap rend="pencil" extent="1"/></del> --><!-- RJP:2018-10-01: After reviewing letter 3 we have now confirmed a second hand is marking each letter with the text "Anlage" meaning "attachment" followed by a number indicating some kind of numerical categorization. -->
+                </subst></p><!-- RJP:2018-09-21: Met with Tatjana and she thinks the crossed out word might be "Anlage 5" meaning "Attachment 5"; since we are unsure if this is correct we have decided to mark intially marked as a gap. Encoded like this: del type="strikethrough"><gap rend="pencil" extent="6"/><gap rend="pencil" extent="1"/></del> --><!-- RJP:2018-10-01: After reviewing letter 3 we have now confirmed a second hand is marking each letter with the text "Anlage" meaning "attachment" followed by a number indicating some kind of numerical categorization. -->
                 <div type="opener">
                     <p>Dresden -A.<!-- zo:2018/09/17:In word document the "-A." was excluded. Is this a translation error? --></p>
                     <p>
