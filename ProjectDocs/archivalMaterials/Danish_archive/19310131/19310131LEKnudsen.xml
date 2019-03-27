@@ -18,7 +18,7 @@
 				<respStmt>
 					<resp>Encoding updated on <date when="2018-11-26">26 November 2018</date>
 					</resp>
-					<persName ref="tnm">Tyler Monaghan</persName>
+					<persName ref="tm">Tyler Monaghan</persName>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -45,7 +45,7 @@
 					<salute>Kære <persName key="knudsenP">Poul</persName>
 					</salute>
 					<p>Jeg har lige læst Hr. <persName key="magnusE">Erwin Magnus</persName> Brev til Direktor <persName key="hasselbalchS">Hasselbalch</persName>
-						<note type="editor" source="tnm">the translated document reads "Haseselbalch" and had been amended to "Hasselbalch" which is the reading in the letter image</note> – og for nylig Brudstykket af Manuskriptet. Fru <persName key="louLou">Loulou Lassen</persName> har arrangeret det efter mit og afdæmpet det til Brug for om jeg saa maa sige ”kyske og kyniske danske Øren” - og saa har det endda været for skrapt.
+						 – og for nylig Brudstykket af Manuskriptet. Fru <persName key="louLou">Loulou Lassen</persName> har arrangeret det efter mit og afdæmpet det til Brug for om jeg saa maa sige ”kyske og kyniske danske Øren” - og saa har det endda været for skrapt.
 					</p>
 					<p>Det har ikke været beregnet paa Export, og havde Hr. <persName key="hasselbalchS">Hasselbalch</persName> spurgt mig, havde jeg gjort opmærksom derpaa.</p>
 					<p>Det hele beror altsaa paa Misforstaaelser og Fejltagelser o.s.v.. Mit Manuskript er langt mere <hi rend="underline">pikant</hi> og fuldt af næbbede Bemærkninger. </p>
@@ -55,8 +55,7 @@
 					<p>Men det er lige nedskrevet og ikke omarbejdet – altsaa Raamateriale paa daarligt Dansk, da jeg havde glemt en hel Del af Sprogets Finesser og Grovheder. Du husker jo nok, <persName key="sparreAn">Bé</persName> var og er en læst og pæn fransk Forfatter. ”Le Livre de Viking”. 20 Oplag.</p>
 					<p>Jeg vil ikke skjule for Dig, at jeg er meget ulykkelig over Forsinkelsen med min Bog – som jeg skylder min Skyhed og jomfruelige Tilbageholdenhed. Jeg har endnu ikke talt med <persName key="hasselbalchS">Hasselbalch</persName>.</p>
 					<pb />
-					<p style="upsideDown">Tusinde Hilsener til <persName key="knudsenV">Vibeke</persName>
-						<note type="translator">Written upside down at top of page.</note>
+					<p><hi rend="upsideDown">Tusinde Hilsener til <persName key="knudsenV">Vibeke</persName></hi>
 					</p>
 					<!-- tnm: The previous line is written as if the page were held upside-down, so the top-right corner of the page when held right-side up. Translators have just appended it to the end of the translation (Lili did use something similar in her closing of a previous letter) -->
 					<p>Men hvorledes kan vi organisere et Samarbejde Paa Grundlag af mit Manuskript?</p>
@@ -67,9 +66,11 @@
 					<!-- it's arguable based on the image whether the two preceeding paragraphs are really intended as two separate paragraphs -->
 					<p>Jeg kan laane Penge og komme en Tur til <placeName key="berlin">Berlin</placeName>, hvis det vil være godt.</p>
 					<p>Vær rar hurtigst at tale med Hr. <persName key="magnusE">Magnus</persName> derom; thi det haster! Jeg kaster Blod op af Sorrig over denne Historie, men er ligeglad. Gaar det ikke med min Bog, gaar det heller ikke med mig.</p>
-					<p>Maa vi betragte <persName key="hasselbalchS">Hr. Hasselbalch</persName>s Mission som endt – eller vil det være honnet af Hensyn til <persName key="magnusE">Hr. Erwin Magnus</persName> at lade det gaa igennem den danske Forlægger, hvis det er Meningen eller at henvende sig til Ullstein.<note type="translator">Name of a publisher.</note>
+					<p>Maa vi betragte <persName key="hasselbalchS">Hr. Hasselbalch</persName>s Mission som endt – eller vil det være honnet af Hensyn til <persName key="magnusE">Hr. Erwin Magnus</persName> at lade det gaa igennem den danske Forlægger, hvis det er Meningen eller at henvende sig til <anchor type="commentRangeStart" n="1"/>Ullstein.<anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj"   
+						xml:id="comment_1">Name of a publisher.</note>
 					</p>
-					<p>Jeg venter iøvrigt snart Svar fra "Drei Masken"</p>
+					<p>Jeg venter iøvrigt snart Svar fra <anchor type="commentRangeStart" n="2"/>"Drei Masken"<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
+						xml:id="comment_2">Name of a publisher.</note></p>
 					<p>Forøvrigt giver det første Brudstykke slet ikke nogen komplet Idé om Bogen, der er fast komponeret – og Slutningen er det bedste.</p>
 					<p>Som Titel havde jeg: ”Hvorledes Lili blev til en rigtig Pige”</p>
 					<p>”Fra Mand til Kvinde” er lidt tør og misvisende. <persName key="sparreAn">Bé</persName> var nok en Gentleman, men eller [sic] tror jeg ikke han havde meget at rose sig af. Sligt husker heldigvis Din lille uskyldige Veninde ikke noget om.</p>
@@ -80,6 +81,7 @@
 					<signed><hi rend="underline"><persName key="lili">Lili</persName></hi></signed>					
 					<!-- I didn't do a <p valediction> because "your Lili" is just on one single line -->
 				</closer> <!-- end closer(original) div -->
+				<!--put postscrpit here-->
 			</div>
 			<!--end "original" div -->
 			<div type="translation">
@@ -99,8 +101,8 @@
 					<p>But it is just written and not edited – thus raw material in bad Danish, because I had forgotten some parts of the language’s subtelties and harshness. As you remember, <persName key="sparreAn">Bé</persName> was and is a read and respectable French author. “The Viking Book,” 20th printing.</p>
 					<p>I do not want to hide from you that I am very unhappy about the delay of my book – which I blame on my shyness and virginal restraint. I have not yet spoken with <persName key="hasselbalchS">Hasselbalch</persName>.</p>
 					<pb />
-					<p><hi rend="UpsideDown">A thousand greetings to</hi> <persName key="knudsenV">Vibeke</persName>
-						<note type="translator">Written upside down at top of page.</note>
+					<p><hi rend="upsideDown">A thousand greetings to</hi> <persName key="knudsenV">Vibeke</persName>
+						
 					</p>
 					<!-- tnm: The previous line is written as if the page were held upside-down, so the top-right corner of the page when held right-side up. Translators have just appended it to the end of the translation (Lili did use something similar in her closing of a previous letter) -->
 					<p>But how can we organize a collaboration based on my manuscript?</p>
@@ -111,9 +113,9 @@
 					<!-- it's arguable based on the image whether the two preceeding paragraphs are really intended as two separate paragraphs -->
 					<p>I can borrow money and make a trip to <placeName key="berlin">Berlin</placeName>, if it will be good.</p>
 					<p>Please talk soon with <persName key="magnusE">Mr. Magnus</persName> about this; for it is urgent! I throw up blood in sorrow over this story, but I don’t care. If it is not going well with my book, it won’t go well with me.</p>
-					<p>Must we consider <persName key="hasselbalchS">Mr. Hasselbalch</persName>’s mission as ended – or will it be respectful of <persName key="magnusE">Mr. Erwin Magnus</persName> to let it go through the Danish publisher, if that is the intention or to turn to Ullstein.<note type="translator">Name of a publisher.</note>
+					<p>Must we consider <persName key="hasselbalchS">Mr. Hasselbalch</persName>’s mission as ended – or will it be respectful of <persName key="magnusE">Mr. Erwin Magnus</persName> to let it go through the Danish publisher, if that is the intention or to turn to Ullstein.
 					</p>
-					<p>By the way, I am awaiting a response from ”Drei Masken”<note type="translator">Name of a publisher.</note> soon</p>
+					<p>By the way, I am awaiting a response from ”Drei Masken” soon</p>
 					<p>However, the first fragment by itself does not give a complete idea about the book, which is tightly written – and the end is the best.</p>
 					<p>As the title I had: ”How Lili Became a Real Girl”</p>
 					<p>"From Man Into Woman" is a little dry and misleading. <persName key="sparreAn">Bé</persName> might have been a gentleman, but apart from that I do not think he had much to boast of. Fortunately, that is something your little innocent friend does not remember.</p>
