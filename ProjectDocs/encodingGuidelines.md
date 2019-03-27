@@ -111,7 +111,10 @@ _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob
     <salute><!--valediction; best wishes--></salute>
     <signed><!--transcription of signature in a linked <persName> element--></signed>    
   </closer>
-  <postscript><!--transcription of content written after signature by letter author; ps--></postscript>
+  <postscript>
+    <!--transcription of content written after signature by letter author; ps-->
+    <!--<p> elements should be used for each of the paragraphs making up the letter body-->  
+  </postscript>
 </div>
 ````  
     
