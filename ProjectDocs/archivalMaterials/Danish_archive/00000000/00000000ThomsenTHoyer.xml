@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../lili-elbe-code/schema/tei_le_2.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -28,40 +28,36 @@
    <text>
       <body>
          <div type="original">
-            <div type="opener">
-               <p><add place="pageTopLeftCorner" type="insertion" rend="pencil">Thomsen</add><note
-                     type="editor" source="kj mb">Thomsen is written in the top left corner in
-                     another hand.</note></p>
+            <div rend="head">
+               <p><add place="leftMargin" type="insertion" rend="pencil">Thomsen</add></p>
                <p>Gentoftegade 14. Gentofte Tlf. Gentofte 144</p>
             </div>
-            <div type="body">
-               <p style="salutation">Hr. <persName key="hoyerNiels">Niels Hoyer</persName> Havnegade
-                  47 København</p>
+            <div rend="body">
+               <salute>Hr. <persName key="hoyerNiels">Niels Hoyer</persName> Havnegade
+                  47 København</salute>
                <p><seg n="d01">Efter Aftale med <persName key="lili">Fru Lili Elvenes</persName>
                      sender jeg Dem hermed et Billede (som jeg gerne ønsker <hi rend="underline"
                         >retur</hi>, da det er det eneste, jeg ejer) af min Svoger Kunstmaler
                         <persName key="wegenerE">Einar Wegener</persName>.</seg></p>
                <p><seg n="d02">Jeg beder Dem tale med mig <hi rend="underline">inden</hi> De sender
                      noget uddrag af Manuskriptet til <placeName key="germany">Tyskland</placeName>
-                     – min Telefon<note type="editor" source="kj mb">Implied number is included with
-                        telephone in the translation</note> er efter 6.30 Gentofte 144, og i Løbet
+                     – min Telefon er efter 6.30 Gentofte 144, og i Løbet
                      af Dagen er det : Central 4726.</seg></p>
+           <closer>
+               <salute><seg n="d03">Med megen Agtelse</seg></salute>
+               <signed><hi rend="underline"><persName key="thomsenTC">TC Thomsen</persName></hi></signed>
+            </closer>
+               <postscript><p><seg n="d04"><hi rend="underline">Ingeniør</hi></seg></p></postscript>
             </div>
-            <div type="closer">
-               <p style="valediction"><seg n="d03">Med megen Agtelse</seg></p>
-               <p><hi rend="underline"><persName key="thomsenTC">TC Thomsen</persName></hi></p>
-               <p><seg n="d04"><hi rend="underline">Ingeniør</hi></seg></p>
-            </div>
-            <div type="postscript"/>
          </div>
          <div type="translation">
-            <div type="opener">
+            <div rend="head">
                <p>Thomsen</p>
                <p>Gentoftegade 14. Gentofte Tlf. Gentofte 144</p>
             </div>
-            <div type="body">
-               <p style="salutation">Hr. <persName key="hoyerNiels">Niels Hoyer</persName> Havnegade
-                  47 København</p>
+            <div rend="body">
+               <salute><seg>Hr. <persName key="hoyerNiels">Niels Hoyer</persName> Havnegade
+                  47 København</seg></salute>
                <p><seg corresp="#d01">As agreed with <persName key="lili">Mrs. Lili
                         Elvenes</persName> I hereby send you a picture (which I would like you to
                         <hi rend="underline">return</hi> as it is the only one I own) of my
@@ -70,14 +66,13 @@
                <p><seg corresp="#d02">I ask you to talk to me <hi rend="underline">before</hi>
                      sending any transcript of the manuscript to <placeName key="germany"
                         >Germany</placeName> – my telephone number after 6:30 is Gentofte 144, and
-                     during the day it is : Central 4726.</seg></p>
+                     during the day it is : Central 4726.</seg></p>            
+            <closer>
+               <salute><seg corresp="#d03">With much respect</seg></salute>
+               <signed><hi rend="underline"><persName key="thomsenTC">TC Thomsen</persName></hi></signed> 
+            </closer>
+            <postscript><p><seg corresp="#d04"><hi rend="underline">Engineer</hi></seg></p></postscript>
             </div>
-            <div type="closer">
-               <p style="valediction"><seg corresp="#d03">With much respect</seg></p>
-               <p><hi rend="underline"><persName key="thomsenTC">TC Thomsen</persName></hi></p>
-               <p><seg corresp="#d04"><hi rend="underline">Engineer</hi></seg></p>
-            </div>
-            <div type="postscript"/>
          </div>
       </body>
    </text>
