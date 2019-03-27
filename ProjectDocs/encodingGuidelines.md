@@ -145,7 +145,7 @@ _note: Besides letter and diary entries collation IDs for paragraphs are added i
 `<p style="GreteDiary" xml:id="a1c00d00p00">Diary Text</p>`  
 `<p style="LiliDiary" xml:id="a1c00d00p00">Diary Text</p>`
 
-_note: change xml:id attribute-value to match the paragraph collation ID found in the [collation spreadsheets](https://gitlab.com/ctsdh/lili-elbe-code/tree/master/collationSpreadsheets). Every paragraph of each letter has a unique ID reflecting the edition (a1 | b1 | g1 | d1 | tr |ts), chapter, letter|diary entry #, and paragraph # (within the letter|diary entry)_. **Diary entries included in letters get the style attribute with the appropriate attribute-value, but do no have assigned xml:id attribute-value pairs at this time.**    
+_note: change xml:id attribute-value to match the paragraph collation ID found in the [collation spreadsheets](https://gitlab.com/ctsdh/lili-elbe-code/tree/master/collationSpreadsheets). Every paragraph of each letter has a unique ID reflecting the edition (a1 | b1 | g1 | d1 | tr |ts), chapter, letter|diary entry #, and paragraph # (within the letter|diary entry)_. **Diary entries included in letters get the style attribute with the appropriate attribute-value but do not have assigned xml:id attribute-value pairs at this time.**    
   
 ### Page and Column Breaks  
   
