@@ -4,41 +4,121 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="translation">Forward</title>
-                <title type="original">Vorwort</title>
+                <!-- For Letters: Remove the following if not encoding a letter -->
+                <title>
+                    <date><!--date defined in teiHeader info; numerical values of filename (which indicate letter date)--></date>
+                    Letter to <persName key=""><!-- Person Letter Is Addressed To --></persName>
+                </title>
+                
+                <!-- For Articles: Remove the following if not encoding an article -->
+                <title><!-- Name of Newspaper/Journal/Magazine-->
+                    <date><!-- article publication date in yyyy-mm-dd --></date></title>
+                
+                <!-- For Book Chapters; Remove the following if not encoding a book chapter -->
+                <title><!-- Chapter Title if not just numerical value; otherwise "Chapter #" -->
+                    within <!-- Book Title --></title>
+                
+                <!-- For Editions; Remove the following if not encoding a book chapter -->
+                <title><!-- Language --> Edition</title>
+                
                 <author>
-                    <persName key="lili">Lili Elbe</persName>
+                    <persName key=""><!-- Writer of Letter; or Author of Text --></persName>
                 </author>
+                
+                <!-- Formatting dates in <respStmt> elements:            
+            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
+            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
+            If given month: <date>Month(written out), Year(as YYYY)</date>-->
+                
+                <!-- People in <respStmt> elements: 
+            Each person on the project team has a special identifier (including you as an encoder).
+            These IDs should be used in the blank ref attribute-values below. 
+            IDs are created by taking the first and last initial of the person's name. 
+            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
                 <respStmt>
-                    <resp>Translation</resp>
-                    <persName ref="sm">Sabine Meyer</persName>
+                    <resp>Photographed
+                        <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Photographer --></persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Structural encoding completed on <date when="2018-08-30">30 August
-                        2018</date></resp>
-                    <persName ref="rjp">Rebecca Parker</persName>
+                    <resp>Images prepared
+                        <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Image Preparer --></persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Contextual encoding updated on <date when="2018-10-01">1 October
-                        2018</date></resp>
-                    <persName ref="twj">Tatjana Willms-Jones</persName>
+                    <resp>Transcription completed
+                        <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Transriber --></persName>
                 </respStmt>
-                <!-- Add another resp for additional encoders. Check with Becca if unsure! -->
+                <respStmt>
+                    <resp>Translation completed
+                        <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Translator --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed
+                        <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Translation Reviewer --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed
+                        <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Primary Encoder --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                        <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed
+                        <date><!-- insert date; see formatting suggestions above --></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                </respStmt>
+                <sponsor>Loyola University Chicago</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
             </titleStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date>July 6th, 2019</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
+                        <placeName><!-- location of archive --></placeName>
+                    </p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Information about the source</p>
+                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+               encoder's description must be in complete, logical sentences --></p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
             <div type="original">
-                <p style="heading">
-                    <hi rend="underline"><seg n="g00">Vorwort</seg></hi>
-                </p>
+                <head>
+                    <seg n="g00"><hi rend="underline">Vorwort</hi></seg>
+                </head>
                 <p><seg n="g01">Es gibt nicht viele Menschen, die ihr Leben wirklich <hi rend="emphasis"
                     >leben</hi>. Die Allermeisten tasten wie Blinde durch das Dasein, - und fällt
                     ihnen einmal irgend ein phantasievolles Buch in die Hände, so sagen sie, haben sie
@@ -57,11 +137,11 @@
                 <p><seg n="g03">Die Götter haben sie gewissermassen zu Auserwählten in diesem Dasein
                     gemacht, haben ihnen erlaubt, etwas hinter den grossen Vorhang zu schauen, der den
                     meisten anderen die mystischen Kräfte verbirgt, die sich in Mensch und Natur
-                    rühren. <choice>
+                    rühren. <anchor type="commentRangeStart" n="1"/><choice>
                         <orig>Davür</orig>
                         <reg>Dafür</reg>
-                    </choice><note type="editor" source="sm">It should be "Dafür" – the typo is in the
-                        original.</note><!--  --> aber habe die Götter in die Seele dieser Auserwählten
+                    </choice><anchor type="commentRangeEnd" n="1"/><note type="editor" source="sm" xml:id="comment_1">It should be "Dafür" – the typo is in the
+                        original.</note> aber habe die Götter in die Seele dieser Auserwählten
                     eine gnadenlose, unbarmherzige Macht gesenkt, die sie zwingt, Ausdruck zu geben
                     für alles, was sie gesehen und gefühlt haben, - alljenen, die wie Blinde durch das
                     Leben gehen, den Weg zu weisen.</seg></p>
@@ -161,9 +241,9 @@
                 </p>
             </div>
             <div type="translation">
-                <p style="heading">
-                    <hi rend="underline"><seg corresp="#g00">Foreword</seg></hi>
-                </p>
+                <head>
+                    <seg corresp="#g00"><hi rend="underline">Foreword</hi></seg>
+                </head>
                 <p><seg corresp="#g01">There aren't a lot of people that really <hi rend="italics"
                     >live</hi> their life. Most stumble through existence like the blind – and if
                     they happen upon a fanciful book, and finish reading it, they say: "Things like
@@ -201,11 +281,11 @@
                 <p><seg corresp="#g07">A hermaphrodite, <persName key="sparreAn">Andreas
                     Sparre</persName>, or as known by his public name, <persName key="wegenerE"
                         >Einar Wegener</persName>, according to civil laws lived as a man for many,
-                    many years. He was an artist, a painter – he was married. As the division within
-                    him had become so strong that he cannot<note type="editor" source="sm">The tenses
-                        are off in the German as well – from past perfect to present tense.</note> live
+                    many years. He was an artist, a painter – he was married. <anchor type="commentRangeStart" n="2"/>As the division within
+                    him had become so strong that he cannot live
                     any longer, he, a fatally ill human being, meets an ingenious surgeon, who is
-                    willing to take on the responsibility for this unprecedented experiment.</seg></p>
+                    willing to take on the responsibility for this unprecedented experiment.<anchor type="commentRangeEnd" n="2"/><note type="editor" source="sm" xml:id="comment_2">The tenses
+                        are off in the German as well – from past perfect to present tense.</note></seg></p>
                 <p><seg corresp="#g08">A young and rejuvenated woman is resurrected out of <persName
                     key="sparreAn">Andreas</persName>' "sick and decrepit body."</seg></p>
                 <p><seg corresp="#g09">A year has passed. It was a difficult year, because within a
@@ -236,8 +316,7 @@
                     of transition, this body was too ill and exhausted from the dual male and
                     female functions within, than that it could focus on the sensations of
                     emotional life. Therefore, he who is expecting anything erotic in this book,
-                    will be disappointed. He should not pick up this book.</del></seg><note
-                        type="editor" source="sm">Crossed out in the original.</note></p>
+                    will be disappointed. He should not pick up this book.</del></seg></p>
                 
                 
                 <p><seg corresp="#g17">There are some cases, where young women have actually been men.
