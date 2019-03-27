@@ -152,6 +152,7 @@ _note: In instances where a page number and a recurring heading are both present
 `<pb style="heading" rend="MIW"/>`   
 `<pb style="heading" rend="Introduction"/>`   
 `<pb style="heading" rend="Foreword"/>`   
+`<pb style="heading" rend="Mozaïques"/>`
   
 **Page Numbers**
 _When a page number literally appears in the original, print rendition capture it with the following encoding:_    
