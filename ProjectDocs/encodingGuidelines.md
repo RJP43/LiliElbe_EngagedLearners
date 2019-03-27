@@ -27,10 +27,10 @@ Any text that has an English translation should have the following  double `<div
 <text>
   <body>  
     <div type="original">
-    	<!-- specific text-type encoding structure (i.e. letter, book chapter, etc.) -- >
+    	<!-- specific text-type encoding structure (i.e. letter, book chapter, etc.) -->
     </div>
     <div type="translation">
-    	<!-- specific text-type encoding structure (i.e. letter, book chapter, etc.) -- >
+    	<!-- specific text-type encoding structure (i.e. letter, book chapter, etc.) -->
     </div>
   </body>
 </text>
@@ -109,9 +109,9 @@ _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob
   <!--<p> elements should be used for each of the paragraphs making up the letter body-->
   <closer>
     <salute><!--valediction; best wishes--></salute>
-    <signed><!--transcription of signature in a linked <persName> element--></signed>
-    <postscript>!--transcription of content written after signature by letter author; ps--></postscript>
+    <signed><!--transcription of signature in a linked <persName> element--></signed>    
   </closer>
+  <postscript><!--transcription of content written after signature by letter author; ps--></postscript>
 </div>
 ````  
     
@@ -142,7 +142,7 @@ _note: Besides letter and diary entries collation IDs for paragraphs are added i
 `<p style="GreteDiary" xml:id="a1c00d00p00">Diary Text</p>`  
 `<p style="LiliDiary" xml:id="a1c00d00p00">Diary Text</p>`
 
-_note: change xml:id attribute-value to match the paragraph collation ID found in the [collation spreadsheets](https://gitlab.com/ctsdh/lili-elbe-code/tree/master/collationSpreadsheets). Every paragraph of each letter has a unique ID reflecting the edition (a1 | b1 | g1 | d1 | tr |ts), chapter, letter|diary entry #, and paragraph # (within the letter|diary entry)_  
+_note: change xml:id attribute-value to match the paragraph collation ID found in the [collation spreadsheets](https://gitlab.com/ctsdh/lili-elbe-code/tree/master/collationSpreadsheets). Every paragraph of each letter has a unique ID reflecting the edition (a1 | b1 | g1 | d1 | tr |ts), chapter, letter|diary entry #, and paragraph # (within the letter|diary entry)_ **Diary entries included in letters get the style attribute with the appropriate attribute-value, but do no have assigned xml:id attribute-value pairs at this time.**    
   
 ### Page and Column Breaks  
   
