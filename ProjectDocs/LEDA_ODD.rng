@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-03-27T02:12:24Z. .
+Schema generated from ODD source 2019-03-27T17:44:10Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -2496,6 +2496,8 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Underlined text in print rendition.) </a:documentation>
                <value>super</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Superscript text in print rendition.) </a:documentation>
+               <value>upsideDown</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Text in print rendition appears upside down.) </a:documentation>
             </choice>
          </attribute>
          <empty/>
