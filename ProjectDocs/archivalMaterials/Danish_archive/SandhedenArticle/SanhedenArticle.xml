@@ -7,14 +7,14 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>En bog om, hvordan Hr. Wegener blev til Frøken Wegener.</title>
+            <title>En bog om, hvordan <persName key="wegenerE">Hr. Wegener</persName> blev til <persName key="lili">Frøken Wegener.</persName></title>            
             <respStmt>
                <resp>Translation completed on <date>11 October 2017</date> by<persName>Marianne
                      Ølholm</persName></resp>
                <persName>Marianne Ølholm</persName>
             </respStmt>
             <respStmt>
-               <resp>Encoding updated on <date when="2019-03-20">20 March 2019</date></resp>
+               <resp>Encoding updated on <date when="2019-03-27">27 March 2019</date></resp>
                <persName ref="@kejcat">Kristin Jacobsen</persName>
             </respStmt>
          </titleStmt>
@@ -33,6 +33,7 @@
    <text>
       <body>
          <div type="original">
+            <!-- KEJCAT 2019-03-27: article -->
             <div type="headlines">
                <list>
                   <item rend="primary"><b><En bog om, hvordan Hr. Wegener blev til Frøken Wegener.</b></item>
@@ -64,7 +65,6 @@
                   <!-- KEJCAT 2019-30-20: Do I need this list tag? It doesn't seem like there is a list here. -->
                   <item><p style="heading" rend="division"><b>Et ulykkeligt Ægteskab.</b></p></item>
                </list><!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
-               
                <p>Malerens Ægteskab var ulykkeligt. Han var ikke en rask og naturlig Mand. Halvvejs
                   var han Kvinde, og dette medførte voldsomme Brydninger i Hjemmet. Wegener led
                   meget under de fortvivlede Forhold i Hjemmet. Han elskede sin Hustru med dyb og
@@ -77,9 +77,8 @@
                <list>
                   <!-- KEJCAT 2019-30-20: Do I need this list tag? It doesn't seem like there is a list here. -->
                   <item><p style="heading" rend="division"><b>Hellere skifte Køn end blive ved at være ulykkelig.</b></p></item>
-               </list><!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
-               
-               <p>Fra det Øjeblik tog Wegeners Tanker ny Retning. Han syntes næsten ikke, han kunde blive ved med at udholde den Skæbne, der havde givet ham en Kvindesjæl i en Mandskrop. Han tænkte da, at det maatte være bedre at skifte Køn end at blive ved at være ulykkelig. Hans Hustru forlangte nu Skilsmisse, og Wegener gik gerne med dertil. Ikke fordi han ikke satte umaadelig Pris paa sin Hustru – for det gjorde han, – men fordi Drifterne i hans Krop ikke længere var vendt imod hendes.</p>
+               </list><!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->    
+               <p>Fra det Øjeblik tog Wegeners Tanker ny Retning. Han syntes næsten ikke, han kunde blive ved med at udholde den Skæbne, der havde givet ham en Kvindesjæl i en Mandskrop. Han tænkte da, at det maatte være bedre at skifte Køn end at blive ved at være ulykkelig. Hans Hustru forlangte nu Skilsmisse, og Wegener gik gerne med dertil. Ikke fordi han ikke satte umaadelig Pris paa sin Hustru – for <cb n="1"/>det gjorde han, – men fordi Drifterne i hans Krop ikke længere var vendt imod hendes.</p>
                <p>Han fandt nu, at det bedste, han kunne gøre, var at rejse til Tyskland og der underkaste sig den Operation, der kunde forandre ham til en rigtig Kvinde.</p>
                <p>Han realiserede sin Plan og stod nogle Uger senere udenfor en Privatklinik i Berlins fornemme Kvarter.</p>
                <p>Han ringede paa og blev modtaget af en venlig Sygeplejerske, der bad ham tage Plads og skrive sit Navn i en Modtagelsesbog, som blev forevist Lægen. Wegener skrev sit Navn og satte sig ned for at vente, men han havde næppe taget Plads, før Døren paany gik op, og Lægen traadte ind.</p>
@@ -99,7 +98,7 @@
                <p>Det viste sig yderst vanskeligt at faa disse Papirer. Der krævedes et Utal af
                   Undersøgelser og Attester fra Embedslæger og Retslægeraad, men omsider faldt da
                   Ministeriets Afgørelse, som gik ud paa, at naar hun faktisk <i>var</i> Kvinde, saa
-                  skulde hun <pb n="1"/> ogsaa have Papirer, der lød paa at hun var det. Hun antog
+                  skulde hun <cb n="2"/><pb n="1"/> ogsaa have Papirer, der lød paa at hun var det. Hun antog
                   da Navnet <i>ily Wegener</i>L, og som saadan blev hun ogsaa indført i
                   Kirkebøgerne. Manden Wegener blev samtidigt slettet af Kirkebogen, og Frk.
                   Wegeners Ret til at bære Kvindenavnet var derefter uomstødelig.</p>
@@ -124,8 +123,8 @@
                   Kvinder, der stod overfor hinanden. De var paa lige Fod, og al den gamle Sympati
                   fra Forlovelsens og Hvedebrødsdagenes Tid dukkede op i hende.</p>
                <p>Og Lily gik det lige saadan. Hun var rørt til Taarer over Gensynet. Vel smilede
-                  hun, men store Taarer trillede hende dog ned over Kinderne.</p>
-               <!-- KEJCAT 2019-02-21: There is a column break here. How do I indicate that? -->
+                  hun, men store Taarer trillede hende dog ned over Kinderne.</p><cb n="3"/>
+               <!-- KEJCAT 2019-02-21: I counted this as the third column in the article, but should it be column one for this page? -->
                <p>De to Damer sluttede et nyt Venskab, og det endte med, at de enedes om, at Gerda
                   skulde adoptere sin tidligere Mand, saa hun blev hendes Datter. </p>
                <p>Der viste sig ikke store Vanskeligheder ved Adoptionen. Ministeriet bevilgede
@@ -146,13 +145,15 @@
                   Fornemmelser, Mennesket Wegener har oplevet, dels som mand og dels som Kvinde.</p>
                <p>Kan man virkelig det?</p>
                <p><i>Er</i> en saadan Udpensling ikke for utiltalende for et anset Forlag som
-                  Hasselbalchs. Vi troede Jo, men Hasselbalch mener altsaa Nej.</p>
+                  Hasselbalchs. Vi troede Jo, men Hasselbalch mener altsaa Nej.</p><cb n="4"/>
+               <!-- KEJCAT 2019-02-21: I counted this as the fourth column in the article, but should it be column two for this page? -->
             </div>
             <!-- KEJCAT 2019-02-21: Notes end of article body. -->
          </div>
          <!-- KEJCAT 2019-02-21: Notes end of original Danish version of article. -->
          <div type="translation">
-            <!-- KEJCAT 2019-02-21: Insert translation here. -->
+            <!-- KEJCAT 2019-03-27: article translation-->
+            
          </div>
       </body>
    </text>
