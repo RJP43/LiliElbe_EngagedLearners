@@ -119,7 +119,14 @@
     </teiHeader>
     <text>
         <body>
-            <div type="original"> </div>
+            <div type="original"> 
+            
+            
+            
+            
+            
+            
+            </div>
             <div type="translation">
                 <div rend="head">
                     <p></p>
@@ -151,6 +158,11 @@
                     <p style="LiliDiary">
                         <date when="1931-08-16">16/8-31.</date>
                     </p>
+                    <!--SK we're putting the additional diary entries (1921-1932) in chronological order after the opening letter written in 1931-->
+                    <p style="LiliDiary">
+                    
+                    </p>
+                    
                     <p style="LiliDiary"><persName key="lili">Lili</persName> and <persName key="wegenerG"
                             >Gerda</persName> came here this morning. <persName key="lili"
                                 >Lili</persName> will live here. She is here in <placeName
@@ -169,7 +181,133 @@
                     <p style="LiliDiary">
                         <date when="1931-08-18">18/8.</date>
                     </p>
+                    <p style="LiliDiary"><persName key="lili">Lili</persName> and I have talked a lot together on our little walks by <placeName key="gentofter">Gentofte lake</placeName> – which she finds "utterly adorable".</p>
+                    <p style="LiliDiary">Behind the silly girl, there is a very clearly thinking, understanding and
+                        feeling soul. It is namely mother we have discussed. <persName key="lili">Lili</persName> thinks <persName key="mother">mother's</persName> deficiencies consist of</p>
+                    <p style="LiliDiary">1. - - - - - - If one really wants to tell about one’s sickness and so on,
+                        one should do it lively and jokingly – and only one time! - - - -</p>
+                    <p style="LiliDiary">4. Neglected her appearance <pb style="page" n="6"/></p>
+                       <p style="LiliDiary"><persName key="lili">Lili</persName> and I have become very fine friends, – and I value her
+                        more and more.</p>
+                    <p style="LiliDiary">
+                        <date when="1931-08-22">22/8</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="mother">Mother</persName> has now told <persName key="lili">Lili</persName> the whole story – and <persName key="lili">Lili</persName> has patiently sacrificed the necessary afternoon.
+                        Afterwards she was quite destroyed – and <persName key="mother">mother</persName> upset. <persName key="lili">Lili</persName> quarreled with mother about a little detail – and then <persName key="mother">mother</persName> had said that <persName key="lili">Lili</persName>
+                        had better move.</p>
+                    <p style="LiliDiary"><persName key="lili">Lili</persName> took it, however, quietly – and it did
+                        not come to a break up.-–<pb style="page" n="7"/>- - <persName key="mother"
+                            >Mother</persName> was an opponent of the operation -– and terrified and
+                        uncomprehending about it all - - sad and tragic that her <persName
+                            key="brotherSing">brother</persName>, whom she loved so much, - has
+                        become a giddy, vain creature.</p>
+                    <p style="LiliDiary">- - Also the name "<persName key="lili">Lili</persName>" –- she finds
+                        terrible. His <persName key="mother">mother</persName> would never have
+                        called him this, if he had started as a girl. - -</p>
+                    <p style="LiliDiary">
+                        <date when="1931-08-23">23/8</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="wegenerG">Gerda</persName> was here. She is still not feeling
+                        well after the operation -– and worries about <persName key="lili">Lili</persName>. </p>
+                    <p style="LiliDiary"><persName key="lili">Lili</persName> has made the <pb style="page" n="8"/>
+                        most horrible scenes over her appearance, and talked about suicide, if she
+                        could not look good quickly.</p>
+                    <p style="LiliDiary"><persName key="wegenerG">Gerda</persName> asked us to try to help <persName key="lili">Lili</persName> be less self-absorbed, and get her to write
+                        on her book.</p>
+                    <p style="LiliDiary">
+                    <date when="1931-08-24">24/8</date>
+                    </p>
+                    <p style="LiliDiary">Talked with <persName key="lili">Lili</persName>. Now she is doing well
+                        with writing on her book. I let her begin at my house -– while I studied
+                        anatomy. The work atmosphere affected her –- and she did not want to
+                        disturb me <pb style="page" n="9"/> or to risk my discontent, if she was
+                        lazy.</p>
+                    <p style="LiliDiary">
+                        <date when="1931-08-25">25/8</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="mother">Mother</persName> came crying to <persName
+                        key="lili">Lili's</persName> room at 7 o’clock and woke her.
+                        <persName key="lili">Lili</persName> lost her patience and told - -
+                    </p>
+                    <p style="paraText" rend="division">x</p>
+                    <p style="LiliDiary">
+                       <date when="1931-09-18">18/9.</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="lili">Lili</persName> lives here now and writes on her
+                        book.</p>
+                    <p style="LiliDiary"><persName key="wegenerG">Gerda</persName> tells me that all their friends
+                        seek to get her to get a divorce –- not just formally –- but also in actual
+                        fact from <persName key="lili">Lili</persName>. –- <pb style="page" n="10"/>
+                        She is extremely vain and claims that "beauty is a woman’s reason for
+                        existence"!!</p>
+                    <p style="LiliDiary">When we go for a walk, she asks if one can "see something". -– In
+                        consideration of the enormous amount of "cosmetics" used, -– this is usually
+                        impossible. -– If I answer negatively -– she does not believe me -– but binds a
+                        silk handkerchief around her lower face as if she had a toothache.</p>
+                    <p style="LiliDiary">In the beginning when she was here –- she was <hi rend="underline">really</hi>
+                        shy –- and was uncomfortable meeting people, –- and that’s why I took her
+                        along <pb style="page" n="11"/> the side roads. –- Now it is less –- and she
+                        even flirts with it!</p>
+                    <p style="LiliDiary">She is very interested in men –- and tells me with all signs of joy, –- how
+                        "nasty" it is that they look at her!</p>
+                    <p style="LiliDiary">She loves to think herself a "trembling dove" persecuted by big, interested
+                        menfolk. -–</p>
+                    <p style="LiliDiary">
+                        <date when="1931-10-06">6/10.</date>
+                    </p>
+                    <p style="LiliDiary">She does not agree with <hi rend="underline">women’s liberation. She says, –- that if she gets married, she will love her husband, do everything that he</hi> <pb style="page" n="12"/>
+ says –- and only think of being as beautiful as possible –- making him happy –- and cheering him up, when he comes from the office. –-</p>
+                    <p style="paraText" rend="division">x</p>
+                    <p style="LiliDiary">She likes caresses and to caress. <persName key="father">Father</persName>
+                        allows her to kiss him goodbye in the morning and goodnight in the
+                        evening.</p>
+                    <p style="LiliDiary">I don’t want that.</p>
+                    <p style="LiliDiary">She continues to jokingly make attempts,–- and tickles me catlike up my arm. But I fend her off kindly and firmly. –- and she respects that –- and calls me
+                        <pb style="page" n="13"/> "the strict <persName key="wegenerS">Mr.
+                            Doctor</persName>" -– </p>
+                    <p style="paraText" rend="division">x</p>
+                    <p style="LiliDiary">Towards <persName key="father">father</persName> and me she is good natured: towards Gerda she often makes hysterical scenes –- with hysterical girly voice –- and ends with crying.  –-</p>
+                    <p style="LiliDiary"><hi rend="underline">Well – after what she has <del type="strikethrough">belief</del> gone through it is not so odd</hi>–- that her mind is difficult.</p>
+                    <p style="paraText" rend="division">x</p>
+                    <p style="LiliDiary">Today <persName key="wegenerG">Gerda's</persName> and <persName key="lili">Lili's</persName> marriage was revoked.</p> 
+                        <p style="LiliDiary">I asked <persName key="lili">Lili</persName>:</p>
+                        <p style="LiliDiary">– Was it the civil court?</p>
+                        <p style="LiliDiary">– Yes, said <persName key="lili">Lili</persName>.</p>
+                    <p style="LiliDiary">– How do you know that? – The judge was in civil!</p> 
+                    <p style="paraText" rend="division">x</p>
+                    <p style="LiliDiary"><pb style="page" n="14"/>She often refers to herself as "poor little
+                        <persName key="lili">Lili</persName>" -– and wishes to be comforted and
+                        cuddled - - - . <hi rend="underline">But overall she is in good humor. And
+                            appreciates a joke -– even though it is at her expense -– as long as it is
+                            good!</hi></p>
+                    <p style="LiliDiary">She is nice and friendly and takes everything in the best way.</p> 
+                    <p style="paraText" rend="division">x</p>
+                    <p style="LiliDiary"><hi rend="underline">One day she talks about going to a convent. The next about going</hi> to a harem. -– Just after the operation she said she had a "nun period." -–</p>
+                    <p style="LiliDiary"><pb style="page" n="15"/> She is very vain about her figure and legs -– and to some degree lacks modesty -– partially owing to her lack of practice in sitting -– etc. -– in woman’s clothing.</p> 
+                    <p style="paraText" rend="division">x</p>
+                    <p style="LiliDiary">Mentally –- as a woman, <hi rend="underline">she has two ages . -– When she can use the knowledge that <persName key="wegenerE">Einar</persName> had -– and that of his character, -– that is only human -– she is a good-natured, smart and witty woman –- well up in her forties! –- but when she talks about "men" or "clothes".-– she is a giddy girl of sixteen</hi>!--</p> 
+                    <p style="paraText" rend="division">x</p>
+                    <p style="LiliDiary"> 
+                        <date when="1932-06-13">13/6</date>
+                    </p>
+                        <p style="LiliDiary"><hi rend="underline">NB!</hi>
+                        </p>
+                    <p style="LiliDiary">When I think back -– <hi rend="underline">and should say something about  her development since the operation,</hi> –- it must be this.</p>
+                    <p style="LiliDiary">Her shyness towards people in general and men in particular has totally disappeared, –- and her joy over the stir she causes among the men, is a little boastful –- and is being attributed to a "mysterious power of attraction" –- and not to her excessive use of powder. and rouge –- and so on –-</p>
+                    <p style="LiliDiary">In the beginning <hi rend="underline">she was slimmer, seemed almost</hi> more feminine mentally than <pb style="page" n="17"/> <hi rend="underline">now, where so much is forced and fake, –- and she really possessed her own endearing “virginity” -– which unfortunately has quite gone.</hi></p>
+                    <p style="LiliDiary"><hi rend="underline">That her friends have betrayed her, has caused her pain –- but not bitterness,</hi> –- as she has <hi rend="underline">such a friendly</hi>, understanding nature.</p> 
+                    <p style="paraText" rend="division">x</p>
+                    <p style="LiliDiary">I hope that you can have some pleasure of this.</p> 
+                    <p style="LiliDiary">One day when I am in town, I would like to pick up the book you were so kind to offer to lend me. I will call beforehand.</p>
+                    <p style="LiliDiary">Again, thank you for last time.</p>
+                    <!--SK 03/27/19 adding diary entries in chronolheogical order that were folded into the letter here, however, the original transcription has the closer following this entry-->
                     
+                    
+                    <closer>
+                        <salute>Yours sincerely.</salute> 
+                            <signed><persName key="wegenerS">Sigurd
+                            Thomsen</persName></signed>
+                    </closer>
                 </div>
             </div>
         </body>
