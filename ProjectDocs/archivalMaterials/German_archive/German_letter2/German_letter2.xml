@@ -4,25 +4,112 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to <persName key="kellerH">Herta Keller</persName></title>
+                <!-- For Letters: Remove the following if not encoding a letter -->
+                <title>
+                    <date><!--date defined in teiHeader info; numerical values of filename (which indicate letter date)--></date>
+                    Letter to <persName key=""><!-- Person Letter Is Addressed To --></persName>
+                </title>
+                
+                <!-- For Articles: Remove the following if not encoding an article -->
+                <title><!-- Name of Newspaper/Journal/Magazine-->
+                    <date><!-- article publication date in yyyy-mm-dd --></date></title>
+                
+                <!-- For Book Chapters; Remove the following if not encoding a book chapter -->
+                <title><!-- Chapter Title if not just numerical value; otherwise "Chapter #" -->
+                    within <!-- Book Title --></title>
+                
+                <!-- For Editions; Remove the following if not encoding a book chapter -->
+                <title><!-- Language --> Edition</title>
+                
                 <author>
-                    <persName key="lili">Lili</persName>
+                    <persName key=""><!-- Writer of Letter; or Author of Text --></persName>
                 </author>
+                
+                <!-- Formatting dates in <respStmt> elements:            
+            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
+            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
+            If given month: <date>Month(written out), Year(as YYYY)</date>-->
+                
+                <!-- People in <respStmt> elements: 
+            Each person on the project team has a special identifier (including you as an encoder).
+            These IDs should be used in the blank ref attribute-values below. 
+            IDs are created by taking the first and last initial of the person's name. 
+            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
                 <respStmt>
-                    <resp>Translation by</resp>
-                    <persName ref="sm">Sabine Meyer</persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Encoding started on <date when="2018-09-13">13 September 2018</date>
+                    <resp>Photographed
+                        <date><!--insert date; see formatting suggestions above--></date>
                         by</resp>
-                    <persName ref="zo">Zanabe Othman</persName>
+                    <persName ref=""><!-- Name of Photographer --></persName>
                 </respStmt>
+                <respStmt>
+                    <resp>Images prepared
+                        <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Image Preparer --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed
+                        <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Transriber --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation completed
+                        <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Translator --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed
+                        <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Translation Reviewer --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed
+                        <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Primary Encoder --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                        <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed
+                        <date><!-- insert date; see formatting suggestions above --></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                </respStmt>
+                <sponsor>Loyola University Chicago</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
             </titleStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date>July 6th, 2019</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
+                        <placeName><!-- location of archive --></placeName>
+                    </p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Information about the source</p>
+                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+               encoder's description must be in complete, logical sentences --></p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
