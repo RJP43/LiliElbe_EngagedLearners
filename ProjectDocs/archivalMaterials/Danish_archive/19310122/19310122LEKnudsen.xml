@@ -4,32 +4,89 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to <persName key="knudsenP">Poul Knudsen</persName>
+                <title>
+                    <date>1931-01-22</date> Letter to <persName key="knudsenP">Poul
+                        Knudsen</persName>
                 </title>
                 <author>
                     <persName key="lili">Lili Ilse Elvenes</persName>
                 </author>
                 <respStmt>
-                    <resp>Translation completed on <date when="2017-11-06">6 November 2017</date></resp>
+                    <resp>Photographed <date>August 16-17, 2017</date> by</resp>
+                    <persName ref="plc">Pamela L. Caughie</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Images prepared <date>November, 2017</date> by</resp>
+                    <persName ref="mg">Matthew Gallagher</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed <date>November 6, 2017</date> by</resp>
+                    <persName ref="kj">Kristin Jacobsen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation completed on <date when="2017-11-06">November 6,
+                        2017</date></resp>
                     <persName ref="kj">Kristin Jacobsen</persName>
                     <persName ref="mb">Maiken Boysen</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Encoding updated on <date when="2018-11-05">05 November 2018</date></resp>
-                    <persName ref="tnm">Tyler Monaghan</persName>
+                    <resp>Translation reviewed <date>November, 2018</date> by</resp>
+                    <persName ref="mo">Marianne Ølholm</persName>
+                    <persName ref="mb">Maiken Boysen</persName>
                 </respStmt>
+                <respStmt>
+                    <resp>Encoding completed <date>October-December, 2018</date> by</resp>
+                    <persName ref="tm">Tyler Monaghan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <persName ref="nw">Nikolaus Wasmoen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <persName ref="aa">Adeline Azungue</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed
+                            <date><!-- insert date; see formatting suggestions above --></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                </respStmt>
+                <sponsor>Loyola University Chicago</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+                <sponsor>Danish Arts Foundation</sponsor>
             </titleStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date>July 6th, 2019</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName>The Royal Library</orgName> in
+                            <placeName>Copenhagen</placeName>
+                    </p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International licence.</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Information about the source</p>
+                <p>The front of the letter there is a red mark at the top right hand corner.
+                    Substance looks similar to the red wax from a seal. The page also looks like it
+                    has been folded into fourths. Page 2 has some information underlined likely to
+                    stress importance.</p>
             </sourceDesc>
         </fileDesc>
         <!-- tnm 10/19/2018: translator's note on lines 52/91 is between Ervin (first name) and Magnus (last name of same character) resulting in a <note> fully wrapped inside the <persName> tag. Shall we move/amend the note, leave as is, or something else? also unsure how to handle [sic] @ line 43 and the translator's insertion [] @ line 51. -->
     </teiHeader>
     <text>
-        
+
         <body>
             <div type="original">
                 <div rend="head">
@@ -38,96 +95,159 @@
                     <!-- tnm: can/should I add place=pageTopRightCorner to these <p> elements? Or are these only for <add> elements?-->
                 </div>
                 <div rend="body">
-                    <salute>Kære store <persName key="knudsenP">Paul</persName>,<note type="translator">Sometimes Lili writes Poul and sometimes Paul, but the correct form of the name is Poul</note>
-                    </salute>
+                    <salute>Kære store <anchor type="commentRangeStart" n="1"/><persName key="knudsenP">Paul</persName><anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj"   
+                        xml:id="comment_1">Sometimes Lili writes Poul and sometimes Paul, but the correct form of the name is Poul.</note>,</salute>
                     <p>Tusind Tak for Dit Brev.</p>
                     <p>Jeg skal med Sorg rette mig efter Dit Ønske og forandre Heltens Navn.</p>
-                    <p>Han kommer saa til at hedde Hjalmar Hvide. Du skal ikke forbavses over, at jeg skriver pænt og korrekt om en Ven – jeg hører jo ikke rigtig med i Lumskebugten her hjemme.</p>
+                    <p>Han kommer saa til at
+                        hedde Hjalmar Hvide. Du skal ikke forbavses over, at jeg skriver pænt og
+                        korrekt om en Ven – jeg hører jo ikke rigtig med i Lumskebugten her
+                        hjemme.</p>
                     <!-- tnm 10/9: I don't think there's a <p> break after Hvide in the image, but the translators have one in the Danish (but not translated, English) version -->
-                    <p>Hvor jeg glæder mig til at høre om <persName key="knudsenV">Vibeke</persName>s Triumpher [sic] I Julen!<note type="translator">The word could also be Guben</note>
-                    </p>
+                    <p>Hvor jeg glæder mig til at høre om <persName key="knudsenV"
+                        >Vibeke</persName>s Triumpher [sic] I <anchor type="commentRangeStart" n="2"/>Julen!<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
+                            xml:id="comment_2">The word could also be Guben.</note> </p>
                     <!-- tnm 10/9: how to handle the "sic" above? -->
                     <p>Den vidunderlige i <placeName key="dresden">Dresden</placeName> hedder:</p>
                     <p>
                         <persName key="warnekros">Prof. Dr. <hi rend="underline">Kurt Warnekros</hi>
                         </persName>
                     </p>
-                    <p>Det staar endogsaa skrevet med dobbelt W. i mit Hjærte – ja, er endogsaa deri graveret!</p>
-                    <p>Det glæder mig meget at Herr <persName key="magnusE">Ervin Magnus</persName>
-                        <note type="translator">The name should be Erwin Magnus.</note> tror paa Bogen. Men jeg maa bede Dig forklare ham følgende:
-                    </p>
+                    <p>Det staar endogsaa skrevet med dobbelt W. i mit Hjærte – ja, er endogsaa deri
+                        graveret!</p>
+                    <p>Det glæder mig meget at Herr <anchor type="commentRangeStart" n="3"/><persName key="magnusE">Ervin Magnus</persName><anchor type="commentRangeEnd" n="3"/><note type="translator" source="kj"   
+                        xml:id="comment_3">The name should be Erwin Magnus.</note>
+                        tror paa Bogen. Men jeg maa bede Dig forklare ham følgende: </p>
                     <!-- tnm 10/9: use <choice> for Erwin in line above? -->
-                    <p>Naar jeg ikke har skrevet Bogen som en Levnedsskildring, er det for at faa frem, at det drejer sig om to Personer <hi rend="underline">
-                        <persName key="sparreAn">Andreas</persName> og <persName key="lili">Lili</persName>
-                    </hi>, <hi rend="underline">der sjæleligt ikke hører sammen</hi>.</p>
-                    <p>Det fremgaar nok mest af sidste Del, at der [er] en <hi rend="underline">Dualitet</hi> – eller var.</p>
+                    <p>Naar jeg ikke har skrevet Bogen som en Levnedsskildring, er det for at faa
+                        frem, at det drejer sig om to Personer <hi rend="underline">
+                            <persName key="sparreAn">Andreas</persName> og <persName key="lili"
+                                >Lili</persName>
+                        </hi>, <hi rend="underline">der sjæleligt ikke hører sammen</hi>.</p>
+                    <p>Det fremgaar nok mest af sidste Del, at der [er] en <hi rend="underline"
+                            >Dualitet</hi> – eller var.</p>
                     <!-- tnm 10/9: how to handle the translator's insertion in line above? -->
-                    <p>Det er først <persName key="sparreAn">Andreas</persName>, der fortæller sine Erindringer til <persName key="knudsenP">Poul</persName>, medens <persName key="sparreAn">Andreas</persName> havde overtaget, hvorpaa <persName key="lili">Lili</persName> fortæller Erindringer til <persName key="knudsenP">Poul</persName> fra den Tid, hvor hun begyndte at arbejde sig frem
-                        <pb />og fik Hovedparten af Aktiverne i deres Fællesbo – og til sidst Eneindehaver.</p>
-                    <p>Det fremgaar tydeligt af sidste Del, at det endogsaa er en absolut Livsbetingelse for Lili, at hun aandeligt intet har at skaffe med Andreas – og det <hi rend="underline">store Mirakel er, at hun føler sig nyskabt – ren og jomfruelig – og absolut ikke sjæleligt et Mandfolk, der er bleven<note type="translator">In modern Danish, the word would be blevet</note> til et Pigebarn</hi>!!!</p>
-                    <p>Anden Del viser ogsaa, hvorledes <persName key="kreutz">Werner von Kreutz</persName> altid har holdt de to ude fra hinanden.</p>
-                    <p>Det er Hovedpointet i Bogen, at der var to Sjæle i et Legeme – og at en genial Kirurg redder Pigebarnet ud af <hi rend="underline">fælles</hi> Skibbrud.<note type="translator">Literally, fælles skibbrud means common shipwreck.</note>
-                    </p>
+                    <p>Det er først <persName key="sparreAn">Andreas</persName>, der fortæller sine
+                        Erindringer til <persName key="knudsenP">Poul</persName>, medens <persName
+                            key="sparreAn">Andreas</persName> havde overtaget, hvorpaa <persName
+                            key="lili">Lili</persName> fortæller Erindringer til <persName
+                            key="knudsenP">Poul</persName> fra den Tid, hvor hun begyndte at arbejde
+                        sig frem <pb/>og fik Hovedparten af Aktiverne i deres Fællesbo – og til
+                        sidst Eneindehaver.</p>
+                    <p>Det fremgaar tydeligt af sidste Del, at det endogsaa er en absolut
+                        Livsbetingelse for Lili, at hun aandeligt intet har at skaffe med Andreas –
+                        og det <hi rend="underline">store Mirakel er, at hun føler sig nyskabt – ren
+                            og jomfruelig – og absolut ikke sjæleligt et Mandfolk, der er <anchor type="commentRangeStart" n="4"/>bleven<anchor type="commentRangeEnd" n="4"/><note type="translator" source="kj"   
+                                xml:id="comment_4">In modern Danish, the word would be blevet.</note> til
+                            et Pigebarn</hi>!!!</p>
+                    <p>Anden Del viser ogsaa, hvorledes <persName key="kreutz">Werner von
+                            Kreutz</persName> altid har holdt de to ude fra hinanden.</p>
+                    <p>Det er Hovedpointet i Bogen, at der var to Sjæle i et Legeme – og at en
+                        genial Kirurg redder Pigebarnet ud af <anchor type="commentRangeStart" n="5"/><hi rend="underline">fælles</hi>
+                        Skibbrud.<anchor type="commentRangeEnd" n="5"/><note type="translator" source="kj"   
+                            xml:id="comment_5">Literally, fælles skibbrud means common shipwreck.</note> </p>
                     <!-- tag "the girl" and "a brilliant surgeon" above? It's clear who's being referred to -->
-                    <p>Saa er jeg tilmed bange for, at den anden Form skulde tynge Bogen, og jeg ønsker netop at faa frem, at jeg er koket, sorgløs, overfladisk og pjanket – og det har været mig om at faa frem, at hvad der er af kunstnerisk, af Livsvisdom og alvorlig mandig Viden, kommer fra <persName key="sparreAn">Andreas</persName>, der var Kunstner og et honnet Mandfolk, medens min Indsats er en vis letbenet og tøset Filosofi! (Du ser, det er i Virkeligheden en Nedskrivning af Aktiverne) Bed Her <persName key="magnusE">Ervin<note type="translator">The name should be Erwin.</note> Magnus</persName> at ville høre med Sympathi paa dette mit Forsvar for Bogens Form.</p>
-                
-                <closer>
-                    <salute>Din stakkeles lille Veninde,</salute>
-                    <signed>
-                        <hi rend="underline"><persName key="lili">Lili</persName> Elvenes</hi></signed>
-                    <salute>Mille baisers à <persName key="knudsenV">Vibeke</persName></salute>
-                        <signed><hi rend="underline"><persName key="lili">Lili</persName></hi></signed>
-                </closer>
+                    <p>Saa er jeg tilmed bange for, at den anden Form skulde tynge Bogen, og jeg
+                        ønsker netop at faa frem, at jeg er koket, sorgløs, overfladisk og pjanket –
+                        og det har været mig om at faa frem, at hvad der er af kunstnerisk, af
+                        Livsvisdom og alvorlig mandig Viden, kommer fra <persName key="sparreAn"
+                            >Andreas</persName>, der var Kunstner og et honnet Mandfolk, medens min
+                        Indsats er en vis letbenet og tøset Filosofi! (Du ser, det er i
+                        Virkeligheden en Nedskrivning af Aktiverne) Bed Her <anchor type="commentRangeStart" n="6"/><persName key="magnusE"
+                            >Ervin Magnus</persName><anchor type="commentRangeEnd" n="6"/><note type="translator" source="kj"   
+                                xml:id="comment_6">The name should be Erwin.</note> at ville høre med Sympathi paa dette mit
+                        Forsvar for Bogens Form.</p>
+
+                    <closer>
+                        <salute>Din stakkeles lille Veninde,</salute>
+                        <signed>
+                            <hi rend="underline"><persName key="lili">Lili</persName>
+                            Elvenes</hi></signed>
+                        <salute>Mille baisers à <persName key="knudsenV">Vibeke</persName></salute>
+                        <signed><hi rend="underline"><persName key="lili"
+                            >Lili</persName></hi></signed>
+                    </closer>
                     <!-- tnm 10/9: should probably do additional markup on the line above, seems to be two signatures and a small PS? -->
-               </div>
-            </div> <!-- end "original" div -->
+                </div>
+            </div>
+            <!-- end "original" div -->
             <div type="translation">
                 <div rend="head">
                     <p>Lindevangen 8-10</p>
                     <p>22-I-31</p>
-                </div> <!-- end "opener" div -->
+                </div>
+                <!-- end "opener" div -->
                 <div rend="body">
-                    <salute>Dear big Paul,<note type="translator">Sometimes Lili writes Poul and sometimes Paul, but the correct form of the name is Poul</note>
-                    </salute>
+                    <salute>Dear big Paul, </salute>
                     <p>Thousand thanks for your letter.</p>
-                    <p>It is with regret that I will comply with your wish and change the name of the hero.</p>
-                    <p>He will then be called Hjalmar Hvide. You should not be surprised, that I am writing nicely and correctly about a friend – I do not quite belong to the in crowd at home.</p>
-                    <p>How happy I am to hear about <persName key="knudsenV">Vibeke</persName>’s triumph in Julen!<note type="translator">The word could also be Guben</note>
-                    </p> <!-- idk what Guben means, it looks like Julen could be a place (needs tag?) or Christmas, which wouldn't seem to make sense here -->
-                    <p>The wonderful person in <placeName key="dresden">Dresden</placeName> is called:</p>
+                    <p>It is with regret that I will comply with your wish and change the name of
+                        the hero.</p>
+                    <p>He will then be called Hjalmar Hvide. You should not be surprised, that I am
+                        writing nicely and correctly about a friend – I do not quite belong to the
+                        in crowd at home.</p>
+                    <p>How happy I am to hear about <persName key="knudsenV">Vibeke</persName>’s
+                        triumph in Julen! </p>
+                    <!-- idk what Guben means, it looks like Julen could be a place (needs tag?) or Christmas, which wouldn't seem to make sense here -->
+                    <p>The wonderful person in <placeName key="dresden">Dresden</placeName> is
+                        called:</p>
                     <p>
                         <persName key="warnekros">Prof. Dr. <hi rend="underline">Kurt Warnekros</hi>
                         </persName>
                     </p>
                     <p>It is even written with W. in my heart – yes, it is even there engraved!</p>
                     <p>I am very pleased that <persName key="magnusE">Mr. Ervin Magnus</persName>
-                        <note type="translator">The name should be Erwin Magnus.</note> believes in the book. But I must ask you to explain to him the following:
-                    </p>
+                        believes in the book. But I must ask you to explain to him the following: </p>
                     <!-- tnm 10/9: use <choice> for Erwin in line above? -->
-                    <p>Since I have not written the book as a biography, it is important to emphasize that it is about two people <hi rend="underline">
-                        <persName key="sparreAn">Andreas</persName> and <persName key="lili">Lili</persName>
-                    </hi>, <hi rend="underline">, who do not belong together mentally</hi>.</p>
-                    <p>It might appear, especially from the last part, that there [is] a <hi rend="underline">duality</hi> – or was.</p>
+                    <p>Since I have not written the book as a biography, it is important to
+                        emphasize that it is about two people <hi rend="underline">
+                            <persName key="sparreAn">Andreas</persName> and <persName key="lili"
+                                >Lili</persName>
+                        </hi>, <hi rend="underline">, who do not belong together mentally</hi>.</p>
+                    <p>It might appear, especially from the last part, that there [is] a <hi
+                            rend="underline">duality</hi> – or was.</p>
                     <!-- tnm 10/9: how to handle the translator's insertion in line above? -->
                     <!-- tnm 10/9: translators removed underline from English version.. I have reinserted it -->
-                    <p>It is first <persName key="sparreAn">Andreas</persName>, who tells his memories to <persName key="knudsenP">Poul</persName>, while <persName key="sparreAn">Andreas</persName> was dominant, whereafter <persName key="lili">Lili</persName> tells memories to <persName key="knudsenP">Poul</persName> from the time where she began to work upward
-                        <pb />and got the majority of the assets in their common estate – and eventually became sole owner.</p>
-                    <p>It appears clearly from the last part that it is even an absolute foundation of life for Lili, that spiritually she has nothing to do with Andreas – and <hi rend="underline">the big miracle is that she feels newly created – clean and virginal – and absolutely not mentally a man, who has become a girl</hi>!!!</p>
-                    <p>The second part also shows how <persName key="kreutz">Werner von Kreutz</persName> has always held the two separate from one another.</p>
-                    <p>That is the main point in the book, that there were two souls in one body – and that a brilliant surgeon saves the girl from a <hi rend="underline">mutual</hi> disaster.<note type="translator">Literally, fælles skibbrud means common shipwreck.</note>
-                    </p>
+                    <p>It is first <persName key="sparreAn">Andreas</persName>, who tells his
+                        memories to <persName key="knudsenP">Poul</persName>, while <persName
+                            key="sparreAn">Andreas</persName> was dominant, whereafter <persName
+                            key="lili">Lili</persName> tells memories to <persName key="knudsenP"
+                            >Poul</persName> from the time where she began to work upward <pb/>and
+                        got the majority of the assets in their common estate – and eventually
+                        became sole owner.</p>
+                    <p>It appears clearly from the last part that it is even an absolute foundation
+                        of life for Lili, that spiritually she has nothing to do with Andreas – and
+                            <hi rend="underline">the big miracle is that she feels newly created –
+                            clean and virginal – and absolutely not mentally a man, who has become a
+                            girl</hi>!!!</p>
+                    <p>The second part also shows how <persName key="kreutz">Werner von
+                            Kreutz</persName> has always held the two separate from one another.</p>
+                    <p>That is the main point in the book, that there were two souls in one body –
+                        and that a brilliant surgeon saves the girl from a <hi rend="underline"
+                            >mutual</hi> disaster. </p>
                     <!-- tag "the girl" and "a brilliant surgeon" above? It's clear who's being referred to -->
-                    <p>So I am even afraid that the other form should weigh down the book and I really wish to show that I am coquettish, carefree, superficial, and giddy – and it has been important to me to show that what is of artistic, wisdom and seriously manly knowledge, comes from <persName key="sparreAn">Andreas</persName>, who was an artist and a respectable man, while my contribution is a certain shallow and girlish philosophy! (You see, it is in reality a writing down of the assets) Ask Mr. <persName key="magnusE">Ervin<note type="translator">The name should be Erwin.</note> Magnus</persName> to listen with sympathy to this my defense of the form of the book.</p>
-                
-                <closer>
-                    <salute>Your poor little friend</salute>
-                    <signed><hi rend="underline"><persName key="lili">Lili Elvenes</persName></hi></signed>
-                    <salute>A thousand kisses to <persName key="knudsenV">Vibeke</persName></salute>
-                    <signed><hi rend="underline"><persName key="lili">Lili</persName></hi></signed>
+                    <p>So I am even afraid that the other form should weigh down the book and I
+                        really wish to show that I am coquettish, carefree, superficial, and giddy –
+                        and it has been important to me to show that what is of artistic, wisdom and
+                        seriously manly knowledge, comes from <persName key="sparreAn"
+                            >Andreas</persName>, who was an artist and a respectable man, while my
+                        contribution is a certain shallow and girlish philosophy! (You see, it is in
+                        reality a writing down of the assets) Ask Mr. <persName key="magnusE">Ervin
+                            Magnus</persName> to listen with sympathy to this my defense of the form
+                        of the book.</p>
+
+                    <closer>
+                        <salute>Your poor little friend</salute>
+                        <signed><hi rend="underline"><persName key="lili">Lili
+                                Elvenes</persName></hi></signed>
+                        <salute>A thousand kisses to <persName key="knudsenV"
+                            >Vibeke</persName></salute>
+                        <signed><hi rend="underline"><persName key="lili"
+                            >Lili</persName></hi></signed>
                     </closer>
                     <!-- should probably do additional markup on the line above, seems to be two signatures and a small PS? -->
                 </div>
-            </div> <!-- end translation div -->
+            </div>
+            <!-- end translation div -->
         </body>
     </text>
 </TEI>
