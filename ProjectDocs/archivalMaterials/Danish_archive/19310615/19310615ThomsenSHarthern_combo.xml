@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. 
+      For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that
+      should match their name in the Prosopography. For project team members and organizations use the @ref attribute 
+      and the two-letter (or three-letter, if available in the info provided) initials of the person on the persName elements.-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- For Letters: Remove the following if not encoding a letter -->
+                <title>
+                    <date><!--date defined in teiHeader info; numerical values of filename (which indicate letter date)--></date>
+                    Letter to <persName key=""><!-- Person Letter Is Addressed To --></persName>
+                </title>
+
+                <!-- For Articles: Remove the following if not encoding an article -->
+                <title><!-- Name of Newspaper/Journal/Magazine-->
+                    <date><!-- article publication date in yyyy-mm-dd --></date></title>
+
+                <!-- For Book Chapters; Remove the following if not encoding a book chapter -->
+                <title><!-- Chapter Title if not just numerical value; otherwise "Chapter #" -->
+                    within <!-- Book Title --></title>
+
+                <!-- For Editions; Remove the following if not encoding a book chapter -->
+                <title><!-- Language --> Edition</title>
+
+                <author>
+                    <persName key=""><!-- Writer of Letter; or Author of Text --></persName>
+                </author>
+
+                <!-- Formatting dates in <respStmt> elements:            
+            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
+            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
+            If given month: <date>Month(written out), Year(as YYYY)</date>-->
+
+                <!-- People in <respStmt> elements: 
+            Each person on the project team has a special identifier (including you as an encoder).
+            These IDs should be used in the blank ref attribute-values below. 
+            IDs are created by taking the first and last initial of the person's name. 
+            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
+                <respStmt>
+                    <resp>Photographed
+                            <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Photographer --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Images prepared
+                            <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Image Preparer --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed
+                            <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Transriber --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation completed
+                            <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Translator --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed
+                            <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Translation Reviewer --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed
+                            <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Primary Encoder --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed
+                            <date><!-- insert date; see formatting suggestions above --></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                </respStmt>
+                <sponsor>Loyola University Chicago</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date>July 6th, 2019</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
+                            <placeName><!-- location of archive --></placeName>
+                    </p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+               encoder's description must be in complete, logical sentences --></p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original"> </div>
+            <div type="translation">
+                <div rend="head">
+                    <p></p>
+                    <p><date when="1931-06-15">15.6.31</date></p>
+                </div>
+                <div rend="body">
+                    <salute>Dear Ed. <persName key="harthernE">Harthern</persName>!</salute>
+                    <p>Thank you for last time – and thank you for letting me borrow your book –
+                        which I unfortunately forgot as a result of our interesting
+                        conversation.</p>
+                    <p>I had gotten the impression that you wanted to write the book rough and crude
+                        – and it made me extraordinarily happy to see that you do not want that –
+                        but make it real, true, and human – and <pb style="page" n="2"/> "Germanize"
+                        the book's atmosphere.</p>
+                    <p>I agree with you in your thinking about how the book
+                        should be written – and am sincerely sorry that you are bound by an
+                        unsatisfactory reason and by personal regard – because the book
+                        should be written now.–-</p>
+                    <p>I would like to help you as much as I can – by explaining her reactions
+                        during the first time she was here in <placeName key="denmark">Denmark</placeName>, because I am quite sure about
+                        your discretion.-–</p>
+                    <p style="paraText" rend="division">x</p>
+                    <p>Because I – as a doctor in waiting, have a great interest in the anatomical
+                        and <pb style="page" n="3"/> physiological, I have some notes concerning
+                        these matters – Since you pointed out that you were not interested herein I
+                        will skip over them – or include them in an abbreviated form – if they will
+                        contribute to understanding her psyche.-–</p>
+                    <p style="paraText" rend="division">x</p>
+                    <p style="LiliDiary">
+                        <date when="1931-08-16">16/8-31.</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="lili">Lili</persName> and <persName key="wegenerG"
+                            >Gerda</persName> came here this morning. <persName key="lili"
+                                >Lili</persName> will live here. She is here in <placeName
+                                    key="copenhagen">Copenhagen</placeName> to get her facial skin
+                            feminized.</p>
+                    <p style="LiliDiary">Her psyche is quite womanly - -</p>
+                    <p style="LiliDiary"> - -. A weak point is her face. Her hair is: a wig! And her lower face is still masculine. – <pb style="page" n="4"/>
+                            However, the brown eyes are decidedly womanly and quite beautiful, with
+                            pretty eyebrows and lashes.</p>
+                        <p>I took a walk in the garden – and along <placeName key="gentofter">Gentofte
+                            lake</placeName>, and talked with her. Her human atmosphere is fully
+                            feminine.</p>
+                        <p>- - He and <persName key="wegenerG">Gerda</persName> had never really been
+                            married: only been good friends and complemented each other.</p>
+                        <p>[The description of <persName key="wegenerE">Einar's</persName> planned suicide.] This she told me in a silly tone, but I have the impression that <persName key="wegenerE">Bé</persName> was serious.-–</p>
+                    <p style="LiliDiary">
+                        <date when="1931-08-18">18/8.</date>
+                    </p>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
