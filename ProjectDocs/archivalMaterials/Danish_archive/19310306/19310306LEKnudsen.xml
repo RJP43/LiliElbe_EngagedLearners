@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -33,56 +34,53 @@
 
 		<body>
 			<div type="original">
-				<div type="opener">
+				<div rend="head">
 					<p>
 						<placeName key="lindevangen">Lindevangen</placeName> 10. <date when="1931-03-06">6 Mars 1931</date>
 					</p>
 				</div> <!-- end opener(original) div -->
-				<div type="body">
-					<p style="salutation">Kære Poul.</p>
-					<p>Tusind Tak for Dit Brev, - og undskyld mig at jeg først nu svarer derpaa; men Affairen med Bogen havde taget saa stærk<note type="translator">Should be stærkt.</note> paa mig at jeg blev syg, derpaa kom <persName key="wegenerG">Gerda</persName> hjem, og jeg har haft saa meget at gøre med Udstillingen.</p>
+				<div rend="body">
+					<salute>Kære Poul.</salute>
+					<p>Tusind Tak for Dit Brev, - og undskyld mig at jeg først nu svarer derpaa; men Affairen med Bogen havde taget saa stærk paa mig at jeg blev syg, derpaa kom <persName key="wegenerG">Gerda</persName> hjem, og jeg har haft saa meget at gøre med Udstillingen.</p>
 					<p>Da jeg mærkede, hvor daarligt Resultatet truede med at blive, trak jeg Bogen helt tilbage.</p>
 					<p>
-						<persName key="?">Hasselbalch</persName> gav som en af de vægtige Grunde til ikke at udgive Bogen den: at en Smædeskriver i sit Blad havde skrevet noget om mig, som jeg iøvrigt aldrig har læst.
+						<persName key="hasselbalchS">Hasselbalch</persName> gav som en af de vægtige Grunde til ikke at udgive Bogen den: at en Smædeskriver i sit Blad havde skrevet noget om mig, som jeg iøvrigt aldrig har læst.
 					</p>
 					<p>Jeg har levet her i <placeName key="copenhagen">København</placeName> som i en Gifttaage af fæl og ondsindet Sladder. Du kan tro, det har været slemt for en stakkels syg og svag Pige. Jeg ønskede bare at dø. Men nu har Bladet vendt sig. Folk bevidner mig deres Medfølelse – jeg havde gerne undværet begge Dele, baade: at de var onde paa mig og at de nu har ondt af mig.</p>
 					<p>Flere Forlæggere har nu henvendt sig til mig, og jeg er klar over, at jeg kan faa min Bog ud, naar jeg vil – ogsaa fra Udlandet er der sket Henvendelser.</p>
-					<p>Du viste Dig atter som min gode Ven, da Du skrev til mig! Det er meget muligt, jeg om kort Tid henvender mig til Dig, men <hi rend="underline">>ikke</hi> igennem Forlægger<note type="translator">Lili could also have meant "the publisher" but left out the word.</note>.</p>
+					<p>Du viste Dig atter som min gode Ven, da Du skrev til mig! Det er meget muligt, jeg om kort Tid henvender mig til Dig, men <hi rend="underline">>ikke</hi> igennem Forlægger.</p>
 				</div> <!-- end body(original) div -->
-				<div type="closer">
-					<p style="valediction">De allerhjærteligste Hilsner fra Din <persName key="lili">Lili</persName>
-					</p>
-				</div> <!-- end closer(original) div -->
-				<div type="postscript">
-					<p>Jeg længes saa meget efter <persName key="vibeke">Vibeke</persName>. Hils hende fra mig og sig hende at jeg finder hendes Portrait et af <persName key="wegenerG">Gerda</persName>s bedste Billeder.<note type="editor">Written along left edge of letter.</note>
-					</p>
-				</div> <!-- end postscript(original) div -->
+				<closer>
+					<salute>De allerhjærteligste Hilsner fra Din</salute><signed><persName key="lili">Lili</persName></signed>
+				</closer> <!-- end closer(original) div -->
+				<postscript>
+					<p>Jeg længes saa meget efter <persName key="knudsenV">Vibeke</persName>. Hils hende fra mig og sig hende at jeg finder hendes Portrait et af <persName key="wegenerG">Gerda</persName>s bedste Billeder.</p>
+				</postscript>
 			</div> <!-- end original div -->
 			<div type="translation">
-				<div type="opener">
+				<div rend="head">
 					<p>
 						<placeName key="lindevangen">Lindevangen</placeName> 10. <date when="1931-03-06">6 March 1931</date>
 					</p>
 				</div> <!-- end opener(translation) div -->
-				<div type="body">
-					<p style="salutation">Dear Poul.</p>
+				<div rend="body">
+					<salute>Dear Poul.</salute>
 					<p>Thousand thanks for your letter, – and I’m sorry that I am just now answering; but the affair with the book had drained me so much that I became ill, then <persName key="wegenerG">Gerda</persName> came home, and I have had so much to do with the exhibition.</p>
 					<p>When I realized how bad the result threatened to become, I withdrew the book altogether.</p>
 					<p>
-						<persName key="?">Hasselbach</persName> gave as one of his weightiest reasons not to publish the book: that a libeler in his newspaper had written something about me, which incidentally I have never read.
+						<persName key="hasselbalchS">Hasselbach</persName> gave as one of his weightiest reasons not to publish the book: that a libeler in his newspaper had written something about me, which incidentally I have never read.
 					</p>
 					<p>I have lived here in <placeName key="copenhagen">Copenhagen</placeName> in a poison fog of ugly and malicious gossip. Believe me, it has been bad for a poor sick and weak girl. I just wanted to die. But now the table has turned. People express to me their sympathy – I would have preferred to do without both parts, first: that they were mean to me as well as that they now feel sorry for me.</p>
 					<p>Several publishers have now approached me and I am aware that I can get my book out when I want – there have also been approaches from abroad.</p>
-					<p>You showed yourself again as my good friend, when you wrote to me! It is very possible I will approach you shortly, but <hi rend="underline">not</hi> through a publisher<note type="translator">Lili could also have meant "the publisher" but left out the word.</note>.</p>
+					<p>You showed yourself again as my good friend, when you wrote to me! It is very possible I will approach you shortly, but <hi rend="underline">not</hi> through a publisher.</p>
 				</div> <!-- end body(translation) div -->
-				<div type="closer">
-					<p style="valediction">Very heartfelt greetings from your <persName key="lili">Lili</persName>
+				<closer>
+					<salute>Very heartfelt greetings from your</salute><signed><persName key="lili">Lili</persName></signed>
+				</closer> <!-- end closer(translation) div -->
+				<postscript>
+					<p>I long so much for <persName key="knudsenV">Vibeke</persName>. Greet her from me and tell her that I find her portrait one of <persName key="wegenerG">Gerda</persName>’s best pictures.
 					</p>
-				</div> <!-- end closer(translation) div -->
-				<div type="postscript">
-					<p>I long so much for <persName key="vibeke">Vibeke</persName>. Greet her from me and tell her that I find her portrait one of <persName key="wegenerG">Gerda</persName>’s best pictures.<note type="editor">Written along left edge of letter.</note>
-					</p>
-				</div> <!-- end postscript(translation) div -->
+				</postscript>
 			</div> <!-- end translation div -->
 		</body>
 	</text>
