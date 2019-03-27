@@ -4,72 +4,146 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> <persName key="">
-                </persName></title>
-                <author><persName key=""></persName></author>
+                <!-- For Letters: Remove the following if not encoding a letter -->
+                <title>
+                    <date><!--date defined in teiHeader info; numerical values of filename (which indicate letter date)--></date>
+                    Letter to <persName key=""><!-- Person Letter Is Addressed To --></persName>
+                </title>
+
+                <!-- For Articles: Remove the following if not encoding an article -->
+                <title><!-- Name of Newspaper/Journal/Magazine-->
+                    <date><!-- article publication date in yyyy-mm-dd --></date></title>
+
+                <!-- For Book Chapters; Remove the following if not encoding a book chapter -->
+                <title><!-- Chapter Title if not just numerical value; otherwise "Chapter #" -->
+                    within <!-- Book Title --></title>
+
+                <!-- For Editions; Remove the following if not encoding a book chapter -->
+                <title><!-- Language --> Edition</title>
+
+                <author>
+                    <persName key=""><!-- Writer of Letter; or Author of Text --></persName>
+                </author>
+
+                <!-- Formatting dates in <respStmt> elements:            
+            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
+            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
+            If given month: <date>Month(written out), Year(as YYYY)</date>-->
+
+                <!-- People in <respStmt> elements: 
+            Each person on the project team has a special identifier (including you as an encoder).
+            These IDs should be used in the blank ref attribute-values below. 
+            IDs are created by taking the first and last initial of the person's name. 
+            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
                 <respStmt>
-                    <resp>Translation on <date when=></date> by</resp>
-                    <persName ref=""></persName>
-                    <persName ref=""></persName>
+                    <resp>Photographed
+                            <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Photographer --></persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Encoding on <date when="2018-09-12">12 September 2018</date> by</resp>
-                    <persName ref="zo">Zanabe Othman</persName>
+                    <resp>Images prepared
+                            <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Image Preparer --></persName>
                 </respStmt>
+                <respStmt>
+                    <resp>Transcription completed
+                            <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Transriber --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation completed
+                            <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Translator --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed
+                            <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Translation Reviewer --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed
+                            <date><!--insert date; see formatting suggestions above--></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Primary Encoder --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed
+                            <date><!-- insert date; see formatting suggestions above --></date>
+                        by</resp>
+                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                </respStmt>
+                <sponsor>Loyola University Chicago</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
             </titleStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date>July 6th, 2019</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
+                            <placeName><!-- location of archive --></placeName>
+                    </p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Information about the source</p>
+                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+               encoder's description must be in complete, logical sentences --></p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="letterOG">
-                <div type="opener">
-                    <p>Aussig, den 09.03.32
-                        <seg n="d01">den</seg>
-                    </p>
+            <div type="original">
+                <div rend="head">
+                    <p>Aussig, <seg n="g01">den</seg> <date when="1932-03-09">09.03.32</date></p>
                 </div>
-                <div type="body">
-                    <p><seg>Ich las eine Besprechung Ihres Buches „Fra Mann til Kvinde“ und würde es gerne ins Deutsche übersetzen..</seg></p> 
-                    <p><seg>Bitte schreiben sie mir, ob und zu welchen Bedingungen Sie mir das Übersetzungsrecht überlassen wollen.</seg></p>
-                    
+                <div rend="body">
+                    <p><seg n="g02">Ich las eine Besprechung Ihres Buches „Fra Mann til Kvinde“ und würde es
+                            gerne ins Deutsche übersetzen..</seg></p>
+                    <p><seg n="g03">Bitte schreiben sie mir, ob und zu welchen Bedingungen Sie mir das
+                            Übersetzungsrecht überlassen wollen.</seg></p>
+                    <closer>
+                        <salute><seg n="g04">Hochachtungsvoll,</seg></salute>
+                        <signed><persName key="kellerH">Herta Keller</persName></signed>
+                    </closer>
                 </div>
-                <div type="closer">
-                    <p style="valediction"><seg n="d02">Hochachtungsvoll,</seg></p>
-                    <p><persName key="?">Herta Keller</persName></p>
-                </div>
-                <div type="postscript"/>
             </div>
-            <div type="letterTranslate">
-                <div type="opener">
-                    <p>Thomsen</p>
-                    <p>Gentoftegade 14. Gentofte Tlf. Gentofte 144 </p>
+            <div type="translation">
+                <div rend="head">
+                    <p>Aussig, <seg corresp="#g01">the</seg> <date when="1932-03-09">03/09/32</date></p>
                 </div>
-                <div type="body">
-                    <p style="salutation">Hr. <persName key="hoyerNiels">Niels Hoyer</persName> Havnegade
-                        47 København</p>
-                    <p><seg corresp="#d01">As agreed with <persName key="lili">Mrs. Lili
-                        Elvenes</persName> I hereby send you a picture (which I would like you to
-                        <hi rend="underline">return</hi> as it is the only one I own) of my
-                        brother-in-law painter <persName key="wegenerE">Einar
-                            Wegener</persName>.</seg></p>
-                    <p><seg corresp="#d02">I ask you to talk to me <hi rend="underline">before</hi>
-                        sending any transcript of the manuscript to <placeName key="germany"
-                            >Germany</placeName> – my telephone number after 6:30 is Gentofte 144, and
-                        during the day it is : Central 4726.</seg></p>
+                <div rend="body">
+                    <p><seg corresp="#g02">I read a review of your book "Fra Mann til Kvinde" and I would like to
+                        translate it into German.</seg></p>
+                    <p><seg corresp="#g03">Please let me know, if and under what conditions you would authorize this
+                        translation.</seg></p>
+
+                    <closer><salute><seg corresp="#g04">Kind regards,</seg></salute>
+                        <signed><persName key="kellerH">Herta Keller</persName></signed></closer>
                 </div>
-                <div type="closer">
-                    <p style=" valediction"><seg corresp="#d03">With much respect</seg></p>
-                    <p><hi rend="underline"><persName key="thomsenTC">TC Thomsen</persName></hi></p>
-                    <p><seg corresp="#d04"><hi rend="underline">Engineer</hi></seg></p>
-                </div>
-                <div type="postscript"/>
             </div>
         </body>
     </text>
 </TEI>
-
