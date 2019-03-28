@@ -4,80 +4,54 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <!-- For Letters: Remove the following if not encoding a letter -->
                 <title>
-                    <date><!--date defined in teiHeader info; numerical values of filename (which indicate letter date)--></date>
-                    Letter to <persName key=""><!-- Person Letter Is Addressed To --></persName>
+                    <date>June 27, 1931</date>
+                    Letter to <persName>Friend</persName>
                 </title>
-                
-                <!-- For Articles: Remove the following if not encoding an article -->
-                <title><!-- Name of Newspaper/Journal/Magazine-->
-                    <date><!-- article publication date in yyyy-mm-dd --></date></title>
-                
-                <!-- For Book Chapters; Remove the following if not encoding a book chapter -->
-                <title><!-- Chapter Title if not just numerical value; otherwise "Chapter #" -->
-                    within <!-- Book Title --></title>
-                
-                <!-- For Editions; Remove the following if not encoding a book chapter -->
-                <title><!-- Language --> Edition</title>
-                
                 <author>
-                    <persName key=""><!-- Writer of Letter; or Author of Text --></persName>
+                    <persName key="lili">Lili Elbe</persName>
                 </author>
-                
-                <!-- Formatting dates in <respStmt> elements:            
-            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
-            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
-            If given month: <date>Month(written out), Year(as YYYY)</date>-->
-                
-                <!-- People in <respStmt> elements: 
-            Each person on the project team has a special identifier (including you as an encoder).
-            These IDs should be used in the blank ref attribute-values below. 
-            IDs are created by taking the first and last initial of the person's name. 
-            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
                 <respStmt>
                     <resp>Photographed
-                        <date><!--insert date; see formatting suggestions above--></date>
+                        <date>August 16-17, 2017</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Photographer --></persName>
+                    <persName ref="plc">PamelaL.Caughie></persName>
                 </respStmt>
                 <respStmt>
                     <resp>Images prepared
-                        <date><!--insert date; see formatting suggestions above--></date>
+                        <date>August, 2017, November, 2017</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Image Preparer --></persName>
+                    <persName ref="mg">Matthew Gallagher</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Transcription completed
-                        <date><!--insert date; see formatting suggestions above--></date>
+                        <date>January to March, 2018</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Transriber --></persName>
+                    <persName ref="twj">Tatjana Willms-Jones</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Translation completed
-                        <date><!--insert date; see formatting suggestions above--></date>
+                        <date>January to March, 2018</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Translator --></persName>
+                    <persName ref="twj">Tatjana Willms-Jones</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Translation reviewed
-                        <date><!--insert date; see formatting suggestions above--></date>
+                        <date>August, 2018</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Translation Reviewer --></persName>
+                    <persName ref="sm">Sabine Meyer</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding completed
-                        <date><!--insert date; see formatting suggestions above--></date>
+                        <date>September to October, 2018</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Primary Encoder --></persName>
+                    <persName ref="zo">Zanabe Othman</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
                     <persName ref="rjp">Rebecca J. Parker</persName>
-                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
-                    <!-- Remove any additional persName elements not used -->
-                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
-                    <!-- Remove any additional persName elements not used -->
+                    <persName ref="twj">Tatjana Willms-Jones</persName>
+                    <persName ref="sr">Samantha Riker</persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
@@ -120,7 +94,7 @@
                     <del type="strikethrough">Anlage 5</del>
                     <add place="above" type="overwrite" rend="redCrayon">mein Brief</add>
                 </subst></p><!-- RJP:2018-09-21: Met with Tatjana and she thinks the crossed out word might be "Anlage 5" meaning "Attachment 5"; since we are unsure if this is correct we have decided to mark intially marked as a gap. Encoded like this: del type="strikethrough"><gap rend="pencil" extent="6"/><gap rend="pencil" extent="1"/></del> --><!-- RJP:2018-10-01: After reviewing letter 3 we have now confirmed a second hand is marking each letter with the text "Anlage" meaning "attachment" followed by a number indicating some kind of numerical categorization. -->
-                <div type="opener">
+                <div rend="head">
                     <p>Dresden
                         -A.<!-- zo:2018/09/17:In word document the "-A." was excluded. Is this a translation error? --></p>
                     <p>
@@ -129,10 +103,10 @@
                             <date when="1931-06-27">27. Juni 1931</date></seg>
                     </p>
                 </div>
-                <div type="body">
-                    <p style="salutation">
-                        <seg n="g02">Liebe <persName key="?">Freundin</persName>,</seg>
-                    </p>
+                <div rend="body">
+                    <salute>
+                        <seg n="g02">Liebe <persName>Freundin</persName>,</seg>
+                    </salute>
                     <p><seg n="g03">Tausend Dank für Ihren Brief. Der Ihrige ist der erste, den ich nach
                         meiner Operation geöffnet habe.</seg>
                         <seg n="g04">Ich kann noch nicht selbst schreiben.</seg>
@@ -151,29 +125,28 @@
                             wird als die deutsche.</seg>
                         <seg n="g11">Nächste Woche bekommen auch Sie einen besseren Brief.</seg>
                     </p>
-                </div>
-                <div type="closer">
-                    <p style="valediction"><seg n="g12">Viel Liebe und Grüße</seg>
-                        <seg n="g13">Von Ihrer armen kleinen Freundin.</seg></p> 
-                    <p><seg n="g14">Viele Grüße an Ihren lieben Mann, <persName key="">Lilimoe</persName> und seinem Bruder.</seg></p> 
-                    <p><!-- RJP:2018-09-17: We should find a way to mark signatures since sometimes they fall outside of the valediction. Or perhaps sitting within the closer is enough? --><persName key="lili">Lili Elbe</persName></p>                    
-                </div>
+                 <closer>
+                    <salute><seg n="g12">Viel Liebe und Grüße</seg>
+                        <seg n="g13">Von Ihrer armen kleinen Freundin.</seg></salute> 
+                     <seg n="g14">Viele Grüße an Ihren lieben Mann, <persName>Lilimoe</persName> und seinem Bruder.</seg> 
+                    <signed><persName key="lili">Lili Elbe</persName></signed>                    
+                </closer></div>
             </div>
             <div type="translation">
                 <p><subst>
                     <del type="strikethrough">Attachment 5</del>
                     <add place="above" type="overwrite" rend="redCrayon">my Letter</add>
                 </subst></p><!-- RJP:2018-09-21: Met with Tatjana and she thinks the crossed out word might be "Anlage 5" meaning "Attachment 5"; since we are unsure if this is correct we have decided to mark intially marked as a gap. Encoded like this: del type="strikethrough"><gap rend="pencil" extent="6"/><gap rend="pencil" extent="1"/></del> --><!-- RJP:2018-10-01: After reviewing letter 3 we have now confirmed a second hand is marking each letter with the text "Anlage" meaning "attachment" followed by a number indicating some kind of numerical categorization. -->
-                <div type="opener">
+                <div rend="head">
                     <p>Dresden -A.<!-- zo:2018/09/17:In word document the "-A." was excluded. Is this a translation error? --></p>
                     <p>
                         <seg corresp="#g01">the <date when="1931-06-27">27th of June 1931</date>.</seg>
                     </p>
                 </div>
-                <div type="body">
-                    <p style="salutation">
+                <div rend="body">
+                    <salute>
                         <seg corresp="#g02">Dear Girlfriend,</seg>
-                    </p>
+                    </salute>
                     <p><seg corresp="#g03">Thank you so much for your letter. Yours is the first one that I opened after my operation.</seg>
                         <seg corresp="#g04">I can’t write by myself  yet.</seg>
                         <seg corresp="#g05">This last operation was awful.</seg>
@@ -187,13 +160,12 @@
                         <seg corresp="#g11">I would prefer, <subst><del type="strikethrough">that</del><add place="below" type="overwrite" rend="blackInk">if</add></subst> the Danish work would be published later than the German work.</seg>
                         <seg corresp="#g12">Next week you’ll receive a better letter.</seg>
                     </p>
-                </div>
-                <div type="closer">
-                    <p style="valediction"><seg corresp="#g13">Much love and greetings<!-- zo: 2018/09/17: the translator added a comma after greetings which does not exist in the manuscript. --></seg>
-                        <seg corresp="#g14">from your poor little friend.</seg></p> 
-                    <p><seg corresp="#g15">Greetings to your dear husband, <persName>Lilimoe</persName> and his brother.</seg></p> 
-                    <p><!-- RJP:2018-09-17: We should find a way to mark signatures since sometimes they fall outside of the valediction. Or perhaps sitting within the closer is enough? --><persName key="lili">Lili Elbe</persName></p></div>
+                    <closer>
+                    <seg corresp="#g13">Much love and greetings<!-- zo: 2018/09/17: the translator added a comma after greetings which does not exist in the manuscript. --></seg>
+                        <seg corresp="#g14">from your poor little friend.</seg>
+                        <seg corresp="#g15">Greetings to your dear husband, <persName>Lilimoe</persName> and his brother.</seg> 
+                    <signed><persName key="lili">Lili Elbe</persName></signed>
+                    </closer></div>
             </div>
-        </body>
-    </text>
+    </body></text>
 </TEI>
