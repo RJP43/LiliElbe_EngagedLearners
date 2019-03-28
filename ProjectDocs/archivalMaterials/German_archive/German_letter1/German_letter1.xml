@@ -4,80 +4,53 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <!-- For Letters: Remove the following if not encoding a letter -->
                 <title>
-                    <date><!--date defined in teiHeader info; numerical values of filename (which indicate letter date)--></date>
-                    Letter to <persName key=""><!-- Person Letter Is Addressed To --></persName>
+                    <date>03-09-32</date>
                 </title>
-
-                <!-- For Articles: Remove the following if not encoding an article -->
-                <title><!-- Name of Newspaper/Journal/Magazine-->
-                    <date><!-- article publication date in yyyy-mm-dd --></date></title>
-
-                <!-- For Book Chapters; Remove the following if not encoding a book chapter -->
-                <title><!-- Chapter Title if not just numerical value; otherwise "Chapter #" -->
-                    within <!-- Book Title --></title>
-
-                <!-- For Editions; Remove the following if not encoding a book chapter -->
-                <title><!-- Language --> Edition</title>
-
                 <author>
-                    <persName key=""><!-- Writer of Letter; or Author of Text --></persName>
+                    <persName key="kellerH">Herta Keller</persName>
                 </author>
-
-                <!-- Formatting dates in <respStmt> elements:            
-            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
-            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
-            If given month: <date>Month(written out), Year(as YYYY)</date>-->
-
-                <!-- People in <respStmt> elements: 
-            Each person on the project team has a special identifier (including you as an encoder).
-            These IDs should be used in the blank ref attribute-values below. 
-            IDs are created by taking the first and last initial of the person's name. 
-            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
                 <respStmt>
                     <resp>Photographed
-                            <date><!--insert date; see formatting suggestions above--></date>
+                        <date>August 16-17, 2017</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Photographer --></persName>
+                    <persName ref="plc">PamelaL.Caughie></persName>
                 </respStmt>
                 <respStmt>
                     <resp>Images prepared
-                            <date><!--insert date; see formatting suggestions above--></date>
+                            <date>August, 2017, November, 2017</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Image Preparer --></persName>
+                    <persName ref="mg">Matthew Gallagher</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Transcription completed
-                            <date><!--insert date; see formatting suggestions above--></date>
+                            <date>January to March, 2018</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Transriber --></persName>
+                    <persName ref="twj">Tatjana Willms-Jones</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Translation completed
-                            <date><!--insert date; see formatting suggestions above--></date>
+                        <date>January to March, 2018</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Translator --></persName>
+                    <persName ref="twj">Tatjana Willms-Jones</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Translation reviewed
-                            <date><!--insert date; see formatting suggestions above--></date>
+                            <date>August, 2018</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Translation Reviewer --></persName>
+                    <persName ref="sm">Sabine Meyer</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding completed
-                            <date><!--insert date; see formatting suggestions above--></date>
+                            <date>September to October, 2018</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Primary Encoder --></persName>
+                    <persName ref="zo">Zanabe Othman</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
                     <persName ref="rjp">Rebecca J. Parker</persName>
-                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
-                    <!-- Remove any additional persName elements not used -->
-                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
-                    <!-- Remove any additional persName elements not used -->
+                    <persName ref="twj">Tatjana Willms-Jones</persName>
+                    <persName ref="sr">Samantha Riker</persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
