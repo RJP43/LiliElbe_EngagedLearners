@@ -15,12 +15,6 @@
                     <persName ref="sm">Sabine Meyer</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Images prepared
-                        <date><!--insert date; see formatting suggestions above--></date>
-                        by</resp>
-                    <persName ref=""><!-- Name of Image Preparer --></persName>
-                </respStmt>
-                <respStmt>
                     <resp>Transcription completed
                         <date>March 2018</date>
                         by</resp>
