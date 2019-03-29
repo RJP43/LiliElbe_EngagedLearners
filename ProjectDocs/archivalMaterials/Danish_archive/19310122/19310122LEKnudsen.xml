@@ -36,7 +36,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Encoding completed <date>October-December, 2018</date> by</resp>
-                    <persName ref="tm">Tyler Monaghan</persName>
+                    <persName ref="tnm">Tyler Monaghan</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
@@ -95,59 +95,58 @@
                     <!-- tnm: can/should I add place=pageTopRightCorner to these <p> elements? Or are these only for <add> elements?-->
                 </div>
                 <div rend="body">
-                    <salute>Kære store <anchor type="commentRangeStart" n="1"/><persName key="knudsenP">Paul</persName><anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj"   
-                        xml:id="comment_1">Sometimes Lili writes Poul and sometimes Paul, but the correct form of the name is Poul.</note>,</salute>
-                    <p>Tusind Tak for Dit Brev.</p>
-                    <p>Jeg skal med Sorg rette mig efter Dit Ønske og forandre Heltens Navn.</p>
-                    <p>Han kommer saa til at
+                    <salute><seg n="d01">Kære store <anchor type="commentRangeStart" n="1"/><persName key="knudsenP" source="historical">Paul</persName><anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj" xml:id="comment_1">Sometimes Lili writes Poul and sometimes Paul, but the correct form of the name is Poul.</note>,</seg></salute>
+                    <p><seg n="d02">Tusind Tak for Dit Brev.</seg></p>
+                    <p><seg n="d03">Jeg skal med Sorg rette mig efter Dit Ønske og forandre Heltens Navn.</seg></p>
+                    <p><seg n="d04">Han kommer saa til at
                         hedde Hjalmar Hvide. Du skal ikke forbavses over, at jeg skriver pænt og
                         korrekt om en Ven – jeg hører jo ikke rigtig med i Lumskebugten her
-                        hjemme.</p>
+                        hjemme.</seg></p>
                     <!-- tnm 10/9: I don't think there's a <p> break after Hvide in the image, but the translators have one in the Danish (but not translated, English) version -->
-                    <p>Hvor jeg glæder mig til at høre om <persName key="knudsenV"
+                    <p><seg n="d05">Hvor jeg glæder mig til at høre om <persName key="knudsenV"
                         >Vibeke</persName>s Triumpher [sic] I <anchor type="commentRangeStart" n="2"/>Julen!<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
-                            xml:id="comment_2">The word could also be Guben.</note> </p>
+                            xml:id="comment_2">The word could also be Guben.</note></seg></p>
                     <!-- tnm 10/9: how to handle the "sic" above? -->
-                    <p>Den vidunderlige i <placeName key="dresden">Dresden</placeName> hedder:</p>
-                    <p>
+                    <p><seg n="d06">Den vidunderlige i <placeName key="dresden">Dresden</placeName> hedder:</seg></p>
+                    <p><seg n="d07">
                         <persName key="warnekros">Prof. Dr. <hi rend="underline">Kurt Warnekros</hi>
                         </persName>
-                    </p>
-                    <p>Det staar endogsaa skrevet med dobbelt W. i mit Hjærte – ja, er endogsaa deri
-                        graveret!</p>
-                    <p>Det glæder mig meget at Herr <anchor type="commentRangeStart" n="3"/><persName key="magnusE">Ervin Magnus</persName><anchor type="commentRangeEnd" n="3"/><note type="translator" source="kj"   
+                    </seg></p>
+                    <p><seg n="d08">Det staar endogsaa skrevet med dobbelt W. i mit Hjærte – ja, er endogsaa deri
+                        graveret!</seg></p>
+                    <p><seg n="d09">Det glæder mig meget at Herr <anchor type="commentRangeStart" n="3"/><persName key="magnusE">Ervin Magnus</persName><anchor type="commentRangeEnd" n="3"/><note type="translator" source="kj"   
                         xml:id="comment_3">The name should be Erwin Magnus.</note>
-                        tror paa Bogen. Men jeg maa bede Dig forklare ham følgende: </p>
+                        tror paa Bogen. Men jeg maa bede Dig forklare ham følgende: </seg></p>
                     <!-- tnm 10/9: use <choice> for Erwin in line above? -->
-                    <p>Naar jeg ikke har skrevet Bogen som en Levnedsskildring, er det for at faa
+                    <p><seg n="d10">Naar jeg ikke har skrevet Bogen som en Levnedsskildring, er det for at faa
                         frem, at det drejer sig om to Personer <hi rend="underline">
                             <persName key="sparreAn">Andreas</persName> og <persName key="lili"
                                 >Lili</persName>
-                        </hi>, <hi rend="underline">der sjæleligt ikke hører sammen</hi>.</p>
-                    <p>Det fremgaar nok mest af sidste Del, at der [er] en <hi rend="underline"
-                            >Dualitet</hi> – eller var.</p>
+                        </hi>, <hi rend="underline">der sjæleligt ikke hører sammen</hi>.</seg></p>
+                    <p><seg n="d11">Det fremgaar nok mest af sidste Del, at der [er] en <hi rend="underline"
+                            >Dualitet</hi> – eller var.</seg></p>
                     <!-- tnm 10/9: how to handle the translator's insertion in line above? -->
-                    <p>Det er først <persName key="sparreAn">Andreas</persName>, der fortæller sine
+                    <p><seg n="d12">Det er først <persName key="sparreAn">Andreas</persName>, der fortæller sine
                         Erindringer til <persName key="knudsenP">Poul</persName>, medens <persName
                             key="sparreAn">Andreas</persName> havde overtaget, hvorpaa <persName
                             key="lili">Lili</persName> fortæller Erindringer til <persName
                             key="knudsenP">Poul</persName> fra den Tid, hvor hun begyndte at arbejde
                         sig frem <pb/>og fik Hovedparten af Aktiverne i deres Fællesbo – og til
-                        sidst Eneindehaver.</p>
-                    <p>Det fremgaar tydeligt af sidste Del, at det endogsaa er en absolut
+                        sidst Eneindehaver.</seg></p>
+                    <p><seg n="d13">Det fremgaar tydeligt af sidste Del, at det endogsaa er en absolut
                         Livsbetingelse for Lili, at hun aandeligt intet har at skaffe med Andreas –
                         og det <hi rend="underline">store Mirakel er, at hun føler sig nyskabt – ren
                             og jomfruelig – og absolut ikke sjæleligt et Mandfolk, der er <anchor type="commentRangeStart" n="4"/>bleven<anchor type="commentRangeEnd" n="4"/><note type="translator" source="kj"   
                                 xml:id="comment_4">In modern Danish, the word would be blevet.</note> til
-                            et Pigebarn</hi>!!!</p>
-                    <p>Anden Del viser ogsaa, hvorledes <persName key="kreutz">Werner von
-                            Kreutz</persName> altid har holdt de to ude fra hinanden.</p>
-                    <p>Det er Hovedpointet i Bogen, at der var to Sjæle i et Legeme – og at en
+                            et Pigebarn</hi>!!!</seg></p>
+                    <p><seg n="d14">Anden Del viser ogsaa, hvorledes <persName key="kreutz">Werner von
+                            Kreutz</persName> altid har holdt de to ude fra hinanden.</seg></p>
+                    <p><seg n="d15">Det er Hovedpointet i Bogen, at der var to Sjæle i et Legeme – og at en
                         genial Kirurg redder Pigebarnet ud af <anchor type="commentRangeStart" n="5"/><hi rend="underline">fælles</hi>
                         Skibbrud.<anchor type="commentRangeEnd" n="5"/><note type="translator" source="kj"   
-                            xml:id="comment_5">Literally, fælles skibbrud means common shipwreck.</note> </p>
+                            xml:id="comment_5">Literally, fælles skibbrud means common shipwreck.</note></seg></p>
                     <!-- tag "the girl" and "a brilliant surgeon" above? It's clear who's being referred to -->
-                    <p>Saa er jeg tilmed bange for, at den anden Form skulde tynge Bogen, og jeg
+                    <p><seg n="d16">Saa er jeg tilmed bange for, at den anden Form skulde tynge Bogen, og jeg
                         ønsker netop at faa frem, at jeg er koket, sorgløs, overfladisk og pjanket –
                         og det har været mig om at faa frem, at hvad der er af kunstnerisk, af
                         Livsvisdom og alvorlig mandig Viden, kommer fra <persName key="sparreAn"
@@ -156,14 +155,14 @@
                         Virkeligheden en Nedskrivning af Aktiverne) Bed Her <anchor type="commentRangeStart" n="6"/><persName key="magnusE"
                             >Ervin Magnus</persName><anchor type="commentRangeEnd" n="6"/><note type="translator" source="kj"   
                                 xml:id="comment_6">The name should be Erwin.</note> at ville høre med Sympathi paa dette mit
-                        Forsvar for Bogens Form.</p>
+                        Forsvar for Bogens Form.</seg></p>
 
                     <closer>
-                        <salute>Din stakkeles lille Veninde,</salute>
+                        <salute><seg n="d17">Din stakkeles lille Veninde,</seg></salute>
                         <signed>
                             <hi rend="underline"><persName key="lili">Lili</persName>
                             Elvenes</hi></signed>
-                        <salute>Mille baisers à <persName key="knudsenV">Vibeke</persName></salute>
+                        <salute><seg n="d18">Mille baisers à <persName key="knudsenV">Vibeke</persName></seg></salute>
                         <signed><hi rend="underline"><persName key="lili"
                             >Lili</persName></hi></signed>
                     </closer>
@@ -178,8 +177,8 @@
                 </div>
                 <!-- end "opener" div -->
                 <div rend="body">
-                    <salute>Dear big Paul, </salute>
-                    <p>Thousand thanks for your letter.</p>
+                    <salute><seg corresp="#d01">Dear big Paul, </seg></salute>
+                    <p><seg corresp="#d02">Thousand thanks for your letter.</seg></p>
                     <p>It is with regret that I will comply with your wish and change the name of
                         the hero.</p>
                     <p>He will then be called Hjalmar Hvide. You should not be surprised, that I am
