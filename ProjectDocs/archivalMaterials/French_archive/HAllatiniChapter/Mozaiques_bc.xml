@@ -11,32 +11,36 @@
                 </author>
                 <respStmt>
                     <resp>Photographed
-                            <date><!--The date when the photo has been taken is not available. --></date>
+                        <date>December 17, 2018</date>
+                        <date>January 15, 2019</date>
                         by</resp>
-                    <persName><!-- There is no mention of the photographer, nor a key ID. --></persName>
+                    <persName>Ashley Howdeshell</persName>
+                    <persName>Matthew Gallagher</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Images prepared
-                            <date><!--The date when the image has been prepared is not available.--></date>
+                            <date>January-February 2019</date>
                         by</resp>
-                    <persName><!--  There is no mention of the image preparer's name, nor a key ID. --></persName>
+                    <persName>Matthew Gallagher</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Transcription completed <date>March 22, 2019</date> by</resp>
+                    <resp>Transcription completed 
+                        <date>March 22, 2019</date> 
+                        by</resp>
                     <persName ref="bc">Cristiana Bertola</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Translation completed
-                            <date><!--The date when the translation has been completed is not available.--></date>
+                            <date>March 2018</date>
                         by</resp>
                     <persName>Anne M. Callahan</persName>
-                    <!-- There is not a key ID for the translator.-->
                 </respStmt>
                 <respStmt>
                     <resp>Translation reviewed
-                            <date><!--  The date when the translation has been reviewed is not available. --></date>
+                            <date>March 2018</date>
                         by</resp>
                     <persName>Anne M. Callahan</persName>
+                    <persName ref="plc">Pamela L. Caughie</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding completed <date>March 22, 2019</date> by</resp>
