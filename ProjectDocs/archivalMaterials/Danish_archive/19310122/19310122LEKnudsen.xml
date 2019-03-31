@@ -57,8 +57,7 @@
                     <resp>HTML proofing completed
                             <date><!-- insert date; see formatting suggestions above --></date>
                         by</resp>
-                    <persName ref=""><!-- Name of Proofer --></persName>
-                    <!-- Remove any additional persName elements not used -->
+                    <persName ref="aa">Adeline Azungue</persName>
                 </respStmt>
                 <sponsor>Loyola University Chicago</sponsor>
                 <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -179,52 +178,52 @@
                 <div rend="body">
                     <salute><seg corresp="#d01">Dear big Paul, </seg></salute>
                     <p><seg corresp="#d02">Thousand thanks for your letter.</seg></p>
-                    <p>It is with regret that I will comply with your wish and change the name of
-                        the hero.</p>
-                    <p>He will then be called Hjalmar Hvide. You should not be surprised, that I am
+                    <p><seg corresp="#d03">It is with regret that I will comply with your wish and change the name of
+                        the hero.</seg></p>
+                    <p><seg corresp="#d04">He will then be called Hjalmar Hvide. You should not be surprised, that I am
                         writing nicely and correctly about a friend – I do not quite belong to the
-                        in crowd at home.</p>
-                    <p>How happy I am to hear about <persName key="knudsenV">Vibeke</persName>’s
-                        triumph in Julen! </p>
+                        in crowd at home.</seg></p>
+                    <p><seg corresp="#d05">How happy I am to hear about <persName key="knudsenV">Vibeke</persName>’s
+                        triumph in Julen!</seg></p>
                     <!-- idk what Guben means, it looks like Julen could be a place (needs tag?) or Christmas, which wouldn't seem to make sense here -->
-                    <p>The wonderful person in <placeName key="dresden">Dresden</placeName> is
-                        called:</p>
-                    <p>
+                    <p><seg corresp="#d06">The wonderful person in <placeName key="dresden">Dresden</placeName> is
+                        called:</seg></p>
+                    <p><seg corresp="#d07">
                         <persName key="warnekros">Prof. Dr. <hi rend="underline">Kurt Warnekros</hi>
                         </persName>
-                    </p>
-                    <p>It is even written with W. in my heart – yes, it is even there engraved!</p>
-                    <p>I am very pleased that <persName key="magnusE">Mr. Ervin Magnus</persName>
-                        believes in the book. But I must ask you to explain to him the following: </p>
+                    </seg></p>
+                    <p><seg corresp="#d08">It is even written with W. in my heart – yes, it is even there engraved!</seg></p>
+                    <p><seg corresp="#d09">I am very pleased that <persName key="magnusE">Mr. Ervin Magnus</persName>
+                        believes in the book. But I must ask you to explain to him the following: </seg></p>
                     <!-- tnm 10/9: use <choice> for Erwin in line above? -->
-                    <p>Since I have not written the book as a biography, it is important to
+                    <p><seg corresp="#d10">Since I have not written the book as a biography, it is important to
                         emphasize that it is about two people <hi rend="underline">
                             <persName key="sparreAn">Andreas</persName> and <persName key="lili"
                                 >Lili</persName>
-                        </hi>, <hi rend="underline">, who do not belong together mentally</hi>.</p>
-                    <p>It might appear, especially from the last part, that there [is] a <hi
-                            rend="underline">duality</hi> – or was.</p>
+                        </hi>, <hi rend="underline">, who do not belong together mentally</hi>.</seg></p>
+                    <p><seg corresp="#d11">It might appear, especially from the last part, that there [is] a <hi
+                            rend="underline">duality</hi> – or was.</seg></p>
                     <!-- tnm 10/9: how to handle the translator's insertion in line above? -->
                     <!-- tnm 10/9: translators removed underline from English version.. I have reinserted it -->
-                    <p>It is first <persName key="sparreAn">Andreas</persName>, who tells his
+                    <p><seg corresp="#d12">It is first <persName key="sparreAn">Andreas</persName>, who tells his
                         memories to <persName key="knudsenP">Poul</persName>, while <persName
                             key="sparreAn">Andreas</persName> was dominant, whereafter <persName
                             key="lili">Lili</persName> tells memories to <persName key="knudsenP"
                             >Poul</persName> from the time where she began to work upward <pb/>and
                         got the majority of the assets in their common estate – and eventually
-                        became sole owner.</p>
-                    <p>It appears clearly from the last part that it is even an absolute foundation
+                        became sole owner.</seg></p>
+                    <p><seg corresp="#d13">It appears clearly from the last part that it is even an absolute foundation
                         of life for Lili, that spiritually she has nothing to do with Andreas – and
                             <hi rend="underline">the big miracle is that she feels newly created –
                             clean and virginal – and absolutely not mentally a man, who has become a
-                            girl</hi>!!!</p>
-                    <p>The second part also shows how <persName key="kreutz">Werner von
-                            Kreutz</persName> has always held the two separate from one another.</p>
-                    <p>That is the main point in the book, that there were two souls in one body –
+                            girl</hi>!!!</seg></p>
+                    <p><seg corresp="#d14">The second part also shows how <persName key="kreutz">Werner von
+                            Kreutz</persName> has always held the two separate from one another.</seg></p>
+                    <p><seg corresp="#d15">That is the main point in the book, that there were two souls in one body –
                         and that a brilliant surgeon saves the girl from a <hi rend="underline"
-                            >mutual</hi> disaster. </p>
+                            >mutual</hi> disaster. </seg></p>
                     <!-- tag "the girl" and "a brilliant surgeon" above? It's clear who's being referred to -->
-                    <p>So I am even afraid that the other form should weigh down the book and I
+                    <p><seg corresp="#d16">So I am even afraid that the other form should weigh down the book and I
                         really wish to show that I am coquettish, carefree, superficial, and giddy –
                         and it has been important to me to show that what is of artistic, wisdom and
                         seriously manly knowledge, comes from <persName key="sparreAn"
@@ -232,14 +231,14 @@
                         contribution is a certain shallow and girlish philosophy! (You see, it is in
                         reality a writing down of the assets) Ask Mr. <persName key="magnusE">Ervin
                             Magnus</persName> to listen with sympathy to this my defense of the form
-                        of the book.</p>
+                        of the book.</seg></p>
 
                     <closer>
-                        <salute>Your poor little friend</salute>
+                        <salute><seg corresp="#d17">Your poor little friend</seg></salute>
                         <signed><hi rend="underline"><persName key="lili">Lili
                                 Elvenes</persName></hi></signed>
-                        <salute>A thousand kisses to <persName key="knudsenV"
-                            >Vibeke</persName></salute>
+                        <salute><seg corresp="#d18">A thousand kisses to <persName key="knudsenV"
+                            >Vibeke</persName></seg></salute>
                         <signed><hi rend="underline"><persName key="lili"
                             >Lili</persName></hi></signed>
                     </closer>
