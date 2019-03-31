@@ -14,7 +14,7 @@
                <persName>Marianne Ølholm</persName>
             </respStmt>
             <respStmt>
-               <resp>Encoding updated on <date when="2019-03-30">30 March 2019</date></resp>
+               <resp>Encoding updated on <date when="2019-03-31">31 March 2019</date></resp>
                <persName ref="@kejcat">Kristin Jacobsen</persName><!-- Do translators and coders need a key? Is "ref" the correct way to tag this? -->
             </respStmt>
          </titleStmt>
@@ -36,122 +36,123 @@
             <!-- KEJCAT 2019-03-27: article -->
             <div type="headlines">
                <list>
-                  <item rend="primary"><hi rend="bold">En Bog om, hvordan <persName key="wegenerE">Hr. Wegener</persName> blev til <persName key="lili">Frøken Wegener.</persName></hi></item>
-                  <!-- KEJCAT 2019-03-20: I don't know how to address this error. The message says that that word "bog" is associate with an element type. -->
+                  <item rend="primary"><hi rend="bold"><seg n="d01">En Bog om, hvordan <persName key="wegenerE">Hr. Wegener</persName> blev til <persName key="lili">Frøken Wegener.</persName></seg></hi></item>
                   <!-- KEJCAT 2019-03-20: How do I indicate that the headline runs across both pages of the article. -->
                   <!-- KEJCAT 2019-03-20: How do I indicate that the headline in the original article has an initial letter E that drops below the line and acts as the start of a thick line running under the headline? -->
                   <!-- KEJCAT 2019-02-19: How do I indicate that the headline and thick black line spread over both pages of the arricle? -->
-                  <item><hi rend="bold"><persName key="hasselbalchS">Hasselbalch</persName> udgiver Skandalebogen.</hi></item>
+                  <item><hi rend="bold"><seg n="d02"><persName key="hasselbalchS">Hasselbalch</persName> udgiver Skandalebogen.</seg></hi></item>
+                  <!-- KEJCAT 2019-03-31: This is a sub-heading of the main article headline. Is it correct to put it as an item in this list tag? Is there another rend key I shoud use, like secondary? -->
                </list>
             </div>
             <div type="articleBody">
-               <p>SPEKULATIONEN
+               <p><seg n="d03">SPEKULATIONEN
                   <!-- KEJCAT 2019-02-21: How do I indicate that initial letter S is bigger than other letters in the word and that it drops down to the next line? -->
                   i Tryksager, som berører det kønslige Omraade, har efterhaanden faaet saadan et
                   Omfang, at man skulde tro, at Politidirektøren sov og lod
                   Anstødelighedsparagraffer være Anstødelighedsparagraffer. Maaske er Sandheden den,
                   at Politidirektøren, bistaaet af <persName key="mellerup ">Hr. Mellerup</persName>, den drabelige Væbner, har saa
                   travlt med at beskytte <persName key="steincke">Steincke</persName>, at de ikke kan have Blikket rettet mod andre
-                  Steder end dette Blad.</p>
-               <p>For imidlertid at hjælpe Politidirektøren, underretter vi herved ham og Læserne
+                  Steder end dette Blad.</seg></p>
+               <p><seg n="d04">For imidlertid at hjælpe Politidirektøren, underretter vi herved ham og Læserne
                   om, at der i Foraaret vil udkomme en Bog hos <persName key="hasselbalchS">Hasselbalch</persName>, og den er en saa oplagt
                   Spekulation i Folks Nyfigenhed overfor de seksuelle Spørgsmaal, at der absolut er
-                  Grund til Indskriden.</p>
-               <p>Bogen er skrevet af Maleren <persName key="wegenerE"><hi rend="italics">Wegener</hi></persName>, der tidligere var <persName key="wegenerG">Gerda Wegener</persName>s Mand. Den handler om Malerens Oplevelser under Forvandlingen fra Mand til Kvinde.</p> <!-- KEJCAT 2019-03-30: Can I tag for both Gerda and Einar? -->
-               <p>Denne Forvandling fandt Sted for ikke længe siden i <placeName key="berlin">Berlin</placeName>, hvor <persName key="wegenerE">Wegener</persName> paa
-                  Operationsbordet lod sig forvandle fra Mand til Kvinde.</p>
+                  Grund til Indskriden.</seg></p>
+               <p><seg n="d05">Bogen er skrevet af Maleren <persName key="wegenerE"><hi rend="italics">Wegener</hi></persName>, der tidligere var <persName key="wegenerG">Gerda Wegener</persName>s Mand. Den handler om Malerens Oplevelser under Forvandlingen fra Mand til Kvinde.</seg></p> <!-- KEJCAT 2019-03-30: Can I tag for both Gerda and Einar? -->
+               <p><seg n="d06">Denne Forvandling fandt Sted for ikke længe siden i <placeName key="berlin">Berlin</placeName>, hvor <persName key="wegenerE">Wegener</persName> paa
+                  Operationsbordet lod sig forvandle fra Mand til Kvinde.</seg></p>
                <list>
                   <!-- KEJCAT 2019-30-20: Do I need this list tag? It doesn't seem like there is a list here. -->
-                  <item><p style="heading" rend="division"><hi rend="bold">Et ulykkeligt Ægteskab.</hi></p></item>
+                  <item><p style="heading" rend="division"><seg n="d07"><hi rend="bold">Et ulykkeligt Ægteskab.</hi></seg></p></item>
                </list><!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
-               <p>Malerens Ægteskab var ulykkeligt. Han var ikke en rask og naturlig Mand. Halvvejs
+               <p><seg n="d08">Malerens Ægteskab var ulykkeligt. Han var ikke en rask og naturlig Mand. Halvvejs
                   var han Kvinde, og dette medførte voldsomme Brydninger i Hjemmet. <persName key ="wegenerE">Wegener</persName> led
                   meget under de fortvivlede Forhold i Hjemmet. Han elskede <persName key="wegenerG">sin Hustru</persName> med dyb og
                   ægte Hengivenhed, men han havde ikke imod hende det naturlige mandige Begær, som
                   en rigtig Mand føler overfor den Kvinde, han elsker. Han kæmper samtidigt en
-                  fortvivlet Kamp mod en Dragelse mod andre Mænd, som han følte i sig.</p>
-               <p>Han grublede mere og mere over disse Forhold, indtil han en Dag hørte om de
+                  fortvivlet Kamp mod en Dragelse mod andre Mænd, som han følte i sig.</seg></p>
+               <p><seg n="d09">Han grublede mere og mere over disse Forhold, indtil han en Dag hørte om de
                   Operationer, tyske Videnskabsmænd foretager, og som gør Mennesker af hans Slags
-                  sunde og naturlige ved at give dem deres rette Køn.</p>
+                  sunde og naturlige ved at give dem deres rette Køn.</seg></p>
                <list>
                   <!-- KEJCAT 2019-30-20: Do I need this list tag? It doesn't seem like there is a list here. -->
-                  <item><p style="heading" rend="division"><hi rend="bold">Hellere skifte Køn end blive ved at være ulykkelig.</hi></p></item>
+                  <item><p style="heading" rend="division"><hi rend="bold"><seg n="d10">Hellere skifte Køn end blive ved at være ulykkelig.</seg></hi></p></item>
                </list><!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->    
-               <p>Fra det Øjeblik tog Wegeners Tanker ny Retning. Han syntes næsten ikke, han kunde blive ved med at udholde den Skæbne, der havde givet ham en Kvindesjæl i en Mandskrop. Han tænkte da, at det maatte være bedre at skifte Køn end at blive ved at være ulykkelig. <persName key="wegenerG">Hans Hustru</persName> forlangte nu Skilsmisse, og <persName key="wegenerE">Wegener</persName> gik gerne med dertil. Ikke fordi han ikke satte umaadelig Pris paa <persName key="wegenerG">sin Hustru</persName> – for <cb n="1"/>det gjorde han, – men fordi Drifterne i hans Krop ikke længere var vendt imod hendes.</p>
-               <p>Han fandt nu, at det bedste, han kunne gøre, var at rejse til <placeName key="germany">Tyskland</placeName> og der underkaste sig den Operation, der kunde forandre ham til en rigtig Kvinde.</p>
-               <p>Han realiserede sin Plan og stod nogle Uger senere udenfor en <placeName key="gebhardSanatorium">Privatklinik</placeName> i <placeName key="berlin">Berlin></placeName>s fornemme Kvarter.</p><!-- KEJCAT 2019-03-30: Need to code Berlins fornemme Kvarter once key is decided. -->
-               <p>Han ringede paa og blev modtaget af en venlig Sygeplejerske, der bad ham tage Plads og skrive sit Navn i en Modtagelsesbog, som blev forevist <persName key="gebhard">Lægen</persName>. <persName key="wegenerE">Wegener</persName> skrev sit Navn og satte sig ned for at vente, men han havde næppe taget Plads, før Døren paany gik op, og <persName key="gebhard">Lægen</persName> traadte ind.</p><!-- KEJCAT 2019-03-30: Laegen, or "the doctor," in the two cases in this paragraph seems to be Gebhard, but there's no evidence for sure. It could be another doctora at the clinic. Should I leave the tag here or take it out? -->
+               <p><seg n="d11">Fra det Øjeblik tog Wegeners Tanker ny Retning. Han syntes næsten ikke, han kunde blive ved med at udholde den Skæbne, der havde givet ham en Kvindesjæl i en Mandskrop. Han tænkte da, at det maatte være bedre at skifte Køn end at blive ved at være ulykkelig. <persName key="wegenerG">Hans Hustru</persName> forlangte nu Skilsmisse, og <persName key="wegenerE">Wegener</persName> gik gerne med dertil. Ikke fordi han ikke satte umaadelig Pris paa <persName key="wegenerG">sin Hustru</persName> – for <cb n="1"/>det gjorde han, – men fordi Drifterne i hans Krop ikke længere var vendt imod hendes.</seg></p>
+               <p><seg n="d12">Han fandt nu, at det bedste, han kunne gøre, var at rejse til <placeName key="germany">Tyskland</placeName> og der underkaste sig den Operation, der kunde forandre ham til en rigtig Kvinde.</seg></p>
+               <p><seg n="d13">Han realiserede sin Plan og stod nogle Uger senere udenfor en <placeName key="gebhardSanatorium">Privatklinik</placeName> i <placeName key="berlin">Berlin></placeName>s fornemme Kvarter.</seg></p><!-- KEJCAT 2019-03-30: Need to code Berlins fornemme Kvarter once key is decided. -->
+               <p><seg n="d14">Han ringede paa og blev modtaget af en venlig Sygeplejerske, der bad ham tage Plads og skrive sit Navn i en Modtagelsesbog, som blev forevist <persName key="gebhard">Lægen</persName>. <persName key="wegenerE">Wegener</persName> skrev sit Navn og satte sig ned for at vente, men han havde næppe taget Plads, før Døren paany gik op, og <persName key="gebhard">Lægen</persName> traadte ind.</seg></p><!-- KEJCAT 2019-03-30: Laegen, or "the doctor," in the two cases in this paragraph seems to be Gebhard, but there's no evidence for sure. It could be another doctora at the clinic. Should I leave the tag here or take it out? -->
                <list>
                   <!-- KEJCAT 2019-30-20: Do I need this list tag? It doesn't seem like there is a list here. -->
-                  <item><p style="heading" rend="division"><hi rend="bold">“Det er ikke værre end at gaa til Tandlægen,”</hi></p></item>
+                  <item><p style="heading" rend="division"><hi rend="bold"><seg n="d15">“Det er ikke værre end at gaa til Tandlægen,”</seg></hi></p></item>
                </list><!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
-               <p>sagde han til <persName key="wegenerE">Wegener</persName>, da han havde angivet sit Ærinde, som gik ud paa at spørge, om det var en meget alvorlig Operation, der skulde til for at gøre ham til Kvinde.</p><!-- Paragraph does not indent in the original article because it continues a quote started in the subheading. -->
-               <p>Wegener lod sig derpaa indlægge paa <placeName key="gebhardSanatorium">Kliniken</placeName>, og et Par Dage efter fandt Operationen Sted.</p> 
-               <p>Wegeners Baare blev kørt ind i Operationsstuen, der blev lagt en Kloroformmaske paa hans Ansigt, og for sidste Gang sov han ind som Mand.</p>
-               <p>Da han vaagnede i sin Seng, var han Kvinde. Operationen var overstaaet, og den var forløbet heldigt.</p>
-               <p>“Naa, <persName key="wegenerE">Frøken</persName>, hvordan gaar det?” spurgte <persName key="Overlægen">Overlægen</persName> venligt. <persName key="wegenerE">Wegener</persName> smilede.</p>
-               <p>For første Gang var hun blevet tiltalt som Kvinde, og hendes Kvindesjæl frydede sig over endelig at bo i et Kvindelegeme.</p>
-               <p>…. Det varede ikke ret længe, før hun var kommet sig fuldkommen efter Operationen og blev udskrevet fra <placeName key="gebhardSanatorium">Kliniken</placeName>.</p>
-               <p>Hun befandt sig nu pludselig i en højst mærkværdig Situation. Kvinde var hun, men hun slæbte stadig rundt med et Mandsnavn og med Papirer, der lød paa, at hun var Mand.</p>
-               <p>Hun havde hurtigt vænnet sig til Kvindetøj, og hun befandt sig langt bedre i denne Klædning end i Mandstøj. Men nu maatte hun ogsaa have Papirer, der lød paa, at hun var Kvinde.</p>
-               <p>Det viste sig yderst vanskeligt at faa disse Papirer. Der krævedes et Utal af Undersøgelser og Attester fra Embedslæger og <persName key="medlegalcouncil">Retslægeraad</persName><!-- KEJCAT 2019-03-30: I put this group as a persName but should there be a tag for organizations? --> men omsider faldt da
+               <p><seg n="d16">sagde han til <persName key="wegenerE">Wegener</persName>, da han havde angivet sit Ærinde, som gik ud paa at spørge, om det var en meget alvorlig Operation, der skulde til for at gøre ham til Kvinde.</seg></p><!-- Paragraph does not indent in the original article because it continues a quote started in the subheading. -->
+               <p><seg n="d17">Wegener lod sig derpaa indlægge paa <placeName key="gebhardSanatorium">Kliniken</placeName>, og et Par Dage efter fandt Operationen Sted.</seg></p> 
+               <p><seg n="d18">Wegeners Baare blev kørt ind i Operationsstuen, der blev lagt en Kloroformmaske paa hans Ansigt, og for sidste Gang sov han ind som Mand.</seg></p>
+               <p><seg n="d19">Da han vaagnede i sin Seng, var han Kvinde. Operationen var overstaaet, og den var forløbet heldigt.</seg></p>
+               <p><seg n="d20">“Naa, <persName key="wegenerE">Frøken</persName>, hvordan gaar det?” spurgte <persName key="Overlægen">Overlægen</persName> venligt. <persName key="wegenerE">Wegener</persName> smilede.</seg></p>
+               <p><seg n="d21">For første Gang var hun blevet tiltalt som Kvinde, og hendes Kvindesjæl frydede sig over endelig at bo i et Kvindelegeme.</seg></p>
+               <p><seg n="d22">…. Det varede ikke ret længe, før hun var kommet sig fuldkommen efter Operationen og blev udskrevet fra <placeName key="gebhardSanatorium">Kliniken</placeName>.</seg></p>
+               <p><seg n="d23">Hun befandt sig nu pludselig i en højst mærkværdig Situation. Kvinde var hun, men hun slæbte stadig rundt med et Mandsnavn og med Papirer, der lød paa, at hun var Mand.</seg></p>
+               <p><seg n="d24">Hun havde hurtigt vænnet sig til Kvindetøj, og hun befandt sig langt bedre i denne Klædning end i Mandstøj. Men nu maatte hun ogsaa have Papirer, der lød paa, at hun var Kvinde.</seg></p>
+               <p><seg n="d25">Det viste sig yderst vanskeligt at faa disse Papirer. Der krævedes et Utal af Undersøgelser og Attester fra Embedslæger og <persName key="medlegalcouncil">Retslægeraad</persName><!-- KEJCAT 2019-03-30: I put this group as a persName but should there be a tag for organizations? --> men omsider faldt da
                   Ministeriets Afgørelse, som gik ud paa, at naar hun faktisk <hi rend="italics">var</hi> Kvinde, saa
                   skulde hun <cb n="2"/><pb n="1"/> ogsaa have Papirer, der lød paa at hun var det. Hun antog
                   da Navnet <hi rend="italics"><persName key="lili">Lily Wegener</persName></hi>L, og som saadan blev hun ogsaa indført i
                   Kirkebøgerne. <persName key="wegenerE">Manden Wegener</persName> blev samtidigt slettet af Kirkebogen, og <persName key="lili">Frk.
-                     Wegener</persName>s Ret til at bære Kvindenavnet var derefter uomstødelig.</p>
+                     Wegener</persName>s Ret til at bære Kvindenavnet var derefter uomstødelig.</seg></p>
                <!-- KEJCAT 2019-02-21: Cartoon begins here and spreads over both columns of the page. -->
-               <figure xml:id="i00">
-                  <figDesc><hi rend="bold">I vore Dage kan man vente sig alt. Forleden kom min Fætter op og besøgte
-                     mig. Hun var blevet til en Kusine, siden jeg sidst saa hende.</hi></figDesc>
+               <figure xml:id="i00"><seg n="d26">
+                  <figDesc><hi rend="bold"><seg n="d27">I vore Dage kan man vente sig alt. Forleden kom min Fætter op og besøgte
+                     mig. Hun var blevet til en Kusine, siden jeg sidst saa hende.</seg></hi></figDesc>
+                  <!-- I coded the cartoon and its caption as separate segments. Is this correct? Is it also correct not to code the description, since it doesn't appear in the text? -->
                   <note type="desc" source="#kj">A man in striped pajamas is sitting up in a bed. A woman with short hair, dressed in an elegant pantsuit, sits at the end of the bed smiling at the man. A lit candle is on the bedside table. The cartoon is signed A.R. CANE.</note>
-               </figure>
+               </seg></figure>
                <div type="headlines">
                   <list>
                      <!-- KEJCAT 2019-02-21: Do I need this list tag? It doesn't seem like there is a list here. -->
-                     <item><hi rend="bold">Mødet med den tidligere Hustru.</hi></item>
+                     <item><hi rend="bold"><seg n="d28">Mødet med den tidligere Hustru.</seg></hi></item>
                      <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
                   </list>
                </div>
-               <p>Ikke ret længe efter mødte <persName key="lili">Lily Wegener</persName> <persName key="wegenerG">sin tidligere Hustru.</persName></p>
-               <p>Det var med ikke ringe Spænding, hun gik til dette Møde. Hun skulde nu for første
+               <p><seg n="d29">Ikke ret længe efter mødte <persName key="lili">Lily Wegener</persName> <persName key="wegenerG">sin tidligere Hustru.</persName></seg></p>
+               <p><seg n="d30">Det var med ikke ringe Spænding, hun gik til dette Møde. Hun skulde nu for første
                   Gang gense den Kvinde, som hun havde været gift med, og som hun i Ægteskabet havde
-                  pint og skuffet saa smerteligt.</p>
-               <p>Men <persName key="wegenerG">Gerda Wegener</persName> sluttede <persName key="lili">Lily</persName> i sine Arme, saa snart de mødtes. De var nu to
+                  pint og skuffet saa smerteligt.</seg></p>
+               <p><seg n="d31">Men <persName key="wegenerG">Gerda Wegener</persName> sluttede <persName key="lili">Lily</persName> i sine Arme, saa snart de mødtes. De var nu to
                   Kvinder, der stod overfor hinanden. De var paa lige Fod, og al den gamle Sympati
-                  fra Forlovelsens og Hvedebrødsdagenes Tid dukkede op i hende.</p>
-               <p>Og <persName key="lili">Lily</persName> gik det lige saadan. Hun var rørt til Taarer over Gensynet. Vel smilede
-                  hun, men store Taarer trillede hende dog ned over Kinderne.</p><cb n="3"/>
+                  fra Forlovelsens og Hvedebrødsdagenes Tid dukkede op i hende.</seg></p>
+               <p><seg n="d32">Og <persName key="lili">Lily</persName> gik det lige saadan. Hun var rørt til Taarer over Gensynet. Vel smilede
+                  hun, men store Taarer trillede hende dog ned over Kinderne.</seg></p><cb n="3"/>
                <!-- KEJCAT 2019-02-21: I counted this as the third column in the article, but should it be column one for this page? -->
-               <p>De to Damer sluttede et nyt Venskab, og det endte med, at de enedes om, at <persName key="wegenerG"></persName>Gerda
-                  skulde adoptere <persName key="wegenerE">sin tidligere Mand</persName>, saa hun blev hendes Datter. <!-- I tagged "sin tidligere Mand" or "her former husband" as Einar, but should it really be referring to Lili? I did not tag the phrase "saa hun blev hendes Datter," which is "she [Lili] became her [Gerda's] daughter." Should I tag this, as well? I haven't been tagging she and her consistently. Should I tag every pronoun? --></p>
-               <p>Der viste sig ikke store Vanskeligheder ved Adoptionen. Ministeriet bevilgede
-                  gerne, at <persName key="wegenerG">Fru Wegener</persName> adopterede <persName key="lili">rk. Lily Wegener</persName>F, og paa denne Maade
+               <p><seg n="d33">De to Damer sluttede et nyt Venskab, og det endte med, at de enedes om, at <persName key="wegenerG"></persName>Gerda
+                  skulde adoptere <persName key="wegenerE">sin tidligere Mand</persName>, saa hun blev hendes Datter.</seg> <!-- I tagged "sin tidligere Mand" or "her former husband" as Einar, but should it really be referring to Lili? I did not tag the phrase "saa hun blev hendes Datter," which is "she [Lili] became her [Gerda's] daughter." Should I tag this, as well? I haven't been tagging she and her consistently. Should I tag every pronoun? --></p>
+               <p><seg n="d34">Der viste sig ikke store Vanskeligheder ved Adoptionen. Ministeriet bevilgede
+                  gerne, at <persName key="wegenerG">Fru Wegener</persName> adopterede <persName key="lili">rk. Lily Wegener</persName>, og paa denne Maade
                   <!-- KEJCAT 2019-02-21: The cartoon breaks up the text at this point in the second column. Do I need to indicate that? -->
-                  blev den tidligere Ægtemand nu Datter i Huset hos sin forhenværende Hustru.</p><!-- Again, this could be really confusing. Should I tage tidliegere Aegtemand as Einar and Datter as Lili? -->
+                  blev den tidligere Ægtemand nu Datter i Huset hos sin forhenværende Hustru.</seg></p><!-- Again, this could be really confusing. Should I tag tidliegere Aegtemand as Einar and Datter as Lili? -->
                <div type="headlines">
                   <list>
                      <!-- KEJCAT 2019-02-21: Do I need this list tag? It doesn't seem like there is a list here. -->
-                     <item><hi rend="bold">Skandalebogen.</hi></item>
+                     <item><hi rend="bold"><seg n="d35">Skandalebogen.</seg></hi></item>
                      <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
                   </list>
                </div>
-               <p>Alt dette kunde være meget godt, men det, der maa vække enhver sundttænkende Mands
-                  Forargelse, er den Omstændighed, at <persName key="lili">Frk. Wegener</persName> nu vil udgive en Skandalebog.</p>
-               <p>Bogen kommer i <persName key="lili">Frk. Wegener</persName>s Navn, <!-- I put the possessive "s" outside fo the tag. Is that correct? If so, I need to change it in several other places. --> men <hi rend="italics"><persName key="louLou">Loulou Lassen</persName></hi> fra “Politiken” <!-- Should I be tagging publication names? -->har
+               <p><seg n="d36">Alt dette kunde være meget godt, men det, der maa vække enhver sundttænkende Mands
+                  Forargelse, er den Omstændighed, at <persName key="lili">Frk. Wegener</persName> nu vil udgive en Skandalebog.</seg></p>
+               <p><seg n="d37">Bogen kommer i <persName key="lili">Frk. Wegener</persName>s Navn, men <hi rend="italics"><persName key="louLou">Loulou Lassen</persName></hi> fra “Politiken” <!-- Should I be tagging publication names? -->har
                   skrevet den for hende, og den giver en udpenslet Skildring af de erotiske
-                  Fornemmelser, Mennesket <persName key="wegenerE">Wegener</persName> har oplevet, dels som mand og dels som Kvinde.</p><!-- Again, philosophically,the text seems to be referring to Einar and Lili at the same time. How do I handle this? -->
-               <p>Kan man virkelig det?</p>
-               <p><hi rend="italics">Er</hi> en saadan Udpensling ikke for utiltalende for et anset Forlag som
-                  <persName key="hasselbalch">Hasselbalch</persName>s. Vi troede Jo, men <persName key="hasselbalch">Hasselbalch</persName> mener altsaa Nej.</p><cb n="4"/>
+                  Fornemmelser, Mennesket <persName key="wegenerE">Wegener</persName> har oplevet, dels som mand og dels som Kvinde.</seg></p><!-- Again, philosophically,the text seems to be referring to Einar and Lili at the same time. How do I handle this? -->
+               <p><seg n="d38">Kan man virkelig det?</seg></p>
+               <p><seg n="d39"><hi rend="italics">Er</hi> en saadan Udpensling ikke for utiltalende for et anset Forlag som
+                  <persName key="hasselbalch">Hasselbalch</persName>s. Vi troede Jo, men <persName key="hasselbalch">Hasselbalch</persName> mener altsaa Nej.</seg></p><cb n="4"/>
                <!-- KEJCAT 2019-02-21: I counted this as the fourth column in the article, but should it be column two for this page? -->
             </div>
-            <!-- KEJCAT 2019-02-21: Notes end of article body. -->
+            <!-- KEJCAT 2019-02-21: Notes end of article. -->
          </div>
          <!-- KEJCAT 2019-02-21: Notes end of original Danish version of article. -->
          <div type="translation">
-            <!-- KEJCAT 2019-03-27: article translation-->
-            
+            <!-- KEJ 2019-03-27: article translation-->
+            <!-- KEJ 2019-03-31: INSERT TRANSLATION HERE -->
          </div>
       </body>
    </text>
