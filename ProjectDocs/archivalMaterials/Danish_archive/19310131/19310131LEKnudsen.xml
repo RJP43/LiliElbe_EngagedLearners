@@ -4,28 +4,84 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Letter to <persName key="knudsenP">Poul Knudsen</persName>
+				<title>
+					<date>1931-01-31</date>
+					Letter to <persName key="knudsenP">Poul Knudsen</persName>
 				</title>
 				<author>
 					<persName key="lili">Lili Ilse Elvenes</persName>
 				</author>
 				<respStmt>
-					<resp>Translation completed on <date when="2017-11-13">13 November 2017</date>
-					</resp>
+					<resp>Photographed <date>August 16-17, 2017</date>
+						by</resp>
+					<persName ref="plc">Pamela L. Caughie</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Images prepared
+						<date>November, 2017</date> by</resp>
+					<persName ref="mg">Matthew Gallagher</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Transcription completed
+						<date>November 13, 2017</date> by</resp>
+					<persName ref="kj">Kristin Jacobsen</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Translation completed 
+						<date>13 November 2017</date></resp>
 					<persName ref="kj">Kristin Jacobsen</persName>
 					<persName ref="mb">Maiken Boysen</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoding updated on <date when="2018-11-26">26 November 2018</date>
-					</resp>
-					<persName ref="tm">Tyler Monaghan</persName>
+					<resp>Translation reviewed 
+						<date>November, 2018</date> by</resp>
+					<persName ref="mo">Marianne Ølholm</persName>
+					<persName ref="mb">Maiken Boysen</persName>
 				</respStmt>
+				<respStmt>
+					<resp>Encoding completed 
+						<date>October-December, 2018</date> by</resp>
+					<persName ref="tnm">Tyler Monaghan</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding assistance and/or XML proofing completed by</resp>
+					<persName ref="rjp">Rebecca J. Parker</persName>
+					<persName ref="nw">Nikolaus Wasmoen</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding assistance and/or XML proofing completed by</resp>
+					<persName ref="rjp">Rebecca J. Parker</persName>
+					<persName ref="aa">Adeline Azungue</persName>
+				</respStmt>
+				<respStmt>
+					<resp>XML transformed into HTML
+						<date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+					<persName ref="rjp">Rebecca J. Parker</persName>
+				</respStmt>
+				<respStmt>
+					<resp>HTML proofing completed
+						<date><!-- insert date; see formatting suggestions above --></date>
+						by</resp>
+					<persName ref="aa">Adeline Azungue</persName>
+				</respStmt>
+				<sponsor>Loyola University Chicago</sponsor>
+				<sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+				<sponsor>Danish Arts Foundation</sponsor>
 			</titleStmt>
 			<publicationStmt>
-				<p>Publication Information</p>
+				<authority>Lili Elbe Digital Archive</authority>
+				<pubPlace>Chicago, IL, USA</pubPlace>
+				<date>July 6th, 2019</date>
+				<availability>
+					<p>Reproduced by courtesy of the <orgName>The Royal Library</orgName> in
+						<placeName>Copenhagen</placeName>
+					</p>
+					<licence>Distributed under a Creative Commons
+						Attribution-NonCommercial-ShareAlike 4.0 International licence.</licence>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<p>Information about the source</p>
+				<p>The handwritten documents are written in cursive, which was customary for the time. The pages themselves are tinted a brownish-yellow with slight crinkles and a 4-way fold, but have otherwise been well preserved. The date has been provided in the upper right-hand corner of the first page.</p>
 			</sourceDesc>
 		</fileDesc>
 		<!-- tnm 11/05/2018: key still needed for hasselbalch, only other issue is upside-down rendering to vibeke-->
@@ -36,92 +92,94 @@
 			<div type="original">
 				<div rend="head">
 					<p>
-						<placeName key="lindevangen">Lindevangen</placeName> 8 31-I-1931
+						<placeName key="lindevangen">Lindevangen</placeName> 8 
+						<date when="1931-01-31">31-I-1931</date>
 					</p>
 					<!-- should I indicate that this is on the top right of the page, or that there's a gap between 8 and 31? -->
 				</div>
 				<!-- end "opener" div -->
 				<div rend="body">
-					<salute>Kære <persName key="knudsenP">Poul</persName>
-					</salute>
-					<p>Jeg har lige læst Hr. <persName key="magnusE">Erwin Magnus</persName> Brev til Direktor <persName key="hasselbalchS">Hasselbalch</persName>
+					<salute><seg n="d01">Kære <persName key="knudsenP">Poul</persName>
+					</seg></salute>
+					<p><seg n="d02">Jeg har lige læst Hr. <persName key="magnusE">Erwin Magnus</persName> Brev til Direktor <persName key="hasselbalchS">Hasselbalch</persName>
 						 – og for nylig Brudstykket af Manuskriptet. Fru <persName key="louLou">Loulou Lassen</persName> har arrangeret det efter mit og afdæmpet det til Brug for om jeg saa maa sige ”kyske og kyniske danske Øren” - og saa har det endda været for skrapt.
-					</p>
-					<p>Det har ikke været beregnet paa Export, og havde Hr. <persName key="hasselbalchS">Hasselbalch</persName> spurgt mig, havde jeg gjort opmærksom derpaa.</p>
-					<p>Det hele beror altsaa paa Misforstaaelser og Fejltagelser o.s.v.. Mit Manuskript er langt mere <hi rend="underline">pikant</hi> og fuldt af næbbede Bemærkninger. </p>
-					<p>Der er pjanket som jeg selv – en Dyd ogsaa for et Manuskript!</p>
+					</seg></p>
+					<p><seg n="d03">Det har ikke været beregnet paa Export, og havde Hr. <persName key="hasselbalchS">Hasselbalch</persName> spurgt mig, havde jeg gjort opmærksom derpaa.</seg></p>
+					<p><seg n="d04">Det hele beror altsaa paa Misforstaaelser og Fejltagelser o.s.v.. Mit Manuskript er langt mere <hi rend="underline">pikant</hi> og fuldt af næbbede Bemærkninger. </seg></p>
+					<p><seg n="d05">Der er pjanket som jeg selv – en Dyd ogsaa for et Manuskript!</seg></p>
 					<!-- should I be encoding that "manuskript" is hyphenated across lines in the original image? -->
-					<p>Det er en Apotheose til <persName key="kreutz">Werner von Kreutz</persName> – naturligvis!</p>
-					<p>Men det er lige nedskrevet og ikke omarbejdet – altsaa Raamateriale paa daarligt Dansk, da jeg havde glemt en hel Del af Sprogets Finesser og Grovheder. Du husker jo nok, <persName key="sparreAn">Bé</persName> var og er en læst og pæn fransk Forfatter. ”Le Livre de Viking”. 20 Oplag.</p>
-					<p>Jeg vil ikke skjule for Dig, at jeg er meget ulykkelig over Forsinkelsen med min Bog – som jeg skylder min Skyhed og jomfruelige Tilbageholdenhed. Jeg har endnu ikke talt med <persName key="hasselbalchS">Hasselbalch</persName>.</p>
+					<p><seg n="d06">Det er en Apotheose til <persName key="kreutz">Werner von Kreutz</persName> – naturligvis!</seg></p>
+					<p><seg n="d07">Men det er lige nedskrevet og ikke omarbejdet – altsaa Raamateriale paa daarligt Dansk, da jeg havde glemt en hel Del af Sprogets Finesser og Grovheder. Du husker jo nok, <persName key="sparreAn">Bé</persName> var og er en læst og pæn fransk Forfatter. ”Le Livre de Viking”. 20 Oplag.</seg></p>
+					<p><seg n="d08">Jeg vil ikke skjule for Dig, at jeg er meget ulykkelig over Forsinkelsen med min Bog – som jeg skylder min Skyhed og jomfruelige Tilbageholdenhed. Jeg har endnu ikke talt med <persName key="hasselbalchS">Hasselbalch</persName>.</seg></p>
 					<pb />
-					<p><hi rend="upsideDown">Tusinde Hilsener til <persName key="knudsenV">Vibeke</persName></hi>
-					</p>
+					<p><seg n="d09"><hi rend="upsideDown">Tusinde Hilsener til <persName key="knudsenV">Vibeke</persName></hi>
+					</seg></p>
 					<!-- tnm: The previous line is written as if the page were held upside-down, so the top-right corner of the page when held right-side up. Translators have just appended it to the end of the translation (Lili did use something similar in her closing of a previous letter) -->
-					<p>Men hvorledes kan vi organisere et Samarbejde Paa Grundlag af mit Manuskript?</p>
-					<p>Ser Du, kære <persName key="knudsenP">Poul</persName>, jeg ejer nu lidt over 25 Kr. saa Penge begynder at interessere mig. Der skal noget til til [sic] de daglige Silkestrømper.</p>
+					<p><seg n="d10">Men hvorledes kan vi organisere et Samarbejde Paa Grundlag af mit Manuskript?</seg></p>
+					<p><seg n="d11">Ser Du, kære <persName key="knudsenP">Poul</persName>, jeg ejer nu lidt over 25 Kr. saa Penge begynder at interessere mig. Der skal noget til til [sic] de daglige Silkestrømper.</seg></p>
 					<!-- how to handle the [sic] above? Translators note? -->
-					<p>Hvorledes kan vi arrangere os rent økonomisk?</p>
-					<p>Altsaa Delingen af Rovet!</p>
+					<p><seg n="d12">Hvorledes kan vi arrangere os rent økonomisk?</seg></p>
+					<p><seg n="d13">Altsaa Delingen af Rovet!</seg></p>
 					<!-- it's arguable based on the image whether the two preceeding paragraphs are really intended as two separate paragraphs -->
-					<p>Jeg kan laane Penge og komme en Tur til <placeName key="berlin">Berlin</placeName>, hvis det vil være godt.</p>
-					<p>Vær rar hurtigst at tale med Hr. <persName key="magnusE">Magnus</persName> derom; thi det haster! Jeg kaster Blod op af Sorrig over denne Historie, men er ligeglad. Gaar det ikke med min Bog, gaar det heller ikke med mig.</p>
-					<p>Maa vi betragte <persName key="hasselbalchS">Hr. Hasselbalch</persName>s Mission som endt – eller vil det være honnet af Hensyn til <persName key="magnusE">Hr. Erwin Magnus</persName> at lade det gaa igennem den danske Forlægger, hvis det er Meningen eller at henvende sig til <anchor type="commentRangeStart" n="1"/>Ullstein.<anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj"   
+					<p><seg n="d14">Jeg kan laane Penge og komme en Tur til <placeName key="berlin">Berlin</placeName>, hvis det vil være godt.</seg></p>
+					<p><seg n="d15">Vær rar hurtigst at tale med Hr. <persName key="magnusE">Magnus</persName> derom; thi det haster! Jeg kaster Blod op af Sorrig over denne Historie, men er ligeglad. Gaar det ikke med min Bog, gaar det heller ikke med mig.</seg></p>
+					<p><seg n="d16">Maa vi betragte <persName key="hasselbalchS">Hr. Hasselbalch</persName>s Mission som endt – eller vil det være honnet af Hensyn til <persName key="magnusE">Hr. Erwin Magnus</persName> at lade det gaa igennem den danske Forlægger, hvis det er Meningen eller at henvende sig til <anchor type="commentRangeStart" n="1"/>Ullstein.<anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj"   
 						xml:id="comment_1">Name of a publisher.</note>
-					</p>
-					<p>Jeg venter iøvrigt snart Svar fra <anchor type="commentRangeStart" n="2"/>"Drei Masken"<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
-						xml:id="comment_2">Name of a publisher.</note></p>
-					<p>Forøvrigt giver det første Brudstykke slet ikke nogen komplet Idé om Bogen, der er fast komponeret – og Slutningen er det bedste.</p>
-					<p>Som Titel havde jeg: ”Hvorledes Lili blev til en rigtig Pige”</p>
-					<p>”Fra Mand til Kvinde” er lidt tør og misvisende. <persName key="sparreAn">Bé</persName> var nok en Gentleman, men eller [sic] tror jeg ikke han havde meget at rose sig af. Sligt husker heldigvis Din lille uskyldige Veninde ikke noget om.</p>
+					</seg></p>
+					<p><seg n="17">Jeg venter iøvrigt snart Svar fra <anchor type="commentRangeStart" n="2"/>"Drei Masken"<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
+						xml:id="comment_2">Name of a publisher.</note></seg></p>
+					<p><seg n="d18">Forøvrigt giver det første Brudstykke slet ikke nogen komplet Idé om Bogen, der er fast komponeret – og Slutningen er det bedste.</seg></p>
+					<p><seg n="d19">Som Titel havde jeg: ”Hvorledes <persName key="lili">Lili</persName> blev til en rigtig Pige”</seg></p>
+					<p><seg n="d20">”Fra Mand til Kvinde” er lidt tør og misvisende. <persName key="sparreAn">Bé</persName> var nok en Gentleman, men eller [sic] tror jeg ikke han havde meget at rose sig af. Sligt husker heldigvis Din lille uskyldige Veninde ikke noget om.</seg></p>
 					<!-- tnm 10/13 how to handle [sic] above - make it a translator's/editor's note? which? -->
 				</div> <!-- end body(original) div -->
 				<closer>
-					<salute>Din</salute>
+					<salute><seg n="d21">Din</seg></salute>
 					<signed><hi rend="underline"><persName key="lili">Lili</persName></hi></signed>					
 					<!-- I didn't do a <p valediction> because "your Lili" is just on one single line -->
 				</closer> <!-- end closer(original) div -->
-				<!--put postscrpit here-->
 			</div>
 			<!--end "original" div -->
 			<div type="translation">
 				<div rend="head">
-					<p>Lindevangen 8 31-I-1931</p>
+					<p>
+						<placeName key="lindevangen">Lindevangen</placeName> 8 
+						<date when="1931-01-31">31-I-1931</date>
+					</p>
 					<!-- should I indicate that this is on the top right of the page, or that there's a gap between 8 and 31? -->
 				</div>
 				<!-- end "opener" div -->
 				<div rend="body">
-					<salute>Dear <persName key="knudsenP">Poul</persName>
-					</salute>
-					<p>I have just read Mr. <persName key="magnusE">Erwin Magnus</persName>’ letter to Director <persName key="hasselbalchS">Hasselbalch</persName> – and recently the fragment of the manuscript. Mrs. <persName key="louLou">Loulou Lassen</persName> has arranged it and toned it down for what I call “chaste and cynical Danish ears” – and even then it was too blunt.</p>
-					<p>It has not been intended for export, and had Mr. <persName key="hasselbalchS">Hasselbalch</persName> asked me, I would have made him aware of this.</p>
-					<p>Therefore it is all due to misunderstandings and mistakes and so on. My manuscript is far more <hi rend="underline">graphic</hi> and full of bickering comments.</p>
-					<p>It is just as giddy as I am – a virtue also for a manuscript!</p>
-					<p>It is an apotheosis to <persName key="kreutz">Werner von Kreutz</persName> – of course!</p>
-					<p>But it is just written and not edited – thus raw material in bad Danish, because I had forgotten some parts of the language’s subtelties and harshness. As you remember, <persName key="sparreAn">Bé</persName> was and is a read and respectable French author. “The Viking Book,” 20th printing.</p>
-					<p>I do not want to hide from you that I am very unhappy about the delay of my book – which I blame on my shyness and virginal restraint. I have not yet spoken with <persName key="hasselbalchS">Hasselbalch</persName>.</p>
+					<salute><seg corresp="#d01">Dear <persName key="knudsenP">Poul</persName>
+					</seg></salute>
+					<p><seg corresp="#d02">I have just read Mr. <persName key="magnusE">Erwin Magnus</persName>’ letter to Director <persName key="hasselbalchS">Hasselbalch</persName> – and recently the fragment of the manuscript. Mrs. <persName key="louLou">Loulou Lassen</persName> has arranged it and toned it down for what I call “chaste and cynical Danish ears” – and even then it was too blunt.</seg></p>
+					<p><seg corresp="#d03">It has not been intended for export, and had Mr. <persName key="hasselbalchS">Hasselbalch</persName> asked me, I would have made him aware of this.</seg></p>
+					<p><seg corresp="#d04">Therefore it is all due to misunderstandings and mistakes and so on. My manuscript is far more <hi rend="underline">graphic</hi> and full of bickering comments.</seg></p>
+					<p><seg corresp="d05">It is just as giddy as I am – a virtue also for a manuscript!</seg></p>
+					<p><seg corresp="#d06">It is an apotheosis to <persName key="kreutz">Werner von Kreutz</persName> – of course!</seg></p>
+					<p><seg corresp="#d07">But it is just written and not edited – thus raw material in bad Danish, because I had forgotten some parts of the language’s subtelties and harshness. As you remember, <persName key="sparreAn">Bé</persName> was and is a read and respectable French author. “The Viking Book,” 20th printing.</seg></p>
+					<p><seg corresp="#d08">I do not want to hide from you that I am very unhappy about the delay of my book – which I blame on my shyness and virginal restraint. I have not yet spoken with <persName key="hasselbalchS">Hasselbalch</persName>.</seg></p>
 					<pb />
-					<p><hi rend="upsideDown">A thousand greetings to</hi> <persName key="knudsenV">Vibeke</persName>
-						
-					</p>
+					<p><seg corresp="#d09"><hi rend="upsideDown">A thousand greetings to <persName key="knudsenV">Vibeke</persName></hi>
+					</seg></p>
 					<!-- tnm: The previous line is written as if the page were held upside-down, so the top-right corner of the page when held right-side up. Translators have just appended it to the end of the translation (Lili did use something similar in her closing of a previous letter) -->
-					<p>But how can we organize a collaboration based on my manuscript?</p>
-					<p>You see, dear <persName key="knudsenP">Poul</persName>, I now own a little more than 25 Kr. so money begins to interest me. It is necessary to buy the daily silk stockings.</p>
+					<p><seg corresp="#d10">But how can we organize a collaboration based on my manuscript?</seg></p>
+					<p><seg corresp="#d11">You see, dear <persName key="knudsenP">Poul</persName>, I now own a little more than 25 Kr. so money begins to interest me. It is necessary to buy the daily silk stockings.</seg></p>
 					<!-- how to handle the [sic] above? Translators note? -->
-					<p>How can we arrange ourselves financially?</p>
-					<p>That is, the sharing of the spoils!</p>
+					<p><seg corresp="#d12">How can we arrange ourselves financially?</seg></p>
+					<p><seg corresp="#d13">That is, the sharing of the spoils!</seg></p>
 					<!-- it's arguable based on the image whether the two preceeding paragraphs are really intended as two separate paragraphs -->
-					<p>I can borrow money and make a trip to <placeName key="berlin">Berlin</placeName>, if it will be good.</p>
-					<p>Please talk soon with <persName key="magnusE">Mr. Magnus</persName> about this; for it is urgent! I throw up blood in sorrow over this story, but I don’t care. If it is not going well with my book, it won’t go well with me.</p>
-					<p>Must we consider <persName key="hasselbalchS">Mr. Hasselbalch</persName>’s mission as ended – or will it be respectful of <persName key="magnusE">Mr. Erwin Magnus</persName> to let it go through the Danish publisher, if that is the intention or to turn to Ullstein.
-					</p>
-					<p>By the way, I am awaiting a response from ”Drei Masken” soon</p>
-					<p>However, the first fragment by itself does not give a complete idea about the book, which is tightly written – and the end is the best.</p>
-					<p>As the title I had: ”How Lili Became a Real Girl”</p>
-					<p>"From Man Into Woman" is a little dry and misleading. <persName key="sparreAn">Bé</persName> might have been a gentleman, but apart from that I do not think he had much to boast of. Fortunately, that is something your little innocent friend does not remember.</p>
+					<p><seg corresp="#d14">I can borrow money and make a trip to <placeName key="berlin">Berlin</placeName>, if it will be good.</seg></p>
+					<p><seg corresp="#d15">Please talk soon with <persName key="magnusE">Mr. Magnus</persName> about this; for it is urgent! I throw up blood in sorrow over this story, but I don’t care. If it is not going well with my book, it won’t go well with me.</seg></p>
+					<p><seg corresp="#d16">Must we consider <persName key="hasselbalchS">Mr. Hasselbalch</persName>’s mission as ended – or will it be respectful of <persName key="magnusE">Mr. Erwin Magnus</persName> to let it go through the Danish publisher, if that is the intention or to turn to Ullstein.
+					</seg></p>
+					<p><seg corresp="#d17">By the way, I am awaiting a response from ”Drei Masken” soon</seg></p>
+					<p><seg corresp="#d18">However, the first fragment by itself does not give a complete idea about the book, which is tightly written – and the end is the best.</seg></p>
+					<p><seg corresp="#d19">As the title I had: ”How <persName key="lili">Lili</persName> Became a Real Girl”</seg></p>
+					<p><seg corresp="#d20">"From Man Into Woman" is a little dry and misleading. <persName key="sparreAn">Bé</persName> might have been a gentleman, but apart from that I do not think he had much to boast of. Fortunately, that is something your little innocent friend does not remember.</seg></p>
 				</div> <!-- end body(original) div -->
 				<closer>
-					<salute>Your</salute> 
+					<salute><seg corresp="#d21">Your</seg></salute> 
 					<signed><hi rend="underline"><persName key="lili">Lili</persName></hi></signed>
 					<!-- tnm: I didn't do a <p valediction> because "your Lili" is just on one single line -->
 				</closer> <!-- end closer(translation) div -->
