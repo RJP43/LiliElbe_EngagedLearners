@@ -5,8 +5,8 @@
         <fileDesc>
             <titleStmt>
                 <title>
-                    <date>1931-01-22</date> Letter to <persName key="knudsenP">Poul
-                        Knudsen</persName>
+                    <date>1931-01-22</date> 
+                    Letter to <persName key="knudsenP">Poul Knudsen</persName>
                 </title>
                 <author>
                     <persName key="lili">Lili Ilse Elvenes</persName>
@@ -16,26 +16,30 @@
                     <persName ref="plc">Pamela L. Caughie</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Images prepared <date>November, 2017</date> by</resp>
+                    <resp>Images prepared 
+                        <date>November, 2017</date> by</resp>
                     <persName ref="mg">Matthew Gallagher</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Transcription completed <date>November 6, 2017</date> by</resp>
+                    <resp>Transcription completed 
+                        <date>November 6, 2017</date> by</resp>
                     <persName ref="kj">Kristin Jacobsen</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Translation completed on <date when="2017-11-06">November 6,
-                        2017</date></resp>
+                    <resp>Translation completed
+                        <date>November 6, 2017</date></resp>
                     <persName ref="kj">Kristin Jacobsen</persName>
                     <persName ref="mb">Maiken Boysen</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Translation reviewed <date>November, 2018</date> by</resp>
+                    <resp>Translation reviewed 
+                        <date>November, 2018</date> by</resp>
                     <persName ref="mo">Marianne Ølholm</persName>
                     <persName ref="mb">Maiken Boysen</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Encoding completed <date>October-December, 2018</date> by</resp>
+                    <resp>Encoding completed 
+                        <date>October-December, 2018</date> by</resp>
                     <persName ref="tnm">Tyler Monaghan</persName>
                 </respStmt>
                 <respStmt>
@@ -89,12 +93,12 @@
         <body>
             <div type="original">
                 <div rend="head">
-                    <p>Lindevangen 8-10</p>
-                    <p>22-I-31</p>
+                    <p><placeName key="lindevangen">Lindevangen</placeName> 8-10</p>
+                    <p><date when="1931-01-22">22-I-31</date></p>
                     <!-- tnm: can/should I add place=pageTopRightCorner to these <p> elements? Or are these only for <add> elements?-->
                 </div>
                 <div rend="body">
-                    <salute><seg n="d01">Kære store <anchor type="commentRangeStart" n="1"/><persName key="knudsenP" source="historical">Paul</persName><anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj" xml:id="comment_1">Sometimes Lili writes Poul and sometimes Paul, but the correct form of the name is Poul.</note>,</seg></salute>
+                    <salute><seg n="d01">Kære store <anchor type="commentRangeStart" n="1"/><persName key="knudsenP">Paul</persName><anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj" xml:id="comment_1">Sometimes Lili writes Poul and sometimes Paul, but the correct form of the name is Poul.</note>,</seg></salute>
                     <p><seg n="d02">Tusind Tak for Dit Brev.</seg></p>
                     <p><seg n="d03">Jeg skal med Sorg rette mig efter Dit Ønske og forandre Heltens Navn.</seg></p>
                     <p><seg n="d04">Han kommer saa til at
@@ -161,18 +165,21 @@
                         <signed>
                             <hi rend="underline"><persName key="lili">Lili</persName>
                             Elvenes</hi></signed>
-                        <salute><seg n="d18">Mille baisers à <persName key="knudsenV">Vibeke</persName></seg></salute>
+                    </closer>
+                    <postscript>
+                        <p><seg n="d18">Mille baisers à <persName key="knudsenV">Vibeke</persName></seg></p>
                         <signed><hi rend="underline"><persName key="lili"
                             >Lili</persName></hi></signed>
-                    </closer>
+                    </postscript>
+                        
                     <!-- tnm 10/9: should probably do additional markup on the line above, seems to be two signatures and a small PS? -->
                 </div>
             </div>
             <!-- end "original" div -->
             <div type="translation">
                 <div rend="head">
-                    <p>Lindevangen 8-10</p>
-                    <p>22-I-31</p>
+                    <p><placeName key="lindevangen">Lindevangen</placeName> 8-10</p>
+                    <p><date when="1931-01-22">22-I-31</date></p>
                 </div>
                 <!-- end "opener" div -->
                 <div rend="body">
@@ -237,11 +244,13 @@
                         <salute><seg corresp="#d17">Your poor little friend</seg></salute>
                         <signed><hi rend="underline"><persName key="lili">Lili
                                 Elvenes</persName></hi></signed>
-                        <salute><seg corresp="#d18">A thousand kisses to <persName key="knudsenV"
-                            >Vibeke</persName></seg></salute>
+                    </closer>
+                    <postscript>
+                        <p><seg corresp="#d18">A thousand kisses to <persName key="knudsenV"
+                            >Vibeke</persName></seg></p>
                         <signed><hi rend="underline"><persName key="lili"
                             >Lili</persName></hi></signed>
-                    </closer>
+                    </postscript>
                     <!-- should probably do additional markup on the line above, seems to be two signatures and a small PS? -->
                 </div>
             </div>
