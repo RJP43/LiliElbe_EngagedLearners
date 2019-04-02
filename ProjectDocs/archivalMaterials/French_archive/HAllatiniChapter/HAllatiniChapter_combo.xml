@@ -105,6 +105,7 @@
                 <p><!--BC: 2019-03-28: Page 221 is well preserved, the recto of the folio, with no distinctive marks.--></p>
                 <p><!--BC: 2019-03-28: Page 222 is well preserved, the verso of the folio, with a small, white mark on the eight line above the page end.--></p>
                 <p><!--BC: 2019-03-28: Page 223 is well preserved, the recto of the folio, with a slight crease on the upper left corner.--></p>
+                <!-- KK: All of the pages are yellowed along the edges, and aren't cut evenly. They seem to be a little frayed. The grain of the paper slightly warps the letters and creates periodic marks on the pages and between the letters. On page 200, the last paragrapht is surrounded by parentheses drawn in pencil. Certain words are underlined: "és. Le général Nicolis de Robilant," "le comte Mario di Carrobio". Page 226 has a light pencil smudge right below the last line, roughly in the middle. Page 231 has faint square parentheses around the second full parapgraph. The fragment beginning with, "J'annonçai" and ending with "tendrement" is underlined with pencil. On page 235, there is a light brown mark right above the second paragraph. The last paragraph of this page has two parentheses drawn in pencil. On page on 236, the second to last paragraph has parentheses drawn in with pencil. The last paragraph is surrounded with parentheses with pencil, and on the right side, there is an exclamation point and qurstion mark. -->
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -112,7 +113,7 @@
     <text>
         <body>
             <div>
-                <!--BC: 2019-03-28: Here should be inserted the memoir's cover page which is not yet encoded; I need instructions.-->
+                <!-- BC: 2019-03-28: Here should be inserted the memoir's cover page which is not yet encoded; I need instructions. -->
                 <pb style="page" n="unknown"/><!--BC: 2019-030-28: How do I mark up the absence of the page number and of the header Mosaïques, as well as the fact that this is the opening page of the chapter?-->
                 <head>Il et elle</head><!--BC: 2019-03-28: The title is capitalized. How should it be marked up?-->
                 <p>Ce fut vers le fin de l'année 1916 que je fis leur connaissance. Mon <persName key="allatiniE">fiancé</persName> se battait alors dans l'armée italienne, sur le front des <placeName key="dolomites">Dolomites</placeName>. Dans ses moments de repos, il écrivait des contes de fées, déstinés à nos futurs enfants. Comme il appréciait le talent de l'artiste dannoise <persName key="wegenerG">Gerda Wegener</persName>, dont les dessins paraissaient dans La Vie Parisienne<!--BC: 2019-03-28: The title is italicized. Should this publication receive a key ID?-->, que je lui envoyais régulièrement, il m'avait chargée de m'addresser à elle pour les illustrations de ses contes. Je savais qu'elle avait fait une très jolie couverture pour un livre de <persName key="magreM">Maurice Magre</persName>, je demandai donc à <persName key="magreM">mon vieil ami</persName> de nous mettre en rapport. C'est ainsi que nous sonnions, quelques jours plus tard, à la porte d'un atelier de la rue de Lille<!--BC: 2019-03-28: I didn't find a mention of it in the prosopography. It should be given a key ID.-->.</p>
