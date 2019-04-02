@@ -112,8 +112,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
-               encoder's description must be in complete, logical sentences --></p>
+                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images; encoder's description must be in complete, logical sentences --></p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -155,14 +154,40 @@
                         will skip over them – or include them in an abbreviated form – if they will
                         contribute to understanding her psyche.-–</p>
                     <p style="paraText" rend="division">x</p>
+                    <!--SK we're putting the additional diary entries (1921-1932) in chronological order after the opening letter written in 1931-->
+                    <!--SK start of 19211922 diary entries-->
+                    <p style="LiliDiary">
+                        <date when="1921-12-25">25/12</date>
+                    </p>
+<p style="LiliDiary"><persName key="thomsenTC">Father</persName> put up the big picture from <placeName key="versailles">Versailles</placeName> today, it was hard to get the nail in. <persName key="wegenerE">Uncle Einar</persName> guilds frames and <persName key="wegenerG">Aunt Gerda</persName> reads a novel, ”The Paradise Bird” by Rung,<note type="editor"> Novel by Otto Rung, first published in 1919.</note> and says that it is written staccato and is for the most part descriptions from old <placeName key="copenhagen">Copenhagen</placeName> -– Helped <persName key="wegenerE">Uncle Einar</persName> make his ”low heels”. It snowed in the afternoon. <persName key="thomsenTC">Father</persName> and <persName key="wegenerE">Uncle Einar</persName> played chess, <persName key="wegenerE">Einar</persName> lost.</p>
+                    <p style="LiliDiary">
+                        <date when="1921-12-28">28/12.</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="wegenerE">Uncle Einar</persName>’s birthday.</p>
+                    <p style="LiliDiary">
+                        <date when="1921-12-29">29/12.</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="wegenerG">Aunt Gerda</persName>, <persName key="wegenerE">Uncle Einar</persName> and <persName key="gottliebMrs">Mrs. Gottlieb</persName> are coming to dinner with lobster. <persName key="?">Else</persName> is making mayonnaise. <persName source="#A1 #TR">Mother</persName> took an hour to eat her portion at dinner. Then there were two kinds of cheese, one moldy and one fresh, as well as salad, mayonnaise, and <hi rend="underline">birthday cake</hi>. There was a lot played on the grammaphone and <persName key="wegenerE">Uncle Einar</persName> danced a French Apache dance. Laughter etc.
+                    </p>
+                    <p style="LiliDiary">
+                        <date when="1922-01-03">3/1.</date>
+                    </p>
+                    <p style="LiliDiary">Stayed in bed because of mumps, mighty swollen head. Received 1.80 kroner from <persName key="wegenerE">Uncle Einar</persName> because he took <persName key="?">Else</persName> to a restaurant. </p>
+                    <p style="LiliDiary">
+                        <date when="1922-01-09">9/1.</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="wegenerE">Uncle Einar</persName> and <persName key="wegenerG">Aunt Gerda</persName> left on the train at 10:20 via <placeName key="gedser">Gedser</placeName>
+                    </p>
+                <!--end of 91211922 document entries-->
+                <!--start of 19241200 unkown letter-->
+                    <p style="LiliDiary">
+                        <date when="1924-12">Dec. 1924</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="thomsenTC">Father</persName> told us about <persName key="wegenerE">Einar</persName>, who dresses like a girl. The convenient conditions for this are his small stature, well-formed figure, beautiful legs and small feet. Moreover he shaves carefully and with ample use of powder and makeup he can in <placeName key="paris">Paris</placeName> by electric light pass for a lady. -– He raises his voice up at such a pitch that it can pass for a deep woman’s voice. -– The reason for his desire for this is probably vanity. -– Dressed as <persName key="lili">Lili</persName> <persName key="wegenerE"> Einar</persName> visited us once when we lived on <placeName xml:id="phistersStreet">Phisters Street</placeName> when <persName key="mother">his own mother</persName> was visiting us. She did not recognize him.</p>
+                    <!--end of 19241200-->
                     <p style="LiliDiary">
                         <date when="1931-08-16">16/8-31.</date>
                     </p>
-                    <!--SK we're putting the additional diary entries (1921-1932) in chronological order after the opening letter written in 1931-->
-                    <p style="LiliDiary">
-                    
-                    </p>
-                    
                     <p style="LiliDiary"><persName key="lili">Lili</persName> and <persName key="wegenerG"
                             >Gerda</persName> came here this morning. <persName key="lili"
                                 >Lili</persName> will live here. She is here in <placeName
