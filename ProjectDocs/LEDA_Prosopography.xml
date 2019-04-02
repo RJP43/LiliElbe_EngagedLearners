@@ -123,7 +123,7 @@
                <note/>
             </place>
             <place xml:id="biffi">
-               <placeName>Biffi</placeName><!-- check with Pamela -->
+               <placeName>the colonnade of Biffi</placeName>
                <note/>
             </place>
             <place xml:id="bohemia">
@@ -212,6 +212,11 @@
                <placeName source="#G1">Eiffelturm</placeName>
                <note>In <placeName key="paris">Paris</placeName>,
                   <placeName key="france">France</placeName></note>
+            </place>
+            <place xml:id="elbeBanks">
+               <placeName source="#A1 #B1">banks of <placeName key="elbeRiver">the River Elbe</placeName></placeName>
+               <placeName source="#A1 #B1">the banks of <placeName key="elbeRiver">the broad stream</placeName></placeName>
+               <note/>
             </place>
             <place xml:id="elbeRiver">
                <placeName source="#A1 #TR">Elbe</placeName>
@@ -309,8 +314,8 @@
                <note/>
             </place>
             <place xml:id="hotelDAlsace">
-               <placeName>one of the numerous small hotels in <placeName key="#seine">Seine</placeName></placeName>
-               <note/><!-- check entry with Pamela -->
+               <placeName>one of the numerous small hotels in <placeName key="paris">Paris</placeName></placeName>
+               <note/>
             </place>
             <place xml:id="hotelReservoirs">
                <placeName source="#D1 #TR">Hôtel des Réservoirs</placeName>
@@ -358,7 +363,7 @@
                <placeName source="#D1">Doktorens biokemiske Laboratorium</placeName>
                <placeName source="#G1">dem Laboratorium des Biochemikers <persName key="karner">Doktor Karner</persName></placeName>
                <placeName source="#G1"><persName key="karner">Doktor Karner</persName>s Laboratorium</placeName>
-               <note/><!-- need note from Pamela -->
+               <note/>
             </place>
             <place xml:id="lAlmaPlace">
                <placeName>Place de l'Alma</placeName>
@@ -624,7 +629,7 @@
                <placeName>Park of Versailles</placeName>
                <note/>
             </place>
-            <place xml:id="versaillesPalace"><!-- check with Pamela -->
+            <place xml:id="versaillesPalace">
                <placeName>Palace of Versailles</placeName>
                <note/>
             </place>
@@ -786,9 +791,7 @@
             <person xml:id="feruzziRi" source="fictional" synch="#portaF">
                <persName>Ridolfo Feruzzi</persName>
                <persName>Feruzzi</persName>
-               <note><persName key="sparreGre">Grete Sparre</persName>'s second-husband/love
-                  interest in narrative</note>
-               <!-- RJP: have Pamela check this note -->
+               <note><persName key="sparreGre">Grete Sparre</persName>'s second-husband in narrative</note>
             </person>
             <person xml:id="flavio" source="fictional">
                <persName>Signora Favio</persName>
@@ -815,9 +818,9 @@
                <persName source="#D1">Oberarzt</persName>
                <note/>
             </person>
-            <person xml:id="goethe" source="fictional"><!-- Check entry with Pamela -->
+            <person xml:id="goethe" source="fictional">
                <persName>Goethe</persName>
-               <note>mythological</note>
+               <note>German author</note>
             </person>            
             <person xml:id="gohrbandt" source="historical" synch="#gebhard">
                <persName>Edwin Gohrbandt</persName>
@@ -859,9 +862,9 @@
                <persName>Ernst Ludwig Harthern Jacobsen</persName>
                <note/>
             </person>
-            <person xml:id="hauwitz">
+            <person xml:id="hauwitz" source="fictional">
                <persName>Hauwitz</persName>
-               <note/><!-- need to determine if fictional or historical; ask Pamela -->
+               <note/>
             </person>
             <person xml:id="hermes" source="fictional">
                <persName>Hermes</persName>
@@ -870,7 +873,6 @@
             <person xml:id="heyman" source="historical">
                <persName>Heyman</persName>
                <note>Danish art dealer who exhibited Einar's and Gerda's work</note>
-               <!-- Check entry (and note) with Pamela -->
             </person>
             <person xml:id="hirschfeld" source="historical" synch="#hardenfeld">
                <persName>Magnus Hirschfeld</persName>
@@ -896,8 +898,7 @@
                <persName>Niels Hvide</persName>
                <persName>Niels</persName>
                <persName>Hjalmar Hvide</persName>
-               <note>Hjalmar Hvide was the fictious name first used for Niels Hvide</note>
-               <!-- RJP: check note with Pamela -->
+               <note>Hjalmar Hvide was the fictious name first used for Niels Hvide in the narrative</note>
             </person>
             <person xml:id="jager" source="historical">
                <persName>Hans Henrik Jæger</persName>
@@ -964,13 +965,13 @@
                <persName>Lili Ilse Elvenes</persName>
                <persName>Lili Courtaud</persName>
                <persName>Lili Courtot</persName>
-	       <persName source="frenchSupp">Lily Wegener</persName>
                <note>Unable to verify that Lili Elbe used the pseudonym Lili Courtaud outside of its
                   use in the narrative</note>
             </person>
-            <person xml:id="louLou" source="fictional"><!-- check entry with Pamela -->
+            <person xml:id="louLou" source="historical">
                <persName>a friend who was on the staff of a leading <placeName key="copenhagen">Copenhagen</placeName> newspaper</persName>
-               <note>Historical figure not identified</note>
+               <persName>Loulou Lassen</persName>
+               <note>Danish journalist</note>
             </person>
             <person xml:id="madameB" source="historical">
                <persName>Madame de B.</persName>
@@ -990,7 +991,7 @@
             </person>
             <person xml:id="maranonGreg" source="historical">
                <persName>Professor Gregorio Marañon</persName>
-               <note>Mentioned in <ref source="#A1">A1</ref>'s introductions as author of The Evolution of Sex and Intersexual Conditions</note> <!--RJP: check note with Pamela -->
+               <note>Mentioned in <ref source="#A1">A1</ref>'s introductions as author of The Evolution of Sex and Intersexual Conditions</note> 
             </person>
             <person xml:id="marquisSG" source="historical">
                <persName>Marquis Emilio de SG</persName>
@@ -1011,7 +1012,7 @@
                <persName source="#G1">mutter</persName>
                <note><persName key="sparreAn">Andreas Sparre</persName>'s mother in narrative</note>
             </person>
-            <person xml:id="mrsTeddybear" source="fictional"><!-- check entry with Pamela -->
+            <person xml:id="mrsTeddybear" source="fictional">
                <persName source="#A1">Mrs. Teddybear</persName>
                <persName source="#A1">Teddybearkins</persName>
                <persName source="#G1">Frau Teddybär</persName>
@@ -1031,8 +1032,18 @@
                <persName>niece</persName>
                <note>Historical figure not identified</note>
             </person>
-            <person xml:id="nino" source="fictional"><!-- check entry with Pamela -->
+            <person xml:id="nino" source="fictional">
                <persName>Nino</persName>
+               <note>Historical figure not identified</note>
+            </person>
+            <person xml:id="nurseEllen" source="fictional">
+               <persName source="#A1 #B1">Ellen</persName>
+               <note>Historical figure not identified</note>
+            </person>
+            <person xml:id="nurseFrieda" source="fictional">
+               <persName source="#A1 #B1 #TR">Sister Frieda</persName>
+               <persName source="#D1">Søster Frieda</persName>
+               <persName source="#G1">Schwester Frieda</persName>
                <note>Historical figure not identified</note>
             </person>
             <person xml:id="nurseHannah" source="fictional">
@@ -1043,14 +1054,14 @@
                <persName source="#TR">Sister Hanna</persName>
                <note>Historical figure not identified</note>
             </person>
+            <person xml:id="nurseIlse" source="fictional">
+               <persName source="#A1 #B1">Ilse</persName>
+               <note>Historical figure not identified</note>
+            </person>
             <person xml:id="nurseMargaret" source="fictional">
                <persName source="#A1">Nurse Margaret</persName>
                <persName source="#A1">Sister Margaret</persName>
-               <persName source="#D1">Søster Frieda</persName>
-               <persName source="#G1">Schwester Margarete</persName>
-               <persName source="#G1">Schwester Frieda</persName>
-               <persName source="#TR">Sister Frieda</persName>
-               <note>Historical figure not identified</note>
+               <persName source="#G1">Schwester Margarete</persName>               
             </person>
             <person xml:id="nurseMarianne" source="fictional">
                <persName source="#D1">Søster Marianne</persName>
@@ -1099,7 +1110,7 @@
             </person>
             <person xml:id="reissnerCarl" source="historical">
                <persName>Carl Reißner</persName>
-               <note>German publisher</note><!-- ask Pamela to check note -->
+               <note>German publisher</note>
             </person>
             <person xml:id="rene" source="fictional">
                <persName>Monsieur René</persName>
@@ -1178,9 +1189,9 @@
                <persName source="#D1 #TR">Julie Humbert</persName>
                <note>Historical figure not identified</note>
             </person>
-            <person xml:id="tacitus" source="fictional"><!-- Check entry with Pamela -->
+            <person xml:id="tacitus" source="historical">
                <persName>Tacitus</persName>
-               <note>mythological</note>
+               <note/>
             </person>
             <person xml:id="tb" source="historical">
                <persName>T.B.</persName>
