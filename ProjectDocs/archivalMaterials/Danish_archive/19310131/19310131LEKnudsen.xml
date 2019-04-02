@@ -27,19 +27,19 @@
 					<persName ref="kj">Kristin Jacobsen</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Translation completed 
-						<date>13 November 2017</date></resp>
+					<resp>Translation completed
+						<date>November 13, 2017</date> by</resp>
 					<persName ref="kj">Kristin Jacobsen</persName>
 					<persName ref="mb">Maiken Boysen</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Translation reviewed 
+					<resp>Translation reviewed
 						<date>November, 2018</date> by</resp>
 					<persName ref="mo">Marianne Ølholm</persName>
 					<persName ref="mb">Maiken Boysen</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoding completed 
+					<resp>Encoding completed
 						<date>October-December, 2018</date> by</resp>
 					<persName ref="tnm">Tyler Monaghan</persName>
 				</respStmt>
@@ -155,7 +155,7 @@
 					<p><seg corresp="#d02">I have just read Mr. <persName key="magnusE">Erwin Magnus</persName>’ letter to Director <persName key="hasselbalchS">Hasselbalch</persName> – and recently the fragment of the manuscript. Mrs. <persName key="louLou">Loulou Lassen</persName> has arranged it and toned it down for what I call “chaste and cynical Danish ears” – and even then it was too blunt.</seg></p>
 					<p><seg corresp="#d03">It has not been intended for export, and had Mr. <persName key="hasselbalchS">Hasselbalch</persName> asked me, I would have made him aware of this.</seg></p>
 					<p><seg corresp="#d04">Therefore it is all due to misunderstandings and mistakes and so on. My manuscript is far more <hi rend="underline">graphic</hi> and full of bickering comments.</seg></p>
-					<p><seg corresp="d05">It is just as giddy as I am – a virtue also for a manuscript!</seg></p>
+					<p><seg corresp="#d05">It is just as giddy as I am – a virtue also for a manuscript!</seg></p>
 					<p><seg corresp="#d06">It is an apotheosis to <persName key="kreutz">Werner von Kreutz</persName> – of course!</seg></p>
 					<p><seg corresp="#d07">But it is just written and not edited – thus raw material in bad Danish, because I had forgotten some parts of the language’s subtelties and harshness. As you remember, <persName key="sparreAn">Bé</persName> was and is a read and respectable French author. “The Viking Book,” 20th printing.</seg></p>
 					<p><seg corresp="#d08">I do not want to hide from you that I am very unhappy about the delay of my book – which I blame on my shyness and virginal restraint. I have not yet spoken with <persName key="hasselbalchS">Hasselbalch</persName>.</seg></p>
