@@ -4,28 +4,77 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Letter to <persName key="knudsenP">Poul Knudsen</persName>
+				<title>
+					<date>1931-03-06</date>
+					Letter to <persName key="knudsenP">Poul Knudsen</persName>
 				</title>
 				<author>
 					<persName key="lili">Lili Ilse Elvenes</persName>
 				</author>
 				<respStmt>
-					<resp>Translation completed on <date when="2017-11-13">13 November 2017</date>
-					</resp>
+					<resp>Photographed <date>August 16-17, 2017</date>
+						by</resp>
+					<persName ref="plc">Pamela L. Caughie</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Images prepared
+						<date>November, 2017</date> by</resp>
+					<persName ref="mg">Matthew Gallagher</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Transcription completed
+						<date>November 13, 2017</date> by</resp>
+					<persName ref="kj">Kristin Jacobsen</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Translation completed 
+						<date>November 13, 2017</date> by</resp>
 					<persName ref="kj">Kristin Jacobsen</persName>
 					<persName ref="mb">Maiken Boysen</persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoding updated on <date when="2018-11-26">26 November 2018</date>
-					</resp>
+					<resp>Translation reviewed
+						<date>November, 2018</date> by</resp>
+					<persName ref="mo">Marianne Ølholm</persName>
+					<persName ref="mb">Maiken Boysen</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding completed
+						<date>October-December, 2018</date> by</resp>
 					<persName ref="tnm">Tyler Monaghan</persName>
 				</respStmt>
+				<respStmt>
+					<resp>Encoding assistance and/or XML proofing completed by</resp>
+					<persName ref="rjp">Rebecca J. Parker</persName>
+					<persName ref="nw">Nikolaus Wasmoen</persName>
+				</respStmt>
+				<respStmt>
+					<resp>XML transformed into HTML
+						<date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+					<persName ref="rjp">Rebecca J. Parker</persName>
+				</respStmt>
+				<respStmt>
+					<resp>HTML proofing completed
+						<date><!-- insert date; see formatting suggestions above --></date> by</resp>
+					<persName ref="aa">Adeline Azungue</persName>
+				</respStmt>
+				<sponsor>Loyola University Chicago</sponsor>
+				<sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
 			</titleStmt>
 			<publicationStmt>
-				<p>Publication Information</p>
+				<authority>Lili Elbe Digital Archive</authority>
+				<pubPlace>Chicago, IL, USA</pubPlace>
+				<date>July 6th, 2019</date>
+				<availability>
+					<p>Reproduced by courtesy of the <orgName>The Royal Library</orgName> in
+						<placeName>Copenhagen</placeName>
+					</p>
+					<licence>Distributed under a Creative Commons
+						Attribution-NonCommercial-ShareAlike 4.0 International licence.</licence>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<p>Information about the source</p>
+				<p>The page is tinted a brownish yellow color. The letter itself is folded into 8 equal folds. A sentence is written on the left hand margin of the page. There is a small tear in the lower right hand corner right on the fold. The letter is written in cursive with the date and place written in the top right corner. Small parts of the letter are underlined.</p>
 			</sourceDesc>
 		</fileDesc>
 		<!-- tnm 10/19/2018: awaiting key for Hasselbalch -->
@@ -36,50 +85,53 @@
 			<div type="original">
 				<div rend="head">
 					<p>
-						<placeName key="lindevangen">Lindevangen</placeName> 10. <date when="1931-03-06">6 Mars 1931</date>
+						<placeName key="lindevangen">Lindevangen</placeName> 10. <date when="1931-03-06"><seg n="d01">6 Mars 1931</seg></date>
 					</p>
 				</div> <!-- end opener(original) div -->
 				<div rend="body">
-					<salute>Kære Poul.</salute>
-					<p>Tusind Tak for Dit Brev, - og undskyld mig at jeg først nu svarer derpaa; men Affairen med Bogen havde taget saa stærk paa mig at jeg blev syg, derpaa kom <persName key="wegenerG">Gerda</persName> hjem, og jeg har haft saa meget at gøre med Udstillingen.</p>
-					<p>Da jeg mærkede, hvor daarligt Resultatet truede med at blive, trak jeg Bogen helt tilbage.</p>
-					<p>
+					<salute><seg n="d02">Kære <persName key="knudsenP">Poul</persName>.</seg></salute>
+					<p><seg n="d03">Tusind Tak for Dit Brev, - og undskyld mig at jeg først nu svarer derpaa; men Affairen med Bogen havde taget saa <anchor type="commentRangeStart" n="1"/>stærk<anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj"   
+						xml:id="comment_1">Should be stærkt.</note> paa mig at jeg blev syg, derpaa kom <persName key="wegenerG">Gerda</persName> hjem, og jeg har haft saa meget at gøre med Udstillingen.</seg></p>
+					<p><seg n="d04">Da jeg mærkede, hvor daarligt Resultatet truede med at blive, trak jeg Bogen helt tilbage.</seg></p>
+					<p><seg n="d05">
 						<persName key="hasselbalchS">Hasselbalch</persName> gav som en af de vægtige Grunde til ikke at udgive Bogen den: at en Smædeskriver i sit Blad havde skrevet noget om mig, som jeg iøvrigt aldrig har læst.
-					</p>
-					<p>Jeg har levet her i <placeName key="copenhagen">København</placeName> som i en Gifttaage af fæl og ondsindet Sladder. Du kan tro, det har været slemt for en stakkels syg og svag Pige. Jeg ønskede bare at dø. Men nu har Bladet vendt sig. Folk bevidner mig deres Medfølelse – jeg havde gerne undværet begge Dele, baade: at de var onde paa mig og at de nu har ondt af mig.</p>
-					<p>Flere Forlæggere har nu henvendt sig til mig, og jeg er klar over, at jeg kan faa min Bog ud, naar jeg vil – ogsaa fra Udlandet er der sket Henvendelser.</p>
-					<p>Du viste Dig atter som min gode Ven, da Du skrev til mig! Det er meget muligt, jeg om kort Tid henvender mig til Dig, men <hi rend="underline">>ikke</hi> igennem Forlægger.</p>
+					</seg></p>
+					<p><seg n="d06">Jeg har levet her i <placeName key="copenhagen">København</placeName> som i en Gifttaage af fæl og ondsindet Sladder. Du kan tro, det har været slemt for en stakkels syg og svag Pige. Jeg ønskede bare at dø. Men nu har Bladet vendt sig. Folk bevidner mig deres Medfølelse – jeg havde gerne undværet begge Dele, baade: at de var onde paa mig og at de nu har ondt af mig.</seg></p>
+					<p><seg n="d07">Flere Forlæggere har nu henvendt sig til mig, og jeg er klar over, at jeg kan faa min Bog ud, naar jeg vil – ogsaa fra Udlandet er der sket Henvendelser.</seg></p>
+					<p><seg n="d08">Du viste Dig atter som min gode Ven, da Du skrev til mig! Det er meget muligt, jeg om kort Tid henvender mig til Dig, men <hi rend="underline">>ikke</hi> igennem <anchor type="commentRangeStart" n="2"/>Forlægger<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
+						xml:id="comment_2">Lili could also have meant “the publisher” but left out the word.</note>.</seg></p>
 				</div> <!-- end body(original) div -->
 				<closer>
-					<salute>De allerhjærteligste Hilsner fra Din</salute><signed><persName key="lili">Lili</persName></signed>
+					<salute><seg n="d09">De allerhjærteligste Hilsner fra Din</seg></salute><signed><persName key="lili">Lili</persName></signed>
 				</closer> <!-- end closer(original) div -->
 				<postscript>
-					<p>Jeg længes saa meget efter <persName key="knudsenV">Vibeke</persName>. Hils hende fra mig og sig hende at jeg finder hendes Portrait et af <persName key="wegenerG">Gerda</persName>s bedste Billeder.</p>
+					<p><seg n="d10"><anchor type="commentRangeStart" n="3"/>Jeg længes saa meget efter <persName key="knudsenV">Vibeke</persName>. Hils hende fra mig og sig hende at jeg finder hendes Portrait et af <persName key="wegenerG">Gerda</persName>s bedste Billeder.<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
+						xml:id="comment_3">Written along left edge of letter.</note></seg></p>
 				</postscript>
 			</div> <!-- end original div -->
 			<div type="translation">
 				<div rend="head">
 					<p>
-						<placeName key="lindevangen">Lindevangen</placeName> 10. <date when="1931-03-06">6 March 1931</date>
+						<placeName key="lindevangen">Lindevangen</placeName> 10. <date when="1931-03-06"><seg corresp="#d01">6 March 1931</seg></date>
 					</p>
 				</div> <!-- end opener(translation) div -->
 				<div rend="body">
-					<salute>Dear Poul.</salute>
-					<p>Thousand thanks for your letter, – and I’m sorry that I am just now answering; but the affair with the book had drained me so much that I became ill, then <persName key="wegenerG">Gerda</persName> came home, and I have had so much to do with the exhibition.</p>
-					<p>When I realized how bad the result threatened to become, I withdrew the book altogether.</p>
-					<p>
+					<salute><seg corresp="#d02">Dear <persName key="knudsenP">Poul</persName>.</seg></salute>
+					<p><seg corresp="#d03">Thousand thanks for your letter, – and I’m sorry that I am just now answering; but the affair with the book had drained me so much that I became ill, then <persName key="wegenerG">Gerda</persName> came home, and I have had so much to do with the exhibition.</seg></p>
+					<p><seg corresp="#d04">When I realized how bad the result threatened to become, I withdrew the book altogether.</seg></p>
+					<p><seg corresp="#d05">
 						<persName key="hasselbalchS">Hasselbach</persName> gave as one of his weightiest reasons not to publish the book: that a libeler in his newspaper had written something about me, which incidentally I have never read.
-					</p>
-					<p>I have lived here in <placeName key="copenhagen">Copenhagen</placeName> in a poison fog of ugly and malicious gossip. Believe me, it has been bad for a poor sick and weak girl. I just wanted to die. But now the table has turned. People express to me their sympathy – I would have preferred to do without both parts, first: that they were mean to me as well as that they now feel sorry for me.</p>
-					<p>Several publishers have now approached me and I am aware that I can get my book out when I want – there have also been approaches from abroad.</p>
-					<p>You showed yourself again as my good friend, when you wrote to me! It is very possible I will approach you shortly, but <hi rend="underline">not</hi> through a publisher.</p>
+					</seg></p>
+					<p><seg corresp="#d06">I have lived here in <placeName key="copenhagen">Copenhagen</placeName> in a poison fog of ugly and malicious gossip. Believe me, it has been bad for a poor sick and weak girl. I just wanted to die. But now the table has turned. People express to me their sympathy – I would have preferred to do without both parts, first: that they were mean to me as well as that they now feel sorry for me.</seg></p>
+					<p><seg corresp="#d07">Several publishers have now approached me and I am aware that I can get my book out when I want – there have also been approaches from abroad.</seg></p>
+					<p><seg corresp="#d08">You showed yourself again as my good friend, when you wrote to me! It is very possible I will approach you shortly, but <hi rend="underline">not</hi> through a publisher.</seg></p>
 				</div> <!-- end body(translation) div -->
 				<closer>
-					<salute>Very heartfelt greetings from your</salute><signed><persName key="lili">Lili</persName></signed>
+					<salute><seg corresp="#d09">Very heartfelt greetings from your</seg></salute><signed><persName key="lili">Lili</persName></signed>
 				</closer> <!-- end closer(translation) div -->
 				<postscript>
-					<p>I long so much for <persName key="knudsenV">Vibeke</persName>. Greet her from me and tell her that I find her portrait one of <persName key="wegenerG">Gerda</persName>’s best pictures.
-					</p>
+					<p><seg corresp="#d10">I long so much for <persName key="knudsenV">Vibeke</persName>. Greet her from me and tell her that I find her portrait one of <persName key="wegenerG">Gerda</persName>’s best pictures.
+					</seg></p>
 				</postscript>
 			</div> <!-- end translation div -->
 		</body>
