@@ -109,7 +109,7 @@
 					<p><seg n="d05">Der er pjanket som jeg selv – en Dyd ogsaa for et Manuskript!</seg></p>
 					<!-- should I be encoding that "manuskript" is hyphenated across lines in the original image? -->
 					<p><seg n="d06">Det er en Apotheose til <persName key="kreutz">Werner von Kreutz</persName> – naturligvis!</seg></p>
-					<p><seg n="d07">Men det er lige nedskrevet og ikke omarbejdet – altsaa Raamateriale paa daarligt Dansk, da jeg havde glemt en hel Del af Sprogets Finesser og Grovheder. Du husker jo nok, <persName key="sparreAn">Bé</persName> var og er en læst og pæn fransk Forfatter. ”Le Livre de Viking”. 20 Oplag.</seg></p>
+					<p><seg n="d07">Men det er lige nedskrevet og ikke omarbejdet – altsaa Raamateriale paa daarligt Dansk, da jeg havde glemt en hel Del af Sprogets Finesser og Grovheder. Du husker jo nok, <persName key="wegenerE">Bé</persName> var og er en læst og pæn fransk Forfatter. ”Le Livre de Viking”. 20 Oplag.</seg></p>
 					<p><seg n="d08">Jeg vil ikke skjule for Dig, at jeg er meget ulykkelig over Forsinkelsen med min Bog – som jeg skylder min Skyhed og jomfruelige Tilbageholdenhed. Jeg har endnu ikke talt med <persName key="hasselbalchS">Hasselbalch</persName>.</seg></p>
 					<pb />
 					<p><seg n="d09"><hi rend="upsideDown">Tusinde Hilsener til <persName key="knudsenV">Vibeke</persName></hi>
@@ -123,14 +123,14 @@
 					<!-- it's arguable based on the image whether the two preceeding paragraphs are really intended as two separate paragraphs -->
 					<p><seg n="d14">Jeg kan laane Penge og komme en Tur til <placeName key="berlin">Berlin</placeName>, hvis det vil være godt.</seg></p>
 					<p><seg n="d15">Vær rar hurtigst at tale med Hr. <persName key="magnusE">Magnus</persName> derom; thi det haster! Jeg kaster Blod op af Sorrig over denne Historie, men er ligeglad. Gaar det ikke med min Bog, gaar det heller ikke med mig.</seg></p>
-					<p><seg n="d16">Maa vi betragte <persName key="hasselbalchS">Hr. Hasselbalch</persName>s Mission som endt – eller vil det være honnet af Hensyn til <persName key="magnusE">Hr. Erwin Magnus</persName> at lade det gaa igennem den danske Forlægger, hvis det er Meningen eller at henvende sig til <anchor type="commentRangeStart" n="1"/>Ullstein.<anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj"   
+					<p><seg n="d16">Maa vi betragte <persName key="hasselbalchS">Hr. Hasselbalch</persName>s Mission som endt – eller vil det være honnet af Hensyn til <persName key="magnusE">Hr. Erwin Magnus</persName> at lade det gaa igennem den danske Forlægger, hvis det er Meningen eller at henvende sig til <anchor type="commentRangeStart" n="1"/><persName key="?">Ullstein</persName>.<anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj"   
 						xml:id="comment_1">Name of a publisher.</note>
 					</seg></p>
-					<p><seg n="17">Jeg venter iøvrigt snart Svar fra <anchor type="commentRangeStart" n="2"/>"Drei Masken"<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
+					<p><seg n="17">Jeg venter iøvrigt snart Svar fra <anchor type="commentRangeStart" n="2"/>"<persName key="?">Drei Masken</persName>"<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
 						xml:id="comment_2">Name of a publisher.</note></seg></p>
 					<p><seg n="d18">Forøvrigt giver det første Brudstykke slet ikke nogen komplet Idé om Bogen, der er fast komponeret – og Slutningen er det bedste.</seg></p>
 					<p><seg n="d19">Som Titel havde jeg: ”Hvorledes <persName key="lili">Lili</persName> blev til en rigtig Pige”</seg></p>
-					<p><seg n="d20">”Fra Mand til Kvinde” er lidt tør og misvisende. <persName key="sparreAn">Bé</persName> var nok en Gentleman, men eller [sic] tror jeg ikke han havde meget at rose sig af. Sligt husker heldigvis Din lille uskyldige Veninde ikke noget om.</seg></p>
+					<p><seg n="d20">”Fra Mand til Kvinde” er lidt tør og misvisende. <persName key="wegenerE">Bé</persName> var nok en Gentleman, men eller [sic] tror jeg ikke han havde meget at rose sig af. Sligt husker heldigvis Din lille uskyldige Veninde ikke noget om.</seg></p>
 					<!-- tnm 10/13 how to handle [sic] above - make it a translator's/editor's note? which? -->
 				</div> <!-- end body(original) div -->
 				<closer>
@@ -157,7 +157,7 @@
 					<p><seg corresp="#d04">Therefore it is all due to misunderstandings and mistakes and so on. My manuscript is far more <hi rend="underline">graphic</hi> and full of bickering comments.</seg></p>
 					<p><seg corresp="#d05">It is just as giddy as I am – a virtue also for a manuscript!</seg></p>
 					<p><seg corresp="#d06">It is an apotheosis to <persName key="kreutz">Werner von Kreutz</persName> – of course!</seg></p>
-					<p><seg corresp="#d07">But it is just written and not edited – thus raw material in bad Danish, because I had forgotten some parts of the language’s subtelties and harshness. As you remember, <persName key="sparreAn">Bé</persName> was and is a read and respectable French author. “The Viking Book,” 20th printing.</seg></p>
+					<p><seg corresp="#d07">But it is just written and not edited – thus raw material in bad Danish, because I had forgotten some parts of the language’s subtelties and harshness. As you remember, <persName key="wegenerE">Bé</persName> was and is a read and respectable French author. “The Viking Book,” 20th printing.</seg></p>
 					<p><seg corresp="#d08">I do not want to hide from you that I am very unhappy about the delay of my book – which I blame on my shyness and virginal restraint. I have not yet spoken with <persName key="hasselbalchS">Hasselbalch</persName>.</seg></p>
 					<pb />
 					<p><seg corresp="#d09"><hi rend="upsideDown">A thousand greetings to <persName key="knudsenV">Vibeke</persName></hi>
@@ -176,7 +176,7 @@
 					<p><seg corresp="#d17">By the way, I am awaiting a response from ”Drei Masken” soon</seg></p>
 					<p><seg corresp="#d18">However, the first fragment by itself does not give a complete idea about the book, which is tightly written – and the end is the best.</seg></p>
 					<p><seg corresp="#d19">As the title I had: ”How <persName key="lili">Lili</persName> Became a Real Girl”</seg></p>
-					<p><seg corresp="#d20">"From Man Into Woman" is a little dry and misleading. <persName key="sparreAn">Bé</persName> might have been a gentleman, but apart from that I do not think he had much to boast of. Fortunately, that is something your little innocent friend does not remember.</seg></p>
+					<p><seg corresp="#d20">"From Man Into Woman" is a little dry and misleading. <persName key="wegenerE">Bé</persName> might have been a gentleman, but apart from that I do not think he had much to boast of. Fortunately, that is something your little innocent friend does not remember.</seg></p>
 				</div> <!-- end body(original) div -->
 				<closer>
 					<salute><seg corresp="#d21">Your</seg></salute> 
