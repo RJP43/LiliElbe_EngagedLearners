@@ -93,13 +93,24 @@ In 19241200, One red and one blue line are drawn vertically down the left side o
     <text>
         <body>
             <div type="original"> 
+                <div rend="head">
+                    <p></p>
+                    <p><date when="1931-06-15">15.6.31</date></p>
+                </div> 
+                <div rend="body">
+                    <salute>Kære Red.<persName key="harthernE">Harthern</persName>!</salute>
+                    <p>Mange tak for sidst -– og tak fordi de vilde låne mig den bog,-– som jeg desværre glemte over vor interessante samtale.-–</p>
+                    <p>Jeg havde fået det indtryk, at de vilde skrive bogen råt og brutalt -– og det glædede mig overordentligt at se, at de ikke vil det -– men gøre den ægte, sandfærdig og menneskelig -– og <pb style="page" n="2"/>"germanisere" bogens atmosfære.</p>
+                    <p>Jeg er enig med dem i deres syn på hvordan bogen skulde skrives -– og er oprigtig ked af det, at de bunden af et utilfredsstillende grundlag og af personlige hensyn -– fordi bogen skal skrives nu. -–</p>
+                    <p>Jeg vil gerne hjælpe dem så meget jeg kan -– ved at sætte dem ind i hendes reactioner i den første tid hun var her i <placeName key="denmark">Danmark</placeName>, idet jeg er ganske tryg mht. deres discretion. -–</p> 
+                    <p style="paraText" rend="division">x</p>
+                    <p>Da jeg -– som vordende læge, også har interesseret mig meget for det anatomiske og <pb style="page" n="3"/>fysiologiske, har jeg en del optegnelser vedrørende disse ^ ting -– Da de pointerede, at de ikke var interreserede heri,- springer jeg dem over -– eller medtager dem i forkortet form -– hvis de bidrager til forståelse af hendes psyche. -– 
+                    </p><p style="paraText" rend="division">x</p>
+            <!--Sk diary entries in danish begin here in chronological order-->
             
             
-            
-            
-            
-            
-            </div>
+            <!--SK end of original entries-->
+                </div>
             <div type="translation">
                 <div rend="head">
                     <p></p>
