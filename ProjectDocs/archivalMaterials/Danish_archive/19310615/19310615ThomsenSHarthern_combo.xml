@@ -1,87 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. 
-      For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that
-      should match their name in the Prosopography. For project team members and organizations use the @ref attribute 
-      and the two-letter (or three-letter, if available in the info provided) initials of the person on the persName elements.-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <!-- For Letters: Remove the following if not encoding a letter -->
                 <title>
-                    <date><!--date defined in teiHeader info; numerical values of filename (which indicate letter date)--></date>
-                    Letter to <persName key=""><!-- Person Letter Is Addressed To --></persName>
+                    <date>19310615</date>
+                    Letter to <persName key="harthernE">Ernst Ludwig Harthern Jacobsen</persName>
                 </title>
-
-                <!-- For Articles: Remove the following if not encoding an article -->
-                <title><!-- Name of Newspaper/Journal/Magazine-->
-                    <date><!-- article publication date in yyyy-mm-dd --></date></title>
-
-                <!-- For Book Chapters; Remove the following if not encoding a book chapter -->
-                <title><!-- Chapter Title if not just numerical value; otherwise "Chapter #" -->
-                    within <!-- Book Title --></title>
-
-                <!-- For Editions; Remove the following if not encoding a book chapter -->
-                <title><!-- Language --> Edition</title>
-
+                
                 <author>
-                    <persName key=""><!-- Writer of Letter; or Author of Text --></persName>
+                    <persName key="wegenerS">Sigurd Wegener Thomsen</persName>
                 </author>
-
-                <!-- Formatting dates in <respStmt> elements:            
-            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
-            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
-            If given month: <date>Month(written out), Year(as YYYY)</date>-->
-
-                <!-- People in <respStmt> elements: 
-            Each person on the project team has a special identifier (including you as an encoder).
-            These IDs should be used in the blank ref attribute-values below. 
-            IDs are created by taking the first and last initial of the person's name. 
-            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
+                <!-- AC We don't know if we used the correct key IDs/correct name labels from the prosopography for the "Letter to" and "author" section -->
                 <respStmt>
                     <resp>Photographed
-                            <date><!--insert date; see formatting suggestions above--></date>
+                            <date>August 16-17, 2017</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Photographer --></persName>
+                    <persName ref="plc">Pamela L. Caughie</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Images prepared
-                            <date><!--insert date; see formatting suggestions above--></date>
+                            <date>November, 2017</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Image Preparer --></persName>
+                    <persName ref="mg">Matthew Gallagher</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Transcription completed
-                            <date><!--insert date; see formatting suggestions above--></date>
+                            <date>November 20, 2017</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Transriber --></persName>
+                    <persName ref="kej">Kristin Jacobsen</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Translation completed
-                            <date><!--insert date; see formatting suggestions above--></date>
+                            <date>November 20, 2017</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Translator --></persName>
+                    <persName ref="kej">Kristin Jacobsen</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Translation reviewed
-                            <date><!--insert date; see formatting suggestions above--></date>
+                            <date>July to September, 2018</date>and
+                            <date>November, 2018</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Translation Reviewer --></persName>
+                    <persName ref="mo">Marianne Ølholm</persName>
+                    <persName ref="mb">Maiken Boysen</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding completed
-                            <date><!--insert date; see formatting suggestions above--></date>
+                            <date>October to December, 2018</date>
                         by</resp>
-                    <persName ref=""><!-- Name of Primary Encoder --></persName>
+                    <persName ref="tb">Taylor Brown</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
                     <persName ref="rjp">Rebecca J. Parker</persName>
-                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
-                    <!-- Remove any additional persName elements not used -->
-                    <persName ref=""><!-- Name of Encoder/Proofer --></persName>
-                    <!-- Remove any additional persName elements not used -->
+                    <persName ref="nw">Nikolaus Wasmoen</persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
@@ -104,15 +77,16 @@
                 <pubPlace>Chicago, IL, USA</pubPlace>
                 <date>July 6th, 2019</date>
                 <availability>
-                    <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
-                            <placeName><!-- location of archive --></placeName>
+                    <p>Reproduced by courtesy of the <orgName>Ernst Harthern Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and Library)</orgName> in
+                            <placeName>Huddinge, Sweden</placeName>
                     </p>
                     <licence>Distributed under a Creative Commons
                         Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images; encoder's description must be in complete, logical sentences --></p>
+                <p>In 19310615, All items in brackets were written by Sigurd Wegener Thomson and are not translator insertions. Sigurd seems to have written in haste, leading to a number of mistakes, missing words, or incomplete sentences, which are noted when practical. The original letter includes notations and underlining in red and sometimes black, which most likely were added by Harthern.
+In 19241200, One red and one blue line are drawn vertically down the left side of the page. Two red lines are drawn at the bottom of the page.</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
