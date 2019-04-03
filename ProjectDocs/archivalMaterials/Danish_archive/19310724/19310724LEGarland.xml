@@ -1,119 +1,214 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<grammar xmlns="http://relaxng.org/ns/structure/1.0"
-	xmlns:xlink="http://www.w3.org/1999/xlink"
-	xmlns:tei="http://www.tei-c.org/ns/1.0"
-	xmlns:teix="http://www.tei-c.org/ns/Examples"
-	datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
-	ns="http://www.tei-c.org/ns/1.0"><!--
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. 
+      For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that
+      should match their name in the Prosopography. For project team members and organizations use the @ref attribute 
+      and the two-letter (or three-letter, if available in the info provided) initials of the person on the persName elements.-->
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Letter to <persName key="garlandM">Maria Garland</persName>
+				<!-- For Letters: Remove the following if not encoding a letter -->
+				<title>
+					<date><!--date defined in teiHeader info; numerical values of filename (which indicate letter date)--></date>
+					Letter to <persName key=""><!-- Person Letter Is Addressed To --></persName>
 				</title>
+
+				<!-- For Articles: Remove the following if not encoding an article -->
+				<title><!-- Name of Newspaper/Journal/Magazine-->
+					<date><!-- article publication date in yyyy-mm-dd --></date></title>
+
+				<!-- For Book Chapters; Remove the following if not encoding a book chapter -->
+				<title><!-- Chapter Title if not just numerical value; otherwise "Chapter #" -->
+					within <!-- Book Title --></title>
+
+				<!-- For Editions; Remove the following if not encoding a book chapter -->
+				<title><!-- Language --> Edition</title>
+
 				<author>
-					<persName key="lili">Lili Ilse Elvenes</persName>
+					<persName key=""><!-- Writer of Letter; or Author of Text --></persName>
 				</author>
+
+				<!-- Formatting dates in <respStmt> elements:            
+            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
+            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
+            If given month: <date>Month(written out), Year(as YYYY)</date>-->
+
+				<!-- People in <respStmt> elements: 
+            Each person on the project team has a special identifier (including you as an encoder).
+            These IDs should be used in the blank ref attribute-values below. 
+            IDs are created by taking the first and last initial of the person's name. 
+            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
 				<respStmt>
-					<resp>Translation completed on <date when="2017-11-20">20 November 2017</date>
-					</resp>
-					<persName ref="kj">Kristin Jacobsen</persName>
-					<persName ref="mb">Maiken Boysen</persName>
+					<resp>Photographed
+							<date><!--insert date; see formatting suggestions above--></date>
+						by</resp>
+					<persName ref=""><!-- Name of Photographer --></persName>
 				</respStmt>
 				<respStmt>
-					<resp>Encoding updated on <date when="2018-11-26">26 November 2018</date>
-					</resp>
-					<persName ref="tnm">Tyler Monaghan</persName>
+					<resp>Images prepared
+							<date><!--insert date; see formatting suggestions above--></date>
+						by</resp>
+					<persName ref=""><!-- Name of Image Preparer --></persName>
 				</respStmt>
+				<respStmt>
+					<resp>Transcription completed
+							<date><!--insert date; see formatting suggestions above--></date>
+						by</resp>
+					<persName ref=""><!-- Name of Transriber --></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Translation completed
+							<date><!--insert date; see formatting suggestions above--></date>
+						by</resp>
+					<persName ref=""><!-- Name of Translator --></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Translation reviewed
+							<date><!--insert date; see formatting suggestions above--></date>
+						by</resp>
+					<persName ref=""><!-- Name of Translation Reviewer --></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding completed
+							<date><!--insert date; see formatting suggestions above--></date>
+						by</resp>
+					<persName ref=""><!-- Name of Primary Encoder --></persName>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding assistance and/or XML proofing completed by</resp>
+					<persName ref="rjp">Rebecca J. Parker</persName>
+					<persName ref=""><!-- Name of Encoder/Proofer --></persName>
+					<!-- Remove any additional persName elements not used -->
+					<persName ref=""><!-- Name of Encoder/Proofer --></persName>
+					<!-- Remove any additional persName elements not used -->
+				</respStmt>
+				<respStmt>
+					<resp>XML transformed into HTML
+							<date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+					<persName ref="rjp">Rebecca J. Parker</persName>
+				</respStmt>
+				<respStmt>
+					<resp>HTML proofing completed
+							<date><!-- insert date; see formatting suggestions above --></date>
+						by</resp>
+					<persName ref=""><!-- Name of Proofer --></persName>
+					<persName ref=""><!-- Name of Proofer --></persName>
+					<!-- Remove any additional persName elements not used -->
+				</respStmt>
+				<sponsor>Loyola University Chicago</sponsor>
+				<sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
 			</titleStmt>
 			<publicationStmt>
-				<p>Publication Information</p>
+				<authority>Lili Elbe Digital Archive</authority>
+				<pubPlace>Chicago, IL, USA</pubPlace>
+				<date>July 6th, 2019</date>
+				<availability>
+					<p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
+							<placeName><!-- location of archive --></placeName>
+					</p>
+					<licence>Distributed under a Creative Commons
+						Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<p>Information about the source</p>
+				<p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+               encoder's description must be in complete, logical sentences --></p>
 			</sourceDesc>
 		</fileDesc>
-		<!-- tnm 10/19/2018:  Unsure who Hr Oberartz is, since it's a German word in the Danish text it seems like perhaps an unofficial title, so unsure whether to tag as "gebhard" or "doctorHead." how to handle [sic] in line 32, 53, 56 - turn into translator/editor's note? -->
 	</teiHeader>
 	<text>
 		<body>
 
 			<div type="original">
 
-				<div type="opener">
+				<div rend="head">
 					<p>
-						<add place="pageTopLeftCorner" type="insertion" rend="upside-down">Naar jeg nu kommer godt fra det kan jeg gifte mig om nogen vil have mig </add>
-						<note type="editor" source="kj mb">Written upside down in top, left corner of letter.</note>
+						<anchor type="commentRangeStart" n="1"/><add place="leftMargin"
+							type="insertion" rend="">Naar jeg nu kommer godt fra det kan jeg gifte
+							mig om nogen vil have mig </add><anchor type="commentRangeEnd" n="1"/>
+						<note type="editor" source="kj mb" xml:id="comment_1">Written upside down in
+							top, left corner of letter.</note>
 					</p>
 					<p>
-						<hi rend="underline">Sondag<note type="translator">[sic]</note>
-						</hi>
+						<hi rend="underline">Sondag[sic]</hi>
 					</p>
-					<!-- tnm 2018-10-14: this underline doesn't appear in the docx translation, but it's in the image. How to handle [sic] above?-->
 					<p>24 Juli 1931 <placeName key="dresden">Dresden</placeName>
 					</p>
 				</div>
-				<!-- end "opener(original)" div -->
-
-				<div type="body">
-					<p style="salutation">Kære Fru <persName key="garlandM">Maria Garland</persName>
-					</p>
-					<p>Vær sød at lade mig vide, hvordan det gaar med Bogen og Deres Mands Arbejde. Jeg er saa spændt derpaa. Jeg ligger stadig i Sengen efter mit frygtelige Operation, og ingen svarer paa mit daglige Spørgsmaal, om jeg snart maa komme op. Og Professoren er meget stræng.</p>
-					<!-- tnm 2018-10-14: how to handle spacing within the lines? copied from .docx but a series of spaces seems like a bad idea for rendering into html -->
+				<div rend="body">
+					<salute>Kære Fru <persName key="garlandM">Maria Garland</persName>
+					</salute>
+					<p>Vær sød at lade mig vide, hvordan det gaar med Bogen og Deres Mands Arbejde.
+						Jeg er saa spændt derpaa. Jeg ligger stadig i Sengen efter mit frygtelige
+						Operation, og ingen svarer paa mit daglige Spørgsmaal, om jeg snart maa
+						komme op. Og Professoren er meget stræng.</p>
 					<p>
 						<persName key="?">Hr. Oberartz</persName>
-						<note type="translator">German for "head doctor"</note> er saa munter og sød imod mig. Sig det til Deres Mand. Jeg tror, <persName key="wegenerG">Fru Gerda</persName> i sit Manuskript siger noget jeg ikke saa gerne vilde have sagt i Bogen. I dag har man baaret mig ud i <placeName key="womensClinicGarden"> Haven</placeName> paa en Baar [sic] for at jeg skal faa Sol og se Naturen, det er saa dejligt.
-					</p>
-				</div> <!-- end body(original) div -->
+						<!--<note type="translator">German for "head doctor"</note>--> er saa munter
+						og sød imod mig. Sig det til Deres Mand. Jeg tror, <persName key="wegenerG"
+							>Fru Gerda</persName> i sit Manuskript siger noget jeg ikke saa gerne
+						vilde have sagt i Bogen. I dag har man baaret mig ud i <placeName>
+							Haven</placeName> paa en Baar [sic] for at jeg skal faa Sol og se
+						Naturen, det er saa dejligt. </p>
 
-				<div type="closer">
-					<p>Vær sød og send mig et Par Ord. Jeg beder Dem hilse Deres Lillemor og Søn og de alle hjærteligste<note type="translator">[sic]</note> Hilsner til Dem</p>
-					<p style="valediction">fra Deres</p>
-					<p>
-						<hi rend="underline">
-							<persName key="lili">Lili Elbe</persName>
-						</hi>
-					</p>
-				</div> <!-- end closer(original) div -->
-			</div> <!-- end original div> -->
+					<closer>
+						<salute>Vær sød og send mig et Par Ord. Jeg beder Dem hilse Deres Lillemor
+							og Søn og de alle hjærteligste[sic] Hilsner til Dem</salute>
+						<salute>fra Deres</salute>
+						<signed>
+							<hi rend="underline">
+								<persName key="lili">Lili Elbe</persName>
+							</hi>
+						</signed>
+					</closer>
+				</div>
+			</div>
 
 			<div type="translation">
 
-				<div type="opener">
+				<div rend="head">
 					<p>
-						<add place="pageTopLeftCorner" type="insertion" rend="upside-down">When I get better I can marry if anyone will have me </add>
-						<note type="editor" source="kj mb">Written upside down in top, left corner of letter.</note>
+						<anchor type="commentRangeStart" n=""/><add place="leftMargin"
+							type="insertion" rend="">When I get better I can marry if anyone will
+							have me </add><anchor type="commentRangeEnd" n=""/>
+						<note type="editor" source="kj mb" xml:id="comment_">Written upside down in
+							top, left corner of letter.</note>
 					</p>
 					<p>
 						<hi rend="underline">Sunday</hi>
 					</p>
-					<!-- this underline doesn't appear in the docx translation, but it's in the image. -->
 					<p>24 July 1931 <placeName key="dresden">Dresden</placeName>
 					</p>
 				</div>
-				<!-- end "opener(original)" div -->
-
-				<div type="body">
-					<p style="salutation">Dear Mrs. <persName key="garlandM">Maria Garland</persName></p>
-					<p>Please let me know how it is going with the book and your husband’s work. I am so excited about that. I am still lying in bed after my terrible operation and noone answers my daily question if I can get up soon. And the professor is very strict.</p>
+				<div rend="body">
+					<salute>Dear Mrs. <persName key="garlandM">Maria Garland</persName></salute>
+					<p>Please let me know how it is going with the book and your husband’s work. I
+						am so excited about that. I am still lying in bed after my terrible
+						operation and noone answers my daily question if I can get up soon. And the
+						professor is very strict.</p>
 					<p>
-						<persName key="?">The chief physician</persName>
-						<note type="translator">German for "head doctor"</note> is so cheerful and sweet with me. Tell that to your husband. I believe in her manuscript <persName key="wegenerG">Mrs. Gerda</persName> says something I would prefer not to have said in the book. Today they have carried me out in <placeName key="womensClinicGarden">the garden</placeName> on a stretcher in order for me to get sun and see nature, it is so lovely.
-					</p>
-					<!-- not sure how the above translator's note should appear in english version -->
-				</div> <!-- end body(original) div -->
+						<persName key="?">The chief
+						physician</persName><!--<note type="translator">German for "head doctor"</note>-->
+						is so cheerful and sweet with me. Tell that to your husband. I believe in
+						her manuscript <persName key="wegenerG">Mrs. Gerda</persName> says something
+						I would prefer not to have said in the book. Today they have carried me out
+						in <placeName>the garden</placeName> on a stretcher in order for me to get
+						sun and see nature, it is so lovely. </p>
 
-				<div type="closer">
-					<p>Please send me a few words. I ask you to greet your sweet little mother and son and all the heartiest greetings to you</p>
-					<p style="valediction">from your</p>
-					<p>
-						<hi rend="underline">
-							<persName key="lili">Lili Elbe</persName>
-						</hi>
-					</p>
-				</div> <!-- end closer(original) div -->
+
+					<closer>
+						<salute>Please send me a few words. I ask you to greet your sweet little
+							mother and son and all the heartiest greetings to you</salute>
+						<salute>from your</salute>
+						<signed>
+							<hi rend="underline">
+								<persName key="lili">Lili Elbe</persName>
+							</hi>
+						</signed>
+					</closer>
+				</div>
 			</div>
-			<!-- end original div> -->
 		</body>
 	</text>
 </TEI>
