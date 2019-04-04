@@ -9,7 +9,7 @@
                 <title type="original">En tragisk Livsskæbne afsluttedes I Gaar</title>
                 <title type="original"><persName key="lili">Lili Elvenes </persName>– tidligere Maleren <persName key="wegenerE">Einar Wegener</persName>– er død paa Frauenklinik i <placeName key="dresden">Dresden</placeName>.</title>
                 <author>
-                    <persName key="">Fru Loulou</persName>
+                    <persName key="louLou">Fru Loulou</persName>
                 </author>
                 <respStmt>
                     <resp>Translation completed on<date when="2019-02-24">24 February
@@ -51,7 +51,7 @@
               <p><seg n="d10">Da <persName key="lili">Lili Elvenes</persName> ankom til <placeName key="dresden">Dresden</placeName>, foretrak imidlertid <persName key="">Prof. Warnekros</persName> at beholde hende paa sin Klinik for at foretage en sidste og afsluttende Operation. Den gik godt, og en Tid saa det ud til, at hun skulde komme over det, men saa viste det sig, at hun var angrebet af en alvorlig Sygdom, vistnok en Kræftlidelse, som udviklede sig meget hurtigt.Hun led store Smerter, men var ved sin Bevidsthed lige til det sidste.</seg></p>
                <p><seg n="d11">Medens <persName key="lili">Lili Elvenes</persName> stillede de største Forventninger til sin nye Tilværelse, Krav, som Livet aldrig vilde have kunnet indfri og derfor kun vilde have beredt hende store Skuffelser, fremgik det af de smukke og afklarede Afskedsbreve, hun har sendt sin Slægt og sine Venner, at hun havde fundet sig helt til Rette med Døden. Paa sit Dødsleje fuldførte hun en Selvbiografi, som hun ønskede skulde udkomme i Bogform.</seg></p>
                 <p><seg n="d12"><persName key="lili">Lili Elvenes</persName>’ Broder, der bor i Nærheden af Barndomshjemmet i Vejle, var for et Par Dage siden rejst ned til hende. Hendes Begravelse vil efter hendes eget Ønske finde Sted i <placeName key="dresden">Dresden</placeName>.</seg></p>
-                <p><persName key="">Fru Loulou</persName></p>
+                <p><persName key="louLou">Fru Loulou</persName></p>
             </div>
             <div type="translation">
                 <head>Politiken <date when="1931-09-14">14 September 1931</date></head>
@@ -74,7 +74,7 @@
                 <p><seg corresp="#d10">When <persName key="lili">Lili Elvenes </persName>arrived in <placeName key="dresden">Dresden</placeName>, <persName key="">professor Warnekros</persName>however preferred to keep her at his clinic in order to perform one last and concluding operation. It went well and for a time it looked as if she would recover from it, but then it appeared that she was suffering from a serious illness, probably a cancer that developed very quickly. She suffered great pains but was conscious until the end.</seg></p>
               <p><seg corresp="#d11">While <persName key="lili">Lili Elvenes</persName>expected the greatest things of her new life, demands that life would never have fulfilled and therefore would only have caused her great disappointments, it appeared from the beautiful and serene farewell letters she has sent to her family and friends that she had completely come to terms with death. On her deathbed, she completed an autobiography that she wished to be published in book form.</seg></p>
               <p><seg corresp="#d12"><persName key="lili">Lili Elvenes</persName>’s brother who lives near the childhood home in Vejle had travelled down to her a couple of days ago. At her own request her funeral will take place in Dresden.</seg></p> 
-                <p><persName key="">Mrs. Loulou</persName>.</p>
+                <p><persName key="louLou">Mrs. Loulou</persName>.</p>
             </div>
         </body>
     </text>

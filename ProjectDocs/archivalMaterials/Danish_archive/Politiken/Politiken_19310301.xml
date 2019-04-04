@@ -4,12 +4,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
+                <title>Politiken
+                    <date>1931-01-03</date></title>
                 <title type="original">Politiken Søndag den 1. Marts 1931</title>
                 <title type="original">Kønskarakteren og dens Svingninger</title>
                 <title type="original">– <persName key="">Prof. Knud Sand</persName> udtaler sig om
                     abnorme Kønstilstande hos Mennesker</title>
                 <author>
-                    <persName key="">Fru Loulou</persName>
+                    <persName key="louLou">Fru Loulou</persName>
                 </author>
                 <respStmt>
                     <resp>Translation completed on<date when="2017-10-3">3 October
@@ -49,7 +51,7 @@
                         kønslig Henseende afviger fra det normale.</seg>
                 </p>
                 <p>
-                    <seg n="d02"> Under vor Samtale udtalte Professoren bl.a. følgende: – Hidtil har
+                    <seg n="d02">Under vor Samtale udtalte Professoren bl.a. følgende: – Hidtil har
                         jeg væsentlig fulgt det Princip hverken at skrive eller udtale mig I Pressen
                         om disse Forhold og Forskninger, der vel næppe er helt saa langt fremme, at
                         de mere indgaaende bør fremlægges for Offentligheden; I de senere Aar har
@@ -137,7 +139,7 @@
                         Sand sine Udtalelser, baade lette Tilværelsen for den omtalte ulykkelige
                         Menneskegruppe og det videnskabelige Arbejde med disse Problemer.</seg>
                 </p>
-                <p><persName key="">Fru Loulou</persName></p>
+                <p><persName key="louLou">Fru Loulou</persName></p>
                 <p>Billedtekst: <persName key="">Prof. Dr. med. Knud Sand</persName>.</p>
             </div>
             <div type="translation">
@@ -203,7 +205,7 @@
                         circumstances reveal themselves.</seg>
                 </p>
 
-                <p><persName key="">Mrs. Loulou</persName></p>
+                <p><persName key="louLou">Mrs. Loulou</persName></p>
                 <p>Caption: Prof. and Doctor of medical science Knud Sand.</p>
             </div>
         </body>
