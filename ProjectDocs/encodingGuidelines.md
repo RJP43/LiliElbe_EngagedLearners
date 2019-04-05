@@ -37,7 +37,7 @@ Any text that has an English translation should have the following  double `<div
 ````
   
 ### Books / Book Sections / Book Chapters   
-_See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as edition example._ For book sections and single chapters use only the `<text>` element and the `<body>` element. _See [Lili's Foreword](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/LiliForward/LiliForeword.xml) as example._  
+_See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as edition example._ For book sections and single chapters use only the `<text>` element and the `<body>` element. If a translated section/chapter, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.  _See [Lili's Foreword](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/LiliForward/LiliForeword.xml) as example._  
 
 ````
 <text>
@@ -78,29 +78,31 @@ _See [A1.xml](https://gitlab.com/ctsdh/lilielbe_A1/blob/master/A1.xml) as editio
 ````  
   
 ### Journal, Magazine, Newspaper Articles  
-_linked example coming soon_  
+_See [Politiken articles](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs/archivalMaterials/Danish_archive/Politiken) as examples._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
   
 ````
-<div rend="head"<!--text that appears before headlines; could include title, byline, and date-->
+<div rend="head"<!--text that appears before headlines; could include title and date-->
    <p>
       <title><!--name of newspaper/mag/journal, if included in facsimile image otherwise delete--></title>
-      <author><!--<persName> of newspaper/mag/journal article author, if included in facsimile image otherwise delete--></author>
       <date when="yyyy-mm-dd"><!--exact transcription of date, if included in facsimile image otherwise delete--></date>
+   <!--The `<seg>` markup should go within each of the title and date elements if the text has a translation.--> 
    <p>    
 </div>
 <div rend="headlines">
       <list>
            <item rend="primary"><!--text of main headline--></item>
            <!--additional <item> elements with no @rend attribute value can be used to list sub-headlines-->
+	   <!--The `<seg>` markup should go within each of the item elements if the text has a translation.--> 
       </list>
 </div>
 <div rend="body">
 <!--<p> elements should be used for each of the paragraphs making up the article body-->
+<!--The `<seg>` markup should go within each of the p elements if the text has a translation.--> 
 </div>
 ````  
   
 ### Letters  
-_See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._  
+_See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/archivalMaterials/German_archive/German_letter2/German_letter2.xml) as example._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
   
 ````
 <div rend="head">
@@ -109,13 +111,16 @@ _See [German_letter2.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob
 <div rend="body">
   <salute><!--salutation; dear so and so--></salute>
   <!--<p> elements should be used for each of the paragraphs making up the letter body-->
+  <!--The `<seg>` markup should go around each of the sentences within the p elements that have a translation.--> 
   <closer>
     <salute><!--valediction; best wishes--></salute>
+    <!--use a new salute for each valediiction paragraphs of the closer-->
     <signed><!--transcription of signature in a linked <persName> element--></signed>    
   </closer>
   <postscript>
     <!--transcription of content written after signature by letter author; ps-->
-    <!--<p> elements should be used for each of the paragraphs making up the letter body-->  
+    <!--<p> elements should be used for each of the paragraphs making up postcript--> 
+    <!--The `<seg>` markup should go within each of the p elements if the text has a translation.--> 
   </postscript>
 </div>
 ````  
