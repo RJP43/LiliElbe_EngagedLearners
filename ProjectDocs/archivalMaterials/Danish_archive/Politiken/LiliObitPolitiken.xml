@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../lili-elbe-code/schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -32,13 +31,14 @@
     <text>
         <body>
             <div type="original">
-                <head>Politiken<date when="1931-09-14">14 September 1931</date></head>
-                <div type="desc" subtype="headlines">
+                <div rend="head"><p><title>Politiken</title> <date when="1931-09-14">14 September 1931</date></p></div>
+                <div rend="headlines">
                     <list>
                         <item rend="primary">En tragisk Livsskæbne afsluttedes I Gaar</item>
                         <item><persName key="lili">Lili Elvenes</persName> – tidligere Maleren <persName key="wegenerE">Einar Wegener</persName> – er død paa Frauenklinik i <placeName key="dresden">Dresden</placeName>.</item>
                     </list>
                 </div>
+                <div rend="body">
                 <p><seg n="d01"> En ejendommelig Livsskæbne, der udviklede sig uden for alle tilvante Forestillinger, har i Gaar fundet sin Afslutning. <persName key="lili">Lili Elvenes</persName> – tidligere <persName key="wegenerE">Einar Wegener</persName> – er i Gaar Formiddags efter flere Maaneders haarde Lidelser afgaaet ved Døden paa Fraunklinik i <placeName key="dresden">Dresden</placeName>.</seg></p>
                <p><seg n="d02">[Illustration]</seg></p>
                <p><seg n="d03"> Billedtekst:</seg></p>
@@ -53,14 +53,16 @@
                 <p><seg n="d12"><persName key="lili">Lili Elvenes</persName>’ Broder, der bor i Nærheden af Barndomshjemmet i Vejle, var for et Par Dage siden rejst ned til hende. Hendes Begravelse vil efter hendes eget Ønske finde Sted i <placeName key="dresden">Dresden</placeName>.</seg></p>
                 <p><persName key="louLou">Fru Loulou</persName></p>
             </div>
+            </div>
             <div type="translation">
-                <head>Politiken <date when="1931-09-14">14 September 1931</date></head>
-                <div type="desc" subtype="headlines">
+                <div rend="head"><p><title>Politiken</title> <date when="1931-09-14">14 September 1931</date></p></div>
+                <div rend="headlines">
                     <list>
                         <item rend="primary">A Tragic Life Story Was Ended Yesterday</item>
                         <item><persName key="lili">Lili Elvenes</persName> –formerly the painter <persName key="wegenerE">Einar Wegener</persName>– has died at Frauenklinik in <placeName key="dresden">Dresden</placeName>.</item>
                     </list>
                 </div>
+                <div rend="body">
                 <p>
                     <seg corresp="#d01">A singular life story that developed beyond all customary conceptions reached its conclusion yesterday. <persName key="lili">Lili Elvenes</persName>– formerly <persName key="wegenerE">Einar Wegener</persName> – passed away yesterday morning at Frauenklinik in <placeName key="dresden">Dresden</placeName> after several months of severe suffering.</seg></p>
 <p><seg corresp="#d02">[Illustration]</seg></p>   
@@ -75,6 +77,7 @@
               <p><seg corresp="#d11">While <persName key="lili">Lili Elvenes</persName>expected the greatest things of her new life, demands that life would never have fulfilled and therefore would only have caused her great disappointments, it appeared from the beautiful and serene farewell letters she has sent to her family and friends that she had completely come to terms with death. On her deathbed, she completed an autobiography that she wished to be published in book form.</seg></p>
               <p><seg corresp="#d12"><persName key="lili">Lili Elvenes</persName>’s brother who lives near the childhood home in Vejle had travelled down to her a couple of days ago. At her own request her funeral will take place in Dresden.</seg></p> 
                 <p><persName key="louLou">Mrs. Loulou</persName>.</p>
+                </div>
             </div>
         </body>
     </text>
