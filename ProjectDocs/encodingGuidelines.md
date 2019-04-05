@@ -179,14 +179,14 @@ _In articles, there are sometime columns. At the end of each column use the `<cb
 _note: When transcribing a text we have made the decision as a project to remove line break hyphenation. Therefore, if a word in the print rendition of a text is hyphenated because there was not enough room in the print rendition to fit the entire word on a single line simply remove the hyphenation. **When a word is split over a page break/beginning - `<pb/>` take the second part of the word (after the hyphenation) and paste it directly after the first part of the word (removing the hyphenation) and then proceed with the `<pb>` encoding.**_   
 
 ### Figures, Photos, Illustrations, Images  
-_note: We assign image XML:IDs so that if an image is referenced anywhere else in the document we can link such instances by providing a corresp attribute value containing the XML:ID preceded by a hashtag. When assigning an XML:ID for images start with `i` which stands for image. Follow this with a two digit representation of the number image in the parent text (either edition or supplemental material). So the first image would be `i01`. 
+_note: We assign image XML:IDs so that if an image is referenced anywhere else in the document we can link such instances by providing a corresp attribute value containing the XML:ID preceded by a hashtag (like this: `<p corresp=”#i00>Reference to image.</p>`). When assigning an XML:ID for images start with `i` which stands for image. Follow this with a two digit representation of the number image in the parent text; So the first image would be `i01`._ See example below.
 
 ````
 <figure xml:id="i##">
-<figDesc><!--direct transcription of image caption provided in print rendition--></figDesc>
-<!--If there is no caption on the image then leave a self-closing `<figDesc/>` element.-->
-<!-- figDesc should include any markup indicating styling, people, places as well as the seg markup if there is translation-->
-<note source="team member ID">Encoder description of image (that can be used as alt. text); any information about the placement of the photo on the print page and image credit. Please use complete sentences.</note>
+   <figDesc><!--direct transcription of image caption provided in print rendition--></figDesc>
+      <!--If there is no caption on the image then leave a self-closing `<figDesc/>` element.-->
+      <!-- figDesc should include any markup indicating styling, people, places as well as the seg markup if there is translation-->
+   <note source="team member ID">Encoder description of image (that can be used as alt. text); any information about the placement of the photo on the print page and image credit. Please use complete sentences.</note>
 </figure>
 ````
     
