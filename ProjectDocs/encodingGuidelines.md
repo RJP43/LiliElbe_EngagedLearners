@@ -82,9 +82,11 @@ _linked example coming soon_
   
 ````
 <div rend="head"<!--text that appears before headlines; could include title, byline, and date-->
-      <title><!--name of newspaper/mag/journal, if included in facsimile image--></title>
-      <author><!--<persName> of newspaper/mag/journal article author, if included in facsimile image--></author>
-      <date when="yyyy-mm-dd"><!--exact transcription of date, if included in facsimile image--></date>
+   <p>
+      <title><!--name of newspaper/mag/journal, if included in facsimile image otherwise delete--></title>
+      <author><!--<persName> of newspaper/mag/journal article author, if included in facsimile image otherwise delete--></author>
+      <date when="yyyy-mm-dd"><!--exact transcription of date, if included in facsimile image otherwise delete--></date>
+   <p>    
 </div>
 <div rend="headlines">
       <list>
