@@ -44,9 +44,12 @@
                     <persName ref="plc">Pamela L. Caughie</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Encoding completed <date>April 31, 2019</date> by</resp>
+                    <resp>Encoding completed <date>April 5, 2019</date> by</resp>
+                    <persName ref="ak">Abdur Khan</persName>
                     <persName ref="bc">Cristiana Bertola</persName>
                     <persName ref="kk">Katarzyna Klimek</persName>
+                    <persName ref="ep">Eleni Pamboukis</persName>
+                    <persName ref="si">Scholastique Iradukunda</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
@@ -112,7 +115,7 @@
 
     <text>
         <body>
-            <div>
+            <div type="original">
                 <!-- BC: 2019-03-28: Here should be inserted the memoir's cover page which is not yet encoded; I need instructions. -->
                 <pb style="page" n="unknown"/><!--BC: 2019-030-28: How do I mark up the absence of the page number and of the header Mosaïques, as well as the fact that this is the opening page of the chapter?-->
                 <head>Il et elle</head><!--BC: 2019-03-28: The title is capitalized. How should it be marked up?-->
@@ -120,7 +123,7 @@
                 <p>Nous pénétrâmes dans une grande pièce arrangée avec goût: quelques meubles anciens, des châles espagnols, des vases de fleurs et les toiles du ménage scandinave, car <persName key="wegenerE">le mari</persName> aussi était peintre.</p>
                 <pb style="page" n="199"/>
                 <pb style="heading" rend="Mosaïques"/>
-                <p>Payagiste accopli, il excellait dans la perspective. <persName key="wegenerG">Gerda</persName> et <persName key="wegenerE">Einar Wegener</persName> nous offrirent des sièges et prirent eux-mêmes place en face de nous sur un grand divan noir et or, garni de coussins aux coloris divers. Ainsi, côte à côte, ils me rappelaient les personnages de contes d'Andersen, <!-- KK: 2019-04-01: does Andersen have a prosopography element? Should he? --> pariculièrement ceux de <hi rend="italics">La Reine de Neiges:</hi> <persName key="wegenerG">Gerda Wegener</persName> si blonde, si claire,  personnifiait pour moi, l'autre <persName key="wegenerG">Gerda</persName>, celle qui étqit une exacte réplique de ce <!-- 2019-04-01: not sure what a Kaj is? --> Kaj au sourire espiègle, se jouant sur de lèvres bien dessinées. La jeune artiste portait le cheveux tirés en arrière, noués en un chignon bas sur la nuque, et deux rouleaux, pareils aux marteaux du XVIIIe <!-- KK: 2019-04-01: The "e" is a superscript--> siècle, ornaient ses tempes; un ruban de velours noir faisait ressortir davantage la blancheur de sa gorge. Dans une cage voisine, deux perruches inséparables - l'une vert qcide et l'autre cendre verte - s'ébattaient joyeusement. Elles semblaient si tendrement unis, inséparables eux aussi. Une égale limpidité éclairait le prunelles dorées d'<persName key="wegenerE">Einar</persName> et le regard céruléen de <persName key="wegenerG">Gerda</persName>. On avait le sentiment que leur clarté était la reflt même de leur âme nette et propre, et je fus entraînée vers eux pqr un courant de sympathie, qui devait se transformer bientôt en une indissoluble amité.</p>
+                <p>Payagiste accompli, il excellait dans la perspective. <persName key="wegenerG">Gerda</persName> et <persName key="wegenerE">Einar Wegener</persName> nous offrirent des sièges et prirent eux-mêmes place en face de nous sur un grand divan noir et or, garni de coussins aux coloris divers. Ainsi, côte à côte, ils me rappelaient les personnages de contes d'Andersen, <!-- KK: 2019-04-01: does Andersen have a prosopography element? Should he? --> pariculièrement ceux de <hi rend="italics">La Reine de Neiges:</hi> <persName key="wegenerG">Gerda Wegener</persName> si blonde, si claire,  personnifiait pour moi, l'autre <persName key="wegenerG">Gerda</persName>, celle qui étqit une exacte réplique de ce <!-- 2019-04-01: not sure what a Kaj is? --> Kaj au sourire espiègle, se jouant sur de lèvres bien dessinées. La jeune artiste portait le cheveux tirés en arrière, noués en un chignon bas sur la nuque, et deux rouleaux, pareils aux marteaux du XVIIIe <!-- KK: 2019-04-01: The "e" is a superscript--> siècle, ornaient ses tempes; un ruban de velours noir faisait ressortir davantage la blancheur de sa gorge. Dans une cage voisine, deux perruches inséparables - l'une vert qcide et l'autre cendre verte - s'ébattaient joyeusement. Elles semblaient si tendrement unis, inséparables eux aussi. Une égale limpidité éclairait le prunelles dorées d'<persName key="wegenerE">Einar</persName> et le regard céruléen de <persName key="wegenerG">Gerda</persName>. On avait le sentiment que leur clarté était la reflt même de leur âme nette et propre, et je fus entraînée vers eux pqr un courant de sympathie, qui devait se transformer bientôt en une indissoluble amité.</p>
                 <p>Nous causâmes du motif qui nous amenait, et <persName key="wegenerG">Gerda</persName> parut très désircuse d'exécuter ce travail. </p>
                 <p>Après que nous eûmes admiré les oeuvres des deus artistes, il fut convenu qu'elle écrirait le soir même à mon fiancé, pour se mettre d'accord avec lui, et ils décidèrent de faire sa connaissance le jour de notre marriage. Au cours de la réception qui suitvit la cérémonie nuptiale, je présentai le jeune ménages à mon mari; comme moi, il le prit aussitôt en amitié. Nous nous revîmes le surlendemain, longuement, en prenant le thé à la Boulangerie Viennoise; ce fut là qu'on décida de tous les détails du volume.</p>
                 <p>Nous partîmes le même soir en voyage de noces, pour <placeName key="rome">Rome</placeName>.</p>
@@ -437,7 +440,7 @@
                 <p> « Je commence à me lever et pourrai bientôt faire quelques pas dans le jardin. Je pense avec bonheur au jour proche où je pourrai partir pour <placeName key="paris">Paris</placeName> et aux heureuc moments que je passerai parmi vous tous, qui m'êtes si chers, à l'instant où je pourrai vous ebrasser et vous dire toure ma gratitude d'avoir connu, grâce à votre intermédiaire, ma vraie vie, ma vie de femme. Soyez bénie pour cela, ma chère <persName key="allatiniH">Hélène</persName>. »</p>
                 <pb style="page" n="236"/>
                 <pb style="heading" n="Mosaïques"/>
-                <p>Malgré la défense formelle d'informer qui que ce fût, la petite infirmière avait écrit, en cachette, toute la vérité à <persName key="wegenerHo">Holger Wegener</persName>, le frère que <persName key="lili">Lily</persName> aimait tant. La fin était maintenant trop proche pour prévenir <persName key="wegenerG">Gerda</persName>, tant le déclin avait été rapide. Ce fut, pour la mourante, une grande et dernière joie de revoir son frère? Elle se sentit en paix, entourée d'une réelle affection et s'éteignit doucement, sa main dans la sienne, la pensée au loin, au-delà de la mer, vers cette terre d'Afrique <!--KK: 4/2/2019: there isn't an element for Africa! -->  qu'elle ne devait pas connaître...</p>
+                <p>Malgré la défense formelle d'informer qui que ce fût, la petite infirmière avait écrit, en cachette, toute la vérité à <persName key="wegenerHo">Holger Wegener</persName>, le frère que <persName key="lili">Lily</persName> aimait tant. La fin était maintenant trop proche pour prévenir <persName key="wegenerG">Gerda</persName>, tant le déclin avait été rapide. Ce fut, pour la mourante, une grande et dernière joie de revoir son frère? Elle se sentit en paix, entourée d'une réelle affection et s'éteignit doucement, sa main dans la sienne, la pensée au loin, au-delà de la mer, vers cette terre d'Afrique <!--KK: 4/2/2019: there isn't an element for Africa -->  qu'elle ne devait pas connaître...</p>
                 <p>Sous une dalle de pierre blanche, qui porte pour toute inscription:</p>
                 <p>LILY ELBE</p> 
                 <p>12 septembre 1931</p>
