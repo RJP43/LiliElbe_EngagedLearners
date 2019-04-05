@@ -28,8 +28,8 @@
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
-            <p>People and Places encoded in this file are pulled from the following linked LEDA texts:
-               <ref xml:id="A1">American Edition</ref>
+            <p>People and Places encoded in this file are pulled from the following linked LEDA
+               texts: <ref xml:id="A1">American Edition</ref>
                <ref xml:id="B1">British Edition</ref>
                <ref xml:id="G1">German Edition</ref>
                <ref xml:id="D1">Danish Edition</ref>
@@ -37,7 +37,7 @@
                <ref xml:id="TS">German Typescript</ref>
                <ref xml:id="danishSupp">Danish Language Archive/Supplemental Materials</ref>
                <ref xml:id="germanSupp">German Language Archive/Supplemental Materials</ref>
-               <ref xml:id="frenchSupp">Danish Language Archive/Supplemental Materials</ref>            
+               <ref xml:id="frenchSupp">Danish Language Archive/Supplemental Materials</ref>
             </p>
          </sourceDesc>
       </fileDesc>
@@ -210,12 +210,14 @@
                <placeName source="#A1 #TR">Eiffel Tower</placeName>
                <placeName source="#D1">Eiffeltaarnet</placeName>
                <placeName source="#G1">Eiffelturm</placeName>
-               <note>In <placeName key="paris">Paris</placeName>,
-                  <placeName key="france">France</placeName></note>
+               <note>In <placeName key="paris">Paris</placeName>, <placeName key="france"
+                     >France</placeName></note>
             </place>
             <place xml:id="elbeBanks">
-               <placeName source="#A1 #B1">banks of <placeName key="elbeRiver">the River Elbe</placeName></placeName>
-               <placeName source="#A1 #B1">the banks of <placeName key="elbeRiver">the broad stream</placeName></placeName>
+               <placeName source="#A1 #B1">banks of <placeName key="elbeRiver">the River
+                     Elbe</placeName></placeName>
+               <placeName source="#A1 #B1">the banks of <placeName key="elbeRiver">the broad
+                     stream</placeName></placeName>
                <note/>
             </place>
             <place xml:id="elbeRiver">
@@ -260,6 +262,10 @@
                <placeName source="#D1">Dr. Gebhards Klinik</placeName>
                <placeName source="#TR">Dr. Gebhard's Clinic</placeName>
                <placeName source="#G1">Sanatorium von Prof. Gebhard</placeName>
+               <placeName source="#danishSupp">Privatklinik</placeName>
+               <placeName source="#danishSupp">Klinik</placeName>
+               <placeName source="#danishSupp">private clinic</placeName>
+               <placeName source="#danishSupp">clinic</placeName>
                <note>Historical place not identified; possibly modeled on <persName key="gohrbandt"
                      >Erwin Gohrbandt</persName>'s private clinic at Augsburger Str. 63 in
                      <placeName key="berlin">Berlin</placeName></note>
@@ -277,7 +283,8 @@
             </place>
             <place xml:id="germany">
                <placeName source="#A1 #TR">Germany</placeName>
-               <placeName source="#D1">Tyskland</placeName>
+               <placeName source="#D1 #danishSupp">Tyskland</placeName>
+               <placeName source="#frenchSupp">Allemagne</placeName>
                <placeName source="#G1">Deutschland</placeName>
                <note>Country in <placeName key="europe">Europe</placeName></note>
             </place>
@@ -314,7 +321,8 @@
                <note/>
             </place>
             <place xml:id="hotelDAlsace">
-               <placeName>one of the numerous small hotels in <placeName key="paris">Paris</placeName></placeName>
+               <placeName>one of the numerous small hotels in <placeName key="paris"
+                     >Paris</placeName></placeName>
                <note/>
             </place>
             <place xml:id="hotelReservoirs">
@@ -358,11 +366,15 @@
                <note/>
             </place>
             <place xml:id="laboratoriumKar">
-               <placeName source="#A1 #TR"><persName key="karner">Dr. Karner</persName>'s laboratory</placeName>
-               <placeName source="#D1"><persName key="karner">Doktor Karner</persName>s Laboratorium</placeName>
+               <placeName source="#A1 #TR"><persName key="karner">Dr. Karner</persName>'s
+                  laboratory</placeName>
+               <placeName source="#D1"><persName key="karner">Doktor Karner</persName>s
+                  Laboratorium</placeName>
                <placeName source="#D1">Doktorens biokemiske Laboratorium</placeName>
-               <placeName source="#G1">dem Laboratorium des Biochemikers <persName key="karner">Doktor Karner</persName></placeName>
-               <placeName source="#G1"><persName key="karner">Doktor Karner</persName>s Laboratorium</placeName>
+               <placeName source="#G1">dem Laboratorium des Biochemikers <persName key="karner"
+                     >Doktor Karner</persName></placeName>
+               <placeName source="#G1"><persName key="karner">Doktor Karner</persName>s
+                  Laboratorium</placeName>
                <note/>
             </place>
             <place xml:id="lAlmaPlace">
@@ -426,6 +438,10 @@
                <note>Assumed fictional place mentioned in narrative; historical place not
                   identified, but Morgano is a marina in <placeName key="capri"
                   >Capri</placeName></note>
+            </place>
+            <place xml:id="morocco">
+               <placeName>Morocco</placeName>
+               <note/>
             </place>
             <place xml:id="naples">
                <placeName source="#A1 #TR">Naples</placeName>
@@ -649,10 +665,13 @@
             <place xml:id="womensClinic">
                <placeName source="#A1">Women's Clinic</placeName>
                <placeName source="#A1">Municipal Women's Clinic</placeName>
-               <placeName source="#D1 #TR">Frauenklinik</placeName><!-- Side Note: The German word is for Women's Clinic is used in D1 even though the expected name is Kvindersklinik-->
+               <placeName source="#D1 #TR">Frauenklinik</placeName>
+               <!-- Side Note: The German word is for Women's Clinic is used in D1 even though the expected name is Kvindersklinik-->
                <placeName source="#G1">Frauenklinik</placeName>
                <placeName source="#D1 #G1 #TR">Staatliche Frauenklinik</placeName>
-               <placeName source="#frenchSupp">Frauenklinik de <placeName key="dreseden">Dresde</placeName></placeName>
+               <placeName source="#frenchSupp">Frauenklinik de <placeName key="dreseden"
+                     >Dresde</placeName></placeName>
+               <placeName source="#frenchSupp">LA CLINIQUE FÉMININE DE DRESDE</placeName>
                <note>Staatliche Frauenklinik, Pfotenhauerstr. 90, <placeName key="dresden"
                      >Dresden</placeName></note>
             </place>
@@ -715,6 +734,10 @@
                <persName source="#G1">Bourbonen</persName>
                <note>French royal family</note>
             </person>
+            <person xml:id="boysenM" source="historical">
+               <persName source="#danishSupp">Maiken Boysen</persName>
+               <note/>
+            </person>
             <person xml:id="bramsonK" source="historical">
                <persName>Karen Bramson</persName>
                <note>Danish author</note>
@@ -759,7 +782,8 @@
             <person xml:id="theCripple" source="fictional">
                <persName>the cripple</persName>
                <persName>red-haired cripple</persName>
-               <note/><!-- need note from Pamela-->
+               <note/>
+               <!-- need note from Pamela-->
             </person>
             <person xml:id="countT" source="historical">
                <persName>Colonel de T.</persName>
@@ -782,6 +806,11 @@
                <persName>Doctor F.</persName>
                <note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir</note>
             </person>
+            <!--<person xml:id="dreiMaskenPub" source="historical">
+               <persName source="#danishSupp">Drei Masken</persName>
+               <note>German publishing house</note>
+            </person>-->
+            <!-- possible dublicate with placeName #ullstein; check with Pamela what to do -->
             <person xml:id="father" source="fictional" synch="#wegenerV">
                <persName source="#A1 #TR">father</persName>
                <persName source="#D1">fa'r</persName>
@@ -791,7 +820,8 @@
             <person xml:id="feruzziRi" source="fictional" synch="#portaF">
                <persName>Ridolfo Feruzzi</persName>
                <persName>Feruzzi</persName>
-               <note><persName key="sparreGre">Grete Sparre</persName>'s second-husband in narrative</note>
+               <note><persName key="sparreGre">Grete Sparre</persName>'s second-husband in
+                  narrative</note>
             </person>
             <person xml:id="flavio" source="fictional">
                <persName>Signora Favio</persName>
@@ -811,17 +841,18 @@
                <persName>Théophile Gautier</persName>
                <note>French author</note>
             </person>
-            <person xml:id="gebhard" source="fictional" synch="#gohrbandt">
+            <person xml:id="gebhard" source="fictional historical" synch="#gohrbandt">
                <persName source="#A1 #TR #D1">Dr. Gebhard</persName>
                <persName source="#A1 #TR #D1 #G1">Professor Gebhard</persName>
-               <persName source="#A1 #TR">senior physician</persName>
+               <persName source="#danishSupp #D1">Overlægen</persName>
+               <persName source="#A1 #TR #danishSupp">senior physician</persName>
                <persName source="#D1">Oberarzt</persName>
                <note/>
             </person>
             <person xml:id="goethe" source="fictional">
                <persName>Goethe</persName>
                <note>German author</note>
-            </person>            
+            </person>
             <person xml:id="gohrbandt" source="historical" synch="#gebhard">
                <persName>Edwin Gohrbandt</persName>
                <persName>Professor G</persName>
@@ -876,6 +907,8 @@
             </person>
             <person xml:id="hirschfeld" source="historical" synch="#hardenfeld">
                <persName>Magnus Hirschfeld</persName>
+               <persName source="#frenchSupp">"Marcus Hierschfeld</persName>
+               <!-- spelling mistake in print -->
                <note/>
             </person>
             <person xml:id="hoyerNiels" source="fictional" synch="#harthernE">
@@ -898,7 +931,8 @@
                <persName>Niels Hvide</persName>
                <persName>Niels</persName>
                <persName>Hjalmar Hvide</persName>
-               <note>Hjalmar Hvide was the fictious name first used for Niels Hvide in the narrative</note>
+               <note>Hjalmar Hvide was the fictious name first used for Niels Hvide in the
+                  narrative</note>
             </person>
             <person xml:id="jager" source="historical">
                <persName>Hans Henrik Jæger</persName>
@@ -908,7 +942,8 @@
             </person>
             <person xml:id="jean" source="fictional">
                <persName>Jean</persName>
-               <note>Factotum of a <placeName key="#hotelDAlsace">hotel</placeName> mentioned in the narrative</note>
+               <note>Factotum of a <placeName key="#hotelDAlsace">hotel</placeName> mentioned in the
+                  narrative</note>
             </person>
             <person xml:id="karner" source="fictional">
                <persName source="#A1 #D1 #TR">Dr. Karner</persName>
@@ -965,11 +1000,19 @@
                <persName>Lili Ilse Elvenes</persName>
                <persName>Lili Courtaud</persName>
                <persName>Lili Courtot</persName>
+               <persName source="#danishSupp">Frøken Wegener</persName>
+               <persName source="#danishSupp #frenchSupp">Lily Wegener</persName>
+               <persName source="#danishSupp #frenchSupp">Lily</persName>
+               <persName source="#danishSupp">Frk. Wegener</persName>
+               <persName source="#danishSupp">Frk. Lily Wegener</persName>
+               <persName source="#danishSupp">Miss Wegener</persName>
+               <persName source="#danishSupp">Miss Lily Wegener</persName>
                <note>Unable to verify that Lili Elbe used the pseudonym Lili Courtaud outside of its
                   use in the narrative</note>
             </person>
             <person xml:id="louLou" source="historical">
-               <persName>a friend who was on the staff of a leading <placeName key="copenhagen">Copenhagen</placeName> newspaper</persName>
+               <persName>a friend who was on the staff of a leading <placeName key="copenhagen"
+                     >Copenhagen</placeName> newspaper</persName>
                <persName>Loulou Lassen</persName>
                <note>Danish journalist</note>
             </person>
@@ -991,7 +1034,8 @@
             </person>
             <person xml:id="maranonGreg" source="historical">
                <persName>Professor Gregorio Marañon</persName>
-               <note>Mentioned in <ref source="#A1">A1</ref>'s introductions as author of The Evolution of Sex and Intersexual Conditions</note> 
+               <note>Mentioned in <ref source="#A1">A1</ref>'s introductions as author of The
+                  Evolution of Sex and Intersexual Conditions</note>
             </person>
             <person xml:id="marquisSG" source="historical">
                <persName>Marquis Emilio de SG</persName>
@@ -1005,6 +1049,10 @@
                <note>Modeled on <persName>Margarete Leifert</persName>, or possibly Seifert, a nurse
                   at the <placeName key="womensClinic"><placeName key="dresden">Dresden</placeName>
                      clinic</placeName></note>
+            </person>
+            <person xml:id="mellerup" source="historical">
+               <persName source="#danishSupp">Einar Mellerup</persName>
+               <note/>
             </person>
             <person xml:id="mother" source="fictional" synch="#wegenerAM">
                <persName source="#A1 #TR">mother</persName>
@@ -1061,7 +1109,7 @@
             <person xml:id="nurseMargaret" source="fictional">
                <persName source="#A1">Nurse Margaret</persName>
                <persName source="#A1">Sister Margaret</persName>
-               <persName source="#G1">Schwester Margarete</persName>               
+               <persName source="#G1">Schwester Margarete</persName>
             </person>
             <person xml:id="nurseMarianne" source="fictional">
                <persName source="#D1">Søster Marianne</persName>
@@ -1217,6 +1265,11 @@
                <persName source="#D1">Grev de la Trempe</persName>
                <note>Historical figure not identified</note>
             </person>
+            <!--<person xml:id="ullsteinPub" source="historical">
+               <persName source="#danishSupp">Ullstein</persName>
+               <note>German publishing house</note>
+            </person>-->
+            <!-- possible dublicate with placeName #ullstein; check with Pamela what to do -->
             <person xml:id="wagner" source="historical">
                <persName>Wagner</persName>
                <persName>Richard Wagner</persName>
@@ -1249,12 +1302,28 @@
             <person xml:id="wegenerE" source="historical" synch="#sparreAn #lili">
                <persName>Einar Wegener</persName>
                <persName>Einar</persName>
-               <persName>Bé</persName>
+               <persName source="#danishSupp">Bé</persName>
+               <persName source="#danishSupp">Hr. Wegener</persName>
+               <persName source="#danishSupp">Maleren Wegener</persName>
+               <persName source="#danishSupp"><persName key="wegenerG">Gerda Wegeners</persName>
+                  Mand</persName>
+               <persName source="#danishSupp">Manden Wegener</persName>
+               <persName source="#danishSupp">in tidligere Mand</persName>
+               <persName source="#danishSupp">Mr. Wegener</persName>
+               <persName source="#danishSupp">the painter Wegener</persName>
+               <persName source="#danishSupp"><persName key="wegenerG">Gerda Wegener</persName>’s
+                  husband</persName>
+               <persName source="#danishSupp">the man Wegener</persName>
+               <persName source="#danishSupp">former husband</persName>
                <note/>
             </person>
             <person xml:id="wegenerG" source="historical" synch="#sparreGre">
                <persName>Gerda Wegener</persName>
                <persName>Gerda</persName>
+               <persName source="#danishSupp">Fru Wegener</persName>
+               <persName source="#danishSupp">sin tidligere Hustru</persName>
+               <persName source="#danishSupp">the former wife</persName>
+               <persName source="#danishSupp">Mrs. Wegener</persName>
                <note/>
             </person>
             <person xml:id="wegenerHe" source="historical" synch="#brotherSing #brotherPlur">
