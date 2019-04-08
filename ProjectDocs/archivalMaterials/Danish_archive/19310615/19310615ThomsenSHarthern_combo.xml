@@ -107,10 +107,173 @@ In 19241200, One red and one blue line are drawn vertically down the left side o
                     <p>Da jeg -– som vordende læge, også har interesseret mig meget for det anatomiske og <pb style="page" n="3"/>fysiologiske, har jeg en del optegnelser vedrørende disse ^ ting -– Da de pointerede, at de ikke var interreserede heri,- springer jeg dem over -– eller medtager dem i forkortet form -– hvis de bidrager til forståelse af hendes psyche. -– 
                     </p><p style="paraText" rend="division">x</p>
             <!--Sk diary entries in danish begin here in chronological order-->
-            
-            
-            <!--SK end of original entries-->
+            <p style="LiliDiary">
+                <date when="1921-12-25">25/12</date>
+            </p>
+                    <p style="LiliDiary"><persName key="thomsenTC">Far</persName> satte det store billede fra <placeName key="versailles">Versailles</placeName> op i dag, det var svært at faa sømmet i. <persName key="wegenerE">Onkel Einar</persName> forgylder rammer og
+                        <persName key="wegenerG">tante Gerda</persName> læser en roman, ”Paradisfuglen” af Rung, og siger at den er skrevet stakato og er for det meste beskrivelser fra det
+                        gamle <placeName key="copenhagen">København</placeName> – Hjalp <persName key="wegenerE">onkel Einar</persName> med at lave sine ”minustøvler”. Det sneede om eftermiddagen. <persName key="thomsenTC">Fader </persName>og <persName key="wegenerE">onkel Einar</persName> spillede skak, <persName key="wegenerE">Einar</persName> tabte.</p>
+           
+                    <p style="LiliDiary">
+                <date when="1921-12-28">28/12.</date>
+            </p>
+                    <p style="LiliDiary"><persName key="wegenerE">Onkel Einar</persName>s fødselsdag.</p>
+                    
+            <p style="LiliDiary">
+                <date when="1921-12-29">29/12.</date>
+            </p>
+                    <p style="LiliDiary"><persName key="wegenerG">Tante Gerda</persName>, <persName key="wegenerE">onkel Einar</persName> og <persName key="gottliebMrs">fru Gottlieb</persName> kom= mer til middag med hummer. <persName key="else">Else</persName> laver mayonaise. <persName key="?">Moder</persName> var til middag en time om at spise sin portion. Så var der to slags oste, 1 råden og en frisk , samt salat, mayonaise og <hi rend="underline">lagkage</hi>. Der blev spillet en masse på grammaphonen og <persName key="wegenerE">onkel Einar</persName> dansede en fransk Apache dans. Grin m.m.</p>
+                    
+                    <p style="LiliDiary">
+                        <date when="1922-01-03">3/1.</date> 
+                    </p>
+                    <p style="LiliDiary">Blev liggende i sengen p. gr. a. Fåresyge, mægtig tyk i hovedet. Fik 1.80 Kr. af <persName key="wegenerE">onkel Einar</persName>, fordi han tog <persName key="?">Else</persName> med på <choice><orig>restraution</orig> <reg>restauration</reg></choice> <!--Sk we're not sure what to do with this part of the encoding so we just left it for now--> <note type="translator">The word should be spelled restauration.</note>.</p>
+                    <p style="LiliDiary">
+                        <date when="1922-01-09">9/1.</date>
+                    </p>
+                    <p style ="LiliDiary"> <persName key="wegenerE">Onkel Einar</persName> og <persName key="wegenerG">tante Gerda</persName> tog afsted med toget 10<hi rend="super">20</hi> over <placeName key="gedser">Gedser</placeName></p>
+                    <p style="LiliDiary">
+                        <date when="1924-12">Dec. 1924</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="thomsenTC">Far</persName> fortalte os om <persName key="wegenerE">Einar</persName>, der klæder sig ud som pige. De praktiske forudsætninger herfor er, hans ringe højde, velskabte skikkelse, nydelige ben og små fødder. Desuden barberer han sig omhyggeligt, og ved rigelig brug af pudder og sminke kan han i <placeName key="paris">Paris</placeName> ved elektrisk lys gå for en dame. – Stemmen lægger han op i et sådant leje, at den kan gå for en dyb kvindestemme . – Grunden til hans lyst hertil er sandsynligvis forfængelighed. – Udklædt som <persName key="lili">Lili</persName> be=søgte <persName key="wegenerE">Einar</persName> os en gang medens vi boede på <placeName key="phistersStreet">Phistersvej</placeName> da <persName key="mother">hans egen mor</persName> var i besøg hos os. Hun kendte ham ikke.</p>
+                   
+                    <p syle="LiliDiary">
+                        <date when="1931-08-16">16/8-31.</date>
+                    </p>
+<p style="LiliDiary"><persName key="lili">Lili</persName> og <persName key="wegenerG">Gerda</persName> kom her til formiddag. <persName key="lili">Lili</persName> skal bo her. Hun er her i <placeName key="copenhagen">København</placeName> for at få ansigtshuden feminiseret.</p> 
+                    <p style="LiliDiary">Hendes psyche er ganske kvindelig - -</p> 
+                    <p style="LiliDiary">- - . Det svage punkt er ansigtet. Håret er: paryk! Og underansigtet er endu mas<pb style="page" n="4"/>culint.– De brune øjne er imidlertid decideret kvindelige og ganske smukke, -- med pæne øjenbryn og vipper.</p> 
+                    <p style="LiliDiary">Jeg gik en tur i haven – og ned langs med <placeName key="gentofter">Gentofte</placeName> sø, og fik talt med hende. Hendes menneskelige atmosfære er fuldent feminin.</p> 
+                    <p style="LiliDiary">- - Han og Gerda havde jo aldrig sådan været gift: kun været gode kammerater og suppleret hinanden.</p> 
+                    <p style="LiliDiary">[Skildring af <persName key="wegenerE">Einars</persName> påtænkte selvmord.] – Dette fortalte hun mig i en pjanket tone, men jeg har indtryk af, at det var <persName key="wegenerE">Be's</persName> alvor. –</p>
+                    <!--SK we left the paragraph breaks where they were for the above entry because we were unsure of what to do with them, but we added style elements-->
+                    
+                    <p style="LiliDiary">
+                        <date when="1931-08-18">18/8.</date>
+                    </p>
+                    <p style="LiliDiary"><pb style="page" n="5"/><persName key="lili">Lili</persName> og jeg har
+snakket meget sammen på vore små ture ved <placeName key="gentofter">Gentofte sø</placeName> – som hun finder "aldeles henrivende".</p>
+                    <p style="LiliDiary">Bag det pjankede pigebarn, er der et meget klart tænkende, forstående og følende sjæl. Det er nemlig <persName key="mother">mor</persName> vi har drøftet. <persName
+                            key="lili">Lili</persName> synes <persName key="mother">mors</persName>
+                        mangler består i</p>
+                    <p style="LiliDiary">1. - - - - - - Vil man endelig fortælle om sine sygdomme olig. skal man
+                        gøre det livligt og spøgende – og kun én gang!</p>
+                    <p style="LiliDiary">- - - -</p>
+                    <p style="LiliDiary">4. Forsømt sit ydre<pb style="page" n="6"/></p>
+                        <p style="LiliDiary"><persName key="lili">Lili</persName> og jeg er bleven meget fine venner, – og jeg sætter mere og mere pris på hende.</p>
+                    
+                    <p style="LiliDiary">
+                        <date when="1931-08-22">22/8</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="mother">Mor</persName> har nu fortalt <persName key="lili">Lili</persName> hele historien – og <persName key="lili">Lili</persName> har tålmodigt ofret den nødvendige eftermiddag. Ovenpå det var hun temmelig ødelagt – og <persName key="mother">mor</persName> oprevet. <persName key="lili">Lili</persName> blev uenig med <persName key="mother">mor</persName> over en lille biting – og sa havde <persName key="mother">mor</persName> sagt, at så måtte <persName key="lili">Lili</persName> hellere flytte.</p>
+                    <p style="LiliDiary"><persName key="lili">Lili</persName> tog det imidlertid roligt – og det kom ikke til brud. – <!--SK we're not sure where new paragraphs begin in this letter so we left it the same from the other doc we copied and pasted--><pb style="page" n="7"/>- - <persName key="mother">Mor</persName> været modstander af operationen – og forfærdet og uforstående overfor det hele - - sorgeligt og tragisk, at hendes <persName key="brotherSing">bror</persName>, som hun holdt så meget af,– er bleven et pjanket, forfængeligt væsen.–</p>
+                    <p style="LiliDiary">- - Også navnet "<persName key="lili">Lili</persName>" finder hun forfærdeligt. Det havde hans <persName key="mother">mor</persName> aldrig kaldt ham, hvis han havde begyndt som pige. - -</p>
+                    <p style="LiliDiary">
+                        <date when="1931-08-23">23/8</date>
+                    </p>
+                <p style="LiliDiary"> <persName key="wegenerG">Gerda</persName> var her. Hun er stadig sløj ovenpå operationen – og bekymringer over <persName key="lili">Lili</persName>.</p>
+                    <p style="LiliDiary"><persName key="lili">Lili</persName> har lavet hende de <pb style="page"
+                        n="8"/> frygteligste scener over sit udseende, og snakket om selvmord,
+                        hvis hun ikke hurtigt kom til at se godt ud.</p>
+                    <p style="LiliDiary"><persName key="wegenerG">Gerda</persName> bad os søge at gøre <persName
+                        key="lili">Lili</persName> mindre selvoptaget, og se at få hende til at
+                        skrive på sin bog.</p>
+                   
+                    <p style="LiliDiary">
+                        <date when="1931-08-24">24/8</date>
+                    </p>
+                    <p style="LiliDiary">Talt med <persName key="lili">Lili</persName>. Nu er hun godt i gange med at skrive på sin bog. Lod hende begynde inde hos mig – medens jeg sad og læste anatomi. Arbejdsatmosfæren påvirkede hende – og hun vilde ikke forstyrre mig <pb style="page" n="9"/> eller risikere min utilfreshed, hvis hun var doven.</p>
+                    
+                    <p style="LiliDiary">
+                        <date when="1931-08-25">25/8</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="mother">Mor</persName> kom grædende ind til <persName key="lili">Lili</persName> kl 7 og vækkede hende. <persName key="lili">Lili</persName> tabte tålmodigheden og fortalte - -</p> 
+                    
+                    <p style="paraText" rend="division">x</p>
+                    
+                    <p style="LiliDiary">
+                        <date when="1931-09-18">18/9.</date>
+                    </p>
+                    <p style="LiliDiary"><persName key="lili">Lili</persName> bor nu her og skriver på sin bog.</p>
+                    <p style="LiliDiary"><persName key="wegenerG">Gerda</persName> fortæller mig, at alle deres venner søger at få hende til at skilles – ikke alene formelt – men også reelt fra <persName key="lili">Lili</persName>. – <pb style="page" n="10"/> Hun er uhyre forfengelig og hævder at "skønhed er en kvindes existens berettigelse"!!</p>
+                    <p style="LiliDiary">Når vi skal gå en tur, spørger hun, om man kan "se noget". – I betragtning af den enorme mængde "kosmetik" anvendt,– er dette som regel umuligt. – Svarer jeg benægtende – tror hun mig ikke – men binder et silke lommetørklæde om underansigtet, som havde hun tandpine.</p>
+                    <p style="LiliDiary">Den første tid hun var her – var hun <hi rend="underline">virkelig</hi> sky af sig – og holdt ikke af at møde mennesker, – og jeg tog hende derfor ad <pb style="page" n="11"/> biveje. – Nu er det bleven mindre – og hun koketterer endog med det!</p>
+                    <p style="LiliDiary">Hun er meget interesseret i mænd – og fortæller med alle tegn på fryd,– hvor "væmmeligt" det er, at de ser efter hende!</p>
+                    <p style="LiliDiary">Hun elsker at tro sig selv en "skælvende due" forfulgt af store, interesserede mandfolk. –</p>
+                    
+                    <p style="LiliDiary">
+                        <date when="1931-10-06">6/10.</date>
+                    </p>
+                    <p style="LiliDiary">Hun holder ikke på <hi rend="underline">kvindens frigørelse. Hun siger,– at hvis hun bliver gift, vil hun elske sin mand, gøre det hvad han </hi><pb style="page" n="12"/><hi rend="underline">siger – og kun tænke på at</hi> være så smuk som mulig – <hi rend="underline">glæde ham – og opmuntre ham, når</hi> han kommer fra <hi rend="underline">kontoret</hi>. –</p>
+                    
+                    <p style="paraText" rend="division">x</p>
+                  
+                    <p style="LiliDiary">Hun holder meget af kærtegn og af at kærtegne. <persName key="father"
+                        >Far</persName> tillader hende at kysse ham farvel om morgenen og godnat om
+                        aftenen.</p>
+                    <p style="LiliDiary">Jeg vil ikke.</p>
+                    <p style="LiliDiary">Hun gør stadig, spøgende tilløb til det,– og kilder mig katteagtigt op ad armen.
+                        Men jeg afværger venligt og fast. – og det respekterer hun – og kalder mig <pb
+                            style="page" n="13"/> "den strenge Hr. Doktor<persName key="wegenerS">Hr. Doktor</persName>" – </p>
+                    
+                    <p style="paraText" rend="division">x</p>
+                    
+                    <p style="LiliDiary">Overfor far og jeg er hun skikkelig: – Gerda laver hun ofte hysteriske scener – med hysterisk tøsestemme – og ender med at tude. –</p>
+                    <p style="LiliDiary"><hi rend="underline">Nå – ovenpå hvad hun har <del type="strikethrough">ha</del> gået igennem, er det ikke så mærkeligt</hi> – at hendes sind er vanskeligt.</p> 
+                    
+                    <p style="paraText" rend="division">x</p>
+                    
+                    <p style="LiliDiary">I dag blev <persName key="wegenerG">Gerdas</persName> og <persName key="lili">Lilis</persName> ægteskab omstødt. Jeg spurgte <persName key="lili">Lili</persName>: – Var det civilretten? – Ja, sagde <persName key="lili" >Lilli</persName> – Hvor ved du det fra? – Dommeren var i civil!</p>
+                    <!--SK we're not sure how to encode the list above so we left it as is-->
+                    
+                    <p style="paraText" rend="division">x</p>
+                    
+                    <p style="LiliDiary"><pb style="page" n="14"/> Hun omtaler ofte sig selv som "stakkels lille <persName key="lili">Lili</persName>" – og ønsker at blive trøstet og kælet for - - - . <hi rend="underline">Men i det store og hele er hun i godt humør. og gouterer en vittighed – selvom den går ud over hende selv – når blot den er god!</hi></p>
+                    <p style="LiliDiary">Hun er rar og venlig og optager alt i bedste mening.</p> 
+                    
+                    <p style="paraText" rend="division">x</p>
+                   
+                    <p style="LiliDiary"><hi rend="underline">Den ene dag taler hun om at gå i kloster. Den næste om at gå</hi> i harem. – Lige efter operationen havde hun en "nonneperiode" siger hun. –</p>
+                    <p style="LiliDiary"><pb style="page" n="15"/> Hun er meget forfængelig af sin figur og ben – og mangler i nogen grad blufærdighed – der dog vist delvis skyldes hendes mangel på øvelse i at sidde – etc. – i kvindetøj. –</p>
+                    <p style="paraText" rend="division">x</p>
+                    <p style="LiliDiary">Psykisk – som kvinde, <hi rend="underline">har hun to aldre. – Når hun kan bruge den viden som <persName key="wegenerE">Einar</persName> havde – og det af hans karakter, – der er almenmenneskeligt – er hun en godmodig, klog og vittig kvinde – godt op i fyrrene! men når hun taler om "mænd" eller "klæder". – er hun en pjanket pige på sejsten!</hi> –</p> 
+                    
+                    <p style="paraText" rend="division">x</p>
+                    
+                    <p style="LiliDiary">
+                        <date when="1932-06-13">13/6</date>
+                    </p>
+                    <p style="LiliDiary"><hi rend="underline">NB!</hi></p>
+                        <p style="LiliDiary"><pb style="page" n="16"/> Tænker jeg tilbage – og skal sige noget om hendes
+                            <hi rend="underline">udvikling siden operationen.</hi> – må det være
+                            dette. –</p>
+                        <p style="LiliDiary">Hendes skyhed overfor mennesker i almindelighed og mænd i særdeleshed er
+                            total forsvunden, – og hendes glæde over den opsigt hun vækker hos mændene,
+                            er lidt pralende – og henføres til en "mystisk tiltrækning kraft" – og
+                            ikke til hendes umådeholdne brug af pudder. og rødt – o.s.v. –</p>
+                    <p style="LiliDiary">I begyndelsen <hi rend="underline">var hun slankere, virkede næsten</hi> mere feminin sjæleligt end
+                        <pb style="page" n="17"/> <hi rend="underline">nu, – hvor så meget er forceret og uægte, – og besad virkelig en egen indtagende "jomfruelighed" – der nu desværre ganske er forsvunden.</hi></p>
+                        <p style="LiliDiary"><hi rend="underline">At hendes venner har svigtet hende, har gjort hende ondt – men ikke bitter</hi>, – de hun har <hi rend="underline">en så venlig</hi> ^ forstående natur.
+                        </p>
+                    <p style="paraText" rend="division">x</p>
+                    
+                        <p style="LiliDiary">Jeg håber at de kan have nogen
+                            fornøjelse af dette.</p>
+                        <p style="LiliDiary">En dag jeg er inde i byen, vil jeg gerne have lov til at hente den bog
+                            de
+                            var så venlig at tilbyde at låne mig. – Jeg ringer i forvejen.</p>
+                        <p style="LiliDiary">Igen tak for sidst.</p>
+                    
+                    <closer>
+                        <salute>deres ærbødige.</salute>
+                            <signed><persName key="wegenerS">Sigurd Thomsen</persName></signed>
+                    </closer>
                 </div>
+                    
+            <!--SK end of original entries-->
+                    
+                    <!--SK start of english translation-->
+            
             <div type="translation">
                 <div rend="head">
                     <p></p>
@@ -152,12 +315,12 @@ In 19241200, One red and one blue line are drawn vertically down the left side o
                     <p style="LiliDiary">
                         <date when="1921-12-29">29/12.</date>
                     </p>
-                    <p style="LiliDiary"><persName key="wegenerG">Aunt Gerda</persName>, <persName key="wegenerE">Uncle Einar</persName> and <persName key="gottliebMrs">Mrs. Gottlieb</persName> are coming to dinner with lobster. <persName key="?">Else</persName> is making mayonnaise. <persName source="#A1 #TR">Mother</persName> took an hour to eat her portion at dinner. Then there were two kinds of cheese, one moldy and one fresh, as well as salad, mayonnaise, and <hi rend="underline">birthday cake</hi>. There was a lot played on the grammaphone and <persName key="wegenerE">Uncle Einar</persName> danced a French Apache dance. Laughter etc.
+                    <p style="LiliDiary"><persName key="wegenerG">Aunt Gerda</persName>, <persName key="wegenerE">Uncle Einar</persName> and <persName key="gottliebMrs">Mrs. Gottlieb</persName> are coming to dinner with lobster. <persName key="else">Else</persName> is making mayonnaise. <persName source="#A1 #TR">Mother</persName> took an hour to eat her portion at dinner. Then there were two kinds of cheese, one moldy and one fresh, as well as salad, mayonnaise, and <hi rend="underline">birthday cake</hi>. There was a lot played on the grammaphone and <persName key="wegenerE">Uncle Einar</persName> danced a French Apache dance. Laughter etc.
                     </p>
                     <p style="LiliDiary">
                         <date when="1922-01-03">3/1.</date>
                     </p>
-                    <p style="LiliDiary">Stayed in bed because of mumps, mighty swollen head. Received 1.80 kroner from <persName key="wegenerE">Uncle Einar</persName> because he took <persName key="?">Else</persName> to a restaurant. </p>
+                    <p style="LiliDiary">Stayed in bed because of mumps, mighty swollen head. Received 1.80 kroner from <persName key="wegenerE">Uncle Einar</persName> because he took <persName key="else">Else</persName> to a restaurant. </p>
                     <p style="LiliDiary">
                         <date when="1922-01-09">9/1.</date>
                     </p>
@@ -182,12 +345,12 @@ In 19241200, One red and one blue line are drawn vertically down the left side o
                     <p style="LiliDiary"> - -. A weak point is her face. Her hair is: a wig! And her lower face is still masculine. – <pb style="page" n="4"/>
                             However, the brown eyes are decidedly womanly and quite beautiful, with
                             pretty eyebrows and lashes.</p>
-                        <p>I took a walk in the garden – and along <placeName key="gentofter">Gentofte
+                        <p style="LiliDiary">I took a walk in the garden – and along <placeName key="gentofter">Gentofte
                             lake</placeName>, and talked with her. Her human atmosphere is fully
                             feminine.</p>
-                        <p>- - He and <persName key="wegenerG">Gerda</persName> had never really been
+                        <p style="LiliDiary">- - He and <persName key="wegenerG">Gerda</persName> had never really been
                             married: only been good friends and complemented each other.</p>
-                        <p>[The description of <persName key="wegenerE">Einar's</persName> planned suicide.] This she told me in a silly tone, but I have the impression that <persName key="wegenerE">Bé</persName> was serious.-–</p>
+                        <p style="LiliDiary">[The description of <persName key="wegenerE">Einar's</persName> planned suicide.] This she told me in a silly tone, but I have the impression that <persName key="wegenerE">Bé</persName> was serious.-–</p>
                     <p style="LiliDiary">
                         <date when="1931-08-18">18/8.</date>
                     </p>
@@ -319,6 +482,7 @@ In 19241200, One red and one blue line are drawn vertically down the left side o
                             Thomsen</persName></signed>
                     </closer>
                 </div>
+            </div>
             </div>
         </body>
     </text>
