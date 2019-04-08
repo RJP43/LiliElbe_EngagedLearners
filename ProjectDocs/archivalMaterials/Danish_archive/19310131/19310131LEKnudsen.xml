@@ -123,10 +123,10 @@
 					<!-- it's arguable based on the image whether the two preceeding paragraphs are really intended as two separate paragraphs -->
 					<p><seg n="d14">Jeg kan laane Penge og komme en Tur til <placeName key="berlin">Berlin</placeName>, hvis det vil være godt.</seg></p>
 					<p><seg n="d15">Vær rar hurtigst at tale med Hr. <persName key="magnusE">Magnus</persName> derom; thi det haster! Jeg kaster Blod op af Sorrig over denne Historie, men er ligeglad. Gaar det ikke med min Bog, gaar det heller ikke med mig.</seg></p>
-					<p><seg n="d16">Maa vi betragte <persName key="hasselbalchS">Hr. Hasselbalch</persName>s Mission som endt – eller vil det være honnet af Hensyn til <persName key="magnusE">Hr. Erwin Magnus</persName> at lade det gaa igennem den danske Forlægger, hvis det er Meningen eller at henvende sig til <anchor type="commentRangeStart" n="1"/><persName key="?">Ullstein</persName>.<anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj"   
+					<p><seg n="d16">Maa vi betragte <persName key="hasselbalchS">Hr. Hasselbalch</persName>s Mission som endt – eller vil det være honnet af Hensyn til <persName key="magnusE">Hr. Erwin Magnus</persName> at lade det gaa igennem den danske Forlægger, hvis det er Meningen eller at henvende sig til <anchor type="commentRangeStart" n="1"/><placeName key="ullstein">Ullstein</placeName>.<anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj"   
 						xml:id="comment_1">Name of a publisher.</note>
 					</seg></p>
-					<p><seg n="17">Jeg venter iøvrigt snart Svar fra <anchor type="commentRangeStart" n="2"/>"<persName key="?">Drei Masken</persName>"<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
+					<p><seg n="17">Jeg venter iøvrigt snart Svar fra <anchor type="commentRangeStart" n="2"/>"<placeName key="dreiMasken">Drei Masken</placeName>"<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
 						xml:id="comment_2">Name of a publisher.</note></seg></p>
 					<p><seg n="d18">Forøvrigt giver det første Brudstykke slet ikke nogen komplet Idé om Bogen, der er fast komponeret – og Slutningen er det bedste.</seg></p>
 					<p><seg n="d19">Som Titel havde jeg: ”Hvorledes <persName key="lili">Lili</persName> blev til en rigtig Pige”</seg></p>
@@ -171,9 +171,9 @@
 					<!-- it's arguable based on the image whether the two preceeding paragraphs are really intended as two separate paragraphs -->
 					<p><seg corresp="#d14">I can borrow money and make a trip to <placeName key="berlin">Berlin</placeName>, if it will be good.</seg></p>
 					<p><seg corresp="#d15">Please talk soon with <persName key="magnusE">Mr. Magnus</persName> about this; for it is urgent! I throw up blood in sorrow over this story, but I don’t care. If it is not going well with my book, it won’t go well with me.</seg></p>
-					<p><seg corresp="#d16">Must we consider <persName key="hasselbalchS">Mr. Hasselbalch</persName>’s mission as ended – or will it be respectful of <persName key="magnusE">Mr. Erwin Magnus</persName> to let it go through the Danish publisher, if that is the intention or to turn to Ullstein.
+					<p><seg corresp="#d16">Must we consider <persName key="hasselbalchS">Mr. Hasselbalch</persName>’s mission as ended – or will it be respectful of <persName key="magnusE">Mr. Erwin Magnus</persName> to let it go through the Danish publisher, if that is the intention or to turn to <placeName key="ullstein">Ullstein</placeName>.
 					</seg></p>
-					<p><seg corresp="#d17">By the way, I am awaiting a response from ”Drei Masken” soon</seg></p>
+					<p><seg corresp="#d17">By the way, I am awaiting a response from ”<placeName key="dreiMasken">Drei Masken</placeName>” soon</seg></p>
 					<p><seg corresp="#d18">However, the first fragment by itself does not give a complete idea about the book, which is tightly written – and the end is the best.</seg></p>
 					<p><seg corresp="#d19">As the title I had: ”How <persName key="lili">Lili</persName> Became a Real Girl”</seg></p>
 					<p><seg corresp="#d20">"From Man Into Woman" is a little dry and misleading. <persName key="wegenerE">Bé</persName> might have been a gentleman, but apart from that I do not think he had much to boast of. Fortunately, that is something your little innocent friend does not remember.</seg></p>
