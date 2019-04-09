@@ -65,8 +65,8 @@
                     <resp>HTML proofing completed
                             <date><!-- insert date; see formatting suggestions above --></date>
                         by</resp>
-                    <persName ref=""><!-- Name of Proofer --></persName>
-                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <persName><!-- Name of Proofer --></persName>
+                    <persName><!-- Name of Proofer --></persName>
                 </respStmt>
                 <sponsor>Loyola University Chicago</sponsor>
                 <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -93,7 +93,6 @@ In 19241200, One red and one blue line are drawn vertically down the left side o
         <body>
             <div type="original"> 
                 <div rend="head">
-                    <p></p>
                     <p><date when="1931-06-15">15.6.31</date></p>
                 </div> 
                 <div rend="body">
@@ -268,6 +267,7 @@ snakket meget sammen på vore små ture ved <placeName key="gentofter">Gentofte 
                             <signed><persName key="wegenerS">Sigurd Thomsen</persName></signed>
                     </closer>
                 </div>
+            </div>
                     
             <!--SK end of original entries-->
                     
@@ -481,7 +481,6 @@ snakket meget sammen på vore små ture ved <placeName key="gentofter">Gentofte 
                             Thomsen</persName></signed>
                     </closer>
                 </div>
-            </div>
             </div>
         </body>
     </text>
