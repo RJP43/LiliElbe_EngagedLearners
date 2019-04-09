@@ -10,13 +10,12 @@
                <persName ref="mo">Marianne Ølholm</persName>
             </respStmt>
             <respStmt>
-               <resp>Encoding updated on <date when="2019-04-01">1 April 2019</date></resp>
+               <resp>Encoding updated on <date when="2019-04-01">8 April 2019</date></resp>
                <persName ref="kej">Kristin Jacobsen</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
-            <!-- KEJCAT 2019-30-20: Should I describe the fact that the article is one of many that have been bound into a book? MOVE TO SOURCE DESCRIPTION -->
          </publicationStmt>
          <sourceDesc>
             <p>Information about the source</p>
@@ -26,56 +25,35 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!-- For Articles: Remove the following if not encoding an article -->
-            <title><!-- Name of Newspaper/Journal/Magazine--></title>
-            <!-- Formatting dates in <respStmt> elements:            
-            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
-            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
-            If given month: <date>Month(written out), Year(as YYYY)</date>-->
-
-            <!-- People in <respStmt> elements: 
-            Each person on the project team has a special identifier (including you as an encoder).
-            These IDs should be used in the blank ref attribute-values below. 
-            IDs are created by taking the first and last initial of the person's name. 
-            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
-            <respStmt>
-               <resp>Photographed <date><!--insert date; see formatting suggestions above--></date>
+            <title>Sanheden</title>
+              <respStmt>
+               <resp>Photographed <date>August 16-17, 2017</date>
                   by</resp>
-               <persName ref=""><!-- Name of Photographer --></persName>
-            </respStmt>
-            <respStmt>
-               <resp>Images prepared
-                     <date><!--insert date; see formatting suggestions above--></date> by</resp>
-               <persName ref=""><!-- Name of Image Preparer --></persName>
+               <persName ref="plc">Pamela L. Caughie</persName>
             </respStmt>
             <respStmt>
                <resp>Transcription completed
-                     <date><!--insert date; see formatting suggestions above--></date> by</resp>
-               <persName ref=""><!-- Name of Transriber --></persName>
+                     <date>October 2017</date> by</resp>
+               <persName ref="mo">Marianne Ølholm</persName>
             </respStmt>
             <respStmt>
                <resp>Translation completed
-                     <date><!--insert date; see formatting suggestions above--></date> by</resp>
-               <persName ref=""><!-- Name of Translator --></persName>
+                     <date>October 2017</date> by</resp>
+               <persName ref="mo">Marianne Ølholm</persName>
             </respStmt>
             <respStmt>
-               <resp>Translation reviewed
-                     <date><!--insert date; see formatting suggestions above--></date> by</resp>
-               <persName ref=""><!-- Name of Translation Reviewer --></persName>
+               <resp>Translation reviewed by</resp>
+               <persName ref="plc">Pamela L. Caughie</persName>
             </respStmt>
             <respStmt>
                <resp>Encoding completed
-                     <date><!--insert date; see formatting suggestions above--></date> by</resp>
-               <persName ref=""><!-- Name of Primary Encoder --></persName>
+                     <date>April 2019</date> by</resp>
+               <persName ref="kej">Kristin Jacobsen</persName>
             </respStmt>
             <respStmt>
                <resp>Encoding assistance and/or XML proofing completed by</resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
-               <persName ref=""><!-- Name of Encoder/Proofer --></persName>
-               <!-- Remove any additional persName elements not used -->
-               <persName ref=""><!-- Name of Encoder/Proofer --></persName>
-               <!-- Remove any additional persName elements not used -->
-            </respStmt>
+             </respStmt>
             <respStmt>
                <resp>XML transformed into HTML
                      <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
@@ -96,27 +74,25 @@
             <pubPlace>Chicago, IL, USA</pubPlace>
             <date>July 6th, 2019</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
-                     <placeName><!-- location of archive --></placeName>
-               </p>
+               <p>Reproduced by courtesy of the <orgName>The Poul Knudsen Archive (NKS), Det Kongelige Bibliotek, The Royal Library</orgName> 
+                 in <placeName>Copenhagen, Denmark</placeName></p>
+               <!-- KEJ 2019-04-08: Is this just one identification, i.e. is The Poul Knudsen Archive in THe Royal Library? Is there a ref code for this archive? -->
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                   4.0 International license.</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
-               encoder's description must be in complete, logical sentences --></p>
+         <p><!-- KEJ 2019-04-08: The two-page article does not contain a date or even the name of the publication. It appears to be bound into a book with other printed material. --></p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="original">
-            <!-- KEJCAT 2019-03-27: article -->
             <div rend="head">
-               <p><hi rend="bold"><seg n="d01">En Bog om, hvordan <persName key="wegenerE">Hr.
+               <p><seg n="d01"><hi rend="bold">En Bog om, hvordan <persName key="wegenerE">Hr.
                            Wegener</persName> blev til <persName key="lili">Frøken
-                           Wegener.</persName></seg></hi></p>
+                           Wegener.</persName></hi></seg></p>
             </div>
             <div rend="headlines">
                <list>
@@ -150,9 +126,9 @@
                         "nonentities" or persons with non-normative sexual proclivities. The journal
                         seems to be condemning Mellerup for supporting Steincke’s writing on such
                         scandalous topics while criticizing, if not censoring, this journal. So now
-                        they are going after Hasselbalch for publishing Wegener’s scandalous
-                        story.</note> at de ikke kan have Blikket rettet mod andre Steder end dette
+                        they are going after <persName key="hasselbalchS">Hasselbalch</persName> for publishing Wegener’s scandalous story.</note> at de ikke kan have Blikket rettet mod andre Steder end dette
                      Blad.</seg></p>
+               <!-- KEJ 2019-04-08: Do I tag people within a note? If so, I need to go back and do the other references in notes. -->
                <p><seg n="d04">For imidlertid at hjælpe Politidirektøren, underretter vi herved ham
                      og Læserne om, at der i Foraaret vil udkomme en Bog hos <persName
                         key="hasselbalchS">Hasselbalch</persName>, og den er en saa oplagt
@@ -206,7 +182,7 @@
                         >Wegener</persName> skrev sit Navn og satte sig ned for at vente, men han
                      havde næppe taget Plads, før Døren paany gik op, og <persName key="gebhard"
                         >Lægen</persName> traadte ind.</seg></p>
-               <!-- KEJCAT 2019-03-30: Laegen, or "the doctor," in the two cases in this paragraph seems to be Gebhard, but there's no evidence for sure. It could be another doctor at the clinic. Should I leave the tag here or take it out? -->
+               <!-- KEJ 2019-03-30: Laegen, or "the doctor," in the two cases in this paragraph seems to be Gebhard, but there's no evidence for sure. It could be another doctor at the clinic. Should I leave the tag here or take it out? -->
                <list>
                   <item><seg n="d15"><hi rend="bold">“Det er ikke værre end at gaa til
                            Tandlægen,”</hi></seg></item>
@@ -238,8 +214,7 @@
                      der lød paa, at hun var Kvinde.</seg></p>
                <p><seg n="d25">Det viste sig yderst vanskeligt at faa disse Papirer. Der krævedes et
                      Utal af Undersøgelser og Attester fra Embedslæger og
-                     Retslægeraad<!-- KEJCAT 2019-03-30: I put this group as a persName but should there be a tag for organizations? -->
-                     men omsider faldt da Ministeriets Afgørelse, som gik ud paa, at naar hun
+                     Retslægeraad<!-- KEJ 2019-03-30: I put this group as a persName but should there be a tag for organizations? --> men omsider faldt da Ministeriets Afgørelse, som gik ud paa, at naar hun
                      faktisk <hi rend="italics">var</hi> Kvinde, saa skulde hun <cb n="2"/><pb n="1"
                      /> ogsaa have Papirer, der lød paa at hun var det. Hun antog da Navnet <hi
                         rend="italics"><persName key="lili">Lily Wegener</persName></hi>L, og som
@@ -247,36 +222,31 @@
                         Wegener</persName> blev samtidigt slettet af Kirkebogen, og <persName
                         key="lili">Frk. Wegener</persName>s Ret til at bære Kvindenavnet var
                      derefter uomstødelig.</seg></p>
-               <!-- KEJCAT 2019-02-21: Cartoon begins here and spreads over both columns of the page. -->
+               <!-- KEJ 2019-02-21: Cartoon begins here and spreads over both columns of the page. -->
                <figure xml:id="i00">
-                  <figDesc><hi rend="bold">Nowadays, you can expect anything. The other day my
-                        cousin (Fætter) came up to see me. He had become my female cousin (Kusine)
-                        since I saw him last.</hi></figDesc>
+               <!-- KEJ 2019-04-08: Why is the id not "i01"? -->
+                  <figDesc><hi rend="bold">I vore Dage kan man vente sig alt. Forleden kom min Fætter op og besøgte mig. Hun var blevet til en Kusine, siden jeg sidst saa hende.</hi></figDesc>
                   <note source="#kj">A man in striped pajamas is sitting up in a bed. A woman with
                      short hair, dressed in an elegant pantsuit, sits at the end of the bed smiling
                      at the man. A lit candle is on the bedside table. The cartoon is signed A.R.
                      CANE.</note>
                </figure>
-               <div type="headlines">
-                  <list>
-                     <!-- KEJCAT 2019-02-21: Do I need this list tag? It doesn't seem like there is a list here. -->
-                     <item><hi rend="bold"><seg n="d28">Mødet med <persName key="wegenerG">den
-                                 tidligere Hustru.</persName>den </seg></hi></item>
-                     <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
+               <!-- KEJ 2019-04-08: DOES THE CAPTION GET A SEGMENT NUMBER? I wanted to make sure before renumbering. -->
+                    <list>
+                     <item><seg n="d28"><hi rend="bold">Mødet med <persName key="wegenerG">den
+                                 tidligere Hustru.</persName></hi></seg></item>
                   </list>
-               </div>
+               
                <p><seg n="d29">Ikke ret længe efter mødte <persName key="lili">Lily
                         Wegener</persName>
                      <anchor type="commentRangeStart" n="comment4"/><persName key="wegenerG">sin
                         tidligere Hustru.</persName><anchor type="commentRangeEnd" n="comment4"
-                        /><note type="translator" source="Marianne Ølholm" xml:id="comment_comment4"
-                        ><!-- KEJCAT 2019-04-02: What is Marianne's team ID? --> The pronoun is not
-                        gendered in
-                     Danish.</note><!-- KEJCAT 2019-04-02: Did I construct the note correctly? -->
+                        /><note type="translator" source="mo" xml:id="comment_comment4">The pronoun is not
+                        gendered in Danish.</note><!-- KEJ 2019-04-02: Did I construct the note correctly? -->
                   </seg></p>
                <p><seg n="d30">Det var med ikke ringe Spænding, hun gik til dette Møde. Hun skulde
                      nu for første Gang gense <persName key="wegenerG">den
-                     Kvinde</persName>,<!-- KEJCAT 2019-04-02: Is "den Kvinde," translated as "this woman," appropriate to code as Gerda? -->
+                     Kvinde</persName>,<!-- KEJ 2019-04-02: Is "den Kvinde," translated as "this woman," appropriate to code as Gerda? -->
                      som hun havde været gift med, og som hun i Ægteskabet havde pint og skuffet saa
                      smerteligt.</seg></p>
                <p><seg n="d31">Men <persName key="wegenerG">Gerda Wegener</persName> sluttede
@@ -288,7 +258,7 @@
                      rørt til Taarer over Gensynet. Vel smilede hun, men store Taarer trillede hende
                      dog ned over Kinderne.</seg></p>
                <cb n="3"/>
-               <!-- KEJCAT 2019-02-21: I counted this as the third column in the article, but should it be column one for this page? -->
+               <!-- KEJ 2019-02-21: I counted this as the third column in the article, but should it be column one for this page? -->
                <p><seg n="d33">De to Damer sluttede et nyt Venskab, og det endte med, at de enedes
                      om, at <persName key="wegenerG"/>Gerda skulde adoptere <persName key="wegenerE"
                         >sin tidligere Mand</persName>, saa hun blev hendes Datter.</seg>
@@ -296,18 +266,14 @@
                <p><seg n="d34">Der viste sig ikke store Vanskeligheder ved Adoptionen. Ministeriet
                      bevilgede gerne, at <persName key="wegenerG">Fru Wegener</persName> adopterede
                         <persName key="lili">rk. Lily Wegener</persName>, og paa denne Maade
-                     <!-- KEJCAT 2019-02-21: The cartoon breaks up the text at this point in the second column. Do I need to indicate that? -->
+                     <!-- KEJ 2019-02-21: The cartoon breaks up the text at this point in the second column. Do I need to indicate that? -->
                      blev <persName key="wegenerE">den tidligere Ægtemand</persName> nu Datter i
                      Huset hos <persName key="wegenerG">sin forhenværende
                   Hustru</persName>.</seg></p>
                <!-- Again, this could be really confusing. Should I tag tidliegere Aegtemand as Einar and Datter as Lili? -->
-               <div type="headlines">
                   <list>
-                     <!-- KEJCAT 2019-02-21: Do I need this list tag? It doesn't seem like there is a list here. -->
-                     <item><hi rend="bold"><seg n="d35">Skandalebogen.</seg></hi></item>
-                     <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
+                     <item><seg n="d35"><hi rend="bold">Skandalebogen.</hi></seg></item>
                   </list>
-               </div>
                <p><seg n="d36">Alt dette kunde være meget godt, men det, der maa vække enhver
                      sundttænkende Mands Forargelse, er den Omstændighed, at <persName key="lili"
                         >Frk. Wegener</persName> nu vil udgive en Skandalebog.</seg></p>
@@ -316,56 +282,51 @@
                      “Politiken” <!-- Should I be tagging publication names? -->har skrevet den for
                      hende, og den giver en udpenslet Skildring af de erotiske Fornemmelser,
                      Mennesket
-                     Wegener<!-- KEJCAT 2019-04-02: How should I tag "Mennesket Wegener," which is translated as "person Wegener"? -->har
+                     Wegener<!-- KEJ 2019-04-02: How should I tag "Mennesket Wegener," which is translated as "person Wegener"? -->har
                      oplevet, dels som mand og dels som Kvinde.</seg></p>
                <!-- Again, philosophically,the text seems to be referring to Einar and Lili at the same time. How do I handle this? -->
                <p><seg n="d38">Kan man virkelig det?</seg></p>
                <p><seg n="d39"><hi rend="italics">Er</hi> en saadan Udpensling ikke for utiltalende
-                     for et anset Forlag som <persName key="hasselbalch">Hasselbalch</persName>s. Vi
-                     troede Jo, men <persName key="hasselbalch">Hasselbalch</persName> mener altsaa
+                     for et anset Forlag som <persName key="hasselbalchS">Hasselbalch</persName>s. Vi
+                     troede Jo, men <persName key="hasselbalchS">Hasselbalch</persName> mener altsaa
                      Nej.</seg></p>
                <cb n="4"/>
-               <!-- KEJCAT 2019-02-21: I counted this as the fourth column in the article, but should it be column two for this page? -->
+               <!-- KEJ 2019-02-21: I counted this as the fourth column in the article, but should it be column two for this page? -->
             </div>
-            <!-- KEJCAT 2019-02-21: Notes end of article. -->
+            <!-- KEJ 2019-02-21: Notes end of article. -->
          </div>
-         <!-- KEJCAT 2019-02-21: Notes end of original Danish version of article. -->
+         <!-- KEJ 2019-02-21: Notes end of  Danish version of article. -->
          <div type="translation">
-            <!-- KEJCAT 2019-03-27: article translation-->
-            <div type="headlines">
-               <list>
-                  <item rend="primary"><hi rend="bold"><seg n="d01">A Book About how <persName
-                              key="wegenerE">Mr. Wegener </persName>became <persName key="lili">Miss
-                              Wegener.</persName></seg></hi></item>
-                  <!-- KEJCAT 2019-03-20: How do I indicate that the headline runs across both pages of the article. -->
-                  <!-- KEJCAT 2019-03-20: How do I indicate that the headline in the original article has an initial letter E that drops below the line and acts as the start of a thick line running under the headline? -->
-                  <!-- KEJCAT 2019-02-19: How do I indicate that the headline and thick black line spread over both pages of the arricle? -->
-                  <item><hi rend="bold"><seg n="d02"><persName key="hasselbalchS">Hasselbalch
-                           </persName>Publishes the Scandalous Book.</seg></hi></item>
-                  <!-- KEJCAT 2019-03-31: This is a sub-heading of the main article headline. Is it correct to put it as an item in this list tag? Is there another rend key I shoud use, like secondary? -->
-               </list>
-            </div>
-            <div type="articleBody">
-               <p><seg n="d03">THE
-                     SPECULATION<!-- KEJCAT 2019-02-21: How do I indicate that initial letter is bigger than other letters in the word and that it drops down to the next line? -->
-                     in printed matter touching on the sexual domain has by now taken on such
-                     proportions that one would think that the commissioner of police was asleep and
-                     let <anchor type="commentRangeStart" n="comment1"/>obscenity paragraphs <anchor
+            <!-- KEJ 2019-03-27: article translation-->
+            <div rend="head">
+          <p><seg n="d01"><hi rend="bold">A Book About how <persName key="wegenerE">Mr. Wegener </persName>became <persName key="lili">Miss Wegener.</persName></hi></seg>
+          </p>
+          <!-- In general, should I put a space before the closing element of a tag, or somewhere else, to ensure that there is a space once it is rendered? -->
+          <!-- I think that in the English translation of the headline, "book" and "about" should not be capitalized. Should I change them? -->
+          <div rend="headlines">
+          <list>
+             <item rend="primary"><seg n="d02"><hi rend="bold"><persName key="hasselbalchS">Hasselbalch
+             </persName>Publishes the Scandalous Book.</hi></seg></item>
+          </list>
+          </div>
+          <div rend="body">
+          <p><seg n="d03">THE SPECULATION in printed matter touching on the sexual domain has by now taken on such proportions that one would think that the commissioner of police was asleep and let <anchor type="commentRangeStart" n="comment1"/>obscenity paragraphs <anchor
                         type="commentRangeEnd" n="comment1"/>
-                     <note type="translator" source="Marianne Ølholm" xml:id="comment_comment1"
-                        ><!-- KEJCAT 2019-04-02: What is Marianne's team ID? --><!-- KEJCAT 2019-04-02: Did I construct the note correctly? -->This
+                     <note type="translator" source="mo" xml:id="comment_comment1">
+                     This
                         likely refers to Paragraph 184 in the criminal law of 1866 which was used in
-                        other cases of literary censorship.</note> be obscenity paragraphs. Perhaps
+                        other cases of literary censorship.</note>
+             <!-- KEJ 2019-04-02: Did I construct the note correctly? -->
+             be obscenity paragraphs. Perhaps
                      the truth is that the commissioner of police aided by <anchor
-                        type="commentRangeStart" n="comment2"/><persName key="mellerup ">Mr.
+                        type="commentRangeStart" n="comment2"/><persName key="mellerup">Mr.
                         Mellerup</persName>, <anchor type="commentRangeEnd" n="comment2"/>
-                     <note type="translator" source="Pamela Caughie" xml:id="comment_comment2"
-                        ><!-- KEJCAT 2019-04-02: What is Dr. Caughie's team ID? --> Einer Mellerup
-                        was deputy police commissioner in Copenhagen from 1926.</note><!-- KEJCAT 2019-04-02: Did I construct the note correctly? -->
+                     <note type="translator" source="Pamela Caughie" xml:id="comment2"
+                        ><!-- KEJ 2019-04-02: What is Dr. Caughie's team ID? --> Einer Mellerup
+                        was deputy police commissioner in Copenhagen from 1926.</note><!-- KEJ 2019-04-02: Did I construct the note correctly? -->
                      <anchor type="commentRangeStart" n="comment3"/><persName key="steincke"
                         >Steincke</persName>, <anchor type="commentRangeEnd" n="comment3"/>
-                     <note type="translator" source="Marianne Ølholm" xml:id="comment_comment2"
-                        ><!-- KEJCAT 2019-04-02: What is Marianne's team ID? --> K. K. (Karl
+                     <note type="translator" source="mo" xml:id="comment3"> K. K. (Karl
                         Kristian) Steincke was a prominent social democrat. From 1929 he was the
                         minister for social affairs and he is probably best known for being behind
                         the social reform of 1933 which is often seen as the beginning of the Danish
@@ -376,52 +337,39 @@
                         seems to be condemning Mellerup for supporting Steincke’s writing on such
                         scandalous topics while criticizing, if not censoring, this journal. So now
                         they are going after Hasselbalch for publishing Wegener’s scandalous story.
-                     </note><!-- KEJCAT 2019-04-02: Did I construct the note correctly? --> that
-                     they cannot have their glance directed to other places than this
+                     </note>that they cannot have their glance directed to other places than this
                      magazine.</seg></p>
                <p><seg n="d04">But to help the commissioner of police
-                     <!-- KEJCAT 2019-04-01: Should I tag the commissioner of police? -->we hereby
+                     <!-- KEJ 2019-04-01: Should I tag the commissioner of police? -->we hereby
                      inform him and the readers that a book will be published by <persName
                         key="hasselbalchS">Hasselbalch</persName> in the spring and that it is a
-                     <!-- KEJCAT 2019-04-01: I think this "a" before "such" should be deleted. -->such
+                     <!-- KEJ 2019-04-01: I think this "a" before "such" should be deleted. -->such
                      an obvious speculation in people’s curiosity towards the sexual questions that
                      there is absolutely cause for intervention. </seg></p>
                <p><seg n="d05">The book is written by <persName key="wegenerE"><hi rend="italics"
                            >the painter Wegener</hi></persName>, who was formerly <persName
                         key="wegenerE"><persName key="wegenerG">Gerda Wegener</persName>'s
                         husband</persName>. It is about the painter’s
-                     <!-- KEJCAT 2019-04-02: Should I tag "the painter" as Einar? --> experiences
+                     <!-- KEJ 2019-04-02: Should I tag "the painter" as Einar? --> experiences
                      during the transformation from man into woman.</seg></p>
-               <!-- KEJCAT 2019-03-30: Can I tag for both Gerda and Einar? -->
+               <!-- KEJ 2019-03-30: Can I tag for both Gerda and Einar? -->
                <p><seg n="d06">This transformation took place not long ago in <placeName
                         key="berlin">Berlin</placeName>, where on the operating table <persName
                         key="wegenerE">Wegener</persName> let himself be transformed from man into
                      woman.</seg></p>
                <list>
-                  <!-- KEJCAT 2019-03-20: Do I need this list tag? It doesn't seem like there is a list here. -->
-                  <item><p style="heading" rend="division"><seg n="d07"><hi rend="bold">An Unhappy
-                              Marriage.</hi></seg></p></item>
+               <item><seg n="d07"><hi rend="bold">An Unhappy Marriage.</hi></seg></item>
                </list>
-               <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
                <p><seg n="d08">The painter’s
-                     <!-- KEJCAT 2019-04-02: Should I code the painter as Einar? It is referring more to his marriage. -->
-                     marriage was unhappy. He <!-- Do I need to code every pronoun? -->was not a
-                     well and natural man. He was halfway woman and this caused severe conflicts in
-                     the home. <persName key="wegenerE">Wegener</persName> suffered greatly under
-                     the desperate conditions in the home. He loved <persName key="wegenerG">his
-                        wife</persName> with a deep and genuine affection, but he did not have the
-                     natural masculine desire towards her that a real man feels for the woman he
-                     loves. At the same time, he fights a desperate fight against an attraction to
-                     other men that he felt within himself.</seg></p>
+          <!-- KEJ 2019-04-02: Should I code the painter as Einar? It is referring more to his marriage. -->
+                     marriage was unhappy. He was not a well and natural man. He was halfway woman and this caused severe conflicts in the home. <persName key="wegenerE">Wegener</persName> suffered greatly under the desperate conditions in the home. He loved <persName key="wegenerG">his wife</persName> with a deep and genuine affection, but he did not have the natural masculine desire towards her that a real man feels for the woman he loves. At the same time, he fights a desperate fight against an attraction to other men that he felt within himself.</seg></p>
                <p><seg n="d09">He brooded more and more on these matters until one day he heard
                      about the operations performed by German scientists that make people of his
                      kind healthy and natural by giving them their proper sex.</seg></p>
                <list>
-                  <!-- KEJCAT 2019-30-20: Do I need this list tag? It doesn't seem like there is a list here. -->
-                  <item><p style="heading" rend="division"><hi rend="bold"><seg n="d10">Better
-                              Change Your Sex than Remain Unhappy.</seg></hi></p></item>
+                  <!-- KEJ 2019-30-20: Do I need this list tag? It doesn't seem like there is a list here. -->
+               <item><seg n="d10"><hi rend="bold">Better Change Your Sex than Remain Unhappy.</hi></seg></item>
                </list>
-               <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
                <p><seg n="d11">From that moment on <persName key="wegenerE">Wegener</persName>s
                      thoughts took a new direction. He hardly thought that he could continue to
                      endure the fate that had given him a woman’s soul in a man’s body. He then
@@ -436,26 +384,21 @@
                      change him into a real woman there.</seg></p>
                <p><seg n="d13">He carried out his plan and some weeks later he was standing outside
                         <placeName key="gebhardSanatorium">a private clinic</placeName> in the
-                     fashionable quarter
-                     <!-- KEJCAT 2019-03-30: Need to code "the fashionable quarter of Berlin" once key is decided. -->of
-                        <placeName key="berlin">Berlin></placeName>.</seg></p>
+                     fashionable quarter of <placeName key="berlin">Berlin></placeName>.</seg></p>
                <p><seg n="d14">He rang the doorbell and was received by a friendly nurse who asked
                      him to take a seat and write his name in a reception book that was shown to
                         <persName key="gebhard">the doctor</persName>. <persName key="wegenerE"
                         >Wegener</persName> wrote his name and sat down to wait, but he had hardly
                      taken a seat before the door was opened again and <persName key="gebhard">the
                         doctor</persName> stepped.</seg></p>
-               <!-- KEJCAT 2019-03-30: Laegen, or "the doctor," in the two cases in this paragraph seems to be Gebhard, but there's no evidence for sure. It could be another doctora at the clinic. Should I leave the tag here or take it out? -->
+               <!-- KEJ 2019-03-30: Laegen, or "the doctor," in the two cases in this paragraph seems to be Gebhard, but there's no evidence for sure. It could be another doctora at the clinic. Should I leave the tag here or take it out? -->
                <list>
-                  <!-- KEJCAT 2019-30-20: Do I need this list tag? It doesn't seem like there is a list here. -->
-                  <item><p style="heading" rend="division"><hi rend="bold"><seg n="d15">“It Is no
-                              Worse than Going to the Dentist,”</seg></hi></p></item>
+                  <item><seg n="d15"><hi rend="bold">“It Is no Worse than Going to the Dentist,”</hi></seg></item>
                </list>
-               <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
+             <!-- KEJ 2019-04-08: Capitalization is different in Danish than in English. Are we keeping the same form in both Danish and English or should I go back and change the English translation? I don't think it's very consistent. -->
                <p><seg n="d16">he said to <persName key="wegenerE">Wegener</persName>, when he had
                      stated his errand which was to ask if it was a very serious operation that was
                      needed to make him a woman.</seg></p>
-               <!-- Paragraph does not indent in the original article because it continues a quote started in the subheading. -->
                <p><seg n="d17"><persName key="wegenerE">Wegener</persName> then admitted himself to
                         <placeName key="gebhardSanatorium">the clinic</placeName>, and a few days
                      later the operation took place. </seg></p>
@@ -481,7 +424,7 @@
                <p><seg n="d25">It proved extremely difficult to get these papers. It took countless
                      examinations and certificates from community physicians and the<persName
                         key="medlegalcouncil"> Medico-legal Council</persName>,
-                     <!-- KEJCAT 2019-03-30: I put this group as a persName but should there be a tag for organizations? -->
+                     <!-- KEJ 2019-03-30: I put this group as a persName but should there be a tag for organizations? -->
                      but eventually the ministry arrived at its decision to the effect that when she
                      actually <hi rend="italics">was</hi> a woman she should <cb n="2"/><pb n="1"/>
                      also have papers stating that she was so. She then assumed the name <hi
@@ -490,43 +433,33 @@
                         key="wegenerE">the man Wegener</persName> was struck from the parish
                      register and <persName key="lili">Miss Wegener</persName>s right to bear the
                      woman’s name was incontestable after that.</seg></p>
-               <!-- KEJCAT 2019-02-21: Cartoon begins here and spreads over both columns of the page. -->
-               <figure xml:id="i00">
-                  <seg n="d26">
-                     <figDesc><hi rend="bold"><seg n="d27">I vore Dage kan man vente sig alt.
-                              Forleden kom min Fætter op og besøgte mig. Hun var blevet til en
-                              Kusine, siden jeg sidst saa hende.</seg></hi></figDesc>
-                     <!-- I coded the cartoon and its caption as separate segments. Is this correct? Is it also correct not to code the description, since it doesn't appear in the text? -->
-                     <note type="desc" source="#kj">A man in striped pajamas is sitting up in a bed.
-                        A woman with short hair, dressed in an elegant pantsuit, sits at the end of
-                        the bed smiling at the man. A lit candle is on the bedside table. The
-                        cartoon is signed A.R. CANE.</note>
-                  </seg>
-               </figure>
-               <div type="headlines">
+             <!-- KEJ 2019-02-21: Cartoon begins here and spreads over both columns of the page. -->
+             <figure xml:id="i00">
+                <figDesc><hi rend="bold">Nowadays, you can expect anything. The other day my cousin (Fætter) came up to see me. He had become my female cousin (Kusine) since I saw him last.</hi>
+                </figDesc>
+                <note source="#kej">A man in striped pajamas is sitting up in a bed. A woman with
+                   short hair, dressed in an elegant pantsuit, sits at the end of the bed smiling
+                   at the man. A lit candle is on the bedside table. The cartoon is signed A.R.
+                   CANE.</note>
+             </figure>
                   <list>
-                     <!-- KEJCAT 2019-02-21: Do I need this list tag? It doesn't seem like there is a list here. -->
-                     <item><hi rend="bold"><seg n="d28">Meeting <persName key="wegenerG">the Former
-                                 Wife.</persName></seg></hi></item>
-                     <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
+                     <item><seg n="d28"><hi rend="bold">Meeting <persName key="wegenerG">the Former
+                                 Wife.</persName></hi></seg></item>
                   </list>
-               </div>
                <p><seg n="d29">Not long after this, <persName key="lili">Lily Wegener</persName> met
-                        <anchor type="commentRangeStart" n="comment4"/><persName key="wegenerG">her
-                        former wife</persName>.<!-- KEJCAT 2019-04-02: Only the word "sin" is being commented on, but I can't figure out how to structure the note tag with the persName tag. -->
-                     <anchor type="commentRangeEnd" n="comment4"/>
-                     <note type="translator" source="Marianne Ølholm" xml:id="comment_comment4"
-                        ><!-- KEJCAT 2019-04-02: What is Marianne's team ID? --> The pronoun is not
-                        gendered in
-                     Danish.</note><!-- KEJCAT 2019-04-02: Did I construct the note correctly? -->
+                        <anchor type="commentRangeStart" n="comment_4"/><persName key="wegenerG">her
+                        former wife</persName>.<!-- KEJ 2019-04-02: Only the word "sin" is being commented on, but I can't figure out how to structure the note tag with the persName tag. -->
+                     <anchor type="commentRangeEnd" n="comment_4"/>
+                     <note type="translator" source="mo" xml:id="comment_4"> The pronoun is not
+                        gendered in Danish.</note>
                   </seg></p>
                <p><seg n="d30">It was with considerable anticipation that she went to this meeting.
                      For the first time she was now to see <persName key="wegenerG">this
                         woman</persName>
-                     <!-- KEJCAT 2019-04-02: Is "this woman" appropriate to code as Gerda? -->again,
-                     <!-- KEJCAT 2019-04-02: I added a comma after again. --> to whom she had been
+                     <!-- KEJ 2019-04-02: Is "this woman" appropriate to code as Gerda? -->again,
+                     <!-- KEJ 2019-04-02: I added a comma after again. --> to whom she had been
                      married and whom in the marriage she had tortured and disappointed so
-                     painfully. </seg></p>
+                     painfully.</seg></p>
                <p><seg n="d31">But <persName key="wegenerG">Gerda Wegener</persName> clasped
                         <persName key="lili">Lily</persName> in her arms as soon as they met. They
                      were now two women standing face to face. They were on equal terms and all the
@@ -536,27 +469,23 @@
                      was moved to tears by the reunion. She was certainly smiling but big tears
                      rolled down her cheeks.</seg></p>
                <cb n="3"/>
-               <!-- KEJCAT 2019-02-21: I counted this as the third column in the article, but should it be column one for this page? -->
+               <!-- KEJ 2019-02-21: I counted this as the third column in the article, but should it be column one for this page? -->
                <p><seg n="d33">The two ladies formed a new friendship and they ended up agreeing
                      that <persName key="wegenerG">Gerda</persName> should adopt <persName
                         key="wegenerE">her former husband</persName>, so that she became her
                      daughter.</seg>
-                  <!-- KEJCAT 2019-04-01: I tagged "sin tidligere Mand" or "her former husband" as Einar, but should it really be referring to Lili? I did not tag the phrase "saa hun blev hendes Datter," which is "she [Lili] became her [Gerda's] daughter." Should I tag this, as well? I haven't been tagging she and her consistently. Should I tag every pronoun? --></p>
+                  <!-- KEJ 2019-04-01: I tagged "sin tidligere Mand" or "her former husband" as Einar, but should it really be referring to Lili? I did not tag the phrase "saa hun blev hendes Datter," which is "she [Lili] became her [Gerda's] daughter." Should I tag this, as well? --> </p>
                <p><seg n="d34">No great difficulties appeared in connection with the adoption. The
                      ministry willingly granted that <persName key="wegenerG">Mrs.
                         Wegener</persName> adopted <persName key="lili">Miss Lily
                      Wegener</persName>, and in this way
-                        <!-- KEJCAT 2019-02-21: The cartoon breaks up the text at this point in the second column. Do I need to indicate that? --><persName
+                   <!-- KEJ 2019-02-21: The cartoon breaks up the text at this point in the second column. Do I need to indicate that? --><persName
                         key="wegenerE">the former husband</persName> now became a daughter in the
                      house of <persName key="wegenerG">her former wife</persName>.</seg></p>
                <!-- Again, this could be really confusing. Should I tag tidliegere Aegtemand as Einar and Datter as Lili? -->
-               <div type="headlines">
-                  <list>
-                     <!-- KEJCAT 2019-02-21: Do I need this list tag? It doesn't seem like there is a list here. -->
-                     <item><hi rend="bold"><seg n="d35">The Scandalous Book.</seg></hi></item>
-                     <!-- KEJCAT 2019-02-21: This is a third type of headline, but it doesn't really fall into that category. How do I indicate that this as a tertiary headline or a section break? -->
+               <list>
+                  <item><seg n="d35"><hi rend="bold">The Scandalous Book.</hi></seg></item>
                   </list>
-               </div>
                <p><seg n="d36">This could all be very well but what must give offence to any sanely
                      thinking man is the fact that <persName key="lili">Miss Wegener</persName> is
                      now going to publish a scandalous book.</seg></p>
@@ -566,23 +495,23 @@
                      <!-- Should I be tagging publication names? -->Loulou Lassen from “Politiken”
                      has written it for her and it gives an unnecessarily detailed description of
                      the erotic feelings that the <persName key="wegenerE">person
-                     Wegener</persName><!-- KEJCAT 2019-04-02: How should I tag "person Wegener"? -->
+                     Wegener</persName><!-- KEJ 2019-04-02: How should I tag "person Wegener"? -->
                      has experienced as a man and as a woman respectively.</seg></p>
                <!-- Again, philosophically,the text seems to be referring to Einar and Lili at the same time. How do I handle this? -->
                <p><seg n="d38">Can you really do that?</seg></p>
                <p><seg n="d39"><hi rend="italics">Is</hi> such an unnecessarily detailed description
                      not too repulsive for a distinguished publisher such as <persName
-                        key="hasselbalch">Hasselbalch</persName>'s.
-                     <!-- KEJCAT 2019-04-02: I added an apostrophe here. --> We thought Yes, but
-                        <persName key="hasselbalch">Hasselbalch</persName> obviously thinks
+                        key="hasselbalchS">Hasselbalch</persName>'s.
+                     <!-- KEJ 2019-04-02: I added an apostrophe here. --> We thought Yes, but
+                        <persName key="hasselbalchS">Hasselbalch</persName> obviously thinks
                      No.</seg></p>
                <cb n="4"/>
-               <!-- KEJCAT 2019-02-21: I counted this as the fourth column in the article, but should it be column two for this page? -->
+               <!-- KEJ 2019-02-21: I counted this as the fourth column in the article, but should it be column two for this page? -->
             </div>
-            <!-- KEJCAT 2019-02-21: Notes end of article. -->
-
-
-         </div>
+               <!-- KEJ 2019-02-21: Notes end of translation. -->
+            </div>
+            <!-- KEJ 2019-02-21: Notes end of article. -->
+            <!-- KEJ 2019-04-08: I think I messed up the nesting. At the end of the translation, there was a closing tag for the end of the translation andn the end of the article, but I can't find the tag for the beginning of the article for the translation. I'm wondering if that is what is causing the error in the next line. -->
       </body>
    </text>
 </TEI>
