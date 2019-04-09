@@ -5,6 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title>
+               <date>0000-00-00</date>
                Letter to <persName key="harthernE">Ernest Ludwig Harthern
                Jacobsen</persName>
             </title>
@@ -82,19 +83,20 @@
       <body>
          <div type="original">
             <div rend="head">
-               <p><add place="leftMargin" type="insertion" rend="pencil">Thomsen</add></p>
+               <p><add place="leftMargin" type="insertion" rend="pencil"><persName key="thomsenTC">Thomsen</persName></add></p>
                <p>Gentoftegade 14. Gentofte Tlf. Gentofte 144</p>
             </div>
             <div rend="body">
-               <salute>Hr. <persName key="hoyerNiels">Niels Hoyer</persName> Havnegade
-                  47 København</salute>
+               <salute>Hr. <persName key="hoyerNiels">Niels Hoyer</persName> <placeName>Havnegade</placeName>
+                  47 <placeName key="copenhagen">København</placeName></salute>
                <p><seg n="d01">Efter Aftale med <persName key="lili">Fru Lili Elvenes</persName>
                      sender jeg Dem hermed et Billede (som jeg gerne ønsker <hi rend="underline"
                         >retur</hi>, da det er det eneste, jeg ejer) af min Svoger Kunstmaler
                         <persName key="wegenerE">Einar Wegener</persName>.</seg></p>
                <p><seg n="d02">Jeg beder Dem tale med mig <hi rend="underline">inden</hi> De sender
                      noget uddrag af Manuskriptet til <placeName key="germany">Tyskland</placeName>
-                     – min Telefon er efter 6.30 Gentofte 144, og i Løbet
+                  – min <anchor type="commentRangeStart" n="1"/>Telefon<anchor type="commentRangeEnd" n="1"/><note type="translator" source="kj"   
+                     xml:id="comment_1">Implied number is included with telephone in the translation.</note> er efter 6.30 Gentofte 144, og i Løbet
                      af Dagen er det : Central 4726.</seg></p>
            <closer>
                <salute><seg n="d03">Med megen Agtelse</seg></salute>
@@ -107,12 +109,12 @@
          </div>
          <div type="translation">
             <div rend="head">
-               <p>Thomsen</p>
+               <p><add place="leftMargin" type="insertion" rend="pencil"><persName key="thomsenTC">Thomsen</persName></add></p>
                <p>Gentoftegade 14. Gentofte Tlf. Gentofte 144</p>
             </div>
             <div rend="body">
-               <salute><seg>Hr. <persName key="hoyerNiels">Niels Hoyer</persName> Havnegade
-                  47 København</seg></salute>
+               <salute><seg>Hr. <persName key="hoyerNiels">Niels Hoyer</persName> <placeName>Havnegade</placeName>
+                  47 <placeName key="copenhagen">København</placeName></seg></salute>
                <p><seg corresp="#d01">As agreed with <persName key="lili">Mrs. Lili
                         Elvenes</persName> I hereby send you a picture (which I would like you to
                         <hi rend="underline">return</hi> as it is the only one I own) of my
