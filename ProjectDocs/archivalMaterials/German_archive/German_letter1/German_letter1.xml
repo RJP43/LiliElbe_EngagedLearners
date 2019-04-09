@@ -11,39 +11,27 @@
                     <persName key="kellerH">Herta Keller</persName>
                 </author>
                 <respStmt>
-                    <resp>Photographed
-                        <date>August 16-17, 2017</date>
-                        by</resp>
+                    <resp>Photographed <date>August 16-17, 2017</date> by</resp>
                     <persName ref="plc">PamelaL.Caughie></persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Images prepared
-                            <date>August, 2017, November, 2017</date>
-                        by</resp>
+                    <resp>Images prepared <date>August, 2017, November, 2017</date> by</resp>
                     <persName ref="mg">Matthew Gallagher</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Transcription completed
-                            <date>January to March, 2018</date>
-                        by</resp>
+                    <resp>Transcription completed <date>January to March, 2018</date> by</resp>
                     <persName ref="twj">Tatjana Willms-Jones</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Translation completed
-                        <date>January to March, 2018</date>
-                        by</resp>
+                    <resp>Translation completed <date>January to March, 2018</date> by</resp>
                     <persName ref="twj">Tatjana Willms-Jones</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Translation reviewed
-                            <date>August, 2018</date>
-                        by</resp>
+                    <resp>Translation reviewed <date>August, 2018</date> by</resp>
                     <persName ref="sm">Sabine Meyer</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Encoding completed
-                            <date>September to October, 2018</date>
-                        by</resp>
+                    <resp>Encoding completed <date>September to October, 2018</date> by</resp>
                     <persName ref="zo">Zanabe Othman</persName>
                 </respStmt>
                 <respStmt>
@@ -73,8 +61,8 @@
                 <pubPlace>Chicago, IL, USA</pubPlace>
                 <date>July 6th, 2019</date>
                 <availability>
-                    <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
-                            <placeName><!-- location of archive --></placeName>
+                    <p>Reproduced by courtesy of the <orgName>Ernst Harthern Archives</orgName> in
+                        <placeName>Huddinge, Sweden</placeName>
                     </p>
                     <licence>Distributed under a Creative Commons
                         Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
@@ -90,13 +78,14 @@
         <body>
             <div type="original">
                 <div rend="head">
-                    <p>Aussig, <seg n="g01">den</seg> <date when="1932-03-09">09.03.32</date></p>
+                    <p>Aussig, <seg n="g01">den</seg>
+                        <date when="1932-03-09">09.03.32</date></p>
                 </div>
                 <div rend="body">
-                    <p><seg n="g02">Ich las eine Besprechung Ihres Buches „Fra Mann til Kvinde“ und würde es
-                            gerne ins Deutsche übersetzen..</seg></p>
-                    <p><seg n="g03">Bitte schreiben sie mir, ob und zu welchen Bedingungen Sie mir das
-                            Übersetzungsrecht überlassen wollen.</seg></p>
+                    <p><seg n="g02">Ich las eine Besprechung Ihres Buches „Fra Mann til Kvinde“ und
+                            würde es gerne ins Deutsche übersetzen..</seg></p>
+                    <p><seg n="g03">Bitte schreiben sie mir, ob und zu welchen Bedingungen Sie mir
+                            das Übersetzungsrecht überlassen wollen.</seg></p>
                     <closer>
                         <salute><seg n="g04">Hochachtungsvoll,</seg></salute>
                         <signed><persName key="kellerH">Herta Keller</persName></signed>
@@ -105,13 +94,14 @@
             </div>
             <div type="translation">
                 <div rend="head">
-                    <p>Aussig, <seg corresp="#g01">the</seg> <date when="1932-03-09">03/09/32</date></p>
+                    <p>Aussig, <seg corresp="#g01">the</seg>
+                        <date when="1932-03-09">03/09/32</date></p>
                 </div>
                 <div rend="body">
-                    <p><seg corresp="#g02">I read a review of your book "Fra Mann til Kvinde" and I would like to
-                        translate it into German.</seg></p>
-                    <p><seg corresp="#g03">Please let me know, if and under what conditions you would authorize this
-                        translation.</seg></p>
+                    <p><seg corresp="#g02">I read a review of your book "Fra Mann til Kvinde" and I
+                            would like to translate it into German.</seg></p>
+                    <p><seg corresp="#g03">Please let me know, if and under what conditions you
+                            would authorize this translation.</seg></p>
 
                     <closer><salute><seg corresp="#g04">Kind regards,</seg></salute>
                         <signed><persName key="kellerH">Herta Keller</persName></signed></closer>
