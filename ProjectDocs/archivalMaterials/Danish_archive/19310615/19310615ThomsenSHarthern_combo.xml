@@ -67,7 +67,6 @@
                         by</resp>
                     <persName ref=""><!-- Name of Proofer --></persName>
                     <persName ref=""><!-- Name of Proofer --></persName>
-                    <!-- Remove any additional persName elements not used -->
                 </respStmt>
                 <sponsor>Loyola University Chicago</sponsor>
                 <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -122,12 +121,12 @@ In 19241200, One red and one blue line are drawn vertically down the left side o
             <p style="LiliDiary">
                 <date when="1921-12-29">29/12.</date>
             </p>
-                    <p style="LiliDiary"><persName key="wegenerG">Tante Gerda</persName>, <persName key="wegenerE">onkel Einar</persName> og <persName key="gottliebMrs">fru Gottlieb</persName> kom= mer til middag med hummer. <persName key="else">Else</persName> laver mayonaise. <persName key="?">Moder</persName> var til middag en time om at spise sin portion. Så var der to slags oste, 1 råden og en frisk , samt salat, mayonaise og <hi rend="underline">lagkage</hi>. Der blev spillet en masse på grammaphonen og <persName key="wegenerE">onkel Einar</persName> dansede en fransk Apache dans. Grin m.m.</p>
-                    
+                    <p style="LiliDiary"><persName key="wegenerG">Tante Gerda</persName>, <persName key="wegenerE">onkel Einar</persName> og <persName key="gottliebMrs">fru Gottlieb</persName> kom= mer til middag med hummer. <persName key="else">Else</persName> laver mayonaise. <persName key="sister">Moder</persName> var til middag en time om at spise sin portion. Så var der to slags oste, 1 råden og en frisk , samt salat, mayonaise og <hi rend="underline">lagkage</hi>. Der blev spillet en masse på grammaphonen og <persName key="wegenerE">onkel Einar</persName> dansede en fransk Apache dans. Grin m.m.</p>
+<!--AC When asking Dr. Caughie about the mother in question, she told us that "Moder" is referring to Christiane Wegener Thomsen, Einer's sister-->                    
                     <p style="LiliDiary">
                         <date when="1922-01-03">3/1.</date> 
                     </p>
-                    <p style="LiliDiary">Blev liggende i sengen p. gr. a. Fåresyge, mægtig tyk i hovedet. Fik 1.80 Kr. af <persName key="wegenerE">onkel Einar</persName>, fordi han tog <persName key="?">Else</persName> med på <choice><orig>restraution</orig> <reg>restauration</reg></choice> <!--Sk we're not sure what to do with this part of the encoding so we just left it for now--> <note type="translator">The word should be spelled restauration.</note>.</p>
+                    <p style="LiliDiary">Blev liggende i sengen p. gr. a. Fåresyge, mægtig tyk i hovedet. Fik 1.80 Kr. af <persName key="wegenerE">onkel Einar</persName>, fordi han tog <persName key="else">Else</persName> med på <choice><orig>restraution</orig> <reg>restauration</reg></choice> <!--Sk we're not sure what to do with this part of the encoding so we just left it for now--> <note type="translator">The word should be spelled restauration.</note>.</p>
                     <p style="LiliDiary">
                         <date when="1922-01-09">9/1.</date>
                     </p>
@@ -137,7 +136,7 @@ In 19241200, One red and one blue line are drawn vertically down the left side o
                     </p>
                     <p style="LiliDiary"><persName key="thomsenTC">Far</persName> fortalte os om <persName key="wegenerE">Einar</persName>, der klæder sig ud som pige. De praktiske forudsætninger herfor er, hans ringe højde, velskabte skikkelse, nydelige ben og små fødder. Desuden barberer han sig omhyggeligt, og ved rigelig brug af pudder og sminke kan han i <placeName key="paris">Paris</placeName> ved elektrisk lys gå for en dame. – Stemmen lægger han op i et sådant leje, at den kan gå for en dyb kvindestemme . – Grunden til hans lyst hertil er sandsynligvis forfængelighed. – Udklædt som <persName key="lili">Lili</persName> be=søgte <persName key="wegenerE">Einar</persName> os en gang medens vi boede på <placeName key="phistersStreet">Phistersvej</placeName> da <persName key="mother">hans egen mor</persName> var i besøg hos os. Hun kendte ham ikke.</p>
                    
-                    <p syle="LiliDiary">
+                    <p style="LiliDiary">
                         <date when="1931-08-16">16/8-31.</date>
                     </p>
 <p style="LiliDiary"><persName key="lili">Lili</persName> og <persName key="wegenerG">Gerda</persName> kom her til formiddag. <persName key="lili">Lili</persName> skal bo her. Hun er her i <placeName key="copenhagen">København</placeName> for at få ansigtshuden feminiseret.</p> 
