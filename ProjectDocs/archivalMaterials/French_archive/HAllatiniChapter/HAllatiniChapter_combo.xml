@@ -15,13 +15,13 @@
                         <date>January 15, 2019</date>
                         by</resp>
                     <persName>Ashley Howdeshell</persName>
-                    <persName>Matthew Gallagher</persName>
+                    <persName ref="mg">Matthew Gallagher</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Images prepared
-                            <date>January-February 2019</date>
+                        <date>January-February 2019</date>
                         by</resp>
-                    <persName>Matthew Gallagher</persName>
+                    <persName ref="mg">Matthew Gallagher</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Transcription completed 
@@ -32,20 +32,20 @@
                 </respStmt>
                 <respStmt>
                     <resp>Translation completed
-                            <date>March 2018</date>
+                        <date>March 2018</date>
                         by</resp>
-                    <persName>Anne M. Callahan</persName>
+                    <persName ref="ac">Anne M. Callahan</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Translation reviewed
-                            <date>March 2018</date>
+                        <date>March 2018</date>
                         by</resp>
-                    <persName>Anne M. Callahan</persName>
+                    <persName ref="ac">Anne M. Callahan</persName>
                     <persName ref="plc">Pamela L. Caughie</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding completed <date>April 5, 2019</date> by</resp>
-                    <persName ref="ak">Abdur Khan</persName>
+                    <persName ref="ak">Abdurrafey Khan</persName>
                     <persName ref="bc">Cristiana Bertola</persName>
                     <persName ref="kk">Katarzyna Klimek</persName>
                     <persName ref="ep">Eleni Pamboukis</persName>
@@ -57,12 +57,12 @@
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
-                            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                        <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
                     <persName ref="rjp">Rebecca J. Parker</persName>
                 </respStmt>
                 <respStmt>
                     <resp>HTML proofing completed
-                            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                        <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
                     <persName><!-- Name of Proofer --></persName>
                 </respStmt>
                 <sponsor>Loyola University Chicago</sponsor>
@@ -74,17 +74,17 @@
                 <date>July 6th, 2019</date>
                 <availability>
                     <p>Reproduced by courtesy of the
-                            <orgName><!-- What do I type here? --></orgName> in
-                            <placeName><!-- What do I type here? --></placeName>
+                        <orgName><!-- What do I type here? --></orgName> in
+                        <placeName><!-- What do I type here? --></placeName>
                     </p>
                     <licence>Distributed under a Creative Commons
                         Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-              <!--BC: 2019-03-28: Here should be inserted the description of the memoir's cover page which is not yet encoded; I need instructions.-->
+                <!--BC: 2019-03-28: Here should be inserted the description of the memoir's cover page which is not yet encoded; I need instructions.-->
                 <p><!--BC: 2019-03-28: This title page, unknown yet number, is well preserved, the recto of the folio. The capitalized title is flanked by two X marks in pencil. At the bottom of the page, there is a very small, thin smudge.--></p>
-             
+                
                 <p><!--BC: 2019-03-28: Page 201 is well preserved, the recto of the folio, with each paragraph framed on both sides by lines in pencil. The last two words of the first paragraph, as well as the next two lines are also underlined in pencil.--></p>
                 <p><!--BC: 2019-03-28: Page 202 is well preserved, the verso of the folio, with a small, white mark on the seventh line above the page end and with two continuous lines in pencil, along the sides of the text, slightly indented at the beginning and end of each paragraph.--></p>
                 <p><!--BC: 2019-03-28: Page 203 is well preserved, the recto of the folio, with no distinctive marks.--></p>
