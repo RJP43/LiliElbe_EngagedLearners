@@ -104,7 +104,7 @@ In 19241200, One red and one blue line are drawn vertically down the left side o
                     <p style="paraText" rend="division">x</p>
                     <p>Da jeg -– som vordende læge, også har interesseret mig meget for det anatomiske og <pb style="page" n="3"/>fysiologiske, har jeg en del optegnelser vedrørende disse ^ ting -– Da de pointerede, at de ikke var interreserede heri,- springer jeg dem over -– eller medtager dem i forkortet form -– hvis de bidrager til forståelse af hendes psyche. -– 
                     </p><p style="paraText" rend="division">x</p>
-            <!--Sk diary entries in danish begin here in chronological order-->
+            <!--Sk diary entries in Danish begin here in chronological order-->
             <p style="LiliDiary">
                 <date when="1921-12-25">25/12</date>
             </p>
@@ -125,7 +125,7 @@ In 19241200, One red and one blue line are drawn vertically down the left side o
                     <p style="LiliDiary">
                         <date when="1922-01-03">3/1.</date> 
                     </p>
-                    <p style="LiliDiary">Blev liggende i sengen p. gr. a. Fåresyge, mægtig tyk i hovedet. Fik 1.80 Kr. af <persName key="wegenerE">onkel Einar</persName>, fordi han tog <persName key="else">Else</persName> med på <choice><orig>restraution</orig> <reg>restauration</reg></choice> <!--Sk we're not sure what to do with this part of the encoding so we just left it for now--> <note type="translator">The word should be spelled restauration.</note>.</p>
+                    <p style="LiliDiary">Blev liggende i sengen p. gr. a. Fåresyge, mægtig tyk i hovedet. Fik 1.80 Kr. af <persName key="wegenerE">onkel Einar</persName>, fordi han tog <persName key="else">Else</persName> med på <choice><orig>restraution</orig> <reg>restauration</reg></choice> <!--Sk we're not sure what to do with this part of the encoding so we just left it for now--></p>
                     <p style="LiliDiary">
                         <date when="1922-01-09">9/1.</date>
                     </p>
@@ -147,7 +147,7 @@ In 19241200, One red and one blue line are drawn vertically down the left side o
                     <!--SK we left the paragraph breaks where they were for the above entry because we were unsure of what to do with them, but we added style elements-->
                     
                     <p style="LiliDiary">
-                        <date when="1931-08-18">18/8.</date>
+                        <date when="1931-08-18">18/8</date>
                     </p>
                     <p style="LiliDiary"><pb style="page" n="5"/><persName key="lili">Lili</persName> og jeg har
 snakket meget sammen på vore små ture ved <placeName key="gentofter">Gentofte sø</placeName> – som hun finder "aldeles henrivende".</p>
@@ -271,7 +271,7 @@ snakket meget sammen på vore små ture ved <placeName key="gentofter">Gentofte 
                     
             <!--SK end of original entries-->
                     
-                    <!--SK start of english translation-->
+                    <!--SK start of English translation-->
             
             <div type="translation">
                 <div rend="head">
@@ -472,7 +472,7 @@ snakket meget sammen på vore små ture ved <placeName key="gentofter">Gentofte 
                     <p style="LiliDiary">I hope that you can have some pleasure of this.</p> 
                     <p style="LiliDiary">One day when I am in town, I would like to pick up the book you were so kind to offer to lend me. I will call beforehand.</p>
                     <p style="LiliDiary">Again, thank you for last time.</p>
-                    <!--SK 03/27/19 adding diary entries in chronolheogical order that were folded into the letter here, however, the original transcription has the closer following this entry-->
+                    <!--SK 03/27/19 adding diary entries in chronological order that were folded into the letter here, however, the original transcription has the closer following this entry-->
                     
                     
                     <closer>
