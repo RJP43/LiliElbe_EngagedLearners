@@ -11,7 +11,7 @@
 				<!-- For Letters: Remove the following if not encoding a letter -->
 				<title>
 					<date><!--date defined in teiHeader info; numerical values of filename (which indicate letter date)--></date>
-					Letter to <persName key=""><!-- Person Letter Is Addressed To --></persName>
+					Letter to <persName key="garlandM"><!-- Person Letter Is Addressed To --></persName>
 				</title>
 
 				<!-- For Articles: Remove the following if not encoding an article -->
@@ -26,7 +26,7 @@
 				<title><!-- Language --> Edition</title>
 
 				<author>
-					<persName key=""><!-- Writer of Letter; or Author of Text --></persName>
+					<persName key="lili"><!-- Writer of Letter; or Author of Text --></persName>
 				</author>
 
 				<!-- Formatting dates in <respStmt> elements:            
@@ -43,44 +43,45 @@
 					<resp>Photographed
 							<date><!--insert date; see formatting suggestions above--></date>
 						by</resp>
-					<persName ref=""><!-- Name of Photographer --></persName>
+					<persName ref="plc"><!-- Name of Photographer --></persName>
 				</respStmt>
 				<respStmt>
 					<resp>Images prepared
 							<date><!--insert date; see formatting suggestions above--></date>
 						by</resp>
-					<persName ref=""><!-- Name of Image Preparer --></persName>
+					<persName ref="mg"><!-- Name of Image Preparer --></persName>
 				</respStmt>
 				<respStmt>
 					<resp>Transcription completed
 							<date><!--insert date; see formatting suggestions above--></date>
 						by</resp>
-					<persName ref=""><!-- Name of Transriber --></persName>
+					<persName ref="kj"><!-- Name of Transriber --></persName>
 				</respStmt>
 				<respStmt>
 					<resp>Translation completed
 							<date><!--insert date; see formatting suggestions above--></date>
 						by</resp>
-					<persName ref=""><!-- Name of Translator --></persName>
+					<persName ref="kj"><!-- Name of Translator --></persName>
 				</respStmt>
 				<respStmt>
 					<resp>Translation reviewed
 							<date><!--insert date; see formatting suggestions above--></date>
 						by</resp>
-					<persName ref=""><!-- Name of Translation Reviewer --></persName>
+					<persName ref="mo"><!-- Name of Translation Reviewer --></persName>
+					<persName ref="mb"><!-- Name of Translation Reviewer --></persName>
 				</respStmt>
 				<respStmt>
 					<resp>Encoding completed
 							<date><!--insert date; see formatting suggestions above--></date>
 						by</resp>
-					<persName ref=""><!-- Name of Primary Encoder --></persName>
+					<persName ref="tnm"><!-- Name of Primary Encoder --></persName>
 				</respStmt>
 				<respStmt>
 					<resp>Encoding assistance and/or XML proofing completed by</resp>
 					<persName ref="rjp">Rebecca J. Parker</persName>
-					<persName ref=""><!-- Name of Encoder/Proofer --></persName>
+					<persName ref="tnm"><!-- Name of Encoder/Proofer --></persName>
 					<!-- Remove any additional persName elements not used -->
-					<persName ref=""><!-- Name of Encoder/Proofer --></persName>
+					<persName ref="tnm"><!-- Name of Encoder/Proofer --></persName>
 					<!-- Remove any additional persName elements not used -->
 				</respStmt>
 				<respStmt>
@@ -144,7 +145,7 @@
 						Operation, og ingen svarer paa mit daglige Spørgsmaal, om jeg snart maa
 						komme op. Og Professoren er meget stræng.</p>
 					<p>
-						<persName key="?">Hr. Oberartz</persName>
+						<persName key="gebhard">Hr. Oberartz</persName>
 						<!--<note type="translator">German for "head doctor"</note>--> er saa munter
 						og sød imod mig. Sig det til Deres Mand. Jeg tror, <persName key="wegenerG"
 							>Fru Gerda</persName> i sit Manuskript siger noget jeg ikke saa gerne
@@ -188,7 +189,7 @@
 						operation and noone answers my daily question if I can get up soon. And the
 						professor is very strict.</p>
 					<p>
-						<persName key="?">The chief
+						<persName key="gebhard">The chief
 						physician</persName><!--<note type="translator">German for "head doctor"</note>-->
 						is so cheerful and sweet with me. Tell that to your husband. I believe in
 						her manuscript <persName key="wegenerG">Mrs. Gerda</persName> says something
