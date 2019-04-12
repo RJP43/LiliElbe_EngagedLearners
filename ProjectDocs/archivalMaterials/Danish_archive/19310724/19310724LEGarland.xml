@@ -93,8 +93,8 @@
 					<resp>HTML proofing completed
 							<date><!-- insert date; see formatting suggestions above --></date>
 						by</resp>
-					<persName ref=""><!-- Name of Proofer --></persName>
-					<persName ref=""><!-- Name of Proofer --></persName>
+					<persName ref="wr"><!-- Name of Proofer --></persName>
+					<persName ref="wr"><!-- Name of Proofer --></persName>
 					<!-- Remove any additional persName elements not used -->
 				</respStmt>
 				<sponsor>Loyola University Chicago</sponsor>
@@ -126,7 +126,7 @@
 				<div rend="head">
 					<p>
 						<anchor type="commentRangeStart" n="1"/><add place="leftMargin"
-							type="insertion" rend="">Naar jeg nu kommer godt fra det kan jeg gifte
+							type="insertion" rend="pencil">Naar jeg nu kommer godt fra det kan jeg gifte
 							mig om nogen vil have mig </add><anchor type="commentRangeEnd" n="1"/>
 						<note type="editor" source="kj mb" xml:id="comment_1">Written upside down in
 							top, left corner of letter.</note>
@@ -171,7 +171,7 @@
 				<div rend="head">
 					<p>
 						<anchor type="commentRangeStart" n=""/><add place="leftMargin"
-							type="insertion" rend="">When I get better I can marry if anyone will
+							type="insertion" rend="pencil">When I get better I can marry if anyone will
 							have me </add><anchor type="commentRangeEnd" n=""/>
 						<note type="editor" source="kj mb" xml:id="comment_">Written upside down in
 							top, left corner of letter.</note>
