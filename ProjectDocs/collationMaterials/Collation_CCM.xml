@@ -11,41 +11,51 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Lili Elbe Digital Archive Versioning Machine Collation</title>
-            <author>Lili Elbe</author>
+            <title>LEDA VM Collation</title>
             <respStmt>
-               <resp>XML Encoding</resp>
+               <resp>Paragraph Spreadsheet Collation completed by</resp>
+               <name>Elizabeth Kupchella</name>
+               <name>Tina Tiehen</name>
+               <name>Anais Turiello</name>
+               <name>Tatjana Willms-Jones</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML Encoding completed by</resp>
                <name>Caroline McCraw</name>
             </respStmt>
             <respStmt>
-               <resp>Encoding and processing assistance</resp>
+               <resp>Encoding Assistance and XML Processing by</resp>
                <name>Rebecca J. Parker</name>
                <name>Nick Wasmoen</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Lili Elbe Digital Archive, Loyola University</publisher>
-            <pubPlace>Chicago, IL</pubPlace>
-            <date>2019</date>
+            <authority>Lili Elbe Digital Archive</authority>
+            <pubPlace>Chicago, IL USA</pubPlace>
+            <date>July 6th, 2019</date>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
          </sourceDesc>
          <sourceDesc>
             <listWit xml:id="all">
-               <witness xml:id="a1">American</witness>
+               <witness xml:id="a1">A1 = American English edition</witness>
                <!--<witness xml:id="b1">British</witness>-->
                <!-- RJP: We will group A1 and B1 in versioning machine viewer -->
-               <witness xml:id="g1">German</witness>
-               <witness xml:id="d1">Danish</witness>
-               <witness xml:id="tr">Translation</witness>
+               <witness xml:id="g1">G1 = German edition</witness>
+               <witness xml:id="d1">D1 = Danish edition</witness>
+               <witness xml:id="tr">TR = Translation of Danish Edition</witness>
                <!--<witness xml:id="ts">Typescript</witness> not encoding until Xixi finishes encoding-->
             </listWit>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>TBD</p>
+            <p>More information coming soon!</p>
          </editorialDecl>
          <variantEncoding method="location-referenced" location="internal"/>
       </encodingDesc>
@@ -2332,6 +2342,1338 @@
                         <empty/>
                      </rdg>
                   </app>
+                  <empty/>
+               </rdg>
+            </app>
+         </div>
+         <div type="chapter">
+            <app loc="a1c02">
+               <rdg wit="#a1">
+                  <title>II.</title>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p001">
+               <rdg wit="#a1">
+                  <pb n="22"/><p>The next morning <persName key="sparreGre">Grete</persName> spoke
+                     affectionately to him, pointing out lightly that he must call upon <persName
+                        key="rossiniEl">Elena</persName> if for no other reason than as an act of
+                     courtesy. When there he could always find an excuse if he could not bring
+                     himself to visit <persName key="kreutz">her German Professor</persName>.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p01">Am nächsten Morgen spricht <persName key="sparreGre"
+                        >Grete</persName> gütig auf ihn ein, setzte ihm klar und froh auseinander,
+                     daß er, wenn nicht aus einem anderen Grunde, so doch aus Höflichkeit zu
+                        <persName key="rossiniEl">Elena</persName> hingehen müsse. Dort könne er
+                     dann immer noch eine Ausrede finden, falls es ihm zuwider sei, <persName
+                        key="kreutz">ihren deutschen Professor</persName> aufzusuchen.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p002">
+               <rdg wit="#a1">
+                  <p>An hour later he was on his way to <placeName key="passy">Passy</placeName>,
+                     where <persName key="rossiniEl">Elena</persName> lived: punctually at twelve
+                     o'clock her car stopped in front of the house where <persName key="kreutz">the
+                        German doctor</persName> was staying. While <persName key="rossiniEl"
+                        >Elena</persName> was pulling the bell, <persName key="sparreAn"
+                        >Andreas</persName> whispered: "Perhaps it will turn out quite interesting
+                     to see <persName key="kreutz">your German celebrity</persName> face to face, as
+                     he belongs to a race in whom interest in scientific investigation is so
+                     strongly pronounced that this interest—"</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <pb n="13"/><p n="g1c02p002">Eine Stunde später machte er sich auf den Weg nach
+                        <placeName key="passy">Passy</placeName>, wo <persName key="rossiniEl"
+                        >Elena</persName> wohnte.</p>
+                  <p n="g1c02p003">Punkt zwölf Uhr hält ihr Wagen vor dem Absteigquartier <persName
+                        key="kreutz">des deutschen Arzt</persName>es. Während <persName
+                        key="rossiniEl">Elena</persName> den Klingelzug in Bewegung setzt, flüstert
+                        <persName key="sparreAn">Andreas</persName>: »Vielleicht ist es doch ganz
+                     interessant, <persName key="kreutz">Ihre deutsche Berühmtheit</persName> von
+                     Angesicht zu Angesicht zu sehen. Da er einer Rasse angehört, bei der das
+                     Interesse für wissenschaftliche Forschung so stark ausgeprägt ist, daß dieses
+                     Interesse möglicherweise den Drang des Mannes im allgemeinen, sich ganz
+                     besonders nach Gottes Ebenbild angefertigt zu sehen . . .«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p003">
+               <rdg wit="#a1">
+                  <p>"For heaven's sake," interrupted <persName key="rossiniEl">Elena</persName>,
+                     "don't start delivering a lecture on the doorstep."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p004">»Um Himmels willen, <persName key="sparreAn">Andreas</persName>«,
+                     unterbricht ihn <persName key="rossiniEl">Elena</persName>, »nur jetzt hier
+                     draußen keinen Vortrag halten . . .«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p004">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="sparreAn">Andreas</persName> seized his friend's hand.
+                        "<persName key="rossiniEl">Elena</persName>, I only mean . . . I only hope .
+                     . . How shall I express it?"</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p005"><persName key="sparreAn">Andreas</persName> faßt die Hand der
+                     Freundin. »<persName key="rossiniEl">Elena</persName>, ich meine ja nur . . .
+                     ich hoffe ja nur . . . wie soll ich es ausdrücken . . .«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p005">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="rossiniEl">Elena</persName> looked very seriously at her friend,
+                     who was pale with excitement. "Go on, <persName key="sparreAn"
+                        >Andreas</persName>."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p006"><persName key="rossiniEl">Elena</persName> sieht den Freund, der
+                     bleich vor Erregung ist, jetzt sehr ernst an. »Sprechen Sie, <persName
+                        key="sparreAn">Andreas</persName> . . .«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p006">
+               <rdg wit="#a1">
+                  <p>And then he blurted out: ". . . That he will not regard me merely as a sorry
+                     renegade . . . because . . . I would rather be a woman than a man."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p007">Und dann stößt er heraus:» . . .daß er mich nur nicht als einen
+                     traurigen Überläufer betrachten wird, – weil – ich lieber Weib als Mann sein
+                     will . . .«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p007">
+               <rdg wit="#a1">
+                  <p>"No, <persName key="sparreAn">Andreas</persName>, I will answer for that."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p008">»Nein, <persName key="sparreAn">Andreas</persName>, dafür
+                     verbürge ich mich.« Man hört Schritte innen.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p008">
+               <rdg wit="#a1">
+                  <p>Footsteps were heard inside the house.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p008">»Nein, <persName key="sparreAn">Andreas</persName>, dafür
+                     verbürge ich mich.« Man hört Schritte innen.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p009">
+               <rdg wit="#a1">
+                  <p>The door was opened and a servant received <pb n="23"/> them; but before he had
+                     found time to announce them a tall, thin gentleman advanced to meet them. A
+                     dark-blue sakkoanzug Frock-coat. emphasized the austere elegance of his
+                     appearance in an almost military manner. His hair, which was brushed in a
+                     smooth mass across his high forehead, was dark, while his small moustache,
+                     trimmed in American style, was of a light fair colour.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p009">Die Tür wird geöffnet. Ein Diener empfängt sie. Und ehe er das
+                     Paar noch gemeldet hat, kommt ein großer, schlanker Herr ihnen entgegen. Der
+                     dunkelblaue Sakkoanzug betont auf eine fast militärische Art die straffe
+                     Eleganz der Erscheinung. Das zurückgekämmte Haar liegt wie eine dunkle, blanke
+                     Masse über der hohen Stirn, während der kleine, amerikanisch gestutzte Bart auf
+                     der Oberlippe einen leicht blonden Ton hat.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p010">
+               <rdg wit="#a1">
+                  <p>When <persName key="sparreAn">Andreas</persName> later on tried to recall these
+                     features to memory his mind was a mere blank every time. From those blue,
+                     deep-set eyes, which were bright and dark at the same time, radiated a strange,
+                     captivating charm.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p010">Wenn <persName key="sparreAn">Andreas</persName> später
+                     versuchte, sich diese Gesichtszüge ins Gedächtnis zurückzurufen, so wurde
+                     jedesmal alles vor den Augen ausgewischt . . . Von diesen grau- <pb n="14"/>
+                     blauen, tief liegenden Augen, die zugleich hell und dunkel waren, strahlte ein
+                     seltsamer, bannender Zauber aus.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p011">
+               <rdg wit="#a1">
+                  <p>It was <persName key="kreutz">Werner Kreutz</persName>.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p011">Es war <persName key="kreutz">Werner Kreutz</persName> . . .</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p012">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="sparreAn">Andreas</persName> felt his heart beat faster. While
+                        <persName key="kreutz">the Professor</persName> was conducting them with a
+                     somewhat ceremonious cordiality into the drawing-room, exchanging the while a
+                     few words with <persName key="rossiniEl">Elena</persName>, it occurred to
+                        <persName key="sparreAn">Andreas</persName> for the first time in his life
+                     that German was a beautiful and musical language.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p012"><persName key="sparreAn">Andreas</persName> fühlt sein Herz hart
+                     pochen. Während <persName key="kreutz">der Professor</persName> mit einer etwas
+                     zeremoniellen Herzlichkeit sie in den Salon führt und mit <persName
+                        key="rossiniEl">Elena</persName> einige Worte austauscht, fällt <persName
+                        key="sparreAn">Andreas</persName> zum erstenmal in seinem Leben auf, daß
+                     deutsch eine schöne und musikalische Sprache sei . . .</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p013">
+               <rdg wit="#a1">
+                  <p>As in a dream he listened to the conversation between the two, even when
+                        <persName key="rossiniEl">Elena</persName> was telling <persName
+                        key="kreutz">the Professor</persName> about him and his doleful story,
+                     throwing him now and again, as if accidentally, a quick, affectionate
+                     glance.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p013">Wie im Traum hört er der Unterhaltung der beiden zu . . . auch
+                     dann noch, als <persName key="rossiniEl">Elena</persName>
+                     <persName key="kreutz">dem Professor</persName> von ihm und seiner
+                     Leidensgeschichte, leise und wie nebenbei, dann und wann ihm einen schnellen,
+                     lieben Blick zuwerfend, erzählt.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p014">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="sparreAn">Andreas</persName> could think of nothing, and was
+                     conscious of nothing but the doctor's voice. It was as if he were laid under a
+                     spell, the spell of this voice. It reminded him of <persName key="kreutz">the
+                        Professor</persName>'s eyes; it, too, was light and dark at the same time.
+                     Both the eyes and the voice penetrated into the innermost recesses of his
+                     soul.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p014">Diese Stimme . . . nichts anderes kann <persName key="sparreAn"
+                        >Andreas</persName> denken, empfinden. Er ist wie von einem Bann
+                     umschlossen, von dem Bann dieser Stimme. Sie gleicht seinen Augen, sie ist hell
+                     und dunkel zugleich wie die Augen. Sie dringt in den andern ein. Die Augen, die
+                     Stimme. Bis in die heimlichste Seelenfalte hinein . . .</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p015">
+               <rdg wit="#a1">
+                  <p>And what would this voice have to say to him? <pb n="24"/> And these eyes, what
+                     would their glance announce to him?</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p015">Und was wird diese Stimme nun ihm zu sagen haben . . . und diese
+                     Augen, was werden sie ihm mit ihrem Blick verkünden? . . .</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p016">
+               <rdg wit="#a1">
+                  <p>A death sentence? Did he expect anything other than this? Did he expect
+                     anything at all? Had he come here for any definite purpose?</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p016">Ein Todesurteil? . . . Erwartet er etwas anderes als dies? . . .
+                     Erwartet er überhaupt etwas? Ist er überhaupt zu irgendeinem Ziel hierher
+                     gegangen?</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p017">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="kreutz">The Professor</persName> stood in front of him, hardly
+                     looked at him, and spoke only a few brief words to him. And <persName
+                        key="sparreAn">Andreas</persName> followed <persName key="kreutz">the
+                        professor</persName> into an anteroom, where he was told to undress. "Now I
+                     feel like a sleepwalker," thought <persName key="sparreAn">Andreas</persName>
+                     in a vague and remote manner. He must obey, without questioning. He wanted to
+                     say something, and fumbled for German words.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p017"><persName key="kreutz">Der Professor</persName> steht vor ihm,
+                     sieht ihn kaum an, spricht nur ein paar knappe Worte zu ihm. Und er folgt ihm
+                     in ein neben dem Salon liegendes Zimmer . . ., dort muß er sich entkleiden. Wie
+                     ein Schlafwandler bin ich jetzt, denkt es fern und nebelhaft in <persName
+                        key="sparreAn">Andreas</persName>, er muß gehorchen, willenlos . . . er will
+                     etwas sprechen . . . er sucht nach deutschen Worten.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p018">
+               <rdg wit="#a1">
+                  <p>"You need not give me any explanations, sir," <persName key="kreutz">the
+                        Professor</persName> interrupted him considerately.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <pb n="15"/><p n="g1c02p018">»Sie brauchen mir keine Erklärungen zu geben, mein
+                     Herr«, unterbricht <persName key="kreutz">der Professor</persName> ihn
+                     rücksichtsvoll.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p019">
+               <rdg wit="#a1">
+                  <p>"It hurts here, doesn't it, and there, and likewise there, doesn't it?" And his
+                     hand slowly glided over <persName key="sparreAn">Andreas</persName>' body. All
+                     that <persName key="sparreAn">Andreas</persName> needed to do was to nod
+                     quickly and shyly. An almost terrifying astonishment gripped him. How did this
+                        <persName key="kreutz">strange man</persName> know where his pains were
+                     located?</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p019">»Hier, nicht wahr? schmerzt es . . . und dort . . . und ebenfalls
+                     dort . . . nicht wahr?« und langsam gleitet seine Hand über <persName
+                        key="sparreAn">Andreas</persName>' Leib dahin. <persName key="sparreAn"
+                        >Andreas</persName> braucht nur leise und scheu zu nicken . . . und ein fast
+                     schreckhaftes Erstaunen faßt ihn an. Woher weiß dieser fremde Mann, wo seine
+                     Schmerzen wohnen?</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p020">
+               <rdg wit="#a1">
+                  <p>And this astonishment grew into amazement when <persName key="kreutz">the
+                        Professor</persName>, to whom <persName key="rossiniEl">Elena</persName> had
+                     handed a bundle of photographs of <persName key="lili">Lili</persName>, took
+                     the portraits out of the envelope and laid them on the table in the order of
+                     the years marked on their backs, which <persName key="kreutz">the
+                        Professor</persName> had not observed.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p020">Und dieses Erstaunen steigert sich zu Verblüfftheit, als
+                        <persName key="kreutz">der Professor</persName>, dem <persName
+                        key="rossiniEl">Frau Elena</persName> ein Bündel Photographien von <persName
+                        key="lili">Lili</persName> zugesteckt hat, die Bilder aus dem Umschlag
+                     herausnimmt und sie vor sich auf den Tisch legt in der Reihenfolge der Jahre,
+                     die auf der Rückseite, von <persName key="kreutz">dem Professor</persName>
+                     nicht beachtet, vermerkt stehen . . .</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p021">
+               <rdg wit="#a1">
+                  <p>"There we have the development clearly marked," said <persName key="kreutz">the
+                        Professor</persName> bluntly. <persName key="sparreAn">Andreas</persName>
+                     did not even nod.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p021">»Da haben wir also die Entwicklung . . .« sagt <persName
+                        key="kreutz">der Professor</persName> schlicht. <persName key="sparreAn"
+                        >Andreas</persName> nickt nicht einmal.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p022">
+               <rdg wit="#a1">
+                  <p>"I hear you have had Röntgen Rays treatment by a <persName key=""
+                        >radiologist</persName> ; but unless he previously made chemical or
+                     microscopical examinations it is impossible to say whether he exerted an <pb
+                        n="25"/> unfavourable effect upon the germ glands, and perhaps upon any
+                     existing ovaries . . . this must be disclosed by a further examination."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p022">»Wie ich höre, hat ein <persName>Radiolog</persName> Sie mit
+                     Röntgenstrahlen behandelt . . ., und zwar, ohne vorher chemische oder
+                     mikroskopische Untersuchungen vorgenommen zu haben . . . unmöglich, zu sagen,
+                     ob er damit die Keimdrüsen, eventuell also auch vorhandene Ovarien ungünstig
+                     beeinflußt hat, – das muß die weitere Untersuchung ergeben.«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p023">
+               <rdg wit="#a1">
+                  <p>"Ovaries!" <persName key="sparreAn">Andreas</persName> almost shrieked. "Then .
+                     . . I . . . have . . ." He could get no further. He could scarcely breathe from
+                     excitement. Everything was going round.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p023">»Ovarien...« <persName key="sparreAn">Andreas</persName> stößt
+                     das Wort wie einen Schrei heraus, »ich . . . habe . . . also . . .?« Weiter
+                     kommt er nicht . . . Er kann vor Erregung kaum atmen . . . alles dreht sich im
+                     Wirbel um ihn . . .</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p024">
+               <rdg wit="#a1">
+                  <p>"Extremely probable," replied <persName key="kreutz">the Professor</persName>,
+                     imperturbable and positive; yet the sound of his voice seemed slightly muffled,
+                     very soft and discreet. <persName key="sparreAn">Andreas</persName> was to be
+                     reminded continually of this lightly veiled voice, and not merely <persName
+                        key="sparreAn">Andreas</persName>. "For I think you possess both male and
+                     female organs, and that neither of them has sufficient room to develop
+                     properly. It is fortunate for you that you have such a pronounced feminine
+                     feeling. That's why I think I shall be able to help you."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p024">»Höchstwahrscheinlich«, antwortet <persName key="kreutz">der
+                        Professor</persName>, unerschütterlich und sachlich, und dennoch gedämpft
+                     durch den Ton seiner jetzt sehr weichen, diskreten Stimme . . . immer wieder
+                     hat <persName key="sparreAn">Andreas</persName> an diesen leicht umschleierten
+                     Klang denken müssen . . . und nicht nur <persName key="sparreAn"
+                        >Andreas</persName> . . ., »sehen Sie, ich vermute, daß Sie sowohl männliche
+                     wie weibliche Organe besitzen, und keins von beiden hat Raum genug erhalten, um
+                     sich völlig zu entwickeln. Es <pb n="16"/> ist ein Glück für Sie, daß Sie sich
+                     so ausgesprochen als Weib fühlen . . . Und deshalb glaube ich, werde ich Ihnen
+                     helfen können.«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p025">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="sparreAn">Andreas</persName> had to clutch at his heart. He
+                     leaned over, in order not to miss a single word that fell from the lips of this
+                     amazing man. He stared fixedly at him, expecting to find confirmation of his
+                     words in his glance.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p025"><persName key="sparreAn">Andreas</persName> muß sich ans Herz
+                     greifen. Er beugt sich vor, um jedem Wort, das der fremde Mann da spricht, so
+                     nahe wie nur möglich zu sein in dem Augenblick, wo es ausgesprochen wird. Er
+                     blickt dem fremden Manne starr in die Augen, um auch in seinem Blick diese
+                     Worte bestätigt zu finden . . . </p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p026">
+               <rdg wit="#a1">
+                  <p>"Well, <persName key="kreutz">Professor</persName>, what am I? . . . What . . .
+                     ?"</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p026">»Und . . . <persName key="kreutz">Herr Professor</persName> . . .
+                     und was soll ich . . . was . . .«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p027">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="kreutz">The Professor</persName> rose, paced up and down the
+                     room for a while as if to think the matter over, and then turned to <persName
+                        key="sparreAn">Andreas</persName> again. And once more <persName
+                        key="sparreAn">Andreas</persName> drank in his words.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p027"><persName key="kreutz">Der Professor</persName> ist aufgestanden,
+                     geht ein paarmal auf und ab, als denke er nach, wendet sich dann wieder gegen
+                        <persName key="sparreAn">Andreas</persName>. Und wieder trinkt <persName
+                        key="sparreAn">Andreas</persName> seine Worte . . .</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p028">
+               <rdg wit="#a1">
+                  <p>"Come to me in <placeName key="germany">Germany</placeName>. I hope I shall be
+                     able to give you a new life and a new youth." </p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p028">»Kommen Sie zu mir nach <placeName key="germany"
+                        >Deutschland</placeName>. Ich hoffe, daß ich Ihnen ein neues Leben und eine
+                     neue Jugend geben kann.«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p029">
+               <rdg wit="#a1">
+                  <p>These words were uttered with extreme simplicity.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p029">. . .So grenzenlos einfach werden diese Worte gesagt.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p030">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="sparreAn">Andreas</persName> stood up and struggled for speech.
+                  </p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p030"><persName key="sparreAn">Andreas</persName> hat sich
+                     aufgerichtet. Er ringt um Sprache.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p031">
+               <rdg wit="#a1">
+                  <p>"Then it will be <persName key="lili">Lili</persName> who survives?"</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p031">»Also wird es <persName key="lili">Lili</persName> sein, die . .
+                     . leben . . . darf . . .?«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p032">
+               <rdg wit="#a1">
+                  <p>"Yes," answered <persName key="kreutz">Werner Kreutz</persName>. "I will
+                     operate on you, and give you new and strong ovaries. <pb n="26"/> This
+                     operation will remove the stoppage in your development which occurred at the
+                     age of puberty. But first of all you will have to undergo various treatment of
+                     a preliminary nature in <placeName key="berlin">Berlin</placeName>. Then you
+                     can come to me in <placeName key="dresden">Dresden</placeName>."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p032">»Ja«, antwortet <persName key="kreutz">Werner Kreutz</persName>.
+                     »Ich werde Sie operieren, Ihnen neue, kräftige Ovarien geben. Dieser Eingriff
+                     wird Sie über jenen Stillstand in Ihrer Entwicklung hinwegbringen, dem Sie im
+                     Pubertätsalter verfielen. Vorher aber werden Sie sich in <placeName
+                        key="berlin">Berlin</placeName> noch verschiedenen vorbereitenden
+                     Behandlungen unterziehen müssen. Dann kommen Sie zu mir nach <placeName
+                        key="dresden">Dresden</placeName>.«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p033">
+               <rdg wit="#a1">
+                  <p>With these words ended the serious and fateful conversation between the strange
+                     man and <persName key="sparreAn">Andreas</persName>, who was still sitting a
+                     little breathless when <persName key="kreutz">the Professor</persName> brought
+                        <persName key="rossiniEl">Elena</persName> into his consulting-room. And she
+                     smiled to conceal her emotion.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p033">Damit schloß dieses erste, schicksalsvolle Gespräch zwischen dem
+                     fremden Mann und <persName key="sparreAn">Andreas</persName>, der noch atemlos
+                     dasaß, als <persName key="rossiniEl">Elena</persName>, von <persName
+                        key="kreutz">dem Professor</persName> in das Arbeitszimmer geführt, vor ihm
+                     stand . . . Und sie lächelte, um ihre Ergriffenheit nicht zur Schau zu
+                     tragen.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p034">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="kreutz">The doctor</persName> stood apart from them
+                     thoughtfully, and looked suddenly at <persName key="sparreAn"
+                        >Andreas</persName> and then at <persName key="rossiniEl">Elena</persName>.
+                     "May I speak quite openly?" he said, glancing from one to the other.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p034">Sinnend stand <persName key="kreutz">der Arzt</persName> wieder
+                     wie für sich allein da . . . blickte plötzlich <persName key="sparreAn"
+                        >Andreas</persName> an . . . dann <persName key="rossiniEl">Elena</persName>
+                     . . . »Ich darf doch offen fragen?« sagte er, von einem zum andern
+                     blickend.</p>
+                  <!-- CCM: where should this G1 image go? -->
+                  <figure xml:id="i03">
+                     <figDesc><persName key="sparreAn">Andreas Sparre</persName> (<persName
+                           key="wegenerE">Einar Wegener</persName>) als Zwanzigjähriger Gezeichnet
+                        von einem Freunde</figDesc>
+                  </figure>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p035">
+               <rdg wit="#a1">
+                  <p>"Please do," replied <persName key="sparreAn">Andreas</persName>. "I have no
+                     secrets from <persName key="rossiniEl">Elena</persName>."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <pb n="17"/><p n="g1c02p035">»Aber bitte«, erwiderte <persName key="sparreAn"
+                        >Andreas</persName>, »vor <persName key="rossiniEl">Frau Elena</persName>
+                     habe ich keine Geheimnisse . . .«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p036">
+               <rdg wit="#a1">
+                  <p>"Well, then," began <persName key="kreutz">the Professor</persName>, "I hear
+                     that you are married."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p036">»Nun denn«, begann <persName key="kreutz">der
+                        Professor</persName>, »wie ich höre, sind Sie . . . verheiratet . . .«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p037">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="sparreAn">Andreas</persName> blushed with embarrassment.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p037"><persName key="sparreAn">Andreas</persName> glühte vor
+                     Verlegenheit . . .</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p038">
+               <rdg wit="#a1">
+                  <p>"Your marriage . . . perhaps you can tell me something about it, because, as a
+                     doctor, at any rate . . ."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p038">»Ihre Ehe . . . vielleicht können Sie mir da einiges erklären,
+                     weil es für mich als Arzt immerhin . . .«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p039">
+               <rdg wit="#a1">
+                  <p>Each of them was conscious of something fantastic at this moment, although the
+                     question seemed the most natural thing in the world.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p039">Jeder von ihnen empfand das Phantastische dieses Augenblickes und
+                     auch das Natürliche, Selbstverständliche dieser Frage.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p040">
+               <rdg wit="#a1">
+                  <p>"Perhaps I had better go," suggested <persName key="rossiniEl"
+                     >Elena</persName>, full of solicitude for her friend.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p040">»Vielleicht gehe ich doch . . .« fragte <persName key="rossiniEl"
+                        >Elena</persName> den Freund voller Schonung.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p041">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="sparreAn">Andreas</persName> caught hold of her. "No, <persName
+                        key="rossiniEl">Elena</persName>, no, don't go."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p041"><persName key="sparreAn">Andreas</persName> hielt sie fest.
+                     »Nein, <persName key="rossiniEl">Elena</persName>, nein, nicht gehen, nicht . .
+                     .«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p042">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="kreutz">The Professor</persName> came to the assistance of both.
+                     His smile worked at this moment like a deliverance. "What is the attitude, for
+                     instance, of—I thought I heard the name <persName key="lili">Lili</persName>
+                     just now—well, of <persName key="lili">Lili</persName>, towards men? I mean, do
+                     men interest <persName key="lili">Lili</persName>?"</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p042"><persName key="kreutz">Der Professor</persName> kam beiden zu
+                     Hilfe. Sein Lächeln wirkte in diesem Augenblick wie eine Befreiung. »Wie
+                     verhält es sich zum Beispiel mit . . . nun, ich hörte den Namen <hi
+                        rend="emphasis"><persName key="lili">Lili</persName></hi> – nun also mit
+                        <persName key="lili">Lili</persName> und den Männern . . . ich meine,
+                     interessieren sich die Männer für <persName key="lili">Lili</persName>? . .
+                     .«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p043">
+               <rdg wit="#a1">
+                  <pb n="27"/><p>"Yes, indeed," laughed <persName key="rossiniEl">Elena</persName>;
+                     "it is positively incredible what an attraction <persName key="lili"
+                        >Lili</persName> has for the other sex."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p043">»Aber ja«, rief <persName key="rossiniEl">Elena</persName>
+                     lachend, »es ist schier unglaublich, welch eine Anziehungskraft <persName
+                        key="lili">Lili</persName> auf unsere Herrenwelt ausübt.«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p044">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="sparreAn">Andreas</persName> attempted to interrupt her.
+                        <persName key="kreutz">The Professor</persName> was now laughing
+                     heartily.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p044"><persName key="sparreAn">Andreas</persName> wollte sie
+                     unterbrechen. <persName key="kreutz">Der Professor</persName> lachte jetzt
+                     herzhaft.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p045">
+               <rdg wit="#a1">
+                  <p>"Let the lady go on, please." And <persName key="sparreAn">Andreas</persName>
+                     had perforce to listen while she continued: "I have seen it with my own eyes at
+                     various carnivals and balls." </p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p045">»Bitte, jetzt hat die gnädige Frau das Wort.« Und <persName
+                        key="sparreAn">Andreas</persName> ließ es über sich ergehen: »Ich hab es mit
+                     eigenen Augen erlebt, auf verschiedenen Karnevals und Bällen!«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p046">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="kreutz">The Professor</persName> became serious again. "What you
+                     have just told me, madam, is all of a piece with the picture I have formed in
+                     my own mind. . . . For the rest, the operation which has become necessary,
+                     especially as it is the first of its kind, will create a number of remarkable
+                     situations, not least, from a legal point of view. But"—and with this he came
+                     close to <persName key="sparreAn">Andreas</persName> and took his hand—"I
+                     promise you I will not leave <persName key="lili">Lili</persName> in the lurch
+                     and that I will assist her with her first independent steps into life." </p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p046"><persName key="kreutz">Der Professor</persName> wurde wieder
+                     sachlich. »Was Sie da erzählen, gnädige Frau, entspricht ganz dem Bilde, das
+                     ich mir gemacht habe . . . Im übrigen dürfte die notwendig werdende Operation,
+                     zumal sie die erste ihrer Art ist, mancherlei merkwürdige Situationen ergeben,
+                     nicht zum wenigsten in juridischer Hinsicht. Aber«, und jetzt stellte er sich
+                     dicht vor <persName key="sparreAn">Andreas</persName> und nahm seine Hand, »das
+                     verspreche ich Ihnen, ich werde <persName key="lili">Lili</persName> nicht im
+                     Stich <note style="pubInfo">2 Elbe</note>
+                     <pb n="18"/> lassen und ihr bei ihren ersten selbständigen Schritten ins Leben
+                     hinein behilflich sein.«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p047">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="sparreAn">Andreas</persName> looked down at the stranger's hand.
+                     He did not know what he ought to do. He looked helplessly around the room, then
+                     released the doctor's hand and stretched out both arms to <persName
+                        key="rossiniEl">Elena</persName>, as if imploring help. She hurried to him
+                     and embraced him maternally.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p047"><persName key="sparreAn">Andreas</persName> sah auf die Hand des
+                     fremden Mannes nieder . . . er wußte nicht, was er tun sollte . . . er blickte
+                     ratlos im Zimmer umher . . . ließ dann die fremde Hand los, streckte beide Arme
+                     wie Hilfe suchend <persName key="rossiniEl">Elena</persName> hin, sie eilte auf
+                     ihn zu und umarmte ihn mütterlich.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p048">
+               <rdg wit="#a1">
+                  <p>"<persName key="rossiniEl">Elena</persName>," he stammered through his tears,
+                     "the life which is now coming with which I shall have nothing whatever to do .
+                     . . this life, <persName key="rossiniEl">Elena</persName>, you have saved.
+                     Without you, <persName key="rossiniEl">Elena</persName>, I should never have
+                     come here."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p048">»<persName key="rossiniEl">Elena</persName> . . .« stammelte er
+                     unter Tränen, »was jetzt kommt, das Leben . . . mit dem ich ja gar nichts zu
+                     tun haben werde . . . <persName key="rossiniEl">Elena</persName> . . . das
+                     Leben haben Sie . . . <persName key="rossiniEl"><hi rend="emphasis"
+                        >Elena</hi></persName>, haben Sie gerettet . . . Ohne Sie wär ich nie hier
+                     gewesen . . .«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p049">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="kreutz">Werner Kreutz</persName> was standing in front of the
+                     window, looking silently into the street.</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p049"><persName key="kreutz">Werner Kreutz</persName> stand vor dem
+                     Fenster, blickte schweigend hinaus.</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
+                  <empty/>
+               </rdg>
+            </app>
+            <app loc="a1c02p050">
+               <rdg wit="#a1">
+                  <p>
+                     <persName key="sparreAn">Andreas</persName> went towards him, weeping.
+                        <persName key="kreutz">The Professor</persName> took his hands and said
+                     quietly: "I understand you. I know how much you have suffered."</p>
+               </rdg>
+               <rdg wit="#b1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#g1">
+                  <p n="g1c02p050"><persName key="sparreAn">Andreas</persName> ging zu ihm hin.
+                        <persName key="sparreAn">Andreas</persName> stand vor <persName key="kreutz"
+                        >dem Arzt</persName>. <persName key="sparreAn">Andreas</persName> weinte.
+                        <persName key="kreutz">Der Professor</persName> nahm seine Hände und sagte
+                     still: »Ich verstehe Sie. Sie haben viel gelitten.«</p>
+               </rdg>
+               <rdg wit="#d1">
+                  <empty/>
+               </rdg>
+               <rdg wit="#tr">
+                  <empty/>
+               </rdg>
+               <rdg wit="#ts">
                   <empty/>
                </rdg>
             </app>
