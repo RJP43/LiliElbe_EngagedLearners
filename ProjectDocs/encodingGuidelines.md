@@ -366,10 +366,10 @@ _note: Use this encoding for stretches of illegible or missing text (cutaways, h
   
 ### Editor/Translator Comments   
 ````
-<anchor type="commentRangeStart" n="comment#"/>TEXT BEING REFERENCED  
-<anchor type="commentRangeEnd" n="comment#"/>  
+<anchor type="commentRangeStart" n="<!--comment number-->"/>TEXT BEING REFERENCED  
+<anchor type="commentRangeEnd" n="<!--comment number-->"/>  
 <note type="translator or editor" source="team member ID"   
-xml:id="comment_comment#">COMMENTED TEXT IN COMPLETE SENTENCES</note>  
+corresp="comment_<!--comment number-->">COMMENTED TEXT IN COMPLETE SENTENCES</note>  
 ````
 
 _If there are multiple editors/translators and comments are not able to be directly identified to a single person than simply put u (for unidentified) as the source attribute-value. Source attribute-values should be changed to the two or three letter editor's, encoder’s, or translator's initials, which should also be identified in the `<respStmt>` elements in the XML’s teiHeader. Encoders should select whether translator or editor for the note type attribute and changes the comment# to reflect the order of the comment in relation to all of the other comments in the file._  

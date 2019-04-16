@@ -29,6 +29,13 @@ h2 {
     line-height: 2em !important;
     font-family: Baumans !important;
 }
+h3 {
+    font-variant: small-caps;
+    text-align: center !important;
+    margin: 10px !important;
+    line-height: 2em !important;
+    font-family: Baumans !important;
+}
 ul.resPeeps {
     padding: 0;
     list-style:hyphen;
@@ -62,7 +69,7 @@ ul.resPeeps {
 }
 .emphasis {
     font-style: italic;
-    letter-spacing: 2em;
+    letter-spacing: .2em;
 }
 .italics {
     font-style: italic;

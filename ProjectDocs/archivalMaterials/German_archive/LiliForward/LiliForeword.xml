@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="../../../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -45,8 +46,8 @@
                     <resp>HTML proofing completed
                             <date><!-- insert date; see formatting suggestions above --></date>
                         by</resp>
-                    <persName ref=""><!-- Name of Proofer --></persName>
-                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <persName><!-- Name of Proofer --></persName>
+                    <persName><!-- Name of Proofer --></persName>
                     <!-- Remove any additional persName elements not used -->
                 </respStmt>
                 <sponsor>Loyola University Chicago</sponsor>
@@ -65,7 +66,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+                <p>NEED DESCRIPTION!<!-- describe anything worth noting about the physical text document from looking at the facsimile images;
                encoder's description must be in complete, logical sentences --></p>
             </sourceDesc>
         </fileDesc>
@@ -98,7 +99,7 @@
                             <orig>Davür</orig>
                             <reg>Dafür</reg>
                         </choice><anchor type="commentRangeEnd" n="1"/><note type="editor"
-                            source="sm" xml:id="comment_1">It should be "Dafür" – the typo is in the
+                            source="sm" corresp="comment_1">It should be "Dafür" – the typo is in the
                             original.</note> aber habe die Götter in die Seele dieser Auserwählten
                         eine gnadenlose, unbarmherzige Macht gesenkt, die sie zwingt, Ausdruck zu
                         geben für alles, was sie gesehen und gefühlt haben, - alljenen, die wie
@@ -257,7 +258,7 @@
                         being, meets an ingenious surgeon, who is willing to take on the
                         responsibility for this unprecedented experiment.<anchor
                             type="commentRangeEnd" n="2"/><note type="editor" source="sm"
-                            xml:id="comment_2">The tenses are off in the German as well – from past
+                            corresp="comment_2">The tenses are off in the German as well – from past
                             perfect to present tense.</note></seg></p>
                 <p><seg corresp="#g08">A young and rejuvenated woman is resurrected out of <persName
                             key="sparreAn">Andreas</persName>' "sick and decrepit body."</seg></p>
