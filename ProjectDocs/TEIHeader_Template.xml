@@ -19,10 +19,9 @@
                <date><!-- article publication date in yyyy-mm-dd --></date></title>
             
             <!-- For Book Chapters; Remove the following if not encoding a book chapter -->
-            <title><!-- Chapter Title (in original language) if not just numerical value; otherwise "Chapter #" --> within
+            <title><!-- Chapter Title (in English) if not just numerical value; otherwise "Chapter #" --> within
                <!-- Book Title --></title>
-            <title type="translation">LE SEXE INCONNU Chapitre XII : la manie androgyne</title>
-            <title type="original">The Unknown Sex Chapter XII: Androgyne Mania</title>
+            <!-- Example: <title>Foreword within Man into Woman</title> -->
             
             <!-- For Editions; Remove the following if not encoding a book chapter -->
             <title><!-- Language --> Edition</title>
