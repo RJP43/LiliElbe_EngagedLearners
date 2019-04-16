@@ -95,12 +95,10 @@
                 <p><seg n="g03">Die Götter haben sie gewissermassen zu Auserwählten in diesem Dasein
                         gemacht, haben ihnen erlaubt, etwas hinter den grossen Vorhang zu schauen,
                         der den meisten anderen die mystischen Kräfte verbirgt, die sich in Mensch
-                        und Natur rühren. <anchor type="commentRangeStart" n="1"/><choice>
+                        und Natur rühren. <choice>
                             <orig>Davür</orig>
                             <reg>Dafür</reg>
-                        </choice><anchor type="commentRangeEnd" n="1"/><note type="editor"
-                            source="sm" corresp="comment_1">It should be "Dafür" – the typo is in the
-                            original.</note> aber habe die Götter in die Seele dieser Auserwählten
+                        </choice> aber habe die Götter in die Seele dieser Auserwählten
                         eine gnadenlose, unbarmherzige Macht gesenkt, die sie zwingt, Ausdruck zu
                         geben für alles, was sie gesehen und gefühlt haben, - alljenen, die wie
                         Blinde durch das Leben gehen, den Weg zu weisen.</seg></p>
@@ -246,20 +244,18 @@
                         whose fate it was to live first as a man and then become a woman.</seg></p>
 
                 <p><seg corresp="#g06">The first person, not to be born unconsciously through their
-                        Mother's pangs but consciously through their own pangs.</seg></p>
-                <!--TWJ:2018-01-10: It's supposed to be "pain" instead of "pangs". I dont't remember translating it like this, and am not sure if anyone else made changes to this document.-->
+                        Mother's pangs but consciously through their own pain.</seg></p>
 
                 <p><seg corresp="#g07">A hermaphrodite, <persName key="sparreAn">Andreas
                             Sparre</persName>, or as known by his public name, <persName
                             key="wegenerE">Einar Wegener</persName>, according to civil laws lived
                         as a man for many, many years. He was an artist, a painter – he was married.
-                            <anchor type="commentRangeStart" n="2"/>As the division within him had
+                            <anchor type="commentRangeStart" n="1"/>As the division within him had
                         become so strong that he cannot live any longer, he, a fatally ill human
                         being, meets an ingenious surgeon, who is willing to take on the
                         responsibility for this unprecedented experiment.<anchor
-                            type="commentRangeEnd" n="2"/><note type="editor" source="sm"
-                            corresp="comment_2">The tenses are off in the German as well – from past
-                            perfect to present tense.</note></seg></p>
+                            type="commentRangeEnd" n="1"/><note type="editor" source="sm"
+                            corresp="comment_1">The tenses are off here and in the German: past perfect to present tense.</note></seg></p>
                 <p><seg corresp="#g08">A young and rejuvenated woman is resurrected out of <persName
                             key="sparreAn">Andreas</persName>' "sick and decrepit body."</seg></p>
                 <p><seg corresp="#g09">A year has passed. It was a difficult year, because within a
