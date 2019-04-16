@@ -20,8 +20,8 @@
             
             <!-- For Book Chapters; Remove the following if not encoding a book chapter -->
             <title><!-- Chapter Title (in English) if not just numerical value; otherwise "Chapter #" --> within
-               <!-- Book Title --></title>
-            <!-- Example: <title>Foreword within Man into Woman</title> -->
+               <hi rend="italics"><!-- Book Title --></hi></title>
+            <!-- Example: <title>Foreword within <hi rend="italics">Man into Woman</hi></title> -->
             
             <!-- For Editions; Remove the following if not encoding a book chapter -->
             <title><!-- Language --> Edition</title>
