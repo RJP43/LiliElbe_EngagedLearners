@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="1LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -136,7 +136,7 @@
                 général, me dit d'une air malicieux: "Que diriez-vous si <persName key="allatiniE">Eric</persName> était nommé à Versailles? En seriez-vous très ennuyée?"</seg></p>
                 <p><seg n="f07">Je faillis lui sauter à cou.</seg></p>
                 <p><seg n="f08">Quelques jours plus tard, <persName key="allatiniE">mon mari</persName> arrivait à <placeName key="paris">Paris</placeName> pour rejoindre son nouveau poste et, peu de temps après, je m'établissais à <placeName key="versailles">Versailles</placeName>, avec <persName key="allatiniJ">ma petite fille</persName>. Nous y menions une vie délicieuse, fréquentant les autres jeunes ménages des quatre nations, parmi lesquels nous cimentâmes quelques amitiés fidèles.</seg></p>
-                <p><seg n="f09"><persName>Le couple Wegener</persName><!--BC: 2019-03-28: This is one of those instances when Gerda and Einar are refered to as a couple. Should this kind of reference receive a key ID?-->vint nous voir souvent dans la charmante villa que nous avions louée, et décida de passer la fin de l'été et une partie de l'automne à <placeName key="versailles">Versailles</placeName>. Ils prirent un petit appartement <placeName key="reservoirs">rue de Réservoirs</placeName><!--BC: 2019-03-28: I think that the noun "appartement" should be preceded by the preposition à.-->here et nous nous vîmes quotidiennement. Je me rappelle, non sans émotion, les exquises matinées dans <placeName>le parc du Château</placeName><!--BC: 2019-03-28: Should this location get a key ID?-->, aux côtés d'<persName key="wegenerE">Einar</persName>,<!--BC: 2019-03-28: There shouldn't be a comma preceding a parenthesis.-->(<persName key="wegenerE">Bé</persName> pour les intimes), tandis qu'il m'initiait, tout en peignant, aux beautés cachées des jardins. Ce fut lui qui me montra que chaque bassin était d'une couleur différente, chose que je n'avais jamais remarquée. Il avait une âme d'enfant, pure, ouverte à la nature et à toutes ses merveilles. Nous nous entendions fort bien; d'ailleurs, qui ne se serait entendu avec <persName key="wegenerE">ce charmant garçon</persName>, plein de douceur et de tendresse. Il adorait <persName key="wegenerG">sa femme</persName> et s'efforçait de lui épargner les moindres corvées de la vie courante; c'était lui qui commandait aux <persName>fournisseurs</persName><!--BC: 2019-03-28: Should the "suppliers" receive a key ID?-->, aux <persName>marchands de couleurs</persName><!--BC: 2019-03-28: Should "color sellers" receive a key ID?-->, écrivait aux <persName>éditeurs</persName><!--BC: 2019-03-28: Should "editors" receive a key ID?-->, achetait les provisions, afin 
+                <p><seg n="f09">Le couple Wegener<!--BC: 2019-03-28: This is one of those instances when Gerda and Einar are refered to as a couple. Should this kind of reference receive a key ID?-->vint nous voir souvent dans la charmante villa que nous avions louée, et décida de passer la fin de l'été et une partie de l'automne à <placeName key="versailles">Versailles</placeName>. Ils prirent un petit appartement <placeName key="reservoirs">rue de Réservoirs</placeName><!--BC: 2019-03-28: I think that the noun "appartement" should be preceded by the preposition à.-->here et nous nous vîmes quotidiennement. Je me rappelle, non sans émotion, les exquises matinées dans <placeName>le parc du Château</placeName><!--BC: 2019-03-28: Should this location get a key ID?-->, aux côtés d'<persName key="wegenerE">Einar</persName>,<!--BC: 2019-03-28: There shouldn't be a comma preceding a parenthesis.-->(<persName key="wegenerE">Bé</persName> pour les intimes), tandis qu'il m'initiait, tout en peignant, aux beautés cachées des jardins. Ce fut lui qui me montra que chaque bassin était d'une couleur différente, chose que je n'avais jamais remarquée. Il avait une âme d'enfant, pure, ouverte à la nature et à toutes ses merveilles. Nous nous entendions fort bien; d'ailleurs, qui ne se serait entendu avec <persName key="wegenerE">ce charmant garçon</persName>, plein de douceur et de tendresse. Il adorait <persName key="wegenerG">sa femme</persName> et s'efforçait de lui épargner les moindres corvées de la vie courante; c'était lui qui commandait aux fournisseurs<!--BC: 2019-03-28: Should the "suppliers" receive a key ID?-->, aux marchands de couleurs<!--BC: 2019-03-28: Should "color sellers" receive a key ID?-->, écrivait aux éditeurs<!--BC: 2019-03-28: Should "editors" receive a key ID?-->, achetait les provisions, afin 
                 <pb style="page" n="202"/>
                 <pb style="heading" rend="Mosaïques"/>
                     qu'elle pût se consacrer entièrement à son art. De son côté, elle lui témoignait une affection presque maternelle. Dans le quartier, tout le monde aimait <persName key="wegenerE">Bé</persName>, si poli, si plein de tact et de gentillesse; <persName>les commerçants</persName><!--BC: 2019-03-28: Should the "sellers" get their own key ID?-->lui procuraient tout le charbon et le sucre nécessaires, même dans les périodes de restrictions où il était le plus difficile d'en obtenir. Les deux <persName>époux</persName><!--BC: 2019-03-28: One of the ways to refer to Gerda and Einar as a couple. Should it get a specific key ID?--> ne se quittaient jamais, partageant chaque joie, chaque émotion, dormant côte à côte avec leur petite chienne fox, <persName>"Vâpe"</persName><!--BC: 2019-03-28: Should the dog's name be marked up as a person's? If yes, should it receive its own key ID?--><!--BC: 2019-03-28: Unless Vâpe has also a meaning as a common noun, not only as a proper noun, or it signifies something more than just a name, I don't think that the use of the quotation marks is necessary.--></seg></p>
@@ -460,11 +460,10 @@
                         key="allatiniE">fiancé</persName> was then fighting in the Italian army, on
                     the <placeName key="dolomites">Dolomites</placeName> front. During his rest
                     periods he was writing fairy tales for our future children. Since he appreciated
-                    the talent of the Danish artist, <persName key="wegenerG">Gerda
-                        Wegener</persName>, whose drawings appeared in La Vie Parisienne that I sent
+                    the talent of the Danish artist, <persName key="wegenerG">Gerda Wegener</persName>, whose drawings appeared in La Vie Parisienne that I sent
                     to him regularly, he asked me to approach her about doing the illustrations of
                     his tales. I knew that she had done a very pretty cover for a book by <persName
-                        key="magreM">Maurice Magre</persName>, and so I asked my old friend to put
+                        key="magreM">Maurice Magre</persName>, and so I asked <persName key="magreM">my old friend</persName> to put
                     me in touch. That is how, several days later, we came to ring at the door of a
                     <placeName key="studioLille">studio on the rue de Lille.</placeName></seg></p><!--The first pragraph of the translation is split between pages, unlike in the French text.-->
                 <p> We entered a large tastefully arranged room: antique furniture, Spanish shawls,
@@ -474,9 +473,8 @@
                         >Gerda</persName> and <persName key="wegenerE">Einar Wegener</persName>
                     offered us chairs and they sat down across from us on a large black sofa,
                     decorated with variously colored cushions. Thus, side by side, they reminded me
-                    of characters in <persName>Andersen’s</persName> tales,
-                    especially the ones in The Snow Queen: <persName key="wegenerG">Gerda
-                        Wegener</persName>, so blonde, so fair, personified for me the other Gerda,
+                    of characters in <persName>Andersen’s</persName><!--EP: 2019-05-17: Should the "Andersen's" get their own key ID?-->tales,
+                    especially the ones in The Snow Queen: <persName key="wegenerG">Gerda Wegener</persName>, so blonde, so fair, personified for me the other Gerda,
                     the one who went off, risking her life, in search of her beloved Kaj in the
                     enchanted palace, while <persName key="wegenerE">Einar</persName> was an exact
                     replica of Kaj, with a mischievous smile that played on his well-drawn lips. The
@@ -504,7 +502,7 @@
                 <p>We left that same evening for our honeymoon in <placeName key="rome"
                         >Rome</placeName>. Upon my return, five months later, we took up again our
                     friendly relations that became more and more cordial and affectionate. I had
-                    just lost <persName>my mother</persName> and was
+                    just lost <persName>other</persName><!--EP: 2019-04-17: Should the her "mother" get its own key ID?-->and was
                     expecting <persName key="allatiniJ">my first child</persName>. My Scandinavian
                     friends embraced me and I found great comfort in their affection on days when,
                     without news of my <persName key="allatiniE">husband</persName>, they increased
@@ -514,7 +512,7 @@
                         <placeName key="versailles">Versailles</placeName>. <persName
                         key="robilantM">General Nichola de Robilant</persName>, my <persName
                         key="allatiniE">husband’s</persName> commander and old friend of the family,
-                    was appointed to represent <placeName key="italy">Italy</placeName>. Upon his
+                    was appointed to represent <placeName key="italy">Italy</placeName>. Upon <persName key="allatiniE">his</persName>
                     arrival, he came to see me, accompanied by his aide-de-camp <persName
                         key="carpegnaM">Count Mario di Carrobio</persName>, as handsome as a young
                     god, cloaked in the superb blue cape worn by cavalry officers. Hardly into our
@@ -522,14 +520,13 @@
                     with a mischievous air: “What would you say if <persName key="allatiniE"
                         >Eric</persName> were named to <placeName key="versailles"
                         >Versailles</placeName>? Would you be annoyed?”</p>
-                <p>I almost threw my arms around his neck.</p>
+                    <p>I almost threw my arms around <persName key="robilantM">his</persName> neck.</p>
                 <p>Several days later <persName key="allatiniE">my husband</persName> arrived in
                     Paris to take up his new post and shortly thereafter I got settled in <placeName
-                        key="versailles">Versailles</placeName> with <persName key="allatiniJ">my
-                        baby girl</persName>. We led a delightful life getting together with other
+                        key="versailles">Versailles</placeName> with my <persName key="allatiniJ">baby girl</persName>. We led a delightful life getting together with other
                     young couples from all over the world, with many of whom we formed lasting
                     friendships. </p>
-                <p>The Wegeners came to visit us often in the charming villa that we had rented and
+                    <p> The <persName>Wegeners</persName><!--EP: 2019-04-17: Is there a key ID for the Wegender family?-->came to visit us often in the charming villa that we had rented and
                     decided to spend the end of summer and a part of autumn in <placeName
                         key="versailles">Versailles</placeName>. They took a small apartment on the
                         <placeName key="hotelReservoirs">rue des Réservoirs</placeName> and we saw
@@ -544,7 +541,7 @@
                     sweetness and tenderness. He adored his <persName key="wegenerG">wife</persName>
                     and endeavored to spare her the least burdens of daily life; it was he who
                     ordered from suppliers, such as color merchants, wrote to editors, bought supplies, so that she could
-                    devote herself entirely to her art. For her part, she showed towards him an
+                    devote herself entirely to her art. For <persName key="wegenerG">her</persName> part, she showed towards him an
                     almost maternal affection. Everyone in the quarter loved <persName
                         key="wegenerE">Bé</persName>, so polite, so full of tact and kindness. The
                     shopkeepers got him coal and the sweet necessities, even in periods of rationing
@@ -559,7 +556,7 @@
                         >Place de l’Alma</placeName>, which allowed us to see them often, even in
                     that city where, because of distances, it is difficult to see friends as often
                     as one would like.</p>
-                <p>I remember a somewhat curious little event that happened to me at the Wegeners.
+                    <p>I remember a somewhat curious little event that happened to me at the <persName>Wegeners</persName>.<!--EP: 2019-04-17: Is there a key ID for the Wegner family?-->
                     They had invited us to dinner to introduce us to one of their best friends and oldest
                     friends, the <persName key="tb">Danish diplomat T.B.</persName>, a highly
                     cultured man. </p>
@@ -589,7 +586,7 @@
                     gathering all my forces I gave him a mighty kick. A dog’s cry rang out: the real
                     culprit was <persName key="hvappe">the fox terrier</persName>, who got punished.
                     This proved, once again, that one should be wary of one’s imagination.</p>
-                <p>I recall another little event that took place at the Wegeners. I was supposed to
+                    <p>I recall another little event that took place at the <persName>Wegeners</persName>.<!--EP: 2019-04-17: Is there a key ID for the Wegner family?--> I was supposed to
                     have dinner at my friend <persName key="schildtBar">Baby de
                         Friedlander-Fuld’s</persName> place—now the baroness
                     Goldschmidt-Rothschild—who was stopping in Paris. Then we planned to go together
@@ -602,7 +599,7 @@
                 <p>“No, it’s over there, behind you, on the chair.”</p>
                 <p>“Doesn’t it fit? Is it too tight, too big? We can maybe fix that.”</p>
                 <p>“No, none of that, on the contrary, it fits marvelously well, but that animal
-                        <persName>Hellstern</persName> didn’t deliver my brown satin
+                    <persName>Hellstern</persName> <!--EP: 2019-04-17: Hellstern needs its own key ID-->didn’t deliver my brown satin
                     shoes.”</p>
                 <p>“Don’t you have an old pair of brown ones that you could wear?”</p>
                 <p>“No, the only pair I have is in a dreadful state; the tips are so worn that
@@ -1125,12 +1122,12 @@
                         key="wegenerE">Einar</persName> was a confirmed atheist), she became
                     edifyingly pious, with an intense mysticism. Her second brother, <persName
                         key="brotherSing">Holger</persName>, and her
-                        <persName>sister-in-law</persName>, with whom <persName key="wegenerE"
+                        <persName key="sisterInLaw">sister-in-law</persName>, with whom <persName key="wegenerE"
                         >Bé</persName> got along very well, were touchingly good to <persName
                         key="lili">Lily</persName> and welcomed her wholeheartedly. Worn out from
                     the mental tension of these last months and knowing that <persName key="lili"
                         >Lily</persName> was in good hands, <persName key="wegenerG"
-                        >Gerda</persName> gave in to her <persName>mother</persName>’s insistence
+                            >Gerda</persName> gave in to her <persName>mother</persName>’s <!--EP: 2019-04-17: Is there a key ID for Gerda's mother?-->insistence
                     that she wanted to take her to rest in <placeName key="italy">Italy</placeName>,
                     and left with her for <placeName key="rome">Rome</placeName>. They stayed at a
                     family-run pension owned by a Danish woman that they knew. It took <persName
@@ -1149,7 +1146,7 @@
                     her sincerely and with whom she could share the rest of her existence. She left
                     comforted, and that evening, in the train bringing them back to <placeName
                         key="rome">Rome</placeName>, she resolved to let her
-                        <persName>mother</persName> return to <placeName key="denmark"
+                    <persName>mother</persName> <!--EP: 2019-04-17: Is there a key ID for Gerda's mom?-->return to <placeName key="denmark"
                         >Denmark</placeName> alone and to prolong her stay in <placeName key="italy"
                         >Italy</placeName>. At the pension, a pile of mail waited for her. As she
                     moved towards the hotel salon to go through it, a masculine figure got up to
@@ -1161,7 +1158,7 @@
                 <p><persName key="wegenerG">Gerda</persName> responded with a few words and accepted
                     a cigarette. After this first conversation <persName key="portaF">Captain Porta</persName>
                     waited each evening for the young woman’s return, and their liking for each
-                    other grew more and more. The day of <persName>Madame Gottlieb</persName>’s
+                    other grew more and more. The day of <persName key="gottliebMrs">Madame Gottlieb</persName>’s
                     departure, <persName key="wegenerG">Gerda</persName> was surprised to find the
                     officer waiting for her at the station exit. “I wanted to be sure that you would
                     still be here for me,” he said with emotion. Won over by the passion of this
@@ -1178,7 +1175,7 @@
                     great joy. She was finally receiving the recompense she so deserved, the
                     happiness that I had always wished for her. During a short trip to <placeName
                         key="rome">Rome</placeName>, my husband had the opportunity to meet
-                        “<persName>Nando</persName>” and found him most charming. He belonged to one
+                    “<persName>Nando</persName>” <!--EP: 2019-04-17: Is there a key ID for  Nando?--> and found him most charming. He belonged to one
                     of the best Livornese families and had just been appointed vice-consul to
                         <placeName>Marrakech</placeName>, where they would soon be married. The
                     first few days of June <persName key="lili">Lily</persName> would leave for
@@ -1201,7 +1198,7 @@
                         >Lily</persName> for the last time!...</p>
                 <p>April, May, June… I began to prepare for the arrival of <persName key="lili"
                         >Lily</persName>. I broke the news of the death of her friend <persName
-                        key="wegenerE">Bé</persName> to my <persName>daughter</persName>, who loved
+                            key="wegenerE">Bé</persName> to my <persName>daughter</persName>, <!--EP: 2019-04-17: who are they talking about here?-->who loved
                     him so tenderly. I dried her tears and tried to calm her announcing that
                         <persName key="wegenerE">Einar</persName>’s sister, <persName key="lili"
                         >Lily</persName>, was coming to visit us for several days and that she so
@@ -1256,7 +1253,7 @@
                     glacial chill penetrated her and it seemed that the room had been plunged into a
                     greenish light; under the mosquito net, she felt the presence of a dead person.
                     She recoiled, felt a shiver and a few moments later it was with difficulty that
-                    her <persName>husband</persName> was able to calm her fears.</p>
+                    her <persName key="wegenerE">husband</persName> was able to calm her fears.</p>
                 <p>In <placeName key="dresden">Dresden</placeName>, the surgery, like 
                     all or almost all operations, was successful, but poor <persName key="lili">Lily</persName>
                     suffered like a condemned person and was unable to get her strength back.
