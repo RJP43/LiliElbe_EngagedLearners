@@ -13,38 +13,37 @@
             </respStmt>
             <respStmt>
                <resp>Transcription completed
-                     <date>October 2017</date> by</resp>
+                     <date>October 2017</date> by </resp>
                <persName ref="mo">Marianne Ølholm</persName>
             </respStmt>
             <respStmt>
                <resp>Translation completed
-                     <date>October 2017</date> by</resp>
+                     <date>October 2017</date> by </resp>
                <persName ref="mo">Marianne Ølholm</persName>
             </respStmt>
             <respStmt>
-               <resp>Translation reviewed by</resp>
+               <resp>Translation reviewed by</resp> 
                <persName ref="plc">Pamela L. Caughie</persName>
             </respStmt>
             <respStmt>
                <resp>Encoding completed
-                     <date>April 2019</date> by</resp>
+                     <date>April 2019</date> by </resp>
                <persName ref="kej">Kristin Jacobsen</persName>
             </respStmt>
             <respStmt>
-               <resp>Encoding assistance and/or XML proofing completed by</resp>
+               <resp>Encoding assistance and/or XML proofing completed by</resp> 
                <persName ref="rjp">Rebecca J. Parker</persName>
              </respStmt>
             <respStmt>
                <resp>XML transformed into HTML
-                     <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                     <date><!-- exact transformation date yyyy-mm-dd --></date> by </resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
             </respStmt>
             <respStmt>
                <resp>HTML proofing completed
-                     <date><!-- insert date; see formatting suggestions above --></date> by</resp>
+                     <date><!-- insert date; see formatting suggestions above --></date> by </resp>
                <persName ref=""><!-- Name of Proofer --></persName>
                <persName ref=""><!-- Name of Proofer --></persName>
-               <!-- Remove any additional persName elements not used -->
             </respStmt>
             <sponsor>Loyola University Chicago</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -55,7 +54,7 @@
             <date>July 6th, 2019</date>
             <availability>
                <p>Reproduced by courtesy of the <orgName>The Poul Knudsen Archive (NKS), Det Kongelige Bibliotek (The Royal Library)</orgName> 
-                  in <placeName key="copenhagen">Copenhagen</placeName>, <placeName key="denmark">Denmark</placeName></p>
+                  in <placeName key="copenhagen">Copenhagen</placeName>, <placeName key="denmark">Denmark</placeName>.</p>
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                   4.0 International license.</licence>
             </availability>
@@ -75,8 +74,7 @@
             </div>
             <div rend="headlines">
                <list>
-                  <item rend="primary"><hi rend="bold"><seg n="d02"><persName key="hasselbalchS"
-                              >Hasselbalch</persName> udgiver Skandalebogen.</seg></hi></item>
+                  <item rend="primary"><hi rend="bold"><seg n="d02"><persName key="hasselbalchS">Hasselbalch</persName> udgiver Skandalebogen.</seg></hi></item>
                </list>
             </div>
             <div rend="body">
@@ -90,24 +88,23 @@
                      Sandheden den, at Politidirektøren, bistaaet af <anchor
                         type="commentRangeStart" n="2"/><persName key="mellerup">Hr.
                         Mellerup</persName>, <anchor type="commentRangeEnd" n="2"/>
-                     <note type="editor" source="plc" xml:id="comment_2">Einer Mellerup was deputy
-                        police commissioner in Copenhagen from 1926.</note> den drabelige Væbner,
-                     har saa travlt med at beskytte <anchor type="commentRangeStart" n="3"
-                        /><persName key="steinckeK">Steincke</persName>, <anchor
+                  <note type="editor" source="plc" xml:id="comment_2"><persName key="mellerup">Einer Mellerup</persName> was deputy police commissioner in <placeName ref="copenhagen">Copenhagen</placeName> from 1926.</note> den drabelige Væbner,
+                     har saa travlt med at beskytte <anchor type="commentRangeStart" n="3"/> 
+                  <persName key="steinckeK">Steincke</persName>, <anchor
                         type="commentRangeEnd" n="3"/>
-                     <note type="translator" source="mo" xml:id="comment_3">K. K. (Karl Kristian)
-                        Steincke was a prominent social democrat. From 1929 he was the minister for
+                     <note type="translator" source="mo" xml:id="comment_3"><persName key="steinckeK">K. K. (Karl Kristian)
+                        Steincke</persName> was a prominent social democrat. From 1929 he was the minister for
                         social affairs and he is probably best known for being behind the social
                         reform of 1933 which is often seen as the beginning of the Danish welfare
                         state. The reference here may be to the police commissioner's protection of
-                        Steincke's 1920 book, The Future's Social Welfare (Fremtidens
-                        forsørgelsesvæsen) in which he advocated for the sterilization of
+                        Steincke's 1920 book, <hi rend="italics">The Future's Social Welfare</hi> 
+                        (<hi rend="italics">Fremtidens forsørgelsesvæsen</hi>) in which he advocated for the sterilization of
                         "nonentities" or persons with non-normative sexual proclivities. The journal
-                        seems to be condemning Mellerup for supporting Steincke’s writing on such
+                        seems to be condemning <persName key="mellerup">Mellerup</persName> for supporting Steincke’s writing on such
                         scandalous topics while criticizing, if not censoring, this journal. So now
                         they are going after <persName key="hasselbalchS">Hasselbalch</persName> for publishing Wegener’s scandalous story.</note> at de ikke kan have Blikket rettet mod andre Steder end dette
                      Blad.</seg></p>
-               <!-- KEJ 2019-04-08: Do I tag people within a note? If so, I need to go back and do the other references in notes. -->
+               <!-- KEJ 2019-04-16: Are we tagging publications? -->
                <p><seg n="d04">For imidlertid at hjælpe Politidirektøren, underretter vi herved ham
                      og Læserne om, at der i Foraaret vil udkomme en Bog hos <persName
                         key="hasselbalchS">Hasselbalch</persName>, og den er en saa oplagt
@@ -208,39 +205,39 @@
                      short hair, dressed in an elegant pantsuit, sits at the end of the bed smiling
                      at the man. A lit candle is on the bedside table. The cartoon is signed A.R.
                      CANE.</note>
-                  <!-- RENUMBER SEGMENTS STARTING HERE WITH D27. ALSO TRANSLATE NOTE INTO DANISH. TALK ABOUT TRANSLATING ALT TEXT INTO THE LANGUAGE OF THE ORIGINAL TEXT -->
+                  <!-- KEJ 2019-04-9: TRANSLATE NOTE INTO DANISH. TALK ABOUT TRANSLATING ALL NOTES INTO THE LANGUAGE OF THE ORIGINAL TEXT -->
                </figure>
                     <list>
-                     <item><seg n="d28"><hi rend="bold">Mødet med <persName key="wegenerG">den
+                     <item><seg n="d27"><hi rend="bold">Mødet med <persName key="wegenerG">den
                                  tidligere Hustru.</persName></hi></seg></item>
                   </list>
                
-               <p><seg n="d29">Ikke ret længe efter mødte <persName key="lili">Lily
+               <p><seg n="d28">Ikke ret længe efter mødte <persName key="lili">Lily
                         Wegener</persName>
-                     <anchor type="commentRangeStart" n="comment4"/><persName key="wegenerG">sin
-                        tidligere Hustru.</persName><anchor type="commentRangeEnd" n="comment4"
+                     <anchor type="commentRangeStart" n="4"/><persName key="wegenerG">sin
+                        tidligere Hustru.</persName><anchor type="commentRangeEnd" n="c4"
                         /><note type="translator" source="mo" xml:id="comment_4">The pronoun is not
                         gendered in Danish.</note>
                   </seg></p>
-               <p><seg n="d30">Det var med ikke ringe Spænding, hun gik til dette Møde. Hun skulde
+               <p><seg n="d29">Det var med ikke ringe Spænding, hun gik til dette Møde. Hun skulde
                      nu for første Gang gense <persName key="wegenerG">den
                      Kvinde</persName>,
                      som hun havde været gift med, og som hun i Ægteskabet havde pint og skuffet saa
                      smerteligt.</seg></p>
-               <p><seg n="d31">Men <persName key="wegenerG">Gerda Wegener</persName> sluttede
+               <p><seg n="d30">Men <persName key="wegenerG">Gerda Wegener</persName> sluttede
                         <persName key="lili">Lily</persName> i sine Arme, saa snart de mødtes. De
                      var nu to Kvinder, der stod overfor hinanden. De var paa lige Fod, og al den
                      gamle Sympati fra Forlovelsens og Hvedebrødsdagenes Tid dukkede op i
                      hende.</seg></p>
-               <p><seg n="d32">Og <persName key="lili">Lily</persName> gik det lige saadan. Hun var
+               <p><seg n="d31">Og <persName key="lili">Lily</persName> gik det lige saadan. Hun var
                      rørt til Taarer over Gensynet. Vel smilede hun, men store Taarer trillede hende
                      dog ned over Kinderne.</seg></p>
                <cb n="3"/>
-               <p><seg n="d33">De to Damer sluttede et nyt Venskab, og det endte med, at de enedes
+               <p><seg n="d32">De to Damer sluttede et nyt Venskab, og det endte med, at de enedes
                      om, at <persName key="wegenerG"/>Gerda skulde adoptere <persName key="wegenerE"
                         >sin tidligere Mand</persName>, saa hun blev hendes Datter.</seg>
                   <!-- I tagged "sin tidligere Mand" or "her former husband" as Einar, but should it really be referring to Lili? I did not tag the phrase "saa hun blev hendes Datter," which is "she [Lili] became her [Gerda's] daughter." Should I tag this, as well? I haven't been tagging she and her consistently. Should I tag every pronoun? --></p><!-- ADD A TRANSLATOR'S NOTE THAT WE ARE ENCODING FOR PERSNAME WITHOUT A KEY OR EXPLAIN WHY WE CHOOSE A PARTICULAR GENDERED KEY. ALSO NEED TO RENUMBER ANY TRANSLATOR NOTES FOLLOWING THIS. -->
-               <p><seg n="d34">Der viste sig ikke store Vanskeligheder ved Adoptionen. Ministeriet
+               <p><seg n="d33">Der viste sig ikke store Vanskeligheder ved Adoptionen. Ministeriet
                      bevilgede gerne, at <persName key="wegenerG">Fru Wegener</persName> adopterede
                         <persName key="lili">rk. Lily Wegener</persName>, og paa denne Maade
                      <!-- KEJ 2019-02-21: The cartoon breaks up the text at this point in the second column. -->
@@ -249,20 +246,20 @@
                   Hustru</persName>.</seg></p>
                <!-- Again, this could be really confusing. Should I tag tidliegere Aegtemand as Einar and Datter as Lili? -->
                   <list>
-                     <item><seg n="d35"><hi rend="bold">Skandalebogen.</hi></seg></item>
+                     <item><seg n="d34"><hi rend="bold">Skandalebogen.</hi></seg></item>
                   </list>
-               <p><seg n="d36">Alt dette kunde være meget godt, men det, der maa vække enhver
+               <p><seg n="d35">Alt dette kunde være meget godt, men det, der maa vække enhver
                      sundttænkende Mands Forargelse, er den Omstændighed, at <persName key="lili"
                         >Frk. Wegener</persName> nu vil udgive en Skandalebog.</seg></p>
-               <p><seg n="d37">Bogen kommer i <persName key="lili">Frk. Wegener</persName>s Navn,
+               <p><seg n="d36">Bogen kommer i <persName key="lili">Frk. Wegener</persName>s Navn,
                      men <hi rend="italics"><persName key="louLou">Loulou Lassen</persName></hi> fra
                      “Politiken” <!-- Should I be tagging publication names? -->har skrevet den for
                      hende, og den giver en udpenslet Skildring af de erotiske Fornemmelser,
                      <persName>Mennesket
                      Wegener</persName><!-- KEJ 2019-04-02: How should I tag "Mennesket Wegener," which is translated as "person Wegener"? -->har
                      oplevet, dels som mand og dels som Kvinde.</seg></p>
-               <p><seg n="d38">Kan man virkelig det?</seg></p>
-               <p><seg n="d39"><hi rend="italics">Er</hi> en saadan Udpensling ikke for utiltalende
+               <p><seg n="d37">Kan man virkelig det?</seg></p>
+               <p><seg n="d38"><hi rend="italics">Er</hi> en saadan Udpensling ikke for utiltalende
                      for et anset Forlag som <persName key="hasselbalchS">Hasselbalch</persName>s. Vi
                      troede Jo, men <persName key="hasselbalchS">Hasselbalch</persName> mener altsaa
                      Nej.</seg></p>
@@ -274,10 +271,9 @@
          <div type="translation">
             <!-- KEJ 2019-03-27: article translation-->
             <div rend="head">
-          <p><seg n="d01"><hi rend="bold">A Book About how <persName key="wegenerE">Mr. Wegener </persName>became <persName key="lili">Miss Wegener.</persName></hi></seg>
+          <p><seg n="d01"><hi rend="bold">A Book About How <persName key="wegenerE">Mr. Wegener </persName>Became <persName key="lili">Miss Wegener.</persName></hi></seg>
           </p>
           <!-- In general, should I put a space before the closing element of a tag, or somewhere else, to ensure that there is a space once it is rendered? -->
-          <!-- I think that in the English translation of the headline, "book" and "about" should not be capitalized. Should I change them? -->
             </div>
           <div rend="headlines">
           <list>
@@ -286,52 +282,43 @@
           </list>
           </div>
           <div rend="body">
-          <p><seg n="d03">THE SPECULATION in printed matter touching on the sexual domain has by now taken on such proportions that one would think that the commissioner of police was asleep and let <anchor type="commentRangeStart" n="comment1"/>obscenity paragraphs <anchor
-                        type="commentRangeEnd" n="comment1"/>
-                     <note type="translator" source="mo" xml:id="comment_comment1">
-                     This
-                        likely refers to Paragraph 184 in the criminal law of 1866 which was used in
+          <p><seg n="d03">THE SPECULATION in printed matter touching on the sexual domain has by now taken on such proportions that one would think that the commissioner of police was asleep and let <anchor type="commentRangeStart" n="1"/>obscenity paragraphs <anchor
+                        type="commentRangeEnd" n="1"/>
+                     <note type="translator" source="mo" xml:id="comment_1">
+                     This likely refers to Paragraph 184 in the criminal law of 1866 which was used in
                         other cases of literary censorship.</note>
-             <!-- KEJ 2019-04-02: Did I construct the note correctly? -->
              be obscenity paragraphs. Perhaps
                      the truth is that the commissioner of police aided by <anchor
                         type="commentRangeStart" n="2"/><persName key="mellerup">Mr.
                         Mellerup</persName>, <anchor type="commentRangeEnd" n="2"/>
-                     <note type="translator" source="Pamela Caughie" xml:id="comment_2">
-                        <!-- BECCA IS INVESTIGATING. MARKUP NEEDS TO CHANGE. WE NEED TO PICK A NEW ATTRIBUTE -->
-                        <!-- KEJ 2019-04-02: What is Dr. Caughie's team ID? --> Einer Mellerup
-                        was deputy police commissioner in Copenhagen from 1926.</note><!-- KEJ 2019-04-02: Did I construct the note correctly? -->
-                     <anchor type="commentRangeStart" n="comment3"/><persName key="steinckeK"
-                        >Steincke</persName>, <anchor type="commentRangeEnd" n="comment3"/>
-             <!-- DOUBLE CHECK THAT XML ID FORMATTED COMMENT_4 BUT EVERYTHING ELSE IS JUST 4 WITHOUT THE PRECEEDING WORD COMMENT -->
+                     <note type="translator" source="plc" xml:id="comment_2">
+                        <persName key="mellerup">Einer Mellerup</persName> was deputy police commissioner in Copenhagen from 1926.</note>
+                     <anchor type="commentRangeStart" n="3"/><persName key="steinckeK"
+                        >Steincke</persName>, <anchor type="commentRangeEnd" n="3"/>
+             <!-- KEJ 2019-04-17: Becca is working on finding a new attribute to resolve the error caused by double xml id's in translations. -->
              <!-- THERE ARE THREE PERSNAMES IN THE ORIGINAL THAT ARE NOT IN THE TRANSLATION. IT COULD BE THAT I'VE REMOVED A PERSNAME, BUT THEY SHOULD MATCH -->
-                     <note type="translator" source="mo" xml:id="comment3"> K. K. (Karl
-                        Kristian) Steincke was a prominent social democrat. From 1929 he was the
+             <!-- BE SURE TO TAG NAMES IN NOTES -->
+                     <note type="translator" source="mo" xml:id="comment_3"> <persName key="steinckeK">K. K. (Karl
+                        Kristian) Steincke</persName> was a prominent social democrat. From 1929 he was the
                         minister for social affairs and he is probably best known for being behind
                         the social reform of 1933 which is often seen as the beginning of the Danish
                         welfare state. The reference here may be to the police commissioner's
-                        protection of Steincke's 1920 book, The Future's Social Welfare (Fremtidens
-                        forsørgelsesvæsen) in which he advocated for the sterilization of
+                        protection of Steincke's 1920 book, <hi rend="italics">The Future's Social Welfare</hi> (<hi rend="italics">Fremtidens forsørgelsesvæsen</hi>) in which he advocated for the sterilization of
                         "nonentities" or persons with non-normative sexual proclivities. The journal
-                        seems to be condemning Mellerup for supporting Steincke’s writing on such
+                        seems to be condemning <persName key="mellerup">Mellerup</persName> for supporting <persName key="steinckeK">Steincke</persName>’s writing on such
                         scandalous topics while criticizing, if not censoring, this journal. So now
-                        they are going after Hasselbalch for publishing Wegener’s scandalous story.
+                        they are going after <persName key="hasselbalchS">Hasselbalch</persName> for publishing <persName key="wegenerE">Wegener</persName>’s scandalous story.
                      </note>that they cannot have their glance directed to other places than this
                      magazine.</seg></p>
-               <p><seg n="d04">But to help the commissioner of police
-                     <!-- KEJ 2019-04-01: Should I tag the commissioner of police? -->we hereby
+             <!-- KEJ 2019-04-17: The note talks about "Wegener's scandalous story." Should this be coded as Lily? Whose story is this, philosophically? -->
+               <p><seg n="d04">But to help the commissioner of police we hereby
                      inform him and the readers that a book will be published by <persName
-                        key="hasselbalchS">Hasselbalch</persName> in the spring and that it is a
-                     <!-- KEJ 2019-04-01: I think this "a" before "such" should be deleted. -->such
-                     an obvious speculation in people’s curiosity towards the sexual questions that
+                        key="hasselbalchS">Hasselbalch</persName> in the spring and that it is such an obvious speculation in people’s curiosity towards the sexual questions that
                      there is absolutely cause for intervention. </seg></p>
-               <p><seg n="d05">The book is written by <persName key="wegenerE"><hi rend="italics"
-                           >the painter Wegener</hi></persName>, who was formerly <persName
-                        key="wegenerE"><persName key="wegenerG">Gerda Wegener</persName>'s
-                        husband</persName>. It is about the painter’s
-                     <!-- KEJ 2019-04-02: Should I tag "the painter" as Einar? --> experiences
+             <!-- KEJ 2019-04-01: Should I tag the commissioner of police? -->
+             <!-- KEJ 2019-04-01: I deleted the "a" before "such." Does it need to be corrected anywhere else? -->
+             <p><seg n="d05">The book is written by the painter <persName key="wegenerE"><hi rend="italics">Wegener</hi></persName>, who was formerly <persName key="wegenerE"><persName key="wegenerG">Gerda Wegener</persName>'s husband</persName>. It is about <persName key="wegenerE">the painter</persName>’s experiences
                      during the transformation from man into woman.</seg></p>
-               <!-- KEJ 2019-03-30: Can I tag for both Gerda and Einar? -->
                <p><seg n="d06">This transformation took place not long ago in <placeName
                         key="berlin">Berlin</placeName>, where on the operating table <persName
                         key="wegenerE">Wegener</persName> let himself be transformed from man into
@@ -339,9 +326,7 @@
                <list>
                <item><seg n="d07"><hi rend="bold">An Unhappy Marriage.</hi></seg></item>
                </list>
-               <p><seg n="d08">The painter’s
-          <!-- KEJ 2019-04-02: Should I code the painter as Einar? It is referring more to his marriage. -->
-                     marriage was unhappy. He was not a well and natural man. He was halfway woman and this caused severe conflicts in the home. <persName key="wegenerE">Wegener</persName> suffered greatly under the desperate conditions in the home. He loved <persName key="wegenerG">his wife</persName> with a deep and genuine affection, but he did not have the natural masculine desire towards her that a real man feels for the woman he loves. At the same time, he fights a desperate fight against an attraction to other men that he felt within himself.</seg></p>
+               <p><seg n="d08">The painter’s marriage was unhappy. He was not a well and natural man. He was halfway woman and this caused severe conflicts in the home. <persName key="wegenerE">Wegener</persName> suffered greatly under the desperate conditions in the home. He loved <persName key="wegenerG">his wife</persName> with a deep and genuine affection, but he did not have the natural masculine desire towards her that a real man feels for the woman he loves. At the same time, he fights a desperate fight against an attraction to other men that he felt within himself.</seg></p>
                <p><seg n="d09">He brooded more and more on these matters until one day he heard
                      about the operations performed by German scientists that make people of his
                      kind healthy and natural by giving them their proper sex.</seg></p>
@@ -362,18 +347,17 @@
                      change him into a real woman there.</seg></p>
                <p><seg n="d13">He carried out his plan and some weeks later he was standing outside
                         <placeName key="gebhardSanatorium">a private clinic</placeName> in the
-                     fashionable quarter of <placeName key="berlin">Berlin></placeName>.</seg></p>
+                     fashionable quarter of <placeName key="berlin">Berlin</placeName>.</seg></p>
                <p><seg n="d14">He rang the doorbell and was received by a friendly nurse who asked
                      him to take a seat and write his name in a reception book that was shown to
                         <persName key="gebhard">the doctor</persName>. <persName key="wegenerE"
                         >Wegener</persName> wrote his name and sat down to wait, but he had hardly
                      taken a seat before the door was opened again and <persName key="gebhard">the
                         doctor</persName> stepped.</seg></p>
-               <!-- KEJ 2019-03-30: Laegen, or "the doctor," in the two cases in this paragraph seems to be Gebhard, but there's no evidence for sure. It could be another doctora at the clinic. Should I leave the tag here or take it out? -->
+               <!-- KEJ 2019-03-30: Laegen, or "the doctor," in the two cases in this paragraph seems to be Gebhard, but there's no evidence for sure. It could be another doctora at the clinic. Should I leave the tags here or take them out? -->
                <list>
-                  <item><seg n="d15"><hi rend="bold">“It Is no Worse than Going to the Dentist,”</hi></seg></item>
+                  <item><seg n="d15"><hi rend="bold">“It Is No Worse Than Going to the Dentist,”</hi></seg></item>
                </list>
-             <!-- KEJ 2019-04-08: Capitalization is different in Danish than in English. Are we keeping the same form in both Danish and English or should I go back and change the English translation? I don't think it's very consistent. -->
                <p><seg n="d16">he said to <persName key="wegenerE">Wegener</persName>, when he had
                      stated his errand which was to ask if it was a very serious operation that was
                      needed to make him a woman.</seg></p>
@@ -385,9 +369,10 @@
                   man.</seg></p>
                <p><seg n="d19">When he woke up in his bed, he was a woman. The operation was over
                      and it had been a success.</seg></p>
-               <p><seg n="d20">“Well, <persName key="wegenerE">Miss</persName>, how are you doing?”
-                        <persName key="Overlægen">the senior physician </persName> asked in a
+               <p><seg n="d20">“Well, <persName key="lili">Miss</persName>, how are you doing?”
+                  <persName key="gebhard">the senior physician </persName> asked in a
                      friendly manner. <persName key="wegenerE">Wegener</persName> smiled.</seg></p>
+             <!-- KEJ 2019-04-17: I coded Miss as Lily and Wegener as Einar. Should this stay? DOUBLE CHECK THE DANISH INSTANCE TO MAKE THEM THE SAME. -->
                <p><seg n="d21">For the first time, she was addressed as a woman and her woman’s soul
                      rejoiced in finally dwelling in a woman’s body.</seg></p>
                <p><seg n="d22">…. It was not long before she had recovered completely from the
@@ -396,11 +381,9 @@
                <p><seg n="d23">She was now suddenly in a very peculiar situation. A woman she was
                      but she was still carrying around a man’s name and papers stating that she was
                      a man.</seg></p>
-               <p><seg n="d24">Hun havde hurtigt vænnet sig til Kvindetøj, og hun befandt sig langt
-                     bedre i denne Klædning end i Mandstøj. Men nu maatte hun ogsaa have Papirer,
-                     der lød paa, at hun var Kvinde.</seg></p>
+             <p><seg n="d24">She had quickly become accustomed to women’s clothes and she was far more comfortable in this clothing than in men’s clothes. But now she must also have papers stating that she was a woman.</seg></p>
                <p><seg n="d25">It proved extremely difficult to get these papers. It took countless
-                     examinations and certificates from community physicians and the Medico-legal Council, <!-- DOUBLE CHECK THAT DIDN'T TAGE THE COUNCIL -->
+                     examinations and certificates from community physicians and the Medico-legal Council, <!-- DOUBLE CHECK THAT DIDN'T TAG THE COUNCIL IN DAINISH version-->
                      <!-- KEJ 2019-03-30: Tag for organization? -->
                      but eventually the ministry arrived at its decision to the effect that when she
                      actually <hi rend="italics">was</hi> a woman she should <cb n="2"/><pb n="1"/>
@@ -408,11 +391,11 @@
                         rend="italics"><persName key="lili">Lily Wegener</persName></hi>, and as
                      such she was also entered into the parish registers. At the same time <persName
                         key="wegenerE">the man Wegener</persName> was struck from the parish
-                     register and <persName key="lili">Miss Wegener</persName>s right to bear the
+                     register and <persName key="lili">Miss Wegener</persName>'s right to bear the
                      woman’s name was incontestable after that.</seg></p>
              <!-- KEJ 2019-02-21: Cartoon begins here and spreads over both columns of the page. -->
              <figure xml:id="i00">
-                <figDesc><hi rend="bold">Nowadays, you can expect anything. The other day my cousin (Fætter) came up to see me. He had become my female cousin (Kusine) since I saw him last.</hi>
+                <figDesc><hi rend="bold"><seg n="d26">Nowadays, you can expect anything. The other day my cousin (Fætter) came up to see me. He had become my female cousin (Kusine) since I saw him last.</seg></hi>
                 </figDesc>
                 <note source="#kej">A man in striped pajamas is sitting up in a bed. A woman with
                    short hair, dressed in an elegant pantsuit, sits at the end of the bed smiling
@@ -420,38 +403,38 @@
                    CANE.</note>
              </figure>
                   <list>
-                     <item><seg n="d28"><hi rend="bold">Meeting <persName key="wegenerG">the Former
+                     <item><seg n="d27"><hi rend="bold">Meeting <persName key="wegenerG">the Former
                                  Wife.</persName></hi></seg></item>
                   </list>
-               <p><seg n="d29">Not long after this, <persName key="lili">Lily Wegener</persName> met
-                        <anchor type="commentRangeStart" n="comment_4"/><persName key="wegenerG">her
+               <p><seg n="d28">Not long after this, <persName key="lili">Lily Wegener</persName> met
+                        <anchor type="commentRangeStart" n="4"/><persName key="wegenerG">her
                         former wife</persName>.<!-- KEJ 2019-04-02: Only the word "sin" is being commented on, but I can't figure out how to structure the note tag with the persName tag. --><!-- MAKE SURE WHOLE PHRASE IS INCLUDED AS PART OF NOTE. -->
-                     <anchor type="commentRangeEnd" n="comment_4"/>
+                     <anchor type="commentRangeEnd" n="4"/>
                      <note type="translator" source="mo" xml:id="comment_4"> The pronoun is not
                         gendered in Danish.</note>
                   </seg></p>
-               <p><seg n="d30">It was with considerable anticipation that she went to this meeting.
+               <p><seg n="d29">It was with considerable anticipation that she went to this meeting.
                      For the first time she was now to see <persName key="wegenerG">this
                         woman</persName>
                      <!-- KEJ 2019-04-02: Is "this woman" appropriate to code as Gerda? DOUBLE CHECK FROM ABOVE. -->again,
                      <!-- KEJ 2019-04-02: I added a comma after again. --> to whom she had been
                      married and whom in the marriage she had tortured and disappointed so
                      painfully.</seg></p>
-               <p><seg n="d31">But <persName key="wegenerG">Gerda Wegener</persName> clasped
+               <p><seg n="d30">But <persName key="wegenerG">Gerda Wegener</persName> clasped
                         <persName key="lili">Lily</persName> in her arms as soon as they met. They
                      were now two women standing face to face. They were on equal terms and all the
                      old sympathy from the time of the engagement and the honeymoon rose in
                      her.</seg></p>
-               <p><seg n="d32">And the same happened to <persName key="lili">Lily</persName>. She
+               <p><seg n="d31">And the same happened to <persName key="lili">Lily</persName>. She
                      was moved to tears by the reunion. She was certainly smiling but big tears
                      rolled down her cheeks.</seg></p>
                <cb n="3"/>
-               <p><seg n="d33">The two ladies formed a new friendship and they ended up agreeing
+               <p><seg n="d32">The two ladies formed a new friendship and they ended up agreeing
                      that <persName key="wegenerG">Gerda</persName> should adopt <persName
                         key="wegenerE">her former husband</persName>, so that she became her
                      daughter.</seg>
                   <!-- KEJ 2019-04-01: I tagged "sin tidligere Mand" or "her former husband" as Einar, but should it really be referring to Lili? I did not tag the phrase "saa hun blev hendes Datter," which is "she [Lili] became her [Gerda's] daughter." Should I tag this, as well? DOUBLE CHECK FROM ABOVE. å--> </p>
-               <p><seg n="d34">No great difficulties appeared in connection with the adoption. The
+               <p><seg n="d33">No great difficulties appeared in connection with the adoption. The
                      ministry willingly granted that <persName key="wegenerG">Mrs.
                         Wegener</persName> adopted <persName key="lili">Miss Lily
                      Wegener</persName>, and in this way
@@ -460,12 +443,12 @@
                      house of <persName key="wegenerG">her former wife</persName>.</seg></p>
                <!-- Again, this could be really confusing. Should I tag tidliegere Aegtemand as Einar and Datter as Lili? CHECK FROM ABOVE -->
                <list>
-                  <item><seg n="d35"><hi rend="bold">The Scandalous Book.</hi></seg></item>
+                  <item><seg n="d34"><hi rend="bold">The Scandalous Book.</hi></seg></item>
                   </list>
-               <p><seg n="d36">This could all be very well but what must give offence to any sanely
+               <p><seg n="d35">This could all be very well but what must give offence to any sanely
                      thinking man is the fact that <persName key="lili">Miss Wegener</persName> is
                      now going to publish a scandalous book.</seg></p>
-               <p><seg n="d37">The book will appear in <persName key="lili">Miss
+               <p><seg n="d36">The book will appear in <persName key="lili">Miss
                      Wegener</persName>'s name, but <hi rend="italics"><persName key="louLou">Loulou
                            Lassen</persName></hi> from “Politiken”
                      <!-- Should I be tagging publication names? -->Loulou Lassen from “Politiken”
@@ -474,8 +457,8 @@
                      Wegener</persName><!-- KEJ 2019-04-02: How should I tag "person Wegener"? -->
                      has experienced as a man and as a woman respectively.</seg></p>
                <!-- Again, philosophically,the text seems to be referring to Einar and Lili at the same time. How do I handle this? -->
-               <p><seg n="d38">Can you really do that?</seg></p>
-               <p><seg n="d39"><hi rend="italics">Is</hi> such an unnecessarily detailed description
+               <p><seg n="d37">Can you really do that?</seg></p>
+               <p><seg n="d38"><hi rend="italics">Is</hi> such an unnecessarily detailed description
                      not too repulsive for a distinguished publisher such as <persName
                         key="hasselbalchS">Hasselbalch</persName>'s.
                      <!-- KEJ 2019-04-02: I added an apostrophe here. --> We thought Yes, but
