@@ -7,7 +7,7 @@ This module was created for Dr. Pamela Caughie's [Spring 2019 ENGL-283 Transgend
 Getting Started - [Welcome Lili Elbe Engaged Learners WIKI](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Welcome-Lili-Elbe-Engaged-Learners!)    
   
 [Engaged Learning Tracking Hours Spreadsheet](https://docs.google.com/spreadsheets/d/1VMo0yAKX0qB8dlYiwNMGNdzAQimh-opYzX3XoqJSG2c/edit?usp=sharing)  
-_Project Manager - Emily Datskou - manintowoman@gmail.com  [_backup email: ecottrell@luc.edu]_   
+Project Manager - Emily Datskou - manintowoman@gmail.com  [backup email: ecottrell@luc.edu]   
 
 ### [ENCODING GUIDELINES](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingGuidelines.md)
 ### [`<teiHeader>` Template Lesson](https://github.com/RJP43/LiliElbe_EngagedLearners/wiki/Capturing-Metadata#sample-teiheader)   
