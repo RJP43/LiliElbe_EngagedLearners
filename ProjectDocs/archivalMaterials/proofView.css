@@ -105,3 +105,6 @@ ul.resPeeps {
 .GreteDiary {
     color: brown;
 }
+.strike{
+    text-decoration:line-through;
+}

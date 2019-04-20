@@ -810,7 +810,12 @@
                <persName source="#danishSupp">Drei Masken</persName>
                <note>German publishing house</note>
             </person>-->
-            <!-- possible dublicate with placeName #ullstein; check with Pamela what to do -->
+            <!-- possible dublicate with placeName #dreiMasken; At this time we have decided against marking organizations via <orgname> therefore Pamela says we will use the placename key (even though publishing houses existed without physical locations at this time) so as to capture these connections; we will need to write a note regarding publishing house references likely in the teiHeader of the texts mentioned-->
+            <person xml:id="else" source="historical">
+               <persName source="#danishSupp">Else</persName>
+               <persName>Else Wegener</persName> <!--RJP:2019-04-08: need to verify with Pamela this would be Else's last name-->
+               <note><persName key="wegenerS">Sigurd Wegener Thomsen</persName>'s sister and <persName key="lili">Lili</persName>'s niece</note>
+            </person>
             <person xml:id="father" source="fictional" synch="#wegenerV">
                <persName source="#A1 #TR">father</persName>
                <persName source="#D1">fa'r</persName>
@@ -1228,6 +1233,11 @@
                <persName>Eugen Steinach</persName>
                <note/>
             </person>
+            <person xml:id="steinckeK" source="historical">
+               <persName source="#danishSupp">K. K. Steincke</persName>
+               <persName source="#danishSupp">Karl Kristian Steincke</persName>
+               <note/>
+            </person>
             <person xml:id="stenningHJ" source="historical">
                <persName>H.J. Stenning</persName>
                <note><ref source="#A1">A1</ref> translator from German.</note>
@@ -1269,7 +1279,7 @@
                <persName source="#danishSupp">Ullstein</persName>
                <note>German publishing house</note>
             </person>-->
-            <!-- possible dublicate with placeName #ullstein; check with Pamela what to do -->
+            <!-- possible dublicate with placeName #ullstein; At this time we have decided against marking organizations via <orgname> therefore Pamela says we will use the placename key (even though publishing houses existed without physical locations at this time) so as to capture these connections; we will need to write a note regarding publishing house references likely in the teiHeader of the texts mentioned-->
             <person xml:id="wagner" source="historical">
                <persName>Wagner</persName>
                <persName>Richard Wagner</persName>

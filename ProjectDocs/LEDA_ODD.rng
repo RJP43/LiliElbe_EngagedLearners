@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-04-05T13:18:38Z. .
+Schema generated from ODD source 2019-04-20T23:39:29Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -4833,6 +4833,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>doctorF</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Doctor F. | Note:
                               Mentioned in Allatini's memoir) </a:documentation>
+                  <value>else</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Else, Else Wegener |
+                              Note: Sigurd Wegener Thomsen's sister and Lili's niece) </a:documentation>
                   <value>father</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): father, fa'r, vater |
                               Note: Andreas Sparre's father in narrative | Linked Keys:
@@ -5097,6 +5100,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>steinach</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Steinach, Eugen
                               Steinach) </a:documentation>
+                  <value>steinckeK</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): K. K. Steincke, Karl
+                              Kristian Steincke) </a:documentation>
                   <value>stenningHJ</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): H.J. Stenning | Note:
                               A1 translator from German.) </a:documentation>

@@ -173,7 +173,7 @@ _When a page number literally appears in the original, print rendition capture i
 _Capture artificial page numbers (either of the Word Document transcriptions or implied when text continues on a new page) with the following encoding:_   
 `<pb n="18"/>`  
   
-_In articles, there are sometime columns. At the end of each column use the `<cb/>` self-closing element with the `@n` attribute and attribute-value matching the number of column break it is._    
+_In articles, there are sometime columns. At the end of each column use the `<cb/>` self-closing element with the `@n` attribute and attribute-value matching the number of column break it is. Column numbering should be based on the article as a whole rather than individual pages._    
 `<cb n="#"/>`  
   
 _note: When transcribing a text we have made the decision as a project to remove line break hyphenation. Therefore, if a word in the print rendition of a text is hyphenated because there was not enough room in the print rendition to fit the entire word on a single line simply remove the hyphenation. **When a word is split over a page break/beginning - `<pb/>` take the second part of the word (after the hyphenation) and paste it directly after the first part of the word (removing the hyphenation) and then proceed with the `<pb>` encoding.**_   
