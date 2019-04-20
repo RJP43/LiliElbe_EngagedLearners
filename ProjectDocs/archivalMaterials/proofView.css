@@ -11,10 +11,15 @@ body {
 a{
     color: #f6f2ee !important;
     background: #5f8e9e !important; 
-    padding: 5px;
+    padding: 3px;
+    border-radius: 25px;
 }
 section.metadata {
     line-height: 1.1em !important;
+}
+section.proofDesc{
+    border:black;
+    border-style:dashed;
 }
 h1 {
     font-variant: small-caps;
@@ -38,7 +43,7 @@ h3 {
 }
 ul.resPeeps {
     padding: 0;
-    list-style:hyphen;
+    list-style:none;
 }
 /*.signature {
     float: right;
@@ -94,4 +99,9 @@ ul.resPeeps {
 .commentOn{
     text-decoration: underline dotted black;
     font-weight:bold;
+}
+.diary,
+.LiliDiary,
+.GreteDiary {
+    color: brown;
 }

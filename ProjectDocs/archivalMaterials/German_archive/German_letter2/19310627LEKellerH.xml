@@ -121,8 +121,8 @@
                     <closer>
                         <salute><seg n="g12">Viel Liebe und Grüße</seg>
                             <seg n="g13">Von Ihrer armen kleinen Freundin.</seg></salute>
-                        <seg n="g14">Viele Grüße an Ihren lieben Mann, <persName>Lilimoe</persName>
-                            und seinem Bruder.</seg>
+                        <salute><seg n="g14">Viele Grüße an Ihren lieben Mann, <persName>Lilimoe</persName>
+                            und seinem Bruder.</seg></salute>
                         <signed><persName key="lili">Lili Elbe</persName></signed>
                     </closer>
                 </div>
