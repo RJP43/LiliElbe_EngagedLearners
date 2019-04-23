@@ -96,14 +96,16 @@ In 19241200, One red and one blue line are drawn vertically down the left side o
                     <p><date when="1931-06-15">15.6.31</date></p>
                 </div> 
                 <div rend="body">
-                    <salute>Kære Red.<persName key="harthernE">Harthern</persName>!</salute>
-                    <p>Mange tak for sidst -– og tak fordi de vilde låne mig den bog,-– som jeg desværre glemte over vor interessante samtale.-–</p>
-                    <p>Jeg havde fået det indtryk, at de vilde skrive bogen råt og brutalt -– og det glædede mig overordentligt at se, at de ikke vil det -– men gøre den ægte, sandfærdig og menneskelig -– og <pb style="page" n="2"/>"germanisere" bogens atmosfære.</p>
-                    <p>Jeg er enig med dem i deres syn på hvordan bogen skulde skrives -– og er oprigtig ked af det, at de bunden af et utilfredsstillende grundlag og af personlige hensyn -– fordi bogen skal skrives nu. -–</p>
-                    <p>Jeg vil gerne hjælpe dem så meget jeg kan -– ved at sætte dem ind i hendes reactioner i den første tid hun var her i <placeName key="denmark">Danmark</placeName>, idet jeg er ganske tryg mht. deres discretion. -–</p> 
+                    <!--SK After meeting with RJP about the seg elements she told us to only add the seg elements on to the translated letter and to the leave the diary entries the way they are-->
+                    <salute><seg n="d01">Kære Red.<persName key="harthernE">Harthern</persName>!</seg></salute>
+                    <p><seg n="d02">Mange tak for sidst -– og tak fordi de vilde låne mig den bog,-– som jeg desværre glemte over vor interessante samtale.-–</seg></p>
+                    <p><seg n="d03">Jeg havde fået det indtryk, at de vilde skrive bogen råt og brutalt -– og det glædede mig overordentligt at se, at de ikke vil det -– men gøre den ægte, sandfærdig og menneskelig -– og <pb style="page" n="2"/>"germanisere" bogens atmosfære.</seg></p>
+                    <p><seg n="d04">Jeg er enig med dem i deres syn på hvordan bogen skulde skrives -– og er oprigtig ked af det, at de bunden af et utilfredsstillende grundlag og af personlige hensyn -– fordi bogen skal skrives nu. -–</seg></p>
+                    <p><seg n="d05">Jeg vil gerne hjælpe dem så meget jeg kan -– ved at sætte dem ind i hendes reactioner i den første tid hun var her i <placeName key="denmark">Danmark</placeName>, idet jeg er ganske tryg mht. deres discretion. -–</seg></p>
                     <p style="paraText" rend="division">x</p>
-                    <p>Da jeg -– som vordende læge, også har interesseret mig meget for det anatomiske og <pb style="page" n="3"/>fysiologiske, har jeg en del optegnelser vedrørende disse ^ ting -– Da de pointerede, at de ikke var interreserede heri,- springer jeg dem over -– eller medtager dem i forkortet form -– hvis de bidrager til forståelse af hendes psyche. -– 
-                    </p><p style="paraText" rend="division">x</p>
+                    <p><seg n="d06">Da jeg -– som vordende læge, også har interesseret mig meget for det anatomiske og <pb style="page" n="3"/>fysiologiske, har jeg en del optegnelser vedrørende disse ^ ting -– Da de pointerede, at de ikke var interreserede heri,- springer jeg dem over -– eller medtager dem i forkortet form -– hvis de bidrager til forståelse af hendes psyche. -– 
+                    </seg></p>
+                <p style="paraText" rend="division">x</p>
             <!--Sk diary entries in Danish begin here in chronological order-->
             <p style="LiliDiary">
                 <date when="1921-12-25">25/12</date>
@@ -263,7 +265,7 @@ snakket meget sammen på vore små ture ved <placeName key="gentofter">Gentofte 
                         <p style="LiliDiary">Igen tak for sidst.</p>
                     
                     <closer>
-                        <salute>deres ærbødige.</salute>
+                        <salute><seg n="d07">deres ærbødige.</seg></salute>
                             <signed><persName key="wegenerS">Sigurd Thomsen</persName></signed>
                     </closer>
                 </div>
@@ -279,27 +281,27 @@ snakket meget sammen på vore små ture ved <placeName key="gentofter">Gentofte 
                     <p><date when="1931-06-15">15.6.31</date></p>
                 </div>
                 <div rend="body">
-                    <salute>Dear Ed. <persName key="harthernE">Harthern</persName>!</salute>
-                    <p>Thank you for last time – and thank you for letting me borrow your book –
+                    <salute><seg corresp="#d01">Dear Ed. <persName key="harthernE">Harthern</persName>!</seg></salute>
+                    <p><<seg corresp="#d02">Thank you for last time – and thank you for letting me borrow your book –
                         which I unfortunately forgot as a result of our interesting
-                        conversation.</p>
-                    <p>I had gotten the impression that you wanted to write the book rough and crude
+                        conversation.</seg></p>
+                    <p><seg corresp="#d0"3>I had gotten the impression that you wanted to write the book rough and crude
                         – and it made me extraordinarily happy to see that you do not want that –
                         but make it real, true, and human – and <pb style="page" n="2"/> "Germanize"
-                        the book's atmosphere.</p>
-                    <p>I agree with you in your thinking about how the book
+                        the book's atmosphere.</seg></p>
+                    <p><seg corresp="#d04">I agree with you in your thinking about how the book
                         should be written – and am sincerely sorry that you are bound by an
                         unsatisfactory reason and by personal regard – because the book
-                        should be written now.–-</p>
-                    <p>I would like to help you as much as I can – by explaining her reactions
+                        should be written now.–-</seg></p>
+                    <p><seg corresp="#d05">I would like to help you as much as I can – by explaining her reactions
                         during the first time she was here in <placeName key="denmark">Denmark</placeName>, because I am quite sure about
-                        your discretion.-–</p>
+                        your discretion.-–</seg></p>
                     <p style="paraText" rend="division">x</p>
-                    <p>Because I – as a doctor in waiting, have a great interest in the anatomical
+                    <p><seg corresp="#d06">Because I – as a doctor in waiting, have a great interest in the anatomical
                         and <pb style="page" n="3"/> physiological, I have some notes concerning
                         these matters – Since you pointed out that you were not interested herein I
                         will skip over them – or include them in an abbreviated form – if they will
-                        contribute to understanding her psyche.-–</p>
+                        contribute to understanding her psyche.-–</seg></p>
                     <p style="paraText" rend="division">x</p>
                     <!--SK we're putting the additional diary entries (1921-1932) in chronological order after the opening letter written in 1931-->
                     <!--SK start of 19211922 diary entries-->
@@ -476,7 +478,7 @@ snakket meget sammen på vore små ture ved <placeName key="gentofter">Gentofte 
                     
                     
                     <closer>
-                        <salute>Yours sincerely.</salute> 
+                        <salute><seg corresp="#d07">Yours sincerely.</seg></salute>
                             <signed><persName key="wegenerS">Sigurd
                             Thomsen</persName></signed>
                     </closer>
