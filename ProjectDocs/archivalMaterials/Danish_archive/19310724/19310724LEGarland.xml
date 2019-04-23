@@ -1,101 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. 
-      For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that
-      should match their name in the Prosopography. For project team members and organizations use the @ref attribute 
-      and the two-letter (or three-letter, if available in the info provided) initials of the person on the persName elements.-->
+	
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<!-- For Letters: Remove the following if not encoding a letter -->
 				<title>
-					<date><!--date defined in teiHeader info; numerical values of filename (which indicate letter date)--></date>
-					Letter to <persName key="garlandM"><!-- Person Letter Is Addressed To --></persName>
+					<date>July 24, 1931</date>
+					Letter to <persName key="garlandM"></persName>
 				</title>
-
-				<!-- For Articles: Remove the following if not encoding an article -->
-				<title><!-- Name of Newspaper/Journal/Magazine-->
-					<date><!-- article publication date in yyyy-mm-dd --></date></title>
-
-				<!-- For Book Chapters; Remove the following if not encoding a book chapter -->
-				<title><!-- Chapter Title if not just numerical value; otherwise "Chapter #" -->
-					within <!-- Book Title --></title>
-
-				<!-- For Editions; Remove the following if not encoding a book chapter -->
-				<title><!-- Language --> Edition</title>
-
 				<author>
-					<persName key="lili"><!-- Writer of Letter; or Author of Text --></persName>
+					<persName key="lili"></persName>
 				</author>
 
-				<!-- Formatting dates in <respStmt> elements:            
-            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
-            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
-            If given month: <date>Month(written out), Year(as YYYY)</date>-->
-
-				<!-- People in <respStmt> elements: 
-            Each person on the project team has a special identifier (including you as an encoder).
-            These IDs should be used in the blank ref attribute-values below. 
-            IDs are created by taking the first and last initial of the person's name. 
-            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
 				<respStmt>
 					<resp>Photographed
-							<date><!--insert date; see formatting suggestions above--></date>
+							<date>August 16-17 2017</date>
 						by</resp>
-					<persName ref="plc"><!-- Name of Photographer --></persName>
+					<persName ref="plc">Pamela Caughie</persName>
 				</respStmt>
 				<respStmt>
 					<resp>Images prepared
-							<date><!--insert date; see formatting suggestions above--></date>
+							<date>November 2017</date>
 						by</resp>
-					<persName ref="mg"><!-- Name of Image Preparer --></persName>
+					<persName ref="mg">Matthew Gallagher</persName>
 				</respStmt>
 				<respStmt>
 					<resp>Transcription completed
-							<date><!--insert date; see formatting suggestions above--></date>
+							<date>November 20 2017</date>
 						by</resp>
-					<persName ref="kj"><!-- Name of Transriber --></persName>
+					<persName ref="kj">Kristin Jacobsen</persName>
 				</respStmt>
 				<respStmt>
 					<resp>Translation completed
-							<date><!--insert date; see formatting suggestions above--></date>
+							<date>November 20 2017</date>
 						by</resp>
-					<persName ref="kj"><!-- Name of Translator --></persName>
+					<persName ref="kj">Kristin Jacobsen</persName>
 				</respStmt>
 				<respStmt>
 					<resp>Translation reviewed
-							<date><!--insert date; see formatting suggestions above--></date>
+						<date>July 2018</date>
+						<date>September 2018</date>
+						<date>November 2018</date>
 						by</resp>
-					<persName ref="mo"><!-- Name of Translation Reviewer --></persName>
-					<persName ref="mb"><!-- Name of Translation Reviewer --></persName>
+					<persName ref="mo">Marianne Ølholm</persName>
+					<persName ref="mb">Maiken Boysen</persName>
 				</respStmt>
 				<respStmt>
 					<resp>Encoding completed
-							<date><!--insert date; see formatting suggestions above--></date>
+							<date>October-December 2018</date>
 						by</resp>
-					<persName ref="tnm"><!-- Name of Primary Encoder --></persName>
+					<persName ref="tnm">Tyler Monaghan</persName>
 				</respStmt>
 				<respStmt>
 					<resp>Encoding assistance and/or XML proofing completed by</resp>
 					<persName ref="rjp">Rebecca J. Parker</persName>
-					<persName ref="tnm"><!-- Name of Encoder/Proofer --></persName>
-					<!-- Remove any additional persName elements not used -->
-					<persName ref="tnm"><!-- Name of Encoder/Proofer --></persName>
-					<!-- Remove any additional persName elements not used -->
+					<persName ref="nm">Nikolaus Wasmoen</persName>
+					
+					<persName ref="tnm">Tyler Monaghan</persName>
 				</respStmt>
 				<respStmt>
 					<resp>XML transformed into HTML
-							<date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+							<date>October-December 2018</date> by</resp>
 					<persName ref="rjp">Rebecca J. Parker</persName>
 				</respStmt>
 				<respStmt>
 					<resp>HTML proofing completed
-							<date><!-- insert date; see formatting suggestions above --></date>
+							<date>October-December 2018</date>
 						by</resp>
-					<persName ref="wr"><!-- Name of Proofer --></persName>
-					<persName ref="wr"><!-- Name of Proofer --></persName>
-					<!-- Remove any additional persName elements not used -->
+					<persName ref="wr">Wagme Ravindran</persName>
+					
 				</respStmt>
 				<sponsor>Loyola University Chicago</sponsor>
 				<sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -105,16 +79,15 @@
 				<pubPlace>Chicago, IL, USA</pubPlace>
 				<date>July 6th, 2019</date>
 				<availability>
-					<p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
-							<placeName><!-- location of archive --></placeName>
+					<p>Reproduced by courtesy of the <orgName>[[ **</orgName> in
+							<placeName> [[</placeName>
 					</p>
 					<licence>Distributed under a Creative Commons
 						Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
-				<p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
-               encoder's description must be in complete, logical sentences --></p>
+				<p></p>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -138,24 +111,23 @@
 					</p>
 				</div>
 				<div rend="body">
-					<salute>Kære Fru <persName key="garlandM">Maria Garland</persName>
+					<salute><seg n="d01">Kære Fru <persName key="garlandM">Maria Garland</persName></seg>
 					</salute>
-					<p>Vær sød at lade mig vide, hvordan det gaar med Bogen og Deres Mands Arbejde.
+					<p><seg n="d02">Vær sød at lade mig vide, hvordan det gaar med Bogen og Deres Mands Arbejde.
 						Jeg er saa spændt derpaa. Jeg ligger stadig i Sengen efter mit frygtelige
 						Operation, og ingen svarer paa mit daglige Spørgsmaal, om jeg snart maa
-						komme op. Og Professoren er meget stræng.</p>
+						komme op. Og Professoren er meget stræng.</seg></p>
 					<p>
-						<persName key="gebhard">Hr. Oberartz</persName>
-						<!--<note type="translator">German for "head doctor"</note>--> er saa munter
+						<seg n='d03'><persName key="gebhard">Hr. Oberartz</persName>er saa munter
 						og sød imod mig. Sig det til Deres Mand. Jeg tror, <persName key="wegenerG"
 							>Fru Gerda</persName> i sit Manuskript siger noget jeg ikke saa gerne
 						vilde have sagt i Bogen. I dag har man baaret mig ud i <placeName>
 							Haven</placeName> paa en Baar [sic] for at jeg skal faa Sol og se
-						Naturen, det er saa dejligt. </p>
+						Naturen, det er saa dejligt.</seg> </p>
 
 					<closer>
-						<salute>Vær sød og send mig et Par Ord. Jeg beder Dem hilse Deres Lillemor
-							og Søn og de alle hjærteligste[sic] Hilsner til Dem</salute>
+						<salute><seg n ="d04">Vær sød og send mig et Par Ord. Jeg beder Dem hilse Deres Lillemor
+							og Søn og de alle hjærteligste[sic] Hilsner til Dem</seg></salute>
 						<salute>fra Deres</salute>
 						<signed>
 							<hi rend="underline">
@@ -183,24 +155,23 @@
 					</p>
 				</div>
 				<div rend="body">
-					<salute>Dear Mrs. <persName key="garlandM">Maria Garland</persName></salute>
-					<p>Please let me know how it is going with the book and your husband’s work. I
+					<salute><seg corresp="#d01">Dear Mrs. <persName key="garlandM">Maria Garland</persName></seg></salute>
+					<p><seg corresp="#d02">Please let me know how it is going with the book and your husband’s work. I
 						am so excited about that. I am still lying in bed after my terrible
 						operation and noone answers my daily question if I can get up soon. And the
-						professor is very strict.</p>
+						professor is very strict.</seg></p>
 					<p>
-						<persName key="gebhard">The chief
-						physician</persName><!--<note type="translator">German for "head doctor"</note>-->
-						is so cheerful and sweet with me. Tell that to your husband. I believe in
+						<seg corresp="#d03"><persName key="gebhard">The chief
+						physician</persName>is so cheerful and sweet with me. Tell that to your husband. I believe in
 						her manuscript <persName key="wegenerG">Mrs. Gerda</persName> says something
 						I would prefer not to have said in the book. Today they have carried me out
 						in <placeName>the garden</placeName> on a stretcher in order for me to get
-						sun and see nature, it is so lovely. </p>
+						sun and see nature, it is so lovely.</seg> </p>
 
 
 					<closer>
-						<salute>Please send me a few words. I ask you to greet your sweet little
-							mother and son and all the heartiest greetings to you</salute>
+						<salute><seg corresp="#d04">Please send me a few words. I ask you to greet your sweet little
+							mother and son and all the heartiest greetings to you</seg></salute>
 						<salute>from your</salute>
 						<signed>
 							<hi rend="underline">
