@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--<?xml-model href="../../../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -99,7 +98,7 @@
 					</seg></p>
 					<p><seg n="d06">Jeg har levet her i <placeName key="copenhagen">København</placeName> som i en Gifttaage af fæl og ondsindet Sladder. Du kan tro, det har været slemt for en stakkels syg og svag Pige. Jeg ønskede bare at dø. Men nu har Bladet vendt sig. Folk bevidner mig deres Medfølelse – jeg havde gerne undværet begge Dele, baade: at de var onde paa mig og at de nu har ondt af mig.</seg></p>
 					<p><seg n="d07">Flere Forlæggere har nu henvendt sig til mig, og jeg er klar over, at jeg kan faa min Bog ud, naar jeg vil – ogsaa fra Udlandet er der sket Henvendelser.</seg></p>
-					<p><seg n="d08">Du viste Dig atter som min gode Ven, da Du skrev til mig! Det er meget muligt, jeg om kort Tid henvender mig til Dig, men <hi rend="underline">>ikke</hi> igennem <anchor type="commentRangeStart" n="2"/>Forlægger<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
+					<p><seg n="d08">Du viste Dig atter som min gode Ven, da Du skrev til mig! Det er meget muligt, jeg om kort Tid henvender mig til Dig, men <hi rend="underline">ikke</hi> igennem <anchor type="commentRangeStart" n="2"/>Forlægger<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
 						xml:id="comment_2">Lili could also have meant “the publisher” but left out the word.</note>.</seg></p>
 				</div> <!-- end body(original) div -->
 				<closer>
@@ -125,13 +124,15 @@
 					</seg></p>
 					<p><seg corresp="#d06">I have lived here in <placeName key="copenhagen">Copenhagen</placeName> in a poison fog of ugly and malicious gossip. Believe me, it has been bad for a poor sick and weak girl. I just wanted to die. But now the table has turned. People express to me their sympathy – I would have preferred to do without both parts, first: that they were mean to me as well as that they now feel sorry for me.</seg></p>
 					<p><seg corresp="#d07">Several publishers have now approached me and I am aware that I can get my book out when I want – there have also been approaches from abroad.</seg></p>
-					<p><seg corresp="#d08">You showed yourself again as my good friend, when you wrote to me! It is very possible I will approach you shortly, but <hi rend="underline">not</hi> through a publisher.</seg></p>
+					<p><seg corresp="#d08">You showed yourself again as my good friend, when you wrote to me! It is very possible I will approach you shortly, but <hi rend="underline">not</hi> through a <anchor type="commentRangeStart" n="4"/>publisher<anchor type="commentRangeEnd" n="4"/><note type="translator" source="kj"   
+						xml:id="comment_4">Lili could also have meant “the publisher” but left out the word.</note>.</seg></p>
 				</div> <!-- end body(translation) div -->
 				<closer>
 					<salute><seg corresp="#d09">Very heartfelt greetings from your</seg></salute><signed><persName key="lili">Lili</persName></signed>
 				</closer> <!-- end closer(translation) div -->
 				<postscript>
-					<p><seg corresp="#d10">I long so much for <persName key="knudsenV">Vibeke</persName>. Greet her from me and tell her that I find her portrait one of <persName key="wegenerG">Gerda</persName>’s best pictures.
+					<p><seg corresp="#d10"><anchor type="commentRangeStart" n="5"/>I long so much for <persName key="knudsenV">Vibeke</persName>. Greet her from me and tell her that I find her portrait one of <persName key="wegenerG">Gerda</persName>’s best pictures.<anchor type="commentRangeEnd" n="5"/><note type="translator" source="kj"   
+						xml:id="comment_5">Written along left edge of letter.</note>
 					</seg></p>
 				</postscript>
 			</div> <!-- end translation div -->
