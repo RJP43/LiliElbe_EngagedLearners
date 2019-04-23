@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--<?xml-model href="../../../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -123,7 +122,8 @@
                   Wegener</persName>.</seg></p>
                <p><seg corresp="#d02">I ask you to talk to me <hi rend="underline">before</hi>
                      sending any transcript of the manuscript to <placeName key="germany"
-                        >Germany</placeName> – my telephone number after 6:30 is Gentofte 144, and
+                        >Germany</placeName> – my <anchor type="commentRangeStart" n="2"/>telephone<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
+                           xml:id="comment_2">Implied number is included with telephone in the translation.</note> number after 6:30 is Gentofte 144, and
                      during the day it is : Central 4726.</seg></p>            
             <closer>
                <salute><seg corresp="#d03">With much respect</seg></salute>
