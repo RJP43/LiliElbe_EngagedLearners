@@ -6,9 +6,93 @@
             <body>  
                 <div type="original">
                     <!--letter-->
+                    
+                    <author>
+                        <persName>Carl Reissner</persName>
+                    </author>
+                    
+                    <!-- Formatting dates in <respStmt> elements:            
+            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
+            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
+            If given month: <date>Month(written out), Year(as YYYY)</date>-->
+                    
+                    <!-- People in <respStmt> elements: 
+            Each person on the project team has a special identifier (including you as an encoder).
+            These IDs should be used in the blank ref attribute-values below. 
+            IDs are created by taking the first and last initial of the person's name. 
+            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
+                    <respStmt>
+                        <resp>Photographed <date when="2017-08-16">August 16-17, 2017</date>
+                            by</resp>
+                        <persName ref="plc">Pamela L. Caughie</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Images prepared
+                            <date><!--insert date; see formatting suggestions above--></date> by</resp>
+                        <persName ref="mg">Matthew Gallagher</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Transcription completed
+                            <date>April 4, 2019</date> by</resp>
+                        <persName ref="twj">Tatjana Willms-Jones</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Translation completed
+                            <date>March 12 to April 4, 2019</date> by</resp>
+                        <persName ref="twj">Tatjana Willms-Jones</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Translation reviewed
+                            <date><!--insert date; see formatting suggestions above--></date> by</resp>
+                        <persName ref=""><!-- Name of Translation Reviewer --></persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Encoding completed
+                            <date>April 23, 2019 </date>by</resp>
+                        <persName ref="bm">Joaquin Davalos</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Encoding assistance and/or XML proofing completed by</resp>
+                        <persName ref="rjp">Rebecca J. Parker</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>XML transformed into HTML
+                            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                        <persName ref="rjp">Rebecca J. Parker</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>HTML proofing completed
+                            <date><!-- insert date; see formatting suggestions above --></date> by</resp>
+                        <persName ref=""><!-- Name of Proofer --></persName>
+                        <persName ref=""><!-- Name of Proofer --></persName>
+                        <!-- Remove any additional persName elements not used -->
+                    </respStmt>
+                    <sponsor>Loyola University Chicago</sponsor>
+                    <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Lili Elbe Digital Archive</authority>
+                        <pubPlace>Chicago, IL, USA</pubPlace>
+                        <date>July 6th, 2019</date>
+                        <availability>
+                            <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
+                                <placeName><!-- location of archive --></placeName>
+                            </p>
+                            <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                                4.0 International license.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+               encoder's description must be in complete, logical sentences --></p>
+                    </sourceDesc>
+                    </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
                 </div>
-                            <date when="1932-01-21">21. Januar 1932</date></seg>
-                    </p>
+                <date when="1932-01-21">21. Januar 1932</date></seg>
+                </p>
                 </div>
                 <div rend="body">
                     <salute>
@@ -58,16 +142,16 @@
                         <seg n="g33">Fotos von Gemälden müs-sen ja sehr sorgsam gemacht werden.</seg>
                         <seg n="g34">Sie selber sagen ja auch, dass die Bilder in trefflichster Wiedergabe ausgeführt sein müssen. </seg>
                     </p>
-                     <p>   
-                         <seg n="g35">Ich werde mich heute übrigens mit dem "Institut für 
-                             Sexualwissenschaft"Berlin NW, In den Zelten 10, in Verbindung setzen. 
-                         </seg>
-                         <seg n="g37">Dort sollen sich auch einige Bilder von Einar Wegener befinden. </seg>
-                         <seg n="g38">Ob sie 
-                             sich für eine Wiedergabe eignen, weiss ich leider nicht.</seg>
-                         <seg n="g39">Sie er-halten 
-                             von mir sehr bald weiteren Bescheid. 
-                         </seg>
+                    <p>   
+                        <seg n="g35">Ich werde mich heute übrigens mit dem "Institut für 
+                            Sexualwissenschaft"Berlin NW, In den Zelten 10, in Verbindung setzen. 
+                        </seg>
+                        <seg n="g37">Dort sollen sich auch einige Bilder von Einar Wegener befinden. </seg>
+                        <seg n="g38">Ob sie 
+                            sich für eine Wiedergabe eignen, weiss ich leider nicht.</seg>
+                        <seg n="g39">Sie er-halten 
+                            von mir sehr bald weiteren Bescheid. 
+                        </seg>
                     </p>
                     <p>
                         <seg n="g40">Im übrigen teile ich Ihre Gründe begl. des Erscheinungstermins.</seg>
@@ -84,18 +168,18 @@
                     <closer>
                         <salute><seg n="g47">Mit den besten Grüssen</seg>
                             <seg n="48">Jhr ergebenster</seg>
-                        <signed><persName key="lili">Lili Elbe</persName></signed>
+                            <signed><persName key="lili">Lili Elbe</persName></signed>
                     </closer>
                 </div>
-            </div>
-            <div type="translation">
-                <p><subst>
-                    <del type="strikethrough">Attachment 5</del>
-                    <add place="above" type="overwrite" rend="redCrayon">my Letter</add>
-                </subst></p>
-                        <seg corresp="#g01">the <date when="1932-01-32">21st January 1932
-                            1932</date>.</seg>
-                    </p>
+                </div>
+                <div type="translation">
+                    <p><subst>
+                        <del type="strikethrough">Attachment 5</del>
+                        <add place="above" type="overwrite" rend="redCrayon">my Letter</add>
+                    </subst></p>
+                    <seg corresp="#g01">the <date when="1932-01-32">21st January 1932
+                        1932</date>.</seg>
+                        </p>
                 </div>
                 <div rend="body">
                     <salute>
@@ -120,15 +204,15 @@
                             the advance payment has been past due since the 1/7/32 </seg>
                         <seg corresp="#g14">Any additions, that I will have for the final chapter, do not matter here. I told you that I could only finalize everything if I received the 
                             advance payment when we concluded the contract..</seg>
-                    
-                     </p>
+                        
+                    </p>
                     <p>
                         <seg corresp="#g15">It does not matter if the book ends up costing 6 M. or 8 M.. It cannot cost less than 6M. </seg>
                         <seg corresp="#g16">Therefore, at least 900 Mark would have been due since the 1/7 </seg>
                         <seg corresp="#g17">I am asking you to transfer this amount. </seg>
                         <seg corresp="#g18">I received your promise in your letter from the 12/28, 
                             that this advance payment would be coming from you.
-                        <seg corresp="#g19">Now I am waiting for the completion of this agreement, which was very clear </seg>
+                            <seg corresp="#g19">Now I am waiting for the completion of this agreement, which was very clear </seg>
                     </p>
                     <p>
                         <seg corresp="#g20">If any cuts need to be made, 
@@ -171,12 +255,12 @@
                     <closer>
                         <seg corresp="#g46"> Kind regards </seg>
                         <seg corresp="#g14">Yours sincerely.</seg>
-                            <persName>Lilimoe</persName> and his brother.</seg>
+                        <persName>Lilimoe</persName> and his brother.</seg>
                         <signed><persName key="lili">Lili Elbe</persName></signed>
                     </closer>
                 </div>
-            </div>
-        </body>
-    </text>
+                </div>
+            </body>
+        </text>
 </TEI>
 
