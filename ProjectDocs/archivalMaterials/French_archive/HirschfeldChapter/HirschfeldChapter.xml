@@ -4,9 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="translation">LE SEXE INCONNU Chapitre XII : la manie androgyne</title>
-                <title type="original">The Unknown Sex Chapter XII: Androgyne Mania</title>
-                <!-- zo:2018-11-30: best guess at translation, received help from Abdur-->
+                <title type="translation">Chapitre XII : la manie androgyne in LE SEXE INCONNU</title>
                 <author>
                     <persName key="hirschfeld">Magnus Hirschfeld</persName>
                 </author>
