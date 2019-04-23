@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--<?xml-model href="../../../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -118,7 +117,7 @@
                     </seg></p>
                     <p><seg n="d08">Det staar endogsaa skrevet med dobbelt W. i mit Hjærte – ja, er endogsaa deri
                         graveret!</seg></p>
-                    <p><seg n="d09">Det glæder mig meget at Herr <anchor type="commentRangeStart" n="3"/><persName key="magnusE">Ervin Magnus</persName><anchor type="commentRangeEnd" n="3"/><note type="translator" source="kj"   
+                    <p><seg n="d09">Det glæder mig meget at <anchor type="commentRangeStart" n="3"/><persName key="magnusE">Herr Ervin Magnus</persName><anchor type="commentRangeEnd" n="3"/><note type="translator" source="kj"   
                         xml:id="comment_3">The name should be Erwin Magnus.</note>
                         tror paa Bogen. Men jeg maa bede Dig forklare ham følgende: </seg></p>
                     <!-- tnm 10/9: use <choice> for Erwin in line above? -->
@@ -156,16 +155,16 @@
                         Livsvisdom og alvorlig mandig Viden, kommer fra <persName key="sparreAn"
                             >Andreas</persName>, der var Kunstner og et honnet Mandfolk, medens min
                         Indsats er en vis letbenet og tøset Filosofi! (Du ser, det er i
-                        Virkeligheden en Nedskrivning af Aktiverne) Bed Her <anchor type="commentRangeStart" n="6"/><persName key="magnusE"
-                            >Ervin Magnus</persName><anchor type="commentRangeEnd" n="6"/><note type="translator" source="kj"   
+                        Virkeligheden en Nedskrivning af Aktiverne) Bed <anchor type="commentRangeStart" n="6"/><persName key="magnusE"
+                            >Her Ervin Magnus</persName><anchor type="commentRangeEnd" n="6"/><note type="translator" source="kj"   
                                 xml:id="comment_6">The name should be Erwin.</note> at ville høre med Sympathi paa dette mit
                         Forsvar for Bogens Form.</seg></p>
 
                     <closer>
                         <salute><seg n="d17">Din stakkeles lille Veninde,</seg></salute>
                         <signed>
-                            <hi rend="underline"><persName key="lili">Lili</persName>
-                            Elvenes</hi></signed>
+                            <hi rend="underline"><persName key="lili">Lili
+                            Elvenes</persName></hi></signed>
                     </closer>
                     <postscript>
                         <p><seg n="d18">Mille baisers à <persName key="knudsenV">Vibeke</persName></seg></p>
@@ -184,7 +183,7 @@
                 </div>
                 <!-- end "opener" div -->
                 <div rend="body">
-                    <salute><seg corresp="#d01">Dear big <persName key="knudsenP">Paul</persName>, </seg></salute>
+                    <salute><seg corresp="#d01">Dear big <anchor type="commentRangeStart" n="7"/><persName key="knudsenP">Paul</persName><anchor type="commentRangeEnd" n="7"/><note type="translator" source="kj" xml:id="comment_7">Sometimes Lili writes Poul and sometimes Paul, but the correct form of the name is Poul.</note>, </seg></salute>
                     <p><seg corresp="#d02">Thousand thanks for your letter.</seg></p>
                     <p><seg corresp="#d03">It is with regret that I will comply with your wish and change the name of
                         the hero.</seg></p>
@@ -201,14 +200,15 @@
                         </persName>
                     </seg></p>
                     <p><seg corresp="#d08">It is even written with W. in my heart – yes, it is even there engraved!</seg></p>
-                    <p><seg corresp="#d09">I am very pleased that <persName key="magnusE">Mr. Ervin Magnus</persName>
+                    <p><seg corresp="#d09">I am very pleased that <anchor type="commentRangeStart" n="8"/><persName key="magnusE">Mr. Ervin Magnus</persName><anchor type="commentRangeEnd" n="8"/><note type="translator" source="kj"   
+                        xml:id="comment_8">The name should be Erwin Magnus.</note>
                         believes in the book. But I must ask you to explain to him the following: </seg></p>
                     <!-- tnm 10/9: use <choice> for Erwin in line above? -->
                     <p><seg corresp="#d10">Since I have not written the book as a biography, it is important to
                         emphasize that it is about two people <hi rend="underline">
                             <persName key="sparreAn">Andreas</persName> and <persName key="lili"
                                 >Lili</persName>
-                        </hi>, <hi rend="underline">, who do not belong together mentally</hi>.</seg></p>
+                        </hi>, <hi rend="underline">who do not belong together mentally</hi>.</seg></p>
                     <p><seg corresp="#d11">It might appear, especially from the last part, that there [is] a <hi
                             rend="underline">duality</hi> – or was.</seg></p>
                     <!-- tnm 10/9: how to handle the translator's insertion in line above? -->
@@ -237,8 +237,9 @@
                         seriously manly knowledge, comes from <persName key="sparreAn"
                             >Andreas</persName>, who was an artist and a respectable man, while my
                         contribution is a certain shallow and girlish philosophy! (You see, it is in
-                        reality a writing down of the assets) Ask Mr. <persName key="magnusE">Ervin
-                            Magnus</persName> to listen with sympathy to this my defense of the form
+                        reality a writing down of the assets) Ask <anchor type="commentRangeStart" n="9"/><persName key="magnusE">Mr. Ervin
+                            Magnus</persName><anchor type="commentRangeEnd" n="9"/><note type="translator" source="kj"   
+                                xml:id="comment_9">The name should be Erwin Magnus.</note> to listen with sympathy to this my defense of the form
                         of the book.</seg></p>
 
                     <closer>
