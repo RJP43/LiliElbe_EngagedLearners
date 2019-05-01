@@ -935,6 +935,7 @@
             <person xml:id="hvideNiels" source="fictional" synch="#knudsenP">
                <persName>Niels Hvide</persName>
                <persName>Niels</persName>
+               <persName source="#TS">Nils</persName><!-- spelling mistake seen in TS-->
                <persName>Hjalmar Hvide</persName>
                <note>Hjalmar Hvide was the fictious name first used for Niels Hvide in the
                   narrative</note>
