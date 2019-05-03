@@ -107,7 +107,7 @@
                         hjemme.</seg></p>
                     <!-- tnm 10/9: I don't think there's a <p> break after Hvide in the image, but the translators have one in the Danish (but not translated, English) version -->
                     <p><seg n="d05">Hvor jeg glæder mig til at høre om <persName key="knudsenV"
-                        >Vibeke</persName>s Triumpher [sic] I <anchor type="commentRangeStart" n="2"/>Julen!<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
+                        >Vibeke</persName>s <choice><orig>Triumpher</orig><reg>Triumfer</reg></choice> I <anchor type="commentRangeStart" n="2"/>Julen!<anchor type="commentRangeEnd" n="2"/><note type="translator" source="kj"   
                             xml:id="comment_2">The word could also be Guben.</note></seg></p>
                     <!-- tnm 10/9: how to handle the "sic" above? -->
                     <p><seg n="d06">Den vidunderlige i <placeName key="dresden">Dresden</placeName> hedder:</seg></p>
@@ -139,8 +139,7 @@
                     <p><seg n="d13">Det fremgaar tydeligt af sidste Del, at det endogsaa er en absolut
                         Livsbetingelse for <persName key="lili">Lili</persName>, at hun aandeligt intet har at skaffe med <persName key="sparreAn">Andreas</persName> –
                         og det <hi rend="underline">store Mirakel er, at hun føler sig nyskabt – ren
-                            og jomfruelig – og absolut ikke sjæleligt et Mandfolk, der er <anchor type="commentRangeStart" n="4"/>bleven<anchor type="commentRangeEnd" n="4"/><note type="translator" source="kj"   
-                                xml:id="comment_4">In modern Danish, the word would be blevet.</note> til
+                            og jomfruelig – og absolut ikke sjæleligt et Mandfolk, der er <choice><orig>bleven</orig><reg>blevet</reg></choice> til
                             et Pigebarn</hi>!!!</seg></p>
                     <p><seg n="d14">Anden Del viser ogsaa, hvorledes <persName key="kreutz">Werner von
                             Kreutz</persName> altid har holdt de to ude fra hinanden.</seg></p>

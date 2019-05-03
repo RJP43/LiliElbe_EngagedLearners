@@ -14,9 +14,9 @@ a{
     padding: 3px;
     border-radius: 25px;
 }
-section.metadata {
+/*section.metadata {
     line-height: 1.1em !important;
-}
+}*/
 section.proofDesc{
     border:black;
     border-style:dashed;
