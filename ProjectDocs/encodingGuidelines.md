@@ -366,21 +366,11 @@ _note: Use this encoding for stretches of illegible or missing text (cutaways, h
   
 ### Editor/Translator Comments   
 ````
-<anchor type="commentRangeStart" n="<!--comment number-->"/>TEXT BEING REFERENCED  
-<anchor type="commentRangeEnd" n="<!--comment number-->"/>  
-<note type="translator or editor" source="team member ID"   
-corresp="comment_<!--comment number-->">COMMENTED TEXT IN COMPLETE SENTENCES</note>  
+<anchor type="commentRangeStart" n="<!--comment number-->"/>TEXT BEING REFERENCED<note type="translator or editor" source="team member ID" corresp="comment_<!--same comment number-->">COMMENTED TEXT IN COMPLETE SENTENCES</note>  
 ````
 
 _If there are multiple editors/translators and comments are not able to be directly identified to a single person than simply put u (for unidentified) as the source attribute-value. Source attribute-values should be changed to the two or three letter editor's, encoder’s, or translator's initials, which should also be identified in the `<respStmt>` elements in the XML’s teiHeader. Encoders should select whether translator or editor for the note type attribute and changes the comment# to reflect the order of the comment in relation to all of the other comments in the file._  
 
-**Example of nested comments referencing the same string of text:**  
-````
-<anchor type="commentRangeStart" n="4"/>  
-<anchor type="commentRangeStart" n="5"/>warm  
-<anchor type="commentRangeEnd" n="4"/><note type="translator" source="u" xml:id="comment_4">/m/ added in by hand to /war/ to read /warm/</note>  
-<anchor type="commentRangeEnd" n="5"/><note type="translator" source="xeh" xml:id="comment_5">The m was added by hand.</note>  
-````
   
 ### Encoder Comments
 `<!-- Encoder Initials:yyyy-mm-dd: Encoder comment here.-->`
