@@ -13,7 +13,7 @@
                 </author>
                 <respStmt>
                     <resp>Photographed <date>August 16-17, 2017</date> by</resp>
-                    <persName ref="plc">PamelaL.Caughie></persName>
+                    <persName ref="plc">Pamela L.Caughie</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Images prepared <date>August, 2017, November, 2017</date> by</resp>
@@ -48,11 +48,9 @@
                 </respStmt>
                 <respStmt>
                     <resp>HTML proofing completed
-                            <date><!-- insert date; see formatting suggestions above --></date>
+                            <date>May, 2019</date>
                         by</resp>
-                    <persName><!-- Name of Proofer --></persName>
-                    <persName><!-- Name of Proofer --></persName>
-                    <!-- Remove any additional persName elements not used -->
+                    <persName>Caroline McCraw</persName>
                 </respStmt>
                 <sponsor>Loyola University Chicago</sponsor>
                 <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -90,7 +88,7 @@
                     <p>
                         <seg n="g01"
                             >D<!-- zo:2018/09/17:In word document d was lower case and in the manuscript it's capitalized. Determine if this is a translation error or a silent "modernization/standardization" correction that we need to mark. -->en
-                                <date when="1931-06-27">27. Juni 1931</date></seg>
+                                <date when="1931-06-27">27. Juni 1931.</date></seg>
                     </p>
                 </div>
                 <div rend="body">
@@ -108,7 +106,7 @@
                             aus beiden Wunden entfernt werden.</seg>
                         <seg n="g09">Sie sind glücklich in der Sommerfrische da in Hven.</seg>
                         <seg>Montag will ich nach <placeName key="paris">Paris</placeName>
-                            schreiben, dass ihr Gatte so schnell wie möglich Photographien von
+                            schreiben, dass Ihr Gatte so schnell wie möglich Photographien von
                             unserer Arbeit bekommen wird.</seg>
                     </p>
                     <p>
@@ -116,12 +114,12 @@
                                 <del type="strikethrough">daß</del>
                                 <add place="below" type="overwrite" rend="blackInk">wenn</add>
                             </subst> die dänische Arbeit später herauskommen wird als die
-                            deutsche.</seg>
+                            deutsches.</seg>
                         <seg n="g11">Nächste Woche bekommen auch Sie einen besseren Brief.</seg>
                     </p>
                     <closer>
                         <salute><seg n="g12">Viel Liebe und Grüße</seg>
-                            <seg n="g13">Von Ihrer armen kleinen Freundin.</seg></salute>
+                            <seg n="g13">von Ihrer armen kleinen Freundin.</seg></salute>
                         <salute><seg n="g14">Viele Grüße an Ihren lieben Mann, <persName>Lilimoe</persName>
                             und seinem Bruder.</seg></salute>
                         <signed><persName key="lili">Lili Elbe</persName></signed>
