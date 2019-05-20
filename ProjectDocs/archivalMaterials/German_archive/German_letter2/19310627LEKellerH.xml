@@ -143,7 +143,7 @@
                 </div>
                 <div rend="body">
                     <salute>
-                        <seg corresp="#g02">Dear Girlfriend,</seg>
+                        <seg corresp="#g02">Dear <persName>Girlfriend</persName>,</seg>
                     </salute>
                     <p><seg corresp="#g03">Thank you so much for your letter. Yours is the first one
                             that I opened after my operation.</seg>
