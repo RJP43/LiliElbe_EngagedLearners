@@ -813,8 +813,10 @@
             <!-- possible dublicate with placeName #dreiMasken; At this time we have decided against marking organizations via <orgname> therefore Pamela says we will use the placename key (even though publishing houses existed without physical locations at this time) so as to capture these connections; we will need to write a note regarding publishing house references likely in the teiHeader of the texts mentioned-->
             <person xml:id="else" source="historical">
                <persName source="#danishSupp">Else</persName>
-               <persName>Else Wegener</persName> <!--RJP:2019-04-08: need to verify with Pamela this would be Else's last name-->
-               <note><persName key="wegenerS">Sigurd Wegener Thomsen</persName>'s sister and <persName key="lili">Lili</persName>'s niece</note>
+               <persName>Else Wegener</persName>
+               <!--RJP:2019-04-08: need to verify with Pamela this would be Else's last name-->
+               <note><persName key="wegenerS">Sigurd Wegener Thomsen</persName>'s sister and
+                     <persName key="lili">Lili</persName>'s niece</note>
             </person>
             <person xml:id="father" source="fictional" synch="#wegenerV">
                <persName source="#A1 #TR">father</persName>
@@ -935,7 +937,8 @@
             <person xml:id="hvideNiels" source="fictional" synch="#knudsenP">
                <persName>Niels Hvide</persName>
                <persName>Niels</persName>
-               <persName source="#TS">Nils</persName><!-- spelling mistake seen in TS-->
+               <persName source="#TS">Nils</persName>
+               <!-- spelling mistake seen in TS-->
                <persName>Hjalmar Hvide</persName>
                <note>Hjalmar Hvide was the fictious name first used for Niels Hvide in the
                   narrative</note>
@@ -1006,6 +1009,7 @@
                <persName>Lili Ilse Elvenes</persName>
                <persName>Lili Courtaud</persName>
                <persName>Lili Courtot</persName>
+               <persName source="#TR">Mrs. Lili</persName>
                <persName source="#danishSupp">Frøken Wegener</persName>
                <persName source="#danishSupp #frenchSupp">Lily Wegener</persName>
                <persName source="#danishSupp #frenchSupp">Lily</persName>

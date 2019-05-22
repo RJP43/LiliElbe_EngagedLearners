@@ -265,7 +265,15 @@ _note: Once captured in encoding remove the spaces between letters - which is si
    
 `<hi rend="super">Superscript text</hi>`  
 _This markup comes after we found in some manuscripts the minutes of a time are written out as superscript to the hour.   
-Example: `10<hi rend="super">30</hi>`_     
+Example: `10<hi rend="super">30</hi>`_    
+  
+**There are instances in the German edition where letters and diary entries come in the middle of paragraphs. The TEI does not allow paragraphs to appear in paragraphs; therefore, in these instances we use the `<hi>` element and assign a rend attribute alongside a xml:id attribute in a similar fashion to the Collation Paragraph styling mentioned above.**  
+
+`<hi rend="letter" xml:id="g1c00l00p00">Letter Text</p>`  
+`<hi rend="GreteDiary" xml:id="g1c00d00p00">Diary Text</p>`  
+`<hi rend="LiliDiary" xml:id="g1c00d00p00">Diary Text</p>`
+
+_note: change xml:id attribute-value to match the paragraph collation ID found in the [collation spreadsheets](https://gitlab.com/ctsdh/lili-elbe-code/tree/master/collationSpreadsheets). Every paragraph of each letter has a unique ID reflecting the edition (a1 | b1 | g1 | d1 | tr |ts), chapter, letter|diary entry #, and paragraph # (within the letter|diary entry)_.
   
 ### Blank Pages
 	`<note style="descText" type="blankPage"/>`   

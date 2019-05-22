@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-04-20T23:39:29Z. .
+Schema generated from ODD source 2019-05-22T16:28:35Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -2490,6 +2490,24 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
                               in print rendition. Note: Once captured in encoding remove the spaces
                               between letters - which is simply pseudo-markup used to indicate
                               German emphasis.) </a:documentation>
+               <value>letter</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(In the German edition there are instances where letters appear
+                              within paragraphs. In these instances, the letter text gets surrounded
+                              in the hi element with this rend declaration and an xml:id matching
+                              the ID for the related letter that appears in the collation
+                              spreadsheets.) </a:documentation>
+               <value>GreteDiary</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(In the German edition there are instances where letters appear
+                              within paragraphs. In these instances, the diary entry text gets
+                              surrounded in the hi element with this rend declaration and an xml:id
+                              matching the ID for the related diary entry that appears in the
+                              collation spreadsheets.) </a:documentation>
+               <value>LiliDiary</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(In the German edition there are instances where letters appear
+                              within paragraphs. In these instances, the diary entry text gets
+                              surrounded in the hi element with this rend declaration and an xml:id
+                              matching the ID for the related diary entry that appears in the
+                              collation spreadsheets.) </a:documentation>
                <value>bold</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Bolded text in print rendition.) </a:documentation>
                <value>underline</value>
@@ -4911,8 +4929,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Linked Keys: #knudsenV) </a:documentation>
                   <value>hvideNiels</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Niels Hvide, Niels,
-                              Hjalmar Hvide | Note: Hjalmar Hvide was the fictious name first used
-                              for Niels Hvide in the narrative | Linked Keys: #knudsenP) </a:documentation>
+                              Nils, Hjalmar Hvide | Note: Hjalmar Hvide was the fictious name first
+                              used for Niels Hvide in the narrative | Linked Keys: #knudsenP) </a:documentation>
                   <value>jager</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Hans Henrik Jæger, Hans
                               Jager | Note: Not mentioned in D1 and TR; Norweigan writer and
