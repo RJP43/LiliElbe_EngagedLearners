@@ -356,6 +356,7 @@ _note: Use this encoding for stretches of illegible or missing text (cutaways, h
 "insertion"  
 "overwrite"  
 "overtype"  
+"transposition"
   
 `@rend`
 "pencil"   

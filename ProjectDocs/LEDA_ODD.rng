@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-05-22T16:28:35Z. .
+Schema generated from ODD source 2019-05-29T15:47:41Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -2685,6 +2685,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>overtype</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>transposition</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
          </attribute>
          <empty/>
@@ -4970,11 +4972,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Note: Historical figure not identified) </a:documentation>
                   <value>lili</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional historical | Identified Name(s): Lili, Lili
-                              Elbe, Lili Ilse Elvenes, Lili Courtaud, Lili Courtot, Frøken Wegener,
-                              Lily Wegener, Lily, Frk. Wegener, Frk. Lily Wegener, Miss Wegener,
-                              Miss Lily Wegener | Note: Unable to verify that Lili Elbe used the
-                              pseudonym Lili Courtaud outside of its use in the narrative | Linked
-                              Keys: #sparreAn #wegenerE) </a:documentation>
+                              Elbe, Lili Ilse Elvenes, Lili Courtaud, Lili Courtot, Mrs. Lili,
+                              Frøken Wegener, Lily Wegener, Lily, Frk. Wegener, Frk. Lily Wegener,
+                              Miss Wegener, Miss Lily Wegener | Note: Unable to verify that Lili
+                              Elbe used the pseudonym Lili Courtaud outside of its use in the
+                              narrative | Linked Keys: #sparreAn #wegenerE) </a:documentation>
                   <value>louLou</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): a friend who was on the
                               staff of a leading Copenhagen newspaper, Loulou Lassen | Note: Danish
