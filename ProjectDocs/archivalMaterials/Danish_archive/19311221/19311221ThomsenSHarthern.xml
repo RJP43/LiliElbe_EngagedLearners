@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../lili-elbe-code/schema/tei_le_2.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="../../../../lili-elbe-code/schema/tei_le_2.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -10,7 +10,7 @@
             <respStmt>
                <resp>Translation on <date when="2018-04-05">05 April 2018</date> by</resp>
                <persName ref="kj">Kristin Jacobsen</persName>
-               <persName ref="mb">Maien Boysen</persName>
+               <persName ref="mb">Maiken Boysen</persName>
             </respStmt>
             <respStmt>
                <resp>Encoding on <date when="2018-08-30">30 August 2018</date> by</resp>
