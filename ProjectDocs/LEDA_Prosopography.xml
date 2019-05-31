@@ -711,7 +711,7 @@
             </person>
             <person xml:id="arcJoan" source="historical">
                <persName source="#A1">Joan of Arc</persName>
-               <persName source="#D1 #TR #G1">Jeanne D'Arc</persName>
+               <persName source="#D1 #TR #G1 #TS">Jeanne D'Arc</persName>
                <note/>
             </person>
             <person xml:id="arns" source="fictional">
@@ -924,7 +924,6 @@
             </person>
             <person xml:id="hvappe" source="fictional historical">
                <persName source="#D1 #TR">Hvappe</persName>
-               <persName source="#G1">Hauwitz</persName>
                <note>Not mentioned in <ref source="#A1">A1</ref>; name of Sparres' dog in narrative
                   and name of <persName key="wegenerE">Einar</persName>'s and <persName
                      key="wegenerG">Gerda</persName>'s dog</note>
@@ -1000,8 +999,9 @@
             </person>
             <person xml:id="lejeuneClaude" source="fictional">
                <persName>Claude Lejeune</persName>
+               <persName source="#TS">Claude Lejenne</persName>
                <persName>Claude</persName>
-               <note>Historical figure not identified</note>
+               <note>Modeled on <persName>Claude Prévost​</persName></note>
             </person>
             <person xml:id="lili" source="fictional historical" synch="#sparreAn #wegenerE">
                <persName>Lili</persName>
@@ -1009,6 +1009,7 @@
                <persName>Lili Ilse Elvenes</persName>
                <persName>Lili Courtaud</persName>
                <persName>Lili Courtot</persName>
+               <persName source="#TS">Baronne le Courtaut</persName>
                <persName source="#TR">Mrs. Lili</persName>
                <persName source="#danishSupp">Frøken Wegener</persName>
                <persName source="#danishSupp #frenchSupp">Lily Wegener</persName>
