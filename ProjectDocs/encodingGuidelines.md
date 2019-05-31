@@ -293,7 +293,7 @@ _note: change xml:id attribute-value to match the paragraph collation ID found i
 **Possible Attribute-Value Pairs**  
   
 `@type "foot" or "end"`  
-`@rend "asterisk" or numericaal value`   
+`@rend "asterisk" or numerical value`   
    
 ### Correcting Errors from Print / Facsimile Images
 _note: The LEDA project has decided to make no silent corrections; however, we want to be able to display a corrected version of misspelled text, punctuation errors, etc. for searchability and standardization._  
