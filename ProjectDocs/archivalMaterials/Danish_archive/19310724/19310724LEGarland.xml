@@ -44,7 +44,7 @@
 						<date>November 2018</date>
 						by</resp>
 					<persName ref="mo">Marianne Ølholm</persName>
-					<persName ref="mb">Maiken Boysen</persName>
+					<persName ref="kj">Kristin Jacobsen</persName>
 				</respStmt>
 				<respStmt>
 					<resp>Encoding completed
@@ -79,8 +79,8 @@
 				<pubPlace>Chicago, IL, USA</pubPlace>
 				<date>July 6th, 2019</date>
 				<availability>
-					<p>Reproduced by courtesy of the <orgName>[[ **</orgName> in
-							<placeName> [[</placeName>
+					<p>Reproduced by courtesy of the <orgName>Ernst Harthern Archives</orgName> in
+						<placeName>Huddinge, Sweden</placeName>
 					</p>
 					<licence>Distributed under a Creative Commons
 						Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
@@ -101,24 +101,28 @@
 						<anchor type="commentRangeStart" n="1"/><add place="leftMargin"
 							type="insertion" rend="pencil">Naar jeg nu kommer godt fra det kan jeg gifte
 							mig om nogen vil have mig </add><anchor type="commentRangeEnd" n="1"/>
-						<note type="editor" source="kj mb" xml:id="comment_1">Written upside down in
+						<note type="translator" source="kj mb" xml:id="comment_1">Written upside down in
 							top, left corner of letter.</note>
 					</p>
 					<p>
-						<hi rend="underline">Sondag[sic]</hi>
+						<choice>
+							<orig><hi rend="underline">Sondag</hi></orig>
+							<reg>Søndag</reg>
+						</choice>
 					</p>
 					<p>24 Juli 1931 <placeName key="dresden">Dresden</placeName>
 					</p>
 				</div>
 				<div rend="body">
-					<salute><seg n="d01">Kære Fru <persName key="garlandM">Maria Garland</persName></seg>
+					<salute><seg n="d01">Kære Fru<persName key="garlandM"> Maria Garland</seg></persName>
 					</salute>
 					<p><seg n="d02">Vær sød at lade mig vide, hvordan det gaar med Bogen og Deres Mands Arbejde.
 						Jeg er saa spændt derpaa. Jeg ligger stadig i Sengen efter mit frygtelige
 						Operation, og ingen svarer paa mit daglige Spørgsmaal, om jeg snart maa
 						komme op. Og Professoren er meget stræng.</seg></p>
 					<p>
-						<seg n='d03'><persName key="gebhard">Hr. Oberartz</persName>er saa munter
+						<seg n='d03'><anchor type="footRefStart" n="1"/><persName key="gebhard">Hr. Oberartz</persName><anchor type="footRefEnd" n="1"/>  
+							<note corresp="fn_001" type="foot" rend="asterisk">German for "head doctor."</note> er saa munter
 						og sød imod mig. Sig det til Deres Mand. Jeg tror, <persName key="wegenerG"
 							>Fru Gerda</persName> i sit Manuskript siger noget jeg ikke saa gerne
 						vilde have sagt i Bogen. I dag har man baaret mig ud i <placeName>
@@ -127,11 +131,11 @@
 
 					<closer>
 						<salute><seg n ="d04">Vær sød og send mig et Par Ord. Jeg beder Dem hilse Deres Lillemor
-							og Søn og de alle hjærteligste[sic] Hilsner til Dem</seg></salute>
+							og Søn og de alle <orig>hjærteligste</orig><reg>hjerteligste</reg> Hilsner til Dem</seg></salute>
 						<salute>fra Deres</salute>
 						<signed>
 							<hi rend="underline">
-								<persName key="lili">Lili Elbe</persName>
+								fra Deres     <persName key="lili">Lili Elbe</persName>
 							</hi>
 						</signed>
 					</closer>
@@ -142,9 +146,9 @@
 
 				<div rend="head">
 					<p>
-						<anchor type="commentRangeStart" n=""/><add place="leftMargin"
+						<anchor type="commentRangeStart" n="1"/><add place="leftMargin"
 							type="insertion" rend="pencil">When I get better I can marry if anyone will
-							have me </add><anchor type="commentRangeEnd" n=""/>
+							have me </add><anchor type="commentRangeEnd" n="1"/>
 						<note type="editor" source="kj mb" xml:id="comment_">Written upside down in
 							top, left corner of letter.</note>
 					</p>
@@ -154,7 +158,7 @@
 					<p>24 July 1931 <placeName key="dresden">Dresden</placeName>
 					</p>
 				</div>
-				<div rend="body">
+				<div rend="body"> 
 					<salute><seg corresp="#d01">Dear Mrs. <persName key="garlandM">Maria Garland</persName></seg></salute>
 					<p><seg corresp="#d02">Please let me know how it is going with the book and your husband’s work. I
 						am so excited about that. I am still lying in bed after my terrible
@@ -175,7 +179,7 @@
 						<salute>from your</salute>
 						<signed>
 							<hi rend="underline">
-								<persName key="lili">Lili Elbe</persName>
+								from your     <persName key="lili">Lili Elbe</persName>
 							</hi>
 						</signed>
 					</closer>
