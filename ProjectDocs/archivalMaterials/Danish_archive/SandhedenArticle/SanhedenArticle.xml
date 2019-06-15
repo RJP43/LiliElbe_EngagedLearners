@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../../lili-elbe-code/schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -41,8 +41,8 @@
             <respStmt>
                <resp>HTML proofing completed
                      <date><!-- insert date; see formatting suggestions above --></date> by </resp>
-               <persName ref=""><!-- Name of Proofer --></persName>
-               <persName ref=""><!-- Name of Proofer --></persName>
+               <persName ref="?"><!-- Name of Proofer --></persName>
+               <persName ref="?"><!-- Name of Proofer --></persName>
             </respStmt>
             <sponsor>Loyola University Chicago</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -81,17 +81,17 @@
                      efterhaanden faaet saadan et Omfang, at man skulde tro, at Politidirektøren sov
                      og lod <anchor type="commentRangeStart" n="1"/>Anstødelighedsparagraffer
                         <anchor type="commentRangeEnd" n="1"/>
-                     <note type="translator" source="mo" xml:id="comment_1">This likely refers to
+                     <note type="translator" source="mo" corresp="comment_1">This likely refers to
                         Paragraph 184 in the criminal law of 1866 which was used in other cases of
                         literary censorship.</note> være Anstødelighedsparagraffer. Maaske er
                      Sandheden den, at Politidirektøren, bistaaet af <anchor
                         type="commentRangeStart" n="2"/><persName key="mellerup">Hr.
                         Mellerup</persName>, <anchor type="commentRangeEnd" n="2"/>
-                  <note type="editor" source="plc" xml:id="comment_2"><persName key="mellerup">Einer Mellerup</persName> was deputy police commissioner in <placeName ref="copenhagen">Copenhagen</placeName> from 1926.</note> den drabelige Væbner,
+                  <note type="editor" source="plc" corresp="comment_2"><persName key="mellerup">Einer Mellerup</persName> was deputy police commissioner in <placeName ref="copenhagen">Copenhagen</placeName> from 1926.</note> den drabelige Væbner,
                      har saa travlt med at beskytte <anchor type="commentRangeStart" n="3"/> 
                   <persName key="steinckeK">Steincke</persName>, <anchor
                         type="commentRangeEnd" n="3"/>
-                     <note type="translator" source="mo" xml:id="comment_3"><persName key="steinckeK">K. K. (Karl Kristian)
+                     <note type="translator" source="mo" corresp="comment_3"><persName key="steinckeK">K. K. (Karl Kristian)
                         Steincke</persName> was a prominent social democrat. From 1929 he was the minister for
                         social affairs and he is probably best known for being behind the social
                         reform of 1933 which is often seen as the beginning of the Danish welfare
@@ -217,7 +217,7 @@
                         Wegener</persName>
                      <anchor type="commentRangeStart" n="4"/><persName key="wegenerG">sin
                         tidligere Hustru.</persName><anchor type="commentRangeEnd" n="4"
-                        /><note type="translator" source="mo" xml:id="comment_4">The pronoun is not
+                        /><note type="translator" source="mo" corresp="comment_4">The pronoun is not
                         gendered in Danish.</note>
                   </seg></p>
                <p><seg n="d29">Det var med ikke ringe Spænding, hun gik til dette Møde. Hun skulde
@@ -257,7 +257,7 @@
                      hende, og den giver en udpenslet Skildring af de erotiske Fornemmelser,
                   <anchor type="commentRangeStart" n="5"/><persName>Mennesket
                      Wegener</persName>
-                  <anchor type="commentRangeEnd" n="5"/><note type="editor" source="kej" xml:id="comment_5">Decision made to tag "Mennesket Wegener" without a key because gender is unclear.</note> har
+                  <anchor type="commentRangeEnd" n="5"/><note type="editor" source="kej" corresp="comment_5">Decision made to tag "Mennesket Wegener" without a key because gender is unclear.</note> har
                      oplevet, dels som mand og dels som Kvinde.</seg></p>
                <!-- KEJ 2019-04-18: I added this note as the encoder, but the only choices for the note type are translator or editor. I chose editor. Do you want to leave it that way or include an option for encoder?-->
                <!-- KEJ 2019-04-18: Is there any other place where we want to enclude persName without a key? -->
@@ -287,20 +287,20 @@
           <div rend="body">
           <p><seg n="d03">THE SPECULATION in printed matter touching on the sexual domain has by now taken on such proportions that one would think that the commissioner of police was asleep and let <anchor type="commentRangeStart" n="1"/>obscenity paragraphs <anchor
                         type="commentRangeEnd" n="1"/>
-                     <note type="translator" source="mo" xml:id="comment_1">
+                     <note type="translator" source="mo" corresp="comment_1">
                      This likely refers to Paragraph 184 in the criminal law of 1866 which was used in
                         other cases of literary censorship.</note>
              be obscenity paragraphs. Perhaps
                      the truth is that the commissioner of police aided by <anchor
                         type="commentRangeStart" n="2"/><persName key="mellerup">Mr.
                         Mellerup</persName>, <anchor type="commentRangeEnd" n="2"/>
-                     <note type="translator" source="plc" xml:id="comment_2">
+                     <note type="translator" source="plc" corresp="comment_2">
                         <persName key="mellerup">Einer Mellerup</persName> was deputy police commissioner in Copenhagen from 1926.</note>
                      <anchor type="commentRangeStart" n="3"/><persName key="steinckeK"
                         >Steincke</persName>, <anchor type="commentRangeEnd" n="3"/>
              <!-- KEJ 2019-04-17: Becca is working on finding a new attribute to resolve the error caused by double xml id's in translations. -->
-             <!-- KEJ 2019-04-23: Becca found that there were tthree persnames in the original text that were not in the translation. I thinnk I found them, but I'm not sure. -->
-                     <note type="translator" source="mo" xml:id="comment_3"> <persName key="steinckeK">K. K. (Karl
+             <!-- KEJ 2019-04-23: Becca found that there were three persnames in the original text that were not in the translation. I thinnk I found them, but I'm not sure. -->
+                     <note type="translator" source="mo" corresp="comment_3"> <persName key="steinckeK">K. K. (Karl
                         Kristian) Steincke</persName> was a prominent social democrat. From 1929 he was the
                         minister for social affairs and he is probably best known for being behind
                         the social reform of 1933 which is often seen as the beginning of the Danish
@@ -412,7 +412,7 @@
                         <anchor type="commentRangeStart" n="4"/><persName key="wegenerG">her
                         former wife</persName>.<!-- KEJ 2019-04-02: Only the word "sin" is being commented on, but I can't figure out how to structure the note tag with the persName tag. --><!-- MAKE SURE WHOLE PHRASE IS INCLUDED AS PART OF NOTE. -->
                      <anchor type="commentRangeEnd" n="4"/>
-                     <note type="translator" source="mo" xml:id="comment_4"> The pronoun is not
+                     <note type="translator" source="mo" corresp="comment_4"> The pronoun is not
                         gendered in Danish.</note>
                   </seg></p>
                <p><seg n="d29">It was with considerable anticipation that she went to this meeting.
@@ -455,7 +455,7 @@
                      Loulou Lassen from “Politiken”
                      has written it for her and it gives an unnecessarily detailed description of
                      the erotic feelings that the <anchor type="commentRangeStart" n="5"/><persName>the person Wegener</persName>
-                  <anchor type="commentRangeEnd" n="5"/><note type="editor" source="kej" xml:id="comment_5">Decision made to tag "the person Wegener" without a key because gender is unclear.</note>
+                  <anchor type="commentRangeEnd" n="5"/><note type="editor" source="kej" corresp="comment_5">Decision made to tag "the person Wegener" without a key because gender is unclear.</note>
                      has experienced as a man and as a woman respectively.</seg></p>
              <!-- Should I be tagging publication names? -->
              <!-- KEJ 2019-04-18: I added this note as the encoder, but the only choices for the note type are translator or editor. I chose editor. Do you want to leave it that way or include an option for encoder? -->  
