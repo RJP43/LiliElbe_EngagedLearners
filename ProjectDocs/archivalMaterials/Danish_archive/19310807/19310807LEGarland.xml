@@ -73,7 +73,7 @@
                 
                 <closer>
                     <salute><seg n="d09">Tusind hjærtelige Hilsner til</seg></salute> 
-                    <salute><seg n="d10">Dem og Deres Mand</seg></salute>
+                    <salute><seg n="d10">Dem og <persName key="harthernE">Deres Mand</persName></seg></salute>
                     <salute><seg n="d11">Deres</seg></salute>
                     <p><signed><persName key="lili"><seg n="d12">Lili Elvenes</seg></persName></signed></p>
                 </closer></div>
@@ -101,7 +101,7 @@
               
                 <closer>
                     <p><salute><seg corresp="#d09">A thousand hearty greetings to</seg></salute></p> 
-                    <p><salute><seg corresp="#d10">You and Your Husband</seg></salute></p>
+                    <p><salute><seg corresp="#d10">You and <persName key="harthernE">Your Husband</persName></seg></salute></p>
                     <p><salute><seg corresp="#d11">Your</seg></salute></p>
                     <p><signed><persName key="lili"><seg corresp="#d12">Lili Elvenes</seg></persName></signed></p>
                 </closer>
