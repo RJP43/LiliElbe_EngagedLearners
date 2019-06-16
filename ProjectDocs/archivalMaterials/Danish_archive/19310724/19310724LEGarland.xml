@@ -123,7 +123,7 @@
 					<p>
 						<seg n='d03'><anchor type="footRefStart" n="1"/><persName key="gebhard">Hr. Oberartz</persName><anchor type="footRefEnd" n="1"/>  
 							<note corresp="fn_001" type="foot" rend="asterisk">German for "head doctor."</note> er saa munter
-						og sød imod mig. Sig det til Deres Mand. Jeg tror, <persName key="wegenerG"
+							og sød imod mig. Sig det til <persName key="harthernE">Deres Mand</persName>. Jeg tror, <persName key="wegenerG"
 							>Fru Gerda</persName> i sit Manuskript siger noget jeg ikke saa gerne
 						vilde have sagt i Bogen. I dag har man baaret mig ud i <placeName>
 							Haven</placeName> paa en Baar [sic] for at jeg skal faa Sol og se
@@ -166,7 +166,7 @@
 						professor is very strict.</seg></p>
 					<p>
 						<seg corresp="#d03"><persName key="gebhard">The chief
-						physician</persName>is so cheerful and sweet with me. Tell that to your husband. I believe in
+							physician</persName>is so cheerful and sweet with me. Tell that to <persName key=harthernE>your husband</persName>. I believe in
 						her manuscript <persName key="wegenerG">Mrs. Gerda</persName> says something
 						I would prefer not to have said in the book. Today they have carried me out
 						in <placeName>the garden</placeName> on a stretcher in order for me to get
