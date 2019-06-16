@@ -38,7 +38,7 @@
                         <add place="leftMargin" type="insertion" rend="redPencil">Mein <hi
                                 rend="underline">Brief</hi>
                         </add>
-                        <note type="editor" source="kj mb">Written in red in top left corner and
+                        <note type="translator" source="kj mb">Written in red in top left corner and
                             seems to be in another person's handwriting.</note>
                     </p>
                     <p>
