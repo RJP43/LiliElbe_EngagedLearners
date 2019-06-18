@@ -45,6 +45,7 @@
                         <hi rend="underline">Tirsdag</hi>
                     </p>
                     <!-- this underline doesn't appear in the docx translation, but it's in the image. -->
+                    <!-- KEJ:2019-06-18: Thank you. It should be underlined. -->
                     <p>Dresden. 16 Juni 1931</p>
                 </div>
 
@@ -53,9 +54,11 @@
                     <p><seg n="d02">Jeg har skrevet til Deres Mand og bedt ham, som vi allerede havde
                             aftalt, at sende de færdige Kapitler til <persName key="warnekros">Prof.
                                 Warnekros</persName>; men hvis de ikke allerede er afsendt, vilde
-                            jeg meget gerne have dem til min Adresse. Det er saadan et udmærket
+                            jeg meget gerne have dem til min Adresse. </seg></p>
+                    <!-- KEJ:2019-06-18: I didn't put a paragraph here in the transcription, but I think the gap that is in the photo facsimile indicates a new paragraph.-->
+                    <p><seg n="d03">Det er saadan et udmærket
                             Anledning til at tale med den strænge Herre.</seg></p>
-                       <p><seg n="d03">Jeg er nemlig straks blevet saa lille<note type="translator">The
+                       <p><seg n="d04">Jeg er nemlig straks blevet saa lille<note type="translator">The
                                 implication is little in the sense of delicate. She is a shy,
                                 shrinking violet.</note> som sidste Aar. De aner ikke, hvilken Evne
                             han har til at lokke alt det mest kvindelige frem i mig.</seg></p>
@@ -64,19 +67,19 @@
                                 idag, men jeg tør ikke spørge ham derom. Sligt taler han ikke med
                                 Piger om – og nu hengaar min Tid med at vente paa ham og drømme om
                                 hans Mandighed og Skønhed. I min Beundring forstaar jeg nu, at Gud
-                                skabte Manden i sit Billede.</seg>
-                            <seg n="d06">Jeg ønsker intet mere end blot at have Lov til at være i hans
+                                skabte Manden i sit Billede.</seg></p>
+                    <p><seg n="d06">Jeg ønsker intet mere end blot at have Lov til at være i hans
                                 Nærhed, og jeg er slet ikke bange for alle de slemme Smærter, der
                                 venter mig; thi saa ser jeg ham mere – og et Smil fra ham er alle de
-                                grusomste Smærter værd.</seg>
-                            <pb/>
-                            <seg n="d07">De kan tro, det er en Overraskelse for mig, at jeg nu er her i
+                                grusomste Smærter værd.</seg></p>
+                    <p><seg n="d07">De kan tro, det er en Overraskelse for mig, at jeg nu er her i
                                 Stedet for i <placeName key="paris">Paris</placeName>. Men jeg
                                 forstaar Professoren har grebet dette gunstige Øjeblik til den
                                 sidste store Operation, uden hvilken jeg aldrig bliver helt rask,
-                                hverken fysisk eller moralsk.</seg>
+                                hverken fysisk eller moralsk.</seg></p>
                             <!-- I'm not totally sure about this paragraph break. It's in the English translated docx, but ambiguous (to me) in the image -tnm -->
-                            <seg n="d08">Jeg sidder ude i Haven; men af og til kniber det lidt med Modet og
+                            <!-- KEJ:2019-06-18: Yes, a paragraph break should go here.-->
+                    <p><seg n="d08">Jeg sidder ude i Haven; men af og til kniber det lidt med Modet og
                                 saa maa jeg kile rundt<note type="translator">The word could also be
                                     køle, though the correct phrase would be køle af rundt.</note> i
                                 Gangene mellem de lyse Birke; jeg ved nemlig kun altfor godt, hvad
@@ -84,23 +87,28 @@
                                 tænker slet ikke paa at dø; det har jeg ikke Lov<note
                                     type="translator">The word lov literally means law, so either
                                     permission or allowance would work.</note> til. Det vilde være
-                                et Forræderi. Skriv til mig. Det vil trøste mig.</seg>
-                            <seg n="d09">Det er mig ogsaa en stor Beroligelse at vide, at deres Mand sidder
+                                et Forræderi.</seg></p> 
+                    <!-- KEJ:2019-06-18: I createtd a new paragraph break here. In looking at this again, what I thought was a space really should be a break, as the next sentence expresses a new thought. -->
+                    <p><seg n="d09">Skriv til mig. Det vil trøste mig. Det er mig ogsaa en stor Beroligelse at vide, at deres Mand sidder
                                 og arbejder med vort fælles Værk. Bogen eller rettere Romanen
                                 begynder maaske allerede at udkomme, medens jeg endnu ligger
-                                her.</seg>
-                            <seg>Jeg sender en Del Fotografier herfra og faar Bekendte til at samle
-                                en Del i <placeName key="paris">Paris</placeName>.</seg> 
-                       </p> 
-                    <closer><salute> Mine allerhjærtligste Hilsner til Dem og Deres Mand</salute>
-                        <!-- not confident about the above line being part of valediction or even of closing? -tnm -->
-                        <salute>Deres</salute>
+                                her.</seg></p>
+                    <p><seg n="d10">Jeg sender en Del Fotografier herfra og faar Bekendte til at samle
+                                en Del i <placeName key="paris">Paris</placeName>.</seg></p> 
+                    <closer>
+                        <salute>
+                            <seg n="d11">Mine allerhjærtligste Hilsner til Dem</seg>
+                            <seg n="d12">og Deres Mand</seg></salute>
+                        <salute>
+                            <seg n="d13">Deres</seg>
+                        </salute>
                         <signed>
-                            <persName key="lili">Lili Elvenes</persName>
-                        </signed></closer>
+                            <persName key="lili"><seg n="d14">Lili Elvenes</seg></persName>
+                        </signed>
+                    </closer>
                         <postscript>
-                            <p>P.S. Jeg venter Visit her af <persName key="?">Johannes</persName> og
-                                    <persName key="?">Ulla Poulsen</persName></p>
+                            <p><seg n="d15">P.S. Jeg venter Visit her af <persName key="?">Johannes</persName> og
+                                <persName key="?">Ulla Poulsen</persName></seg></p>
                         </postscript>
                 </div>
             </div>
@@ -118,6 +126,7 @@
                         <hi rend="underline">Tuesday</hi>
                     </p>
                     <!-- this underline doesn't appear in the docx translation, but it's in the image. -->
+                    <!-- KEJ:2019-06-18: Thank you. It should be underlined. -->
                     <p>Dresden. 16 June 1931</p>
                 </div>
                 <div rend="body">
@@ -125,55 +134,58 @@
                     <p><seg n="#d02">I have written to your husband and asked him, as we had already agreed, to
                         send the completed chapters to <persName key="warnekros">Prof.
                             Warnekros</persName>; but if they have not already been shipped, I would
-                        like to have them to my address. It is such an excellent occasion to talk
-                        with the strict gentleman.</seg></p>
-                    <p><seg n="d03">I have immediately become just as little<note type="translator">The
+                        like to have them to my address.</seg></p> 
+                    <p><seg n="#d03">It is such an excellent occasion to talk with the strict gentleman.</seg></p>
+                    <p><seg n="#d04">I have immediately become just as little<note type="translator">The
                             implication is little in the sense of delicate. She is a shy, shrinking
                             violet.</note> as last year. You wouldn’t guess the power he has to
                         entice the utmost feminine side of me.</seg></p>
-                    <p><seg n="d04">They think I’ll undergo surgery tomorrow – I thought it was already due today
+                    <p><seg n="#d05">They think I’ll undergo surgery tomorrow – I thought it was already due today
                         but I don’t dare to ask him about it. He doesn’t discuss such things with
                         girls – and now I spend my time waiting for him and dreaming about his
                         masculinity and beauty. In my admiration I now understand that God created
                         man in his image.</seg></p>
                     <!-- should God be tagged as a person? -->
-                    <p><seg n="d05">I wish for no more than just to be allowed to be in his proximity, and I am
+                    <p><seg n="#d06">I wish for no more than just to be allowed to be in his proximity, and I am
                         not at all afraid of all the horrible pain that awaits me, for then I will
                         see him more – and a smile from him is worth all the most gruesome pain.</seg></p>
-                    <pb/>
-                    <p><seg n="d06">You can believe it is a surprise to me, that I am now here instead of in
+                    <p><seg n="#d07">You can believe it is a surprise to me, that I am now here instead of in
                             <placeName key="paris">Paris</placeName>. But I understand the professor
                         has grabbed this favorable moment for the last big operation, without which
-                        I will never become fully healthy, neither physically nor morally</seg>.</p>
+                        I will never become fully healthy, neither physically nor morally.</seg></p>
                     <!-- I'm not totally sure about this paragraph break. It's in the English translated docx, but ambiguous (to me) in the image -tnm -->
-                    <p><seg n="d07">I am sitting out in the garden; but courage is a little scarce and so I must
+                    <!-- KEJ:2019-06-18: Yes, a paragraph break should go here.-->
+                    <p><seg n="#d08">I am sitting out in the garden; but courage is a little scarce and so I must
                         dash around<note type="translator">The word could also be køle, though the
                             correct phrase would be køle af rundt.</note> among the bright birch
                         trees; I know only too well what waits for me – and big abdominal operations
                         are horrible, but I really do not think about dying at all; I do not have
                         the permission<note type="translator">The word lov literally means law, so
                             either permission or allowance would work.</note> to do that. It would
-                        be a betrayal. Write to me. It will comfort me</seg>.</p>
-                    <!-- tnm: I'm not 100% sure the first translator's note above is in the right place. The footnote is not marked in the English translation. -->
-                    <p><seg n="d08">It is also a big reassurance to me to know that your husband works with<note
+                        be a betrayal.</seg></p> 
+                    <p><seg n="#d09">Write to me. It will comfort me. It is also a big reassurance to me to know that your husband works with<note
                             type="editor">Or "on?"</note> our common work. The book, or rather the
-                        novel, might be released while I am still here</seg>. </p>
-                    <p><seg n="d09">I am sending a handful of photographs from here and will have friends collect
+                        novel, might be released while I am still here.</seg></p>
+                    <p><seg n="#d10">I am sending a handful of photographs from here and will have friends collect
                         some in <placeName key="paris">Paris</placeName>.</seg></p>
-
-
                     <closer>
-                        <salute>My heartiest greetings to you and Your Husband</salute>
+                        <salute>
+                            <seg n="#d11">My heartiest greetings to you</seg>
+                            <seg n="#d12">and Your Husband</seg>
+                        </salute>
                         <!-- capitalization on this English translation is confusing to me. In other contexts tante or onkel were not caps but when translated they used Aunt and Uncle next to the person's name. Here we have seemingly the opposite, where Deres Mand is capitalized in Danish and the capitalization is retained (in a way that feels unnatural to me) in the English translation. So, are the caps carrying over literally in the trasnlation sometimes and not others, or are the translators making the call that "Your Husband" is a kind of title in the same way as "Uncle Einar" would be? -->
                         <!-- not confident about the above line being part of valediction or even of closing? -tnm -->
-                        <salute>Your</salute>
+                        <!-- KEJ 2019-06-18: I encoded segments to correspond to line breaks in the photo facsimile. -->
+                        <salute><seg n="#d13">Your</seg></salute>
                         <signed>
-                            <persName key="lili">Lili Elvenes</persName>
-                        </signed></closer>
+                            <persName key="lili"><seg n="#d14">Lili Elvenes</seg></persName>
+                        </signed>
+                    </closer>
                         <postscript>
-                            <p>P.S. I await the visit here of <persName key="poulsenJ"
+                            <p>
+                            <seg n="#d15">P.S. I await the visit here of <persName key="poulsenJ"
                                     >Johannes</persName> and <persName key="poulsenU">Ulla
-                                    Poulsen</persName></p>
+                                    Poulsen</persName></seg></p>
                         </postscript>
                    
                 </div>
