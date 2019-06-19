@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-05-29T15:47:41Z. .
+Schema generated from ODD source 2019-06-18T23:19:34Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -2655,6 +2655,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>blackInk</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>blueInk</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>redPencil</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>redCrayon</value>
@@ -4880,6 +4882,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional historical | Identified Name(s): Dr. Gebhard,
                               Professor Gebhard, Overlægen, senior physician, Oberarzt | Linked
                               Keys: #gohrbandt) </a:documentation>
+                  <value>germanFriend</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Niels Hoyer | Note:
+                              Modeled on Niels Hoyer. | Linked Keys: #hoyerNiels #harthernE) </a:documentation>
                   <value>goethe</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Goethe | Note: German
                               author) </a:documentation>
@@ -4901,13 +4906,15 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Dr. Hardenfeld, Hardenfeld | Linked Keys: #hirschfeld) </a:documentation>
                   <value>haslund</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Ole Georg Haslund |
-                              Note: Danish art dealer who exhibited Einar's and Gerda's work) </a:documentation>
+                              Note: Danish art dealer who exhibited Einar's and Gerda's work; he is
+                              named in the narrative rather than given a fictional name) </a:documentation>
                   <value>hasselbalchS</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Steen Hasselbach |
                               Note: Danish publisher) </a:documentation>
                   <value>harthernE</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Ernst Harthern, Ernst
-                              Ludwig Harthern Jacobsen | Linked Keys: #hoyerNiels) </a:documentation>
+                              Ludwig Harthern Jacobsen | Note: Harthern used the pseudonym Niels
+                              Hoyer | Linked Keys: #hoyerNiels) </a:documentation>
                   <value>hauwitz</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Hauwitz) </a:documentation>
                   <value>hermes</value>
@@ -4920,12 +4927,13 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Magnus Hirschfeld,
                               "Marcus Hierschfeld | Linked Keys: #hardenfeld) </a:documentation>
                   <value>hoyerNiels</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Niels Hoyer | Linked
-                              Keys: #harthernE) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Niels Hoyer | Note:
+                              Niels Hoyer was the pseudonym for Ernst Harthern | Linked Keys:
+                              #harthernE) </a:documentation>
                   <value>hvappe</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional historical | Identified Name(s): Hvappe,
-                              Hauwitz | Note: Not mentioned in A1; name of Sparres' dog in narrative
-                              and name of Einar's and Gerda's dog) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional historical | Identified Name(s): Hvappe |
+                              Note: Not mentioned in A1; name of Sparres' dog in narrative and name
+                              of Einar's and Gerda's dog) </a:documentation>
                   <value>hvideIng</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Inger Hvide, Inger |
                               Linked Keys: #knudsenV) </a:documentation>
@@ -4968,15 +4976,16 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Anna Larsen, the actress
                               | Note: Modeled on Anna Larssen, a Danish actress) </a:documentation>
                   <value>lejeuneClaude</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Claude Lejeune, Claude |
-                              Note: Historical figure not identified) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Claude Lejeune, Claude
+                              Lejenne, Claude | Note: Modeled on Claude Prévost | Linked Keys:
+                              #prevostClaude) </a:documentation>
                   <value>lili</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional historical | Identified Name(s): Lili, Lili
-                              Elbe, Lili Ilse Elvenes, Lili Courtaud, Lili Courtot, Mrs. Lili,
-                              Frøken Wegener, Lily Wegener, Lily, Frk. Wegener, Frk. Lily Wegener,
-                              Miss Wegener, Miss Lily Wegener | Note: Unable to verify that Lili
-                              Elbe used the pseudonym Lili Courtaud outside of its use in the
-                              narrative | Linked Keys: #sparreAn #wegenerE) </a:documentation>
+                              Elbe, Lili Ilse Elvenes, Lili Courtaud, Lili Courtot, Baronne le
+                              Courtaut, Mrs. Lili, Frøken Wegener, Lily Wegener, Lily, Frk. Wegener,
+                              Frk. Lily Wegener, Miss Wegener, Miss Lily Wegener | Note: Unable to
+                              verify that Lili Elbe used the pseudonym Lili Courtaud outside of its
+                              use in the narrative | Linked Keys: #sparreAn #wegenerE) </a:documentation>
                   <value>louLou</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): a friend who was on the
                               staff of a leading Copenhagen newspaper, Loulou Lassen | Note: Danish
@@ -5076,6 +5085,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>praxiteles</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Praxiteles | Note:
                               Athenian sculptor) </a:documentation>
+                  <value>prevostClaude</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Claude Prévost | Linked
+                              Keys: #lejeuneClaude) </a:documentation>
                   <value>reissnerCarl</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Carl Reißner | Note:
                               German publisher) </a:documentation>
@@ -5113,7 +5125,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Wegener's wife | Linked Keys: #wegenerM) </a:documentation>
                   <value>sparreAn</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Andreas Sparre, Andreas,
-                              Monsier Sparre | Linked Keys: #wegenerE #lili) </a:documentation>
+                              Monsieur Sparre | Linked Keys: #wegenerE #lili) </a:documentation>
                   <value>sparreGre</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Grete Sparre, Grete,
                               Mrs. Sparre, Madame Sparre | Linked Keys: #wegenerG) </a:documentation>
@@ -5238,11 +5250,12 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Amsterdam) </a:documentation>
                   <value>australia</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Australia) </a:documentation>
+                  <value>balgencie</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Balgencie) </a:documentation>
                   <value>balkans</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Balkans) </a:documentation>
                   <value>beaugency</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Beaugency, Balgencie | Note: City in
-                              France.) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Beaugency | Note: City in France.) </a:documentation>
                   <value>belgium</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Belgium, Belgien) </a:documentation>
                   <value>berlin</value>
@@ -5318,6 +5331,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Italy) </a:documentation>
                   <value>france</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): France | Note: Country in Europe) </a:documentation>
+                  <value>franceNorthern</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): northern France, Nordfrankreich, Nordfrankrig
+                              | Note: Country in Europe) </a:documentation>
                   <value>friedrichsstrasse</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Friedrichsstrasse, Friedrichstrasse,
                               Friedrichstraße | Note: Street in Berlin, Germany) </a:documentation>

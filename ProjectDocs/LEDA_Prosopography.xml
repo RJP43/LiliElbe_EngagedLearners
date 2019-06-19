@@ -96,13 +96,16 @@
                <placeName>Australia</placeName>
                <note/>
             </place>
+            <place xml:id="balgencie" source="fictional" synch="#beaugency">
+               <placeName>Balgencie</placeName>
+               <note/>
+            </place>
             <place xml:id="balkans">
                <placeName>Balkans</placeName>
                <note/>
             </place>
             <place xml:id="beaugency">
                <placeName source="#A1 #TR">Beaugency</placeName>
-               <placeName source="#G1 #D1">Balgencie</placeName>
                <note>City in <placeName key="france">France</placeName>.</note>
             </place>
             <place xml:id="belgium">
@@ -250,6 +253,12 @@
                <placeName>France</placeName>
                <note>Country in <placeName key="europe">Europe</placeName></note>
             </place>
+            <place xml:id="franceNorthern">
+               <placeName source="#A1 #B1 #TR">northern France</placeName>
+               <placeName source="#G1">Nordfrankreich</placeName>
+               <placeName source="#D1">Nordfrankrig</placeName>
+               <note>Country in <placeName key="europe">Europe</placeName></note>
+            </place>
             <place xml:id="friedrichsstrasse">
                <placeName source="#A1 #D1 #TR">Friedrichsstrasse</placeName>
                <placeName source="#A1">Friedrichstrasse</placeName>
@@ -291,7 +300,7 @@
             <place xml:id="germanySouth">
                <placeName source="#A1 #TR">Southern Germany</placeName>
                <placeName source="#D1">Sydtyskland</placeName>
-               <placeName source="#TR">Süddeutschland</placeName>
+               <placeName source="#G1">Süddeutschland</placeName>
                <note/>
             </place>
             <place xml:id="greece">
@@ -856,6 +865,10 @@
                <persName source="#D1">Oberarzt</persName>
                <note/>
             </person>
+            <person xml:id="germanFriend" source="historical" synch="#hoyerNiels #harthernE">
+               <persName>Niels Hoyer</persName>
+               <note>Modeled on <persName key="hoyerNiels">Niels Hoyer</persName>.</note>
+            </person>
             <person xml:id="goethe" source="fictional">
                <persName>Goethe</persName>
                <note>German author</note>
@@ -888,7 +901,7 @@
             </person>
             <person xml:id="haslund" source="historical">
                <persName>Ole Georg Haslund</persName>
-               <note>Danish art dealer who exhibited Einar's and Gerda's work</note>
+               <note>Danish art dealer who exhibited Einar's and Gerda's work; he is named in the narrative rather than given a fictional name</note>
                <!-- RJP: wondering if this should be an org; is this an individual? -->
             </person>
             <person xml:id="hasselbalchS" source="historical">
@@ -898,7 +911,7 @@
             <person xml:id="harthernE" source="historical" synch="#hoyerNiels">
                <persName>Ernst Harthern</persName>
                <persName>Ernst Ludwig Harthern Jacobsen</persName>
-               <note/>
+               <note>Harthern used the pseudonym Niels Hoyer</note>
             </person>
             <person xml:id="hauwitz" source="fictional">
                <persName>Hauwitz</persName>
@@ -918,9 +931,9 @@
                <!-- spelling mistake in print -->
                <note/>
             </person>
-            <person xml:id="hoyerNiels" source="fictional" synch="#harthernE">
+            <person xml:id="hoyerNiels" source="historical" synch="#harthernE">
                <persName>Niels Hoyer</persName>
-               <note/>
+               <note>Niels Hoyer was the pseudonym for Ernst Harthern</note>
             </person>
             <person xml:id="hvappe" source="fictional historical">
                <persName source="#D1 #TR">Hvappe</persName>
@@ -997,11 +1010,11 @@
                <persName source="#D1 #TR">the actress</persName>
                <note>Modeled on <persName>Anna Larssen</persName>, a Danish actress</note>
             </person>
-            <person xml:id="lejeuneClaude" source="fictional">
+            <person xml:id="lejeuneClaude" source="fictional" synch="#prevostClaude">
                <persName>Claude Lejeune</persName>
                <persName source="#TS">Claude Lejenne</persName>
                <persName>Claude</persName>
-               <note>Modeled on <persName>Claude Prévost​</persName></note>
+               <note>Modeled on <persName key="prevostClaude">Claude Prévost</persName></note>
             </person>
             <person xml:id="lili" source="fictional historical" synch="#sparreAn #wegenerE">
                <persName>Lili</persName>
@@ -1025,7 +1038,7 @@
                <persName>a friend who was on the staff of a leading <placeName key="copenhagen"
                      >Copenhagen</placeName> newspaper</persName>
                <persName>Loulou Lassen</persName>
-               <note>Danish journalist</note>
+               <note>Danish journalist</note><!-- be sure not to use this key ID in the editions for the journalist mentioned; Pamela's note to be added on instances in edtion when referring to journalist: This character is modeled on Louise (Loulou) Lassen. -->
             </person>
             <person xml:id="madameB" source="historical">
                <persName>Madame de B.</persName>
@@ -1167,6 +1180,10 @@
                <persName>Praxiteles</persName>
                <note>Athenian sculptor</note>
             </person>
+            <person xml:id="prevostClaude" source="historical" synch="#lejeuneClaude">
+               <persName>Claude Prévost</persName>
+               <note/>
+            </person>
             <person xml:id="reissnerCarl" source="historical">
                <persName>Carl Reißner</persName>
                <note>German publisher</note>
@@ -1224,7 +1241,7 @@
             <person xml:id="sparreAn" source="fictional" synch="#wegenerE #lili">
                <persName>Andreas Sparre</persName>
                <persName>Andreas</persName>
-               <persName source="#G1">Monsier Sparre</persName>
+               <persName source="#G1">Monsieur Sparre</persName>
                <note/>
             </person>
             <person xml:id="sparreGre" source="fictional" synch="#wegenerG">
