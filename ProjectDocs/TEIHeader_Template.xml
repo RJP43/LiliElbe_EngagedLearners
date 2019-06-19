@@ -110,6 +110,26 @@
                encoder's description must be in complete, logical sentences --></p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+            <editorialDecl>
+                <!--use elements listed under "May Contain" section of TEI editorialDecl description (https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html)  
+and internal p elements to describe anything unique about the text's encoding--><!--For example: 
+                <normalization>
+                    <p>In our encoding of this edition, we have moved each chapter's first-page number, originally
+                        appearing at the bottom of the print page, to the beginning of the page's
+                        text before the chapter heading. The pb element in the TEI P5 guidelines stands for page
+                        beginning and throughout the rest of the document page numbers appear at the
+                        beginning of the page; therefore, in order to simplify our processing we
+                        have altered the placement of each chapter's first page's number.</p>
+                </normalization>-->
+                <hyphenation>
+                    <p>We have removed line-break hyphenation that appears in the printed text during
+                        digitization and encoding. Original hyphenation can be consulted in the
+                        facsimile images.</p>
+                <!--every document must include this hyphenation element and internal text; copy directly!-->
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
    </teiHeader>
    <text>
       <body>
