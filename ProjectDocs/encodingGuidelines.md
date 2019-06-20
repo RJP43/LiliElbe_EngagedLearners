@@ -377,7 +377,7 @@ _note: Use this encoding for stretches of illegible or missing text (cutaways, h
 ### Editor/Translator Comments   
 ````
 <anchor type="commentRangeStart" n="<!--comment number-->"/>  
-TEXT BEING REFERENCED<note type="translator or editor" source="team member ID"  
+TEXT BEING REFERENCED<anchor type="commentRangeEnd" n="<!--comment number-->"/><note type="translator or editor" source="team member ID"  
 corresp="comment_<!--same comment number-->">COMMENTED TEXT IN COMPLETE SENTENCES</note>  
 ````
 

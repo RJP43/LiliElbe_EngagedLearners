@@ -65,6 +65,10 @@
                      >Denmark</placeName>.</note>
             </place>
             <!-- key-"academy" ? https://docs.google.com/spreadsheets/d/1jtWfqtQJGHkJFRP7UjOJ_IaGUl2QiuX7PAIXFMtkPw8/edit?disco=AAAACuMu8s4 - Pamela says there is a note where Einar claims to have a French award possibly from an academy where the other key could be used.  -->
+            <place xml:id="africa">
+               <placeName source="#frenchSupp">Afrique</placeName>
+               <placeName>Africa</placeName>
+            </place>
             <place xml:id="aix">
                <placeName>Aix</placeName>
                <note/>
@@ -450,6 +454,7 @@
             </place>
             <place xml:id="morocco">
                <placeName>Morocco</placeName>
+               <placeName source="#frenchSupp">Marco</placeName>
                <note/>
             </place>
             <place xml:id="naples">
@@ -516,7 +521,7 @@
             <place xml:id="pompeii">
                <placeName>Pompeii</placeName>
                <note>An ancient Roman city near modern <placeName>Naples</placeName> in the Campania
-                  region of <placeName>Italy</placeName></note>
+                  region of <placeName>Italy</placeName>.</note>
             </place>
             <place xml:id="potsdamerPla">
                <placeName>Potsdamer Platz</placeName>
@@ -537,6 +542,10 @@
             <place xml:id="reservoirs">
                <placeName>rue des Réservoirs</placeName>
                <note><placeName>Paris</placeName> street</note>
+            </place>
+            <place xml:id="romanischesCafe">
+               <placeName source="#TS #D1 #TR">Romanisches Café</placeName>
+               <note/>
             </place>
             <place xml:id="rome">
                <placeName source="#A1 #TR">Rome</placeName>
@@ -794,10 +803,10 @@
                <note/>
                <!-- need note from Pamela-->
             </person>
-            <person xml:id="countT" source="historical">
+            <person xml:id="countT" source="historical" synch="#trempe">
                <persName>Colonel de T.</persName>
                <persName>Count de T.</persName>
-               <note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir</note>
+               <note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir.</note>
             </person>
             <person xml:id="cousin" source="fictional">
                <persName source="#A1 #TR">cousin</persName>
@@ -840,9 +849,9 @@
                   narrative</note>
             </person>
             <person xml:id="flavio" source="fictional">
-               <persName>Signora Favio</persName>
-               <persName>Favio</persName>
-               <note>Historical figure not identified</note>
+               <persName>Flavio</persName>
+               <persName source="#G1">Favio</persName>
+               <note>Historical figure not identified.</note>
             </person>
             <person xml:id="francois" source="fictional">
                <persName source="#A1 #D1 #TR">Monsieur François</persName>
@@ -883,6 +892,14 @@
                <persName>Mrs. Gottlieb</persName>
                <note><persName key="wegenerE">Einar Wegener</persName>'s mother-in-law and <persName
                      key="wegenerG">Gerda Wegener</persName>'s mother</note>
+            </person>
+            <person xml:id="gottliebMr" source="historical">
+               <persName>Pastor Gottlieb</persName>
+               <persName>Mr. Gottlieb</persName>
+               <persName source="#frenchSupp">Pasteur Gotlieb</persName>
+               <persName source="#frenchSupp">Pasteur Gottlieb</persName>
+               <note><persName key="wegenerE">Einar Wegener</persName>'s father-in-law and <persName
+                  key="wegenerG">Gerda Wegener</persName>'s father.</note>
             </person>
             <person xml:id="guyot" source="historical">
                <persName source="#A1 #G1">Ch. Gyuot</persName>
@@ -981,11 +998,11 @@
                <persName>Herta Keller</persName>
                <note>Lili's friend; mentioned in Danish letters, but identity is unknown</note>
             </person>
-            <person xml:id="king" source="historical">
+            <person xml:id="king" source="fictional">
                <persName source="#A1 #TR">the King</persName>
                <persName source="#D1">Kongen</persName>
                <persName source="#G1">König</persName>
-               <note>Ruled <placeName>Denmark</placeName> from 1912 to 1947</note>
+               <note>Modeled on <persName>Christian X</persName>, who ruled <placeName>Denmark</placeName> from 1912 to 1947.</note>
             </person>
             <person xml:id="knudsenP" source="historical" synch="#hvideNiels">
                <persName>Poul Knudsen</persName>
@@ -1222,6 +1239,11 @@
             <person xml:id="schumannE" source="historical">
                <persName>Elisabeth Schumann</persName>
                <note>German opera singer</note>
+            </person>
+            <person xml:id="signoraFlavio" source="fictional">
+               <persName>Signora Flavio</persName>
+               <persName source="#G1">Signora Favio</persName>
+               <note>Historical figure not identified.</note>
             </person>
             <person xml:id="sister" source="fictional">
                <persName source="#A1 #TR">sister</persName>
