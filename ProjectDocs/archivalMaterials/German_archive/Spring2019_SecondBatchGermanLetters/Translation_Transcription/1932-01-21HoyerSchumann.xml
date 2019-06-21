@@ -2,14 +2,15 @@
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <text>
-            <body>  
-                <div type="original">
-                    <!--letter-->
-                    
-                    <author>
-                        <persName>Carl Reissner</persName>
-                    </author>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <date>January 21, 1932</date>
+                    Letter to <persName key="">Harry Schumann</persName>
+                </title>
+                <author>
+                        <persName key="reissnerCarl">Carl Reissner</persName>
+                </author>
                     
                     <!-- Formatting dates in <respStmt> elements:            
             If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
@@ -54,6 +55,7 @@
                     <respStmt>
                         <resp>Encoding assistance and/or XML proofing completed by</resp>
                         <persName ref="rjp">Rebecca J. Parker</persName>
+                        <persName ref="aa">Adeline Azungue</persName>
                     </respStmt>
                     <respStmt>
                         <resp>XML transformed into HTML
@@ -82,181 +84,87 @@
                                 4.0 International license.</licence>
                         </availability>
                     </publicationStmt>
-                    <sourceDesc>
-                        <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
-               encoder's description must be in complete, logical sentences --></p>
-                    </sourceDesc>
-                    </fileDesc>
+            <sourceDesc>
+                        <p>The letter has red markings on the first page as well as holes on the left margin. The second page has a small tear from the right margin and 2 small holes.</p>
+            </sourceDesc>
+        </fileDesc>
     </teiHeader>
     <text>
         <body>
-                </div>
-                <date when="1932-01-21">21. Januar 1932</date></seg>
-                </p>
-                </div>
+                <div type="original">
+                    <div rend="head">
+                        <p><seg n="g01"><placeName key="copenhagen">KOPENHAGEN</placeName></seg></p>
+                        <p><seg n="g02"><date when="1932-01-21">21. Januar 1932</date></seg></p>
+                        <p><seg n="g03"><persName key="reissnerCarl">Carl Reissner</persName>/Verlag</seg></p> 
+                        <p><hi rend="underline"><placeName key="dresden">Dresden</placeName></hi> N.</p>
+                        <p>Königstrasse 13</p>
+                        <p><subst><add place="above" type="insertion" rend="redCrayon">von 6 M 
+                            15% = 0.90 
+                            wie unten!”
+                        </add></subst></p>
+                    </div>
                 <div rend="body">
-                    <salute>
-                        <seg n="g02">Sehr geehrter Herr <persName>Schumann</persName> !,</seg>
-                    </salute>
-                    <p><seg n="g03">TIch bestätige den Eingang Ihres Schreibens vom 18.1.
-                        nebst Vertrag mit Ihrer Unterschrift. Besten Dank.</seg>
-                        <seg n="g04">Vorweg muss ich zu dem letzten Passus Ihres Schreibens Stellung nehmen.</seg>
-                        <seg n="g05">. Mit Ihrer Auslegung der Frage der Vorauszahlung bin ich nicht einverstanden.</seg>
-                        <seg n="g06">Sie steht im Widerspruch mit Ihrem Schre ben vom 28. Dezember, 
-                            der Voraussetzung für unsern Abschluss war.</seg>
-                        <seg n="g07">Sie wehrten sich darin gegen die mir zugetragene Behauptung,
-                            kei-ne Vorauszahlung zu leisten.</seg>
-                        <seg n="g08">Sie schreiben mir wörtlich am 28.12. "Ich gebe hiermit die Erklärung ab, dass ich noch niemals die deutschen Rechte eines fremdsprachigen Buches erworben habe, 
-                            ohne bei Vertragsabschluss eine angemessene Vorauszahlung zu leisten."</seg>
-                        <seg n="g09">Der Vertrag zwischen uns ist abgeschlossen.</seg>
-                        <seg n="g10">Das Ihnen vorliegende Manuskript ist druckreif</seg>
-                        <seg n="g11">Kürzungen, die vorgenommen werden sol-len, spielen dabei keine Rolle.</seg>
-                        <seg n="g12">Auch ist ja überhaupt noch nicht von Ihnen meine Frage, ob Kürzungen überhaupt vorgenommen werden sollen, beantwortet worden, obgleich ich bereits zweimal danach gefragt habe.</seg>
-                        <seg n="g13">.- Vertragsmässig, und ich muss unbedingt auf genau-este Einhaltung des Vertrages bestehen, ist die Vorauszahlung also seit 7.1.32. bereits überfällig. Ergänzungen, die ich für das Schlusskapitel 
-                            liefern werde, spielen auch dabei nicht die min-deste Rolle.</seg>
-                        <seg n="g14">Ich habe Ihnen gesagt, dass ich nur unter der Voraus-setzung abschliessen könnte, dass bei 
-                            Vertragsabschluss die Vor=auszahlung sofort angewiesen würde.</seg>
-                        <seg n="g15">Es spielt dabei auch keine grosse Rolle, ob das Buch nun 6 M. oder 8 M. kosten wird. </seg>
-                        <seg n="g16">Weniger als 6 M. wird es nicht kosten können. </seg>
-                        <seg n="g17">So wären also mindestens 900 Mark seit 7.1.fällig. </seg>
-                        <seg n="g18">Ich bitte Sie, diesen Betrag also anzu-weisen.</seg>
-                        <seg n="g19">Ich habe Ihr Wort mit Ihrem Schreiben vom 28.12.bekommen, dass diese Vorauszahlung Ihrerseits geschehen würde.</seg>
-                        <seg n="g20">Nun warte ich auf die Erfüllung dieser klipp und klar getroffenen Ver=einbarung.</seg>
-                    </p>
-                    <p>
-                        <seg n="g21">Soll gestrichen werden, so müssen Sie mir jetzt erst einmal sagen w a s.</seg>
-                        <seg n="g22">Wie ich Ihnen schrieb, scheint es mir ratsam, in den ersten zwei Kapiteln einiges zu streichen</seg>
-                        <seg n="g23">- Mehr aber auch nicht,- Dies geschieht sofort nach Ihrer Vorauszahlung. Ich erwarte Ihre Nach-richt.</seg>
-                        <seg n="g24">.- 
-                            Dann werde ich auch im Epilog die dort bereits zusammengefassten Briefstellen ergänzen.</seg>
-                        <seg n="g25">Ebenso werde ich dann die mir ausgeliefer-ten Briefe verarbeiten.</seg>
-                    </p>
-                    <p>
-                        <seg n="g26">Mehr Bilder kann ich nur liefern, wenn ich Fotos von hier befind-lichen Bildern nehmen lassen kann. </seg>
-                        <seg n="g27">Dies wird pro Stück 5 Mark kosten.</seg>
-                        <seg n="g28">Die Bildabteilung von "Berlingske Tidende" wird dieses dan- in die Wege leiten.</seg>
-                        <seg n="g29">- Die Kosten für diese Fotos müssten Sie na-türlich tragen. </seg>
-                        <seg n="g30">Ich bitte um Ihre Auftragserteilung.</seg>
-                        <seg n="g31">Ist Ihnen der Preis Preis zu hoch, so will ich versuchen, hier herunterzuhandeln. </seg>
-                        <seg n="g32">Dann bitte ich um Nennung eines Stückpreises.</seg>
-                        <seg n="g33">Fotos von Gemälden müs-sen ja sehr sorgsam gemacht werden.</seg>
-                        <seg n="g34">Sie selber sagen ja auch, dass die Bilder in trefflichster Wiedergabe ausgeführt sein müssen. </seg>
-                    </p>
-                    <p>   
-                        <seg n="g35">Ich werde mich heute übrigens mit dem "Institut für 
-                            Sexualwissenschaft"Berlin NW, In den Zelten 10, in Verbindung setzen. 
-                        </seg>
-                        <seg n="g37">Dort sollen sich auch einige Bilder von Einar Wegener befinden. </seg>
-                        <seg n="g38">Ob sie 
-                            sich für eine Wiedergabe eignen, weiss ich leider nicht.</seg>
-                        <seg n="g39">Sie er-halten 
-                            von mir sehr bald weiteren Bescheid. 
-                        </seg>
-                    </p>
-                    <p>
-                        <seg n="g40">Im übrigen teile ich Ihre Gründe begl. des Erscheinungstermins.</seg>
-                        <seg n="g41">Sie sehen, ich gebe mir die grösste Mühe, Ihnen in allen Stücken 
-                            behilflich zu sein.</seg>
-                        <seg n="g42">Nun aber bitte ich Sie auch, vertragstreu mir die, wie 
-                            gesagt, längst verfallene Anzahlung zu machen.</seg>
-                        <seg n="g43">Die dänisch-sprachigen Anlagen werden frühzeitig für Ihre Zwecke 
-                            übersetzt werden.</seg>
-                        <seg n="g44">Hier finden sich an die 20 Gemälde, die für Ihre Zwecke in Fra=ge kommen.</seg>
-                        <seg n="g45">Sind Sie also damit einverstanden, dass ich diese Ge=mälde auf Verlagskosten photographieren lasse?</seg> 
-                        <seg n="g46">? Ich erwarte hier-zu Ihren Bescheid.</seg>
-                    </p>
+                    <salute><seg n="g04">Sehr geehrter <persName key="">Herr Schumann</persName>!,</seg></salute>
+                        <p><seg n="g05">Ich bestätige den Eingang Ihres Schreibens vom <date when="1932-01-08">18.1</date>. nebst Vertrag mit Ihrer Unterschrift. Besten Dank.</seg></p> 
+                        <p><seg n="g06">Vorweg muss ich zu dem letzten Passus Ihres Schreibens Stellung nehmen. Mit Ihrer Auslegung der Frage der Vorauszahlung bin ich nicht einverstanden. Sie steht im Widerspruch mit Ihrem Schre ben vom <date when="1931-12-28">28. Dezember</date>, der Voraussetzung für unsern Abschluss war. Sie wehrten sich darin gegen die mir zugetragene Behauptung, kei-ne Vorauszahlung zu leisten. Sie schreiben mir wörtlich am <date when="1931-12-28">28.12</date>. "Ich gebe hiermit die Erklärung ab, dass ich noch niemals die deutschen Rechte eines fremdsprachigen Buches erworben habe, ohne bei Vertragsabschluss eine angemessene Vorauszahlung zu leisten." Der Vertrag zwischen uns ist abgeschlossen. Das Ihnen vorliegende Manuskript ist druckreif. Kürzungen, die vorgenommen werden sol-len, spielen dabei keine Rolle. Auch ist ja überhaupt noch nicht von Ihnen meine Frage, ob Kürzungen überhaupt vorgenommen werden sollen, beantwortet worden, obgleich ich bereits zweimal danach gefragt habe.- Vertragsmässig, und ich muss unbedingt auf genau-este Einhaltung des Vertrages bestehen, ist die Vorauszahlung also seit <date when="1932-01-07">7.1.32</date>. bereits überfällig. Ergänzungen, die ich für das Schlusskapitel liefern werde, spielen auch dabei nicht die min-deste Rolle. Ich habe Ihnen gesagt, dass ich nur unter der Voraus-setzung abschliessen könnte, dass bei Vertragsabschluss die Vor=auszahlung sofort angewiesen würde.-Es spielt dabei auch keine grosse Rolle, ob das Buch nun 6 M. oder 8 M. kosten wird. <hi rend="underline">Weniger als 6 M. wird es nicht kosten können. So wären also mindestens 900 Mark seit</hi> <date when="1932-01-07">7.1.</date>fällig. Ich bitte Sie, diesen Betrag also anzu-weisen. Ich habe Ihr Wort mit Ihrem Schreiben vom <date when="1931-12-28">28.12.</date>bekommen, dass diese Vorauszahlung Ihrerseits geschehen würde.-Nun warte ich auf die Erfüllung dieser klipp und klar getroffenen Ver=einbarung.-</seg></p>
+                    <p><seg n="g07">Soll gestrichen werden, so müssen Sie mir jetzt erst einmal sagen <hi rend="emphasis">was</hi>.-Wie ich Ihnen schrieb, scheint es mir ratsam, in den ersten zwei Kapiteln einiges zu streichen- Mehr aber auch nicht,- Dies geschieht sofort nach Ihrer Vorauszahlung. Ich erwarte Ihre Nach-richt.-</seg></p>
+                    <p><seg n="g08">Dann werde ich auch im Epilog die dort bereits zusammengefassten Briefstellen ergänzen. Ebenso werde ich dann die mir ausgeliefer-ten Briefe verarbeiten.</seg></p>
+                    <p><seg n="g09">Mehr Bilder kann ich nur liefern, wenn ich Fotos von hier befind-lichen Bildern nehmen lassen kann. Dies wird pro Stück 5 Mark kosten. Die Bild<subst><del type="overtype">l</del><add place="inline" type="overtype" rend="blueInk">a</add></subst>bteilung von "Berlingske Tidende" wird dieses dan-<!--aa 21 June the dash right after the n is meant to be written above it and I'm not sure what code to use to depict that--> in die Wege leiten.- Die Kosten für diese Fotos müssten Sie na-türlich tragen. Ich bitte um Ihre Auftragserteilung. Ist Ihnen der <hi rend="underline">Preis</hi> Preis zu hoch, so will ich versuchen, hier herunterzuhandeln. Dan<!--the n that comes right after this comment is cutoff in the facsimlie image and I'm not sure how to encode it-->n bitte ich um Nennung eines Stückpreises. Fotos von Gemälden müs-sen ja sehr sorgsam gemacht werden. Sie selber sagen ja auch, da<!--the 2 S's after this comment are cutoff in the facsimlie image and I'm not sure how to code it-->ss die Bilder in trefflichster Wiedergabe ausgeführt sein müssen.</seg></p>
+                    <p><seg n="g10">Ich werde mich heute übrigens mit dem "<placeName key="institutePsychiatry">Institut für Sexualwissenschaft</placeName>"<placeName key="berlin">Berlin</placeName> NW, In den Zelten 10, in Verbindung setzen. Dort sollen sich auch einige Bilder von <persName key="wegenerE">Einar Wegener</persName> befinden. Ob si<!-- the letter e here after this comment is cutoff and I'm not sure of the encoding to use-->e sich für eine Wiedergabe eignen, weiss ich leider nicht. Sie er-halten von mir sehr bald weiteren Bescheid.</seg></p> 
+                    <p><seg n="g11">Im übrigen teile ich Ihre Gründe begl. des Erscheinungstermins.-Sie sehen, ich gebe mir die grösste Mühe, Ihnen in allen Stücken behilflich zu sein. Nun aber bitte ich Sie auch, vertragstreu mir die, wie gesagt, längst verfallene Anzahlung zu machen.</seg></p>
+                    <p><seg n="g12">Die dänisch-sprachigen Anlagen werden frühzeitig für Ihre Zwecke 
+                            übersetzt werden.</seg></p>
+                    <p><seg n="g13">Hier finden sich an die 20 Gemälde, die für Ihre Zwecke in Fra=ge kommen. Sind Sie also damit einverstanden, dass ich diese Ge=mälde auf Verlagskosten photographieren lasse? Ich erwarte hier-zu Ihren Bescheid.</seg></p>
                     <closer>
-                        <salute><seg n="g47">Mit den besten Grüssen</seg>
-                            <seg n="48">Jhr ergebenster</seg>
-                            <signed><persName key="lili">Lili Elbe</persName></signed>
+                        <salute><seg n="g14">Mit den besten Grüssen</seg></salute>
+                        <salute><seg n="g15">Jhr ergebenster</seg></salute>
                     </closer>
                 </div>
                 </div>
                 <div type="translation">
-                    <p><subst>
+                    <div rend="head">
+                    <p><seg corresp="#g01"><placeName key="copenhagen">COPENHAGEN</placeName></seg></p> 
+                    <p><seg corresp="#g02"><date when="1932-01-21">21st January 1932</date></seg></p> 
+                    <p><seg corresp="#g03"><persName key="reissnerCarl">Carl Reissner</persName>/Publisher</seg></p> 
+                        <p><hi rend="underline"><placeName key="dresden">Dresden</placeName></hi> N.</p> 
+                        <p>Königstrasse 13</p>
+                        <subst><!-- aa 9 June I'm not sure where this addition came from since I don't see it in the word document or the facsimlie image-->
                         <del type="strikethrough">Attachment 5</del>
                         <add place="above" type="overwrite" rend="redCrayon">my Letter</add>
-                    </subst></p>
-                    <seg corresp="#g01">the <date when="1932-01-32">21st January 1932
-                        1932</date>.</seg>
-                        </p>
-                </div>
+                    </subst>
+                    </div>
                 <div rend="body">
                     <salute>
-                        <seg corresp="#g02">Dear Mr. Schumann,</seg>
+                        <seg corresp="#g04">Dear <persName key="">Mr. Schumann</persName>!</seg>
                     </salute>
-                    <p><seg corresp="#g03">I am confirming that I received your letter from the 1/18, along with the contract with your signature. Thank you very much. .</seg>
-                        <seg corresp="#g04">First off, I need to take a stance on the last passage of your letter.</seg>
-                        <seg corresp="#g05">I do not agree with your interpretation of the question about the advance payment. .</seg>
-                        <seg corresp="#g06">It contradicts what you wrote on the 28th December, which was the requirement for our transaction.</seg>
-                        <seg corresp="#g07">In the letter, you defended yourself against my accusations
-                            that you had not completed the advance payment.</seg>
-                        <seg corresp="#g08">On 12/28 you wrote to me verbatim: "I hereby declare, that I have never gained the German rights to a foreign book, 
-                            without having given an advance payment when the contract was concluded.".</seg>
-                        <seg corresp="#g09">The contract between us has been concluded.</seg>
-                        <seg corresp="#g10">The manuscript that you have is ready to be printed</seg>
-                        <seg corresp="g11">Any cuts that still need to be made are not important.</seg> 
-                        <seg corresp="g12">You haven't even answered my question about whether any cuts need to be made,
-                            even though I have asked you twice already</seg>
-                    </p>
-                    <p>
-                        <seg corresp="#g13">According to the contract, and I have to insist on adhering to the contract exactly,
-                            the advance payment has been past due since the 1/7/32 </seg>
-                        <seg corresp="#g14">Any additions, that I will have for the final chapter, do not matter here. I told you that I could only finalize everything if I received the 
-                            advance payment when we concluded the contract..</seg>
-                        
-                    </p>
-                    <p>
-                        <seg corresp="#g15">It does not matter if the book ends up costing 6 M. or 8 M.. It cannot cost less than 6M. </seg>
-                        <seg corresp="#g16">Therefore, at least 900 Mark would have been due since the 1/7 </seg>
-                        <seg corresp="#g17">I am asking you to transfer this amount. </seg>
-                        <seg corresp="#g18">I received your promise in your letter from the 12/28, 
-                            that this advance payment would be coming from you.
-                            <seg corresp="#g19">Now I am waiting for the completion of this agreement, which was very clear </seg>
-                    </p>
-                    <p>
-                        <seg corresp="#g20">If any cuts need to be made, 
-                            then you need to tell me w h a t . </seg>
-                        <seg corresp="#g21">Like I've written to you before,
-                            it seems advisable to me to only make cuts in the first two chapters. </seg>
-                        <seg corresp="#g22">But not more than this,-This will happen immediately after your advance payment. </seg>
-                        <seg corresp="#g23">I am awaiting your reply. </seg>
-                        <seg corresp="#g24">Then I will also complete the summary
-                            of the letters that are in the epilogue. </seg>
-                        <seg corresp="#g25">I will also edit the letters that were sent to me. </seg> 
-                    </p>
-                    <p>
-                        <seg corresp="#g26">I can only send more pictures if I can have photographs taken of the paintings that I have here. </seg>
-                        <seg corresp="#g27">This will cost 5 Mark a piece</seg>
-                        <seg corresp="#g28">The photography section of "Berlingske Tidende" will 
-                            be responsible for this.</seg>
-                        <seg corresp="#g29">Naturally, you will have to cover the cost
-                            of these photographs</seg>
-                        <seg corresp="#g30">I kindly ask for your order placement.</seg>
-                        <seg corresp="#g31">If the price is too high for you, I can try to lower it.</seg>
-                        <seg corresp="#g32">If this is the case, I would ask for you to suggest a price.</seg>
-                        <seg corresp="#g33">Photographs of paintings have to be made very carefully. </seg>
-                        <seg corresp="#g34">You said yourself 
-                            that the paintings have to be returned in perfect condition.</seg>
-                        <seg corresp="#g35">I am going to contact the "Institute of Sexual Science" Berlin NW, in the tents 10. </seg>
-                        <seg corresp="#g36">More of Einar Wegener's paintings should be located there</seg>
-                        <seg corresp="#g37">I am not sure if they are fit for replication.</seg>
-                        <seg corresp="#g38">You will receive more information from me very shortly.</seg>
-                        <seg corresp="#g39">Furthermore, we share the same reasons regarding the publication date.</seg>
-                        <seg corresp="#g40">As you can see, I am doing my best to be as helpful to you as I can.</seg>
-                        <seg corresp="#g41">Now I ask that you follow the contract and make the past due advance payment.</seg>
-                        <seg corresp="#g42">The Danish documents will be translated for your use promptly.</seg>
-                    </p>
-                    <p>
-                        <seg corresp="#g43">There are about 20 paintings here that could be useful to you. </seg>
-                        <seg corresp="#g44">Do you give me permission to have the paintings photographed?</seg>
-                        <seg corresp="#g45">I am awaiting your reply to this</seg>
-                    </p>
+                    <p><seg corresp="#g05">I am confirming that I received your letter from the <date when="1932-01-08">1/18</date>, along with the contract with your signature. Thank you very much.</seg></p>
+                        <p><seg corresp="#g06">First off, I need to take a stance on the last passage of your letter. I do not agree with your interpretation of the question about the advance payment. It contradicts what you wrote on the <date when="1931-12-28">28th December</date>, which was the requirement for our transaction. In the letter, you defended yourself against my accusations that you had not completed the advance payment. On <date when="1931-12-28">12/28</date> you wrote to me verbatim: "I hereby declare, that I have never gained the German rights to a foreign book, 
+                            without having given an advance payment when the contract was concluded." The contract between us has been concluded. The manuscript that you have is ready to be printed. Any cuts that still need to be made are not important.</seg></p> 
+                        <p><seg corresp="g06">You haven't even answered my question about whether any cuts need to be made, even though I have asked you twice already.-</seg></p>
+                    <p><seg corresp="#g06">According to the contract, and I have to insist on adhering to the contract exactly, the advance payment has been past due since the <date when="1932-01-07">1/7/32</date> Any additions, that I will have for the final chapter, do not matter here. I told you that I could only finalize everything if I received the 
+                            advance payment when we concluded the contract.-</seg></p>
+                    <p><seg corresp="#g06">It does not matter if the book ends up costing 6 M. or 8 M.. It cannot cost less than 6M.. Therefore, at least 900 Mark would have been due since the <date when="1932-01-07">1/7</date> I am asking you to transfer this amount. I received your promise in your letter from the <date when="1931-12-28">12/28</date>, 
+                            that this advance payment would be coming from you.-
+                            Now I am waiting for the completion of this agreement, which was very clear </seg></p>
+                    <p><seg corresp="#g07">If any cuts need to be made, 
+                            then you need to tell me <hi rend="emphasis">what</hi>.- Like I've written to you before,
+                            it seems advisable to me to only make cuts in the first two chapters.- But not more than this,-This will happen immediately after your advance payment. I am awaiting your reply.-</seg></p>
+                    <p><seg corresp="#g08">Then I will also complete the summary
+                            of the letters that are in the epilogue. I will also edit the letters that were sent to me.</seg></p>
+                    <p><seg corresp="#g09">I can only send more pictures if I can have photographs taken of the paintings that I have here. This will cost 5 Mark a piece. The photography section of "Berlingske Tidende" will be responsible for this.- Naturally, you will have to cover the cost
+                            of these photographs. I kindly ask for your order placement. If the price is too high for you, I can try to lower it. If this is the case, I would ask for you to suggest a price. Photographs of paintings have to be made very carefully. You said yourself 
+                            that the paintings have to be returned in perfect condition.</seg></p>
+                    <p><seg corresp="#g10">I am going to contact the "<placeName key="institutePsychiatry">Institute of Sexual Science</placeName>" <placeName key="berlin">Berlin</placeName> <anchor type="commentRangeStart" n="1"/>NW<note type="translator" source="twj"  corresp="comment_1">As far as I know, this is supposed to mean the “north west” side of Berlin. I wasn’t sure how to write that in English so I kept it the same.</note>, in the tents 10.</seg></p>
+                        <p><seg corresp="#g10">More of <persName key="wegenerE">Einar Wegener's</persName> paintings should be located there. I am not sure if they are fit for replication.</seg></p>
+                        <p><seg corresp="#g10">You will receive more information from me very shortly.</seg></p>
+                        <p><seg corresp="#g11">Furthermore, we share the same reasons regarding the publication date. As you can see, I am doing my best to be as helpful to you as I can. Now I ask that you follow the contract and make the past due advance payment.</seg></p>
+                        <p><seg corresp="#g12">The Danish documents will be translated for your use promptly.</seg></p>
+                    <p><seg corresp="#g13">There are about 20 paintings here that could be useful to you. Do you give me permission to have the paintings photographed? I am awaiting your reply to this</seg></p>
                     <closer>
-                        <seg corresp="#g46"> Kind regards </seg>
-                        <seg corresp="#g14">Yours sincerely.</seg>
-                        <persName>Lilimoe</persName> and his brother.</seg>
-                        <signed><persName key="lili">Lili Elbe</persName></signed>
+                        <seg corresp="#g14"> Kind regards </seg>
+                        <seg corresp="#g15">Yours sincerely.</seg>
+                        <!--aa 9 June I don't see this in the translation or in the facsimile image so I'm not sure where this name came from--><seg><persName>Lilimoe</persName> and his brother.</seg>
+                        <!--I also don't see this anywhere--><signed><persName key="lili">Lili Elbe</persName></signed>
                     </closer>
                 </div>
                 </div>
