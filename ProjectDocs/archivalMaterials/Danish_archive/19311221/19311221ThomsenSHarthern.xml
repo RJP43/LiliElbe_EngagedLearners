@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-   <?xml-model href="../../../../lili-elbe-code/schema/tei_le_2.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -32,47 +32,44 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letterOG">
-            <div type="opener">
-               <p>Østerbrogade 93III
-                 <seg n="d01">København Ø.</seg>
-                <seg n="d02">21.12.1931</seg>
-               </p>
+         <div type="original">
+            <div rend="head">
+               <p>Østerbrogade 93III</p>
+                 <p>København Ø.</p>
+                <p>">21.12.1931</p>
             </div>
-            <div type="body">
-               <p style="salutation">Kære Red.<note type="editor" source="kj mb">Redaktør, or Editor in English.</note> <persName key="harthernE">Harthern</persName>!</p>
-               <p><seg n="d03">Jeg sender dem<note type="editor" source="kj mb">Throughout the letter, Sigurd is using de, dem, and deres as the formal “you,” but they should actually be capitalized.</note> herned det jeg
+            <div rend="body">
+               <salute><seg n="d03">Kære Red.<note type="editor" source="kj mb">Redaktør, or Editor in English.</note> <persName key="harthernE">Harthern</persName>!</seg></salute>
+               <p><seg n="d04">Jeg sender dem<note type="editor" source="kj mb">Throughout the letter, Sigurd is using de, dem, and deres as the formal “you,” but they should actually be capitalized.</note> herned det jeg
                   lovede dem .  .</seg>
                </p>
-               <p><seg>Den lille ”gule” vil jeg sætte pris på at
+               <p><seg n="d04">Den lille ”gule” vil jeg sætte pris på at
                få returneret ved lejlighed.</seg></p>
-               <p><seg>Er der  noget de ikke kan forstå – eller
+               <p><seg n="d05">Er der  noget de ikke kan forstå – eller
                ønsker nærmere oplyst, vil jeg gerne hjælpe dem
                med det. -  Min adresse bliver fra 22/12 – 1931
                til 2/1-3/1  1932  -</seg></p>
-               <p><seg>c/o Købmand Holger Kelstrup R.a.Db.</seg>
+               <p><seg n="d06">c/o Købmand Holger Kelstrup R.a.Db.</seg>
                ”Borggården”
                Kolding</p>
-               <p><seg>Jeg ønsker dem og deres familie en glædelig
+               <p><seg n="d07">Jeg ønsker dem og deres familie en glædelig
                jul og et godt nytår, - - og håber de kan have lidt
                fornøjelse af det tilsendte  - -  der er jo ikke noget
                særligt.  –</seg></p>
-
+            <closer>
+               <salute><seg n="d08">Deres hengivne</seg></salute>
+                  <signed><persName key="wegenerS">Sigurd Thomsen</persName></signed>
+            </closer>
             </div>
-            <div type="closer">
-               <p style="valediction"><seg n="">Deres hengivne</seg></p>
-                  <p><persName key="wegenerS">Sigurd Thomsen</persName></p>
-            </div>
-            <div type="postscript"/>
          </div>
-         <div type="letterTranslate">
-            <div type="opener">
+         <div type="translation">
+            <div rend="head">
                <p>Thomsen</p>
                <p>Gentoftegade 14. Gentofte Tlf. Gentofte 144 </p>
             </div>
-            <div type="body">
-               <p style="salutation">Hr. <persName key="hoyerNiels">Niels Hoyer</persName> Havnegade
-                  47 København</p>
+            <div rend="body">
+               <salute>Hr. <persName key="hoyerNiels">Niels Hoyer</persName> Havnegade
+                  47 København</salute>
                <p><seg corresp="#d01">As agreed with <persName key="lili">Mrs. Lili
                         Elvenes</persName> I hereby send you a picture (which I would like you to
                         <hi rend="underline">return</hi> as it is the only one I own) of my
@@ -82,13 +79,12 @@
                      sending any transcript of the manuscript to <placeName key="germany"
                         >Germany</placeName> – my telephone number after 6:30 is Gentofte 144, and
                      during the day it is : Central 4726.</seg></p>
-            </div>
-            <div type="closer">
-               <p style=" valediction"><seg corresp="#d03">With much respect</seg>
-                  <hi rend="underline"><persName key="thomsenTC">TC Thomsen</persName></hi>
-                  <seg corresp="#d04"><hi rend="underline">Engineer</hi></seg></p> <!-- tnm 10/19/2018: where did this line come from? I don't see it in translator's .docx or original image -->
-            </div>
-            <div type="postscript"/>
+            <closer>
+               <salute><seg corresp="#d03">With much respect</seg></salute>
+                  <signed><hi rend="underline"><persName key="thomsenTC">TC Thomsen</persName></hi>
+                  <seg corresp="#d04"><hi rend="underline">Engineer</hi></seg><!-- tnm 10/19/2018: where did this line come from? I don't see it in translator's .docx or original image --></signed>
+            </closer>
+         </div>
          </div>
       </body>
    </text>
