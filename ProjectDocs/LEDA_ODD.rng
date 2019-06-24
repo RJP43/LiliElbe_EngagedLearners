@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-06-18T23:19:34Z. .
+Schema generated from ODD source 2019-06-24T15:57:36Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -4808,6 +4808,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>arns</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Professor Arns, Arns,
                               Professor Arno | Note: Historical figure not identified) </a:documentation>
+                  <value>bach</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Bach) </a:documentation>
                   <value>botticelli</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Sandro Botticelli,
                               Botticelli) </a:documentation>
@@ -4841,10 +4843,12 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Casanova) </a:documentation>
                   <value>theCripple</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): the cripple, red-haired
-                              cripple) </a:documentation>
+                              cripple, rothaarigen Krüppel, Krüppel, Rothaarige, [der]
+                              Buckel) </a:documentation>
                   <value>countT</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Colonel de T., Count de
-                              T. | Note: Mentioned in Allatini's memoir) </a:documentation>
+                              T. | Note: Mentioned in Allatini's memoir. | Linked Keys:
+                              #trempe) </a:documentation>
                   <value>cousin</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): cousin, fætter, vetter |
                               Note: Andreas Sparre's unnamed cousin in narrative; historical figure
@@ -4867,8 +4871,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               | Note: Grete Sparre's second-husband in narrative | Linked Keys:
                               #portaF) </a:documentation>
                   <value>flavio</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Signora Favio, Favio |
-                              Note: Historical figure not identified) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Flavio, Favio | Note:
+                              Historical figure not identified.) </a:documentation>
                   <value>francois</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Monsieur François,
                               François | Note: Not mentioned in G1) </a:documentation>
@@ -4883,7 +4887,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Professor Gebhard, Overlægen, senior physician, Oberarzt | Linked
                               Keys: #gohrbandt) </a:documentation>
                   <value>germanFriend</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Niels Hoyer | Note:
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): German friend | Note:
                               Modeled on Niels Hoyer. | Linked Keys: #hoyerNiels #harthernE) </a:documentation>
                   <value>goethe</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Goethe | Note: German
@@ -4895,6 +4899,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Madame Gottlieb, Mrs.
                               Gottlieb | Note: Einar Wegener's mother-in-law and Gerda Wegener's
                               mother) </a:documentation>
+                  <value>gottliebMr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Pastor Gottlieb, Mr.
+                              Gottlieb, Pasteur Gotlieb, Pasteur Gottlieb | Note: Einar Wegener's
+                              father-in-law and Gerda Wegener's father.) </a:documentation>
                   <value>guyot</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Ch. Gyuot, Charles
                               Guyot) </a:documentation>
@@ -4960,8 +4968,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Lili's friend; mentioned in Danish letters, but identity is
                               unknown) </a:documentation>
                   <value>king</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): the King, Kongen, König
-                              | Note: Ruled Denmark from 1912 to 1947) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): the King, Kongen, König
+                              | Note: Modeled on Christian X, who ruled Denmark from 1912 to
+                              1947.) </a:documentation>
                   <value>knudsenP</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Poul Knudsen | Note:
                               Husband of Vibeke Knudsen | Linked Keys: #hvideNiels) </a:documentation>
@@ -5115,6 +5124,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>schumannE</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Elisabeth Schumann |
                               Note: German opera singer) </a:documentation>
+                  <value>signoraFlavio</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Signora Flavio, Signora
+                              Favio | Note: Historical figure not identified.) </a:documentation>
                   <value>sister</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): sister, søster,
                               schwester | Note: Andreas Sparre's sister in narrative; modeled on
@@ -5236,6 +5248,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               arts, Kunstakademie, Akademie | Note: The Royal Danish Academy of Fine
                               Arts (Det Kongelige Danske Kunstakademi) in Copenhagen,
                               Denmark.) </a:documentation>
+                  <value>africa</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Afrique, Africa) </a:documentation>
                   <value>aix</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Aix) </a:documentation>
                   <value>alexandria</value>
@@ -5430,7 +5444,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Assumed fictional place mentioned in narrative; historical place not
                               identified, but Morgano is a marina in Capri) </a:documentation>
                   <value>morocco</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Morocco) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Morocco, Marco) </a:documentation>
                   <value>naples</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Naples, Neapel | Note: City in Italy) </a:documentation>
                   <value>neustadt</value>
@@ -5462,7 +5476,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Emmanuele) </a:documentation>
                   <value>pompeii</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Pompeii | Note: An ancient Roman city near
-                              modern Naples in the Campania region of Italy) </a:documentation>
+                              modern Naples in the Campania region of Italy.) </a:documentation>
                   <value>potsdamerPla</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Potsdamer Platz) </a:documentation>
                   <value>quartierStgermain</value>
@@ -5473,6 +5487,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>reservoirs</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): rue des Réservoirs | Note: Paris
                               street) </a:documentation>
+                  <value>romanischesCafe</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Romanisches Café) </a:documentation>
                   <value>rome</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Rome, Rom | Note: City in Italy) </a:documentation>
                   <value>rothenburg</value>
@@ -5491,6 +5507,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>seineBanks</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): banks of the Seine, Seinebredder,
                               Seineufer) </a:documentation>
+                  <value>seville</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Seville) </a:documentation>
                   <value>spain</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Spain, Spanien | Note: Country in
                               Europe) </a:documentation>

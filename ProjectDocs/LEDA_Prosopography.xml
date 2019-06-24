@@ -586,6 +586,10 @@
                <placeName source="#G1">Seineufer</placeName>
                <note/>
             </place>
+            <place xml:id="seville">
+               <placeName>Seville</placeName>
+               <note/>
+            </place>
             <place xml:id="spain">
                <placeName source="#A1 #TR">Spain</placeName>
                <placeName source="#D1 #G1">Spanien</placeName>
@@ -738,6 +742,10 @@
                <persName source="#D1">Professor Arno</persName>
                <note>Historical figure not identified</note>
             </person>
+            <person xml:id="bach" source="historical">
+               <persName>Bach</persName>
+               <note/>
+            </person>
             <person xml:id="botticelli" source="historical">
                <persName>Sandro Botticelli</persName>
                <persName source="#A1 #D1 #TR">Botticelli</persName>
@@ -800,6 +808,10 @@
             <person xml:id="theCripple" source="fictional">
                <persName>the cripple</persName>
                <persName>red-haired cripple</persName>
+               <persName source="#G1">rothaarigen Krüppel</persName>
+               <persName source="#G1">Krüppel</persName>
+               <persName source="#G1">Rothaarige</persName>
+               <persName source="#G1">[der] Buckel</persName>
                <note/>
                <!-- need note from Pamela-->
             </person>
@@ -875,7 +887,7 @@
                <note/>
             </person>
             <person xml:id="germanFriend" source="historical" synch="#hoyerNiels #harthernE">
-               <persName>Niels Hoyer</persName>
+               <persName>German friend</persName>
                <note>Modeled on <persName key="hoyerNiels">Niels Hoyer</persName>.</note>
             </person>
             <person xml:id="goethe" source="fictional">
