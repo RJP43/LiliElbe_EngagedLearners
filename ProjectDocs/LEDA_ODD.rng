@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-06-24T15:57:36Z. .
+Schema generated from ODD source 2019-07-03T02:29:32Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -2711,6 +2711,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>overtype</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>transposition</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
          </attribute>
          <empty/>
@@ -4870,7 +4872,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Ridolfo Feruzzi, Feruzzi
                               | Note: Grete Sparre's second-husband in narrative | Linked Keys:
                               #portaF) </a:documentation>
-                  <value>flavio</value>
+                  <value>favio</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Flavio, Favio | Note:
                               Historical figure not identified.) </a:documentation>
                   <value>francois</value>
@@ -4951,7 +4953,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               used for Niels Hvide in the narrative | Linked Keys: #knudsenP) </a:documentation>
                   <value>jager</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Hans Henrik Jæger, Hans
-                              Jager | Note: Not mentioned in D1 and TR; Norweigan writer and
+                              Jager | Note: Not mentioned in D1 and D1-TR; Norweigan writer and
                               activist) </a:documentation>
                   <value>jean</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Jean | Note: Factotum of
@@ -4990,15 +4992,17 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               #prevostClaude) </a:documentation>
                   <value>lili</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional historical | Identified Name(s): Lili, Lili
-                              Elbe, Lili Ilse Elvenes, Lili Courtaud, Lili Courtot, Baronne le
-                              Courtaut, Mrs. Lili, Frøken Wegener, Lily Wegener, Lily, Frk. Wegener,
-                              Frk. Lily Wegener, Miss Wegener, Miss Lily Wegener | Note: Unable to
-                              verify that Lili Elbe used the pseudonym Lili Courtaud outside of its
-                              use in the narrative | Linked Keys: #sparreAn #wegenerE) </a:documentation>
+                              Elbe, Lili Ilse Elvenes, Lili Courtaud, Lili Courtot, Julie Stuart,
+                              Julie Humbert, Baronne le Courtaut, Mrs. Lili, Frøken Wegener, Lily
+                              Wegener, Lily, Frk. Wegener, Frk. Lily Wegener, Miss Wegener, Miss
+                              Lily Wegener | Note: Our project editors have been unable to verify
+                              that Lili Elbe used the pseudonym Lili Courtaud outside of its use in
+                              the narrative. | Linked Keys: #sparreAn #wegenerE) </a:documentation>
+                  <value>louisXiv</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Louis XIV) </a:documentation>
                   <value>louLou</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): a friend who was on the
-                              staff of a leading Copenhagen newspaper, Loulou Lassen | Note: Danish
-                              journalist) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Loulou Lassen | Note:
+                              Danish journalist) </a:documentation>
                   <value>madameB</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Madame de B. | Note:
                               Mentioned in Allatini's memoir) </a:documentation>
@@ -5066,6 +5070,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Søster Marianne, Sister
                               Marianne | Note: Not mentioned in A1 or G1; Historical figure not
                               identified) </a:documentation>
+                  <value>orvieto</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: | Identified Name(s): Orvieto) </a:documentation>
                   <value>pan</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Pan | Note: Not
                               mentioned in G1) </a:documentation>
@@ -5121,10 +5127,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>schildtBar</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Baronin Schildt | Note:
                               Modeled on Anne-Marie Goldschmidt-Rothschild) </a:documentation>
-                  <value>schumannE</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Elisabeth Schumann |
-                              Note: German opera singer) </a:documentation>
-                  <value>signoraFlavio</value>
+                  <value>schubert</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Schubert | Note: German
+                              composer) </a:documentation>
+                  <value>signoraFavio</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Signora Flavio, Signora
                               Favio | Note: Historical figure not identified.) </a:documentation>
                   <value>sister</value>
@@ -5150,9 +5156,6 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>stenningHJ</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): H.J. Stenning | Note:
                               A1 translator from German.) </a:documentation>
-                  <value>stuart</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Julie Stuart, Julie
-                              Humbert | Note: Historical figure not identified) </a:documentation>
                   <value>tacitus</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Tacitus) </a:documentation>
                   <value>tb</value>
@@ -5256,6 +5259,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Alexandria) </a:documentation>
                   <value>alps</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): the Alps, Alperne, Alpen) </a:documentation>
+                  <value>anhalterStation</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Berlin’s Anhalter Bahnhof, the Berlin station,
+                              Anhalter Bahnhof, Anhalter railway station,
+                              Anhalterbanegaarden) </a:documentation>
                   <value>antwerp</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Antwerp) </a:documentation>
                   <value>america</value>
@@ -5294,6 +5301,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Cathedral in Seville, Cathedral of Seville,
                               Katedralen i Sevilla, Kathedrale in Sevilla | Note: Likely the
                               Catedral de Santa María de la Sede) </a:documentation>
+                  <value>cairo</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Kairo | Note: Capital of Egypt.) </a:documentation>
                   <value>chambord</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Chambord | Note: City in France) </a:documentation>
                   <value>champs</value>
@@ -5307,6 +5316,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>cologne</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Cologne, Køln, Köln | Note: City in
                               Germany) </a:documentation>
+                  <value>danishEmbassy</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Danish Embassy) </a:documentation>
                   <value>denmark</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Denmark, Danmark, Dänemark | Note: Country in
                               Europe) </a:documentation>
@@ -5332,6 +5343,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>elbeRiver</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Elbe, Elben, Elbestrome | Note: River in
                               Europe) </a:documentation>
+                  <value>england</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): England) </a:documentation>
                   <value>erzgebirge</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Erzgebirge | Note: Mountain range in
                               Germany) </a:documentation>
@@ -5359,10 +5372,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               at Augsburger Str. 63 in Berlin) </a:documentation>
                   <value>gedser</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Gedser | Note: Only mentioned in D1 and
-                              TR) </a:documentation>
+                              D1-TR) </a:documentation>
                   <value>gentofter</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Gentofter Lake, Gentofter See | Note: Not
-                              mentioned in D1 and TR) </a:documentation>
+                              mentioned in D1 and D1-TR) </a:documentation>
                   <value>germany</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Germany, Tyskland, Allemagne, Deutschland |
                               Note: Country in Europe) </a:documentation>
@@ -5412,6 +5425,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Biochemikers Doktor Karner, Doktor Karners Laboratorium) </a:documentation>
                   <value>lAlmaPlace</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Place de l'Alma | Note: Paris street) </a:documentation>
+                  <value>lapi</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Lapi) </a:documentation>
                   <value>leipzigerstrasse</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Leipziger Strasse, Leipzigerstrassev,
                               Leipzigerstrasse, Leipziger Straße, Leipzig | Note: In Berlin,
@@ -5456,6 +5471,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Øresund, Öresund) </a:documentation>
                   <value>palazzoChigi</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Palazzo Chigi) </a:documentation>
+                  <value>palmaVecchio</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Palma Vecchio) </a:documentation>
                   <value>paris</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Paris | Note: City in France) </a:documentation>
                   <value>pariserplatz</value>
@@ -5497,6 +5514,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Sacré-Coeur, Sacré Cœur) </a:documentation>
                   <value>salonAutomne</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Salon d'Automne) </a:documentation>
+                  <value>thessaloniki</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Thessaloniki) </a:documentation>
                   <value>saxony</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Saxony) </a:documentation>
                   <value>seine</value>
@@ -5516,6 +5535,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Gare du Nord | Note: Train station) </a:documentation>
                   <value>stCroix</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): St. Croix, Saint Croix) </a:documentation>
+                  <value>stGermain</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Saint Germain des Pres, Saint Germain de Pres
+                              | Note: Church in Latin Quartier, Paris.) </a:documentation>
                   <value>stroget</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Strog, Strøget, Strög) </a:documentation>
                   <value>studioLille</value>
@@ -5523,6 +5545,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Gerda's studio location in Paris) </a:documentation>
                   <value>sydney</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Sydney | Note: City in Australia) </a:documentation>
+                  <value>tauentzienstrasse</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Tauentzienstrasse) </a:documentation>
                   <value>theatreRoyal</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): the Royal Theatre, (Det) Kongelige Teater,
                               Königlichen Theater) </a:documentation>
@@ -5542,7 +5566,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Unter den Linden) </a:documentation>
                   <value>vejle</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Veijle, Vejle | Note: Not mentioned in D1 and
-                              TR; Einar Wegener's birthplace) </a:documentation>
+                              D1-TR; Einar Wegener's birthplace) </a:documentation>
                   <value>versailles</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Versailles) </a:documentation>
                   <value>versaillesPark</value>
@@ -5554,6 +5578,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>viennoise</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Boulangerie Viennoise | Note:
                               Restaurant) </a:documentation>
+                  <value>vineta</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Vineta) </a:documentation>
                   <value>warnemunde</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Warnemünde | Note: Not mentioned in A1 or G1;
                               Historical figure not identified) </a:documentation>

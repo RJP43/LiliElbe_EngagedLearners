@@ -33,8 +33,9 @@
                <ref xml:id="B1">British Edition</ref>
                <ref xml:id="G1">German Edition</ref>
                <ref xml:id="D1">Danish Edition</ref>
-               <ref xml:id="TR">English Translation of Danish Edition</ref>
+               <ref xml:id="D1-TR">English Translation of Danish Edition</ref>
                <ref xml:id="TS">German Typescript</ref>
+               <ref xml:id="TS-TR">English Translation of German Typescript</ref>
                <ref xml:id="danishSupp">Danish Language Archive/Supplemental Materials</ref>
                <ref xml:id="germanSupp">German Language Archive/Supplemental Materials</ref>
                <ref xml:id="frenchSupp">Danish Language Archive/Supplemental Materials</ref>
@@ -57,7 +58,7 @@
             <place xml:id="academyArt">
                <placeName source="#A1">Art Academy</placeName>
                <placeName source="#D1">Kunstakademi</placeName>
-               <placeName source="#TR">academy of fine arts</placeName>
+               <placeName source="#D1-TR">academy of fine arts</placeName>
                <placeName source="#G1">Kunstakademie</placeName>
                <placeName source="#G1">Akademie</placeName>
                <note>The Royal Danish Academy of Fine Arts (Det Kongelige Danske Kunstakademi) in
@@ -78,9 +79,17 @@
                <note/>
             </place>
             <place xml:id="alps">
-               <placeName source="#A1 #TR">the Alps</placeName>
+               <placeName source="#A1 #D1-TR">the Alps</placeName>
                <placeName source="#D1">Alperne</placeName>
                <placeName source="#G1">Alpen</placeName>
+               <note/>
+            </place>
+            <place xml:id="anhalterStation">
+               <placeName source="#TS">Berlin’s Anhalter Bahnhof</placeName>
+               <placeName source="#A1 #B1">the Berlin station</placeName>
+               <placeName source="#G1">Anhalter Bahnhof</placeName>
+               <placeName source="#D1-TR">Anhalter railway station</placeName>
+               <placeName source="#D1">Anhalterbanegaarden</placeName>
                <note/>
             </place>
             <place xml:id="antwerp">
@@ -88,7 +97,7 @@
                <note/>
             </place>
             <place xml:id="america">
-               <placeName source="#A1 #TR">America</placeName>
+               <placeName source="#A1 #D1-TR">America</placeName>
                <placeName source="#D1 #G1">Amerika</placeName>
                <note/>
             </place>
@@ -109,11 +118,11 @@
                <note/>
             </place>
             <place xml:id="beaugency">
-               <placeName source="#A1 #TR">Beaugency</placeName>
+               <placeName source="#A1 #D1-TR">Beaugency</placeName>
                <note>City in <placeName key="france">France</placeName>.</note>
             </place>
             <place xml:id="belgium">
-               <placeName source="#A1 #TR">Belgium</placeName>
+               <placeName source="#A1 #D1-TR">Belgium</placeName>
                <placeName source="#D1 #G1">Belgien</placeName>
                <note/>
             </place>
@@ -126,7 +135,7 @@
                <placeName source="#A1">Bernstorff Castle</placeName>
                <placeName source="#D1">Bernstorffs Slotspark</placeName>
                <placeName source="#G1">Schloßpark von Bernstorff</placeName>
-               <placeName source="#TR">Bernstorff Palace</placeName>
+               <placeName source="#D1-TR">Bernstorff Palace</placeName>
                <note/>
             </place>
             <place xml:id="biffi">
@@ -138,9 +147,9 @@
                <note>A region of the <placeName>Czech Republic</placeName></note>
             </place>
             <place xml:id="brandenburg">
-               <placeName source="#A1 #TR">Brandenburg Gate</placeName>
+               <placeName source="#A1 #D1-TR">Brandenburg Gate</placeName>
                <placeName source="#D1">Brandenburger Thors</placeName>
-               <placeName source="#TR">Brandenburg Tor</placeName>
+               <placeName source="#D1-TR">Brandenburg Tor</placeName>
                <placeName source="#G1">Brandenburger Tor</placeName>
                <note/>
             </place>
@@ -153,11 +162,15 @@
                <note>Island in <placeName>Italy</placeName></note>
             </place>
             <place xml:id="cathedralSeville">
-               <placeName source="#A1 #TR">Cathedral in Seville</placeName>
+               <placeName source="#A1 #D1-TR">Cathedral in Seville</placeName>
                <placeName source="#A1">Cathedral of Seville</placeName>
                <placeName source="#D1">Katedralen i Sevilla</placeName>
                <placeName source="#G1">Kathedrale in Sevilla</placeName>
                <note>Likely the Catedral de Santa María de la Sede</note>
+            </place>
+            <place xml:id="cairo">
+               <placeName source="#TS">Kairo</placeName>
+               <note>Capital of <placeName key="egypt">Egypt</placeName>.</note>
             </place>
             <place xml:id="chambord">
                <placeName>Chambord</placeName>
@@ -173,19 +186,23 @@
                   identified</note>
             </place>
             <place xml:id="copenhagen">
-               <placeName source="#A1 #TR">Copenhagen</placeName>
+               <placeName source="#A1 #D1-TR">Copenhagen</placeName>
                <placeName source="#D1">København</placeName>
                <placeName source="#G1">Kopenhagen</placeName>
                <note>City in <placeName key="denmark">Denmark</placeName></note>
             </place>
             <place xml:id="cologne">
-               <placeName source="#A1 #TR">Cologne</placeName>
+               <placeName source="#A1 #D1-TR">Cologne</placeName>
                <placeName source="#D1">Køln</placeName>
                <placeName source="#G1">Köln</placeName>
                <note>City in <placeName key="germany">Germany</placeName></note>
             </place>
+            <place xml:id="danishEmbassy">
+               <placeName>Danish Embassy</placeName>
+               <note/>
+            </place>
             <place xml:id="denmark">
-               <placeName source="#A1 #TR">Denmark</placeName>
+               <placeName source="#A1 #D1-TR">Denmark</placeName>
                <placeName source="#D1">Danmark</placeName>
                <placeName source="#G1">Dänemark</placeName>
                <note>Country in <placeName key="europe">Europe</placeName></note>
@@ -204,7 +221,7 @@
                <note>City in <placeName key="germany">Germany</placeName></note>
             </place>
             <place xml:id="ecoleBeauxarts">
-               <placeName source="#A1 #D1 #TR">École des Beaux-Arts</placeName>
+               <placeName source="#A1 #D1 #D1-TR">École des Beaux-Arts</placeName>
                <placeName source="#G1">Ecole des Beaux Arts</placeName>
                <placeName source="#A1">Paris Academy</placeName>
                <note/>
@@ -214,7 +231,7 @@
                <note/>
             </place>
             <place xml:id="eiffel">
-               <placeName source="#A1 #TR">Eiffel Tower</placeName>
+               <placeName source="#A1 #D1-TR">Eiffel Tower</placeName>
                <placeName source="#D1">Eiffeltaarnet</placeName>
                <placeName source="#G1">Eiffelturm</placeName>
                <note>In <placeName key="paris">Paris</placeName>, <placeName key="france"
@@ -228,10 +245,14 @@
                <note/>
             </place>
             <place xml:id="elbeRiver">
-               <placeName source="#A1 #TR">Elbe</placeName>
+               <placeName source="#A1 #D1-TR">Elbe</placeName>
                <placeName source="#D1">Elben</placeName>
                <placeName source="#G1">Elbestrome</placeName>
                <note>River in <placeName key="eurpoe">Europe</placeName></note>
+            </place>
+            <place xml:id="england">
+               <placeName>England</placeName>
+               <note/>
             </place>
             <place xml:id="erzgebirge">
                <placeName>Erzgebirge</placeName>
@@ -248,7 +269,7 @@
                   identified</note>
             </place>
             <place xml:id="florence">
-               <placeName source="#A1 #TR">Florence</placeName>
+               <placeName source="#A1 #D1-TR">Florence</placeName>
                <placeName source="#D1">Florens</placeName>
                <placeName source="#G1">Florenz</placeName>
                <note>City in <placeName key="italy">Italy</placeName></note>
@@ -258,13 +279,13 @@
                <note>Country in <placeName key="europe">Europe</placeName></note>
             </place>
             <place xml:id="franceNorthern">
-               <placeName source="#A1 #B1 #TR">northern France</placeName>
+               <placeName source="#A1 #B1 #D1-TR">northern France</placeName>
                <placeName source="#G1">Nordfrankreich</placeName>
                <placeName source="#D1">Nordfrankrig</placeName>
                <note>Country in <placeName key="europe">Europe</placeName></note>
             </place>
             <place xml:id="friedrichsstrasse">
-               <placeName source="#A1 #D1 #TR">Friedrichsstrasse</placeName>
+               <placeName source="#A1 #D1 #D1-TR">Friedrichsstrasse</placeName>
                <placeName source="#A1">Friedrichstrasse</placeName>
                <placeName source="#G1">Friedrichstraße</placeName>
                <note>Street in <placeName key="berlin">Berlin</placeName>, <placeName key="germany"
@@ -273,7 +294,7 @@
             <place xml:id="gebhardSanatorium">
                <placeName source="#A1">Prof. Gebhard's Sanatorium</placeName>
                <placeName source="#D1">Dr. Gebhards Klinik</placeName>
-               <placeName source="#TR">Dr. Gebhard's Clinic</placeName>
+               <placeName source="#D1-TR">Dr. Gebhard's Clinic</placeName>
                <placeName source="#G1">Sanatorium von Prof. Gebhard</placeName>
                <placeName source="#danishSupp">Privatklinik</placeName>
                <placeName source="#danishSupp">Klinik</placeName>
@@ -284,31 +305,31 @@
                      <placeName key="berlin">Berlin</placeName></note>
             </place>
             <place xml:id="gedser">
-               <placeName source="#D1 #TR">Gedser</placeName>
-               <note>Only mentioned in <ref source="#D1">D1</ref> and <ref source="#TR"
-                  >TR</ref></note>
+               <placeName source="#D1 #D1-TR">Gedser</placeName>
+               <note>Only mentioned in <ref source="#D1">D1</ref> and <ref source="#D1-TR"
+                  >D1-TR</ref></note>
             </place>
             <place xml:id="gentofter">
                <placeName source="#A1">Gentofter Lake</placeName>
                <placeName source="#G1">Gentofter See</placeName>
-               <note>Not mentioned in <ref source="#D1">D1</ref> and <ref source="#TR"
-                  >TR</ref></note>
+               <note>Not mentioned in <ref source="#D1">D1</ref> and <ref source="#D1-TR"
+                  >D1-TR</ref></note>
             </place>
             <place xml:id="germany">
-               <placeName source="#A1 #TR">Germany</placeName>
+               <placeName source="#A1 #D1-TR">Germany</placeName>
                <placeName source="#D1 #danishSupp">Tyskland</placeName>
                <placeName source="#frenchSupp">Allemagne</placeName>
                <placeName source="#G1">Deutschland</placeName>
                <note>Country in <placeName key="europe">Europe</placeName></note>
             </place>
             <place xml:id="germanySouth">
-               <placeName source="#A1 #TR">Southern Germany</placeName>
+               <placeName source="#A1 #D1-TR">Southern Germany</placeName>
                <placeName source="#D1">Sydtyskland</placeName>
                <placeName source="#G1">Süddeutschland</placeName>
                <note/>
             </place>
             <place xml:id="greece">
-               <placeName source="#A1 #TR">Greece</placeName>
+               <placeName source="#A1 #D1-TR">Greece</placeName>
                <placeName source="#D1">Grækenland</placeName>
                <note>Not mentioned in <ref source="#G1">G1</ref></note>
             </place>
@@ -321,12 +342,12 @@
                <note/>
             </place>
             <place xml:id="hanover">
-               <placeName source="#A1 #TR">Hanover</placeName>
+               <placeName source="#A1 #D1-TR">Hanover</placeName>
                <placeName source="#D1 #G1">Hannover</placeName>
                <note/>
             </place>
             <place xml:id="hindustan">
-               <placeName source="#A1 #D1 #TR">Hindustan</placeName>
+               <placeName source="#A1 #D1 #D1-TR">Hindustan</placeName>
                <note>Not mentioned in <ref source="#G1">G1</ref></note>
             </place>
             <place xml:id="holland">
@@ -339,7 +360,7 @@
                <note/>
             </place>
             <place xml:id="hotelReservoirs">
-               <placeName source="#D1 #TR">Hôtel des Réservoirs</placeName>
+               <placeName source="#D1 #D1-TR">Hôtel des Réservoirs</placeName>
                <placeName source="#A1">Hôtel des Reservoirs</placeName>
                <placeName source="#G1">Hotel des Reservoirs</placeName>
                <note>Luxury hotel on <placeName key="reservoirs">rue des Réservoirs</placeName>,
@@ -352,25 +373,25 @@
                <placeName source="#D1">Institut for Seksualforskning</placeName>
                <placeName source="#G1">Institut für Seelenkunde</placeName>
                <placeName source="#G1">Institut von Dr. Hardenfeld</placeName>
-               <placeName source="#TR">Institute of Sexual Science</placeName>
+               <placeName source="#D1-TR">Institute of Sexual Science</placeName>
                <note>Fictional name in narrative for Institut für Sexualwissenschaft (Institute for
                   Sexual Science) in <placeName key="berlin">Berlin</placeName>, <placeName
                      key="germany">Germany</placeName></note>
             </place>
             <place xml:id="italy">
-               <placeName source="#A1 #TR">Italy</placeName>
+               <placeName source="#A1 #D1-TR">Italy</placeName>
                <placeName source="#D1 #G1">Italien</placeName>
                <note>Country in <placeName key="europe">Europe</placeName></note>
             </place>
             <place xml:id="jutland">
-               <placeName source="#A1 #TR">Jutland</placeName>
+               <placeName source="#A1 #D1-TR">Jutland</placeName>
                <placeName source="#D1">Jylland</placeName>
                <placeName source="#G1">Jütland</placeName>
                <note>In <placeName key="denmark">Denmark</placeName></note>
             </place>
             <place xml:id="jutlandNorth">
                <placeName source="#A1">Nortj Jutland</placeName>
-               <placeName source="#D1 #TR">Vendsyssel</placeName>
+               <placeName source="#D1 #D1-TR">Vendsyssel</placeName>
                <placeName source="#G1">Nordjütland</placeName>
                <note>In <placeName key="denmark">Denmark</placeName></note>
             </place>
@@ -379,7 +400,7 @@
                <note/>
             </place>
             <place xml:id="laboratoriumKar">
-               <placeName source="#A1 #TR"><persName key="karner">Dr. Karner</persName>'s
+               <placeName source="#A1 #D1-TR"><persName key="karner">Dr. Karner</persName>'s
                   laboratory</placeName>
                <placeName source="#D1"><persName key="karner">Doktor Karner</persName>s
                   Laboratorium</placeName>
@@ -394,10 +415,14 @@
                <placeName>Place de l'Alma</placeName>
                <note><placeName>Paris</placeName> street</note>
             </place>
+            <place xml:id="lapi">
+               <placeName source="#TS">Lapi</placeName>
+               <note/>
+            </place>
             <place xml:id="leipzigerstrasse">
                <placeName source="#A1">Leipziger Strasse</placeName>
                <placeName source="#A1">Leipzigerstrassev</placeName>
-               <placeName source="#D1 #TR">Leipzigerstrasse</placeName>
+               <placeName source="#D1 #D1-TR">Leipzigerstrasse</placeName>
                <placeName source="#G1">Leipziger Straße</placeName>
                <placeName source="#G1">Leipzig</placeName>
                <note>In <placeName key="berlin">Berlin</placeName>, <placeName key="germany"
@@ -408,7 +433,7 @@
                <note>In <placeName>Denmark</placeName></note>
             </place>
             <place xml:id="loire">
-               <placeName source="#A1 #G1 #TR">Loire</placeName>
+               <placeName source="#A1 #G1 #D1-TR">Loire</placeName>
                <placeName source="#D1">Loirefloden</placeName>
                <note>River in <placeName key="france">France</placeName></note>
             </place>
@@ -445,7 +470,7 @@
                <note/>
             </place>
             <place xml:id="morgano">
-               <placeName source="#A1 #D1 #TR">Café Morgana</placeName>
+               <placeName source="#A1 #D1 #D1-TR">Café Morgana</placeName>
                <placeName source="#A1">Café Morgano</placeName>
                <placeName source="#G1">Morgano</placeName>
                <note>Assumed fictional place mentioned in narrative; historical place not
@@ -458,7 +483,7 @@
                <note/>
             </place>
             <place xml:id="naples">
-               <placeName source="#A1 #TR">Naples</placeName>
+               <placeName source="#A1 #D1-TR">Naples</placeName>
                <placeName source="#D1 #G1">Neapel</placeName>
                <note>City in <placeName key="italy">Italy</placeName></note>
             </place>
@@ -467,18 +492,22 @@
                <note/>
             </place>
             <place xml:id="norway">
-               <placeName source="#A1 #TR">Norway</placeName>
+               <placeName source="#A1 #D1-TR">Norway</placeName>
                <placeName source="#D1">Norwegen</placeName>
                <placeName source="#G1">Norge</placeName>
                <note>Country in <placeName key="europe">Europe</placeName></note>
             </place>
             <place xml:id="oresund">
-               <placeName source="#A1 #D1 #TR">Øresund</placeName>
+               <placeName source="#A1 #D1 #D1-TR">Øresund</placeName>
                <placeName source="#G1">Öresund</placeName>
                <note/>
             </place>
             <place xml:id="palazzoChigi">
                <placeName>Palazzo Chigi</placeName>
+               <note/>
+            </place>
+            <place xml:id="palmaVecchio">
+               <placeName source="#TS">Palma Vecchio</placeName>
                <note/>
             </place>
             <place xml:id="paris">
@@ -489,7 +518,7 @@
                <placeName source="#A1">Pariser Platz</placeName>
                <placeName source="#D1">Pariserplatz</placeName>
                <placeName source="#G1">Pariser Platz</placeName>
-               <placeName source="#TR">squares of Paris</placeName>
+               <placeName source="#D1-TR">squares of Paris</placeName>
                <note/>
             </place>
             <place xml:id="passy">
@@ -515,7 +544,7 @@
             </place>
             <place xml:id="piazzaVittorio">
                <placeName>Piazza Vittorio Emanuele</placeName>
-               <placeName source="#A1 #D1 #G1 #TR">Piazza Vittorio Emmanuele</placeName>
+               <placeName source="#A1 #D1 #G1 #D1-TR">Piazza Vittorio Emmanuele</placeName>
                <note/>
             </place>
             <place xml:id="pompeii">
@@ -528,14 +557,14 @@
                <note/>
             </place>
             <place xml:id="quartierStgermain">
-               <placeName source="#A1 #G1 #TR">Quartier Saint Germain</placeName>
+               <placeName source="#A1 #G1 #D1-TR">Quartier Saint Germain</placeName>
                <placeName source="#D1 #G1">Quartier Latin</placeName>
                <note/>
             </place>
             <place xml:id="rathausplatz">
                <placeName source="#A1 #G1">Rathausplatz</placeName>
                <placeName source="#D1">Raadhuspladsen</placeName>
-               <placeName source="#TR">Rådhuspladsen</placeName>
+               <placeName source="#D1-TR">Rådhuspladsen</placeName>
                <note>The square in front of the town hall in <placeName key="copenhagen"
                      >Copenhagen</placeName></note>
             </place>
@@ -544,11 +573,11 @@
                <note><placeName>Paris</placeName> street</note>
             </place>
             <place xml:id="romanischesCafe">
-               <placeName source="#TS #D1 #TR">Romanisches Café</placeName>
+               <placeName source="#TS #D1 #D1-TR">Romanisches Café</placeName>
                <note/>
             </place>
             <place xml:id="rome">
-               <placeName source="#A1 #TR">Rome</placeName>
+               <placeName source="#A1 #D1-TR">Rome</placeName>
                <placeName source="#D1 #G1">Rom</placeName>
                <note>City in <placeName key="italy">Italy</placeName></note>
             </place>
@@ -557,12 +586,16 @@
                <note/>
             </place>
             <place xml:id="sacreCoeur">
-               <placeName source="#A1 #D1 #TR">Sacré-Coeur</placeName>
+               <placeName source="#A1 #D1 #D1-TR">Sacré-Coeur</placeName>
                <placeName source="#G1">Sacré Cœur</placeName>
                <note/>
             </place>
             <place xml:id="salonAutomne">
-               <placeName>Salon d'Automne</placeName>
+               <placeName source="#TS">Salon d'Automne</placeName>
+               <note/>
+            </place>
+            <place xml:id="thessaloniki">
+               <placeName source="#TS-TR">Thessaloniki</placeName>
                <note/>
             </place>
             <place xml:id="saxony">
@@ -570,18 +603,18 @@
                <note/>
             </place>
             <place xml:id="seine">
-               <placeName source="#A1 #G1 #TR">Seine</placeName>
+               <placeName source="#A1 #G1 #D1-TR">Seine</placeName>
                <placeName source="#D1">Seinen</placeName>
                <note/>
             </place>
             <place xml:id="seineBridges">
-               <placeName source="#A1 #TR">Seine bridges</placeName>
+               <placeName source="#A1 #D1-TR">Seine bridges</placeName>
                <placeName source="#D1">Seinebroerne</placeName>
                <placeName source="#G1">Brücke über die Seine</placeName>
                <note/>
             </place>
             <place xml:id="seineBanks">
-               <placeName source="#A1 #TR">banks of the Seine</placeName>
+               <placeName source="#A1 #D1-TR">banks of the Seine</placeName>
                <placeName source="#D1">Seinebredder</placeName>
                <placeName source="#G1">Seineufer</placeName>
                <note/>
@@ -591,7 +624,7 @@
                <note/>
             </place>
             <place xml:id="spain">
-               <placeName source="#A1 #TR">Spain</placeName>
+               <placeName source="#A1 #D1-TR">Spain</placeName>
                <placeName source="#D1 #G1">Spanien</placeName>
                <note>Country in <placeName key="europe">Europe</placeName></note>
             </place>
@@ -600,13 +633,18 @@
                <note>Train station</note>
             </place>
             <place xml:id="stCroix">
-               <placeName source="#A1 #D1 #TR">St. Croix</placeName>
+               <placeName source="#A1 #D1 #D1-TR">St. Croix</placeName>
                <placeName source="#G1">Saint Croix</placeName>
                <note/>
             </place>
+            <place xml:id="stGermain">
+               <placeName source="#D1 #D1-TR #TS">Saint Germain des Pres</placeName>
+               <placeName source="#TS">Saint Germain de Pres</placeName>
+               <note>Church in <placeName key="quartierStgermain">Latin Quartier</placeName>, Paris.</note>
+            </place>
             <place xml:id="stroget">
                <placeName source="#A1">Strog</placeName>
-               <placeName source="#D1 #TR">Strøget</placeName>
+               <placeName source="#D1 #D1-TR">Strøget</placeName>
                <placeName source="#G1">Strög</placeName>
                <note/>
             </place>
@@ -619,14 +657,18 @@
                <placeName>Sydney</placeName>
                <note>City in <placeName key="australia">Australia</placeName></note>
             </place>
+            <place xml:id="tauentzienstrasse">
+               <placeName>Tauentzienstrasse</placeName>
+               <note/>
+            </place>
             <place xml:id="theatreRoyal">
-               <placeName source="#A1 #TR">the Royal Theatre</placeName>
+               <placeName source="#A1 #D1-TR">the Royal Theatre</placeName>
                <placeName source="#D1">(Det) Kongelige Teater</placeName>
                <placeName source="#G1">Königlichen Theater</placeName>
                <note/>
             </place>
             <place xml:id="thomasiusstrasse ">
-               <placeName source="#A1 #D1 #TR">Thomasiusstrasse</placeName>
+               <placeName source="#A1 #D1 #D1-TR">Thomasiusstrasse</placeName>
                <placeName source="#G1">Thomasiusstraße</placeName>
                <note/>
             </place>
@@ -639,7 +681,7 @@
                <note/>
             </place>
             <place xml:id="turkey">
-               <placeName source="#A1 #TR">Turkey</placeName>
+               <placeName source="#A1 #D1-TR">Turkey</placeName>
                <placeName source="#D1">Tyrkiet</placeName>
                <placeName source="#G1">Türkei</placeName>
                <note>Country in <placeName key="europe">Europe</placeName></note>
@@ -656,7 +698,7 @@
             <place xml:id="vejle">
                <placeName source="#A1">Veijle</placeName>
                <placeName source="#G1">Vejle</placeName>
-               <note>Not mentioned in <ref source="#D1">D1</ref> and <ref source="#TR">TR</ref>;
+               <note>Not mentioned in <ref source="#D1">D1</ref> and <ref source="#D1-TR">D1-TR</ref>;
                      <persName key="wegenerE">Einar Wegener</persName>'s birthplace</note>
             </place>
             <place xml:id="versailles">
@@ -679,18 +721,22 @@
                <placeName>Boulangerie Viennoise</placeName>
                <note>Restaurant</note>
             </place>
+            <place xml:id="vineta">
+               <placeName source="#TS">Vineta</placeName>
+               <note/>
+            </place>
             <place xml:id="warnemunde">
-               <placeName source="#D1 #TR">Warnemünde</placeName>
+               <placeName source="#D1 #D1-TR">Warnemünde</placeName>
                <note>Not mentioned in <ref source="#A1">A1</ref> or <ref source="#G1">G1</ref>;
                   Historical figure not identified</note>
             </place>
             <place xml:id="womensClinic">
                <placeName source="#A1">Women's Clinic</placeName>
                <placeName source="#A1">Municipal Women's Clinic</placeName>
-               <placeName source="#D1 #TR">Frauenklinik</placeName>
+               <placeName source="#D1 #D1-TR">Frauenklinik</placeName>
                <!-- Side Note: The German word is for Women's Clinic is used in D1 even though the expected name is Kvindersklinik-->
                <placeName source="#G1">Frauenklinik</placeName>
-               <placeName source="#D1 #G1 #TR">Staatliche Frauenklinik</placeName>
+               <placeName source="#D1 #G1 #D1-TR">Staatliche Frauenklinik</placeName>
                <placeName source="#frenchSupp">Frauenklinik de <placeName key="dreseden"
                      >Dresde</placeName></placeName>
                <placeName source="#frenchSupp">LA CLINIQUE FÉMININE DE DRESDE</placeName>
@@ -733,7 +779,7 @@
             </person>
             <person xml:id="arcJoan" source="historical">
                <persName source="#A1">Joan of Arc</persName>
-               <persName source="#D1 #TR #G1 #TS">Jeanne D'Arc</persName>
+               <persName source="#D1 #D1-TR #G1 #TS">Jeanne D'Arc</persName>
                <note/>
             </person>
             <person xml:id="arns" source="fictional">
@@ -748,14 +794,14 @@
             </person>
             <person xml:id="botticelli" source="historical">
                <persName>Sandro Botticelli</persName>
-               <persName source="#A1 #D1 #TR">Botticelli</persName>
+               <persName source="#A1 #D1 #D1-TR">Botticelli</persName>
                <birth>1445</birth>
                <death>1510</death>
                <note/>
             </person>
             <person xml:id="bourbons" source="historical">
                <!-- RJP: wondering if this should be an org -->
-               <persName source="#A1 #TR">the Bourbons</persName>
+               <persName source="#A1 #D1-TR">the Bourbons</persName>
                <persName source="#D1">Bourbon'erne</persName>
                <persName source="#G1">Bourbonen</persName>
                <note>French royal family</note>
@@ -773,7 +819,7 @@
                <note>German publisher</note>
             </person>
             <person xml:id="brotherChris" source="fictional" synch="#thomsenTC">
-               <persName source="#A1 #TR">brother-in-law</persName>
+               <persName source="#A1 #D1-TR">brother-in-law</persName>
                <persName source="#A1 #G1">Christian</persName>
                <persName source="#D1">svoger</persName>
                <persName source="#G1">de Mann seiner Schwester</persName>
@@ -781,7 +827,7 @@
                <note><persName key="sparreAn">Andreas Sparre</persName>'s sister's husband.</note>
             </person>
             <person xml:id="brotherSing" source="fictional" synch="#wegenerHo">
-               <persName source="#A1 #TR">brother</persName>
+               <persName source="#A1 #D1-TR">brother</persName>
                <persName source="#D1">broder</persName>
                <persName source="#G1">brüder</persName>
                <note><persName key="sparreAn">Andreas Sparre</persName>'s unnamed brother in
@@ -789,7 +835,7 @@
             </person>
             <person xml:id="brotherPlur" source="fictional" synch="#wegenerHo #wegenerHe">
                <!-- RJP: wondering if this should be an org -->
-               <persName source="#A1 #TR">brothers</persName>
+               <persName source="#A1 #D1-TR">brothers</persName>
                <persName source="#D1">brødre</persName>
                <persName source="#G1">beiden brüder</persName>
                <persName source="#G1">brüdern</persName>
@@ -821,14 +867,14 @@
                <note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir.</note>
             </person>
             <person xml:id="cousin" source="fictional">
-               <persName source="#A1 #TR">cousin</persName>
+               <persName source="#A1 #D1-TR">cousin</persName>
                <persName source="#D1">fætter</persName>
                <persName source="#G1">vetter</persName>
                <note><persName key="sparreAn">Andreas Sparre</persName>'s unnamed cousin in
                   narrative; historical figure not identified</note>
             </person>
             <person xml:id="cupid" source="fictional">
-               <persName source="#A1 #TR">Cupid</persName>
+               <persName source="#A1 #D1-TR">Cupid</persName>
                <persName source="#D1 #G1">Amor</persName>
                <note><persName key="lili">Lili</persName> plays/dresses as Cupid in narrative</note>
             </person>
@@ -849,7 +895,7 @@
                      <persName key="lili">Lili</persName>'s niece</note>
             </person>
             <person xml:id="father" source="fictional" synch="#wegenerV">
-               <persName source="#A1 #TR">father</persName>
+               <persName source="#A1 #D1-TR">father</persName>
                <persName source="#D1">fa'r</persName>
                <persName source="#G1">vater</persName>
                <note><persName key="sparreAn">Andreas Sparre</persName>'s father in narrative</note>
@@ -860,14 +906,14 @@
                <note><persName key="sparreGre">Grete Sparre</persName>'s second-husband in
                   narrative</note>
             </person>
-            <person xml:id="flavio" source="fictional">
+            <person xml:id="favio" source="fictional">
                <persName>Flavio</persName>
                <persName source="#G1">Favio</persName>
                <note>Historical figure not identified.</note>
             </person>
             <person xml:id="francois" source="fictional">
-               <persName source="#A1 #D1 #TR">Monsieur François</persName>
-               <persName source="#A1 #D1 #TR">François</persName>
+               <persName source="#A1 #D1 #D1-TR">Monsieur François</persName>
+               <persName source="#A1 #D1 #D1-TR">François</persName>
                <note>Not mentioned in <ref source="#G1">G1</ref></note>
             </person>
             <person xml:id="garlandM" source="historical">
@@ -879,10 +925,10 @@
                <note>French author</note>
             </person>
             <person xml:id="gebhard" source="fictional historical" synch="#gohrbandt">
-               <persName source="#A1 #TR #D1">Dr. Gebhard</persName>
-               <persName source="#A1 #TR #D1 #G1">Professor Gebhard</persName>
+               <persName source="#A1 #D1-TR #D1">Dr. Gebhard</persName>
+               <persName source="#A1 #D1-TR #D1 #G1">Professor Gebhard</persName>
                <persName source="#danishSupp #D1">Overlægen</persName>
-               <persName source="#A1 #TR #danishSupp">senior physician</persName>
+               <persName source="#A1 #D1-TR #danishSupp">senior physician</persName>
                <persName source="#D1">Oberarzt</persName>
                <note/>
             </person>
@@ -965,7 +1011,7 @@
                <note>Niels Hoyer was the pseudonym for Ernst Harthern</note>
             </person>
             <person xml:id="hvappe" source="fictional historical">
-               <persName source="#D1 #TR">Hvappe</persName>
+               <persName source="#D1 #D1-TR">Hvappe</persName>
                <note>Not mentioned in <ref source="#A1">A1</ref>; name of Sparres' dog in narrative
                   and name of <persName key="wegenerE">Einar</persName>'s and <persName
                      key="wegenerG">Gerda</persName>'s dog</note>
@@ -987,7 +1033,7 @@
             <person xml:id="jager" source="historical">
                <persName>Hans Henrik Jæger</persName>
                <persName source="#A1 #G1">Hans Jager</persName>
-               <note>Not mentioned in <ref source="#D1">D1</ref> and <ref source="#TR">TR</ref>;
+               <note>Not mentioned in <ref source="#D1">D1</ref> and <ref source="#D1-TR">D1-TR</ref>;
                   Norweigan writer and activist</note>
             </person>
             <person xml:id="jean" source="fictional">
@@ -996,7 +1042,7 @@
                   narrative</note>
             </person>
             <person xml:id="karner" source="fictional">
-               <persName source="#A1 #D1 #TR">Dr. Karner</persName>
+               <persName source="#A1 #D1 #D1-TR">Dr. Karner</persName>
                <persName source="#G1">Doktor Karner</persName>
                <note>Historical figure not identified</note>
             </person>
@@ -1011,7 +1057,7 @@
                <note>Lili's friend; mentioned in Danish letters, but identity is unknown</note>
             </person>
             <person xml:id="king" source="fictional">
-               <persName source="#A1 #TR">the King</persName>
+               <persName source="#A1 #D1-TR">the King</persName>
                <persName source="#D1">Kongen</persName>
                <persName source="#G1">König</persName>
                <note>Modeled on <persName>Christian X</persName>, who ruled <placeName>Denmark</placeName> from 1912 to 1947.</note>
@@ -1025,10 +1071,10 @@
                <note>Wife of <persName key="knudsenP">Poul Knudsen</persName></note>
             </person>
             <person xml:id="kreutz" source="fictional" synch="#warnekros">
-               <persName source="#A1 #D1 #G1 #TR">Kreutz Werner</persName>
-               <persName source="#A1 #D1 #TR">Kreutz</persName>
-               <persName source="#A1 #D1 #TR">the professor</persName>
-               <persName source="#A1 #D1 #TR">Professor Werner</persName>
+               <persName source="#A1 #D1 #G1 #D1-TR">Kreutz Werner</persName>
+               <persName source="#A1 #D1 #D1-TR">Kreutz</persName>
+               <persName source="#A1 #D1 #D1-TR">the professor</persName>
+               <persName source="#A1 #D1 #D1-TR">Professor Werner</persName>
                <persName source="#G1">deutschen Professor</persName>
                <persName source="#G1">der Professor</persName>
                <persName source="#G1">Der/Des deutsche(n) Arzt(es)</persName>
@@ -1036,7 +1082,7 @@
             </person>
             <person xml:id="larsen" source="fictional">
                <persName source="#A1 #G1">Anna Larsen</persName>
-               <persName source="#D1 #TR">the actress</persName>
+               <persName source="#D1 #D1-TR">the actress</persName>
                <note>Modeled on <persName>Anna Larssen</persName>, a Danish actress</note>
             </person>
             <person xml:id="lejeuneClaude" source="fictional" synch="#prevostClaude">
@@ -1051,8 +1097,10 @@
                <persName>Lili Ilse Elvenes</persName>
                <persName>Lili Courtaud</persName>
                <persName>Lili Courtot</persName>
+               <persName source="#A1 #B1 #G1">Julie Stuart</persName>
+               <persName source="#D1 #D1-TR">Julie Humbert</persName>
                <persName source="#TS">Baronne le Courtaut</persName>
-               <persName source="#TR">Mrs. Lili</persName>
+               <persName source="#D1-TR">Mrs. Lili</persName>
                <persName source="#danishSupp">Frøken Wegener</persName>
                <persName source="#danishSupp #frenchSupp">Lily Wegener</persName>
                <persName source="#danishSupp #frenchSupp">Lily</persName>
@@ -1060,12 +1108,16 @@
                <persName source="#danishSupp">Frk. Lily Wegener</persName>
                <persName source="#danishSupp">Miss Wegener</persName>
                <persName source="#danishSupp">Miss Lily Wegener</persName>
-               <note>Unable to verify that Lili Elbe used the pseudonym Lili Courtaud outside of its
-                  use in the narrative</note>
+               <note>Our project editors have been unable to verify that Lili Elbe used the pseudonym Lili Courtaud outside of its
+                  use in the narrative.</note>
+            </person>
+            <person xml:id="louisXiv" source="historical">
+               <persName>Louis XIV</persName>
+               <note/>
             </person>
             <person xml:id="louLou" source="historical">
-               <persName>a friend who was on the staff of a leading <placeName key="copenhagen"
-                     >Copenhagen</placeName> newspaper</persName>
+               <!--<persName>a friend who was on the staff of a leading <placeName key="copenhagen"
+                     >Copenhagen</placeName> newspaper</persName>-->
                <persName>Loulou Lassen</persName>
                <note>Danish journalist</note><!-- be sure not to use this key ID in the editions for the journalist mentioned; Pamela's note to be added on instances in edtion when referring to journalist: This character is modeled on Louise (Loulou) Lassen. -->
             </person>
@@ -1095,7 +1147,7 @@
                <note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir</note>
             </person>
             <person xml:id="matron" source="fictional">
-               <persName source="#A1 #TR">the Matron</persName>
+               <persName source="#A1 #D1-TR">the Matron</persName>
                <persName source="#D1">Forstanderinden</persName>
                <persName source="#G1">Oberin</persName>
                <persName source="#G1">Frau Oberin</persName>
@@ -1108,7 +1160,7 @@
                <note/>
             </person>
             <person xml:id="mother" source="fictional" synch="#wegenerAM">
-               <persName source="#A1 #TR">mother</persName>
+               <persName source="#A1 #D1-TR">mother</persName>
                <persName source="#D1">mo'r</persName>
                <persName source="#G1">mutter</persName>
                <note><persName key="sparreAn">Andreas Sparre</persName>'s mother in narrative</note>
@@ -1124,7 +1176,7 @@
                <note>Name not identified</note>
             </person>
             <person xml:id="nephew" source="fictional" synch="#wegenerS">
-               <persName source="#A1 #TR">nephew</persName>
+               <persName source="#A1 #D1-TR">nephew</persName>
                <persName source="#D1">søstersøn</persName>
                <persName source="#G1">sohn ihrer schwester</persName>
                <note><persName key="sparreAn">Andreas Sparre</persName>'s nephew in narrative</note>
@@ -1142,7 +1194,7 @@
                <note>Historical figure not identified</note>
             </person>
             <person xml:id="nurseFrieda" source="fictional">
-               <persName source="#A1 #B1 #TR">Sister Frieda</persName>
+               <persName source="#A1 #B1 #D1-TR">Sister Frieda</persName>
                <persName source="#D1">Søster Frieda</persName>
                <persName source="#G1">Schwester Frieda</persName>
                <note>Historical figure not identified</note>
@@ -1152,7 +1204,7 @@
                <persName source="#A1">Sister Hannah</persName>
                <persName source="#D1">Søster Hanna</persName>
                <persName source="#G1">Schwester Hanna</persName>
-               <persName source="#TR">Sister Hanna</persName>
+               <persName source="#D1-TR">Sister Hanna</persName>
                <note>Historical figure not identified</note>
             </person>
             <person xml:id="nurseIlse" source="fictional">
@@ -1166,9 +1218,13 @@
             </person>
             <person xml:id="nurseMarianne" source="fictional">
                <persName source="#D1">Søster Marianne</persName>
-               <persName source="#TR">Sister Marianne</persName>
+               <persName source="#D1-TR">Sister Marianne</persName>
                <note>Not mentioned in <ref source="#A1">A1</ref> or <ref source="#G1">G1</ref>;
                   Historical figure not identified</note>
+            </person>
+            <person xml:id="orvieto">
+               <persName>Orvieto</persName>
+               <note/>
             </person>
             <person xml:id="pan" source="fictional">
                <persName>Pan</persName>
@@ -1176,12 +1232,12 @@
             </person>
             <person xml:id="persenEb" source="fictional" synch="#poulsenU">
                <persName source="#A1 #G1">Ebba Persen</persName>
-               <persName source="#D1 #TR">the beautiful dancer</persName>
+               <persName source="#D1 #D1-TR">the beautiful dancer</persName>
                <note>Modeled on <persName key="poulsenU">Ulla Britta Poulsen</persName></note>
             </person>
             <person xml:id="persenIv" source="fictional" synch="#poulsenJ">
                <persName source="#A1 #G1">Iven Persen</persName>
-               <persName source="#D1 #TR">the Royal Theatre's greatest actor</persName>
+               <persName source="#D1 #D1-TR">the Royal Theatre's greatest actor</persName>
                <note>Modeled on <persName key="poulsenJ">Johannes Poulsen</persName></note>
             </person>
             <person xml:id="pianistXX">
@@ -1189,7 +1245,7 @@
                <note/>
             </person>
             <person xml:id="plato" source="historical">
-               <persName source="#A1 #D1 #TR">Plato</persName>
+               <persName source="#A1 #D1 #D1-TR">Plato</persName>
                <persName source="#G1">Platon</persName>
                <note>Athenian philosopher</note>
             </person>
@@ -1248,17 +1304,17 @@
                <persName>Baronin Schildt</persName>
                <note>Modeled on <persName>Anne-Marie Goldschmidt-Rothschild</persName></note>
             </person>
-            <person xml:id="schumannE" source="historical">
-               <persName>Elisabeth Schumann</persName>
-               <note>German opera singer</note>
+            <person xml:id="schubert" source="historical">
+               <persName source="#TS">Schubert</persName>
+               <note>German composer</note>
             </person>
-            <person xml:id="signoraFlavio" source="fictional">
+            <person xml:id="signoraFavio" source="fictional">
                <persName>Signora Flavio</persName>
                <persName source="#G1">Signora Favio</persName>
                <note>Historical figure not identified.</note>
             </person>
             <person xml:id="sister" source="fictional">
-               <persName source="#A1 #TR">sister</persName>
+               <persName source="#A1 #D1-TR">sister</persName>
                <persName source="#D1">søster</persName>
                <persName source="#G1">schwester</persName>
                <note><persName key="sparreAn">Andreas Sparre</persName>'s sister in narrative;
@@ -1266,7 +1322,7 @@
                      key="wegenerE">Einar</persName>'s sister</note>
             </person>
             <person xml:id="sisterInLaw" source="fictional" synch="#wegenerM">
-               <persName source="#A1 #TR">sister-in-law</persName>
+               <persName source="#A1 #D1-TR">sister-in-law</persName>
                <persName source="#D1">svigerinde</persName>
                <persName source="#G1">schwägerin</persName>
                <persName source="#G1">frau des bruders</persName>
@@ -1299,11 +1355,6 @@
                <persName>H.J. Stenning</persName>
                <note><ref source="#A1">A1</ref> translator from German.</note>
             </person>
-            <person xml:id="stuart" source="fictional">
-               <persName source="#A1 #G1">Julie Stuart</persName>
-               <persName source="#D1 #TR">Julie Humbert</persName>
-               <note>Historical figure not identified</note>
-            </person>
             <person xml:id="tacitus" source="historical">
                <persName>Tacitus</persName>
                <note/>
@@ -1326,7 +1377,7 @@
                <note><persName key="wegenerE">Einar Wegener</persName>'s brother-in-law</note>
             </person>
             <person xml:id="trempe" source="fictional">
-               <persName source="#A1 #TR">Count de la Trempe</persName>
+               <persName source="#A1 #D1-TR">Count de la Trempe</persName>
                <persName source="#G1">Graf</persName>
                <persName source="#G1">le Comte de Trempe</persName>
                <persName source="#D1">Grev de la Trempe</persName>
@@ -1346,7 +1397,7 @@
                <persName source="#A1">Karen Wardal</persName>
                <persName source="#A1">Karen Wardel</persName>
                <persName source="#G1">Karen Wärdal</persName>
-               <persName source="#D1 #TR">Karen Warren</persName>
+               <persName source="#D1 #D1-TR">Karen Warren</persName>
                <note>Possibly modeled on <persName>Sascha Wamberg</persName></note>
             </person>
             <person xml:id="warnekros" source="historical" synch="#kreutz">
