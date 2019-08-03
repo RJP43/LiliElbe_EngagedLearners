@@ -357,6 +357,8 @@
             <place xml:id="hotelDAlsace">
                <placeName>one of the numerous small hotels in <placeName key="paris"
                      >Paris</placeName></placeName>
+               <placeName source="#A1 #D1-TR">the hotel</placeName>
+               <placeName source="#D1">Hotellet</placeName>
                <note/>
             </place>
             <place xml:id="hotelReservoirs">
@@ -574,7 +576,7 @@
             </place>
             <place xml:id="romanischesCafe">
                <placeName source="#TS #D1 #D1-TR">Romanisches Café</placeName>
-               <note/>
+               <note resp="SW">A widely renowned hangout of German intelligentsia and literati in 1920s <placeName key="berlin">Berlin</placeName></note>
             </place>
             <place xml:id="rome">
                <placeName source="#A1 #D1-TR">Rome</placeName>
@@ -972,6 +974,7 @@
                <persName>Professor Hardenfeld</persName>
                <persName>Dr. Hardenfeld</persName>
                <persName>Hardenfeld</persName>
+               <persName>Doctor M.H.</persName>
                <note/>
             </person>
             <person xml:id="haslund" source="historical">
