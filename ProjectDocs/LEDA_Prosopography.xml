@@ -1311,6 +1311,10 @@
                <persName source="#TS">Schubert</persName>
                <note>German composer</note>
             </person>
+            <person xml:id="schumannE" source="historical">
+               <persName source="#frenchSupp">Elisabeth Schumann</persName>
+               <note/>
+            </person>
             <person xml:id="signoraFavio" source="fictional">
                <persName>Signora Flavio</persName>
                <persName source="#G1">Signora Favio</persName>

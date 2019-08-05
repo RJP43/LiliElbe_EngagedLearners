@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-07-03T02:29:32Z. .
+Schema generated from ODD source 2019-08-05T00:37:41Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -4913,7 +4913,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Wrote A1's introduction.) </a:documentation>
                   <value>hardenfeld</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Professor Hardenfeld,
-                              Dr. Hardenfeld, Hardenfeld | Linked Keys: #hirschfeld) </a:documentation>
+                              Dr. Hardenfeld, Hardenfeld, Doctor M.H. | Linked Keys:
+                              #hirschfeld) </a:documentation>
                   <value>haslund</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Ole Georg Haslund |
                               Note: Danish art dealer who exhibited Einar's and Gerda's work; he is
@@ -5130,6 +5131,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>schubert</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Schubert | Note: German
                               composer) </a:documentation>
+                  <value>schumannE</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Elisabeth
+                              Schumann) </a:documentation>
                   <value>signoraFavio</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Signora Flavio, Signora
                               Favio | Note: Historical figure not identified.) </a:documentation>
@@ -5396,8 +5400,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>holland</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Holland) </a:documentation>
                   <value>hotelDAlsace</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): one of the numerous small hotels in
-                              Paris) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): one of the numerous small hotels in Paris, the
+                              hotel, Hotellet) </a:documentation>
                   <value>hotelReservoirs</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Hôtel des Réservoirs, Hôtel des Reservoirs,
                               Hotel des Reservoirs | Note: Luxury hotel on rue des Réservoirs, near
@@ -5505,7 +5509,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): rue des Réservoirs | Note: Paris
                               street) </a:documentation>
                   <value>romanischesCafe</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Romanisches Café) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Romanisches Café | Note: A widely renowned
+                              hangout of German intelligentsia and literati in 1920s Berlin) </a:documentation>
                   <value>rome</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Rome, Rom | Note: City in Italy) </a:documentation>
                   <value>rothenburg</value>
