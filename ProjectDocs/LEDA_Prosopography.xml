@@ -307,13 +307,13 @@
             <place xml:id="gedser">
                <placeName source="#D1 #D1-TR">Gedser</placeName>
                <note>Only mentioned in <ref source="#D1">D1</ref> and <ref source="#D1-TR"
-                  >D1-TR</ref></note>
+                     >D1-TR</ref></note>
             </place>
             <place xml:id="gentofter">
                <placeName source="#A1">Gentofter Lake</placeName>
                <placeName source="#G1">Gentofter See</placeName>
                <note>Not mentioned in <ref source="#D1">D1</ref> and <ref source="#D1-TR"
-                  >D1-TR</ref></note>
+                     >D1-TR</ref></note>
             </place>
             <place xml:id="germany">
                <placeName source="#A1 #D1-TR">Germany</placeName>
@@ -576,7 +576,8 @@
             </place>
             <place xml:id="romanischesCafe">
                <placeName source="#TS #D1 #D1-TR">Romanisches Café</placeName>
-               <note resp="SW">A widely renowned hangout of German intelligentsia and literati in 1920s <placeName key="berlin">Berlin</placeName></note>
+               <note resp="SW">A widely renowned hangout of German intelligentsia and literati in
+                  1920s <placeName key="berlin">Berlin</placeName></note>
             </place>
             <place xml:id="rome">
                <placeName source="#A1 #D1-TR">Rome</placeName>
@@ -642,7 +643,8 @@
             <place xml:id="stGermain">
                <placeName source="#D1 #D1-TR #TS">Saint Germain des Pres</placeName>
                <placeName source="#TS">Saint Germain de Pres</placeName>
-               <note>Church in <placeName key="quartierStgermain">Latin Quartier</placeName>, Paris.</note>
+               <note>Church in <placeName key="quartierStgermain">Latin Quartier</placeName>,
+                  Paris.</note>
             </place>
             <place xml:id="stroget">
                <placeName source="#A1">Strog</placeName>
@@ -700,8 +702,9 @@
             <place xml:id="vejle">
                <placeName source="#A1">Veijle</placeName>
                <placeName source="#G1">Vejle</placeName>
-               <note>Not mentioned in <ref source="#D1">D1</ref> and <ref source="#D1-TR">D1-TR</ref>;
-                     <persName key="wegenerE">Einar Wegener</persName>'s birthplace</note>
+               <note>Not mentioned in <ref source="#D1">D1</ref> and <ref source="#D1-TR"
+                     >D1-TR</ref>; <persName key="wegenerE">Einar Wegener</persName>'s
+                  birthplace</note>
             </place>
             <place xml:id="versailles">
                <placeName>Versailles</placeName>
@@ -775,6 +778,11 @@
                <note>Daughter of <persName key="allatiniH">Hélène Allatini</persName> and <persName
                      key="allatiniE">Eric Moïse Allatini</persName></note>
             </person>
+            <person xml:id="anderson" source="historical">
+               <persName source="#frenchSupp">Hans Christian Anderson</persName>
+               <persName source="#frenchSupp">Anderson</persName>
+               <note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir.</note>
+            </person>
             <person xml:id="aphrodite" source="fictional">
                <persName>Aphrodite</persName>
                <note>mythological</note>
@@ -846,6 +854,7 @@
             </person>
             <person xml:id="carpegnaM" source="historical">
                <persName>Mario di Carpegna</persName>
+               <persName>Mario di Carrobio</persName><!-- ask Pamela -->
                <note>Italian soldier; mentioned in <persName key="allatiniH">Allatini</persName>'s
                   memoir</note>
             </person>
@@ -881,6 +890,14 @@
                <persName source="#A1 #D1-TR">Cupid</persName>
                <persName source="#D1 #G1">Amor</persName>
                <note><persName key="lili">Lili</persName> plays/dresses as Cupid in narrative</note>
+            </person>
+            <person xml:id="death" source="fictional">
+               <persName source="#TS">Tod</persName>
+               <persName source="#TS">Todesreiter</persName>
+               <persName source="#D1">Døden</persName>
+               <persName source="#TS-TR #D1-TR">Death</persName>
+               <persName source="#TS-TR">the Reaper</persName>
+               <note/>
             </person>
             <person xml:id="doctorF" source="historical">
                <persName>Doctor F.</persName>
@@ -936,8 +953,32 @@
                <persName source="#D1">Oberarzt</persName>
                <note/>
             </person>
-            <person xml:id="germanFriend" source="historical" synch="#hoyerNiels #harthernE">
-               <persName>German friend</persName>
+            <person xml:id="genius" source="fictional">
+               <persName source="#TS">weissbekleideten Gestalt</persName>
+               <persName source="#TS">die weisse Gestalt</persName>
+               <persName source="#TS">ein kleiner, blassroter, gothischer Engel</persName>
+               <persName source="#TS">dem Genius</persName>
+               <persName source="#TS-TR">the white figure</persName>
+               <persName source="#TS-TR">tall shape, clad in white</persName>
+               <persName source="#TS-TR">small, light reddish, gothic angel</persName>
+               <persName source="#TS-TR">the guardian spirit</persName>
+               <note/>
+            </person>
+            <person xml:id="germanFriend" source="fictional" synch="#hoyerNiels #harthernE">
+               <persName source="#A1 #D1-TR">German friend</persName>
+               <persName source="#A1 #D1-TR">new friend</persName>
+               <persName source="#A1 #D1-TR">my friend</persName>
+               <persName source="#G1">einen neuen Freund</persName>
+               <persName source="#G1">dem deutschen Freund</persName>
+               <persName source="#G1">ihrem deutschen Freunde</persName>
+               <persName source="#G1">meinem deutschen Freund</persName>
+               <persName source="#G1">meines deutsches Freund</persName>
+               <persName source="#G1">ihres deutschen Freund</persName>
+               <persName source="#G1">ihren deutschen Freund</persName>
+               <persName source="#G1">meinen Freund</persName>
+               <persName source="#D1">ny Ven</persName>
+               <persName source="#D1">min tyske Ven</persName>
+               <persName source="#D1">min Ven</persName>
                <note>Modeled on <persName key="hoyerNiels">Niels Hoyer</persName>.</note>
             </person>
             <person xml:id="goethe" source="fictional">
@@ -961,7 +1002,7 @@
                <persName source="#frenchSupp">Pasteur Gotlieb</persName>
                <persName source="#frenchSupp">Pasteur Gottlieb</persName>
                <note><persName key="wegenerE">Einar Wegener</persName>'s father-in-law and <persName
-                  key="wegenerG">Gerda Wegener</persName>'s father.</note>
+                     key="wegenerG">Gerda Wegener</persName>'s father.</note>
             </person>
             <person xml:id="guyot" source="historical">
                <persName source="#A1 #G1">Ch. Gyuot</persName>
@@ -981,7 +1022,8 @@
             </person>
             <person xml:id="haslund" source="historical">
                <persName>Ole Georg Haslund</persName>
-               <note>Danish art dealer who exhibited Einar's and Gerda's work; he is named in the narrative rather than given a fictional name</note>
+               <note>Danish art dealer who exhibited Einar's and Gerda's work; he is named in the
+                  narrative rather than given a fictional name</note>
                <!-- RJP: wondering if this should be an org; is this an individual? -->
             </person>
             <person xml:id="hasselbalchS" source="historical">
@@ -1038,8 +1080,8 @@
             <person xml:id="jager" source="historical">
                <persName>Hans Henrik Jæger</persName>
                <persName source="#A1 #G1">Hans Jager</persName>
-               <note>Not mentioned in <ref source="#D1">D1</ref> and <ref source="#D1-TR">D1-TR</ref>;
-                  Norweigan writer and activist</note>
+               <note>Not mentioned in <ref source="#D1">D1</ref> and <ref source="#D1-TR"
+                     >D1-TR</ref>; Norweigan writer and activist</note>
             </person>
             <person xml:id="jean" source="fictional">
                <persName>Jean</persName>
@@ -1065,7 +1107,8 @@
                <persName source="#A1 #D1-TR">the King</persName>
                <persName source="#D1">Kongen</persName>
                <persName source="#G1">König</persName>
-               <note>Modeled on <persName>Christian X</persName>, who ruled <placeName>Denmark</placeName> from 1912 to 1947.</note>
+               <note>Modeled on <persName>Christian X</persName>, who ruled
+                     <placeName>Denmark</placeName> from 1912 to 1947.</note>
             </person>
             <person xml:id="knudsenP" source="historical" synch="#hvideNiels">
                <persName>Poul Knudsen</persName>
@@ -1090,6 +1133,10 @@
                <persName source="#D1 #D1-TR">the actress</persName>
                <note>Modeled on <persName>Anna Larssen</persName>, a Danish actress</note>
             </person>
+            <person xml:id="larssen" source="historical">
+               <persName source="#A1 #G1">Anna Larssen</persName>
+               <note>a Danish actress</note>
+            </person>
             <person xml:id="lejeuneClaude" source="fictional" synch="#prevostClaude">
                <persName>Claude Lejeune</persName>
                <persName source="#TS">Claude Lejenne</persName>
@@ -1113,8 +1160,8 @@
                <persName source="#danishSupp">Frk. Lily Wegener</persName>
                <persName source="#danishSupp">Miss Wegener</persName>
                <persName source="#danishSupp">Miss Lily Wegener</persName>
-               <note>Our project editors have been unable to verify that Lili Elbe used the pseudonym Lili Courtaud outside of its
-                  use in the narrative.</note>
+               <note>Our project editors have been unable to verify that Lili Elbe used the
+                  pseudonym Lili Courtaud outside of its use in the narrative.</note>
             </person>
             <person xml:id="louisXiv" source="historical">
                <persName>Louis XIV</persName>
@@ -1124,7 +1171,8 @@
                <!--<persName>a friend who was on the staff of a leading <placeName key="copenhagen"
                      >Copenhagen</placeName> newspaper</persName>-->
                <persName>Loulou Lassen</persName>
-               <note>Danish journalist</note><!-- be sure not to use this key ID in the editions for the journalist mentioned; Pamela's note to be added on instances in edtion when referring to journalist: This character is modeled on Louise (Loulou) Lassen. -->
+               <note>Danish journalist</note>
+               <!-- be sure not to use this key ID in the editions for the journalist mentioned; Pamela's note to be added on instances in edtion when referring to journalist: This character is modeled on Louise (Loulou) Lassen. -->
             </person>
             <person xml:id="madameB" source="historical">
                <persName>Madame de B.</persName>
@@ -1286,7 +1334,8 @@
                      Descauses</persName>, and <persName>Henri René Goujon</persName></note>
             </person>
             <person xml:id="robilantM" source="historical">
-               <persName>Mario Nicolis di Robilant</persName>
+               <persName source="#frenchSupp">Mario Nicolis di Robilant</persName>
+               <persName source="#frenchSupp">général Nicolis de Robilant</persName>
                <note>Italian general; mentioned in <persName key="allatiniH">Allatini</persName>'s
                   memoir</note>
             </person>
@@ -1341,6 +1390,7 @@
                <persName>Andreas Sparre</persName>
                <persName>Andreas</persName>
                <persName source="#G1">Monsieur Sparre</persName>
+               <persName>Lilleman</persName>
                <note/>
             </person>
             <person xml:id="sparreGre" source="fictional" synch="#wegenerG">

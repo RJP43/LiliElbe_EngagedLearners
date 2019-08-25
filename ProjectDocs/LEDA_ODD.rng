@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-08-05T00:37:41Z. .
+Schema generated from ODD source 2019-08-25T01:14:32Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -4801,6 +4801,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Jocelyn Allatin, baby
                               Allatini | Note: Daughter of Hélène Allatini and Eric Moïse
                               Allatini) </a:documentation>
+                  <value>anderson</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Hans Christian
+                              Anderson, Anderson | Note: Mentioned in Allatini's memoir.) </a:documentation>
                   <value>aphrodite</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Aphrodite | Note:
                               mythological) </a:documentation>
@@ -4839,14 +4842,15 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               brüder, brüdern | Note: Andreas Sparre's unnamed brothers in narrative
                               | Linked Keys: #wegenerHo #wegenerHe) </a:documentation>
                   <value>carpegnaM</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Mario di Carpegna |
-                              Note: Italian soldier; mentioned in Allatini's memoir) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Mario di Carpegna,
+                              Mario di Carrobio | Note: Italian soldier; mentioned in Allatini's
+                              memoir) </a:documentation>
                   <value>casanova</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Casanova) </a:documentation>
                   <value>theCripple</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): the cripple, red-haired
-                              cripple, rothaarigen Krüppel, Krüppel, Rothaarige, [der]
-                              Buckel) </a:documentation>
+                              cripple, red-haired fellow, hunchback, rothaarigen Krüppel, Krüppel,
+                              Rothaarige, [der] Buckel) </a:documentation>
                   <value>countT</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Colonel de T., Count de
                               T. | Note: Mentioned in Allatini's memoir. | Linked Keys:
@@ -4858,6 +4862,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>cupid</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Cupid, Amor | Note: Lili
                               plays/dresses as Cupid in narrative) </a:documentation>
+                  <value>death</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Tod, Todesreiter, Døden,
+                              Death, the Reaper) </a:documentation>
                   <value>doctorF</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Doctor F. | Note:
                               Mentioned in Allatini's memoir) </a:documentation>
@@ -4888,9 +4895,18 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional historical | Identified Name(s): Dr. Gebhard,
                               Professor Gebhard, Overlægen, senior physician, Oberarzt | Linked
                               Keys: #gohrbandt) </a:documentation>
+                  <value>genius</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): weissbekleideten
+                              Gestalt, die weisse Gestalt, ein kleiner, blassroter, gothischer
+                              Engel, dem Genius, the white figure, tall shape, clad in white, small,
+                              light reddish, gothic angel, the guardian spirit) </a:documentation>
                   <value>germanFriend</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): German friend | Note:
-                              Modeled on Niels Hoyer. | Linked Keys: #hoyerNiels #harthernE) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): German friend, new
+                              friend, my friend, einen neuen Freund, dem deutschen Freund, ihrem
+                              deutschen Freunde, meinem deutschen Freund, meines deutsches Freund,
+                              ihres deutschen Freund, ihren deutschen Freund, meinen Freund, ny Ven,
+                              min tyske Ven, min Ven | Note: Modeled on Niels Hoyer. | Linked Keys:
+                              #hoyerNiels #harthernE) </a:documentation>
                   <value>goethe</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Goethe | Note: German
                               author) </a:documentation>
@@ -4987,6 +5003,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>larsen</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Anna Larsen, the actress
                               | Note: Modeled on Anna Larssen, a Danish actress) </a:documentation>
+                  <value>larssen</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Anna Larssen | Note: a
+                              Danish actress) </a:documentation>
                   <value>lejeuneClaude</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Claude Lejeune, Claude
                               Lejenne, Claude | Note: Modeled on Claude Prévost | Linked Keys:
@@ -5114,8 +5133,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Descauses, and Henri René Goujon) </a:documentation>
                   <value>robilantM</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Mario Nicolis di
-                              Robilant | Note: Italian general; mentioned in Allatini's
-                              memoir) </a:documentation>
+                              Robilant, général Nicolis de Robilant | Note: Italian general;
+                              mentioned in Allatini's memoir) </a:documentation>
                   <value>rossiniEl</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Elena Rossini, Elena |
                               Linked Keys: #allatiniH) </a:documentation>
@@ -5147,7 +5166,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Wegener's wife | Linked Keys: #wegenerM) </a:documentation>
                   <value>sparreAn</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Andreas Sparre, Andreas,
-                              Monsieur Sparre | Linked Keys: #wegenerE #lili) </a:documentation>
+                              Monsieur Sparre, Lilleman | Linked Keys: #wegenerE #lili) </a:documentation>
                   <value>sparreGre</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Grete Sparre, Grete,
                               Mrs. Sparre, Madame Sparre | Linked Keys: #wegenerG) </a:documentation>
