@@ -1,139 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<!-- Be sure to remove the schema line above and re-associate your file to your locally downloaded schema.  -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
+   xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
+   <!-- insert correct URLs, above, for your text -->
    <!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. 
       For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that
       should match their name in the Prosopography. For project team members and organizations use the @ref attribute 
-      and the two-letter (or three-letter, if available in the info provided) initials of the person on the persName elements.-->
+      and the two-letter (or three-letter), initials of your colleague on the persName elements.-->
+   <!-- People in <respStmt> elements: Each person on the project team has a special identifier (including you as an encoder). These IDs should be used in the blank ref attribute-values below. IDs are created by taking the first and last initial of the person's name. Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp. If unsure, verify with project managers various team members' IDs. -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!-- For Letters: Remove the following if not encoding a letter -->
+            <!-- Start For Editions; Remove the following if not encoding an Edition; Correct the following to match specific edition's info. -->
+            <title><hi rend="italics">Man Into Woman</hi> (American Edition)</title>
+            <!-- Only include if has Translation or is a Translation: <title type="alternative"></title>-->
+            <respStmt>
+               <resp>Print edition edited by</resp>
+               <persName key="" role="EDT"
+                  ><!-- Insert Editor's name and initials in @key--></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Print edition originally translated by</resp>
+               <persName key="" role="TRL"
+                  ><!-- Insert translator's name and initials in @key--></persName>
+            </respStmt>
+            <!-- End For Editions; -->
+            <!-- Start For Letters; Remove the following if not encoding a Letter; Correct the following to match specific letter's info. -->
             <title>
-               <date><!--date defined in teiHeader info; numerical values of filename (which indicate letter date)--></date>
-               Letter to <persName key=""><!-- Person Letter Is Addressed To --></persName>
+               <date>(undated)</date> Letter to <persName key="hoyerNiels">Niels Hoyer</persName>
             </title>
-            
-            <!-- For Articles: Remove the following if not encoding an article -->
-            <title><!-- Name of Newspaper/Journal/Magazine-->
-               <date><!-- article publication date in yyyy-mm-dd --></date></title>
-            
-            <!-- For Book Chapters; Remove the following if not encoding a book chapter -->
-            <title><!-- Chapter Title (in English) if not just numerical value; otherwise "Chapter #" --> within
-               <hi rend="italics"><!-- Book Title --></hi></title>
-            <!-- Example: <title>Foreword within <hi rend="italics">Man into Woman</hi></title> -->
-            
-            <!-- For Editions; Remove the following if not encoding a book chapter -->
-            <title><!-- Language --> Edition</title>
-            
             <author>
-               <persName key=""><!-- Writer of Letter; or Author of Text --></persName>
+               <persName key="thomsenTC" role="AUT">TC Thomsen</persName>
             </author>
-            
-            <!-- Formatting dates in <respStmt> elements:            
-            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
-            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
-            If given month: <date>Month(written out), Year(as YYYY)</date>-->
-            
-            <!-- People in <respStmt> elements: 
-            Each person on the project team has a special identifier (including you as an encoder).
-            These IDs should be used in the blank ref attribute-values below. 
-            IDs are created by taking the first and last initial of the person's name. 
-            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
             <respStmt>
-               <resp>Photographed <date><!--insert date; see formatting suggestions above--></date>
-                  by</resp>
-               <persName ref=""><!-- Name of Photographer --></persName>
+               <resp>Translation completed by</resp>
+               <persName ref="" role="TRL"
+                  ><!-- Insert translator's name and initials in @ref--></persName>
             </respStmt>
             <respStmt>
-               <resp>Images prepared
-                  <date><!--insert date; see formatting suggestions above--></date> by</resp>
-               <persName ref=""><!-- Name of Image Preparer --></persName>
+               <resp>Translation reviewed by</resp>
+               <persName ref=""
+                  ><!-- Insert translation reviewer's name and initials in @ref--></persName>
             </respStmt>
             <respStmt>
-               <resp>Transcription completed
-                  <date><!--insert date; see formatting suggestions above--></date> by</resp>
-               <persName ref=""><!-- Name of Transriber --></persName>
+               <resp>Transcription completed by </resp>
+               <persName ref=""><!-- Insert transcriber's name and initials in @ref --></persName>
+            </respStmt>
+            <!-- End For Letters; -->
+            <!-- Start For Periodicals; Remove the following if not encoding a periodical; Correct the following to match specific periodical's info.  -->
+            <title>En Bog om, hvordan <persName key="wegenerE">Hr. Wegener</persName> blev til
+               <persName key="lili">Frøken Wegener</persName>. <hi rend="italics">Sandheden</hi> (<date>December
+                  1930</date>)</title>
+            <title type="alternative">A Book About How <persName key="wegenerE">Mr.
+               Wegener</persName> Became <persName key="lili">Miss Wegener</persName>. <hi rend="italics">Sandheden</hi>
+                  (<date>December 1930</date>)</title>
+            <author>
+               <persName key="" role="AUT"
+                  ><!-- Insert author's name and intials in @key --></persName>
+            </author>
+            <respStmt>
+               <resp>Translation completed by</resp>
+               <persName ref="" role="TRL"
+                  ><!-- Insert translator's name and initials in @ref--></persName>
             </respStmt>
             <respStmt>
-               <resp>Translation completed
-                  <date><!--insert date; see formatting suggestions above--></date> by</resp>
-               <persName ref=""><!-- Name of Translator --></persName>
+               <resp>Translation reviewed by</resp>
+               <persName ref=""
+                  ><!-- Insert translation reviewer's name and initials in @ref--></persName>
             </respStmt>
             <respStmt>
-               <resp>Translation reviewed
-                  <date><!--insert date; see formatting suggestions above--></date> by</resp>
-               <persName ref=""><!-- Name of Translation Reviewer --></persName>
+               <resp>Transcription completed by </resp>
+               <persName ref=""><!-- Insert transcriber's name and initials in @ref --></persName>
+            </respStmt>
+            <!-- End for Periodicals; -->
+            <!-- Start For Book Sections; Remove the following if not encoding a Book Section; Correct the following to match specific book section's info.  -->
+            <title>"Il et Elle" from <hi rend="italics">MOSAÏQUES</hi></title>
+            <title type="alternative">"He and She" from <hi rend="italics">MOSAÏQUES</hi></title>
+            <author>
+               <persName key="allatiniH" role="AUT">Hélène Allatini</persName>
+            </author>
+            <respStmt>
+               <resp>Translation completed by</resp>
+               <persName ref="" role="TRL"
+                  ><!-- Insert translator's name and initials in @ref--></persName>
             </respStmt>
             <respStmt>
-               <resp>Encoding completed
-                  <date><!--insert date; see formatting suggestions above--></date> by</resp>
-               <persName ref=""><!-- Name of Primary Encoder --></persName>
+               <resp>Translation reviewed by</resp>
+               <persName ref=""
+                  ><!-- Insert translation reviewer's name and initials in @ref--></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription completed by </resp>
+               <persName ref=""><!-- Insert transcriber's name and initials in @ref --></persName>
+            </respStmt>
+            <!-- End For Book Sections; -->
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref=""><!-- Insert Encoders name and initials in @ref--></persName>
             </respStmt>
             <respStmt>
                <resp>Encoding assistance and/or XML proofing completed by</resp>
-               <persName ref="rjp">Rebecca J. Parker</persName>
-               <persName ref=""><!-- Name of Encoder/Proofer --></persName>
-               <!-- Remove any additional persName elements not used -->
-               <persName ref=""><!-- Name of Encoder/Proofer --></persName>
-               <!-- Remove any additional persName elements not used -->
+               <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
             </respStmt>
             <respStmt>
                <resp>XML transformed into HTML
-                  <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                     <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                  by</resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
             </respStmt>
             <respStmt>
-               <resp>HTML proofing completed
-                  <date><!-- insert date; see formatting suggestions above --></date> by</resp>
-               <persName ref=""><!-- Name of Proofer --></persName>
-               <persName ref=""><!-- Name of Proofer --></persName>
-               <!-- Remove any additional persName elements not used -->
+               <resp>HTML proofing completed by</resp>
+               <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
             </respStmt>
-            <sponsor>Loyola University Chicago</sponsor>
+            <respStmt>
+               <resp>Images prepared by</resp>
+               <persName ref=""><!-- Insert name and initials in @ref--></persName>
+            </respStmt>
+            <!-- Start Illustrations; Include the following only if illustrations present in text being encoded. -->
+            <respStmt>
+               <resp>Illustrations prepared by</resp>
+               <persName ref=""><!-- Insert name and initials in @ref--></persName>
+            </respStmt>
+            <!-- End Illustrations; -->
+            <sponsor>Loyola University Chicago Libraries</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
          </titleStmt>
          <publicationStmt>
             <authority>Lili Elbe Digital Archive</authority>
             <pubPlace>Chicago, IL, USA</pubPlace>
-            <date>July 6th, 2019</date>
+            <date when="2019-07-06">July 6th, 2019</date>
+            <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
             <availability>
-               <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
-                  <placeName><!-- location of archive --></placeName>
-               </p>
+               <!-- Start Example 1 -->
+               <p select="source">Private Collection.</p> <!--OR--> <p select="source">Harvard University Library</p>
+               <!-- End Example 1 -->
+               <!-- Start Example 2-->
+               <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
+                     Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
+                     Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
+               <!-- End Example 2 -->
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                   4.0 International license.</licence>
             </availability>
          </publicationStmt>
-         <sourceDesc>
-            <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
-               encoder's description must be in complete, logical sentences --></p>
+         <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
+         <!-- Start Edition Example -->
+         <sourceDesc source="Codex" xml:lang="eng">
+            <p>Hardbound book, 323 total pages, 288 pages with text and 18 illustrations.</p>
          </sourceDesc>
+         <!-- End Edition Example -->
+         <!-- Start Contextual Example -->
+         <sourceDesc source="Manuscript" xml:lang="dan">
+            <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+               encoder's description must be in complete, logical sentences; Dr. Caughie must approve all source descriptions before transformation --></p>
+         </sourceDesc>
+         <!-- End Contextual Example -->
       </fileDesc>
       <encodingDesc>
-            <editorialDecl>
-                <!--use elements listed under "May Contain" section of TEI editorialDecl description (https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html)  
-and internal p elements to describe anything unique about the text's encoding--><!--For example: 
-                <normalization>
-                    <p>In our encoding of this edition, we have moved each chapter's first-page number, originally
-                        appearing at the bottom of the print page, to the beginning of the page's
-                        text before the chapter heading. The pb element in the TEI P5 guidelines stands for page
-                        beginning and throughout the rest of the document page numbers appear at the
-                        beginning of the page; therefore, in order to simplify our processing we
-                        have altered the placement of each chapter's first page's number.</p>
-                </normalization>-->
-                <hyphenation>
-                    <p>We have removed line-break hyphenation that appears in the printed text during
-                        digitization and encoding. Original hyphenation can be consulted in the
-                        facsimile images.</p>
-                <!--every document must include this hyphenation element and internal text; copy directly!-->
-                </hyphenation>
-            </editorialDecl>
-        </encodingDesc>
+         <!-- Consult Dr. Caughie, Emily, or Rebecca to verify metadata specifics -->
+         <classDecl>
+            <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+               <category source="collex" xml:id="discipline">
+                  <catDesc><!-- discipline metadata --></catDesc>
+               </category>
+               <category source="collex" xml:id="genre">
+                  <catDesc><!-- genre metadata --></catDesc>
+               </category>
+               <!-- Use the following category only when the text you are encoding contains illustrations -->
+               <category source="collex" xml:id="image">
+                  <catDesc><!-- media library illustration URL --></catDesc>
+                  <catDesc><!-- media library illustration URL --></catDesc>
+               </category>
+               <category source="collex" xml:id="text">
+                  <catDesc>URL to Plain Text</catDesc>
+               </category>
+               <category source="dc" xml:id="date">
+                  <catDesc>
+                     <![CDATA[<dc:date>date metadata</dc:date>]]>
+                  </catDesc>
+               </category>
+               <!-- Use the following category only when encoding a book section or periodical -->
+               <category source="dcterms" xml:id="isPartOf">
+                  <catDesc><!-- book or periodical title --></catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <!-- Verify with Rebecca that your document does not need additional editorial declarations. Most of the editions have additional children elements here (i.e. segmentation) -->
+            <hyphenation>
+               <p>We have removed the hyphenation that appears in the printed text during
+                  digitization and encoding. Original hyphenation can be consulted in the facsimile
+                  images.</p>
+            </hyphenation>
+         </editorialDecl>
+      </encodingDesc>
    </teiHeader>
-   <text>
-      <body>
-         <p>Some text here.</p>
-      </body>
-   </text>
 </TEI>
