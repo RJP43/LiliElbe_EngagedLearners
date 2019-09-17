@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- In this sample TEI header, we have provided several different examples of how names and dates are to be represented. 
+      For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that
+      should match their name in the Prosopography. For project team members and organizations use the @ref attribute 
+      and the two-letter (or three-letter, if available in the info provided) initials of the person on the persName elements.-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- For Letters: Remove the following if not encoding a letter -->
+                <title>
+                    <date>December 12, 1931</date>
+                    Letter to <persName key="hoyerNiels">Neils Hoyer</persName>
+                </title>
+                <author>
+                    <persName>Harry Schumann</persName>
+                </author>
+                
+                <!-- Formatting dates in <respStmt> elements:            
+            If given exact date(s): <date>Month(written out) day#-day#, Year(as YYYY)</date> <date>Month(written out) day#, Year(as YYYY)</date>
+            If given month range: <date>Month(written out), Year(as YYYY) to Month, Year</date> <date>Month to Month, Same Year</date>
+            If given month: <date>Month(written out), Year(as YYYY)</date>-->
+                
+                <!-- People in <respStmt> elements: 
+            Each person on the project team has a special identifier (including you as an encoder).
+            These IDs should be used in the blank ref attribute-values below. 
+            IDs are created by taking the first and last initial of the person's name. 
+            Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp.-->
+                <respStmt>
+                    <resp>Photographed <date>August 16-17, 2017</date>
+                        by</resp>
+                    <persName ref="plc">Pamela L. Caughie</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Images prepared
+                        <date><!--insert date; see formatting suggestions above--></date> by</resp>
+                    <persName ref="mg">Matthew Gallagher</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed
+                        <date>March 12 to April 4, 2019</date> by</resp>
+                    <persName ref="twj">Tatjana Willms-Jones</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation completed
+                        <date>March 12 to April 4, 2019</date> by</resp>
+                    <persName ref="twj">Tatjana Willms-Jones</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed
+                        <date><!--insert date; see formatting suggestions above--></date> by</resp>
+                    <persName ref=""><!-- Name of Translation Reviewer --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed
+                        <date>April 17, 2019 </date>by</resp>
+                    <persName ref="bm">Bennett Miller</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                        <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed
+                        <date><!-- insert date; see formatting suggestions above --></date> by</resp>
+                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <persName ref=""><!-- Name of Proofer --></persName>
+                    <!-- Remove any additional persName elements not used -->
+                </respStmt>
+                <sponsor>Loyola University Chicago</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date>July 6th, 2019</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName><!-- name of archive --></orgName> in
+                        <placeName><!-- location of archive --></placeName>
+                    </p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
+               encoder's description must be in complete, logical sentences --></p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <div rend="head">
+                 <p><persName key="reissnerCarl">CARL REISSNER</persName> / VERLAG / <placeName key="dresden">DRESDEN</placeName></p>
+                 <p><placeName key="dresden">Dresden</placeName>-N.6, den <date when="1931-12-28">28. Dezember 1931</date>
+        Königstraße 13/ Fernsprecher 54 008</p>
+                 <p><seg><persName key="hoyerNiels">Herrn 
+    Niels Hoyer</persName>,
+    <placeName key="copenhagen">Kopenhagen</placeName>
+    Havnegade 47.</seg></p>
+                </div>
+                <div rend="body">
+                    <salute>Sehr gerehrter <persName key="hoyerNiels">Herr Hoyer!</persName></salute>                   <p><seg n="g01">Der Liebenswürdigkeit von <persName key="">Frau Diel</persName> verdanke ich die Kenntnis Ihres an sie gerichteten Briefes vom <date when="1931-12-15">15.Dezember</date> und Ihrer eigenen die Uebermittlung des <persName key="lili">Lili Elbe</persName>-Buches. Gestatten Sie mir zunächst für beides meinen verbindlichsten Dank auszusprechen.</seg></p> 
+                <p><seg n="g02">Leider jedoch muss ich aus Ihrem Brief an Frau ersehen, dass Sie sich in einem sehr wichtigen Punkt zu Ungunsten meines Verlages in einem Irrtum befinden: Sie schreiben, dass ich für Auslandsbücher keine Vorschusszahlungen leiste. Es ist mir ganz unerklärlich, wie Sie zu einem solchen Irrtum zu gelangen vermochten, den ich durch die folgende Erklärung richtigzustellen mich beeile:</seg></p>
+                <p><seg n="g03">Ich gebe hiermit die Erklärung ab, dass ich noch niemals die deutschen Rechte eines fremdsprachigen Werkes erworben habe, ohne bei Vertragsschluss eine angemessene Vorauszahlung zu leisten!</seg></p>
+                <p><seg n="g04">Andererseits habe ich allerdings auch noch niemals Rechte nach dem Ausland vergeben, ohne bei Vertragsschluss eine angemessene Vorauszahlung zu erhalten. Bei der dänischen Ausgabe des Buches von <persName key="">Frau Diel</persName> handelt es sich hierbei um den ersten derartigen Fall. Aber wenn Sie und Ihr Verleger die Aussichten des Werkes von <persName key="">Frau Diel</persName> für Skandinavien so überaus pessimistisch beurteilen, so kann ich natürlich hieran nichts ändern, sondern nur hoffen, dass der Erfolg Ihren Verleger eines Besseren überzeugen wird.</seg></p>
+                <p><seg n="g05">Bei Ihrer <placeName key="dresden">Dresdener</placeName> Anwesenheit waren Sie so freundlich, mir die deutsche Ausgabe des <persName key="lili">Lili Elbe</persName>-Buches anzubieten mit dem ausdrücklichen Hinweis auf die Tatsache, dass der Autor, bezw. die Autorin testamenta-risch gewünscht ha<subst><del type="overwrite">t</del><add place="inline" type="overwrite" rend="blackInk">be</add></subst>, dass das Buch in meinem Verlag erscheinen solle. Ich bin nun auch grundsätzlich zur Verlagsübernahme bereit, natürlich bei angemessener Voraus<!--aa 05/27 not sure if I coded this substitution right--><subst><del type="overtype">s</del><add place ="inline" type="overtype" rend="">z</add></subst>ahlung<add place="inline" type="insertion" rend="blackInk">,</add> und bitte Sie um Uebermittlung des deut-schen Manuskriptes, worauf meine endgültige Entscheidung sofort erfolgen wird. Mit dem mir übermittelten dänischen Buch vermag ich natürlich we-nig anzufangen. Freilich m<subst><del type="overtype">a</del><add place="inline" type="overtype" rend="">ü</add></subst>sste ich gleichzeitig wissen, welchem anderen deutschen Verlag das Werk bisher vorgelegen hat. Beharren Sie noch auf dem gleichem Standpunkt wie bei unserer Aussprache in <placeName key="dresden">Dresden</placeName>, de<del type="strikethrough">r</del> zufol-ge Sie gern den testamentarischen Wunsch von <persName key="lili">Lili Elbe</persName> erfüllen und das Werk in meinem Verlag erscheinen lassen würden, oder scheint Ihnen die-ser Wunsch von <persName key="lili">Lili Elbe</persName> aus irgendwelchen Gründen nicht recht zu sein? Dass ich damals das Manuskript nicht sogleich mitzunehmen vermochte, werden Sie gewiss nicht missverstanden haben.</seg></p>
+                    <closer>
+                        <salute><seg n="g06">Mit den besten Empfehlungen</seg></salute>
+                        <salute><seg n="g07">Ihr ganz ergebenster</seg></salute>
+                        <signed><add place="below" type="insertion" rend="blackInk"><persName key="">Harry Schumann</persName> 
+                            <!-- aa 05/27 not sure if another element is supposed to go before this line-->Inhaber des Verlages 
+                            <persName key="reissnerCarl">Carl Reissner</persName></add></signed>
+                    </closer>
+    
+                    <postscript>
+                        <p><!-- aa 05/27 I wasn't sure what to but for the place attribute here since this entire piece was written underneath the entire letter. Same for the above closer--><add place="below" type="insertion" rend="redCrayon">Hierauf hat Reissner
+                            dann 
+                            Brief geschrieben, 
+                            auf <!-- aa 05/27 I'm not sure how to code the illegible text like this-->xxx, wo 
+                            er mir Vetrag
+                            unter 
+                            besten 
+                            xxx die 
+                            überhaupt ein
+                            deutscher Verlag 
+                            bieten kann!</add></p>
+                    </postscript>
+            </div>
+          </div>
+            <!-- aa 05/27 a check on all the "addition" and "substitute" encoding should be made as I'm not sure if I did them correctly since it was my first time working with them-->
+    
+    
+        <div type="translation">
+            <div rend="head"><p><persName key="reissnerCarl">CARL REISSNER</persName> / PUBLISHER / <placeName key="dresden">DRESDEN</placeName></p>
+        
+        <p><placeName key="dresden">Dresden</placeName>-N.6, the <date when="1931-12-28">28th December 1931</date>
+            Königstraße 13/ Telephone 54008</p>
+        
+        
+        
+            
+            <p><seg><persName key="hoyerNiels">Mr. 
+                Niels Hoyer</persName> 
+                <placeName key="copenhagen">Copenhagen</placeName>
+                Havnegade 47. 
+            </seg></p></div>
+            
+            <div rend="body">
+                <salute>Dear <persName key="hoyerNiels">Mr. Hoyer</persName>!</salute>
+            <p><seg corresp="#g01">I owe the kindness of <persName key="">Mrs. Diel</persName> to the letter that you addressed to her on the <date when="1931-12-15">15th of December</date>, and your own the transmission  of the <persName key="lili">Lili Elbe</persName> book. Allow me to thank you thoroughly for both of these things. </seg></p>
+            
+            <p><seg corresp="#g02">Unfortunately, I must correct you about a point that you made in your letter to Mrs., regarding my publishing company: you wrote, that I do not offer any advance payments for foreign books. It’s inexplicable to me, how you could arrive at such a conclusion, and I will quickly try to correct it in the following explanation:</seg></p> 
+            
+            
+            <p><seg corresp="#g03">I hereby declare, that I have never gained the German rights to a foreign work, without having given an advance payment when the contract was concluded.</seg></p> 
+            
+            <p><seg corresp="#g04">Furthermore, I have never given away rights to foreign countries, without having received an advance payment when the contract was concluded. <persName key="">Mrs. Diel’s</persName> Danish book is the first case where this has happened.</seg></p> 
+            <p><seg corresp="#g04">But if you and your publishing company predict the outcome of <persName key="">Mrs. Diel’s</persName> work in Scandinavia to be so negative, then I cannot change anything about that and can only hope, that its success will convince your publisher otherwise.</seg></p> 
+            
+                <p><seg corresp="#g05">When I saw you in <placeName key="dresden">Dresden</placeName>, you were so kind as to offer me the German version of <persName key="lili">Lili Elbe’s</persName> book, along with the specific instructions that in her will, the author wished for the book to appear through my publishing company.</seg></p> 
+            <p><seg corresp="#g05">For the most part, I am now ready to take over the publishing, provided I receive the appropriate advance payment, and ask you to send me the German manuscript, to which I will immediately reply my final decision.</seg></p> 
+            <p><seg corresp="#g05">I can do little with the Danish version that was sent to me. Certainly, I would need to know, which other German publishers have previously had the book.</seg></p> 
+            <p><seg corresp="#g05">Do you still insist, as during our discussion in <placeName key="dresden">Dresden</placeName>, that <persName key="lili">Lili Elbe’s</persName> wish that the book be published through my publishing company should be honored, or does <persName key="lili">Lili Elbe’s</persName> wish not seem right to you for any reason?</seg></p>
+            
+            <p><seg corresp="#g05">Surely you did not misunderstand why I did not want to take the manuscript with me at the time.</seg></p>  
+            <closer>
+               <salute><seg corresp="#g06">Best wishes,</seg></salute> 
+               <salute><seg corresp="#g07">Yours sincerely</seg></salute>
+            
+               <signed><add place="below" type="insertion" rend="blackInk"><persName key="">Harry Schumann</persName> 
+            Owner of the publishing company 
+               <persName key="reissnerCarl">Carl Reissner</persName></add></signed>
+            </closer>
+        </div>
+        </div>
+        </body>
+    
+
+</text>
+    
+</TEI>
+
+
+
