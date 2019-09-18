@@ -132,14 +132,14 @@
             <date when="2019-07-06">July 6th, 2019</date>
             <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
             <availability>
-               <!-- Start Example 1 -->
+               <!-- Start Example 1 & 2 -->
                <p select="source">Private Collection.</p> <!--OR--> <p select="source">Harvard University Library</p>
                <!-- End Example 1 -->
-               <!-- Start Example 2-->
+               <!-- Start Example 3-->
                <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern Archives,
                      Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and
                      Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
-               <!-- End Example 2 -->
+               <!-- End Example 3 -->
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                   4.0 International license.</licence>
             </availability>

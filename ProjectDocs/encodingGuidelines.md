@@ -9,7 +9,7 @@ Change any XML special characters to designated XML entities (ie. `&` becomes `&
 _For special characters, use the HTML Entity codes preceded by “&#” and followed by a semicolon “;”. For example, to render an en dash (HTML Entity Code 8211), you would enter “&#8211;”. Here’s a list of HTML Entity Codes: https://www.html.am/reference/html-special-characters.cfm - Use column titled: HTML Entity Number._
   
 ### Standardize XML Filename  
-_note: XML documents should be named the same as the .docx transcription files without the parentheticals and any text that follows the first whitespace._  
+_note: XML documents should be named the same as the .docx transcription files without the parentheticals and any text that follows the first whitespace. Verify with Dr. Caughie or Emily on the correct filename._  
 ````
 19211922ThomsenSdiaryentries Comments(9.21.18).docx   
 ↓  
@@ -37,7 +37,7 @@ Any text that has an English translation should have the following  double `<div
 ````
   
 ### Books / Book Sections / Book Chapters   
-_See [A1.xml](https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml) as edition example._ For book sections and single chapters use only the `<text>` element and the `<body>` element. If a translated section/chapter, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.  _See [Lili's Foreword](https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/bookSections/LiliForeword.xml) as example._  
+_See [A1.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/A1.xml) as edition example._ For book sections and single chapters use only the `<text>` element and the `<body>` element. If a translated section/chapter, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.  _See [Lili's Foreword](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/LiliForeword.xml) as example._  
 
 ````
 <text>
@@ -78,10 +78,10 @@ _See [A1.xml](https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/Ed
 ````  
   
 ### Journal, Magazine, Newspaper Articles  
-_See [Politiken articles](https://github.com/RJP43/LiliElbe_EngagedLearners/tree/master/ProjectDocs/archivalMaterials/Danish_archive/Politiken) as examples._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
+_See [Sandheden](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/Sanheden.xml) as example._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
   
 ````
-<div rend="head"<!--text that appears before headlines; could include title and date-->
+<div rend="head" style="periodical"><!--text that appears before headlines; could include title and date-->
    <p>
       <title><!--name of newspaper/mag/journal, if included in facsimile image otherwise delete--></title>
       <date when="yyyy-mm-dd"><!--exact transcription of date, if included in facsimile image otherwise delete--></date>
@@ -137,7 +137,7 @@ _should mimic Text/Symbols dividing text in original, print rendition; is the p 
  _used to indicate there is a carriage return in the original, print rendition; this is the only acceptable self-closing `<p>` element_   
    
 ### Collation Paragraphs
-_note: Besides letter and diary entries collation IDs for paragraphs are added in the pipeline process transforming to HTML. See [A1/B1 Paragraph Numbering XSLT](https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/numberingParagraphs_MIW_A1andB1.xsl) for example._   
+_note: Besides letter and diary entries collation IDs for paragraphs are added in the pipeline process transforming to HTML._
   
 `<p style="letter" xml:id="a1c00l00p00">Letter Text</p>`  
 `<p style="GreteDiary" xml:id="a1c00d00p00">Diary Text</p>`  
@@ -170,10 +170,10 @@ _In articles, there are sometime columns. At the end of each column use the `<cb
 _note: When transcribing a text we have made the decision as a project to remove line break hyphenation. Therefore, if a word in the print rendition of a text is hyphenated because there was not enough room in the print rendition to fit the entire word on a single line simply remove the hyphenation. **When a word is split over a page break/beginning - `<pb/>` take the second part of the word (after the hyphenation) and paste it directly after the first part of the word (removing the hyphenation) and then proceed with the `<pb>` encoding.**_   
 
 ### Figures, Photos, Illustrations, Images  
-_note: We assign image XML:IDs so that if an image is referenced anywhere else in the document we can link such instances by providing a corresp attribute value containing the XML:ID preceded by a hashtag (like this: `<p corresp=”#i00>Reference to image.</p>`). When assigning an XML:ID for images start with `i` which stands for image. Follow this with a two digit representation of the number image in the parent text; So the first image would be `i01`._ See example below.
+_note: In the main editions we have assigned image XML:IDs so that if an image is referenced anywhere else in the document we can link such instances by providing a corresp attribute value containing the XML:ID preceded by a hashtag (like this: `<p corresp=”#i00>Reference to image.</p>`). When assigning an XML:ID for images start with `i` which stands for image. Follow this with a two digit representation of the number image in the parent text; So the first image would be `i01`._ See example below.
 
 ````
-<figure xml:id="i##">
+<figure xml:id="i##" facs="URL">
    <figDesc><!--direct transcription of image caption provided in print rendition--></figDesc>
       <!--If there is no caption on the image then leave a self-closing `<figDesc/>` element.-->
       <!-- figDesc should include any markup indicating styling, people, places as well as the seg markup if there is translation-->
@@ -181,7 +181,10 @@ _note: We assign image XML:IDs so that if an image is referenced anywhere else i
 </figure>
 ````
   
-### Prosopography Markup   
+**All figures must have a `facs` attribute. The attribute value for each illustraion should provide the url to the illustration in the Lili Elbe Digital Archive's media library.**  
+Example: `facs="http://www.lilielbe.org/media/periodicals/Sandheden_i01.jpg"`  
+   
+### Prosopography Markup    
 _note: All proper people and places (and some not proper) are captured in the following two elements: `<persName>` and `<placeName>`. Both elements can have a key attribute-value that gets checked against a prosopography list imported into our ODD schema of all the people and places across the entire project. This allows us to keep track of people and place across files no matter if the literal string of text is directly providing the proper name of the person/place or not. When encoding prosopography information it is important to refer to our [`LEDA_Prosopography.xml`](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) in order to determine the appropriate keys to use for each person or place you come across in your XML. Every `@xml:id` attribute-value in the [`LEDA_Prosopography.xml` file](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml) is a possible key attribute-value that can be used in your XML files. If a person or place is not listed [`LEDA_Prosopography.xml`](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/LEDA_Prosopography.xml), or if there is an alternate name used in your XML for an existing person/place not included in the `LEDA_Prosopography.xml`, then encoders are instructed to notify Rebecca - **@RJP43** in their team issue or [create an issue](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/23) to alert Dr. Caughie - **@profPLC** and the rest of the team of the newly identified person/place.  From there the project editors will determine if the person or place will get a key ID or simply exist as an encoded `<persName>` or `<placeName>` without a key attribute-value pairing._    
    
 **When encoding people and places be sure to only include the name of the person or place inside of the element. As with most elements, exclude any unnecessary spaces within the element content, but you will also want to be particularly aware when encoding people and places to not include apostrophes or pluralizations within the element.**   

@@ -86,7 +86,7 @@
             </place>
             <place xml:id="anhalterStation">
                <placeName source="#TS">Berlin’s Anhalter Bahnhof</placeName>
-               <placeName source="#A1 #B1">the Berlin station</placeName>
+               <placeName source="#A1>the Berlin station</placeName>
                <placeName source="#G1">Anhalter Bahnhof</placeName>
                <placeName source="#D1-TR">Anhalter railway station</placeName>
                <placeName source="#D1">Anhalterbanegaarden</placeName>
@@ -238,9 +238,9 @@
                      >France</placeName></note>
             </place>
             <place xml:id="elbeBanks">
-               <placeName source="#A1 #B1">banks of <placeName key="elbeRiver">the River
+               <placeName source="#A1">banks of <placeName key="elbeRiver">the River
                      Elbe</placeName></placeName>
-               <placeName source="#A1 #B1">the banks of <placeName key="elbeRiver">the broad
+               <placeName source="#A1">the banks of <placeName key="elbeRiver">the broad
                      stream</placeName></placeName>
                <note/>
             </place>
@@ -279,10 +279,15 @@
                <note>Country in <placeName key="europe">Europe</placeName></note>
             </place>
             <place xml:id="franceNorthern">
-               <placeName source="#A1 #B1 #D1-TR">northern France</placeName>
+               <placeName source="#A1 #D1-TR">northern France</placeName>
                <placeName source="#G1">Nordfrankreich</placeName>
                <placeName source="#D1">Nordfrankrig</placeName>
                <note>Country in <placeName key="europe">Europe</placeName></note>
+            </place>
+            <place xml:id="franceSouth">
+               <placeName source="#A1">Southern France</placeName>
+               <placeName source="#G1">Südfrankreich</placeName>
+               <note><!-- include in note something about our encoding decision regarding the language difference of one word vs two --></note>
             </place>
             <place xml:id="friedrichsstrasse">
                <placeName source="#A1 #D1 #D1-TR">Friedrichsstrasse</placeName>
@@ -326,6 +331,11 @@
                <placeName source="#A1 #D1-TR">Southern Germany</placeName>
                <placeName source="#D1">Sydtyskland</placeName>
                <placeName source="#G1">Süddeutschland</placeName>
+               <note/>
+            </place>
+            <place xml:id="germanyNorth">
+               <placeName source="#A1">Northern Germany</placeName>
+               <placeName source="#G1">Norddeutschland</placeName>
                <note/>
             </place>
             <place xml:id="greece">
@@ -1149,7 +1159,7 @@
                <persName>Lili Ilse Elvenes</persName>
                <persName>Lili Courtaud</persName>
                <persName>Lili Courtot</persName>
-               <persName source="#A1 #B1 #G1">Julie Stuart</persName>
+               <persName source="#A1 #G1">Julie Stuart</persName>
                <persName source="#D1 #D1-TR">Julie Humbert</persName>
                <persName source="#TS">Baronne le Courtaut</persName>
                <persName source="#D1-TR">Mrs. Lili</persName>
@@ -1243,11 +1253,11 @@
                <note>Historical figure not identified</note>
             </person>
             <person xml:id="nurseEllen" source="fictional">
-               <persName source="#A1 #B1">Ellen</persName>
+               <persName source="#A1">Ellen</persName>
                <note>Historical figure not identified</note>
             </person>
             <person xml:id="nurseFrieda" source="fictional">
-               <persName source="#A1 #B1 #D1-TR">Sister Frieda</persName>
+               <persName source="#A1 #D1-TR">Sister Frieda</persName>
                <persName source="#D1">Søster Frieda</persName>
                <persName source="#G1">Schwester Frieda</persName>
                <note>Historical figure not identified</note>
@@ -1261,7 +1271,7 @@
                <note>Historical figure not identified</note>
             </person>
             <person xml:id="nurseIlse" source="fictional">
-               <persName source="#A1 #B1">Ilse</persName>
+               <persName source="#A1">Ilse</persName>
                <note>Historical figure not identified</note>
             </person>
             <person xml:id="nurseMargaret" source="fictional">
