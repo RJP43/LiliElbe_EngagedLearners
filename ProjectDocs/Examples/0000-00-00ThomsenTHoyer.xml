@@ -48,8 +48,8 @@
             <respStmt>
                <resp>HTML proofing completed by</resp>
                <persName ref="aa">Adeline Azungue</persName>
-               </respStmt>
-            <sponsor>Loyola University Chicago</sponsor>
+               </respStmt>            
+            <sponsor>Loyola University Chicago Libraries</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
          </titleStmt>
          <publicationStmt>
@@ -63,7 +63,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc source="Manuscript" xml:lang="dan">
-            <p>The paper is folded into fourths. The name Thomsen is written in the upper left corner in what appears to be pencil. There are two hole punches on the left margin of the page. There appears to be what looks like an imprint of a logo or picture on the page itself underneath the writing in very light ink.</p>
+            <p><!-- PLC provided description goes here. --></p>
          </sourceDesc>         
       </fileDesc>
       <encodingDesc>
@@ -74,9 +74,9 @@
                </category>
                <category source="collex" xml:id="genre">
                   <catDesc>Correspondence</catDesc>
-               </category>
+               </category>               
                <category source="collex" xml:id="text">
-                  <catDesc>URL to Plain Text</catDesc>
+                  <catDesc><!-- URL to Plain Text will go here.--></catDesc>
                </category>
                <category source="dc" xml:id="date">
                   <catDesc>

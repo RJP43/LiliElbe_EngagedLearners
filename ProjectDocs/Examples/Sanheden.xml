@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/Sandheden.html" xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/Sanheden.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"En bog om, hvordan Hr. Wegener blev til Frøken Wegener."</title>
+            <title type="alternative">"A Book About How Mr. Wegener Became Miss Wegener."</title>
+            <author><persName role="AUT">Marius Wulff</persName></author>
+            <respStmt>
+               <resp>Photographed by</resp>
+               <persName ref="plc">Pamela L. Caughie</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription completed by </resp>
+               <persName ref="mo">Marianne Ølholm</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Translation completed by </resp>
+               <persName ref="mo" role="TRL">Marianne Ølholm</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Translation reviewed by</resp>
+               <persName ref="plc">Pamela L. Caughie</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by </resp>
+               <persName ref="kej">Kristin Jacobsen</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance and/or XML proofing completed by</resp>
+               <persName ref="rjp">Rebecca J. Parker</persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML transformed into HTML
+                     <date><!-- exact transformation date yyyy-mm-dd --></date> by </resp>
+               <persName ref="rjp">Rebecca J. Parker</persName>
+            </respStmt>
+            <respStmt>
+               <resp>HTML proofing completed by </resp>
+               <persName ref="mo">Marianne Ølholm</persName>
+            </respStmt>
+            <sponsor>Loyola University Chicago Libraries</sponsor>
+            <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Lili Elbe Digital Archive</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date>July 6th, 2019</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName select="source">The Royal Library</orgName> in
+                  <placeName>Copenhagen</placeName>.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc source="Periodical" xml:lang="dan">
+            <p><!-- PLC provided description goes here. --></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+               <category source="collex" xml:id="discipline">
+                  <catDesc>History/Gender Studies</catDesc>
+               </category>
+               <category source="collex" xml:id="genre">
+                  <catDesc>Essay/Nonfiction</catDesc>
+               </category>
+               <category source="collex" xml:id="image">
+                  <catDesc>http://lilielbe.org/media/periodicals/Sandheden_i01.jpg</catDesc>
+               </category>
+               <category source="collex" xml:id="text">
+                  <catDesc><!-- URL to Plain Text will go here.--></catDesc>
+               </category>
+               <category source="dc" xml:id="date">
+                  <catDesc>
+                     <![CDATA[<dc:date>1930</dc:date>]]>
+                  </catDesc>
+               </category>
+               <category source="dcterms" xml:id="isPartOf">
+                  <catDesc>Originally published in <hi rend="italics">Sandheden</hi>.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <hyphenation>
+               <p>We have removed the hyphenation that appears in the printed text during
+                  digitization and encoding. Original hyphenation can be consulted in the facsimile
+                  images.</p>
+            </hyphenation>
+         </editorialDecl>
+      </encodingDesc>  
+   </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <pb facs="http://lilielbe.org/media/periodicals/Sandheden_02.jpg"/>
+            <div rend="head" style="periodical">
+               <p><title>En Bog om, hvordan <persName key="wegenerE">Hr.
+                           Wegener</persName> blev til <persName key="lili">Frøken
+                           Wegener.</persName></title></p>
+            </div>
+            <div rend="headlines">
+               <list>
+                  <item rend="primary"><hi rend="bold"><persName key="hasselbalchS"
+                              >Hasselbalch</persName> udgiver Skandalebogen.</hi></item>
+               </list>
+            </div>
+            <div rend="body">
+               <p>SPEKULATIONEN i Tryksager, som berører det kønslige Omraade, har
+                     efterhaanden faaet saadan et Omfang, at man skulde tro, at Politidirektøren sov
+                     og lod <anchor type="commentRangeStart" n="1"/>Anstødelighedsparagraffer
+                        <anchor type="commentRangeEnd" n="1"/>
+                     <note type="translator" source="mo" corresp="comment_1">This likely refers to
+                        Paragraph 184 in the criminal law of 1866 which was used in other cases of
+                        literary censorship.</note> være Anstødelighedsparagraffer. Maaske er
+                     Sandheden den, at Politidirektøren, bistaaet af <anchor
+                        type="commentRangeStart" n="2"/><persName key="mellerup">Hr.
+                        Mellerup</persName>, <anchor type="commentRangeEnd" n="2"/>
+                     <note type="editor" source="plc" corresp="comment_2"><persName key="mellerup"
+                           >Einer Mellerup</persName> was deputy police commissioner in <placeName
+                           ref="copenhagen">Copenhagen</placeName> from 1926.</note> den drabelige
+                     Væbner, har saa travlt med at beskytte <anchor type="commentRangeStart" n="3"/>
+                     <persName key="steinckeK">Steincke</persName>, <anchor type="commentRangeEnd"
+                        n="3"/>
+                     <note type="translator" source="mo" corresp="comment_3"><persName
+                           key="steinckeK">K. K. (Karl Kristian) Steincke</persName> was a prominent
+                        social democrat. From 1929 he was the minister for social affairs and he is
+                        probably best known for being behind the social reform of 1933 which is
+                        often seen as the beginning of the Danish welfare state. The reference here
+                        may be to the police commissioner's protection of Steincke's 1920 book, <hi
+                           rend="italics">The Future's Social Welfare</hi> (<hi rend="italics"
+                           >Fremtidens forsørgelsesvæsen</hi>) in which he advocated for the
+                        sterilization of "nonentities" or persons with non-normative sexual
+                        proclivities. The journal seems to be condemning <persName key="mellerup"
+                           >Mellerup</persName> for supporting Steincke’s writing on such scandalous
+                        topics while criticizing, if not censoring, this journal. So now they are
+                        going after <persName key="hasselbalchS">Hasselbalch</persName> for
+                        publishing Wegener’s scandalous story.</note> at de ikke kan have Blikket
+                     rettet mod andre Steder end dette Blad.</p>
+               <!-- KEJ 2019-04-16: Are we tagging publications? -->
+               <p>For imidlertid at hjælpe Politidirektøren, underretter vi herved ham
+                     og Læserne om, at der i Foraaret vil udkomme en Bog hos <persName
+                        key="hasselbalchS">Hasselbalch</persName>, og den er en saa oplagt
+                     Spekulation i Folks Nyfigenhed overfor de seksuelle Spørgsmaal, at der absolut
+                     er Grund til Indskriden.</p>
+               <p>Bogen er skrevet af <persName key="wegenerE">Maleren <hi
+                           rend="italics">Wegener</hi></persName>, der tidligere var <persName
+                        key="wegenerE"><persName key="wegenerG">Gerda Wegener</persName>s
+                        Mand</persName>. Den handler om <persName key="wegenerE">Maleren</persName>s
+                     Oplevelser under Forvandlingen fra Mand til Kvinde.</p>
+               <p>Denne Forvandling fandt Sted for ikke længe siden i <placeName
+                        key="berlin">Berlin</placeName>, hvor <persName key="wegenerE"
+                        >Wegener</persName> paa Operationsbordet lod sig forvandle fra Mand til
+                     Kvinde.</p>
+               <list>
+                  <item><hi rend="bold">Et ulykkeligt Ægteskab.</hi></item>
+               </list>
+               <p>Malerens Ægteskab var ulykkeligt. Han var ikke en rask og naturlig
+                     Mand. Halvvejs var han Kvinde, og dette medførte voldsomme Brydninger i
+                     Hjemmet. <persName key="wegenerE">Wegener</persName> led meget under de
+                     fortvivlede Forhold i Hjemmet. Han elskede <persName key="wegenerG">sin
+                        Hustru</persName> med dyb og ægte Hengivenhed, men han havde ikke imod hende
+                     det naturlige mandige Begær, som en rigtig Mand føler overfor den Kvinde, han
+                     elsker. Han kæmper samtidigt en fortvivlet Kamp mod en Dragelse mod andre Mænd,
+                     som han følte i sig.</p>
+               <p>Han grublede mere og mere over disse Forhold, indtil han en Dag hørte
+                     om de Operationer, tyske Videnskabsmænd foretager, og som gør Mennesker af hans
+                     Slags sunde og naturlige ved at give dem deres rette Køn.</p>
+               <list>
+                  <item><hi rend="bold">Hellere skifte Køn end blive ved at være
+                           ulykkelig.</hi></item>
+               </list>
+               <p>Fra det Øjeblik tog <persName key="wegenerE">Wegener</persName>s
+                     Tanker ny Retning. Han syntes næsten ikke, han kunde blive ved med at udholde
+                     den Skæbne, der havde givet ham en Kvindesjæl i en Mandskrop. Han tænkte da, at
+                     det maatte være bedre at skifte Køn end at blive ved at være ulykkelig.
+                        <persName key="wegenerG">Hans Hustru</persName> forlangte nu Skilsmisse, og
+                        <persName key="wegenerE">Wegener</persName> gik gerne med dertil. Ikke fordi
+                     han ikke satte umaadelig Pris paa <persName key="wegenerG">sin
+                        Hustru</persName> – for <cb n="1"/>det gjorde han, – men fordi Drifterne i
+                     hans Krop ikke længere var vendt imod hendes.</p>
+               <p>Han fandt nu, at det bedste, han kunne gøre, var at rejse til
+                        <placeName key="germany">Tyskland</placeName> og der underkaste sig den
+                     Operation, der kunde forandre ham til en rigtig Kvinde.</p>
+               <p>Han realiserede sin Plan og stod nogle Uger senere udenfor en
+                        <placeName key="gebhardSanatorium">Privatklinik</placeName> i <placeName
+                        key="berlin">Berlin</placeName>s fornemme Kvarter.</p>
+               <p>Han ringede paa og blev modtaget af en venlig Sygeplejerske, der bad
+                     ham tage Plads og skrive sit Navn i en Modtagelsesbog, som blev forevist
+                        <persName key="gebhard">Lægen</persName>. <persName key="wegenerE"
+                        >Wegener</persName> skrev sit Navn og satte sig ned for at vente, men han
+                     havde næppe taget Plads, før Døren paany gik op, og <persName key="gebhard"
+                        >Lægen</persName> traadte ind.</p>
+               <!-- KEJ 2019-03-30: Laegen, or "the doctor," in the two cases in this paragraph seems to be Gebhard, but there's no evidence for sure. It could be another doctor at the clinic. Should I leave the tags here or take them out? -->
+               <list>
+                  <item><hi rend="bold">“Det er ikke værre end at gaa til
+                           Tandlægen,”</hi></item>
+               </list>
+               <p>sagde han til <persName key="wegenerE">Wegener</persName>, da han
+                     havde angivet sit Ærinde, som gik ud paa at spørge, om det var en meget
+                     alvorlig Operation, der skulde til for at gøre ham til Kvinde.</p>
+               <p><persName key="wegenerE">Wegener</persName> lod sig derpaa indlægge
+                     paa <placeName key="gebhardSanatorium">Kliniken</placeName>, og et Par Dage
+                     efter fandt Operationen Sted.</p>
+               <p>Wegeners Baare blev kørt ind i Operationsstuen, der blev lagt en
+                     Kloroformmaske paa hans Ansigt, og for sidste Gang sov han ind som
+                  Mand.</p>
+               <p>Da han vaagnede i sin Seng, var han Kvinde. Operationen var
+                     overstaaet, og den var forløbet heldigt.</p>
+               <p>“Naa, <persName key="lili">Frøken</persName>, hvordan gaar det?”
+                     spurgte <persName key="gebhard">Overlægen</persName> venligt. <persName
+                        key="wegenerE">Wegener</persName> smilede.</p>
+               <!-- KEJ 2019-04-17: I coded Miss as Lili and Wegener as Einar since they used the name Wegener, but the text says that "he was a woman." Should both be tagged as Lili? -->
+               <p>For første Gang var hun blevet tiltalt som Kvinde, og hendes
+                     Kvindesjæl frydede sig over endelig at bo i et Kvindelegeme.</p>
+               <p>…. Det varede ikke ret længe, før hun var kommet sig fuldkommen efter
+                     Operationen og blev udskrevet fra <placeName key="gebhardSanatorium"
+                        >Kliniken</placeName>.</p>
+               <p>Hun befandt sig nu pludselig i en højst mærkværdig Situation. Kvinde
+                     var hun, men hun slæbte stadig rundt med et Mandsnavn og med Papirer, der lød
+                     paa, at hun var Mand.</p>
+               <p>Hun havde hurtigt vænnet sig til Kvindetøj, og hun befandt sig langt
+                     bedre i denne Klædning end i Mandstøj. Men nu maatte hun ogsaa have Papirer,
+                     der lød paa, at hun var Kvinde.</p>
+               <p>Det viste sig yderst vanskeligt at faa disse Papirer. Der krævedes et
+                     Utal af Undersøgelser og Attester fra Embedslæger og Retslægeraad men omsider
+                     faldt da Ministeriets Afgørelse, som gik ud paa, at naar hun faktisk <hi
+                        rend="italics">var</hi> Kvinde, saa skulde hun <cb n="2"/><pb/> ogsaa
+                     have Papirer, der lød paa at hun var det. Hun antog da Navnet <hi
+                        rend="italics"><persName key="lili">Lily Wegener</persName></hi>, og som
+                     saadan blev hun ogsaa indført i Kirkebøgerne. <persName key="wegenerE">Manden
+                        Wegener</persName> blev samtidigt slettet af Kirkebogen, og <persName
+                        key="lili">Frk. Wegener</persName>s Ret til at bære Kvindenavnet var
+                     derefter uomstødelig.</p>
+               <!-- KEJ 2019-03-30: Are we tagging for organizations? -->
+               <!-- KEJ 2019-02-21: Cartoon begins here and spreads over both columns of the page. -->
+               <figure facs="http://www.lilielbe.org/media/periodicals/Sandheden_i01.jpg">
+                  <figDesc><hi rend="bold">I vore Dage kan man vente sig alt. Forleden
+                           kom min Fætter op og besøgte mig. Hun var blevet til en Kusine, siden jeg
+                           sidst saa hende.</hi></figDesc>
+                  <note source="#kj">A man in striped pajamas is sitting up in a bed. A woman with
+                     short hair, dressed in an elegant pantsuit, sits at the end of the bed smiling
+                     at the man. A lit candle is on the bedside table. The cartoon is signed A.R.
+                     CANE.</note>
+                  <!-- KEJ 2019-04-09: TRANSLATE NOTE INTO DANISH. TALK ABOUT TRANSLATING ALL NOTES INTO THE LANGUAGE OF THE ORIGINAL TEXT -->
+               </figure>
+               <list>
+                  <item><hi rend="bold">Mødet med <persName key="wegenerG">den
+                              tidligere Hustru.</persName></hi></item>
+               </list>
+
+               <p>Ikke ret længe efter mødte <persName key="lili">Lily
+                        Wegener</persName>
+                     <anchor type="commentRangeStart" n="4"/><persName key="wegenerG">sin tidligere
+                        Hustru.</persName><anchor type="commentRangeEnd" n="4"/><note
+                        type="translator" source="mo" corresp="comment_4">The pronoun is not
+                        gendered in Danish.</note>
+                  </p>
+               <p>Det var med ikke ringe Spænding, hun gik til dette Møde. Hun skulde
+                     nu for første Gang gense <persName key="wegenerG">den Kvinde</persName>, som
+                     hun havde været gift med, og som hun i Ægteskabet havde pint og skuffet saa
+                     smerteligt.</p>
+               <p>Men <persName key="wegenerG">Gerda Wegener</persName> sluttede
+                        <persName key="lili">Lily</persName> i sine Arme, saa snart de mødtes. De
+                     var nu to Kvinder, der stod overfor hinanden. De var paa lige Fod, og al den
+                     gamle Sympati fra Forlovelsens og Hvedebrødsdagenes Tid dukkede op i
+                     hende.</p>
+               <p>Og <persName key="lili">Lily</persName> gik det lige saadan. Hun var
+                     rørt til Taarer over Gensynet. Vel smilede hun, men store Taarer trillede hende
+                     dog ned over Kinderne.</p>
+               <cb n="3"/>
+               <p>De to Damer sluttede et nyt Venskab, og det endte med, at de enedes
+                     om, at <persName key="wegenerG">Gerda</persName> skulde adoptere <persName
+                        key="wegenerE">sin tidligere Mand</persName>, saa hun blev hendes
+                     Datter.</p>
+               <!-- I tagged "sin tidligere Mand" or "her former husband" as Einar, but should it really be referring to Lili? I did not tag the phrase "saa hun blev hendes Datter," which is "she [Lili] became her [Gerda's] daughter." Should I tag this, as well? -->
+               <p>Der viste sig ikke store Vanskeligheder ved Adoptionen. Ministeriet
+                     bevilgede gerne, at <persName key="wegenerG">Fru Wegener</persName> adopterede
+                        <persName key="lili">Frk. Lily Wegener</persName>, og paa denne Maade
+                     <!-- KEJ 2019-02-21: The cartoon breaks up the text at this point in the second column. -->
+                     blev <persName key="wegenerE">den tidligere Ægtemand</persName> nu <persName
+                        key="lili">Datter</persName> i Huset hos <persName key="wegenerG">sin
+                        forhenværende Hustru</persName>.</p>
+               <!-- KEJ 2019-04-08: Again, this could be really confusing. Should I tag tidliegere Aegtemand as Einar and Datter as Lili? -->
+               <list>
+                  <item><hi rend="bold">Skandalebogen.</hi></item>
+               </list>
+               <p>Alt dette kunde være meget godt, men det, der maa vække enhver
+                     sundttænkende Mands Forargelse, er den Omstændighed, at <persName key="lili"
+                        >Frk. Wegener</persName> nu vil udgive en Skandalebog.</p>
+               <p>Bogen kommer i <persName key="lili">Frk. Wegener</persName>s Navn,
+                     men <hi rend="italics"><persName key="louLou">Loulou Lassen</persName></hi> fra
+                     “Politiken” har skrevet den for hende, og den giver en udpenslet Skildring af
+                     de erotiske Fornemmelser, <anchor type="commentRangeStart" n="5"
+                        /><persName>Mennesket Wegener</persName>
+                     <anchor type="commentRangeEnd" n="5"/><note type="editor" source="kej"
+                        corresp="comment_5">Decision made to tag "Mennesket Wegener" without a key
+                        because gender is unclear.</note> har oplevet, dels som mand og dels som
+                     Kvinde.</p>
+               <!-- KEJ 2019-04-18: I added this note as the encoder, but the only choices for the note type are translator or editor. I chose editor. Do you want to leave it that way or include an option for encoder?-->
+               <!-- KEJ 2019-04-18: Is there any other place where we want to enclude persName without a key? -->
+               <!-- KEJ 2019-04-08: Should I be tagging publication names? -->
+               <p>Kan man virkelig det?</p>
+               <p><hi rend="italics">Er</hi> en saadan Udpensling ikke for utiltalende
+                     for et anset Forlag som <persName key="hasselbalchS">Hasselbalch</persName>s.
+                     Vi troede Jo, men <persName key="hasselbalchS">Hasselbalch</persName> mener
+                     altsaa Nej.</p>
+               <cb n="4"/>
+            </div>
+            <!-- KEJ 2019-02-21: Notes end of article. -->
+         </div>
+         <!-- KEJ 2019-02-21: Notes end of  Danish version of article. -->
+         <div type="translation">
+            <pb facs="http://lilielbe.org/media/periodicals/Sandheden_02.jpg"/>
+            <!-- KEJ 2019-03-27: article translation-->
+            <div rend="head" style="periodical">
+               <p><hi rend="bold">A Book About How <persName key="wegenerE">Mr.
+                           Wegener</persName> Became <persName key="lili">Miss
+                        Wegener</persName></hi>.
+               </p>
+            </div>
+            <div rend="headlines">
+               <list>
+                  <item rend="primary"><hi rend="bold"><persName key="hasselbalchS"
+                              >Hasselbalch </persName>Publishes the Scandalous
+                     Book.</hi></item>
+               </list>
+            </div>
+            <div rend="body">               
+               <p>THE SPECULATION in printed matter touching on the sexual domain has
+                     by now taken on such proportions that one would think that the commissioner of
+                     police was asleep and let <anchor type="commentRangeStart" n="1"/>obscenity
+                     paragraphs <anchor type="commentRangeEnd" n="1"/>
+                     <note type="translator" source="mo" corresp="comment_1"> This likely refers to
+                        Paragraph 184 in the criminal law of 1866 which was used in other cases of
+                        literary censorship.</note> be obscenity paragraphs. Perhaps the truth is
+                     that the commissioner of police aided by <anchor type="commentRangeStart" n="2"
+                        /><persName key="mellerup">Mr. Mellerup</persName>, <anchor
+                        type="commentRangeEnd" n="2"/>
+                     <note type="translator" source="plc" corresp="comment_2">
+                        <persName key="mellerup">Einer Mellerup</persName> was deputy police
+                        commissioner in Copenhagen from 1926.</note>his formidable esquire, is so
+                     busy protecting <anchor type="commentRangeStart" n="3"/><persName
+                        key="steinckeK">Steincke</persName>, <anchor type="commentRangeEnd" n="3"
+                        /><note type="translator" source="mo" corresp="comment_3">
+                        <persName key="steinckeK">K. K. (Karl Kristian) Steincke</persName> was a
+                        prominent social democrat. From 1929 he was the minister for social affairs
+                        and he is probably best known for being behind the social reform of 1933
+                        which is often seen as the beginning of the Danish welfare state. The
+                        reference here may be to the police commissioner's protection of Steincke's
+                        1920 book, <hi rend="italics">The Future's Social Welfare</hi> (<hi
+                           rend="italics">Fremtidens forsørgelsesvæsen</hi>) in which he advocated
+                        for the sterilization of "nonentities" or persons with non-normative sexual
+                        proclivities. The journal seems to be condemning <persName key="mellerup"
+                           >Mellerup</persName> for supporting <persName key="steinckeK"
+                           >Steincke</persName>’s writing on such scandalous topics while
+                        criticizing, if not censoring, this journal. So now they are going after
+                           <persName key="hasselbalchS">Hasselbalch</persName> for publishing
+                           <persName key="wegenerE">Wegener</persName>’s scandalous story.
+                     </note>that they cannot have their glance directed to other places than this
+                     magazine.</p>
+               <!-- KEJ 2019-04-17: The note talks about "Wegener's scandalous story," and I coded it as Einar. Should it be Lili instead? Whose story is this, philosophically? -->
+               <p>But to help the commissioner of police we hereby inform him and the
+                     readers that a book will be published by <persName key="hasselbalchS"
+                        >Hasselbalch</persName> in the spring and that it is such an obvious
+                     speculation in people’s curiosity towards the sexual questions that there is
+                     absolutely cause for intervention. </p>
+               <!-- KEJ 2019-04-01: Should I tag the commissioner of police? -->
+               <!-- KEJ 2019-04-01: I deleted the "a" before "such." Does it need to be corrected anywhere else? -->
+               <p>The book is written by the painter <persName key="wegenerE"><hi
+                           rend="italics">Wegener</hi></persName>, who was formerly <persName
+                        key="wegenerE"><persName key="wegenerG">Gerda Wegener</persName>'s
+                        husband</persName>. It is about <persName key="wegenerE">the
+                        painter</persName>’s experiences during the transformation from man into
+                     woman.</p>
+               <p>This transformation took place not long ago in <placeName
+                        key="berlin">Berlin</placeName>, where on the operating table <persName
+                        key="wegenerE">Wegener</persName> let himself be transformed from man into
+                     woman.</p>
+               <list>
+                  <item><hi rend="bold">An Unhappy Marriage.</hi></item>
+               </list>
+               <p>The painter’s marriage was unhappy. He was not a well and natural
+                     man. He was halfway woman and this caused severe conflicts in the home.
+                        <persName key="wegenerE">Wegener</persName> suffered greatly under the
+                     desperate conditions in the home. He loved <persName key="wegenerG">his
+                        wife</persName> with a deep and genuine affection, but he did not have the
+                     natural masculine desire towards her that a real man feels for the woman he
+                     loves. At the same time, he fights a desperate fight against an attraction to
+                     other men that he felt within himself.</p>
+               <p>He brooded more and more on these matters until one day he heard
+                     about the operations performed by German scientists that make people of his
+                     kind healthy and natural by giving them their proper sex.</p>
+               <list>
+                  <item><hi rend="bold">Better Change Your Sex than Remain
+                           Unhappy.</hi></item>
+               </list>
+               <p>From that moment on <persName key="wegenerE">Wegener</persName>'s
+                     thoughts took a new direction. He hardly thought that he could continue to
+                     endure the fate that had given him a woman’s soul in a man’s body. He then
+                     thought that it must be better to change sex than to remain unhappy. <persName
+                        key="wegenerG">His wife</persName> now filed for a divorce and <persName
+                        key="wegenerE">Wegener</persName> willingly agreed to this. Not because he
+                     did not appreciate <persName key="wegenerG">his wife</persName> – <cb n="1"/>he
+                     did, – but because the instincts in his body were no longer turned towards
+                     hers.</p>
+               <p>He now found that the best he could do was to travel to <placeName
+                        key="germany">Germany</placeName> and undergo the operation that could
+                     change him into a real woman there.</p>
+               <p>He carried out his plan and some weeks later he was standing outside
+                        <placeName key="gebhardSanatorium">a private clinic</placeName> in the
+                     fashionable quarter of <placeName key="berlin">Berlin</placeName>.</p>
+               <p>He rang the doorbell and was received by a friendly nurse who asked
+                     him to take a seat and write his name in a reception book that was shown to
+                        <persName key="gebhard">the doctor</persName>. <persName key="wegenerE"
+                        >Wegener</persName> wrote his name and sat down to wait, but he had hardly
+                     taken a seat before the door was opened again and <persName key="gebhard">the
+                        doctor</persName> stepped in.</p>
+               <!-- KEJ 2019-03-30: Laegen, or "the doctor," in the two cases in this paragraph seems to be Gebhard, but there's no evidence for sure. It could be another doctora at the clinic. Should I leave the tags here or take them out? -->
+               <list>
+                  <item><hi rend="bold">“It Is No Worse Than Going to the
+                           Dentist,”</hi></item>
+               </list>
+               <p>he said to <persName key="wegenerE">Wegener</persName>, when he had
+                     stated his errand which was to ask if it was a very serious operation that was
+                     needed to make him a woman.</p>
+               <p><persName key="wegenerE">Wegener</persName> then admitted himself to
+                        <placeName key="gebhardSanatorium">the clinic</placeName>, and a few days
+                     later the operation took place. </p>
+               <p>Wegener’s gurney was pushed into the operating room, a chloroform
+                     mask was put on his face, and for the last time he fell asleep as a
+                  man.</p>
+               <p>When he woke up in his bed, he was a woman. The operation was over
+                     and it had been a success.</p>
+               <p>“Well, <persName key="lili">Miss</persName>, how are you doing?”
+                        <persName key="gebhard">the senior physician </persName> asked in a friendly
+                     manner. <persName key="wegenerE">Wegener</persName> smiled.</p>
+               <!-- KEJ 2019-04-17: I coded Miss as Lili and Wegener as Einar since they used the name Wegener, but the text says that "he was a woman." Should both be tagged as Lili? -->
+               <p>For the first time, she was addressed as a woman and her woman’s soul
+                     rejoiced in finally dwelling in a woman’s body.</p>
+               <p>…. It was not long before she had recovered completely from the
+                     operation and was discharged from <placeName key="gebhardSanatorium">the
+                        clinic</placeName>.</p>
+               <p>She was now suddenly in a very peculiar situation. A woman she was
+                     but she was still carrying around a man’s name and papers stating that she was
+                     a man.</p>
+               <p>She had quickly become accustomed to women’s clothes and she was far
+                     more comfortable in this clothing than in men’s clothes. But now she must also
+                     have papers stating that she was a woman.</p>
+               <p>It proved extremely difficult to get these papers. It took countless
+                     examinations and certificates from community physicians and the Medico-legal
+                     Council, but eventually the ministry arrived at its decision to the effect that
+                     when she actually <hi rend="italics">was</hi> a woman she should <cb n="2"/><pb/> also have papers stating that she was so. She then assumed the name
+                        <hi rend="italics"><persName key="lili">Lily Wegener</persName></hi>, and as
+                     such she was also entered into the parish registers. At the same time <persName
+                        key="wegenerE">the man Wegener</persName> was struck from the parish
+                     register and <persName key="lili">Miss Wegener</persName>'s right to bear the
+                     woman’s name was incontestable after that.</p>
+               <!-- KEJ 2019-03-30: Tag for organization? -->
+               <!-- KEJ 2019-02-21: Cartoon begins here and spreads over both columns of the page. -->
+               <figure facs="http://www.lilielbe.org/media/periodicals/Sandheden_i01.jpg">
+                  <figDesc><hi rend="bold">Nowadays, you can expect anything. The other
+                           day my (male) cousin (Fætter) came up to see me. He had become my (female) cousin
+                           (Kusine) since I saw him last.</hi>
+                  </figDesc>
+                  <note source="#kej">A man in striped pajamas is sitting up in a bed. A woman with
+                     short hair, dressed in an elegant pantsuit, sits at the end of the bed smiling
+                     at the man. A lit candle is on the bedside table. The cartoon is signed A.R.
+                     CANE.</note>
+               </figure>
+               <list>
+                  <item><hi rend="bold">Meeting <persName key="wegenerG">the Former
+                              Wife.</persName></hi></item>
+               </list>
+               <p>Not long after this, <persName key="lili">Lily Wegener</persName> met
+                        <anchor type="commentRangeStart" n="4"/><persName key="wegenerG">her former
+                        wife</persName>.<!-- KEJ 2019-04-02: Only the word "sin" is being commented on, but I can't figure out how to structure the note tag with the persName tag. --><!-- MAKE SURE WHOLE PHRASE IS INCLUDED AS PART OF NOTE. -->
+                     <anchor type="commentRangeEnd" n="4"/>
+                     <note type="translator" source="mo" corresp="comment_4"> The pronoun is not
+                        gendered in Danish.</note>
+                  </p>
+               <p>It was with considerable anticipation that she went to this meeting.
+                     For the first time she was now to see <persName key="wegenerG">this
+                        woman</persName> again, to whom she had been married and whom in the
+                     marriage she had tortured and disappointed so painfully.</p>
+               <!-- KEJ 2019-04-02: I added a comma after again. -->
+               <p>But <persName key="wegenerG">Gerda Wegener</persName> clasped
+                        <persName key="lili">Lily</persName> in her arms as soon as they met. They
+                     were now two women standing face to face. They were on equal terms and all the
+                     old sympathy from the time of the engagement and the honeymoon rose in
+                     her.</p>
+               <p>And the same happened to <persName key="lili">Lily</persName>. She
+                     was moved to tears by the reunion. She was certainly smiling but big tears
+                     rolled down her cheeks.</p>
+               <cb n="3"/>
+               <p>The two ladies formed a new friendship and they ended up agreeing
+                     that <persName key="wegenerG">Gerda</persName> should adopt <persName
+                        key="wegenerE">her former husband</persName>, so that she became her
+                     daughter.</p>
+               <!-- KEJ 2019-04-01: I tagged "sin tidligere Mand" or "her former husband" as Einar, but should it really be referring to Lili? I did not tag the phrase "saa hun blev hendes Datter," which is "she [Lili] became her [Gerda's] daughter." Should I tag this, as well? -->
+               <p>No great difficulties appeared in connection with the adoption. The
+                     ministry willingly granted that <persName key="wegenerG">Mrs.
+                        Wegener</persName> adopted <persName key="lili">Miss Lily
+                     Wegener</persName>, and in this way
+                        <!-- KEJ 2019-02-21: The cartoon breaks up the text at this point in the second column. --><persName
+                        key="wegenerE">the former husband</persName> now became a daughter in the
+                     house of <persName key="wegenerG">her former wife</persName>.</p>
+               <!-- Again, this could be really confusing. Should I tag tidliegere Aegtemand as Einar and Datter as Lili? CHECK FROM ABOVE -->
+               <list>
+                  <item><hi rend="bold">The Scandalous Book.</hi></item>
+               </list>
+               <p>This could all be very well but what must give offence to any sanely
+                     thinking man is the fact that <persName key="lili">Miss Wegener</persName> is
+                     now going to publish a scandalous book.</p>
+               <p>The book will appear in <persName key="lili">Miss
+                     Wegener</persName>'s name, but <hi rend="italics"><persName key="louLou">Loulou
+                           Lassen</persName></hi> from “Politiken” has written it for her and it
+                     gives an unnecessarily detailed description of the erotic feelings that the
+                        <anchor type="commentRangeStart" n="5"/><persName>the person
+                        Wegener</persName>
+                     <anchor type="commentRangeEnd" n="5"/><note type="editor" source="kej"
+                        corresp="comment_5">Decision made to tag "the person Wegener" without a key
+                        because gender is unclear.</note> has experienced as a man and as a woman
+                     respectively.</p>
+               <!-- Should I be tagging publication names? -->
+               <!-- KEJ 2019-04-18: I added this note as the encoder, but the only choices for the note type are translator or editor. I chose editor. Do you want to leave it that way or include an option for encoder? -->
+               <!-- KEJ 2019-04-18: Is there any other place where we want to enclude persName without a key? -->
+               <p>Can you really do that?</p>
+               <p><hi rend="italics">Is</hi> such an unnecessarily detailed description
+                     not too repulsive for a distinguished publisher such as <persName
+                        key="hasselbalchS">Hasselbalch</persName>'s. We thought Yes, but <persName
+                        key="hasselbalchS">Hasselbalch</persName> obviously thinks No.</p>
+               <!-- KEJ 2019-04-02: I added an apostrophe after Hasselbalch. -->
+               <cb n="4"/>
+            </div>
+            <!-- KEJ 2019-02-21: Notes end of translation. -->
+         </div>
+         <!-- KEJ 2019-02-21: Notes end of article. -->
+      </body>
+   </text>
+</TEI>
