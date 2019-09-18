@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../ProjectDocs/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
+   xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"George" from <hi rend="italics">MOSAÏQUES</hi></title>
+            <title type="alternative">"He and She" from <hi rend="italics">MOSAÏQUES</hi></title>
+            <author>
+               <persName key="allatiniH" role="AUT">Hélène Allatini</persName>
+            </author>
+            <respStmt>
+               <resp>Translation completed by</resp>
+               <persName ref="" role="TRL"
+                  ><!-- Insert translator's name and initials in @ref--></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Translation reviewed by</resp>
+               <persName ref=""
+                  ><!-- Insert translation reviewer's name and initials in @ref--></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription completed by </resp>
+               <persName ref=""><!-- Insert transcriber's name and initials in @ref --></persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="original">
+            <div rend="head" syle="letter">
+               Lindevangen 10. 6 Mars 1931.
+            </div>
+            <div rend="body">
+               <p>Kære Poul.</p>
+               <p>Tusind Tak for Dit Brev, - og undskyld mig at jeg først nu svarer derpaa; men Affairen med Bogen havde taget saa stærk1 paa mig at jeg blev syg, derpaa kom Gerda hjem, og jeg har haft saa meget at gøre med Udstillingen.</p>
+               <p>Da jeg mærkede, hvor daarligt Resultatet truede med at blive, trak jeg Bogen helt tilbage.</p>
+               
+               <p>De allerhjærteligste Hilsner fra Din</p> 
+               <signed><persName key="lili">Lili</persName></signed>
+               
+               <postscript>Jeg længes saa meget efter Vibeke. Hils hende fra mig og sig hende at jeg finder hendes Portrait et af Gerdas bedste Billeder.2</postscript>              
+            </div>
+         </div>
+         <div type="translation">
+            <div rend="head" syle="letter">
+               <!--letter head; often includes address lines (with <placeName> elements) and date (in <date> elements)use <p> elements to separate lines -->
+            </div>
+            <div rend="body">
+               <p><!--salutation; dear so and so--></p>
+               <!--<p> elements should be used for each of the paragraphs making up the letter body-->
+               <signed><!--transcription of signature in a linked <persName> element--></signed>  
+               <postscript>
+                  <!--transcription of content written after signature by letter author; ps-->
+                  <!--<p> elements should be used for each of the paragraphs making up postcript--> 
+               </postscript>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
