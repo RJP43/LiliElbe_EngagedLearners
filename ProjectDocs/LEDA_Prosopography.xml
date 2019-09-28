@@ -651,7 +651,7 @@
                <placeName source="#A1 #D1-TR">Seine bridges</placeName>
                <placeName source="#D1">Seinebroerne</placeName>
                <placeName source="#G1">Brücke über die Seine</placeName>
-               <!--<note>Seine (historical), river that runs through Paris</note>-->
+               <!--<note>Bridges of the Seine (historical), river that runs through Paris</note>-->
             </place>
             <place xml:id="seineBanks">
                <placeName source="#A1 #D1-TR">banks of the Seine</placeName>
@@ -946,7 +946,11 @@
                <persName>Doctor F.</persName>
                <!--<note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir</note>-->
                <note>Doctor F. (historical), historical figure unidentified</note>
-            </person>            
+            </person> 
+            <person xml:id="einsiedelW" source="historical">
+               <persName>Wolfgang von Einsiedel</persName>
+               <note>Wolfgang von Einsiedel (historical), German writer who reviewed the German edition in November 1932</note>
+            </person>
             <person xml:id="else" source="historical">
                <persName source="#danishSupp">Else</persName>
                <persName>Else Wegener</persName>
@@ -1073,6 +1077,10 @@
                <persName>Hauwitz</persName>
                <note>Hauwitz (fictional), no known historical model</note>
             </person>
+            <person xml:id="heinrich" source="historical">
+               <persName>Mr. Heinrich</persName>
+               <note>Mr. Heinrich (historical, first name unknown), employed by Carl Reissner Verlag, the German publishing house in Dresden</note>
+            </person>
             <person xml:id="hermes" source="fictional">
                <persName>Hermes</persName>
                <note>Hermes (fictional), in Greek mythology, son of Zeus and messenger of the gods</note>
@@ -1168,7 +1176,7 @@
             </person>
             <person xml:id="larssen" source="historical">
                <persName source="#A1 #G1">Anna Larssen</persName>
-               <!--<note>Anna Larssen (historical), a Danish actress, friend of the Wegeners</note>-->
+               <!--<note>Anna Larssen (historical), a Danish actress, friend of the Wegeners</note> Need Dates?-->
             </person>
             <person xml:id="lejeuneClaude" source="fictional" synch="#prevostClaude">
                <persName>Claude Lejeune</persName>
@@ -1387,6 +1395,9 @@
             </person>
             <person xml:id="schumannE" source="historical">
                <persName source="#frenchSupp">Elisabeth Schumann</persName>
+            </person>
+            <person xml:id="schumannH" source="historical">
+               <persName>Harry Schumann</persName>
                <note>Harry Schumann (historical), head of Carl Reissner Verlag, the German publishing house in Dresden</note>
             </person>
             <person xml:id="signoraFavio" source="fictional">
@@ -1448,6 +1459,10 @@
                <persName>Jean Tempéte</persName>
                <persName>Tempète</persName>
                <note>Jean Tempête (fictional), modeled on Léon Leyritz (1888-1976), French sculptor and friend of the Wegeners</note>
+            </person>
+            <person xml:id="tergitG" source="historical">
+               <persName>Gabriele Tergit</persName>
+               <note>Gabriele Tergit (historical, 1894-1982), a writer and journalist born in Berlin who was a courtroom reporter for the Berliner Tageblatt and published the novel Käsebier erobert den Kurfürstendamm in 1932</note>
             </person>
             <person xml:id="thomsenTC" source="historical" synch="#brotherChris">
                <persName>TC Thomsen</persName>
