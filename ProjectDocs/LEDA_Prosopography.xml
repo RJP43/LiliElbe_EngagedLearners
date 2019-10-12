@@ -107,6 +107,8 @@
             <place xml:id="america">
                <placeName source="#A1 #D1-TR">America</placeName>
                <placeName source="#D1 #G1">Amerika</placeName>
+               <note>America (historical), commonly used to refer to the United States of
+                  America</note>
             </place>
             <place xml:id="amsterdam">
                <placeName>Amsterdam</placeName>
@@ -114,8 +116,8 @@
             </place>
             <place xml:id="australia">
                <placeName>Australia</placeName>
-               <note>Australia is a continent and a country surrounded by the Indian Ocean whose
-                  capital is Canberra. </note>
+               <note>Australia (historical), a continent and a country surrounded by the Indian
+                  Ocean whose capital is Canberra.</note>
             </place>
             <place xml:id="balgencie" source="fictional" synch="#beaugency">
                <placeName>Balgencie</placeName>
@@ -133,7 +135,8 @@
             <place xml:id="belgium">
                <placeName source="#A1 #D1-TR">Belgium</placeName>
                <placeName source="#D1 #G1">Belgien</placeName>
-               <note>Belgium is a country in western Europe whose capital is Brussels.</note>
+               <note>Belgium (historical), a country in western Europe whose capital is
+                  Brussels.</note>
             </place>
             <place xml:id="berlin">
                <placeName>Berlin</placeName>
@@ -186,7 +189,7 @@
             </place>
             <place xml:id="chambord">
                <placeName>Chambord</placeName>
-               <!--<note>City in <placeName key="france">France</placeName></note>-->
+               <note>Chambord (historical), commune in France</note>
             </place>
             <place xml:id="champs">
                <placeName>Champs de Mars</placeName>
@@ -208,9 +211,9 @@
                <placeName source="#G1">Köln</placeName>
                <note>Cologne (historical), city in Germany</note>
             </place>
-            <place xml:id="danishEmbassy">
+            <!--<place xml:id="danishEmbassy">
                <placeName>Danish Embassy</placeName>
-            </place>
+            </place>-->
             <place xml:id="denmark">
                <placeName source="#A1 #D1-TR">Denmark</placeName>
                <placeName source="#D1">Danmark</placeName>
@@ -240,7 +243,8 @@
             </place>
             <place xml:id="egypt">
                <placeName>Egypt</placeName>
-               <note>Egypt is a country in northeast Africa whose capital is Cairo.</note>
+               <note>Egypt (historical), a country in northeast Africa whose capital is
+                  Cairo.</note>
             </place>
             <place xml:id="eiffel">
                <placeName source="#A1 #D1-TR">Eiffel Tower</placeName>
@@ -266,6 +270,7 @@
             </place>
             <place xml:id="england">
                <placeName>England</placeName>
+               <note>England (historical), a country of the United Kingdom</note>
             </place>
             <place xml:id="erzgebirge">
                <placeName>Erzgebirge</placeName>
@@ -274,6 +279,7 @@
             <place xml:id="europe">
                <placeName>Europe</placeName>
                <placeName>Europa</placeName>
+               <note>Europe (historical), a continent in the Northern Hemisphere</note>
             </place>
             <place xml:id="facciano">
                <placeName>Facciano</placeName>
@@ -293,21 +299,22 @@
                <placeName source="#A1 #D1-TR">northern France</placeName>
                <placeName source="#G1">Nordfrankreich</placeName>
                <placeName source="#D1">Nordfrankrig</placeName>
-               <!--<note>France is a western European country whose capital is Paris.</note>-->
-               <!-- include in note something about our encoding decision regarding the language difference of one word vs two -->
+               <note>Northern France (historical), France is a western European country. We had to
+                  distinguish Northern France from France because in some languages Northern France
+                  is one word and can signify a specific identity.</note>
             </place>
             <place xml:id="franceSouth">
                <placeName source="#A1">Southern France</placeName>
                <placeName source="#G1">Südfrankreich</placeName>
-               <!--<note>France is a western European country whose capital is Paris.</note>-->
-               <!-- include in note something about our encoding decision regarding the language difference of one word vs two -->
+               <note>Southern France (historical), France is a western European country. We had to
+                  distinguish Southern France from France because in some languages Southern France
+                  is one word and can signify a specific identity.</note>
             </place>
             <place xml:id="friedrichsstrasse">
                <placeName source="#A1 #D1 #D1-TR">Friedrichsstrasse</placeName>
                <placeName source="#A1">Friedrichstrasse</placeName>
                <placeName source="#G1">Friedrichstraße</placeName>
-               <!--<note>Street in <placeName key="berlin">Berlin</placeName>, <placeName key="germany"
-                     >Germany</placeName></note>-->
+               <note>Friedrichsstrasse (historical), a street in Berlin</note>
             </place>
             <place xml:id="gebhardSanatorium">
                <placeName source="#A1">Prof. Gebhard's Sanatorium</placeName>
@@ -341,14 +348,16 @@
                <placeName source="#A1 #D1-TR">Southern Germany</placeName>
                <placeName source="#D1">Sydtyskland</placeName>
                <placeName source="#G1">Süddeutschland</placeName>
-               <!--<note>Germany is a western European country whose capital is Berlin.</note>-->
-               <!-- include in note something about our encoding decision regarding the language difference of one word vs two -->
+               <note>Southern German (historical), Germany is a western European country. We had to
+                  distinguish South Germany from Germany because in some languages South Germany is
+                  one word and can signify a specific identity.</note>
             </place>
             <place xml:id="germanyNorth">
                <placeName source="#A1">Northern Germany</placeName>
                <placeName source="#G1">Norddeutschland</placeName>
-               <!--<note>Germany is a western European country whose capital is Berlin.</note>-->
-               <!-- include in note something about our encoding decision regarding the language difference of one word vs two -->
+               <note>Northern Germany (historical), Germany is a western European country. We had to
+                  distinguish North Germany from Germany because in some languages North Germany is
+                  one word and can signify a specific identity.</note>
             </place>
             <place xml:id="greece">
                <placeName source="#A1 #D1-TR">Greece</placeName>
@@ -374,16 +383,15 @@
             </place>
             <place xml:id="holland">
                <placeName>Holland</placeName>
-               <note>Holland (the Netherlands) is a country in northwestern Europe whose capital is
-                  Amsterdam.</note>
+               <note>Holland (the Netherlands, historical), a country in northwestern Europe whose
+                  capital is Amsterdam.</note>
             </place>
             <place xml:id="hotelDAlsace">
                <placeName>one of the numerous small hotels in <placeName key="paris"
                      >Paris</placeName></placeName>
                <placeName source="#A1 #D1-TR">the hotel</placeName>
                <placeName source="#D1">Hotellet</placeName>
-               <!--<note>small hotel in Paris (ch7), Hôtel D’Alsace (historical), Saint Germain, Paris</note>-->
-               <!-- ask Pamela about (ch7) -->
+               <note>Hôtel D’Alsace (historical), small hotel in Saint Germain, Paris</note>
             </place>
             <place xml:id="hotelReservoirs">
                <placeName source="#D1 #D1-TR">Hôtel des Réservoirs</placeName>
@@ -417,8 +425,9 @@
                <placeName source="#A1">Nortj Jutland</placeName>
                <placeName source="#D1 #D1-TR">Vendsyssel</placeName>
                <placeName source="#G1">Nordjütland</placeName>
-               <!--<note>Jutland (historical), the largest region of Denmark</note>-->
-               <!-- include in note something about our encoding decision regarding the language difference of one word vs two -->
+               <note>North Jutland (historical), Jutand is a region of Denmark. We had to
+                  distinguish North Jutland from Jutland because in some languages North Jutland is
+                  one word and can signify a specific identity.</note>
             </place>
             <place xml:id="kurfurstendamm">
                <placeName>Kurfürstendamm</placeName>
@@ -472,7 +481,7 @@
             </place>
             <place xml:id="madrid">
                <placeName>Madrid</placeName>
-               <!--<note>Madrid (historical), capital of Spain</note>-->
+               <note>Madrid (historical), capital of Spain</note>
             </place>
             <place xml:id="marrakech">
                <placeName>Marrakech</placeName>
@@ -499,9 +508,7 @@
                <placeName source="#A1 #D1 #D1-TR">Café Morgana</placeName>
                <placeName source="#A1">Café Morgano</placeName>
                <placeName source="#G1">Morgano</placeName>
-               <!--<note>Assumed fictional place mentioned in narrative; historical place not
-                  identified, but Morgano is a marina in <placeName key="capri"
-                  >Capri</placeName></note>-->
+               <note>Morgano (fictional), no known historical analogue</note>
             </place>
             <place xml:id="morocco">
                <placeName>Morocco</placeName>
@@ -531,13 +538,14 @@
                <note>Öresund (historical), also spelled Øresund; a strait running between Denmark
                   and Sweden</note>
             </place>
+            <place xml:id="orvieto">
+               <placeName>Orvieto</placeName>
+               <note>Orvieto (historical), hilltop city in Italy</note>
+            </place>
             <place xml:id="palazzoChigi">
                <placeName>Palazzo Chigi</placeName>
                <note>Palazzo Chigi (historical), a 15th-century palace named after the Chigi
                   family</note>
-            </place>
-            <place xml:id="palmaVecchio">
-               <placeName source="#TS">Palma Vecchio</placeName>
             </place>
             <place xml:id="paris">
                <placeName>Paris</placeName>
@@ -589,7 +597,7 @@
             </place>
             <place xml:id="potsdamerPla">
                <placeName>Potsdamer Platz</placeName>
-               <!--<note>Pariser Platz (historical), central square in Berlin near the Brandenburg Gate</note>-->
+               <note>Potsdamer Platz (historical), central square in Berlin</note>
             </place>
             <place xml:id="quartierStgermain">
                <placeName source="#A1 #G1 #D1-TR">Quartier Saint Germain</placeName>
@@ -611,8 +619,7 @@
             </place>
             <place xml:id="romanischesCafe">
                <placeName source="#TS #D1 #D1-TR">Romanisches Café</placeName>
-               <!--<note resp="SW">A widely renowned hangout of German intelligentsia and literati in
-                  1920s <placeName key="berlin">Berlin</placeName></note>-->
+               <!--<note resp="SW">A widely renowned hangout of German intelligentsia and literati in 1920s <placeName key="berlin">Berlin</placeName></note>-->
                <note>Romanisches Café (see TS), renowned gathering place for intellectuals and
                   artists in Berlin in the 1920s</note>
             </place>
@@ -642,6 +649,11 @@
                <placeName>Saxony</placeName>
                <note>Saxony (historical), a state in eastern Germany</note>
             </place>
+            <place>
+               <placeName>Scandinavia</placeName>
+               <note>Scandinavia (historical), a region in northern Europe encompassing the
+                  countries of Denmark, Norway, and Sweden</note>
+            </place>
             <place xml:id="seine">
                <placeName source="#A1 #G1 #D1-TR">Seine</placeName>
                <placeName source="#D1">Seinen</placeName>
@@ -651,7 +663,7 @@
                <placeName source="#A1 #D1-TR">Seine bridges</placeName>
                <placeName source="#D1">Seinebroerne</placeName>
                <placeName source="#G1">Brücke über die Seine</placeName>
-               <!--<note>Bridges of the Seine (historical), river that runs through Paris</note>-->
+               <note>Bridges of the Seine (historical), river that runs through Paris</note>
             </place>
             <place xml:id="seineBanks">
                <placeName source="#A1 #D1-TR">banks of the Seine</placeName>
@@ -682,8 +694,7 @@
             <place xml:id="stGermain">
                <placeName source="#D1 #D1-TR #TS">Saint Germain des Pres</placeName>
                <placeName source="#TS">Saint Germain de Pres</placeName>
-               <!--<note>Church in <placeName key="quartierStgermain">Latin Quartier</placeName>,
-                  Paris.</note>-->
+               <note>Church (historical) in Latin Quartier, Paris</note>
             </place>
             <place xml:id="stroget">
                <placeName source="#A1">Strog</placeName>
@@ -694,8 +705,7 @@
             </place>
             <place xml:id="studioLille">
                <placeName>studio on rue de Lille</placeName>
-               <!--<note><persName key="wegenerE">Einar</persName>'s and <persName key="wegenerG"
-                     >Gerda</persName>'s studio location in <placeName>Paris</placeName></note>-->
+               <note>the Wegeners’ studio (historical), located on rue de Lille in Paris </note>
             </place>
             <place xml:id="sydney">
                <placeName>Sydney</placeName>
@@ -703,11 +713,13 @@
             </place>
             <place xml:id="tauentzienstrasse">
                <placeName>Tauentzienstrasse</placeName>
+               <note>Tauentzienstrasse (historical), a shopping street in Berlin</note>
             </place>
             <place xml:id="theatreRoyal">
                <placeName source="#A1 #D1-TR">the Royal Theatre</placeName>
                <placeName source="#D1">(Det) Kongelige Teater</placeName>
                <placeName source="#G1">Königlichen Theater</placeName>
+               <note>The Danish Royal Theater (historical), located in Copenhagen</note>
             </place>
             <place xml:id="thomasiusstrasse ">
                <placeName source="#A1 #D1 #D1-TR">Thomasiusstrasse</placeName>
@@ -729,7 +741,8 @@
                <placeName source="#A1 #D1-TR">Turkey</placeName>
                <placeName source="#D1">Tyrkiet</placeName>
                <placeName source="#G1">Türkei</placeName>
-               <note>Turkey is a country in the Middle East whose capital is Ankara.</note>
+               <note>Turkey (historical), a country in the Middle East whose capital is
+                  Ankara.</note>
             </place>
             <place xml:id="ullstein">
                <placeName>Ullstein</placeName>
@@ -755,11 +768,11 @@
             </place>
             <place xml:id="versaillesPark">
                <placeName>Park of Versailles</placeName>
-               <!--<note>Park of Versailles (historical); a royal palace outside Paris</note>-->
+               <note>grounds of Versailles (historical), a royal palace outside Paris</note>
             </place>
             <place xml:id="versaillesPalace">
                <placeName>Palace of Versailles</placeName>
-               <!--<note>Palace of Versailles (historical); a royal palace outside Paris</note>-->
+               <note>Palace of Versailles (historical), a royal palace outside Paris</note>
             </place>
             <place xml:id="vienna">
                <placeName>Vienna</placeName>
@@ -767,7 +780,7 @@
             </place>
             <place xml:id="viennoise">
                <placeName>Boulangerie Viennoise</placeName>
-               <!--<note>Restaurant</note>-->
+               <note>Boulangerie Viennoise (historical), a Viennese bakery in Paris</note>
             </place>
             <place xml:id="vineta">
                <placeName source="#TS">Vineta</placeName>
@@ -775,8 +788,6 @@
             </place>
             <place xml:id="warnemunde">
                <placeName source="#D1 #D1-TR">Warnemünde</placeName>
-               <!--<note>Not mentioned in <ref source="#A1">A1</ref> or <ref source="#G1">G1</ref>;
-                  Historical figure not identified</note>-->
                <note>Warnemünde (historical), a German city located near the Baltic Sea</note>
             </place>
             <place xml:id="womensClinic">
@@ -789,61 +800,55 @@
                <placeName source="#frenchSupp">Frauenklinik de <placeName key="dreseden"
                      >Dresde</placeName></placeName>
                <placeName source="#frenchSupp">LA CLINIQUE FÉMININE DE DRESDE</placeName>
-               <!--<note>Staatliche Frauenklinik, Pfotenhauerstr. 90, <placeName key="dresden"
-                     >Dresden</placeName></note>-->
                <note>Municipal Women’s Clinic (fictional), modeled on Staatliche Frauenklinik in
                   Dresden, directed by Professor Kurt Warenkros at the time</note>
             </place>
-            <!-- key="clinic" ? https://docs.google.com/spreadsheets/d/1jtWfqtQJGHkJFRP7UjOJ_IaGUl2QiuX7PAIXFMtkPw8/edit?disco=AAAACuMu8ss -->
+            <place xml:id="zurich">
+               <placeName>Zürich</placeName>
+               <note>Zürich (historical), city in northern Switzerland</note>
+            </place>
          </listPlace>
          <listPerson>
             <head>List of people mentioned in Lili Elbe Digital Archive</head>
-            <!--
-               Sample Person Entry
-            <person xml:id="lili" source="fictional historical" synch="#sparreAn #wegenerE"><!-\- notice linking between xml:ids with synch attribute; source attribute could be a place for us to group by narrative vs historical OR editions vs supplemental materials; xml:id matches our current key attribute value -\->
-               <persName>Lili</persName><!-\- list primary name first -\->
-               <persName>Lili Elbe</persName>
-               <persName>Lili Ilse Elvenes</persName><!-\- could add additional names -\->
-               <persName>Lili Courtaud</persName>
-               <persName>Lili Courtot</persName>
-               <note>Unable to verify that Lili Elbe used the pseudonym Lili Courtaud outside of its use in the narrative</note><!-\- opportunity to add note with description that could appear on mouseover -\->
-            </person>
-            -->
             <person xml:id="allatiniE" source="historical" synch="#rossiniEr">
                <persName>Eric Moïse Allatini</persName>
-               <note>Eric Allatini (historical, 1886–1943), friend of the Wegeners, a writer of
-                  fairy tales and a musician, who was of Italian origin; married to Hélène
-                  Allatini</note>
+               <note>Eric Allatini (1886–1943), friend of the Wegeners, a writer of fairy tales and
+                  a musician, who was of Italian origin; married to Hélène Allatini</note>
             </person>
             <person xml:id="allatiniH" source="historical" synch="#rossiniEl">
                <persName>Hélène Allatini</persName>
                <persName>Allatini</persName>
-               <note>Hélène Kann Allatini (historical, 1887-1943), friend of the Wegeners; author of Mosaiques, with a chapter on Lili Elbe</note>
+               <note>Hélène Kann Allatini (1887-1943), friend of the Wegeners; author of Mosaiques,
+                  with a chapter on Lili Elbe</note>
             </person>
             <person xml:id="allatiniJ" source="historical">
                <persName>Jocelyn Allatin</persName>
                <persName>baby Allatini</persName>
-               <!--<note>Daughter of Hélène Kann Allatini (historical, 1887-1943); friend of the Wegeners; author of Mosaiques, with a chapter on Lili Elbe</note>-->
+               <note>Joselyn Allatini (1918-1947), daughter of Hélène Kann Allatini</note>
             </person>
-            <person xml:id="anderson" source="historical">
-               <persName source="#frenchSupp">Hans Christian Anderson</persName>
-               <persName source="#frenchSupp">Anderson</persName>
-               <!--<note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir.</note>-->
+            <person xml:id="andersen" source="historical">
+               <persName source="#frenchSupp">Hans Christian Andersen</persName>
+               <persName source="#frenchSupp">Andersen</persName>
+               <note>Hans Christian Andersen (1805-1875), a famous Danish author known for his fairy
+                  tales</note>
             </person>
             <person xml:id="aphrodite" source="fictional">
                <persName>Aphrodite</persName>
-               <note>Aphrodites (fictional), in Greek mythology, the goddess of love and  beauty proclaimed by Homer to be the daughter of Zeus</note>
+               <note>Aphrodites (fictional), in Greek mythology, the goddess of love and beauty
+                  proclaimed by Homer to be the daughter of Zeus</note>
             </person>
             <person xml:id="arcJoan" source="historical">
                <persName source="#A1">Joan of Arc</persName>
                <persName source="#D1 #D1-TR #G1 #TS">Jeanne D'Arc</persName>
-               <note>Joan of Arc (historical, 1412-1431), soldier in the Hundred Years’ War and a Roman Catholic saint; fought in the Battle of Beaugency in 1429</note>
+               <note>Joan of Arc (1412-1431), soldier in the Hundred Years’ War and a Roman Catholic
+                  saint; fought in the Battle of Beaugency in 1429</note>
             </person>
             <person xml:id="arns" source="fictional">
                <persName>Professor Arns</persName>
                <persName>Arns</persName>
                <persName source="#D1">Professor Arno</persName>
-               <note>Professor Arns (fictional), also Arno; possibly modeled on Arthur Weil, who invented a bold test and worked at Magnus Hirschfeld’s Institute in Berlin</note>
+               <note>Professor Arns (fictional), also Arno; possibly modeled on Arthur Weil, who
+                  invented a bold test and worked at Magnus Hirschfeld’s Institute in Berlin</note>
             </person>
             <person xml:id="bach" source="historical">
                <persName>Bach</persName>
@@ -852,8 +857,7 @@
             <person xml:id="botticelli" source="historical">
                <persName>Sandro Botticelli</persName>
                <persName source="#A1 #D1 #D1-TR">Botticelli</persName>
-               <birth>1445</birth>
-               <death>1510</death>
+               <note>Sandro Botticelli (1445-1510), an Italian Renaissance painter</note>
             </person>
             <person xml:id="bourbons" source="historical">
                <!-- RJP: wondering if this should be an org -->
@@ -862,16 +866,13 @@
                <persName source="#G1">Bourbonen</persName>
                <note>Bourbons (historical), royal family who ruled France for two centuries</note>
             </person>
-            <person xml:id="boysenM" source="historical">
-               <persName source="#danishSupp">Maiken Boysen</persName>
-            </person>
             <person xml:id="bramsonK" source="historical">
                <persName>Karen Bramson</persName>
-               <note>Karen Bramson (historical, 1875-1936), a Danish author</note>
+               <note>Karen Bramson (1875-1936), a Danish author</note>
             </person>
-            <person xml:id="brandsetterO" source="historical">
+            <person xml:id="brandstetterO" source="historical">
                <persName>Oscar Brandstetter</persName>
-               <!--<note>German publisher</note>-->
+               <note>Oscar Brandstetter Verlag (historical), a German publisher</note>
             </person>
             <person xml:id="brotherChris" source="fictional" synch="#thomsenTC">
                <persName source="#A1 #D1-TR">brother-in-law</persName>
@@ -879,14 +880,16 @@
                <persName source="#D1">svoger</persName>
                <persName source="#G1">de Mann seiner Schwester</persName>
                <persName source="#G1">des Schwagers</persName>
-               <!--<note><persName key="sparreAn">Andreas Sparre</persName>'s sister's husband.</note>-->
+               <note>Christian (fictional), Andreas’s brother-in-law; modeled on Thomas Christian
+                  Thomsen (1883-1963), married to Einar’s sister Christiane and father of Einar’s
+                  nephew, Sigurd</note>
             </person>
             <person xml:id="brotherSing" source="fictional" synch="#wegenerHo">
                <persName source="#A1 #D1-TR">brother</persName>
                <persName source="#D1">broder</persName>
                <persName source="#G1">brüder</persName>
-               <!--<note><persName key="sparreAn">Andreas Sparre</persName>'s unnamed brother in
-                  narrative</note>-->
+               <note>brother (fictional), Andreas’s brother, modeled on Holger Wegener (b. 1880),
+                  brother of Einar Wegener</note>
             </person>
             <person xml:id="brotherPlur" source="fictional" synch="#wegenerHo #wegenerHe">
                <!-- RJP: wondering if this should be an org -->
@@ -894,17 +897,18 @@
                <persName source="#D1">brødre</persName>
                <persName source="#G1">beiden brüder</persName>
                <persName source="#G1">brüdern</persName>
-               <note>Brothers (fictional), modeled on Einar Wegener’s brothers, Holger (b. 1880) and Henrik</note>
+               <note>Brothers (fictional), modeled on Einar Wegener’s brothers, Holger (b. 1880) and
+                  Henrik</note>
             </person>
-            <person xml:id="carpegnaM" source="historical">
-               <persName>Mario di Carpegna</persName>
+            <person xml:id="carrobioM" source="historical">
                <persName>Mario di Carrobio</persName>
-               <!--<note>Italian soldier; mentioned in <persName key="allatiniH">Allatini</persName>'s
-                  memoir</note>-->
+               <note>Count Mario di Carrobio (historical), unidentified but possibly Count Mario
+                  Gabrielli di Carpegna (1856-1924), an Italian soldier and politician</note>
             </person>
             <person xml:id="casanova" source="fictional">
                <persName>Casanova</persName>
-               <note>Casanova (historical), Giacomo Girolamo Casanova (1725-1798), an Italian author and womanizer</note>
+               <note>Casanova (historical), Giacomo Girolamo Casanova (1725-1798), an Italian author
+                  and womanizer</note>
             </person>
             <person xml:id="theCripple" source="fictional">
                <persName>the cripple</persName>
@@ -915,12 +919,15 @@
                <persName source="#G1">Krüppel</persName>
                <persName source="#G1">Rothaarige</persName>
                <persName source="#G1">[der] Buckel</persName>
-               <!-- in note mention importance of character in narrative; perhaps explain ID -->
+               <note>the Cripple (fictional), no known historical model. We chose this epithet over
+                  “newspaper boy” or “red-haired fellow” because it is precisely his hump that makes
+                  this character important to Andreas.</note>
             </person>
             <person xml:id="countT" source="historical" synch="#trempe">
                <persName>Colonel de T.</persName>
                <persName>Count de T.</persName>
-               <note>Colonel de T. (fictional), the historical figure mentioned in Allatini’s memoir is unidentified</note>
+               <note>Colonel de T. (fictional), the historical figure mentioned in Allatini’s memoir
+                  is unidentified</note>
             </person>
             <person xml:id="cousin" source="fictional">
                <persName source="#A1 #D1-TR">cousin</persName>
@@ -931,32 +938,34 @@
             <person xml:id="cupid" source="fictional">
                <persName source="#A1 #D1-TR">Cupid</persName>
                <persName source="#D1 #G1">Amor</persName>
-               <!--<note><persName key="lili">Lili</persName> plays/dresses as Cupid in narrative</note>-->
+               <note>Cupid (fictional), the god of love in classical mythology</note>
             </person>
-            <person xml:id="death" source="fictional">
+            <!--<person xml:id="death" source="fictional">
                <persName source="#TS">Tod</persName>
                <persName source="#TS">Todesreiter</persName>
                <persName source="#D1">Døden</persName>
                <persName source="#TS-TR #D1-TR">Death</persName>
                <persName source="#TS-TR">the Reaper</persName>
-               <!--<note>Death (fictional), in the Danish edition, Death is portrayed as a dark-cloaked horseback rider in Andreas’s dream</note>-->
-               <!-- also in TS - should we mention this in the note? -->
+               <note>Death (fictional), in the typescript and the Danish edition, Death is portrayed as a dark-cloaked horseback rider in Andreas’s dream</note>
+            </person>-->
+            <person xml:id="diamondM" source="historical">
+               <persName>Maurice Diamond</persName>
+               <note>Maurice Diamond (historical), publisher with Jarrolds in London</note>
             </person>
             <person xml:id="doctorF" source="historical">
                <persName>Doctor F.</persName>
                <!--<note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir</note>-->
                <note>Doctor F. (historical), historical figure unidentified</note>
-            </person> 
+            </person>
             <person xml:id="einsiedelW" source="historical">
                <persName>Wolfgang von Einsiedel</persName>
-               <note>Wolfgang von Einsiedel (historical), German writer who reviewed the German edition in November 1932</note>
+               <note>Wolfgang von Einsiedel (historical), German writer who reviewed the German
+                  edition in November 1932</note>
             </person>
             <person xml:id="else" source="historical">
                <persName source="#danishSupp">Else</persName>
-               <persName>Else Wegener</persName>
-               <!--RJP:2019-04-08: need to verify with Pamela this would be Else's last name-->
-               <!--<note><persName key="wegenerS">Sigurd Wegener Thomsen</persName>'s sister and
-                     <persName key="lili">Lili</persName>'s niece</note>-->
+               <note>Else Margrethe Wegener Thomsen (1907-2000), daughter of T. C. Thomsen and
+                  Christiane Wegener Thomsen and Sigurd Thomsen’s sister</note>
             </person>
             <person xml:id="father" source="fictional" synch="#wegenerV">
                <persName source="#A1 #D1-TR">father</persName>
@@ -967,25 +976,28 @@
             <person xml:id="feruzziRi" source="fictional" synch="#portaF">
                <persName>Ridolfo Feruzzi</persName>
                <persName>Feruzzi</persName>
-               <note>Ridolfo Feruzzi (fictional), modeled on Fernando Porta (b. 1897-??), Gerda Wegener’s second husband</note>
+               <note>Ridolfo Feruzzi (fictional), modeled on Fernando Porta (b. 1897), Gerda
+                  Wegener’s second husband</note>
             </person>
             <person xml:id="favio" source="fictional">
                <persName>Flavio</persName>
                <persName source="#G1">Favio</persName>
-               <!--<note>Historical figure not identified.</note>-->
+               <note>Favio (fictional), no known historical model</note>
             </person>
             <person xml:id="francois" source="fictional">
                <persName source="#A1 #D1 #D1-TR">Monsieur François</persName>
                <persName source="#A1 #D1 #D1-TR">François</persName>
-               <!--<note>Not mentioned in <ref source="#G1">G1</ref></note>-->            
+               <note>Favio (fictional), no known historical model</note>
             </person>
             <person xml:id="garlandM" source="historical">
                <persName>Maria Garland</persName>
-               <note>Marie Garland (historical, 1889-1967), Danish actress; married to Ernst Harthern</note>
+               <note>Marie Garland (1889-1967), Danish actress; married to Ernst Harthern</note>
             </person>
             <person xml:id="gautierTheo" source="historical">
                <persName>Théophile Gautier</persName>
-               <!--<note>French author</note>-->
+               <note>Théophile Gautier (1811-1872), a French novelist, author of Mademoiselle de
+                  Maupin (1835), in which the female protagonist, disguised as a man, seduces both a
+                  young woman and her lover</note>
             </person>
             <person xml:id="gebhard" source="fictional historical" synch="#gohrbandt">
                <persName source="#A1 #D1-TR #D1">Dr. Gebhard</persName>
@@ -993,9 +1005,10 @@
                <persName source="#danishSupp #D1">Overlægen</persName>
                <persName source="#A1 #D1-TR #danishSupp">senior physician</persName>
                <persName source="#D1">Oberarzt</persName>
-               <note>Professor Gebhard (fictional), modeled on Erwin Gohrbandt (1890–1965), a Berlin surgeon who performed the first operation on Lili Elvenes in 1930</note>
+               <note>Professor Gebhard (fictional), modeled on Erwin Gohrbandt (1890–1965), a Berlin
+                  surgeon who performed the first operation on Lili Elvenes in 1930</note>
             </person>
-            <person xml:id="genius" source="fictional">
+            <!--<person xml:id="genius" source="fictional">
                <persName source="#TS">weissbekleideten Gestalt</persName>
                <persName source="#TS">die weisse Gestalt</persName>
                <persName source="#TS">ein kleiner, blassroter, gothischer Engel</persName>
@@ -1004,7 +1017,7 @@
                <persName source="#TS-TR">tall shape, clad in white</persName>
                <persName source="#TS-TR">small, light reddish, gothic angel</persName>
                <persName source="#TS-TR">the guardian spirit</persName>
-            </person>
+            </person>-->
             <person xml:id="germanFriend" source="fictional" synch="#hoyerNiels #harthernE">
                <persName source="#A1 #D1-TR">German friend</persName>
                <persName source="#A1 #D1-TR">new friend</persName>
@@ -1020,58 +1033,68 @@
                <persName source="#D1">ny Ven</persName>
                <persName source="#D1">min tyske Ven</persName>
                <persName source="#D1">min Ven</persName>
-               <note>German friend (fictional), modeled on Niels Hoyer, pseudonym of Ernst Harthern (1884–1969), editor of  Man into Woman</note>
+               <note>German friend (fictional), modeled on Niels Hoyer, pseudonym of Ernst Harthern
+                  (1884–1969), editor of Man into Woman</note>
             </person>
             <person xml:id="goethe" source="fictional">
                <persName>Goethe</persName>
-               <note>Goethe (historical), Johann Wolfgang von Goethe (1749-1832), German writer and diplomat</note>
+               <note>Goethe (historical), Johann Wolfgang von Goethe (1749-1832), German writer and
+                  diplomat</note>
             </person>
-            <person xml:id="gohrbandt" source="historical" synch="#gebhard">
-               <persName>Edwin Gohrbandt</persName>
+            <person xml:id="gohrbandtE" source="historical" synch="#gebhard">
+               <persName>Erwin Gohrbandt</persName>
                <persName>Professor G</persName>
-               <!--<note>Erwin Gohrbandt (1890–1965), a Berlin surgeon who performed the first operation on Lili Elvenes in 1930</note>-->
+               <note>Erwin Gohrbandt (1890–1965), a Berlin surgeon who performed the first operation
+                  on Lili Elvenes in 1930</note>
             </person>
             <person xml:id="gottliebMrs" source="historical">
                <persName>Madame Gottlieb</persName>
                <persName>Mrs. Gottlieb</persName>
-               <note>Madame Gottlieb (historical), Greda Wegener’s mother</note>
+               <note>Justine (née Østerberg) Gottlieb (historical), mother of Gerda Wegener (née
+                  Gottlieb)</note>
             </person>
             <person xml:id="gottliebMr" source="historical">
                <persName>Pastor Gottlieb</persName>
                <persName>Mr. Gottlieb</persName>
                <persName source="#frenchSupp">Pasteur Gotlieb</persName>
                <persName source="#frenchSupp">Pasteur Gottlieb</persName>
-               <!--<note><persName key="wegenerE">Einar Wegener</persName>'s father-in-law and <persName
-                     key="wegenerG">Gerda Wegener</persName>'s father.</note>-->
+               <note>Emil Gottlieb (historical), father of Gerda Wegener (née Gottlieb)</note>
+            </person>
+            <person xml:id="guggenheimM" source="historical">
+               <persName>Martin Guggenheim</persName>
+               <note>Martin Guggenheim (historical), a handwriting expert in Zurich
+                  (unconfirmed)</note>
             </person>
             <person xml:id="guyot" source="historical">
                <persName source="#A1 #G1">Ch. Gyuot</persName>
                <persName>Charles Guyot</persName>
-               <note>Charles Guyot (historical, 1892-1963?), French writer, co-author of Les Livres des Vikings (1924) with Einar Wegener</note>
+               <note>Charles Guyot (1892-1963?), French writer, co-author of Les Livres des Vikings
+                  (1924) with Einar Wegener</note>
             </person>
             <person xml:id="haireNorman" source="historical">
                <persName>Norman Haire</persName>
-               <note>Norman Haire (historical, 1892-1952), an Australian-born physician and prominent sexologist who lived and worked in London</note>
+               <note>Norman Haire (1892-1952), an Australian-born physician and prominent sexologist
+                  who lived and worked in London</note>
             </person>
             <person xml:id="hardenfeld" source="fictional" synch="#hirschfeld">
                <persName>Professor Hardenfeld</persName>
                <persName>Dr. Hardenfeld</persName>
                <persName>Hardenfeld</persName>
                <persName>Doctor M.H.</persName>
-               <note>Professor Hardenfeld (fictional), modeled on Magnus Hirschfeld (1868–1935), a German physician and one of the most influential sexologists of the time; Einar Wegener was examined at his Institute in March 1930</note>
-            </person>
-            <person xml:id="haslund" source="historical">
-               <persName>Ole Georg Haslund</persName>
-               <!--<note>Heyman and Haslund (fictional and historical), Ole Georg Haslund (1877–1962), who owned Ole Huslands Hus with Svend Heyman (1878–1931), where the Wegeners exhibited in Copenhagen</note>-->
+               <note>Professor Hardenfeld (fictional), modeled on Magnus Hirschfeld (1868–1935), a
+                  German physician and one of the most influential sexologists of the time; Einar
+                  Wegener was examined at his Institute in March 1930</note>
             </person>
             <person xml:id="hasselbalchS" source="historical">
                <persName>Steen Hasselbalch</persName>
-               <note>Steen Hasselbalch (historical, 1881-1952), a Danish publisher</note>
+               <note>Steen Hasselbalch (1881-1952), a Danish publisher</note>
             </person>
             <person xml:id="harthernE" source="historical" synch="#hoyerNiels">
                <persName>Ernst Harthern</persName>
                <persName>Ernst Ludwig Harthern Jacobsen</persName>
-               <note>Ernst Ludwig Harthern (b. Jacobson) (historical, 1884–1969), German writer and editor of Man into Woman under the pseudonym, Niels Hoyer; Lili’s German friend in the narrative</note>
+               <note>Ernst Ludwig Harthern (née Jacobson) (1884–1969), German writer and editor of
+                  Man into Woman under the pseudonym, Niels Hoyer; Lili’s German friend in the
+                  narrative</note>
             </person>
             <person xml:id="hauwitz" source="fictional">
                <persName>Hauwitz</persName>
@@ -1079,34 +1102,42 @@
             </person>
             <person xml:id="heinrich" source="historical">
                <persName>Mr. Heinrich</persName>
-               <note>Mr. Heinrich (historical, first name unknown), employed by Carl Reissner Verlag, the German publishing house in Dresden</note>
+               <note>Mr. Heinrich (first name unknown), employed by Carl Reissner Verlag, the German
+                  publishing house in Dresden</note>
             </person>
             <person xml:id="hermes" source="fictional">
                <persName>Hermes</persName>
-               <note>Hermes (fictional), in Greek mythology, son of Zeus and messenger of the gods</note>
+               <note>Hermes (fictional), in Greek mythology, son of Zeus and messenger of the
+                  gods</note>
             </person>
-            <person xml:id="heyman" source="historical">
-               <persName>Heyman</persName>
-               <!--<note>Heyman and Haslund (fictional and historical), Ole Georg Haslund (1877–1962), who owned Ole Huslands Hus with Svend Heyman (1878–1931), where the Wegeners exhibited in Copenhagen</note>--> 
+            <person xml:id="heymanHaslund" source="historical">
+               <persName>Heyman and Haslund</persName>
+               <note>Heyman and Haslund (fictional and historical), Svend Heyman (1878–1931), Ole
+                  who owned Ole Huslands Hus with Georg Haslund (1877–1962), where the Wegeners
+                  exhibited in Copenhagen</note>
             </person>
             <person xml:id="hirschfeld" source="historical" synch="#hardenfeld">
                <persName>Magnus Hirschfeld</persName>
                <persName source="#frenchSupp">"Marcus Hierschfeld</persName>
-               <note>Magnus Hirschfeld (1868–1935), a German physician and one of the most influential sexologists of the time; Einar Wegener was examined at his Institute in March 1930</note>
+               <note>Magnus Hirschfeld (1868–1935), a German physician and one of the most
+                  influential sexologists of the time; Einar Wegener was examined at his Institute
+                  in March 1930</note>
             </person>
             <person xml:id="hoyerNiels" source="historical" synch="#harthernE">
                <persName>Niels Hoyer</persName>
-               <note>Niels Hoyer (historical), pseudonym of Ernst Harthern, who composed and edited Man into Woman</note>
+               <note>Niels Hoyer (historical), pseudonym of Ernst Harthern, who composed and edited
+                  Man into Woman</note>
             </person>
             <person xml:id="hvappe" source="fictional historical">
                <persName source="#D1 #D1-TR">Hvappe</persName>
-               <!--<note>Not mentioned in <ref source="#A1">A1</ref></note>-->
-               <note>Hvappe (fictional and historical), nicknamed Vâpe, the Wegeners’ (Sparres’) dog</note>
+               <note>Hvappe (fictional and historical), nicknamed Vâpe, the Wegeners’ (Sparres’)
+                  dog</note>
             </person>
             <person xml:id="hvideIng" source="fictional" synch="#knudsenV">
                <persName>Inger Hvide</persName>
                <persName>Inger</persName>
-               <note>Inger Hvide (fictional), modeled on Vibeke Knudsen (dates unknown), married to Poul Knudsen from 1925 to 1938</note>
+               <note>Inger Hvide (fictional), modeled on Vibeke Knudsen (dates unknown), married to
+                  Poul Knudsen from 1925 to 1938</note>
             </person>
             <person xml:id="hvideNiels" source="fictional" synch="#knudsenP">
                <persName>Niels Hvide</persName>
@@ -1116,48 +1147,46 @@
                <persName>Hjalmar Hvide</persName>
                <!--<note>Hjalmar Hvide was the fictious name first used for Niels Hvide in the
                   narrative</note>-->
-               <note>Niels Hvide (fictional), modeled on Poul Knudsen (1889-1974), Danish lawyer and writer, friend of the Wegeners, married to Vibeke 1925-1938</note>
+               <note>Niels Hvide (fictional), modeled on Poul Knudsen (1889-1974), Danish lawyer and
+                  writer, friend of the Wegeners, married to Vibeke 1925-1938</note>
             </person>
             <person xml:id="jager" source="historical">
                <persName>Hans Henrik Jæger</persName>
                <persName source="#A1 #G1">Hans Jager</persName>
                <!--<note>Not mentioned in <ref source="#D1">D1</ref> and <ref source="#D1-TR"
                      >D1-TR</ref>; Norweigan writer and activist</note>-->
-               <note>Hans Henrik Jæger (historical, 1854-1910), a Norweigen writer and political activist</note>
+               <note>Hans Henrik Jæger (1854-1910), a Norweigen writer and political activist</note>
             </person>
             <person xml:id="jean" source="fictional">
                <persName>Jean</persName>
-               <!--<note>Factotum of a <placeName key="#hotelDAlsace">hotel</placeName> mentioned in the
-                  narrative</note>-->
+               <note>Jean (fictional), no known historical model</note>
             </person>
             <person xml:id="karner" source="fictional">
                <persName source="#A1 #D1 #D1-TR">Dr. Karner</persName>
                <persName source="#G1">Doktor Karner</persName>
                <note>Dr. Karner (fictional), historical figure unknown</note>
             </person>
-            <person xml:id="keller" source="historical">
-               <persName>Lilimoe</persName>
-               <!--<note>Lilimoe is a nickname given to <persName key="kellerH">Herta
-                  Keller</persName>'s husband in <ref source="#19310627LEKellerH">German Letter
-                     2</ref></note>-->
-            </person>
-            <person xml:id="kellerH" source="historical">
-               <persName>Herta Keller</persName>
-               <note>Herta Keller (historical), historical figure unidentified</note>
+            <person xml:id="hellerH" source="historical">
+               <persName>Herta Heller</persName>
+               <note>Herta Heller (née Lederer) (1901-2000), of Czech origin, wife of Ewald
+                  Heller</note>
             </person>
             <person xml:id="king" source="fictional">
                <persName source="#A1 #D1-TR">the King</persName>
                <persName source="#D1">Kongen</persName>
                <persName source="#G1">König</persName>
-               <note>King (fictional), modeled on Christian X, the King of Denmark from 1912 to 1947</note>
+               <note>King (fictional), modeled on Christian X, the King of Denmark from 1912 to
+                  1947</note>
             </person>
             <person xml:id="knudsenP" source="historical" synch="#hvideNiels">
                <persName>Poul Knudsen</persName>
-               <note>Poul Knudsen (historical, 1889-1974), Danish lawyer and writer, friend of the Wegeners, married to Vibeke from 1925 to 1938</note>
+               <note>Poul Knudsen (1889-1974), Danish lawyer and writer, friend of the Wegeners,
+                  married to Vibeke from 1925 to 1938</note>
             </person>
             <person xml:id="knudsenV" source="historical" synch="#hvideIng">
                <persName>Vibeke Knudsen</persName>
-               <note>Vibeke Knudsen (historical, dates unknown), married to Poul Knudsen from 1925 to 1938</note>
+               <note>Vibeke Knudsen (dates unknown), married to Poul Knudsen from 1925 to
+                  1938</note>
             </person>
             <person xml:id="kreutz" source="fictional" synch="#warnekros">
                <persName source="#A1 #D1 #G1 #D1-TR">Kreutz Werner</persName>
@@ -1167,22 +1196,25 @@
                <persName source="#G1">deutschen Professor</persName>
                <persName source="#G1">der Professor</persName>
                <persName source="#G1">Der/Des deutsche(n) Arzt(es)</persName>
-               <note>Professor Werner Kreutz (fictional), modelled on Kurt Warenkros (1882–1949), a German gynecologist</note>
+               <note>Professor Werner Kreutz (fictional), modelled on Kurt Warenkros (1882–1949), a
+                  German gynecologist</note>
             </person>
             <person xml:id="larsen" source="fictional">
                <persName source="#A1 #G1">Anna Larsen</persName>
                <persName source="#D1 #D1-TR">the actress</persName>
-               <note>Anna Larsen (fictional), modeled on Anna Larssen, a Danish actress, friend of the Wegeners</note>
+               <note>Anna Larsen (fictional), modeled on Anna Larssen, a Danish actress, friend of
+                  the Wegeners</note>
             </person>
             <person xml:id="larssen" source="historical">
                <persName source="#A1 #G1">Anna Larssen</persName>
-               <!--<note>Anna Larssen (historical), a Danish actress, friend of the Wegeners</note> Need Dates?-->
+               <note>Anna Larssen (1875-1955), a Danish actress, friend of the Wegeners</note>
             </person>
             <person xml:id="lejeuneClaude" source="fictional" synch="#prevostClaude">
                <persName>Claude Lejeune</persName>
                <persName source="#TS">Claude Lejenne</persName>
                <persName>Claude</persName>
-               <note>Claude Lejeune (fictional), modeled on Claude Prévost, friend of Lili’s whom Gerda Wegener painted in 1923</note>
+               <note>Claude Lejeune (fictional), modeled on Claude Prévost, friend of Lili’s whom
+                  Gerda Wegener painted in 1923</note>
             </person>
             <person xml:id="lili" source="fictional historical" synch="#sparreAn #wegenerE">
                <persName>Lili</persName>
@@ -1201,89 +1233,106 @@
                <persName source="#danishSupp">Frk. Lily Wegener</persName>
                <persName source="#danishSupp">Miss Wegener</persName>
                <persName source="#danishSupp">Miss Lily Wegener</persName>
+               <persName source="#germanSupp">Lilimoe</persName>
                <!--<note>Our project editors have been unable to verify that Lili Elbe used the
                   pseudonym Lili Courtaud outside of its use in the narrative.</note>-->
-               <note>Lili Elbe (fictional and historical), legal name Lili Ilse Elvenes; born Einar Wegener (1882), died in Dresden, 1931</note>
+               <note>Lili Elbe (fictional and historical), legal name Lili Ilse Elvenes; born Einar
+                  Wegener (1882), died in Dresden, 1931</note>
             </person>
             <person xml:id="louisXiv" source="historical">
                <persName>Louis XIV</persName>
+               <note>Louis XIV (1638-1715), King of France from 1643 until his death</note>
             </person>
             <person xml:id="louLou" source="historical">
-               <!--<persName>a friend who was on the staff of a leading <placeName key="copenhagen"
-                     >Copenhagen</placeName> newspaper</persName>-->
                <persName>Loulou Lassen</persName>
-               <note>Lousie (Loulou) Lassen (historical, 1876–1947), a Danish journalist who interviewed the Wegeners and assisted Lili in an early draft of her memoirs</note>
+               <note>Lousie (Loulou) Lassen (1876–1947), a Danish journalist who interviewed the
+                  Wegeners and assisted Lili in an early draft of her memoirs</note>
                <!-- be sure not to use this key ID in the editions for the journalist mentioned; Pamela's note to be added on instances in edtion when referring to journalist: This character is modeled on Louise (Loulou) Lassen. -->
             </person>
             <person xml:id="madameB" source="historical">
                <persName>Madame de B.</persName>
-               <!--<note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir</note>-->
-            </person>
-            <person xml:id="madonna" source="fictional">
-               <persName>Madonna</persName>
-               <!--<note>Not mentioned in <ref source="#G1">G1</ref>; religious reference</note>-->
+               <note>Madame de B. (historical), unidentified</note>
             </person>
             <person xml:id="magnusE" source="historical">
                <persName>Erwin Magnus</persName>
-               <note>Erwin Magnus (historical), a German literary agent, author, and translator</note>
+               <note>Erwin Magnus (historical), a German literary agent, author, and
+                  translator</note>
             </person>
             <person xml:id="magreM" source="historical">
                <persName>Maurice Magre</persName>
-               <!--<note>French author nominated for the Nobel prize in literature</note>-->
+               <note>Maurice Magre (1877-1941), a French author</note>
             </person>
             <person xml:id="maranonGreg" source="historical">
                <persName>Professor Gregorio Marañon</persName>
-               <note>Gregorio Marañon (historical, 1887-1960), also spelled Marañón, a Spanish physician and author</note>
+               <note>Gregorio Marañon (1887-1960), also spelled Marañón, a Spanish physician and
+                  author</note>
             </person>
-            <person xml:id="marquisSG" source="historical">
+            <person xml:id="marquiseSG" source="historical">
                <persName>Marquis Emilio de SG</persName>
-               <!--<note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir</note>-->
+               <note>Marquise de S.G. (historical), unidentified</note>
+            </person>
+            <person xml:id="marquis" source="historical">
+               <persName>Marquis</persName>
+               <note>Marquis (historical), husband of Marquise de S. G., unidentified</note>
             </person>
             <person xml:id="matron" source="fictional">
                <persName source="#A1 #D1-TR">the Matron</persName>
                <persName source="#D1">Forstanderinden</persName>
                <persName source="#G1">Oberin</persName>
                <persName source="#G1">Frau Oberin</persName>
-               <note>Matron (fictional), modeled on Margarete Leifert (possibly Seifert), who co-signed a letter (April 5, 1930) to the Ministry of Justice in Copenhagen conveying Lili’s request to change her name to Lili Elben and her sex to female</note>
+               <note>Matron (fictional), modeled on Margarete Leifert (possibly Seifert), who
+                  co-signed a letter (April 5, 1930) to the Ministry of Justice in Copenhagen
+                  conveying Lili’s request to change her name to Lili Elben and her sex to
+                  female</note>
             </person>
             <person xml:id="mellerup" source="historical">
                <persName source="#danishSupp">Einar Mellerup</persName>
-               <note>Einar Mellerup (historical, 1882-1968), a police inspector in Copenhagen</note>
+               <note>Einar Mellerup (1882-1968), a police inspector in Copenhagen</note>
             </person>
             <person xml:id="mother" source="fictional" synch="#wegenerAM">
                <persName source="#A1 #D1-TR">mother</persName>
                <persName source="#D1">mo'r</persName>
                <persName source="#G1">mutter</persName>
-               <note>Mother (fictional), modeled on Einar Wegener’s mother, Ane Marie Wegener (née Thomsen)</note>
+               <note>Mother (fictional), modeled on Einar Wegener’s mother, Ane Marie Wegener (née
+                  Thomsen)</note>
             </person>
             <person xml:id="mrsTeddybear" source="fictional">
                <persName source="#A1">Mrs. Teddybear</persName>
                <persName source="#A1">Teddybearkins</persName>
                <persName source="#G1">Frau Teddybär</persName>
-               <note>Mrs. Teddybear (fictional), also Teddybearkins, no known historical model</note>
+               <note>Mrs. Teddybear (fictional), also Teddybearkins, no known historical
+                  model</note>
             </person>
             <person xml:id="naplesArchbishop" source="historical">
                <persName>Archbishop of Naples</persName>
+               <note>Archbishop of Naples (historical), unidentified but possibly Guglielmo
+                  Sanfelice d’Acquavilla, Archbishop of Naples from 1878-1897</note>
             </person>
             <person xml:id="nephew" source="fictional" synch="#wegenerS">
                <persName source="#A1 #D1-TR">nephew</persName>
                <persName source="#D1">søstersøn</persName>
                <persName source="#G1">sohn ihrer schwester</persName>
-               <note>Nephew (fictional), modeled on Einar Wegener’s nephew, Harald Sigurd Wegener Thomsen (1905-1953), son of Christiane and Thomas C. Thomsen</note>
+               <note>Nephew (fictional), modeled on Einar Wegener’s nephew, Harald Sigurd Wegener
+                  Thomsen (1905-1953), son of Christiane and Thomas C. Thomsen</note>
             </person>
             <person xml:id="niece" source="fictional">
                <persName>niece</persName>
+               <note>niece (fictional), possibly modelled on Else, daughter of Einar Wegener’s
+                  sister</note>
             </person>
             <person xml:id="nino" source="fictional">
                <persName>Nino</persName>
+               <note>Nino (fictional), no known historical model</note>
             </person>
             <person xml:id="nurseEllen" source="fictional">
                <persName source="#A1">Ellen</persName>
+               <note>Ellen (fictional), no known historical model</note>
             </person>
             <person xml:id="nurseFrieda" source="fictional">
                <persName source="#A1 #D1-TR">Sister Frieda</persName>
                <persName source="#D1">Søster Frieda</persName>
                <persName source="#G1">Schwester Frieda</persName>
+               <note>Frieda (fictional), no known historical model</note>
             </person>
             <person xml:id="nurseHannah" source="fictional">
                <persName source="#A1">Nurse Hannah</persName>
@@ -1291,38 +1340,44 @@
                <persName source="#D1">Søster Hanna</persName>
                <persName source="#G1">Schwester Hanna</persName>
                <persName source="#D1-TR">Sister Hanna</persName>
+               <note>Hanna (fictional), no known historical model</note>
             </person>
             <person xml:id="nurseIlse" source="fictional">
                <persName source="#A1">Ilse</persName>
+               <note>Ilse (fictional), no known historical model</note>
             </person>
             <person xml:id="nurseMargaret" source="fictional">
                <persName source="#A1">Nurse Margaret</persName>
                <persName source="#A1">Sister Margaret</persName>
                <persName source="#G1">Schwester Margarete</persName>
+               <note>Margaret (fictional), no known historical model</note>
             </person>
             <person xml:id="nurseMarianne" source="fictional">
                <persName source="#D1">Søster Marianne</persName>
                <persName source="#D1-TR">Sister Marianne</persName>
                <!--<note>Not mentioned in <ref source="#A1">A1</ref> or <ref source="#G1">G1</ref></note>-->
-            </person>
-            <person xml:id="orvieto">
-               <persName>Orvieto</persName>
-               <note>Orvieto (historical), hilltop city in Italy</note>
+               <note>Marianne (fictional), no known historical model</note>
             </person>
             <person xml:id="pan" source="fictional">
                <persName>Pan</persName>
-               <!--<note>Not mentioned in <ref source="#G1">G1</ref></note>-->  
+               <!--<note>Not mentioned in <ref source="#G1">G1</ref></note>-->
                <note>Pan (fictional), in Greek mythology, the god of nature</note>
+            </person>
+            <person xml:id="palmaV" source="historical">
+               <persName source="#TS #TS-TR">Palma Vecchio</persName>
+               <note>Palma Vecchio (1480-1528), a Venetian painter</note>
             </person>
             <person xml:id="persenEb" source="fictional" synch="#poulsenU">
                <persName source="#A1 #G1">Ebba Persen</persName>
                <persName source="#D1 #D1-TR">the beautiful dancer</persName>
-               <note>Ebba Persen (fictional), modeled on Ulla Britta Poulsen Skou (née Iversen) (1905–2001), a Danish ballet dancer whom Gerda painted in Paris in 1927</note>
+               <note>Ebba Persen (fictional), modeled on Ulla Britta Poulsen Skou (née Iversen)
+                  (1905–2001), a Danish ballet dancer whom Gerda painted in Paris in 1927</note>
             </person>
             <person xml:id="persenIv" source="fictional" synch="#poulsenJ">
                <persName source="#A1 #G1">Iven Persen</persName>
                <persName source="#D1 #D1-TR">the Royal Theatre's greatest actor</persName>
-               <note>Iven Persen (fictional), modeled on Johannes Poulsen (1881–1938), Danish actor and director, married to Ulla Poulsen</note>
+               <note>Iven Persen (fictional), modeled on Johannes Poulsen (1881–1938), Danish actor
+                  and director, married to Ulla Poulsen</note>
             </person>
             <person xml:id="pianistXX">
                <persName>pianist XX of <placeName key="hanover">Hanover</placeName></persName>
@@ -1331,126 +1386,144 @@
             <person xml:id="plato" source="historical">
                <persName source="#A1 #D1 #D1-TR">Plato</persName>
                <persName source="#G1">Platon</persName>
-               <!--<note>Athenian philosopher</note>-->
+               <note>Plato (b. 429 BC), an Athenian philosopher</note>
             </person>
             <person xml:id="portaF" source="historical" synch="#feruzziRi">
                <persName>Fernando Porta</persName>
-               <!--<note>Fernando Porta (b. 1897-??), Gerda Wegener’s second husband</note>-->
+               <note>Fernando Porta (b. 1897), Gerda Wegener’s second husband</note>
             </person>
             <person xml:id="poulsenJ" source="historical" synch="#persenIv">
                <persName>Johannes Poulsen</persName>
-               <!--<note>Johannes Poulsen (1881–1938), Danish actor and director, married to Ulla Poulsen</note>-->
+               <note>Johannes Poulsen (1881–1938), Danish actor and director, married to Ulla
+                  Poulsen</note>
             </person>
             <person xml:id="poulsenU" source="historical" synch="#persenEb">
                <persName>Ulla Britta Poulsen</persName>
-               <note>Ulla Britta Poulsen Skou (née Iversen) (1905–2001), a Danish ballet dancer whom Gerda painted in Paris in 1927</note>
+               <note>Ulla Britta Poulsen Skou (née Iversen) (1905–2001), a Danish ballet dancer whom
+                  Gerda painted in Paris in 1927</note>
             </person>
             <person xml:id="praxiteles" source="historical">
                <persName>Praxiteles</persName>
-               <!--<note>Athenian sculptor</note>-->
+               <note>Praxiteles (395-330 BC), an Athenian sculptor</note>
             </person>
             <person xml:id="prevostClaude" source="historical" synch="#lejeuneClaude">
                <persName>Claude Prévost</persName>
-               <!--<note>Claude Prévost, friend of Lili’s whom Gerda Wegener painted in 1923</note>-->
+               <note>Claude Prévost (historical), friend of Lili’s whom Gerda Wegener painted in
+                  1923</note>
             </person>
             <person xml:id="reissnerCarl" source="historical">
                <persName>Carl Reißner</persName>
-               <!--<note>German publisher</note>-->
+               <note>Carl Reissner (historical), a German publisher in Dresden</note>
             </person>
             <person xml:id="rene" source="fictional">
                <persName>Monsieur René</persName>
-               <!--<note>Possibly modeled on <persName>Dr. Charles HyverNaud</persName>, mayor of
-                     <placeName>Beaugency</placeName> from 1908 to 1940, or his assistants,
-                     <persName>Moïse Adrien Bruant</persName>, <persName>Gabriel
-                     Descauses</persName>, and <persName>Henri René Goujon</persName></note>-->
-               <note>Monsieur René (fictional), possibly modeled on a deputy mayor of Beaugency, Henri René Goujon</note>
+               <note>Monsieur René (fictional), possibly modeled on a deputy mayor of Beaugency,
+                  Henri René Goujon</note>
             </person>
             <person xml:id="robilantM" source="historical">
                <persName source="#frenchSupp">Mario Nicolis di Robilant</persName>
                <persName source="#frenchSupp">général Nicolis de Robilant</persName>
-               <!--<note>Italian general; mentioned in <persName key="allatiniH">Allatini</persName>'s
-                  memoir</note>-->
+               <note> General Nicolis di Robilant (historical), likely Mario Nicolis di Robilant
+                  (1855-1943), an Italian General in WWI</note>
             </person>
             <person xml:id="rossiniEl" source="fictional" synch="#allatiniH">
                <persName>Elena Rossini</persName>
                <persName>Elena</persName>
-               <note>Elena Rossini (fictional), modeled on Hélène Kann Allatini (1887-1943), friend of the Wegeners; author of Mosaiques</note>
+               <note>Elena Rossini (fictional), modeled on Hélène Kann Allatini (1887-1943), friend
+                  of the Wegeners; author of Mosaiques</note>
             </person>
             <person xml:id="rossiniEr" source="fictional" synch="#allatiniE">
                <persName>Ernesto Rossini</persName>
                <persName>Ernesto</persName>
-               <note>Ernesto Rossini (fictional), modeled on Eric Allatini (1886–1943), friend of the Wegeners; married to Hélène Allatini</note>
+               <note>Ernesto Rossini (fictional), modeled on Eric Allatini (1886–1943), friend of
+                  the Wegeners; married to Hélène Allatini</note>
             </person>
             <person xml:id="ruth" source="fictional">
                <persName>Ruth</persName>
-               <note>Ruth (fictional and historical), modeled on Ruth Hanna Hathern-Thaning (dates unknown), daughter of Ernst Harthern</note>
+               <note>Ruth (fictional and historical), modeled on Ruth Hanna Hathern-Thaning (dates
+                  unknown), daughter of Ernst Harthern</note>
+            </person>
+            <person xml:id="saunders" source="historical">
+               <persName>Fraulein Saunders</persName>
+               <note>Fraulein Saunders (historical), unidentified</note>
             </person>
             <person xml:id="schildtBar" source="fictional">
                <persName>Baronin Schildt</persName>
-               <note>Baronin Schildt (fictional), modeled on Marie-Anne von Goldschmidt-Rothschild (née Friedländer-Fuld, 1892-1973), known as Baroness Rotschildt; a friend of Kurt Warnekros</note>
+               <note>Baronin Schildt (fictional), modeled on Marie-Anne von Goldschmidt-Rothschild
+                  (née Friedländer-Fuld, 1892-1973), known as Baroness Rotschildt; a friend of Kurt
+                  Warnekros</note>
             </person>
             <person xml:id="schubert" source="historical">
                <persName source="#TS">Schubert</persName>
-               <!--<note>German composer</note>-->
+               <note>Franz Schubert (1797-1828), a German composer</note>
             </person>
             <person xml:id="schumannE" source="historical">
                <persName source="#frenchSupp">Elisabeth Schumann</persName>
+               <note>Elisabeth Schumann (1888-1952), a German opera singer</note>
             </person>
             <person xml:id="schumannH" source="historical">
                <persName>Harry Schumann</persName>
-               <note>Harry Schumann (historical), head of Carl Reissner Verlag, the German publishing house in Dresden</note>
+               <note>Harry Schumann (historical), head of Carl Reissner Verlag, the German
+                  publishing house in Dresden</note>
             </person>
             <person xml:id="signoraFavio" source="fictional">
                <persName>Signora Flavio</persName>
-               <persName source="#G1">Signora Favio</persName>            
+               <persName source="#G1">Signora Favio</persName>
+               <note>Signora Favio (fictional), wife of Favio, no known historical model</note>
             </person>
             <person xml:id="sister" source="fictional">
                <persName source="#A1 #D1-TR">sister</persName>
                <persName source="#D1">søster</persName>
                <persName source="#G1">schwester</persName>
-               <note>Sister (fictional), modeled on Einar Wegener’s sister, Christiane Thomsen (1881–1954</note>
+               <note>Sister (fictional), modeled on Einar Wegener’s sister, Christiane Thomsen
+                  (1881–1954</note>
             </person>
             <person xml:id="sisterInLaw" source="fictional" synch="#wegenerM">
                <persName source="#A1 #D1-TR">sister-in-law</persName>
                <persName source="#D1">svigerinde</persName>
                <persName source="#G1">schwägerin</persName>
                <persName source="#G1">frau des bruders</persName>
-               <note>Sister-in-law (fictional), modeled on Einar Wegener’s sister-in-law, Musse (a nickname), married to Holger Wegener</note>
+               <note>Sister-in-law (fictional), modeled on Einar Wegener’s sister-in-law, Musse (a
+                  nickname), married to Holger Wegener</note>
             </person>
             <person xml:id="sparreAn" source="fictional" synch="#wegenerE #lili">
                <persName>Andreas Sparre</persName>
                <persName>Andreas</persName>
                <persName source="#G1">Monsieur Sparre</persName>
                <persName>Lilleman</persName>
-               <note>Andreas Sparre (fictional), modeled on Einar Magnus Andreas Wegener (b. 1882), a Danish painter</note>
+               <note>Andreas Sparre (fictional), modeled on Einar Magnus Andreas Wegener (b. 1882),
+                  a Danish painter</note>
             </person>
             <person xml:id="sparreGre" source="fictional" synch="#wegenerG">
                <persName>Grete Sparre</persName>
                <persName>Grete</persName>
                <persName>Mrs. Sparre</persName>
                <persName source="#G1">Madame Sparre</persName>
-               <note>Grete Sparre (fictional), modeled on Gerda Wegener (1885-1940), an art deco painter and illustrator</note>
+               <note>Grete Sparre (fictional), modeled on Gerda Wegener (1885-1940), an art deco
+                  painter and illustrator</note>
             </person>
             <person xml:id="steinach" source="historical">
                <persName>Steinach</persName>
                <persName>Eugen Steinach</persName>
-               <note>Eugen Steinach (historical, 1861–1944), an Austrian physician who pioneered gonadal transplants and early theorized the existence of hormones</note>
+               <note>Eugen Steinach (1861–1944), an Austrian physician who pioneered gonadal
+                  transplants and early theorized the existence of hormones</note>
             </person>
             <person xml:id="steinckeK" source="historical">
                <persName source="#danishSupp">K. K. Steincke</persName>
                <persName source="#danishSupp">Karl Kristian Steincke</persName>
+               <note>Karl Kristian Steincke (1880-1963), a Danish politician</note>
             </person>
             <person xml:id="stenningHJ" source="historical">
                <persName>H.J. Stenning</persName>
-               <!--<note><ref source="#A1">A1</ref> translator from German.</note>-->
+               <note>H J Stenning (historical), translator of the English-language editions</note>
             </person>
             <person xml:id="tacitus" source="historical">
                <persName>Tacitus</persName>
+               <note>Tacitus (d. 117 AD), a senator and a historian of the Roman Empire</note>
             </person>
             <person xml:id="tb" source="historical">
                <persName>T.B.</persName>
-               <!--<note>Danish diplomat; mentioned in <persName key="allatiniH">Allatini</persName>'s
-                  memoir</note>-->
+               <note>T. B. (historical), an unidentified Danish diplomat</note>
             </person>
             <person xml:id="tempeteJean" source="fictional">
                <persName>Jean Tempete</persName>
@@ -1458,15 +1531,19 @@
                <persName>Jean Tempête</persName>
                <persName>Jean Tempéte</persName>
                <persName>Tempète</persName>
-               <note>Jean Tempête (fictional), modeled on Léon Leyritz (1888-1976), French sculptor and friend of the Wegeners</note>
+               <note>Jean Tempête (fictional), modeled on Léon Leyritz (1888-1976), French sculptor
+                  and friend of the Wegeners</note>
             </person>
             <person xml:id="tergitG" source="historical">
                <persName>Gabriele Tergit</persName>
-               <note>Gabriele Tergit (historical, 1894-1982), a writer and journalist born in Berlin who was a courtroom reporter for the Berliner Tageblatt and published the novel Käsebier erobert den Kurfürstendamm in 1932</note>
+               <note>Gabriele Tergit (1894-1982), a writer and journalist born in Berlin who was a
+                  courtroom reporter for the Berliner Tageblatt and published the novel Käsebier
+                  erobert den Kurfürstendamm in 1932</note>
             </person>
             <person xml:id="thomsenTC" source="historical" synch="#brotherChris">
                <persName>TC Thomsen</persName>
-               <note>Thomas Christian Thomsen (historical, 1883-1963), married to Einar’s sister, Christiane Thomsen, and father of Einar’s nephew, Sigurd Thomsen</note>
+               <note>Thomas Christian Thomsen (1883-1963), married to Einar’s sister, Christiane
+                  Thomsen, and father of Einar’s nephew, Sigurd Thomsen</note>
             </person>
             <person xml:id="trempe" source="fictional">
                <persName source="#A1 #D1-TR">Count de la Trempe</persName>
@@ -1475,22 +1552,23 @@
                <persName source="#D1">Grev de la Trempe</persName>
                <note>Comte de Trempe (fictional), no known historical model</note>
             </person>
-            <!--<person xml:id="ullsteinPub" source="historical">
-               <persName source="#danishSupp">Ullstein</persName>
-               <note>German publishing house</note>
-            </person>-->
-            <!-- possible dublicate with placeName #ullstein; At this time we have decided against marking organizations via <orgname> therefore Pamela says we will use the placename key (even though publishing houses existed without physical locations at this time) so as to capture these connections; we will need to write a note regarding publishing house references likely in the teiHeader of the texts mentioned-->
+            <person xml:id="vecchioP" source="historical">
+               <persName>Palma Vecchio</persName>
+               <note>Palma Vecchio (1480-1528), a Venetian painter</note>
+            </person>
             <person xml:id="wagner" source="historical">
                <persName>Wagner</persName>
                <persName>Richard Wagner</persName>
-               <!--<note>German composer</note>-->
+               <note>Richard Wagner (1813-1883), a German composer</note>
             </person>
             <person xml:id="wardalKar" source="fictional">
                <persName source="#A1">Karen Wardal</persName>
                <persName source="#A1">Karen Wardel</persName>
                <persName source="#G1">Karen Wärdal</persName>
                <persName source="#D1 #D1-TR">Karen Warren</persName>
-               <note>Karen Wardal (fictional), also Warren; possibly modeled on Sascha Wamberg, a Russian-born Danish woman living in Paris at the time and depicted in several painting by Gerda Wegener</note>
+               <note>Karen Wardal (fictional), also Warren; possibly modeled on Sascha Wamberg, a
+                  Russian-born Danish woman living in Paris at the time and depicted in several
+                  painting by Gerda Wegener</note>
             </person>
             <person xml:id="warnekros" source="historical" synch="#kreutz">
                <persName>Kurt Warnekros</persName>
@@ -1498,16 +1576,18 @@
                <persName>Professor Warnekros</persName>
                <persName>Professor W</persName>
                <persName source="#frenchSupp">Professeur W</persName>
-               <note>Kurt Warenkros (historical, 1882–1949), a German gynecologist who performed all but the first of four surgeries on Lili Elvenes; director of the Women’s Clinic in Dresden (Staatliche Frauenklinik) from 1925 to 1948</note>
+               <note>Kurt Warenkros (1882–1949), a German gynecologist who performed all but the
+                  first of four surgeries on Lili Elvenes; director of the Women’s Clinic in Dresden
+                  (Staatliche Frauenklinik) from 1925 to 1948</note>
             </person>
             <person xml:id="watteau" source="historical">
                <persName>Jean-Antoine Watteau</persName>
                <persName>Watteau</persName>
-               <!--<note>Not mentioned in <ref source="#G1">G1</ref>; French painter</note>
--->            </person>
+               <note>Jean-Antoine Watteau ((1684-1721), a French painter</note>
+            </person>
             <person xml:id="wegenerAM" source="historical" synch="#mother">
                <persName>Ane Marie Wegener</persName>
-               <!--<note><persName key="wegenerE">Einar Wegener</persName>'s mother</note>-->
+               <note>Ane Marie Wegener (historical), Einar Wegener’s mother</note>
             </person>
             <person xml:id="wegenerE" source="historical" synch="#sparreAn #lili">
                <persName>Einar Wegener</persName>
@@ -1525,7 +1605,8 @@
                   husband</persName>
                <persName source="#danishSupp">the man Wegener</persName>
                <persName source="#danishSupp">former husband</persName>
-               <note>Einar Magnus Andreas Wegener (historical, b. 1882), a Danish painter; married to Gerda Wegener; died as Lili Elbe in Dresden, 1931</note>
+               <note>Einar Magnus Andreas Wegener (b. 1882), a Danish painter; married to Gerda
+                  Wegener; died as Lili Elbe in Dresden, 1931</note>
             </person>
             <person xml:id="wegenerG" source="historical" synch="#sparreGre">
                <persName>Gerda Wegener</persName>
@@ -1534,32 +1615,34 @@
                <persName source="#danishSupp">sin tidligere Hustru</persName>
                <persName source="#danishSupp">the former wife</persName>
                <persName source="#danishSupp">Mrs. Wegener</persName>
-               <note>Gerda Maria Frederikke Gottlieb Wegener (historical, 1885-1940), an art deco painter and illustrator; married to Einar Wegener</note>
+               <note>Gerda Maria Frederikke Gottlieb Wegener (1885-1940), an art deco painter and
+                  illustrator; married to Einar Wegener</note>
             </person>
             <person xml:id="wegenerHe" source="historical" synch="#brotherSing #brotherPlur">
                <persName>Henrik Wegener</persName>
-               <!--<note><persName key="wegenerE">Einar Wegener</persName>'s brother</note>-->
+               <note>Henrik Wegener (historical), Einar Wegener’s brother</note>
             </person>
             <person xml:id="wegenerHo" source="historical" synch="#brotherSing #brotherPlur">
                <persName>Holger Wegener</persName>
-               <!--<note><persName key="wegenerE">Einar Wegener</persName>'s brother</note>--> 
+               <note>Holger Wegener (b. 1880), Einar Wegener’s brother</note>
             </person>
             <person xml:id="wegenerM" source="historical" synch="#sisterInLaw">
                <persName>Musse</persName>
                <persName>Musse Wegener</persName>
-               <!--<note><persName key="wegenerHo">Holger Wegener</persName>'s wife</note>-->
+               <note>“Musse” (nickname) Wegener (historical), Holger Wegener’s wife</note>
             </person>
             <person xml:id="wegenerS" source="historical" synch="#nephew">
                <persName>Sigurd Wegener Thomsen</persName>
-               <note>Sigurd Wegener Thomsen (historical, 1905-1953), Einar’s nephew</note>
+               <note>Sigurd Wegener Thomsen (1905-1953), Einar’s nephew</note>
             </person>
             <person xml:id="wegenerV" source="historical" synch="#father">
                <persName>Vilhelm Wegener</persName>
-               <!--<note><persName key="wegenerE">Einar Wegener</persName>'s father</note>-->
+               <note>Vilhelm Wegener (historical), Einar Wegener’s father</note>
             </person>
             <person xml:id="wilde" source="historical">
                <persName>Oscar Wilde</persName>
-               <note>Oscar Wilde (historical, 1854-1900), an Irish-born prominent British playwright and author imprisoned for “gross indecency” (homosexuality) in 1897</note>
+               <note>Oscar Wilde (1854-1900), an Irish-born prominent British playwright and author
+                  imprisoned for “gross indecency” (homosexuality) in 1897</note>
             </person>
             <person xml:id="zeus" source="fictional">
                <persName>Zeus</persName>
