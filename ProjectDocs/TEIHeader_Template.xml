@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- Be sure to remove the schema line above and re-associate your file to your locally downloaded schema.  -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
@@ -8,7 +8,7 @@
       For names used in the text, whether narrative or historical, the persName element gets the @key attribute with a value that
       should match their name in the Prosopography. For project team members and organizations use the @ref attribute 
       and the two-letter (or three-letter), initials of your colleague on the persName elements.-->
-   <!-- People in <respStmt> elements: Each person on the project team has a special identifier (including you as an encoder). These IDs should be used in the blank ref attribute-values below. IDs are created by taking the first and last initial of the person's name. Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp. If unsure, verify with project managers various team members' IDs. -->
+   <!-- People in <respStmt> elements: Each person on the project team has a special identifier (including you as an encoder). These IDs should be used in the blank ref attribute-values below. IDs are created by taking the first and last initial of the person's name. Some team members have asked to be identified with three initials. Please reference Dr. Caughie as plc and Rebecca Parker as rjp. If unsure, verify with project managers various team members' IDs. A list of some team IDs can be found here: https://github.com/RJP43/LiliElbe_EngagedLearners/issues/35#issuecomment-476646163-->
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -146,12 +146,12 @@
          </publicationStmt>
          <!-- Consult Dr. Caughie, Emily, or Rebecca to verify which example to follow according to your text -->
          <!-- Start Edition Example -->
-         <sourceDesc source="Codex" xml:lang="eng">
+         <sourceDesc source="Codex" xml:lang="eng"><!-- be sure to correct the xml:lang attribute value on the sourceDesc element to match your document's metadata -->
             <p>Hardbound book, 323 total pages, 288 pages with text and 18 illustrations.</p>
          </sourceDesc>
          <!-- End Edition Example -->
          <!-- Start Contextual Example -->
-         <sourceDesc source="Manuscript" xml:lang="dan">
+         <sourceDesc source="Manuscript" xml:lang="dan"><!-- be sure to correct the attribute values on the sourceDesc element to match your document's metadata -->
             <p><!-- describe anything worth noting about the physical text document from looking at the facsimile images;
                encoder's description must be in complete, logical sentences; Dr. Caughie must approve all source descriptions before transformation --></p>
          </sourceDesc>
@@ -177,12 +177,15 @@
                </category>
                <category source="dc" xml:id="date">
                   <catDesc>
-                     <![CDATA[<dc:date>date metadata</dc:date>]]>
+                     <![CDATA[<dc:date>date metadata</dc:date>]]><!-- Do not forget to change the text between the dc:date tags AND include the <![CDATA[ before the dc:date tage and ]]> after it. -->
                   </catDesc>
                </category>
                <!-- Use the following category only when encoding a book section or periodical -->
-               <category source="dcterms" xml:id="isPartOf">
+               <category source="dcterms" xml:id="isPartOf" xml:lang="dan"><!-- be sure to correct the xml:lang attribute value on the sourceDesc element to match your document's metadata -->
                   <catDesc><!-- book or periodical title --></catDesc>
+               </category>
+               <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
+                  <catDesc><!-- book or periodical title translated--></catDesc>
                </category>
             </taxonomy>
          </classDecl>

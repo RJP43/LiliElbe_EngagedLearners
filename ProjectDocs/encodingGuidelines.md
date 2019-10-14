@@ -215,6 +215,9 @@ Please create a Google doc or spreadsheet with three (or more) columns. Prosopog
 Example:     
 wegenerE (assigned), Einar Wegener (person), Einar Wegener | Einar | Mr. Wegener   
 barkerBob (suggested), Robert Barker (person), Bobby Boy   
+
+#### Project Team Member IDs  
+A list of some team IDs can be found [here](https://github.com/RJP43/LiliElbe_EngagedLearners/issues/35#issuecomment-476646163); otherwise, please verify with Rebecca or Emily. 
     
 ### Mimicking Print Stylistic Renderings
 _note: When text is copied from a Word Document with stylings (underline, bold, etc.) the stylings disappear; therefore, it is necessary for you to refer to the facsimile images of the document and the original Word Document transcription. Use the encoding below to capture such instances of word stylings._   
