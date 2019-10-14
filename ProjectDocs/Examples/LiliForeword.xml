@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Foreword/LiliForeword.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/bookSections/LiliForeword.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>"Vorwort" (unpublished)</title>
+                <title type="alternative">"Foreword" (unpublished)</title>
+                <author>
+                    <persName key="lili" role="AUT">Lili Elbe</persName>
+                </author>
+                <respStmt>
+                    <resp>Print originally compiled by</resp>
+                    <persName key="harthernE" role="COM">Ernst Harthern</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Photographed by</resp>
+                    <persName ref="sm">Sabine Meyer</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="twj">Tatjana Willms-Jones</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation completed by</resp>
+                    <persName ref="twj" role="TRL">Tatjana Willms-Jones</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed by</resp>
+                    <persName ref="sm">Sabine Meyer</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="twj">Tatjana Willms-Jones</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or proofing by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <persName ref="zo">Zanabe Othman</persName>
+                    <persName ref="sr">Samantha Riker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed by</resp>
+                    <persName ref="ccm">Caroline McCraw</persName>
+                </respStmt>
+                <sponsor>Loyola University Chicago Libraries</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="2019-07-06">July 6th, 2019</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern
+                            Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour
+                            Movement's Archives and Library)</orgName> in <placeName>Huddinge,
+                            Sweden</placeName>.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc source="Manuscript" xml:lang="ger-B">
+                <p>Three typed pages with page numbers in Roman numerals in the top left hand corner
+                    of each, with crossed out passages and both typed and handwritten insertions, and
+                    two parallel lines drawn at the top of the third page.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+                    <category source="collex" xml:id="discipline">
+                        <catDesc>History/Book History</catDesc>
+                    </category>
+                    <category source="collex" xml:id="genre">
+                        <catDesc>Life Writing</catDesc>
+                    </category>
+                    <category source="collex" xml:id="text">
+                        <catDesc>URL to Plain Text</catDesc>
+                    </category>
+                    <category source="dc" xml:id="date">
+                        <catDesc>
+                            <![CDATA[<dc:date>1931</dc:date>]]>
+                        </catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <editorialDecl>
+                <hyphenation>
+                    <p>We have removed the hyphenation that appears in the printed text during
+                        digitization and encoding. Original hyphenation can be consulted in the
+                        facsimile images.</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <pb n="1" facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg"/>
+                <head>
+                    <hi rend="underline">Vorwort</hi>
+                </head>
+                <p>Es gibt nicht viele Menschen, die ihr Leben wirklich <hi rend="emphasis"
+                        >leben</hi>. Die Allermeisten tasten wie Blinde durch das Dasein, - und
+                    fällt ihnen einmal irgend ein phantasievolles Buch in die Hände, so sagen sie,
+                    haben sie es zu Ende gelesen, gewissermassen zur eigenen Beruhigung: "Soetwas
+                    kommt nur in Romanen vor." </p>
+                <p>Die wenigen, die mit offenen Augen durchs Leben gehen, wissen, dass das Leben
+                    selbst reicher und seltsamer ist, als alle Romane der Welt. Und offen sagen sie
+                    zu sich selber: "Würde ich dies oder jenes in einem Buch schreiben, jeder würde
+                    glauben, es sei weiter nichts, als die Erfindung eines kühnen oder überhitzen
+                    Dichtergehirns." Zu diesen wenigen gehören vor allem die Künstler. Sie sehen,
+                    hören und fühlen mit grösserer Intensität, als alle anderen. Deshalb gestaltet
+                    sich ihr Leben auch oft wie ein Abenteuer. Sie sind auf tiefe, geheimnisvolle
+                    Weise mit dem Leben und der Natur verbunden, – so stark, dass sie versuchen
+                    müssen, dieser Verbundenheit eine greifbare, sichtbare Form zu gehen. </p>
+                <p>Die Götter haben sie gewissermassen zu Auserwählten in diesem Dasein gemacht,
+                    haben ihnen erlaubt, etwas hinter den grossen Vorhang zu schauen, der den
+                    meisten anderen die mystischen Kräfte verbirgt, die sich in Mensch und Natur
+                    rühren. <choice>
+                        <orig>Davür</orig>
+                        <reg>Dafür</reg>
+                    </choice> aber haben die Götter in die Seele dieser Auserwählten eine
+                    gnadenlose, unbarmherzige Macht gesenkt, die sie zwingt, Ausdruck zu geben für
+                    alles, was sie gesehen und gefühlt haben, - um alljenen, die wie Blinde durch
+                    das Leben gehen, den Weg zu weisen. </p>
+                <p>Ich bin nicht anmassend, nein, ich bilde mir auch nicht ein, dass dieses Buch,
+                    dieser Bericht etwa ein Kunstwerk ist. Ich habe alldies niedergeschrieben, weil
+                    ich nicht anders konnte. </p>
+                <p>Es ist das wunderbare, seltsame Märchen meines Lebens, das wunderbarste von
+                    allen Märchen, nicht nur, weil es ein wahres Märchen ist, sondern weil ich das
+                    erste Menschenwesen auf Erden bin, dessen Schicksal es war, zuerst als Mann
+                    gelebt zu haben, um dann eine Frau zu werden. </p>
+                <p>Der erste Mensch, der nicht unbewusst durch einer Mutter Schmerzen geboren
+                    wurde, sondern voll bewusst durch eigne Schmerzen. </p>
+                <p>Ein Zwitterwesen, <persName key="sparreAn">Andreas Sparre</persName>, oder, wie
+                    sein bürgerlicher Name war, <persName key="wegenerE">Einar Wegener</persName>,
+                    hat nach dem bürgerlichen Gesetz viele, viele Jahre als Mann gelebt, ist
+                    Künstler, Maler, gewesen – war verheiratet. Als diese Spaltung so stark geworden
+                    war, dass er nicht mehr leben kann, ein todkrankes Menschenkind, trifft er einen
+                        <persName key="kreutz">genialen Chirurgen</persName>, der es wagt, die
+                    Verantwortung für dieses unerhörte Experiment auf sich zu nehmen. </p>
+                <p>Ein junges, lebensfrisches Weib aufersteht aus <persName key="sparreAn"
+                        >Andreas</persName> "krankem und hinfälligen Körper." </p>
+                <p>Ein Jahr ist vergangen. Es war ein schweres Jahr, weil ich das einzige Wesen,
+                    ausserhalb aller Gesetze stehend, das heisst, von keinem Gesetzgeber vorher in
+                    Betracht gezogen, bin innerhalb <pb n="2"
+                        facs="http://lilielbe.org/media/foreword/Lili_foreword_02.jpg"/>einer
+                    Gesellschaft, die nur auf das Normale, Alltägliche, Allgewöhnliche eingestellt
+                    ist. </p>
+                <p>Doch jetzt fühle ich, dass der Kampf gewonnen ist. </p>
+                <p style="paraText">- - - -</p>
+                <p>In den Zeitungen aller Länder und aller Sprachen hat man mein einzigartiges
+                    Geschick besprochen, hat von einem Wunder geschrieben und dennoch fast immer
+                    mich als ein degeneriertes und unglückliches Wesen betrachtet. </p>
+                <p>Die dies taten, haben sich geirrt. Nur wer mich nicht gesehen hat, konnte sich
+                    so über mich äussern. </p>
+                <p>Ich bin gesund, froh und glücklich. </p>
+                <p>Und als gesunder, froher und glücklicher Mensch habe ich diese meine
+                    Lebensbeichte geschrieben, - über <persName key="sparreAn">Andreas
+                        Sparre</persName> und mich, <persName key="lili">Lili Elbe</persName>, die
+                    wir, jedes für sich, ausgeprägt <hi rend="emphasis">zwei</hi> Wesen waren in
+                    einem gemeinsamen Körper. Nur der Körper <hi rend="emphasis">war</hi>
+                    degeneriert und wurde es immer mehr, je stärker die Zweiteilung überhandnahm und
+                    dadurch einen krankhaften Zustand schuf. </p>
+                <p>
+                    <add place="above" type="insertion" rend="pencil">Solange</add> Im übrigen war
+                        <persName key="sparreAn">Andreas Sparre</persName> ein Mann, der auf eine
+                    ganz natürliche, normale Weise die Frau liebte, – und ich bin eine Frau, die
+                    ebenso selbstverständlich sich vom männlichen Wesen angezogen fühlt. Wir waren
+                    zwei Wesen in <hi rend="emphasis">einem</hi> Leib. </p>
+                <p>
+                    <del type="strikethrough" rend="blackInk">Während der langen Übergangsperiode
+                        war dieser Leib allzu krank und überanstrengt durch die doppelten,
+                        männlichen und weiblichen Funktionen im Inneren dieses Körpers, als dass er
+                        sich mit den Sensationen des Gefühlslebens hätte beschäftigen können. Wer
+                        Dinge der Erotik in meinem Buch zu finden erwartet, wird deshalb enttäuscht
+                        werden. Er möge das Buch nicht in die Hand nehmen.</del>
+                </p>
+                <p>Es gibt einige Fälle, wo junge Frauen in Wirklichkeit Männer gewesen sind. Und
+                    stets waren es ihre erotischen Neigungen, die die Aufmerksamkeit auf sie
+                    hingelenkt hatten, – und durch einen geringen operativen Eingriff wurden sie zu
+                    dem, was sie im Grunde von Anfang an gewesen sind, – das Individuum wechselte
+                    das äussere Gewand, ohne dass dieser Wechsel irgend eine wesentlich Veränderung
+                    in dem Charakter und den Neigungen des betreffenden Individuums zur Folge hatte. </p>
+                <p>Ich bin jetzt völlig und ganz und gar Weib, – aber in meinem Körper hat ein Mann
+                    gelebt mit dem Denken und den Neigungen eines Mannes. Dieses Schicksal ist
+                    bislang noch keines Menschenwesens Leib zuteil geworden. Und ob auch die
+                    Veränderung so gross ist, dass die Erinnerung an <persName key="sparreAn"
+                        >Andreas Sparre</persName>s Leben und Gefühlsleben nach und nach fast ganz
+                    in mir ausgelöscht ist, sodass ich oftmals in dem Teil des Buches, der von
+                        <persName key="sparreAn">Andreas</persName> handelt, zu <persName
+                        key="sparreGre">Grete</persName>, seiner Lebensgefährtin bis zu seinem
+                    Erlöschen, und ihrem Erinnern an ihn meine Zuflucht nehmen musste, -so glaube
+                    ich doch gefühlsmässig ihn auf eine andere Weise zu verstehen, als andere
+                    Menschen es könnten. Und vielleicht gibt es in mir eine Brücke des Gefühls über
+                    jenem Abgrund, der sonst Mann und Weib von einander trennt. Und das Ahnen um
+                    diese Gefühlsverbindung zwischen den beiden Geschlechtern, dieses Ahnen in
+                    meinem Blute, das jetzt ein Frauenherz <pb n="3"
+                        facs="http://lilielbe.org/media/foreword/Lili_foreword_03.jpg"/>
+                    durchströmt, <hi rend="emphasis">m e i n</hi> Herz, wie es früher das Herz eines
+                    Mannes durchströmt hat, <persName key="sparreAn">Andreas Sparre</persName>s
+                    Herz, dann und wann durch bunte, wehe Nebel zu erschauderndem Wissen
+                    anschwellend, dieses ahnende Wissen trug ich hinein in diese meine
+                    Schicksalsbeichte, zag und doch so wahrhaftig, in vielleicht unzugängliche,
+                    tastende, dürftige Worte gekleidet, -und wenn diese Worte manchmal nur andeuten,
+                    manchmal auch etwas verschweigen, so entsprang dies aus verhaltener Scham… Aber
+                    trotz aller Mängel, die meiner Confessio, -denn das ist letzten Endes diese
+                    Niederschrift, -anhaften mögen, glaube ich doch, dass ich mancheinem, der diese
+                    Seiten liest, da und dort etwas Neuland der Seele entdeckt habe. </p>
+                <p>Auch wollte ich mit diesem Buch etwas Dankesschuld abtragen meinem <persName
+                        key="kreutz">Helfer</persName> und eigentlichen <persName key="kreutz"
+                        >Erschaffer</persName>, dem grossen deutschen <persName key="kreutz"
+                        >Arzt</persName> und <persName key="kreutz">Menschenfreund</persName> in
+                    Not, dessen Namen ich hinter dem <persName key="kreutz">Professor
+                        Kreutz</persName> meines Buches verborgen habe. –Dass ich wie ihm allen
+                    Personen, die durch mein Buch gehen, Decknamen gegeben habe, entsprang, -muss es
+                    besonders erwähnt werden?- einem leicht erklärlichen Taktgefühl. </p>
+                <p>Im August 1931 </p>
+                <p>
+                    <persName key="lili">Lili Elbe</persName>
+                </p>
+            </div>
+            <div type="translation">
+                <head>
+                    <hi rend="underline">Foreword</hi>
+                </head>
+                <p>There aren't a lot of people that really <hi rend="italics">live</hi> their
+                    life. Most stumble through existence like the blind – and if they happen upon a
+                    fanciful book, and finish reading it, they say: "Things like that only happen in
+                    novels" in order to clear their own conscience. </p>
+
+                <p>The few that go through life with their eyes wide open, know, that life itself
+                    is richer and stranger than any novel in this world. And openly they say to
+                    themselves: "Were I to write this or that in a novel, everybody would think that
+                    it is not more than the fabrication of a bold and overheated poet's mind."
+                    Artists are among these few. They see, hear and feel with a greater intensity
+                    than others, which is why their lives are often adventures. They are connected
+                    to life and nature in a deep and mysterious way – this bond is so strong, that
+                    they have to try and give it a tangible, visible form. </p>
+
+
+                <p>In a way, the gods have made them to be the chosen ones of this existence,
+                    allowing them to peek behind the curtain that hides the mysterious forces
+                    stirring within man and nature from others. In turn the gods have imposed on
+                    their souls a merciless power that forces them to express everything that they
+                    have seen and felt – in order to guide those, that walk through life blindly. </p>
+
+                <p>I am not boastful, no, I also do not think that this book, this report, is a
+                    work of art. I wrote all of this down, because I couldn't help myself. </p>
+                <p>It is the wonderful, strange fairytale of my life, the most wonderful of all
+                    fairytales, not only because it is a true fairytale, but also because I am the
+                    first human being on this earth, whose fate it was to live first as a man and
+                    then become a woman. </p>
+
+                <p>The first person, not to be born unconsciously through their Mother's pangs but
+                    consciously through their own pain. </p>
+
+                <p>A hermaphrodite, <persName key="sparreAn">Andreas Sparre</persName>, or as known
+                    by his public name, <persName key="wegenerE">Einar Wegener</persName>, according
+                    to civil laws lived as a man for many, many years. He was an artist, a painter –
+                    he was married. <anchor type="commentRangeStart" n="1"/>As the division within
+                    him had become so strong that he cannot live any longer, he, a fatally ill human
+                    being, meets an <persName key="kreutz">ingenious surgeon</persName>, who is
+                    willing to take on the responsibility for this unprecedented experiment.<anchor
+                        type="commentRangeEnd" n="1"/><note type="editor" source="sm"
+                        corresp="comment_1">The tenses are off here and in the German: past perfect
+                        to present tense.</note>
+                </p>
+                <p>A young and rejuvenated woman is resurrected out of <persName key="sparreAn"
+                        >Andreas</persName>' "sick and decrepit body." </p>
+                <p>A year has passed. It was a difficult year, because within a society that is
+                    only accustomed to the normal, conventional and everyday things I am the only
+                    being existing outside of any law, meaning not having previously been taken into
+                    consideration by any lawmakers. </p>
+                <p>But now I feel, that the battle has been won. </p>
+                <p style="paraText">- - - -</p>
+                <p>My unique fate has been discussed in the newspapers of all countries and in all
+                    languages. They wrote about a miracle, yet, almost always, regarded me as a
+                    degenerate and sad creature. </p>
+
+                <p>Whoever did that, was wrong. Only those who have never seen me, would speak
+                    about me like that. </p>
+                <p>I am healthy, joyful and happy. </p>
+                <p>And as a healthy, joyful and happy person I have written this Confession – about
+                        <persName key="sparreAn">Andreas Sparre</persName> and me, <persName
+                        key="lili">Lili Elbe</persName>, we who were <hi rend="italics">two</hi>
+                    distinct beings in one body. Only the body <hi rend="italics">was</hi>
+                    degenerated, and its condition worsened the more the bisection prevailed,
+                    creating a morbid condition. </p>
+                <p>For <add place="above" type="insertion" rend="pencil">as long as</add> the rest
+                        <persName key="sparreAn">Andreas Sparre</persName> was a man, that loved
+                    women in a natural and normal way, – and I am a woman that as a matter of course
+                    is attracted to the male character in the same way. We were two beings in <hi
+                        rend="italics">one</hi> body. </p>
+                <p>
+                    <del type="strikethrough" rend="blackInk">During the long period of transition,
+                        this body was too ill and exhausted from the dual male and female functions
+                        within, than that it could focus on the sensations of emotional life.
+                        Therefore, he who is expecting anything erotic in this book, will be
+                        disappointed. He should not pick up this book.</del>
+                </p>
+
+
+                <p>There are some cases, where young women have actually been men. And it was
+                    always their erotic inclinations that drew attention to them, and through a
+                    minor surgical procedure they became what they essentially had been from the
+                    very beginning. The individual underwent a change in appearance, without this
+                    change having any major effect on the personality or affinities of said
+                    individual. </p>
+
+                <p>I am now fully a woman, but a man with a man's mindset and inclinations lived in
+                    my body. This fate has yet to happen to anyone else. Even though the change
+                    within me is so significant, that the memory of <persName key="sparreAn">Andreas
+                        Sparre</persName>'s life and feelings has gradually almost completely
+                    vanished, so that oftentimes, in the part of the book dealing with <persName
+                        key="sparreAn">Andreas</persName>, I would have to turn to <persName
+                        key="wegenerG">Grete</persName>, his former wife until his extinction, and
+                    her memories of him, – I still believe that emotionally I am able to understand
+                    him better than other people could. And perhaps there is a bridge of
+                    consciousness inside of me that conquers the abyss that usually separates man
+                    and woman. And the consciousness of this emotional connection between the two
+                    sexes, this consciousness in my blood, which now flows through a woman's heart,
+                        <hi rend="italics">my</hi> heart, just like it previously flowed through a
+                    man's heart, <persName key="sparreAn">Andreas Sparre</persName>'s heart, which
+                    from time to time through colorful, aching mists swelled up into cringing
+                    knowledge, this foreboding knowledge I carried into my fated confession –
+                    tentative and yet oh so true. It may be put into insufficient, tentative, meager
+                    words – and if sometimes those words only suggest, sometimes even conceal
+                    something, then this emanates from restrained shame… Despite of all of these
+                    flaws attached to my confession, because after all, this is a confession, I
+                    still believe that here and there I have disclosed some virgin soil of the soul
+                    to some who are reading these pages. </p>
+                <p>With this book I also wanted to thank my <persName key="kreutz"
+                        >helper</persName> and actual <persName key="kreutz">creator</persName>, the
+                    great German <persName key="kreutz">doctor</persName> and <persName key="kreutz"
+                        >humanitarian</persName> in my hour of need, whose name I have concealed
+                    behind the <persName key="kreutz">Professor Kreutz</persName> of my book. I have
+                    given him and all other people wandering through my book aliases – need I even
+                    mention why?- out of an easily explained discretion. </p>
+                <p>August 1931 </p>
+                <p>
+                    <persName key="lili">Lili Elbe</persName>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
