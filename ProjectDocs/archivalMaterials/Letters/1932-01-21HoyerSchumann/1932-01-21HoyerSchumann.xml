@@ -161,10 +161,8 @@
                         <p><seg corresp="#g12">The Danish documents will be translated for your use promptly.</seg></p>
                     <p><seg corresp="#g13">There are about 20 paintings here that could be useful to you. Do you give me permission to have the paintings photographed? I am awaiting your reply to this</seg></p>
                     <closer>
-                        <seg corresp="#g14"> Kind regards </seg>
-                        <seg corresp="#g15">Yours sincerely.</seg>
-                        <!--aa 9 June I don't see this in the translation or in the facsimile image so I'm not sure where this name came from--><seg><persName>Lilimoe</persName> and his brother.</seg>
-                        <!--I also don't see this anywhere--><signed><persName key="lili">Lili Elbe</persName></signed>
+                        <seg corresp="#g14">Kind regards </seg>
+                        <seg corresp="#g15">Yours sincerely.</seg>                        
                     </closer>
                 </div>
                 </div>

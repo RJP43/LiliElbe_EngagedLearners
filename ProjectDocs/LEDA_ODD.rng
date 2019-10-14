@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-10-12T00:05:00Z. .
+Schema generated from ODD source 2019-10-14T14:54:15Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -4827,6 +4827,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Bach | Note: Bach
                               (historical), Johann Sebastian Bach (1685–1750), a German
                               composer) </a:documentation>
+                  <value>bonsels</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Bonsels | Note: Bonsels
+                              (historical), possibly Waldemar Bonsels (1880-1952), a German author,
+                              though he was an avowed anti-Semite and approved the Nazis policies
+                              toward Jews) </a:documentation>
                   <value>botticelli</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Sandro Botticelli,
                               Botticelli | Note: Sandro Botticelli (1445-1510), an Italian
@@ -4842,6 +4847,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Oscar Brandstetter |
                               Note: Oscar Brandstetter Verlag (historical), a German
                               publisher) </a:documentation>
+                  <value>bride</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): bride of Pianist XX of
+                              Hanover | Note: bride (fictional), no known historical model) </a:documentation>
                   <value>brotherChris</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): brother-in-law,
                               Christian, svoger, de Mann seiner Schwester, des Schwagers | Note:
@@ -4888,6 +4896,13 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Maurice Diamond | Note:
                               Maurice Diamond (historical), publisher with Jarrolds in
                               London) </a:documentation>
+                  <value>dielL</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Mrs. Louise Diel |
+                              Note: Mrs. Louise Diel (historical, b. 1893), a German journalist and
+                              author) </a:documentation>
+                  <value>director</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Herr Director, Sir
+                              Director | Note: Director (historical), unidentified) </a:documentation>
                   <value>doctorF</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Doctor F. | Note:
                               Doctor F. (historical), historical figure unidentified) </a:documentation>
@@ -4895,6 +4910,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Wolfgang von Einsiedel
                               | Note: Wolfgang von Einsiedel (historical), German writer who
                               reviewed the German edition in November 1932) </a:documentation>
+                  <value>eisenlohr</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Eisenlohr | Note:
+                              Eisenlohr (historical), unidentified) </a:documentation>
                   <value>else</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Else | Note: Else
                               Margrethe Wegener Thomsen (1907-2000), daughter of T. C. Thomsen and
@@ -4903,13 +4921,18 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): father, fa'r, vater |
                               Note: Father (fictional), modeled on Einar Wegener’s father, Vilhelm
                               Wegener | Linked Keys: #wegenerV) </a:documentation>
+                  <value>favio</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Flavio, Favio | Note:
+                              Favio (fictional), no known historical model) </a:documentation>
                   <value>feruzziRi</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Ridolfo Feruzzi, Feruzzi
                               | Note: Ridolfo Feruzzi (fictional), modeled on Fernando Porta (b.
                               1897), Gerda Wegener’s second husband | Linked Keys: #portaF) </a:documentation>
-                  <value>favio</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Flavio, Favio | Note:
-                              Favio (fictional), no known historical model) </a:documentation>
+                  <value>feuchtwanger</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Dr. Feuchtwanger |
+                              Note: Dr. Feuchtwanger (historical), likely Lion Feuchtwanger
+                              (1884-1958), a German-Jewish author well known in Weimar Germany and
+                              highly critical of the National Socialists) </a:documentation>
                   <value>francois</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Monsieur François,
                               François | Note: Favio (fictional), no known historical model) </a:documentation>
@@ -5076,6 +5099,13 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Lily Wegener, Lilimoe | Note: Lili Elbe (fictional and historical),
                               legal name Lili Ilse Elvenes; born Einar Wegener (1882), died in
                               Dresden, 1931 | Linked Keys: #sparreAn #wegenerE) </a:documentation>
+                  <value>lorenzLH</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Lovis Hans Lorenz |
+                              Note: Lovis Hans Lorenz (1898-1976), a German journalist, publisher,
+                              and author) </a:documentation>
+                  <value>lorenzA</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Anna Lorenz | Note:
+                              Anna Lorenz (historical), unidentified) </a:documentation>
                   <value>louisXiv</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Louis XIV | Note: Louis
                               XIV (1638-1715), King of France from 1643 until his death) </a:documentation>
@@ -5094,6 +5124,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>magreM</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Maurice Magre | Note:
                               Maurice Magre (1877-1941), a French author) </a:documentation>
+                  <value>mannT</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Thomas Mann | Note:
+                              Thomas Mann (1875-1955), a German novelist, essayist, and social
+                              critic who won the 1929 Nobel Prize in Literature. Ernst Harthern
+                              dedicates his 1938 memoir Going Home to Mann.) </a:documentation>
                   <value>maranonGreg</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Professor Gregorio
                               Marañon | Note: Gregorio Marañon (1887-1960), also spelled Marañón, a
@@ -5161,12 +5196,18 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Søster Marianne, Sister
                               Marianne | Note: Marianne (fictional), no known historical
                               model) </a:documentation>
-                  <value>pan</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Pan | Note: Pan
-                              (fictional), in Greek mythology, the god of nature) </a:documentation>
+                  <value>palitzsch</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Dr. Palitzsch | Note:
+                              Dr. Palitzsch (historical), unidentified) </a:documentation>
                   <value>palmaV</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Palma Vecchio | Note:
                               Palma Vecchio (1480-1528), a Venetian painter) </a:documentation>
+                  <value>pan</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Pan | Note: Pan
+                              (fictional), in Greek mythology, the god of nature) </a:documentation>
+                  <value>paquet</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Dr. Paquet | Note: Dr.
+                              Paquet (historical), unidentified) </a:documentation>
                   <value>persenEb</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Ebba Persen, the
                               beautiful dancer | Note: Ebba Persen (fictional), modeled on Ulla
@@ -5304,6 +5345,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Thomas Christian Thomsen (1883-1963), married to Einar’s sister,
                               Christiane Thomsen, and father of Einar’s nephew, Sigurd Thomsen |
                               Linked Keys: #brotherChris) </a:documentation>
+                  <value>toller</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Toller | Note: Toller
+                              (historical), possibly Ernst Toller (1893-1939), a German
+                              Expressionist playwright) </a:documentation>
                   <value>trempe</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Count de la Trempe,
                               Graf, le Comte de Trempe, Grev de la Trempe | Note: Comte de Trempe
@@ -5376,6 +5421,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>zeus</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Zeus | Note: Zeus
                               (fictional), in Greek mythology, the king of the gods) </a:documentation>
+                  <value>zuckmayer</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Zuckmayer | Note:
+                              Zuckmayer (historical), likely Carl Zuckmayer (1896-1977), a German
+                              author) </a:documentation>
                </choice>
             </attribute>
          </optional>
@@ -5618,6 +5667,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Hotel des Reservoirs | Note: Hôtel des Reservoirs (historical), at
                               that time a hotel on rue des Réservoirs near the park of
                               Versailles) </a:documentation>
+                  <value>hungary</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Hungary | Note: Hungary (historical), a
+                              country in Central Europe) </a:documentation>
                   <value>institutePsychiatry</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Institute for Psychiatry, Institut for
                               Seksualforskning, Institut für Seelenkunde, Institut von Dr.
@@ -5701,6 +5753,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>norway</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Norway, Norwegen, Norge | Note: Norway is a
                               Scandinavian country in northern Europe whose capital is Oslo.) </a:documentation>
+                  <value>oslo</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Oslo | Note: Oslo (historical), capital of
+                              Norway) </a:documentation>
                   <value>oresund</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Øresund, Öresund | Note: Öresund (historical),
                               also spelled Øresund; a strait running between Denmark and
@@ -5723,6 +5778,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Passy | Note: Passy (historical), an upscale
                               neighborhood in Paris, home of many avant-garde artists in the
                               1920s) </a:documentation>
+                  <value>poland</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Poland | Note: Poland (historical), a country
+                              in Central Europe) </a:documentation>
                   <value>phistersStreet</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Phistersvej, Phisters Street | Note: Phisters
                               Street (historical), Phistersvej is a street in a suburb of
@@ -5821,6 +5879,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>studioLille</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): studio on rue de Lille | Note: the Wegeners’
                               studio (historical), located on rue de Lille in Paris ) </a:documentation>
+                  <value>sweden</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Sweden | Note: Sweden (historical), a
+                              Scandinavian country in Northern Europe) </a:documentation>
                   <value>sydney</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Sydney | Note: Sydney (historical), a city in
                               Australia) </a:documentation>

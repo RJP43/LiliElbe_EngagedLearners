@@ -52,14 +52,6 @@
       <body>
          <listPlace>
             <head>List of places mentioned in Lili Elbe Digital Archive</head>
-            <!--
-               Sample Place Entry
-            <place xml:id="europe">
-               <placeName>Europe</placeName><!-\- list primary name first -\->
-               <placeName>Europa</placeName><!-\- could add additional names -\->
-               <!-\- opportunity to add note with description that could appear on mouseover -\-><note/>
-            </place>
-            -->
             <place xml:id="academyArt">
                <placeName source="#A1">Art Academy</placeName>
                <placeName source="#D1">Kunstakademi</placeName>
@@ -400,6 +392,10 @@
                <note>Hôtel des Reservoirs (historical), at that time a hotel on rue des Réservoirs
                   near the park of Versailles</note>
             </place>
+            <place xml:id="hungary">
+               <placeName>Hungary</placeName>
+               <note>Hungary (historical), a country in Central Europe</note>
+            </place>
             <place xml:id="institutePsychiatry">
                <placeName source="#A1">Institute for Psychiatry</placeName>
                <placeName source="#D1">Institut for Seksualforskning</placeName>
@@ -532,6 +528,10 @@
                <note>Norway is a Scandinavian country in northern Europe whose capital is
                   Oslo.</note>
             </place>
+            <place xml:id="oslo">
+               <placeName>Oslo</placeName>
+               <note>Oslo (historical), capital of Norway</note>
+            </place>
             <place xml:id="oresund">
                <placeName source="#A1 #D1 #D1-TR">Øresund</placeName>
                <placeName source="#G1">Öresund</placeName>
@@ -563,6 +563,10 @@
                <placeName>Passy</placeName>
                <note>Passy (historical), an upscale neighborhood in Paris, home of many avant-garde
                   artists in the 1920s</note>
+            </place>
+            <place xml:id="poland">
+               <placeName>Poland</placeName>
+               <note>Poland (historical), a country in Central Europe</note>
             </place>
             <place xml:id="phistersStreet">
                <placeName>Phistersvej</placeName>
@@ -706,6 +710,10 @@
             <place xml:id="studioLille">
                <placeName>studio on rue de Lille</placeName>
                <note>the Wegeners’ studio (historical), located on rue de Lille in Paris </note>
+            </place>
+            <place xml:id="sweden">
+               <placeName>Sweden</placeName>
+               <note>Sweden (historical), a Scandinavian country in Northern Europe</note>
             </place>
             <place xml:id="sydney">
                <placeName>Sydney</placeName>
@@ -854,6 +862,10 @@
                <persName>Bach</persName>
                <note>Bach (historical), Johann Sebastian Bach (1685–1750), a German composer</note>
             </person>
+            <person xml:id="bonsels" source="historical">
+               <persName>Bonsels</persName>
+               <note>Bonsels (historical), possibly Waldemar Bonsels (1880-1952), a German author, though he was an avowed anti-Semite and approved the Nazis policies toward Jews</note>
+            </person>
             <person xml:id="botticelli" source="historical">
                <persName>Sandro Botticelli</persName>
                <persName source="#A1 #D1 #D1-TR">Botticelli</persName>
@@ -873,6 +885,10 @@
             <person xml:id="brandstetterO" source="historical">
                <persName>Oscar Brandstetter</persName>
                <note>Oscar Brandstetter Verlag (historical), a German publisher</note>
+            </person>
+            <person xml:id="bride" source="fictional">
+               <persName>bride of Pianist XX of <placeName key="hanover">Hanover</placeName></persName>
+               <note>bride (fictional), no known historical model</note>
             </person>
             <person xml:id="brotherChris" source="fictional" synch="#thomsenTC">
                <persName source="#A1 #D1-TR">brother-in-law</persName>
@@ -952,6 +968,15 @@
                <persName>Maurice Diamond</persName>
                <note>Maurice Diamond (historical), publisher with Jarrolds in London</note>
             </person>
+            <person xml:id="dielL" source="historical">
+               <persName>Mrs. Louise Diel</persName>
+               <note>Mrs. Louise Diel (historical, b. 1893), a German journalist and author</note>
+            </person>
+            <person xml:id="director" source="historical">
+               <persName>Herr Director</persName>
+               <persName>Sir Director</persName>
+               <note>Director (historical), unidentified</note>
+            </person>
             <person xml:id="doctorF" source="historical">
                <persName>Doctor F.</persName>
                <!--<note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir</note>-->
@@ -961,6 +986,10 @@
                <persName>Wolfgang von Einsiedel</persName>
                <note>Wolfgang von Einsiedel (historical), German writer who reviewed the German
                   edition in November 1932</note>
+            </person>
+            <person xml:id="eisenlohr" source="historical">
+               <persName>Eisenlohr</persName>
+               <note>Eisenlohr (historical), unidentified</note>
             </person>
             <person xml:id="else" source="historical">
                <persName source="#danishSupp">Else</persName>
@@ -973,16 +1002,20 @@
                <persName source="#G1">vater</persName>
                <note>Father (fictional), modeled on Einar Wegener’s father, Vilhelm Wegener</note>
             </person>
+            <person xml:id="favio" source="fictional">
+               <persName>Flavio</persName>
+               <persName source="#G1">Favio</persName>
+               <note>Favio (fictional), no known historical model</note>
+            </person>
             <person xml:id="feruzziRi" source="fictional" synch="#portaF">
                <persName>Ridolfo Feruzzi</persName>
                <persName>Feruzzi</persName>
                <note>Ridolfo Feruzzi (fictional), modeled on Fernando Porta (b. 1897), Gerda
                   Wegener’s second husband</note>
             </person>
-            <person xml:id="favio" source="fictional">
-               <persName>Flavio</persName>
-               <persName source="#G1">Favio</persName>
-               <note>Favio (fictional), no known historical model</note>
+            <person xml:id="feuchtwanger" source="historical">
+               <persName>Dr. Feuchtwanger</persName>
+               <note>Dr. Feuchtwanger (historical), likely Lion Feuchtwanger (1884-1958), a German-Jewish author well known in Weimar Germany and highly critical of the National Socialists</note>
             </person>
             <person xml:id="francois" source="fictional">
                <persName source="#A1 #D1 #D1-TR">Monsieur François</persName>
@@ -1239,6 +1272,14 @@
                <note>Lili Elbe (fictional and historical), legal name Lili Ilse Elvenes; born Einar
                   Wegener (1882), died in Dresden, 1931</note>
             </person>
+            <person xml:id="lorenzLH" source="historical">
+               <persName>Lovis Hans Lorenz</persName>
+               <note>Lovis Hans Lorenz (1898-1976), a German journalist, publisher, and author</note>
+            </person>
+            <person xml:id="lorenzA" source="historical">
+               <persName>Anna Lorenz</persName>
+               <note>Anna Lorenz (historical), unidentified</note>
+            </person>
             <person xml:id="louisXiv" source="historical">
                <persName>Louis XIV</persName>
                <note>Louis XIV (1638-1715), King of France from 1643 until his death</note>
@@ -1261,6 +1302,10 @@
             <person xml:id="magreM" source="historical">
                <persName>Maurice Magre</persName>
                <note>Maurice Magre (1877-1941), a French author</note>
+            </person>
+            <person xml:id="mannT" source="historical">
+               <persName>Thomas Mann</persName>
+               <note>Thomas Mann (1875-1955), a German novelist, essayist, and social critic who won the 1929 Nobel Prize in Literature. Ernst Harthern dedicates his 1938 memoir Going Home to Mann.</note>
             </person>
             <person xml:id="maranonGreg" source="historical">
                <persName>Professor Gregorio Marañon</persName>
@@ -1358,14 +1403,22 @@
                <!--<note>Not mentioned in <ref source="#A1">A1</ref> or <ref source="#G1">G1</ref></note>-->
                <note>Marianne (fictional), no known historical model</note>
             </person>
+            <person xml:id="palitzsch" source="historical">
+               <persName>Dr. Palitzsch</persName>
+               <note>Dr. Palitzsch (historical), unidentified</note>
+            </person>
+            <person xml:id="palmaV" source="historical">
+               <persName source="#TS #TS-TR">Palma Vecchio</persName>
+               <note>Palma Vecchio (1480-1528), a Venetian painter</note>
+            </person>
             <person xml:id="pan" source="fictional">
                <persName>Pan</persName>
                <!--<note>Not mentioned in <ref source="#G1">G1</ref></note>-->
                <note>Pan (fictional), in Greek mythology, the god of nature</note>
             </person>
-            <person xml:id="palmaV" source="historical">
-               <persName source="#TS #TS-TR">Palma Vecchio</persName>
-               <note>Palma Vecchio (1480-1528), a Venetian painter</note>
+            <person xml:id="paquet" source="historical">
+               <persName>Dr. Paquet</persName>
+               <note>Dr. Paquet (historical), unidentified</note>
             </person>
             <person xml:id="persenEb" source="fictional" synch="#poulsenU">
                <persName source="#A1 #G1">Ebba Persen</persName>
@@ -1545,6 +1598,10 @@
                <note>Thomas Christian Thomsen (1883-1963), married to Einar’s sister, Christiane
                   Thomsen, and father of Einar’s nephew, Sigurd Thomsen</note>
             </person>
+            <person xml:id="toller" source="historical">
+               <persName>Toller</persName>
+               <note>Toller (historical), possibly Ernst Toller (1893-1939), a German Expressionist playwright</note>
+            </person>
             <person xml:id="trempe" source="fictional">
                <persName source="#A1 #D1-TR">Count de la Trempe</persName>
                <persName source="#G1">Graf</persName>
@@ -1647,6 +1704,10 @@
             <person xml:id="zeus" source="fictional">
                <persName>Zeus</persName>
                <note>Zeus (fictional), in Greek mythology, the king of the gods</note>
+            </person>
+            <person xml:id="zuckmayer" source="historical">
+               <persName>Zuckmayer</persName>
+               <note>Zuckmayer (historical), likely Carl Zuckmayer (1896-1977), a German author</note>
             </person>
          </listPerson>
       </body>
