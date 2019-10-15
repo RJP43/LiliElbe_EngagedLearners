@@ -21,7 +21,7 @@ _note: XML documents should be named the same as the .docx transcription files w
 The Lili Elbe Digital Archive deals with several different types of texts including: entire books, book sections and chapters, diary entries, magazine and journal articles, and letters. Each of these different text-types require slightly different structuring of the TEI `<text>` element's descendant elements. In this section of the guidelines each text-types' basic structure is defined.   
   
 ### Texts with Translations  
-Any text that has an English translation should have the following  double `<div>` structure surrounding that particular text-type's encoding structure. For example, if encoding a letter that has a translation then first implement this "Texts with Translations" structural markup and then continue with the structural markup specified under the "Letters" text-type heading for the original-language text inside the `<div type="original">` as well as the translated text inside the `<div type="translation">`. _See [0000-00-00ThomsenTHoyer.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/0000-00-00ThomsenTHoyer.xml) as example._  
+Any text that has an English translation should have the following  double `<div>` structure surrounding that particular text-type's encoding structure. For example, if encoding a letter that has a translation then first implement this "Texts with Translations" structural markup and then continue with the structural markup specified under the "Letters" text-type heading for the original-language text inside the `<div type="original">` as well as the translated text inside the `<div type="translation">`. _See [0000-00-00ThomsenTHoyer.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/0000-00-00ThomsenTHoyer.xml) as example._  
   
 ````
 <text>
@@ -37,7 +37,7 @@ Any text that has an English translation should have the following  double `<div
 ````
   
 ### Books / Book Sections / Book Chapters   
-_See [A1.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/A1.xml) as edition example._ For book sections and single chapters use only the `<text>` element and the `<body>` element. If a translated section/chapter, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.  _See [Lili's Foreword](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/LiliForeword.xml) as example._  
+_See [A1.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/A1.xml) as edition example._ For book sections and single chapters use only the `<text>` element and the `<body>` element. If a translated section/chapter, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.  _See [Lili's Foreword](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/LiliForeword.xml) as example._  
 
 ````
 <text>
@@ -78,7 +78,7 @@ _See [A1.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/Proj
 ````  
   
 ### Journal, Magazine, Newspaper Articles  
-_See [Sandheden](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/Sanheden.xml) as example._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
+_See [Sandheden](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/Sanheden.xml) as example._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
   
 ````
 <div rend="head" style="periodical"><!--text that appears before headlines; could include title and date-->
@@ -99,7 +99,7 @@ _See [Sandheden](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/P
 ````  
   
 ### Letters  
-_See [0000-00-00ThomsenTHoyer.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/Examples/0000-00-00ThomsenTHoyer.xml) as example._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
+_See [0000-00-00ThomsenTHoyer.xml](https://github.com/RJP43/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/0000-00-00ThomsenTHoyer.xml) as example._ If a translated text, the following structure should be used in both the `<div type="original">` and the `<div type="translation">`.   
   
 ````
 <div rend="head" syle="letter">
