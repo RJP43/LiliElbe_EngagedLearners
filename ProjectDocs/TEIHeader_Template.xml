@@ -173,7 +173,7 @@
                   <catDesc><!-- media library illustration URL --></catDesc>
                </category>
                <category source="collex" xml:id="text">
-                  <catDesc>URL to Plain Text</catDesc>
+                  <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/filename.txt</catDesc><!-- insert correct URL -->
                </category>
                <category source="dc" xml:id="date">
                   <catDesc>

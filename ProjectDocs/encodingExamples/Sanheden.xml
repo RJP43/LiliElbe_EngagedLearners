@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Periodicals/Sandheden.html" xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/periodicals/Sanheden.xml">
    <teiHeader>
       <fileDesc>
@@ -46,7 +46,7 @@
          <publicationStmt>
             <authority>Lili Elbe Digital Archive</authority>
             <pubPlace>Chicago, IL, USA</pubPlace>
-            <date>July 6th, 2019</date>
+            <date when="2019-07-06">July 6th, 2019</date>
             <availability>
                <p>Reproduced by courtesy of the <orgName select="source">The Royal Library</orgName> in
                   <placeName>Copenhagen</placeName>.</p>
@@ -55,7 +55,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc source="Periodical" xml:lang="dan">
-            <p><!-- PLC provided description goes here. --></p>
+            <p>A two-page, two-columned printed article, unattributed, with the title running across the two pages and a cartoon in the middle of the second page</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -71,12 +71,10 @@
                   <catDesc>http://lilielbe.org/media/periodicals/Sandheden_i01.jpg</catDesc>
                </category>
                <category source="collex" xml:id="text">
-                  <catDesc><!-- URL to Plain Text will go here.--></catDesc>
+                  <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/Sandheden.txt</catDesc>
                </category>
                <category source="dc" xml:id="date">
-                  <catDesc>
-                     <![CDATA[<dc:date>1930</dc:date>]]>
-                  </catDesc>
+                  <catDesc>1930</catDesc>
                </category>
                <category source="dcterms" xml:id="isPartOf">
                   <catDesc>Originally published in <hi rend="italics">Sandheden</hi>.</catDesc>

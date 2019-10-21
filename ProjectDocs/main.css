@@ -1,0 +1,557 @@
+html {
+    background: #e7d4b4 !important;
+    color: #000000 !important;
+    font-family: 'Abel', verdana, 'bitstream vera sans', arial, helvetica, sans-serif !important;
+}
+body {
+    background: #e7d4b4 !important;
+    margin: 5px !important;
+    padding: 5px !important;
+}
+/*Styles from Reading Views start*/
+
+header.edition {
+    background-image: none;
+}
+
+header.edition #logo {
+    max-width: 1.5%;
+}
+
+
+header.edition > h1 > a {
+    font-variant: small-caps;
+    font-family: Baumans !important;
+    color: black;
+    margin: 0px;
+    font-family: Baumans;
+    cursor: pointer;
+    text-shadow: 2px 2px #618E9D;
+    color: #000;
+}
+h2 {
+    font-variant: small-caps;
+    text-align: center !important;
+    margin: 10px !important;
+    /*text-decoration: underline overline;*/
+    line-height: 2em !important;
+    font-family: Baumans !important;
+}
+h3 {
+    font-variant: small-caps;
+    text-align: center !important;
+    margin: 10px !important;
+    line-height: 2em !important;
+    font-family: Baumans !important;
+}
+h4{
+    font-variant: small-caps;
+    text-align: center !important;
+    font-family: Baumans !important;
+    margin-bottom:-10px;
+}
+p.text {
+    color: #000;
+}
+
+ul {
+font-family: 'Abel', verdana, 'bitstream vera sans', arial, helvetica, sans-serif !important;
+}
+
+div.paragraph > .paraHead {
+    color: #454B50;
+}
+
+a.text-secondary {
+color: #6c757d !important;
+}
+a > span > .text-secondary {
+
+color: #6c757d !important;
+
+}
+.ID{
+    /*text-decoration: underline solid;*/
+    color: #5f8e9e;
+    /*font-weight: bold;*/
+}
+/*.team {
+    color: #5f8e9e;
+}*/
+.bold {
+    font-weight: bold;
+}
+.emphasis {
+    font-style: italic;
+    letter-spacing: .2em;
+}
+.italics {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
+.super {
+    vertical-align: super;
+    font-size: smaller;
+}
+.regularized {
+    text-decoration: underline dotted red;
+    font-weight: bold;
+}
+.proofDesc {
+    padding: 20px;
+}
+.key {
+    text-align: center !important;
+}
+.commentOn {
+    text-decoration: underline dotted black;
+    font-weight: bold;
+}
+.diary,
+.LiliDiary,
+.GreteDiary
+{
+    color: brown;
+}
+.letter {
+    color: green;
+}
+.strike {
+    text-decoration: line-through;
+}
+.text-danger {
+    text-decoration: underline solid #d9534f !important;
+}
+ul.metadata {
+    list-style-type: none;
+}
+/*Styles from Reading Views end*/
+
+.page{
+    text-decoration: underline;
+}
+
+/*header styles here */
+
+header {
+    background-image: url("../vm-images/SVGbanner_noStickers.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+header > form {
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+}
+.navbar-brand {
+    margin: 0px;
+    font-size: 6em;
+    font-family: Baumans;
+    cursor: pointer;
+    text-shadow: 2px 2px #618E9D;
+    color: #000;
+}
+
+.navbar-brand > #logo {
+    max-width: 3%;
+}
+
+.navbar-brand a {
+    color: black;
+    float: left;
+    width: 65%;
+}
+
+form.gcse-search {
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    background: transparent;
+}
+
+header.edition > form.gcse-search {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    background-color: #FEFEFE;
+    cursor: pointer !important;
+    font-family: Baumans;
+    border: 2px;
+    border-style: double;
+    border-width: 3px;
+    border-color: #618E9D;
+    border-radius: 10px;
+    padding: 6px;
+    margin-right: 2px;
+    color: #000;
+}
+
+.nav-item ul {
+    list-style-type: none;
+    padding: 2% 0;
+    list-style: none;
+    display: flex;
+    width: 40%;
+    font-weight: bold;
+}
+
+.nav-item li {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: #6c3c32 !important;
+}
+
+#logo {
+    max-width: 3%;
+    margin: 0px;
+    margin-left: 15px;
+    padding: 0px;
+    cursor: not-allowed;
+}
+
+.breadcrumb {
+    background-color: #FEFEFE;
+}
+
+.breadcrumb-item > a {
+    text-decoration: none;
+    color: #6c3c32;
+    font-family: 'Abel', sans-serif;
+    font-size: 14pt;
+}
+
+section.sideBar {
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.sideBar > figure > img {
+    height: 400px;
+    margin: -15px;
+    border-radius: 5px;
+}
+
+section.sideBar.content-pg {
+    background-color: #FEFEFE;
+    font-weight: 100;
+    font-size: smaller;
+}
+main {
+    margin: auto;
+    padding: 10px;
+    background-color: #FEFEFE;
+    opacity: .85;
+    border-radius: 10px;
+}
+
+main.content-pg {
+    background-color: inherit;
+}
+main > p {
+    font-family: 'Abel', sans-serif;
+    font-size: 14pt;
+}
+
+.img-thumbnail {
+    padding: .50rem;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: .50rem;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-family: 'Abel', sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    padding-top: 15px;
+}
+.sideBar > ul {
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    list-style-type: none;
+    list-style: none;
+    color: #6c3c32;
+}
+.sideBar > ul > li {
+    margin: auto;
+    font-weight: bold;
+    padding: 5px;
+    color: black;
+}
+.sideBar > ul > li > a.nav-link {
+    text-decoration: none;
+    background-color: #FEFEFE;
+    cursor: pointer !important;
+    font-family: Baumans;
+    border: 2px;
+    border-style: double;
+    border-width: 3px;
+    border-color: #618E9D;
+    border-radius: 10px;
+    padding: 6px;
+}
+.sideBar > ul > li > a:hover {
+    text-decoration: none;
+    background: #5f8e9e;
+    color: #f6f2ee !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sideBar > ul > li > a:visited {
+    text-decoration: none;
+    color: black !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #5f8e9e;
+}
+
+/* 2019-01-17:NLW: I added some styling to the demo splash page, including pop up Tooltip text for the broken menu links in the main topNav menu */
+
+
+.center {
+    text-align: center;
+    font-size: 20pt;
+    font-family: Baumans;
+    text-shadow: 1px 1px #618E9D;
+}
+
+.footer {
+    padding-top: 30px;
+}
+
+
+.sponsorList {
+    height: auto;
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+}
+
+.sponsorSmall {
+    width: 180px;
+    padding-right: 30px;
+
+}
+
+.sponsorLarge {
+    width: 380px;
+    padding-top: 15px;
+}
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #B6B6B6;
+    color: #000;
+    text-align: center;
+    border: 2px;
+    border-style: double;
+    border-width: 3px;
+    border-color: #618E9D;
+    border-radius: 10px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 30px;
+    padding: 5px 0;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/*Media Queries */
+@media (max-width : 768px) {
+    a.navbar-brand {
+        font-size: 75%;
+    }
+
+    #logo {
+        max-width: 15%;
+    }
+
+}
+
+
+@media (max-width : 576px) {
+    #logo {
+        max-width: 15%;
+    }
+    a.navbar-brand {
+        font-size: 50%;
+    }
+
+    .sponsorList {
+        display: inline;
+    }
+    .sponsorList > li {
+        padding-bottom: 10px;
+    }
+}
+
+header > form {
+    position: unset;
+}
+
+/* NW Edits */
+
+.nw_banner {
+    background: url('../vm-images/mainbanner.png') left top no-repeat;
+    background-size: cover;
+    min-height: 210px;
+}
+
+.nw_title {
+    padding-left: 1em;
+    padding-top: 1em;
+    font-size: 4em;
+    font-family: Baumans;
+    cursor: pointer;
+    text-shadow: 2px 2px #E4E4E4;
+}
+
+.nw_topmenu {
+    margin: 1em 0em 0em 2em;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    font-size: 1.75em;
+    font-family: baumans;
+
+}
+
+.nw_title_link {
+    color: #000;
+    padding: .7em;
+
+}
+
+.nw_breadcrumb {
+    background-color: #FEFEFE;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.nw_breadcrumb-item > a {
+    color: #6C3C32;
+    font-family: abel;
+    padding: .7em;
+}
+
+.nw_breadcrumb-item_active > a {
+    color: #5F8E9E;
+    font-family: abel;
+    padding: .7em;
+}
+
+.nw_collationMenu {
+    background-color: #fefefe;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    max-height: 40px;
+    list-style: none;
+    display: inline-flex;
+    padding: 5px;
+
+}
+
+.nw_collationMenuTitle {
+    font-family: abel;
+    padding: 5px;
+}
+
+/*  NW: searchBar CSS */
+
+.nw_modnetsSearch {
+    background: #5E8F9F;
+    padding: 4px;
+    color: #FFF;
+    border-radius: 5px;
+    display: -webkit-inline-box;
+    float: right;
+    margin-top: -38px;
+}
+
+.nw_inputText {
+    width: 295px;
+    border-radius: 5px;
+}
+
+.nw_searchLogo {
+    width: 71px;
+    border-radius: 5px;
+    margin-right: 5px;
+    vertical-align: text-top;
+}
+
+.nw_searchSubmit {
+    width: 30px;
+    height: 30px;
+    background: #FFF;
+}
+
+
+.refPara {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  transform: translate(0, 10px);
+  background-color: #FEFEFE;
+  padding: 2px;
+  box-shadow: 0 2px 5px 0;
+  width: auto;
+  border-radius: 5px;
+  color: #6c757d!important;
+  font-size: small;
+  font-weight: 400;  
+}
+
+.refPara:before {
+  position: absolute;
+  z-index: -1;
+  right: calc(50% - 10px);
+  top: -10px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #bfbfbf transparent;
+  transition-duration: 0.1s;
+  transition-property: transform;
+}
+
+.ID:hover .refPara {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}

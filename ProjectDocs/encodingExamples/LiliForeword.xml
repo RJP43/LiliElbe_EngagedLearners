@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Foreword/LiliForeword.html"
     xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/bookSections/LiliForeword.xml">
     <teiHeader>
@@ -81,12 +81,10 @@
                         <catDesc>Life Writing</catDesc>
                     </category>
                     <category source="collex" xml:id="text">
-                        <catDesc>URL to Plain Text</catDesc>
+                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/LiliForeword.txt</catDesc>
                     </category>
                     <category source="dc" xml:id="date">
-                        <catDesc>
-                            <![CDATA[<dc:date>1931</dc:date>]]>
-                        </catDesc>
+                        <catDesc>1931</catDesc>
                     </category>
                 </taxonomy>
             </classDecl>

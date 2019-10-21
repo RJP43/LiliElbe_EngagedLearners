@@ -11,9 +11,9 @@ _For special characters, use the HTML Entity codes preceded by “&#” and foll
 ### Standardize XML Filename  
 _note: XML documents should be named the same as the .docx transcription files without the parentheticals and any text that follows the first whitespace. Verify with Dr. Caughie or Emily on the correct filename._  
 ````
-19211922ThomsenSdiaryentries Comments(9.21.18).docx   
+19311230HoyerSchumann Comments(9.21.18).docx   
 ↓  
-19211922ThomsenSdiaryentries.xml  
+19311230HoyerSchumann.xml  
 ````  
    
 ## Basic Text-Type Structural Encoding 
@@ -143,6 +143,8 @@ _note: Besides letter and diary entries collation IDs for paragraphs are added i
 `<p style="GreteDiary" xml:id="a1c00d00p00">Diary Text</p>`  
 `<p style="LiliDiary" xml:id="a1c00d00p00">Diary Text</p>`
 
+**If a letter or diary entry appears within a paragraph use the `<hi>` element with an @rend attribute equal to "letter", "diary", "GreteDiary", or "LiliDiary" and leave the @style attribute off of the `<p>` element.**  
+  
 _note: change xml:id attribute-value to match the paragraph collation ID found in the [collation spreadsheets](https://gitlab.com/ctsdh/lili-elbe-code/tree/master/collationSpreadsheets). Every paragraph of each letter has a unique ID reflecting the edition (a1 | b1 | g1 | d1 | tr |ts), chapter, letter|diary entry #, and paragraph # (within the letter|diary entry)_. **Diary entries included in letters get the style attribute with the appropriate attribute-value but do not have assigned xml:id attribute-value pairs at this time.**    
   
 ### Page and Column Breaks  
@@ -235,7 +237,7 @@ _note: Once captured in encoding remove the spaces between letters - which is si
 _This markup comes after we found in some manuscripts the minutes of a time are written out as superscript to the hour.   
 Example: `10<hi rend="super">30</hi>`_    
   
-**There are instances in the German edition where letters and diary entries come in the middle of paragraphs. The TEI does not allow paragraphs to appear in paragraphs; therefore, in these instances we use the `<hi>` element and assign a rend attribute alongside a xml:id attribute in a similar fashion to the Collation Paragraph styling mentioned above.**  
+**There are instances in the German edition where letters and diary entries come in the middle of paragraphs. The TEI does not allow paragraphs to appear in paragraphs; therefore, in these instances we use the `<hi>` element and assign a rend attribute alongside a xml:id attribute in a similar fashion to the Collation Paragraph styling mentioned above. Diary entries included in letters get the style attribute with the appropriate attribute-value but do not have assigned xml:id attribute-value pairs at this time.**   
 
 `<hi rend="letter" xml:id="g1c00l00p00">Letter Text</p>`  
 `<hi rend="GreteDiary" xml:id="g1c00d00p00">Diary Text</p>`  

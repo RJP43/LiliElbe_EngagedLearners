@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/narrative/editions/A1.html"
     xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/EditionNumbering/input/A1.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><hi rend="italics">Man Into Woman</hi> (American Edition)</title>
-                <!--<title type="alternative"></title>-->
+                <title><hi rend="italics">Man Into Woman</hi> (American Edition)</title>                
                 <respStmt>
                     <resp>Print edition edited by</resp>
                     <persName key="hoyerNiels" role="EDT">Niels Hoyer</persName>
@@ -92,13 +91,12 @@
                         <catDesc>http://lilielbe.org/media/A1/a1i18.jpg</catDesc>
                     </category>
                     <category source="collex" xml:id="text">
-                        <catDesc><!-- URL to Plain Text will go here.--></catDesc>
+                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/A1.txt</catDesc>
                     </category>                    
                     <category source="dc" xml:id="date">
-                        <catDesc>
-                            <![CDATA[<dc:date>1933</dc:date>]]>
-                        </catDesc>
+                        <catDesc>1933</catDesc>
                     </category>
+                    <category xml:id="OCR"/>
                 </taxonomy>
             </classDecl>
             <editorialDecl>
@@ -1022,8 +1020,7 @@
                     take money from our savings; the less so as our trip to <placeName key="rome"
                         >Rome</placeName> and my illness has cost us so much.</p>
                 <p style="letter" xml:id="a1c03l01p08">"I—or we—have deposited many pictures with
-                    Messrs. <persName key="heyman">Heyman</persName> and <persName key="haslund"
-                        >Haslund</persName>, of <placeName key="copenhagen">Copenhagen</placeName>,
+                    Messrs. <persName key="heymanHaslund">Heyman and Haslund</persName>, of <placeName key="copenhagen">Copenhagen</placeName>,
                     and I estimate their value to be between 7,000 and 10,000 kronen. I do not,
                     however, know what the operation will cost, but I estimate it will come to
                     between 4,000 and 5,000 kronen in all. I give you all these pictures in
@@ -1101,7 +1098,7 @@
                 <p>He looked out, as if he were seeking them: <placeName key="paris"
                         >Paris</placeName> . . . <persName key="rossiniEl">Elena</persName> . . .
                         <persName key="sparreGre">Grete</persName>.</p>
-                <p>When farewells were being said he had not once leaned but of the window. . . .
+                <p>When farewells were being said he had not once leaned out of the window. . . .
                         <placeName key="eiffel">The Eiffel Tower</placeName> . . . the mirage in the
                     sky of the towering dome: <placeName key="sacreCoeur">Sacré Cœur</placeName>. .
                     . <persName key="rossiniEl">Elena</persName>. . . <persName key="sparreGre"
@@ -1312,7 +1309,7 @@
                     <persName key="sparreAn">Andreas</persName> was half leaning, half lying on the
                     seat in a drowsy state. Suddenly he jumped to his feet. The door of his carriage
                     was flung open. The drawn curtains were pushed aside.</p>
-                <p><persName>A lady</persName><!--unknown--> was standing in front of the door. Her
+                <p><persName key="bride">A lady</persName><!--unknown--> was standing in front of the door. Her
                     silhouette was sharply defined against the light in the corridor.</p>
                 <p>The darkness in his compartment seemed for a moment to intimidate her. But only
                     for a moment. Then she threw a small trunk upon the rack and sank wearily into
@@ -1378,7 +1375,7 @@
                     serious injuries. His condition gives rise to the gravest anxiety. </p>
                 <p>
                     <persName key="sparreAn">Andreas</persName> was shocked when he read the report.
-                    He had offered his help to <persName>the unhappy bride</persName>. Now he felt
+                    He had offered his help to <persName key="bride">the unhappy bride</persName>. Now he felt
                     like an idle chatterer.</p>
                 <p>And yet, little as he had ever been able to help himself, in the case of others
                     he had frequently been able to alleviate pain by means of a mystic force which
@@ -1408,7 +1405,7 @@
                     help and assistance if ever a person did, and chance had selected just him to
                     give consolation to a perfect stranger, to help her over a dark hour of her
                     existence—<!-- RJP:2018-02-02: Note from Emily on 2016-10-26: "Check: It looks like a smudge in the scan; check original"-->
-                    perhaps her darkest hour. And here was <persName>this little German
+                    perhaps her darkest hour. And here was <persName key="bride">this little German
                         lady</persName>, the wife of <persName key="pianistXX">an unknown
                         man</persName>, lying in his arms. And she and he, each of them, were
                     journeying, guided <choice>
@@ -1418,7 +1415,7 @@
                         <placeName key="germany">Germany</placeName>.</p>
                 <p>These were the thoughts that kept running through his mind.</p>
                 <p>And then a few secret tears splashed down his cheeks, and it suddenly dawned upon
-                    him why all this had so happened. <persName>This charming creature from
+                    him why all this had so happened. <persName key="bride">This charming creature from
                             <placeName key="hanover">Hanover</placeName></persName>, who was now
                     slumbering <pb n="52"/>
                     <pb style="heading" rend="MIW"/>
@@ -1443,7 +1440,7 @@
                     The newspaper which she had given him during the night was the only memento
                     which he retained.</p>
                 <p>A few days later <persName key="sparreAn">Andreas</persName> happened to read in
-                    a newspaper that <persName key="pianistXX">the husband of <persName>his unknown
+                    a newspaper that <persName key="pianistXX">the husband of <persName key="bride">his unknown
                             travelling companion</persName></persName> was on the road to
                     recovery.</p>
             </div>
@@ -1855,8 +1852,8 @@
                     many storms. After <persName key="mother">Mother</persName>'s death he revered
                     her like a saint.</p>
                 <p>"She had four children, three sons and one daughter; I being the youngest.</p>
-                <p>"I was a very happy child. Everybody pampered me, even my <persName
-                        key="brotherPlur">brothers</persName> and <persName key="sister"
+                <p>"I was a very happy child. Everybody pampered me, even <persName
+                    key="brotherPlur">my brothers</persName> and <persName key="sister"
                         >sister</persName>. I was a great epicure, and could eat nothing but my
                     favourite dishes. From <persName key="father">my father</persName> I never heard
                     a harsh word in all my life. Whenever a slap was necessary, it was administered
@@ -2252,19 +2249,18 @@
                     <pb style="page" n="71"/> not then realize. I first became aware of it through
                     my influence upon <hi rend="italics">others</hi> . . . in <placeName key="italy"
                         >Italy</placeName> just at that time. In <placeName key="florence"
-                        >Florence</placeName> an unfortunate person approached me. He was a
-                        <persName>wealthy foreigner</persName>.<!-- RJP:2018-03-19: Tagged? --> One
+                        >Florence</placeName> an unfortunate person approached me. He was <persName>a wealthy foreigner</persName>.<!-- RJP:2018-03-19: Tagged? --> One
                     day, after he had been dogging me for weeks, he spoke to me and suggested that I
                     should take up my quarters in his villa, where I could pursue my studies as a
                     painter to my heart's content. I declined politely, but very firmly. After that
                     I saw him frequently. I was always with a lady, either with <persName
-                        key="sparreGre">Grete</persName> or in the company of a <persName>strikingly
+                        key="sparreGre">Grete</persName> or in the company of <persName>a strikingly
                         beautiful Sicilian</persName>.<!-- RJP:2018-03-19: Tagged? --> A very little
-                    more and I should have been obliged to challenge this <persName>poor
+                    more and I should have been obliged to challenge <persName>this poor
                         creature</persName><!-- RJP:2018-03-19: Tagged? Same as wealthy foreigner -->
                     to a duel with pistols.</p>
                 <p>"In <placeName key="rome">Rome</placeName> I had a similar adventure. In that
-                    city an <persName>American
+                    city <persName>an American
                     millionaire</persName><!-- RJP:2018-03-19: Tagged? --> wanted me to accompany
                     him to <placeName key="egypt">Egypt</placeName>. He pestered not only me, but
                     also <persName key="sparreGre">Grete</persName>. He sailed alone to <placeName
@@ -2315,7 +2311,7 @@
                         '<placeName key="chateauNeuf">Chateau neuf du Pape</placeName>', where art
                     students mainly foregathered. A very modest little restaurant; but one could
                     dine sumptuously there for one franc thirty. The wine was included in the price.
-                    Here we met <persName>our first Parisian friends</persName> .</p>
+                    Here we met our first Parisian friends.</p>
                 <!-- RJP:2018-03-19: Tagged or nah? Would have to be org if tagged for group of people-->
                 <p>"Shortly afterwards <persName key="sparreGre">Grete</persName> was invited by
                         <persName>the editor</persName><!-- RJP:2018-03-19: Tagged? --> to
@@ -2388,9 +2384,9 @@
                         beach at <placeName key="marinaPiccola">Piccola
                         Marina</placeName></placeName>.</p>
                 <!-- RJP:2018-03-19: Tagged? Beach and Marina; separate? together? -->
-                <p>"Here we met one day a <persName>Scotsman</persName>, who always appeared in the
-                    company of a very <persName>pretty boy</persName>. When bathing the boy was
-                    transformed, to our astonishment, into a very <persName>nice
+                <p>"Here we met one day <persName>a Scotsman</persName>, who always appeared in the
+                    company of a very pretty boy. When bathing the boy was
+                    transformed, to our astonishment, into <persName>a very nice
                     girl</persName>.</p>
                 <p>"'Just what I expected,' declared a Venetian sculptor who belonged to our clique
                     when this revelation burst upon us. 'I knew it from the start! A girl cannot
@@ -2402,8 +2398,7 @@
                     <pb style="heading" rend="MIW"/>
                     <pb style="page" n="75"/> what it meant. At the hour of promenade the next
                     afternoon <persName key="sparreGre">Grete</persName> appeared in the company of
-                    a <persName>tall, slender young lady</persName><!-- RJP:2018-03-19: Tagged? -->
-                    whom no one had hitherto seen in <placeName key="capri">Capri</placeName>. They
+                    a tall, slender young lady whom no one had hitherto seen in <placeName key="capri">Capri</placeName>. They
                     strolled past <placeName key="morgano">the 'Morgano'</placeName>, where
                         <persName key="sparreGre">Grete</persName> had to return many curious
                     greetings from friends and acquaintances. Suddenly <persName key="signoraFavio"
@@ -2426,8 +2421,7 @@
                     accepted with pleasure.</p>
                 <p>"The mystification succeeded beyond all expectation. <persName key="lili"
                             ><persName key="sparreGre">Grete</persName>'s French friend</persName>
-                    was welcomed with extreme cordiality by the whole company. A
-                        <persName>well-known Norwegian lady novelist</persName> pledged <persName
+                    was welcomed with extreme cordiality by the whole company. <persName>A well-known Norwegian lady novelist</persName> pledged <persName
                         key="lili">Mademoiselle Lili</persName> in a lively toast as 'the most
                     perfect incarnation of French charm and Parisian elegance'. She did not stir
                     from <persName key="lili">Lili</persName>'s side. She invited <persName
@@ -2435,8 +2429,7 @@
                         >Norway</placeName>.</p>
                 <p>"<persName key="lili">Lili</persName> and <persName key="sparreGre"
                         >Grete</persName> were both delighted, for the enchanting, perhaps I should
-                    say the piquant, thing about this new friendship was that this
-                        <persName>passionate Norwegian</persName> had hitherto shown a striking
+                    say the piquant, thing about this new friendship was that <persName>this passionate Norwegian</persName> had hitherto shown a striking
                     aversion to me.</p>
                 <pb n="87"/>
                 <pb style="page" n="76"/>
@@ -2538,8 +2531,8 @@
                     seclusion of an hotel sitting-room.</p>
                 <p>"When evening came and the revue was launched in front of a crowded audience, not
                     a soul in <placeName>the hall</placeName> suspected that <persName key="lili"
-                        >Lili</persName> was not a genuine Parisienne. Moreover, the poetically
-                    minded <persName>chemist of <placeName key="balgencie"
+                        >Lili</persName> was not a genuine Parisienne. Moreover, <persName>the poetically
+                            minded chemist of <placeName key="balgencie"
                         >Balgencie</placeName></persName>, who was a member of the charity
                     committee, was so enthusiastic over <pb n="90"/>
                     <pb style="heading" rend="MIW"/>
@@ -2678,7 +2671,7 @@
                     the typical Parisienne from the revue of the last charity performance.</p>
                 <p>"Upon <persName key="lejeuneClaude">Claude</persName> had devolved the task,
                     after the carnival was over, of conducting <persName key="lili">Lili</persName>
-                    to <persName>her hotel</persName> through a crowd wild with enthusiasm, <pb
+                    to <placeName>her hotel</placeName> through a crowd wild with enthusiasm, <pb
                         n="96"/>
                     <pb style="heading" rend="MIW"/>
                     <pb style="page" n="83"/> and when at length he brought her intact to her room,
@@ -2758,7 +2751,7 @@
                     dancing immediately. The gentlemen must excuse him; he knew us both very well,
                     but in his establishment, unfortunately, they did not allow two gentlemen to
                     dance together.</p>
-                <p>"We duly explained to <persName>the strict gentleman</persName> that all we were
+                <p>"We duly explained to the strict gentleman that all we were
                     concerned about was trying out a new dance. He answered: 'Messieurs, I am sorry,
                     but gentlemen are not allowed to dance together here. If I permitted it only for
                     one occasion, and I know that in your case I am dealing with irreproachable
@@ -2787,8 +2780,7 @@
                 <pb style="heading" rend="MIW"/>
                 <p>"Then he came over to <persName key="lejeuneClaude">Claude</persName>'s table,
                     made a polite bow to <persName key="sparreGre">Grete</persName>, and especially
-                    to <persName key="lili">Lili</persName>, and said: 'I hope that your <persName
-                        key="sparreAn">friend</persName>, whom I am sorry not to see with you
+                    to <persName key="lili">Lili</persName>, and said: 'I hope that your friend, whom I am sorry not to see with you
                     to-day, has not avoided my establishment because he was irritated at the little
                     incident of yesterday evening. Monsieur will understand."</p>
                 <p>"'Oh, we understand,' answered <persName key="lejeuneClaude">Claude</persName>,
@@ -2812,16 +2804,16 @@
                     of ours and knew me as well as <persName key="lili">Lili</persName>—for the
                     rest, nobody in the club suspected our double existence—made a point this
                     evening of introducing <persName key="lili">Lili</persName> to a number of
-                    gentlemen, including her cousin, a nobleman who was no longer quite young.
+                    gentlemen, including <persName key="cousin">her cousin</persName>, a nobleman who was no longer quite young.
                     Hitherto <persName key="lili">Lili</persName> had declined to make fresh
                     acquaintances on these club evenings, which were rare events for her. She was
                     happy enough dancing with <persName key="lejeuneClaude">Claude</persName>, and
                     did not need any other partners. Yet, before she could decline, her friend
-                    fetched her cousin: 'My <persName key="trempe">cousin</persName>, <persName
+                    fetched her cousin: 'My cousin, <persName
                         key="trempe">le Comte de Trempe</persName><pb n="100"/>
                     <pb style="heading" rend="MIW"/>
                     <pb style="page" n="87"/>—<persName key="lili">la Baronne Lili de
-                        Cortaud</persName>.' The gallant <persName key="trempe">Count</persName>
+                        Cortaud</persName>.' <persName key="trempe">The gallant Count</persName>
                     immediately challenged <persName key="lili">Lili</persName> to a fox-trot. This
                     dance was followed by several more. <persName key="lili">Lili</persName> could
                     not refuse. <persName key="lejeuneClaude">Claude</persName> nodded to her
@@ -2838,10 +2830,10 @@
                 <p>"The next morning, while <persName key="lili">Lili</persName> was telling
                         <persName key="sparreGre">Grete</persName> about her conquest in the
                     club,<!-- RJP:2018-03-21: Could be an orgName? Is this a place or group? --> the
-                    bell rang in the corridor. The <persName key="trempe">Count</persName> appeared;
+                    bell rang in the corridor. <persName key="trempe">The Count</persName> appeared;
                     he made profuse apologies—<persName key="sparreGre">Grete</persName> had opened
                     the door—in case he was intruding, but he only wanted to inquire after the
-                    health of her guest, the <persName key="lili">Baroness Lili de
+                    health of her guest, <persName key="lili">the Baroness Lili de
                         Cortaud</persName>.</p>
                 <p>"<persName key="sparreGre">Grete</persName> regretted sincerely that her visitor
                     had already gone out, and showed <persName key="trempe">the Count</persName>
@@ -2854,7 +2846,7 @@
                     dinner with friends.</p>
                 <p>"'Oh,' <persName key="trempe">the Count</persName> then exclaimed, 'so your
                         husband—<persName key="sparreAn">Monsieur Sparre</persName>—is brother to
-                    the <persName key="lili">Baroness</persName>.'</p>
+                    <persName key="lili">the Baroness</persName>.'</p>
                 <pb n="101"/>
                 <pb style="page" n="88"/>
                 <pb style="heading" rend="MIW"/>
@@ -2872,8 +2864,8 @@
                 <p>"'I am sincerely delighted,' he began at once in his ceremonious way, 'to pay you
                     a visit' (I could scarcely find time to usher him in). 'As I have already told
                         <persName key="sparreGre">Madame Sparre</persName>, the day before yesterday
-                    I made the acquaintance of your sister, the charming <persName key="lili"
-                        >Baroness</persName>, and I am most anxious to see her again.'</p>
+                    I made the acquaintance of your sister, <persName key="lili"
+                        >the charming Baroness</persName>, and I am most anxious to see her again.'</p>
                 <p>"Of course it was now very difficult to keep up the pose, but we succeeded in
                     doing so, and I replied: 'My sister will certainly be sorry to have missed the
                     pleasure of shaking hands with you again, monsieur.'</p>
@@ -2898,8 +2890,8 @@
                     free.</p>
                 <p>"Foolishly enough I did not contest this point.</p>
                 <p>"Whereupon he made an exemplary bow and, without beating about the bush,
-                    declared: 'Then, monsieur, I have the honour of offering the <persName
-                        key="lili">Baroness</persName> my hand.'</p>
+                    declared: 'Then, monsieur, I have the honour of offering <persName
+                        key="lili">the Baroness</persName> my hand.'</p>
                 <p>"I thanked him in the name of my sister and promised to inform her of his
                     flattering offer. He then withdrew, amidst the exchange of numerous
                     compliments.</p>
@@ -2924,11 +2916,11 @@
                 <!-- RJP:2018-03-21: In the printed text there is extra carriage return, but this isn't holding in the XML because it is not within markup. Lost in white space. How should we indicate this? -->
                 <p style="return"/>
                 <p>"Even stranger was something that happened at <placeName>the house of <persName
-                            key="sister">my sister</persName> and my <persName key="brotherChris"
-                            >brother-in-law</persName> in <placeName key="copenhagen"
+                            key="sister">my sister</persName> and <persName key="brotherChris"
+                                >my brother-in-law</persName> in <placeName key="copenhagen"
                             >Copenhagen</placeName></placeName>, where we were staying some months
                     later on a visit.</p>
-                <p>"My little <persName key="niece">niece</persName> had seen pictures of <persName
+                <p>"<persName key="niece">My little niece</persName> had seen pictures of <persName
                         key="lili">Lili</persName>, and wanted to see this remarkable person for
                     once 'in the life'. So it was arranged that she should be present one Sunday
                     afternoon, which my
@@ -3056,7 +3048,7 @@
                     to see a doctor, and to please her I did so.
                         <!-- RJP:2018-03-26: While the references to two doctors here followong are very general, I have them tagged because we earlier tagged Surgeon 1, 2, 3. I think leave them, just without ids. I am thinking it could be interesting to later count the instances of un-named doctors consulted. Answer: We will tag the doctors in case they can be identified. DR. Caughie has a header note about it. DRR--><persName>The
                         doctor</persName> found nothing specific the matter and prescribed a nerve
-                    tonic. It did no good. <persName>A new doctor</persName> was consulted, with a
+                    tonic. It did no good. A new doctor was consulted, with a
                     similar result, and so on.</p>
                 <p>"But when <persName key="lili">Lili</persName> appeared, everything went well,
                     and life was fair once more. Every trace of ill-humour vanished.</p>
@@ -3200,7 +3192,7 @@
                     and violent pains, set in. And then, in addition, there were these disconcerting
                     fits of sobbing. At first I thought that I had displaced some internal organ
                     during the ballet performances, and <persName key="sparreGre">Grete</persName>
-                    too thought this. Consequently, we went to a <persName>doctor, who was really a
+                    too thought this. Consequently, we went to <persName>a doctor, who was really a
                         heart
                     specialist</persName><!-- RJP:2018-03-26: While the references to a doctor and the same person again as heart specialist are very general, I have tagged heart specialist because we earlier tagged Surgeon 1, 2, 3. I think leave this tag, just without an id. I am thinking it could be interesting to later count the instances of un-named doctors consulted. And if this doctor is not fictitious he might be even easier to find since we know his area of specialization. Another rabbit hole for Pamela's retirement years :) Answer: We are tagging this as we are tagging all doctors in the narrative. DRR-->
                     and not competent to deal with my alleged illness. But he had known me for
@@ -3447,7 +3439,7 @@
                     words. Nevertheless, their words often gave me moral support. They saw in me an
                     overweighted man, whose sufferings were a real martyrdom, and not, as the French
                     doctors declared over and over again, imagination and hysteria.</p>
-                <p>"One day I met an <persName>elderly French painter</persName> in <placeName
+                <p>"One day I met <persName>an elderly French painter</persName> in <placeName
                         key="trianon">Trianon</placeName>. We had known each other for years, but
                     had not seen each other for a long time. He <pb n="124"/>
                     <pb style="heading" rend="MIW"/>
@@ -3538,15 +3530,14 @@
                 <p>"Thus I went again to <persName>the heart specialist</persName> with whom I was
                     acquainted. <persName key="sparreGre">Grete</persName> had called on him a few
                     days before and had tried to explain to him my and <persName key="lili"
-                        >Lili</persName>'s double life—and he had promised her to take me to another
-                        <persName>specialist in <placeName key="versailles"
+                        >Lili</persName>'s double life—and he had promised her to take me to <persName>another specialist in <placeName key="versailles"
                         >Versailles</placeName></persName>—although, personally, he regarded the
                     whole thing as a fixed idea of mine, and exclusively as a 'diseased imagining
                     without any physical foundation'.</p>
                 <p>"'Your husband is healthy. His body is normal. I am speaking from a thorough
                     knowledge, from a thorough examination of his body, madame.' Such was the wisdom
                     of his concluding remarks.</p>
-                <p>"This visit to the new <persName>specialist in <placeName key="versailles"
+                <p>"This visit to <persName>the new specialist in <placeName key="versailles"
                             >Versailles</placeName></persName> was to be my last experiment, I had
                     solemnly sworn to <persName key="sparreGre">Grete</persName> and myself, before
                     we set out on the journey. On my arrival I immediately received the impression
@@ -3672,7 +3663,7 @@
                 <p>"Thus we reached February. <persName key="rossiniEl">Elena</persName> and
                         <persName key="rossiniEr">Ernesto</persName> were in <placeName key="paris"
                         >Paris</placeName> again. And one morning <persName key="rossiniEl"
-                        >Elena</persName> took me with her to the <persName key="kreutz">strange man
+                            >Elena</persName> took me with her to <persName key="kreutz">the strange man
                         from <placeName key="germany">Germany</placeName></persName>. Now it is the
                     third of March. In less than two months it will be the first of May. That is the
                     extreme limit of the period which I gave myself. Then <persName key="sparreAn"
@@ -3869,7 +3860,7 @@
                     intellectual, and therefore able to analyse your own feelings, your own
                     emotional life. You will experience the unprecedented and incredible thing:
                     first to have lived and felt as a man, and then to live and feel as a woman. I
-                    am reminded of that <persName>Roman
+                    am reminded of <persName>that Roman
                     emperor</persName><!-- RJP:2018-03-28: Some projects would go as far as grabbing this. IDK it can be a discussion, I am sure a tag with no key makes no matter, right? -->
                     who took his life because he could not achieve what is now <hi rend="italics"
                         >your</hi> fate."</p>
@@ -3926,7 +3917,7 @@
                     close at hand.</p>
                 <p>When they had found seats in <placeName>the café</placeName> opposite the
                     newspaper stand, <persName key="sparreAn">Andreas</persName> detected a few
-                    yards away from them a <persName key="theCripple">red-haired cripple</persName>,
+                    yards away from them <persName key="theCripple">a red-haired cripple</persName>,
                     a
                     newspaper<!--We are creating a key id for this character, as DR. caughie says its an important scene-->
                     boy. <persName key="sparreAn">Andreas</persName> sprang up in a trice and moved
@@ -3964,8 +3955,7 @@
                     then released the astonished man and raised his glass. "So be it!" And he
                     clinked his glass with that of <persName key="theCripple">the
                         hunchback</persName>. When <persName key="sparreAn">Andreas</persName> and
-                        <persName key="hvideNiels">Niels</persName> at length departed, the
-                        <persName key="theCripple">red-haired cripple</persName> gazed after them,
+                    <persName key="hvideNiels">Niels</persName> at length departed, <persName key="theCripple">the red-haired cripple</persName> gazed after them,
                     shaking his head.</p>
                 <p>In the room of <placeName key="gebhardSanatorium">the nursing-home</placeName>
                     which was awaiting <persName key="sparreAn">Andreas</persName> lights were
@@ -4106,7 +4096,7 @@
                 <!--there is an extra carriage return here-->
                 <p style="return"/>
                 <p>Now everything was in order.</p>
-                <p>A moment later the <persName>assistant doctor</persName> entered the room.</p>
+                <p>A moment later <persName>the assistant doctor</persName> entered the room.</p>
                 <p>When <persName key="sparreAn">Andreas</persName> woke up again, in violent pain,
                     it was almost noon. He opened his eyes with a shriek. Gradually he realized that
                     he was lying in his bed. It seemed to him as if he had been crying out for a
@@ -4127,9 +4117,9 @@
                     whole body were being torn asunder. The coughing was terrible. He had tried to
                     suppress it, but without success.</p>
                 <p>At last the fit was over, and he lay exhausted.
-                    <!--DRR: Mistraslation, probably should say the nurse, as it is in the German.-->The <choice>
-                        <orig>nurses</orig>
-                        <reg>nurse</reg>
+                    <!--DRR: Mistraslation, probably should say the nurse, as it is in the German.--><choice>
+                        <orig>The nurses</orig>
+                        <reg><persName>The nurse</persName></reg>
                     </choice> wiped the perspiration off his forehead. "You must have smoked a lot?"
                     she asked. "Perhaps even yesterday."</p>
                 <pb n="148"/>
@@ -4168,7 +4158,7 @@
                         >Inger</persName> sends you her greetings. Otherwise . . ." </p>
                 <p><persName>The nurse</persName> gave a hint. <persName key="hvideNiels"
                         >Niels</persName> stole out of the sick-room. And <persName key="sparreAn"
-                        >Andreas</persName> whimpered: "Nurse, give me an injection. . . ." It was
+                        >Andreas</persName> whimpered: "<persName>Nurse</persName>, give me an injection. . . ." It was
                     not the only one he had during the night. It was an endless agonizing night. Not
                     until dawn did he manage to go off into a short heavy sleep. By the time he was
                     fully awake, about noon, he felt as weak as one who had been wandering through a
@@ -4278,7 +4268,7 @@
                 <head>X</head>
                 <p>Three days later <persName key="sparreGre">Grete</persName> arrived early in the
                     morning.</p>
-                <p>The <persName>nurse on duty</persName> knew at once who she was.</p>
+                <p><persName>The nurse on duty</persName> knew at once who she was.</p>
                 <p>A few moments later she was in the sick-room. </p>
                 <p><persName key="sparreGre">Grete</persName> stood in the middle of the room with
                     outstretched arms, and could not stir. She was struggling with her tears. She
@@ -4379,8 +4369,8 @@
                     room, which stood empty. Swiftly she fetched a trunk which she had left in the
                     corridor, opened it cautiously, and drew out a silk négligée.</p>
                 <p>"How becoming you will look in it, madam!"</p>
-                <p>"I? No, <persName>Nurse</persName>; it is a present from our <persName
-                        key="rossiniEl">Parisian friend</persName> for our—patient inside. But not a
+                <p>"I? No, <persName>Nurse</persName>; it is a present from <persName
+                    key="rossiniEl">our Parisian friend</persName> for our—patient inside. But not a
                     word, please, until to-morrow morning!"</p>
                 <p>And when morning came it found <persName key="lili">Lili</persName> sitting in
                     the most charming Parisian négligée, still very pale and limp, but nevertheless
@@ -4448,8 +4438,7 @@
                     a patience which I have never seen her display before. She has only one wish, to
                     go to <placeName key="dresden">Dresden</placeName> soon, to <persName
                         key="kreutz"><hi rend="italics">her</hi> Professor</persName>. She always
-                    calls him <persName key="kreutz">her Professor</persName>, or else her
-                    miracle-man. About the past she does not say a single word. It often seems to me
+                    calls him her Professor, or else her miracle-man. About the past she does not say a single word. It often seems to me
                     as if she were without any past at all, as if she did not yet really believe in
                     a present, as if she had been waiting for <persName key="kreutz"
                         >Kreutz</persName>, her miracle-man, in order to bring her to proper
@@ -4477,8 +4466,7 @@
                     <pb style="heading" rend="MIW"/>
                     <pb style="page" n="139"/> yet believe. . . . Or is it that she will not yet
                     show that she believes?"</p>
-                <p>On this day <persName key="lili">Lili</persName> wrote her first letter, to her
-                        <persName key="brotherChris">brother-in-law in <placeName key="copenhagen"
+                <p>On this day <persName key="lili">Lili</persName> wrote her first letter, to <persName key="brotherChris">her brother-in-law in <placeName key="copenhagen"
                             >Copenhagen</placeName></persName>.</p>
                 <p style="letter" xml:id="a1c10l02ha">"<placeName key="berlin"
                     >Berlin</placeName>,</p>
@@ -4488,8 +4476,8 @@
                 <p style="letter" xml:id="a1c10l02p01">"It is now <persName key="lili"
                         >Lili</persName> who is writing to you. I am sitting up in my bed in a silk
                     nightdress<!--no hyphen here in original even though other instances do have the hyphen-->
-                    with lace trimming, curled, powdered, with bangle, necklace, and rings. Even my
-                    solemn <persName key="gebhard">Professor</persName> calls me <persName
+                    with lace trimming, curled, powdered, with bangle, necklace, and rings. Even <persName key="gebhard">my
+                        solemn Professor</persName> calls me <persName
                         key="lili">Lili</persName>, and everybody compliments me upon my appearance;
                     but I am still feeling tired after the operation and the terrible nights that
                     followed it. <persName key="sparreGre">Grete</persName> has arrived, and has
@@ -4744,7 +4732,7 @@
                 <p>"Yes, <persName key="karner">Doctor</persName>; but are you still unable to
                     recognize me?"</p>
                 <p><persName key="karner">The Doctor</persName> only became more confused.
-                        "<persName>Sparre</persName> . . . <persName>Sparre</persName>. . . of
+                        "Sparre . . . Sparre. . . of
                     course the name sounds familiar. <persName key="sparreAn">Mr. Sparre</persName>
                     was here about a fortnight ago. He too was sent to me by <persName key="arns"
                         >Professor Arns</persName>. But I cannot call you to mind, madam."</p>
@@ -4765,7 +4753,7 @@
                     single word of what you told him."</p>
                 <p>Suddenly <persName key="lili">Lili</persName> began to laugh. "But that is
                     splendid. He too, then, did not recognize me."</p>
-                <p>A nurse came into the room and requested <persName key="lili">Lili</persName> to
+                <p><persName>A nurse</persName> came into the room and requested <persName key="lili">Lili</persName> to
                     follow her. <persName key="karner">The Doctor</persName> was waiting for her in
                     the laboratory, which <persName key="lili">Lili</persName> immediately
                     recognized. He was holding a small instrument, similar to a morphia syringe, a
@@ -5031,7 +5019,7 @@
                     two corner seats by the door belonged to them.</p>
                 <p>Up till then <persName key="lili">Lili</persName> had scarcely noticed her
                     fellow-travellers. She had kept herself entrenched behind newspapers.</p>
-                <p>Suddenly one of the gentlemen laid his paper down and <persName>the other
+                <p>Suddenly <persName>one of the gentlemen</persName> laid his paper down and <persName>the other
                         gentleman</persName> followed suit, except that he almost solemnly folded up
                     his newspaper. Involuntarily she looked at him, and he returned her look very
                     deliberately. "Hm!" he grunted at least four times. <persName>The other
@@ -5044,7 +5032,7 @@
                     creation"<!--RJP:2018-04-06: possible orgName--> fixed upon her. She put on a
                     very haughty expression.</p>
                 <p>"Ahem," said <persName>the gentleman next to her</persName>. "Do you mind,
-                        <persName key="lili">madam</persName>?" She nodded her assent.</p>
+                        madam?" She nodded her assent.</p>
                 <p>He offered her a heavy cigarette-case, inlaid with gold: "It is, to be sure, a
                     non-smoker; but both the other people—ahem."</p>
                 <p><persName key="lili">Lili</persName> smiled: "No, thanks."</p>
@@ -5435,7 +5423,7 @@
                         >Grete</persName>, "now I understand the beautiful German word
                     'fore-spring'. Everything here is so full of expectation."</p>
                 <p>Then a slender man in white overalls hastened across <placeName>the
-                        park</placeName> to the septic station. An <persName>assistant
+                    park</placeName> to the septic station. <persName>An assistant
                         doctor</persName> followed him, and a whisper flew from mouth to mouth:
                         "<persName key="kreutz">The Professor</persName>." All eyes were riveted on
                     him, and everything seemed to stop for a moment.</p>
@@ -5461,7 +5449,7 @@
                     to bed, she was subjected to all the ceremonies that precede an operation. And
                         <persName key="sparreGre">Grete</persName> sat beside her to offer
                     encouragement. <persName key="kreutz">The Professor</persName> had already
-                    intimated in the morning that if a <persName>young woman</persName> who had to
+                    intimated in the morning that if <persName>a young woman</persName> who had to
                     be operated upon the following day possessed suitable ovaries, the
                     transplantation should be effected forthwith. Excited and happy she bade
                         <persName key="sparreGre">Grete</persName> farewell this evening. She lay
@@ -5738,8 +5726,8 @@
                     me as I write these words. A human being who was born a man, who was my husband,
                     my friend, my comrade—has now become a woman, a complete woman. And this human
                     being was never intended to be anything but a woman. Like a sacrificial animal
-                    he has been dragged along with me for years until this <persName key="kreutz"
-                        >German doctor</persName> brought him help! And to-day this human being has
+                    he has been dragged along with me for years until <persName key="kreutz"
+                        >this German doctor</persName> brought him help! And to-day this human being has
                     laid here bleeding under the knife of his helper. His body was opened, and
                     disclosed a state of things which the craziest imagination would hardly have
                     considered possible. The body of this human being contained stunted and withered
@@ -5753,9 +5741,7 @@
                     express my meaning. And now this poor creature, so heavily handicapped by Fate,
                     has had removed from its body what had formed such an obstacle, thus enabling it
                     now to develop as its blood had dictated for years, namely, as a woman, and it
-                    has been equipped with unimpaired female germ glands from another, <persName>a
-                        strange and quite young
-                    creature</persName>.<!--id will be the same as the twenty seven year old woman donor.-->
+                    has been equipped with unimpaired female germ glands from another, <persName>a strange and quite young creature</persName>.<!--id will be the same as the twenty seven year old woman donor.-->
                     Then this tortured body was sewn up again, and now nothing more is left, not a
                     particle is left of my life's comrade and fellow-wayfarer—<persName
                         key="sparreAn">Andreas</persName>. He is the dead brother of <persName
@@ -5773,7 +5759,7 @@
                         <persName key="lili">Lili</persName>, is still lying lulled in the mists of
                     merciful morphia.</p>
                 <p style="GreteDiary" xml:id="a1c13d01p14">"What will life now bring her? Will the
-                    miracle of <persName key="kreutz">the doctor</persName>, the miracle of his art,
+                    miracle of the doctor, the miracle of his art,
                     be great and strong enough to be perpetuated in <persName key="lili"
                         >Lili</persName>'s life? All of us have been instruments of this fate. I not
                     least. For it was I who many years ago enticed <persName key="lili"
@@ -6074,7 +6060,7 @@
                 <p style="letter" xml:id="a1c15l01p02">"Every day sees the departure of women who
                     are cured. And fresh patients come. There are now three of us in the private
                     ward, and we are sunning ourselves outside in <placeName>the garden</placeName>,
-                    in invalid chairs on the lawn. There is a <persName key="mrsTeddybear">fair
+                    in invalid chairs on the lawn. There is <persName key="mrsTeddybear">a fair
                         little lady</persName>, still very young, whom I like very much. She looks
                     most attractive. We smile at each other now and then from a distance. But that
                     is all up to now. I do not like <placeName>the garden</placeName> any longer.
@@ -6219,7 +6205,7 @@
                     doubt <persName key="mrsTeddybear">Mrs. Teddybear</persName> had told her
                     something about myself. We chatted in a very animated fashion about unimportant
                     things. I laughed a good deal. I affected a superficial and careless demeanour.
-                    That was all very well in its way; but I had provoked the doctor's displeasure<choice>
+                    That was all very well in its way; but I had provoked <persName>the doctor</persName>'s displeasure<choice>
                         <orig>,</orig>
                         <reg>.</reg>
                     </choice><!--error of comma in original--> Suddenly she said: 'You are a hundred
@@ -6400,7 +6386,7 @@
                         key="matron">the Matron</persName> has her hands full.</p>
                 <p style="letter" xml:id="a1c15l12p03">"My little friend, <persName
                         key="mrsTeddybear">Mrs. Teddybear</persName>, left me yesterday.
-                        <persName>The 'stern lady'</persName> has had her baby—it was a girl.</p>
+                    <persName>The 'stern lady'</persName> has had <persName>her baby</persName>—it was a girl.</p>
                 <p style="letter" xml:id="a1c15l12p04">"I must break off now. <persName key="kreutz"
                         >The Professor</persName> is passing, and my heart is beating violently.</p>
                 <p style="letter" xml:id="a1c15l12p05">"I must first get used to the idea that I
@@ -6617,7 +6603,7 @@
                     Sometimes I even think that the most immortal element in me is my vanity.</p>
                 <p style="letter" xml:id="a1c15l20p03">"There is a new nurse, who is called
                         <persName key="nurseEllen">Ellen</persName>, and who is always
-                    good-humoured. She and the little <persName key="nurseFrieda">Frieda</persName>
+                    good-humoured. She and <persName key="nurseFrieda">the little Frieda</persName>
                     look after me in turn. They are terribly good to me. I may not yet laugh. It
                     hurts so. If only you can come soon!"</p>
                 <!--new letter-->
@@ -7280,10 +7266,9 @@
                     contemplated the drastic step of liberating <persName key="sparreGre"
                         >Grete</persName> from the burden of a marriage tie with one who in the eyes
                     of the law was a dead man by her own voluntary death. Then they were assisted by
-                    a suggestion from an <pb n="260"/>
+                    a suggestion from  <persName>an eminent lawyer</persName> <pb n="260"/>
                     <pb style="heading" rend="MIW"/>
-                    <pb style="page" n="229"/>
-                    <!--we might get a key for this--><persName>eminent lawyer</persName> that they
+                    <pb style="page" n="229"/>that they
                     should address a petition to <persName key="king">the King</persName>, praying
                     him to declare invalid, by an act of grace, the marriage once contracted by
                         <persName key="sparreGre">Grete</persName> and <persName key="sparreAn"
@@ -7382,7 +7367,7 @@
                         >Andreas</persName> and <persName key="sister">his sister</persName> had
                     been the same size. From <persName key="sister">my sister</persName>'s eyes I
                     saw that she was thinking the same thing, and did not know what to make of the
-                    idea. I said to her: 'Good day . . be kind to your sister <persName key="lili"
+                    idea. I said to her: 'Good day . . . be kind to your sister <persName key="lili"
                         >Lili</persName>.'</p>
                 <p style="LiliDiary" xml:id="a1c18d01p03">"Perhaps I should have said something
                     altogether different. I might have said: 'Be kind to me and love me as you loved
@@ -7397,7 +7382,7 @@
                 <p style="LiliDiary" xml:id="a1c18d01p04">"Then we sat together on the sofa and in
                     front of us lying on the table was the album with the portraits of <persName
                         key="sparreAn">Andreas</persName> as a child. For a long time we held hands.
-                    And my <persName key="sister">sister</persName> was kind; she sought for words.
+                    And <persName key="sister">my sister</persName> was kind; she sought for words.
                     Her eyes looked at me, her lips said something. And I did not know whether it
                     was her lips or her eyes which spoke to me: 'Don't be angry with me if I cannot
                     yet properly call you by your name of <persName key="lili">Lili</persName> . . .
@@ -7410,15 +7395,14 @@
                         key="sparreAn">Andreas</persName>. And when <persName key="sparreAn"
                         >Andreas</persName> and I were quite small, he five and I six years old, I
                     was his little mother. There was never a prettier, sweeter brother than he. He
-                    played with my dolls, he pushed my doll's pram. And I called him <persName
+                    played with my dolls, he pushed my doll's pram. And I called him "<persName
                         key="sparreAn"
-                    >"Lilleman"</persName><!--we aren't sure we will keep this, since it's a nickname-->—little
+                        >Lilleman</persName>"—little
                     man. Once when I wrote down the name for <persName key="mother"
                         >Mother</persName> and <persName key="mother">Mother</persName> told me that
-                    I had spelt "<persName key="sparreAn">Lilleman</persName>" with only one "n"
+                    I had spelt "Lilleman" with only one "n"
                     instead of two, I said that my brudderkins <persName key="sparreAn"
-                        >Andreas</persName> was only a "<persName key="sparreAn"
-                    >Lilleman</persName>" with one "n", for he was not a proper man at all.
+                        >Andreas</persName> was only a "Lilleman" with one "n", for he was not a proper man at all.
                         <persName key="mother">Mother</persName> smiled, and you too smiled when you
                     heard it—no . . . not you . . . <persName key="sparreAn">Andreas</persName>
                     smiled. He did not know, perhaps, why he laughed. And I did not know why I had
@@ -7453,8 +7437,8 @@
                     would not have loved me so much as she loved <persName key="sparreAn"
                         >Andreas</persName>. It was probably on this <pb n="265"/>
                     <pb style="page" n="234"/>
-                    <pb style="heading" rend="MIW"/> day that my <persName key="sister"
-                        >sister</persName> said to me that everything that had happened in
+                    <pb style="heading" rend="MIW"/> day that <persName key="sister"
+                        >my sister</persName> said to me that everything that had happened in
                         <placeName key="dresden">Dresden</placeName> was an outrage against Nature;
                     had been a gamble with Fate; questioning whether <persName key="sparreAn"
                         >Andreas</persName> could not really have survived; or whether it would not
@@ -7564,8 +7548,7 @@
                         >Berlin</placeName>, was delighted at her friend's appearance. They spent a
                     few carefree, joyous, undisturbed days with each other. They shopped together,
                     visited dressmakers, went on walks and excursions, and finally <persName
-                        key="lili">Lili</persName> even ventured with her friend along <placeName
-                        key="stroget">the "Strog"</placeName>, <placeName key="copenhagen"
+                        key="lili">Lili</persName> even ventured with her friend along <choice><orig><placeName key="stroget">the "Strog"</placeName></orig><reg><placeName key="stroget">the "Strög"</placeName></reg></choice>, <placeName key="copenhagen"
                         >Copenhagen</placeName>'s Oxford
                     Street.<!--not tagging this, because it's metaphoric--> No, she need no longer
                     have any fear; nobody saw anything unusual in her; her anonymity in <placeName
@@ -7573,8 +7556,7 @@
                     dangers. When, therefore, strolling arm-in-arm with <persName key="hvideIng"
                         >Inger</persName> along <placeName key="rathausplatz">the
                         Rathausplatz</placeName> she saw <persName>two of <persName key="sparreAn"
-                            >Andreas</persName>' studio
-                    comrades</persName><!--will tag this as studio comrades--> approaching, without
+                            >Andreas</persName>' studio comrades</persName> approaching, without
                     being recognized by them, and when she heard one whispering to the other: "By
                     Jove, what a fine pair of legs!" meaning <persName key="lili">Lili</persName>'s
                     legs, she swallowed the remark with avidity, not only as a compliment, but as a
@@ -7663,7 +7645,7 @@
                         sister-in-law</persName>, a dear good creature who as a woman showed
                         <persName key="lili">Lili</persName> not only sympathy, but profound
                     understanding from the first moment.</p>
-                <p>The <persName key="brotherSing">brother</persName> did not find it easy the first
+                <p><persName key="brotherSing">The brother</persName> did not find it easy the first
                     few days to adjust himself to his new sister, but it was not long before he was
                     quite at home with her and could regard <persName key="lili">Lili</persName>
                     simply as a sister.</p>
@@ -7673,8 +7655,8 @@
                         key="vejle"><persName key="sparreAn">Andreas</persName>' home
                         town</placeName>.</p>
                 <p>She was quite content to be treated as a child who had been ill and must now be
-                    cherished and cosseted. Every evening her <persName key="sisterInLaw"
-                        >sister-in-law</persName> sat beside <persName key="lili">Lili</persName>'s
+                    cherished and cosseted. Every evening <persName key="sisterInLaw"
+                        >her sister-in-law</persName> sat beside <persName key="lili">Lili</persName>'s
                     bed and held her hand until she fell asleep. She was never left alone the whole
                     day. If she went out, someone went with her. If <persName key="lili"
                         >Lili</persName> protested, they would hardly let her speak: even in little
@@ -7718,8 +7700,8 @@
                     something were vibrating in the depths of her being. But she was still too weak
                     to form a precise idea of what it was. Frequently these questions tortured her,
                     and <persName key="brotherSing">her brother</persName> felt it and desisted.</p>
-                <p>It was not through the past that she felt herself linked to her <persName
-                        key="brotherSing">brother</persName> and <persName key="sisterInLaw"
+                <p>It was not through the past that she felt herself linked to <persName
+                    key="brotherSing">her brother</persName> and <persName key="sisterInLaw"
                         >sister-in-law</persName>: but both <pb n="275"/>
                     <pb style="page" n="242"/>
                     <pb style="heading" rend="MIW"/> were so kind and considerate that she gradually
@@ -8063,7 +8045,7 @@
                         key="feruzziRi">Feruzzi</persName> soon after their marriage. <persName
                         key="feruzziRi">Feruzzi</persName>, too, would welcome me like a grown-up
                     daughter. How happy these words made me!"</p>
-                <p><persName key="haslund">A well-known <placeName key="copenhagen"
+                <p><persName key="heymanHaslund">A well-known <placeName key="copenhagen"
                             >Copenhagen</placeName> art dealer</persName>, who was an old friend of
                         <persName key="sparreGre">Grete</persName> and <persName key="sparreAn"
                         >Andreas</persName> and one of the few who had welcomed <persName key="lili"
@@ -8089,7 +8071,7 @@
                         key="sparreAn">Andreas</persName> and <persName key="sparreGre"
                         >Grete</persName> had exhibited in <placeName key="copenhagen"
                         >Copenhagen</placeName> nearly every year, and, in fact, in <placeName>the
-                        salons of <persName key="haslund">this friendly art
+                        salons of <persName key="heymanHaslund">this friendly art
                         dealer</persName></placeName>.</p>
                 <p>On this occasion a strange feeling of suppressed curiosity pervaded the
                     atmosphere on the opening day. The most intimate friends of the artist were, of
@@ -8266,8 +8248,7 @@
                     observe you quietly I can see that you are a healthy and vigorous woman.'</p>
                 <p style="LiliDiary" xml:id="a1c21d01p02">"I cannot tell you how happy these words
                     made me.</p>
-                <p style="LiliDiary" xml:id="a1c21d01p03">"In the evening I told my <persName>German
-                        friend</persName> what the doctor said, and the former observed: </p>
+                <p style="LiliDiary" xml:id="a1c21d01p03">"In the evening I told <persName>my German friend</persName> what the doctor said, and the former observed: </p>
                 <p style="LiliDiary" xml:id="a1c21d01p04"><choice>
                         <orig>"</orig>
                         <reg>"'</reg>
@@ -8421,8 +8402,7 @@
                         >Claude</persName> shook his head.</p>
                 <p style="LiliDiary" xml:id="a1c22d01p15">"'What plans, what plans, <persName
                         key="lili">Lili</persName>! Nothing but long journeys. And quite alone. It
-                    is indeed very nice of <persName key="sparreGre">Grete</persName> and <persName
-                        key="feruzziRi">her husband</persName> to want to have you with them, but
+                    is indeed very nice of <persName key="sparreGre">Grete</persName> and her husband to want to have you with them, but
                     don't forget they are a newly married pair. Have happy people, who have
                     neglected their happiness so long, room for a third person?'</p>
                 <p style="LiliDiary" xml:id="a1c22d01p16">"And then <persName key="lejeuneClaude"
@@ -8718,8 +8698,7 @@
                 <pb style="page" n="274"/>
                 <head>DUSK</head>
 
-                <p>Fragments from <persName key="lili">Lili Elbe</persName>'s letters to her
-                        <persName key="germanFriend">German friend</persName> in the period from
+                <p>Fragments from <persName key="lili">Lili Elbe</persName>'s letters to <persName key="germanFriend">her German friend</persName> in the period from
                     14th June to 22nd August, 1931, from <placeName key="dresden"
                         >Dresden</placeName>.</p>
                 <p style="letter" xml:id="a1c23l01ha">"14th June. </p>
@@ -8959,10 +8938,12 @@
                         <reg>"</reg>
                     </choice><!--no double quotation here--></p>
                 <p style="letter" xml:id="a1c23l06ha">"19th July.</p>
-                <p style="letter" xml:id="a1c23l06p01">"My friend <persName key="persenIv">Iven <choice>
-                            <orig>Person</orig>
-                            <reg>Persen</reg>
-                        </choice></persName> of <placeName key="theatreRoyal">the Theatre
+                <p style="letter" xml:id="a1c23l06p01">"My friend <choice>  
+                    <orig><persName key="persenIv">Iven
+                        Person</persName></orig>  
+                    <reg><persName key="persenIv">Iven
+                        Persen</persName></reg>  
+                </choice> of <placeName key="theatreRoyal">the Theatre
                         Royal</placeName>, <placeName key="copenhagen">Copenhagen</placeName> (the
                     only one of <persName key="sparreAn">Andreas</persName>' friends to extend his
                     friendship to me), and his ravishingly beautiful <persName key="persenEb"
@@ -9045,10 +9026,9 @@
                 <p style="letter" xml:id="a1c23l06p08">"I should like to give you a little present.
                     Hence I am sending you <persName key="sparreAn">Andreas</persName>' book, <hi
                         rend="italics">Le Livre des Vikings</hi>, which he published in 1924, in
-                    conjunction with <persName key="guyot">Ch. <choice>
-                            <orig>Gyuot</orig>
-                            <reg>Guyot</reg>
-                        </choice></persName>, at <placeName key="piazzaLEdition">L'Edition d'Art H.
+                    conjunction with <choice><orig><persName key="guyot">Ch. Gyuot</persName></orig>
+                        <reg><persName key="guyot">Ch. Guyot</persName></reg>
+                    </choice>, at <placeName key="piazzaLEdition">L'Edition d'Art H.
                         Piazza,</placeName>
                     <placeName key="paris">Paris</placeName>. You are to keep it as a memento. Look
                     at the first page! <persName key="sparreAn">Andreas</persName> has written on
@@ -9105,8 +9085,7 @@
                         key="lejeuneClaude">Claude</persName>.</p>
                 <p style="paraText" rend="division">. . . . .</p>
                 <p>The shadows were closing round <persName key="lili">Lili Elbe</persName>. She
-                    wrote one more letter at the beginning of September. It was addressed to her
-                        <persName key="sister">sister</persName>.</p>
+                    wrote one more letter at the beginning of September. It was addressed to <persName key="sister">her sister</persName>.</p>
                 <p style="letter" xml:id="a1c23l14p01">"Now I know that death is near. Last night I
                     dreamt about <persName key="mother">Mother</persName>. She took me in her arms
                     and called me <persName key="lili">Lili</persName> . . . and <persName
@@ -9131,8 +9110,7 @@
                     her last journey to <placeName key="dresden">Dresden</placeName>, she opened a
                     book. It was the first volume of <persName key="jager">Hans Jager</persName>'s
                     shattering confessions, <hi rend="italics">Sick Love</hi>. <persName key="lili"
-                        >Lili</persName> read for a while. Suddenly she paused, handed her
-                        <persName>friend</persName><!-- RJP:2018-02-04:Biographer. --> the book,
+                        >Lili</persName> read for a while. Suddenly she paused, handed <persName>her friend</persName><!-- RJP:2018-02-04:Biographer. --> the book,
                     pointed to a passage therein, and said: "If I should not return, may it be
                     appropriate to <pb n="323"/>
                     <pb style="page" n="288"/>
