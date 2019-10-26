@@ -130,6 +130,10 @@
                <note>Belgium (historical), a country in western Europe whose capital is
                   Brussels.</note>
             </place>
+            <place xml:id="belgrad">
+               <placeName>Belgrad</placeName>
+               <note>Belgrad (historical), capital of Serbia</note>
+            </place>
             <place xml:id="berlin">
                <placeName>Berlin</placeName>
                <placeName>Babylon on the Spree</placeName>
@@ -158,6 +162,10 @@
                <placeName source="#G1">Brandenburger Tor</placeName>
                <note>Brandenburg Gate (historical), an 18th-century monument, among the best-known
                   landmarks in Berlin</note>
+            </place>
+            <place xml:id="budapest">
+               <placeName>Budapest</placeName>
+               <note>Budapest (historical), capital of Hungary</note>
             </place>
             <place xml:id="cadiz">
                <placeName>Cadiz</placeName>
@@ -215,7 +223,7 @@
             </place>
             <place xml:id="dolomites">
                <placeName>Dolomites Mountain Range</placeName>
-               <note>Dolomites Mountain Range(historical), a mountain range in Italy</note>
+               <note>Dolomites Mountain Range (historical), a mountain range in Italy</note>
             </place>
             <place xml:id="dreiMasken">
                <placeName>Drei Masken</placeName>
@@ -351,14 +359,18 @@
                   distinguish North Germany from Germany because in some languages North Germany is
                   one word and can signify a specific identity.</note>
             </place>
+            <place xml:id="gipsyBar">
+               <placeName>Gipsy Bar</placeName>
+               <note>Gipsy Bar (fictional), no known historical analogue</note>
+            </place>
             <place xml:id="greece">
                <placeName source="#A1 #D1-TR">Greece</placeName>
                <placeName source="#D1">Grækenland</placeName>
                <note>Greece is a southeastern European country whose capital is Athens.</note>
             </place>
-            <place xml:id="gipsyBar">
-               <placeName>Gipsy Bar</placeName>
-               <note>Gipsy Bar (fictional), no known historical analogue</note>
+            <place xml:id="grønnestrand">
+               <placeName>grønnestrand</placeName>
+               <note>Grønnestrand (historical), coastal region of Denmark</note>
             </place>
             <place xml:id="hague">
                <placeName>The Hague</placeName>
@@ -368,6 +380,10 @@
                <placeName source="#A1 #D1-TR">Hanover</placeName>
                <placeName source="#D1 #G1">Hannover</placeName>
                <note>Hanover (historical), also spelled Hannover, city in Germany</note>
+            </place>
+            <place xml:id="haralaching">
+               <placeName>Haralaching</placeName>
+               <note>Haralaching (historical), a district of Munich, Germany</note>
             </place>
             <place xml:id="hindustan">
                <placeName source="#A1 #D1 #D1-TR">Hindustan</placeName>
@@ -500,6 +516,10 @@
                <placeName>Monte Tiberio</placeName>
                <note>Monte Tiberio (historical), on the island of Capri</note>
             </place>
+            <place xml:id="montparnasse">
+               <placeName>Montparnasse</placeName>
+               <note>Montparnasse (historical), a section of Paris where many artists and writers lived in the 1920s</note>
+            </place>
             <place xml:id="morgano">
                <placeName source="#A1 #D1 #D1-TR">Café Morgana</placeName>
                <placeName source="#A1">Café Morgano</placeName>
@@ -511,6 +531,10 @@
                <placeName source="#frenchSupp">Marco</placeName>
                <note>Morocco (historical), a country in northern Africa</note>
             </place>
+            <place xml:id="munich">
+               <placeName>Munich</placeName>
+               <note>Munich (historical), a city in German</note>
+            </place>
             <place xml:id="naples">
                <placeName source="#A1 #D1-TR">Naples</placeName>
                <placeName source="#D1 #G1">Neapel</placeName>
@@ -521,12 +545,20 @@
                <note>Neustadt (historical), Dresdner Neustadt, on the right bank of the Elbe,
                   Dresden</note>
             </place>
+            <place xml:id="newYork">
+               <placeName>New York</placeName>
+               <note>New York (historical), a city in the state of New York</note>
+            </place>
             <place xml:id="norway">
                <placeName source="#A1 #D1-TR">Norway</placeName>
                <placeName source="#D1">Norwegen</placeName>
                <placeName source="#G1">Norge</placeName>
                <note>Norway is a Scandinavian country in northern Europe whose capital is
                   Oslo.</note>
+            </place>
+            <place xml:id="oleHaslandHus">
+               <placeName>Ole Hasland Hus</placeName>
+               <note>Ole Hasland Hus (historical), art gallery in Copenhagen where the Wegeners exhibited</note>
             </place>
             <place xml:id="oslo">
                <placeName>Oslo</placeName>
@@ -678,6 +710,10 @@
             <place xml:id="seville">
                <placeName>Seville</placeName>
                <note>Seville (historical), a city in southern Spain</note>
+            </place>
+            <place xml:id="skagen">
+               <placeName>Skagen</placeName>
+               <note>Skagen (historical), port town in the Jutland region of Denmark</note>
             </place>
             <place xml:id="spain">
                <placeName source="#A1 #D1-TR">Spain</placeName>
@@ -861,6 +897,14 @@
             <person xml:id="bach" source="historical">
                <persName>Bach</persName>
                <note>Bach (historical), Johann Sebastian Bach (1685–1750), a German composer</note>
+            </person>
+            <person xml:id="barfodThorkil" source="historical">
+               <persName>Thorkil Barfod</persName>
+               <note>Thorkil Barfod (1889-1947?), a Danish writer and journalist</note>
+            </person>
+            <person xml:id="bastJørgen" source="historical">
+               <persName>Jørgen Bast</persName>
+               <note>Jørgen Bast (1894-1965), born in Vejle, Denmark, a journalist for Berlingske Tidende and co-editor of its sister newspaper B.T. from 1926-1936</note>
             </person>
             <person xml:id="bonsels" source="historical">
                <persName>Bonsels</persName>
@@ -1118,6 +1162,10 @@
                   German physician and one of the most influential sexologists of the time; Einar
                   Wegener was examined at his Institute in March 1930</note>
             </person>
+            <person xml:id="haslundOleGeorg" source="historical">
+               <persName>Ole Georg Haslund</persName>
+               <note>Ole Georg Haslund (1877–1962), co-owner of Ole Haslunds Hus,  an art gallery in Copenhagen where the Wegeners exhibited</note>
+            </person>
             <person xml:id="hasselbalchS" source="historical">
                <persName>Steen Hasselbalch</persName>
                <note>Steen Hasselbalch (1881-1952), a Danish publisher</note>
@@ -1146,7 +1194,7 @@
             <person xml:id="heymanHaslund" source="historical">
                <persName>Heyman and Haslund</persName>
                <note>Heyman and Haslund (fictional and historical), Svend Heyman (1878–1931), Ole
-                  who owned Ole Huslands Hus with Georg Haslund (1877–1962), where the Wegeners
+                  who owned Ole Haslands Hus with Georg Haslund (1877–1962), where the Wegeners
                   exhibited in Copenhagen</note>
             </person>
             <person xml:id="hirschfeld" source="historical" synch="#hardenfeld">
@@ -1155,6 +1203,10 @@
                <note>Magnus Hirschfeld (1868–1935), a German physician and one of the most
                   influential sexologists of the time; Einar Wegener was examined at his Institute
                   in March 1930</note>
+            </person>
+            <person xml:id="hn" source="historical">
+               <persName>Hn.</persName>
+               <note>Hn. (historical), unidentified</note>
             </person>
             <person xml:id="hoyerNiels" source="historical" synch="#harthernE">
                <persName>Niels Hoyer</persName>
@@ -1249,6 +1301,10 @@
                <note>Claude Lejeune (fictional), modeled on Claude Prévost, friend of Lili’s whom
                   Gerda Wegener painted in 1923</note>
             </person>
+            <person xml:id="leo" source="historical">
+               <persName>Leo.</persName>
+               <note>Leo. (historical), unidentified</note>
+            </person>
             <person xml:id="lili" source="fictional historical" synch="#sparreAn #wegenerE">
                <persName>Lili</persName>
                <persName>Lili Elbe</persName>
@@ -1289,6 +1345,10 @@
                <note>Lousie (Loulou) Lassen (1876–1947), a Danish journalist who interviewed the
                   Wegeners and assisted Lili in an early draft of her memoirs</note>
                <!-- be sure not to use this key ID in the editions for the journalist mentioned; Pamela's note to be added on instances in edtion when referring to journalist: This character is modeled on Louise (Loulou) Lassen. -->
+            </person>
+            <person xml:id="macan" source="historical">
+               <persName>Macan</persName>
+               <note>Macan (historical), N. Templeton Macan, a publisher with Jonathan Cape Limited</note>
             </person>
             <person xml:id="madameB" source="historical">
                <persName>Madame de B.</persName>
@@ -1473,6 +1533,10 @@
                <note>Monsieur René (fictional), possibly modeled on a deputy mayor of Beaugency,
                   Henri René Goujon</note>
             </person>
+            <person xml:id="rex" source="historical">
+               <persName>Rex.</persName>
+               <note>Rex. (historical), unidentified</note>
+            </person>
             <person xml:id="robilantM" source="historical">
                <persName source="#frenchSupp">Mario Nicolis di Robilant</persName>
                <persName source="#frenchSupp">général Nicolis de Robilant</persName>
@@ -1505,6 +1569,10 @@
                <note>Baronin Schildt (fictional), modeled on Marie-Anne von Goldschmidt-Rothschild
                   (née Friedländer-Fuld, 1892-1973), known as Baroness Rotschildt; a friend of Kurt
                   Warnekros</note>
+            </person>
+            <person xml:id="schrembsCarl" source="historical">
+               <persName>Carl Schrembs</persName>
+               <note>Carl Schrembs (historical), unidentified</note>
             </person>
             <person xml:id="schubert" source="historical">
                <persName source="#TS">Schubert</persName>
@@ -1704,6 +1772,10 @@
             <person xml:id="zeus" source="fictional">
                <persName>Zeus</persName>
                <note>Zeus (fictional), in Greek mythology, the king of the gods</note>
+            </person>
+            <person xml:id="wulffMarius" source="historical">
+               <persName>Marius Wulff</persName>
+               <note>Marius Wulff (1881-1953), a Danish journalist, editor of Sandheden</note>
             </person>
             <person xml:id="zuckmayer" source="historical">
                <persName>Zuckmayer</persName>

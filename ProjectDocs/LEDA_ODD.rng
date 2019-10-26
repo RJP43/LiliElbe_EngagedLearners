@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-10-14T14:54:15Z. .
+Schema generated from ODD source 2019-10-26T21:25:10Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -2657,6 +2657,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>blueInk</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>purpleInk</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>redPencil</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>redCrayon</value>
@@ -4827,6 +4829,14 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Bach | Note: Bach
                               (historical), Johann Sebastian Bach (1685–1750), a German
                               composer) </a:documentation>
+                  <value>barfodThorkil</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Thorkil Barfod | Note:
+                              Thorkil Barfod (1889-1947?), a Danish writer and journalist) </a:documentation>
+                  <value>bastJørgen</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Jørgen Bast | Note:
+                              Jørgen Bast (1894-1965), born in Vejle, Denmark, a journalist for
+                              Berlingske Tidende and co-editor of its sister newspaper B.T. from
+                              1926-1936) </a:documentation>
                   <value>bonsels</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Bonsels | Note: Bonsels
                               (historical), possibly Waldemar Bonsels (1880-1952), a German author,
@@ -4995,6 +5005,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               physician and one of the most influential sexologists of the time;
                               Einar Wegener was examined at his Institute in March 1930 | Linked
                               Keys: #hirschfeld) </a:documentation>
+                  <value>haslundOleGeorg</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Ole Georg Haslund |
+                              Note: Ole Georg Haslund (1877–1962), co-owner of Ole Haslunds Hus, an
+                              art gallery in Copenhagen where the Wegeners exhibited) </a:documentation>
                   <value>hasselbalchS</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Steen Hasselbalch |
                               Note: Steen Hasselbalch (1881-1952), a Danish publisher) </a:documentation>
@@ -5018,7 +5032,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>heymanHaslund</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Heyman and Haslund |
                               Note: Heyman and Haslund (fictional and historical), Svend Heyman
-                              (1878–1931), Ole who owned Ole Huslands Hus with Georg Haslund
+                              (1878–1931), Ole who owned Ole Haslands Hus with Georg Haslund
                               (1877–1962), where the Wegeners exhibited in Copenhagen) </a:documentation>
                   <value>hirschfeld</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Magnus Hirschfeld,
@@ -5026,6 +5040,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               physician and one of the most influential sexologists of the time;
                               Einar Wegener was examined at his Institute in March 1930 | Linked
                               Keys: #hardenfeld) </a:documentation>
+                  <value>hn</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Hn. | Note: Hn.
+                              (historical), unidentified) </a:documentation>
                   <value>hoyerNiels</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Niels Hoyer | Note:
                               Niels Hoyer (historical), pseudonym of Ernst Harthern, who composed
@@ -5091,6 +5108,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Lejenne, Claude | Note: Claude Lejeune (fictional), modeled on Claude
                               Prévost, friend of Lili’s whom Gerda Wegener painted in 1923 | Linked
                               Keys: #prevostClaude) </a:documentation>
+                  <value>leo</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Leo. | Note: Leo.
+                              (historical), unidentified) </a:documentation>
                   <value>lili</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional historical | Identified Name(s): Lili, Lili
                               Elbe, Lili Ilse Elvenes, Lili Courtaud, Lili Courtot, Julie Stuart,
@@ -5114,6 +5134,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Lousie (Loulou) Lassen (1876–1947), a Danish journalist who
                               interviewed the Wegeners and assisted Lili in an early draft of her
                               memoirs) </a:documentation>
+                  <value>macan</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Macan | Note: Macan
+                              (historical), N. Templeton Macan, a publisher with Jonathan Cape
+                              Limited) </a:documentation>
                   <value>madameB</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Madame de B. | Note:
                               Madame de B. (historical), unidentified) </a:documentation>
@@ -5251,6 +5275,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Monsieur René | Note:
                               Monsieur René (fictional), possibly modeled on a deputy mayor of
                               Beaugency, Henri René Goujon) </a:documentation>
+                  <value>rex</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Rex. | Note: Rex.
+                              (historical), unidentified) </a:documentation>
                   <value>robilantM</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Mario Nicolis di
                               Robilant, général Nicolis de Robilant | Note: General Nicolis di
@@ -5278,6 +5305,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Baronin Schildt (fictional), modeled on Marie-Anne von
                               Goldschmidt-Rothschild (née Friedländer-Fuld, 1892-1973), known as
                               Baroness Rotschildt; a friend of Kurt Warnekros) </a:documentation>
+                  <value>schrembsCarl</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Carl Schrembs | Note:
+                              Carl Schrembs (historical), unidentified) </a:documentation>
                   <value>schubert</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Schubert | Note: Franz
                               Schubert (1797-1828), a German composer) </a:documentation>
@@ -5421,6 +5451,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>zeus</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Zeus | Note: Zeus
                               (fictional), in Greek mythology, the king of the gods) </a:documentation>
+                  <value>wulffMarius</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Marius Wulff | Note:
+                              Marius Wulff (1881-1953), a Danish journalist, editor of
+                              Sandheden) </a:documentation>
                   <value>zuckmayer</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Zuckmayer | Note:
                               Zuckmayer (historical), likely Carl Zuckmayer (1896-1977), a German
@@ -5498,6 +5532,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>belgium</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Belgium, Belgien | Note: Belgium (historical),
                               a country in western Europe whose capital is Brussels.) </a:documentation>
+                  <value>belgrad</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Belgrad | Note: Belgrad (historical), capital
+                              of Serbia) </a:documentation>
                   <value>berlin</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Berlin, Babylon on the Spree | Note: Berlin
                               (historical), capital of Germany) </a:documentation>
@@ -5515,6 +5552,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Brandenburg Tor, Brandenburger Tor | Note: Brandenburg Gate
                               (historical), an 18th-century monument, among the best-known landmarks
                               in Berlin) </a:documentation>
+                  <value>budapest</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Budapest | Note: Budapest (historical),
+                              capital of Hungary) </a:documentation>
                   <value>cadiz</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Cadiz | Note: Cádiz (historical), port city in
                               Spain) </a:documentation>
@@ -5550,7 +5590,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Copenhagen.) </a:documentation>
                   <value>dolomites</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Dolomites Mountain Range | Note: Dolomites
-                              Mountain Range(historical), a mountain range in Italy) </a:documentation>
+                              Mountain Range (historical), a mountain range in Italy) </a:documentation>
                   <value>dreiMasken</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Drei Masken | Note: Drei Masken (historical),
                               a German publishing house) </a:documentation>
@@ -5639,18 +5679,24 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               We had to distinguish North Germany from Germany because in some
                               languages North Germany is one word and can signify a specific
                               identity.) </a:documentation>
-                  <value>greece</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Greece, Grækenland | Note: Greece is a
-                              southeastern European country whose capital is Athens.) </a:documentation>
                   <value>gipsyBar</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Gipsy Bar | Note: Gipsy Bar (fictional), no
                               known historical analogue) </a:documentation>
+                  <value>greece</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Greece, Grækenland | Note: Greece is a
+                              southeastern European country whose capital is Athens.) </a:documentation>
+                  <value>grønnestrand</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): grønnestrand | Note: Grønnestrand
+                              (historical), coastal region of Denmark) </a:documentation>
                   <value>hague</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): The Hague | Note: The Hague (historical), city
                               in the Netherlands) </a:documentation>
                   <value>hanover</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Hanover, Hannover | Note: Hanover
                               (historical), also spelled Hannover, city in Germany) </a:documentation>
+                  <value>haralaching</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Haralaching | Note: Haralaching (historical),
+                              a district of Munich, Germany) </a:documentation>
                   <value>hindustan</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Hindustan | Note: Hindustan (historical), a
                               Persian name for India) </a:documentation>
@@ -5738,21 +5784,35 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>monteTiberio</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Monte Tiberio | Note: Monte Tiberio
                               (historical), on the island of Capri) </a:documentation>
+                  <value>montparnasse</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Montparnasse | Note: Montparnasse
+                              (historical), a section of Paris where many artists and writers lived
+                              in the 1920s) </a:documentation>
                   <value>morgano</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Café Morgana, Café Morgano, Morgano | Note:
                               Morgano (fictional), no known historical analogue) </a:documentation>
                   <value>morocco</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Morocco, Marco | Note: Morocco (historical), a
                               country in northern Africa) </a:documentation>
+                  <value>munich</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Munich | Note: Munich (historical), a city in
+                              German) </a:documentation>
                   <value>naples</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Naples, Neapel | Note: Naples (historical),
                               city in Italy) </a:documentation>
                   <value>neustadt</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Neustadt | Note: Neustadt (historical),
                               Dresdner Neustadt, on the right bank of the Elbe, Dresden) </a:documentation>
+                  <value>newYork</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): New York | Note: New York (historical), a city
+                              in the state of New York) </a:documentation>
                   <value>norway</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Norway, Norwegen, Norge | Note: Norway is a
                               Scandinavian country in northern Europe whose capital is Oslo.) </a:documentation>
+                  <value>oleHaslandHus</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Ole Hasland Hus | Note: Ole Hasland Hus
+                              (historical), art gallery in Copenhagen where the Wegeners
+                              exhibited) </a:documentation>
                   <value>oslo</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Oslo | Note: Oslo (historical), capital of
                               Norway) </a:documentation>
@@ -5859,6 +5919,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>seville</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Seville | Note: Seville (historical), a city
                               in southern Spain) </a:documentation>
+                  <value>skagen</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Skagen | Note: Skagen (historical), port town
+                              in the Jutland region of Denmark) </a:documentation>
                   <value>spain</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Spain, Spanien | Note: Spain is a European
                               country on the Iberian Peninsula whose capital is Madrid.) </a:documentation>
