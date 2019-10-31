@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-10-26T21:25:10Z. .
+Schema generated from ODD source 2019-10-31T12:14:07Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -4829,6 +4829,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Bach | Note: Bach
                               (historical), Johann Sebastian Bach (1685–1750), a German
                               composer) </a:documentation>
+                  <value>bangCA</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): C. A. Bang | Note: C.
+                              A. Bang (historical), unidentified) </a:documentation>
                   <value>barfodThorkil</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Thorkil Barfod | Note:
                               Thorkil Barfod (1889-1947?), a Danish writer and journalist) </a:documentation>
@@ -5307,7 +5310,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Baroness Rotschildt; a friend of Kurt Warnekros) </a:documentation>
                   <value>schrembsCarl</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Carl Schrembs | Note:
-                              Carl Schrembs (historical), unidentified) </a:documentation>
+                              Carl Schrembs (historical), private person, unidentified) </a:documentation>
                   <value>schubert</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Schubert | Note: Franz
                               Schubert (1797-1828), a German composer) </a:documentation>
@@ -5682,6 +5685,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>gipsyBar</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Gipsy Bar | Note: Gipsy Bar (fictional), no
                               known historical analogue) </a:documentation>
+                  <value>greatMissenden</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Great Missenden | Note: Great Missenden
+                              (historical), village in Buckinghamshire, England) </a:documentation>
                   <value>greece</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Greece, Grækenland | Note: Greece is a
                               southeastern European country whose capital is Athens.) </a:documentation>
@@ -5867,6 +5873,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>potsdamerPla</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Potsdamer Platz | Note: Potsdamer Platz
                               (historical), central square in Berlin) </a:documentation>
+                  <value>prestwood</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Prestwood | Note: Prestwood (historical),
+                              village in Buckinghamshire, England) </a:documentation>
                   <value>quartierStgermain</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Quartier Saint Germain, Quartier Latin | Note:
                               Quartier Saint Germain (historical), also known as the Latin Quarter

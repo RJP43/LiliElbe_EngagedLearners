@@ -363,6 +363,10 @@
                <placeName>Gipsy Bar</placeName>
                <note>Gipsy Bar (fictional), no known historical analogue</note>
             </place>
+            <place xml:id="greatMissenden">
+               <placeName>Great Missenden</placeName>
+               <note>Great Missenden (historical), village in  Buckinghamshire, England</note>
+            </place>
             <place xml:id="greece">
                <placeName source="#A1 #D1-TR">Greece</placeName>
                <placeName source="#D1">Grækenland</placeName>
@@ -635,6 +639,10 @@
                <placeName>Potsdamer Platz</placeName>
                <note>Potsdamer Platz (historical), central square in Berlin</note>
             </place>
+            <place xml:id="prestwood">
+               <placeName>Prestwood</placeName>
+               <note>Prestwood (historical), village in  Buckinghamshire, England</note>
+            </place>
             <place xml:id="quartierStgermain">
                <placeName source="#A1 #G1 #D1-TR">Quartier Saint Germain</placeName>
                <placeName source="#D1 #G1">Quartier Latin</placeName>
@@ -897,6 +905,10 @@
             <person xml:id="bach" source="historical">
                <persName>Bach</persName>
                <note>Bach (historical), Johann Sebastian Bach (1685–1750), a German composer</note>
+            </person>
+            <person xml:id="bangCA" source="historical">
+               <persName>C. A. Bang</persName>
+               <note>C. A. Bang (historical), unidentified</note>
             </person>
             <person xml:id="barfodThorkil" source="historical">
                <persName>Thorkil Barfod</persName>
@@ -1572,7 +1584,7 @@
             </person>
             <person xml:id="schrembsCarl" source="historical">
                <persName>Carl Schrembs</persName>
-               <note>Carl Schrembs (historical), unidentified</note>
+               <note>Carl Schrembs (historical), private person, unidentified</note>
             </person>
             <person xml:id="schubert" source="historical">
                <persName source="#TS">Schubert</persName>
