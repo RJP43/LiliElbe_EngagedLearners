@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-10-31T12:14:07Z. .
+Schema generated from ODD source 2019-11-06T01:38:28Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -5064,6 +5064,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Nils, Hjalmar Hvide | Note: Niels Hvide (fictional), modeled on Poul
                               Knudsen (1889-1974), Danish lawyer and writer, friend of the Wegeners,
                               married to Vibeke 1925-1938 | Linked Keys: #knudsenP) </a:documentation>
+                  <value>jacobsenJP</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): J. P. Jacobsen | Note:
+                              J. P. Jacobsen (1847-1885), Danish novelist Jens Peter Jacobsen who
+                              went by J.P. Jacobsen and was part of the “Modern Breakthrough”
+                              movement in Danish literature) </a:documentation>
                   <value>jager</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Hans Henrik Jæger, Hans
                               Jager | Note: Hans Henrik Jæger (1854-1910), a Norweigen writer and
@@ -5176,6 +5181,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>mellerup</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Einar Mellerup | Note:
                               Einar Mellerup (1882-1968), a police inspector in Copenhagen) </a:documentation>
+                  <value>merleauPonty</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Maurice Merleau-Ponty |
+                              Note: Maurice Merleau-Ponty (1908-1961), a French
+                              phenomenologist) </a:documentation>
                   <value>mother</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): mother, mo'r, mutter |
                               Note: Mother (fictional), modeled on Einar Wegener’s mother, Ane Marie
@@ -5223,6 +5232,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Søster Marianne, Sister
                               Marianne | Note: Marianne (fictional), no known historical
                               model) </a:documentation>
+                  <value>oberkellner</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Herr Oberkellner | Note:
+                              Herr Oberkellner (fictional), no known historical figure) </a:documentation>
                   <value>palitzsch</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Dr. Palitzsch | Note:
                               Dr. Palitzsch (historical), unidentified) </a:documentation>
@@ -5271,6 +5283,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Claude Prévost | Note:
                               Claude Prévost (historical), friend of Lili’s whom Gerda Wegener
                               painted in 1923 | Linked Keys: #lejeuneClaude) </a:documentation>
+                  <value>rasmussenKund</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Kund Rasmussen | Note:
+                              Kund Rasmussen (1879-1933), the Danish polar explorer ) </a:documentation>
                   <value>reissnerCarl</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Carl Reißner | Note:
                               Carl Reissner (historical), a German publisher in Dresden) </a:documentation>
@@ -5722,6 +5737,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>hungary</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Hungary | Note: Hungary (historical), a
                               country in Central Europe) </a:documentation>
+                  <value>hven</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Hven | Note: Hven (historical), a Swedish
+                              island located between Denmark and Sweden) </a:documentation>
                   <value>institutePsychiatry</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Institute for Psychiatry, Institut for
                               Seksualforskning, Institut für Seelenkunde, Institut von Dr.
@@ -5829,6 +5847,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>orvieto</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Orvieto | Note: Orvieto (historical), hilltop
                               city in Italy) </a:documentation>
+                  <value>ostergade</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Østergade | Note: Østergade (historical), a
+                              street in the old town section of Copenhagen) </a:documentation>
                   <value>palazzoChigi</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Palazzo Chigi | Note: Palazzo Chigi
                               (historical), a 15th-century palace named after the Chigi
@@ -5950,7 +5971,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Copenhagen, closed to traffic) </a:documentation>
                   <value>studioLille</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): studio on rue de Lille | Note: the Wegeners’
-                              studio (historical), located on rue de Lille in Paris ) </a:documentation>
+                              studio (historical), located on rue de Lille in Paris) </a:documentation>
+                  <value>stuttgart</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Stuttgart | Note: Stuttgart (historical), a
+                              city in Germany) </a:documentation>
                   <value>sweden</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Sweden | Note: Sweden (historical), a
                               Scandinavian country in Northern Europe) </a:documentation>

@@ -416,6 +416,10 @@
                <placeName>Hungary</placeName>
                <note>Hungary (historical), a country in Central Europe</note>
             </place>
+            <place xml:id="hven">
+               <placeName>Hven</placeName>
+               <note>Hven (historical), a Swedish island located between Denmark and Sweden</note>
+            </place>
             <place xml:id="institutePsychiatry">
                <placeName source="#A1">Institute for Psychiatry</placeName>
                <placeName source="#D1">Institut for Seksualforskning</placeName>
@@ -577,6 +581,10 @@
             <place xml:id="orvieto">
                <placeName>Orvieto</placeName>
                <note>Orvieto (historical), hilltop city in Italy</note>
+            </place>
+            <place xml:id="ostergade">
+               <placeName>Østergade</placeName>
+               <note>Østergade (historical), a street in the old town section of Copenhagen</note>
             </place>
             <place xml:id="palazzoChigi">
                <placeName>Palazzo Chigi</placeName>
@@ -753,7 +761,11 @@
             </place>
             <place xml:id="studioLille">
                <placeName>studio on rue de Lille</placeName>
-               <note>the Wegeners’ studio (historical), located on rue de Lille in Paris </note>
+               <note>the Wegeners’ studio (historical), located on rue de Lille in Paris</note>
+            </place>
+            <place xml:id="stuttgart">
+               <placeName>Stuttgart</placeName>
+               <note>Stuttgart (historical), a city in Germany</note>
             </place>
             <place xml:id="sweden">
                <placeName>Sweden</placeName>
@@ -1247,6 +1259,10 @@
                <note>Niels Hvide (fictional), modeled on Poul Knudsen (1889-1974), Danish lawyer and
                   writer, friend of the Wegeners, married to Vibeke 1925-1938</note>
             </person>
+            <person xml:id="jacobsenJP" source="historical">
+               <persName>J. P. Jacobsen</persName>
+               <note>J. P. Jacobsen (1847-1885), Danish novelist Jens Peter Jacobsen who went by J.P. Jacobsen and was part of the “Modern Breakthrough” movement in Danish literature</note>
+            </person>
             <person xml:id="jager" source="historical">
                <persName>Hans Henrik Jæger</persName>
                <persName source="#A1 #G1">Hans Jager</persName>
@@ -1406,6 +1422,10 @@
                <persName source="#danishSupp">Einar Mellerup</persName>
                <note>Einar Mellerup (1882-1968), a police inspector in Copenhagen</note>
             </person>
+            <person xml:id="merleauPonty" source="historical">
+               <persName>Maurice Merleau-Ponty</persName>
+               <note>Maurice Merleau-Ponty (1908-1961), a French phenomenologist</note>
+            </person>
             <person xml:id="mother" source="fictional" synch="#wegenerAM">
                <persName source="#A1 #D1-TR">mother</persName>
                <persName source="#D1">mo'r</persName>
@@ -1475,6 +1495,10 @@
                <!--<note>Not mentioned in <ref source="#A1">A1</ref> or <ref source="#G1">G1</ref></note>-->
                <note>Marianne (fictional), no known historical model</note>
             </person>
+            <person xml:id="oberkellner" source="fictional">
+               <persName>Herr Oberkellner</persName>
+               <note>Herr Oberkellner (fictional), no known historical figure</note>
+            </person>
             <person xml:id="palitzsch" source="historical">
                <persName>Dr. Palitzsch</persName>
                <note>Dr. Palitzsch (historical), unidentified</note>
@@ -1535,6 +1559,10 @@
                <persName>Claude Prévost</persName>
                <note>Claude Prévost (historical), friend of Lili’s whom Gerda Wegener painted in
                   1923</note>
+            </person>
+            <person xml:id="rasmussenKund" source="historical">
+               <persName>Kund Rasmussen</persName>
+               <note>Kund Rasmussen (1879-1933), the Danish polar explorer </note>
             </person>
             <person xml:id="reissnerCarl" source="historical">
                <persName>Carl Reißner</persName>
