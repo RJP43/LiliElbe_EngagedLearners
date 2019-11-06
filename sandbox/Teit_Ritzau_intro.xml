@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- KEJ 2019-11-3: I don't think I associated this correctly. Could someone help me fix it?-->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"Forord" from <hi rend="italics">Fra mand til kvinde: Lili Elbes bekendelser</hi>
+            </title>
+            <title type="alternative">"Foreword" from <hi rend="italics">From Man into Woman: Lili Elbe’s Confessions</hi>
+            </title>
+            <author>
+               <persName key="ritzauT" role="AUT">Teit Ritzau</persName>
+            </author>
+            <respStmt>
+               <resp>Translation completed by</resp>
+               <persName ref="mo" role="TRL">Marianne Ølholm</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Translation consultation by</resp>
+               <persName ref="plc">Pamela L. Caughie</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="kej">Kristin Jacobsen</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance and/or XML proofing completed by</resp>
+               <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML transformed into HTML
+                  <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                  by</resp>
+               <persName ref="rjp">Rebecca J. Parker</persName>
+            </respStmt>
+            <respStmt>
+               <resp>HTML proofing completed by</resp>
+               <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Images prepared by</resp>
+               <persName ref="mg">Matthew Gallagher</persName>
+            </respStmt>
+             <sponsor>Loyola University Chicago Libraries</sponsor>
+            <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Lili Elbe Digital Archive</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="2019-07-06">July 6th, 2019</date>
+            <availability>
+               <p select="source">Royal Danish Library</p>
+               <p>Reproduced by courtesy of the Royal Danish Library.</p>
+      <!--KEJ 2019-11-5: Emily indicated that the source is the Royal Danish Library, but I am not sure if it should also be put in under "Reproduced courtesy of" -->
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc source="Codex" xml:lang="dan">
+            <p>The eight-page introduction includes photographs and excerpts from letters.</p>
+         </sourceDesc>
+      <!--KEJ 2019-11-3: Dr. Caughie approved the above source descriptions on 2019-10-12. -->
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+               <category source="collex" xml:id="discipline">
+                  <catDesc>History/Gender Studies</catDesc>
+               </category>
+               <category source="collex" xml:id="genre">
+                  <catDesc><Essay</catDesc>
+               </category>
+      <!-- Use the following category only when the text you are encoding contains illustrations -->
+      <!--KEJ 2019-11-3: The  text includes photographs. Since it is a published book, do I need to include a media library illustration URL? If so, what is it? -->
+               <category source="collex" xml:id="image">
+                  <catDesc><!-- media library illustration URL --></catDesc>
+                  <catDesc><!-- media library illustration URL --></catDesc>
+               </category>
+               <category source="collex" xml:id="text">
+                  <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/filename.txt</catDesc><!-- insert correct URL -->
+               </category>
+               <category source="dc" xml:id="date">
+                  <catDesc>
+                     [CDATA[<dc:date>1988</dc:date>]]>
+                  </catDesc>
+               </category>
+               <category source="dcterms" xml:id="isPartOf" xml:lang="dan">
+                  <catDesc>Fra mand til kvinde: Lili Elbes bekendelser
+                  </catDesc>
+               </category>
+               <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
+                  <catDesc>From Man into Woman: Lili Elbe’s Confessions
+                  </catDesc>
+               </category>
+      <!--KEJ 2019-11-3: How do I code that the book is published by Skippershoved? -->
+            </taxonomy>
+         </classDecl>
+         <editorialDecl>
+            <!-- Verify with Rebecca that your document does not need additional editorial declarations. Most of the editions have additional children elements here (i.e. segmentation) -->
+            <hyphenation>
+               <p>We have removed the hyphenation that appears in the printed text during
+                  digitization and encoding. Original hyphenation can be consulted in the facsimile
+                  images.</p>
+            </hyphenation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
+<!--BEGIN BODY OF ENTIRE TEXT IN BOTH DANISH AND ENGLISH-->      
+      <body>
+<!--BEGIN DIVISION OF TEXT IN ORIGINAL DANISH-->
+         <div type="original">
+<!--TITLE PAGE INFORMATION -->
+            <front>
+               <div rend="title page"></div>
+               <!-- KEJ 2019-10-31: The text includes title page and then the foreword, so I included the title page as the front matter and the foreword as the body. Does that work? -->
+               <p><persName key="lili">Lili Elbe</persName></p>
+               <p>Fra mand til kvinde</p>
+               <p><persName key="lili">Lili Elbe</persName>s bekendelser</p>
+               <p>Forord af <persname key="ritzauT">Teit Ritzau</persname></p>
+               <p>Skippershoved</p>
+            </front>            
+<!--BEGIN FOREWORD IN DANISH-->
+            <body>
+               <div rend="foreword">
+<!-- KEJ 2019-11-2: Some paragraphs are not indented, especially when quote marks begin a paragraph or when a letter is reproduced. Do I need to indicate this difference so that the material is formatted correctly? -->
+                  <head>
+                     <hi rend="italics">Forord</hi>
+                  </head>
+      <!-- KEJ 2019-11-3: Several blank lines follow this title in order to set it off from the text that follows. Should I encode this blank space? If so, how? -->
+                  <p>Da <anchor type="commentRangeStart" n="1"/>  
+                     “Fra mand til kvinde”<anchor type="commentRangeEnd" n="1"/><note type="translator" source="mo"  
+                        corresp="comment_1">[Sic.] In the original title “Mand” and “Kvinde” have an initial capital, but this is consistent with the orthography of 1988.</note> udkom i 1931, var den yderst kontroversiel. Bogens emne, transsexualitet, har været ukendt for flertallet af datidens læsere, der utvivlsomt har betragtet den som en pikant historie.</p>
+                  <p>En transsexuel person er uvenner med sit biologiske køn. Han ønsker at skifte køn og er som <persName key="sparreAn">Andreas Sparre</persName> i denne bog villig til at gennemgå alle mulige indgreb, operative, medicinske og kosmetiske, der kan ændre hans udseende og fremtoning. For <persName key="sparreAn">Andreas Sparre</persName> er situationen den, at han med hensyn til kønsidentitet – forstået som den opfattelse en person har af sig selv som tilhørende det ene eller det andet køn, uanset hvilken kønsrolle man udadtil præsenterer – føler sig som 100% kvinde, der ved en “fejl” er blevet anbragt i en mands krop.</p>
+                  <p>Spørgsmålet om kønsidentitet har i dag fået fornyet aktualitet, og interessen for den yderste del af kønsidentitetens spektrum – de intersexuelle, transvestitter og transsexuelle – er stigende. Afgrænsningen af det kvindelige og det mandlige har altid optaget menneskeheden, men er i vor tid blevet forbundet med en voksende narcissisme – i andre sammenhænge karakteriseret som det moderne menneskes svaghed. </p>
+                  <p>“Kroppen er ikke en genstand, den er en situation”, skrev den franske filosof <persName key="merleauPonty">Merleau-Ponty</persName>, og vi har allesammen oplevet, hvordan kroppen har en speciel betydning i forholdet til sine omgivelser.</p>
+                  <p>Menneskets krop kan blive til en forbandelse gennem opdragelse og miljø. Det ses specielt tydeligt hos transexuelle mennesker, som denne bogs hovedperson, der er dømt til at have en krop og ikke være en krop.</p>
+                  <p>Men det er ikke kun mennesker, der har problemer med at definere grænsen mellem det mandlige og det kvindelige. “Gud”, sagde den jødiske fortæller, skabte mennesket i sit eget tvekønnede billede. Som mand og som kvinde skabte han dem, for i ham var de begge forenede.</p>
+                  <p>Bogens mandlige hovedperson, <persName key="sparreAn">Andreas Sparre</persName>, hed i virkeligheden <persname key=""wegenerE"><anchor type="commentRangeStart" n="2"/>  
+                     Einer<anchor type="commentRangeEnd" n="2"/><note type="translator" source="mo"  
+                        corresp="comment_2">[Sic.]</note> Wegener</persName>. Han var kunstmaler og gift med den kendte illustrator <persName key="wegenerG">Gerda Wegener</persName> – i bogen kaldet <persName key="sparreGre">Grete</persName>.</p>
+                  <p>I forbindelse med <persname key=""wegenerE">Einer Wegener</persname>s forestående kønsskifteoperation blev han som beskrevet i bogen undersøgt på <placeName key="??">Institut für</p><!-- KEJ 2019-11-5: The name is continued on the next page. Is it OK for the closing tag for the place name to be on the next page? -->
+                   <pb n="1"/>
+                   <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->>
+<!--END PAGE 1-->
+                  <figure xml:id="i##" facs="URL"><!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
+                     <figDesc><hi rend="italics"><persName key="wegenerE">Einar</persName> og <persName key="wegenerG">Gerda Wegener</persName> i deres hjem. De giftede sig i 1904. <persName key="wegenerE">Einar Wegener</persName> var født i 1882. Politikens Presse Foto.</hi></figDesc>
+                      <note source="KEJ">The photo is at the top of the page and is credited to Politiken Press. It shows Einar and Gerda Wegener sitting in chairs a few feet apart in a room in their home that is filled with art and books.</note>
+                   </figure>
+      <!-- KEJ 2019-11-3: Several blank lines follow this illustration and caption as a way of setting them off from the text that follows. Should I encode this blank space? If so, how? -->
+                  <p>Sexualwissenschaft</placeName> i <placeName key="Berlin">Berlin</placeName>. Grundlæggeren af <placeName key="??">dette verdens første sexologiske institut</placeName> var professor <persName>key="hirschfeld">Magnus Hirschfeld</persName>, som i bogen kaldes <persName key="hardenfeld">Hardenfeld</persName>. Han var pioner indenfor den sexologiske forskning – i Amerika omtalt som “Einstein of Sex” – og midtpunkt i et særegent og farverigt miljø. På hans <placeName key="??">institut</placeName> flokkedes en række af datidens store kulturpersonligheder, bl.a. forfatteren <persName key="??">Christopher Isherwood</persName>, som omtaler <persName key="hirschfeld">Hirschfeld</persName> og hans <placeName key="??">institut</placeName> i erindringsbogen“Christopher og hans kreds”. I øvrigt bygger filmen “Caberet” på samme Isherwoods skildringer fra <placeName key="berlin">Berlin</placeName>.</p>
+                  <p>Da <persName key="hirschfeld">Hirschfeld</persName> foruden sexolog tillige var jøde, pacifist, socialist og homosexuel, blev han hurtigt offer for nazistisk forfølgelse og måtte søge landflygtighed. <placeName key="??">Instituttet</placeName> blev i 1933 stormet af nazisterne, arkiverne brændt og indboet ødelagt. Mange husker sikkert de dokumentariske filmoptagelser fra 30’ernes <placeName key="Berlin">Berlin</placeName>, hvor de fanatisk skrigende nazizter bærer en buste af <persName key="hirschfeld">Magnus Hirschfeld</persName> til bålet.</p>
+                  <pb n="2"/>
+                  <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->>
+<!--END PAGE 2-->
+                  <figure xml:id="i##" facs="URL"><!-- KEJ 2019-11-3: What do I put for the facs="URL"?-->
+                     <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName> og en sygeplejerske på <placeName key="womensClinic">Frauenklinik</placeName> i <placeName key="dresden">Dresden</placeName> efter kønsskifteoperationen. Det kongelige Biblioteks billedsamling.</hi></figDesc>
+                     <note source="KEJ">The photo, which takes up the whole page along with the caption, is credited to The Royal Library, The Collection of Prints and Photographs. It shows Lili Elbe dressed in dress, pumps, and hat outside the Frauenklinik in Dresden with a nurse after surgery.</note>
+                  </figure>
+                  <pb n="3"/>
+                  <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->>
+<!--END PAGE 3-->
+                  <p><persName key="wegenerE">Einer Wegener</persName> fik foretaget den endelige kønsskifteoperation på <placeName key="womensClinic">Frauenklinik</placeName> i <placeName key="dresden">Dresden</placeName>, og under navnet <persName key="lili">Lili Elbe</persName> vendte hun derefter tilbage til <placeName key="denmark">Danmark</placeName>. Her mødte hun den tyske forfatter <persName key="harthernE">Ernst Harthern</persName>, der som udenrigskorrespondent havde bosat sig i <placeName key="copenhagen">København</placeName>. <persName key="harthernE">Harthern</persName> påtog sig, som nævnt i bogens forord, hvor han underskrev sig <persName key="hoyerNiels">Niels Hoyer</persName>, at samle <persName key="lili">Lili Elbes</persName> optegnelser med henblik på en bogudgivelse. Hans datter, <persName key="ruth">Ruth Hanna Harthern-Thaning</persName>, som også omtales i bogen, var dengang 16 år. Hun fortæller følgende om <persName key="lili">Lili Elbe</persName>: -->
+      <!-- KEJ 2019-11-2: Several blank lines follow this paragraph as a way of setting off a multi-paragraph quote. Should I encode this blank space? If so, how? -->
+                     <p>“Ja, det var ikke hendes ydre fremtoning (ræverødt hår, knaldrøde negle og mund). Nej, det var hendes ganske væsen --- hun var en ægte kvinde. For jeg havde ikke kendt hende som mand. Det blev aftalt (<persName key="lili">Lili Elbe</persName> følte sig meget ensom, forstod jeg), at jeg skulle lære at male hos hende. Det var <anchor type="commentRangeStart" n="3"/>  
+                        pinse<anchor type="commentRangeEnd" n="3"/><note type="translator" source="mo"  
+                           corresp="comment_">This letter is also included in Hertoft’s and Ritzau’s text in Paradiset er ikke til salg where Pinse (Whitsun) is written with a capital P.</note> næste dag. Næste morgen forlod jeg vores bolig i <placeName key="??">Havnegade</placeName> 47. Let om hjertet gik jeg gennem den solbeskinnede <placeName key=<??>Nyhavn</placeName> til <placeName key="??">Kongens Nytorv</placeName> og kørte videre med sporvogn til <placeName key="??">Valby</placeName>, hvor denne <persName key="lili">Elbe</persName> havde søgt ly i en kvistlejlighed hos pæne mennesker i en pæn villa. Hun havde allerede sat et staffeli frem, hvorpå der var placeret et færdigstrukket lærred, desuden var der farve, og hvad der ellers hørte til at male. </p>
+                     <p>På de få dage i hendes liv blev det til et selvportræt og to stilleben. Det var sikkert også af andre grunde, at hun lod mig komme indenfor, the det arme menneske havde forelsket sig stærkt i sin velgører: <anchor type="commentRangeStart" n="4"/>  
+                        <persName key="warnekros">professoren</persName><anchor type="commentRangeEnd" n="4"/><note type="translator" source="mo"  
+                           corresp="comment_4">Written with a capital P in Paradiset er ikke til salg.</note> fra <placeName key="womensClinic">“Frauenklinik”</placeName> i <placeName key="dresden">Dresden</placeName>.</p>
+                  <p>Frygteligt sørgeligt. Det var godt, jeg allerede dengang så klart forstod, at man ikke kan sende sådanne breve. Hvad denne læge havde gjort med den operation var måske slet ikke så godt for dette ulykkelige menneske. Hun havde en evig kamp med sig selv.</p>
+                  <p>Jeg skammede mig, troede hun, når jeg oversatte hendes kærlighedsbreve til ham fra dansk til tysk. I virkeligheden ændrede jeg dem til kun at være venlige takkebreve. Naturligvis måtte det være ubehageligt for lægen. Det blev ikke til mange breve.</p>
+                     <p>Pludselig bad hun mig om ikke at komme mere. <persName key="lili">Lili Elbe</persName> var pludselig rejst til <placeName key="dresden">Dresden</placeName>. Det var vel det bedste. 48 år gammel døde <persName key="lili">Lili Elbe</persName> den 13. september 1931 på <placeName key="womensClinic">“Frauenklinik”</placeName> og er begravet i <placeName key="dresden">Dresden</placeName> på <placeName key="??"><anchor type="commentRangeStart" n="5"/>  
+                     </placeName>Trinitatis-kirkegården</placeName><anchor type="commentRangeEnd" n="5"/><note type="translator" source="mo"  
+                        corresp="comment_5">Written as one word without a hyphen in Paradiset er ikke til salg.</note>. Jeg har hørt, at graven er meget forfalden, gravstenen er nemlig væltet, men jeg har også hørt, at man tænker på at sætte den i stand igen.”</p>
+                  <pb n="4"/>
+                  <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->>
+<!--END PAGE 4-->
+                  <figure xml:id="i##" facs="URL"><!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
+                     <figDesc><hi rend="italics"><persName key="wegenerG">Gerda Wegener</persName> med sin italienske mand <persName key="portaF">Fernando Porta</persName> – i bogen kaldet <persName key="feruzziRi">Ridolfo Feruzzi</persName>. <persName key="wegenerG">Gerda Wegener</persName> blev betragtet som “et virkelig fænomenalt tegnetalent”. Hun vandt en position i 20’ – 30’ernes <placeName key="paris">Paris</placeName> som ingen anden dansk kunstner. Og, som kunsthistorikeren <persName key="??">Else Kai Sass</persName> skriver: “På korte besøg i <placeName key="copenhagen">København</placeName> duperede hun fuldstændig sine omgivelser med at optræde med en elegance og en udfordrende parisisk chic, der var hidtil ukendt her på bjerget”. <persName key="wegenerG">Gerda Wegener</persName> døde 1940, 55 år gammel. Politikens Presse Foto.</hi></figDesc>
+                     <note source="KEJ">The photo, which takes up the whole page along with the caption, is credited to Politiken Press. Gerda Wegener and husband Fernando Porta fill the frame of the photo, which seems to be outside, and they are dressed for going out.</note>
+                  </figure>
+                  <pb n="5"/>
+                  <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->>
+<!--END PAGE 5-->
+                  <figure xml:id="i##" facs="URL"><!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
+                     <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName></hi>, <persName key="knudsenP">Poul Knudsen</persName> og <persName key="wegenerG">Gerda Wegener</persName> t.h. fotograferet sammen formodentlig i <placeName key="berlin">Berlin</placeName>. <persName key="knudsenP">Poul Knudsen</persName> var jurist og forfatter. Han skrev især mange skuespil og filmmanuskripter, bl.a. var han medforfatter til Carl Th. Dreyers Vredens Dag. Det kongelige biblioteks billedsamling./hi></figDesc>
+                     <note source="KEJ">The photo, which takes up the whole page along with the caption, is credited to The Royal Library, The Collection of Prints and Photographs. It captures Lili Elbe, Poul Knudsen and Gerda Wegener outside, most likely in Berlin, dressed in coats and hats.</note>
+                  </figure>
+                  <pb n="6"/>
+                  <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->>
+<!--END PAGE 6-->
+                     <p>“Fra mand til kvinde” står den dag i dag som en transsexuel bibel. Eksempelvis nævner den engelske forfatter <persName key="??">Jan Morris</persName> i sin selvbiografi “Conundrum”, at skildringen af <persName key="sparreAn">Andreas Sparre</persName>/<persName key="wegenerE">Einer Wegener</persName>s transformation til <persName key="lili">Lili Elbe</persName> indvirkede på hans beslutning om at undergå kønsskifte.</p>
+                     <p>Om bogens modtagelse i <placeName key=""england">England</placeName> fortæller <persName key="wegenerG">Gerda Wegener</persName> i et brev fra 1933:</p>
+      <!-- KEJ 2019-11-2: A blank line follows this paragraph as a way of setting off an excerpt from a letter. Should I encode this blank space? If so, how? -->
+                     <p><anchor type="commentRangeStart" n="6"/>  
+                        “Kære<anchor type="commentRangeEnd" n="6"/><note type="translator" source="mo"  
+                           corresp="comment_6">There is no closing quotation mark corresponding to this.</note> <persName key="knudsenP">Poul</persName>,</p>
+                     <p>... A propos <hi rend="italics"><placeName key="england">England</placeName>:</hi> <p><anchor type="commentRangeStart" n="7"/>  
+                        Så<anchor type="commentRangeEnd" n="7"/><note type="translator" source="mo"  
+                           corresp="comment_7">This is the modern spelling. The same letter is included in Paradiset er ikke til salg where the word is spelled Saa which is consistent with the ortography of 1933.</note> har en gammel fin Englænderinde her ladet sig præsentere hos mig for at tale med mig om <anchor type="commentRangeStart" n="8"/>  
+                        <hi rend="italics">Lilis bog</hi><anchor type="commentRangeEnd" n="8"/><note type="translator" source="mo"  
+                           corresp="comment_8">Paradiset er ikke til salg has Bog (book) with a capital B which is consistent with the ortography of 1933.</note>, som for nyligt er <anchor type="commentRangeStart" n="9"/>  
+                        udkommet<anchor type="commentRangeEnd" n="9"/><note type="translator" source="mo"  
+                           corresp="comment_9">Paradiset er ikke til salg has udkommen.</note> i <placeName key="england">England</placeName>, og som skal have en <hi rend="italics">stormende Succes</hi> og <anchor type="commentRangeStart" n="10"/>  
+                        være<anchor type="commentRangeEnd" n="10"/><note type="translator" source="mo"  
+                           corresp="comment_10">Paradiset er ikke til salg has været.</note> <hi rend="italics"><Dagens store Samtaleemne/hi>. Man ved i <placeName key=""london"">London</placeName>, at det er mig, <persName key ="wegenerG">Gerda Wegener</persName> som er <persName key="sparreGre">Grete</persName> i Bogen. Og min gamle engelske Veninde beklagede voldsomt, at jeg ikke kunne komme til <placeName key="longon">London</placeName> i Øjeblikket, da hun paastod, at jeg ville blive “Dagens Heltinde”.</p>
+      <!-- KEJ 2019-11-2: A blank line follows this paragraph as a way of setting off an explanatory material. Should I encode this blank space? If so, how? -->
+                     <p><persName key="knudsenP">“Poul”</persName> var <perName key="wegenerG">Gerda Wegener</perName> og <persName key="lili">Lili Elbe</persName>s fælles ven, juristen og forfatteren <persName key="knudsenP">Poul Knudsen</persName>, som i bogen kaldes <persName key="hvideNiels">Niels Hvide</persName>.</p>
+                     <p>Om baggrunden for bogens form, som måske kan forekomme lidt eksalteret og kulørt, forklarer <persName key="lili">Lili Elbe</persName> i et brev til samme <persName key="knudsenP">Poul Knudsen</persName>:</p>
+      <!-- KEJ 2019-11-2: A blank line follows this paragraph as a way of setting off a letter that is reproduced in its entirety. Should I encode this blank space? If so, how? -->
+                  <p>“Lindevangen 8-10, 22.I-31.</p>
+     <!-- KEJ 2019-11-2: A blank line follows this paragraph to set off the date from the rest of the letter. Should I encode this blank space? If so, how? -->
+                        <p>Kære store <anchor type="commentRangeStart" n="11"/>  
+                           <persName key="knudsenP">Paul</persName><anchor type="commentRangeEnd" n="11"/><note type="translator" source="mo"  
+                              corresp="comment_11">[Sic.]</note>.</p>
+                  <p>Tusind Tak for Dit Brev.</p>
+                  <p>Jeg skal med Sorg rette mig efter Dit Ønske og forandre Heltens Navn.</p>
+                     <p>Han kommer saa til at hedde <persName key="hvideNiels">Hjalmar Hvide</persName> (senere ændret til <persName key="hvideNiels">Niels Hvide, T.R.</persName>) Du skal ikke forbavses over, at jeg skriver pænt og korrekt om en Ven – jeg hører jo ikke rigtig med i Lumskebugten herhjemme. Hvor jeg glæder mig til at høre om <persName key="knudsenV">Vibeke</persName>s Triumftur i Julen!</p>
+                         <p>Den vidunderlige i <placeName key="dresden">Dresden</placeName> hedder: <persName key="warnekros">Prof. Dr. <hi rend="italics">Kurt Warnekros</persName></hi>. Det staar endogsaa skrevet med dobbelt W i mit <anchor type="commentRangeStart" n="12"/>  
+                            hjærte<anchor type="commentRangeEnd" n="12"/><note type="translator" source="mo"  
+                               corresp="comment_12">The same letter, transcribed and translated, in the Lili Elbe Digital Archive has Hjærte.</note> – ja, endogsaa deri graveret!</p>
+                     <p>Det glæder mig meget at <persName key="magnusE">Herr Ervin Magnus</persName> tror paa Bogen. Men jeg maa bede dig forklare ham følgende:</p>
+                  <p>Naar jeg ikke har skrevet Bogen som en Levnedsskildring er det for</p>
+                  <pb n="7"/>
+                  <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->>
+<!--END PAGE 7-->
+                     <p>at faa frem, at det drejer sig om to Personer <hi rend="italics"><persName key="sparreAn">Andreas</persName> og <persName key="lili">Lili</persName>, der sjæleligt ikke hører sammen.</hi></p>
+                        <p>Det fremgaar nok mest af sidste Del, at der er <hi rend="italics">Dualitet</hi> – eller var. Det er først <persName key="sparreAn">Andreas</persName>, der fortæller om sine Erindringer til <persName key="knudsenP">Paul</persName>, mens <persName key="sparreAn">Andreas</persName> havde Overtaget, hvorpaa <persName key="lili">Lili</persName> fortæller Erindringer til <persName key="knudsenP">Paul</persName> fra den Tid, hvor hun begyndte at arbejde sig frem og fik <anchor type="commentRangeStart" n="13"/>  
+                           hovedparten<anchor type="commentRangeEnd" n="13"/><note type="translator" source="mo"  
+                              corresp="comment_13">The same letter, transcribed and translated, in the Lili Elbe Digital Archive has Hovedparten.</note> af <anchor type="commentRangeStart" n="14"/>  
+                           Aktiverne<anchor type="commentRangeEnd" n="14"/><note type="translator" source="mo"  
+                              corresp="comment_14">This word is printed as Aktierne in the same letter in Paradiset er ikke til salg, but as Aktiverne in this introduction. It is not easy to see what the handwritten letter in the Lili Elbe Digital Archive says. Aktiverne means “the assets” (of the common estate) whereas Aktierne means “the shares” as in parts of a company’s capital. The word is repeated at the end of the letter as Aktiverne here and Aktierne in Paradiset er ikke til salg.</note> i deres Fællesbo – og til sidst Eneindehaver.</p>   
+                     <p>Det fremgår tydeligt af sidste Del, at det endogsaa er en absolut Livsbetingelse for <persName key="lili">Lili</persName>, at hun aandeligt intet har at skaffe med <persName key="sparreAn">Andreas</persName> – og det <hi rend="italics">store Mirakel er, at hun føler sig nyskabt</hi> – ren og jomfruelig og absolut ikke sjæleligt et Mandfolk, der er bleven til et Pigebarn!!!</p>
+                     <p>Anden Del viser ogsaa, hvorledes <persName key="kreutz">Werner von Kreuz</persName> altid har holdt de to ude fra hinanden.</p>
+                     <p>Det er Hovedpointet i Bogen, at der var to Sjæle i et Legeme – og at en genial Kirurg redder Pigebarnet ud af et <hi rend="italics"><fælles/hi> Skibbrud.
+                        Saa er jeg tilmed bange for, at den anden Form skulde tynge Bogen, og jeg ønsker netop at faa frem, at jeg er koket, sorgløs, overfladisk og pjanket – og det har været mig om at faa frem, at hvad der er af kunstnerisk, af Livsvisdom og alvorlig mandig Viden, kommer fra <persName key="sparreAn">Andreas</persName>, der var Kunstner og et honnet Mandfolk, <anchor type="commentRangeStart" n="15"/>  
+                        mens<anchor type="commentRangeEnd" n="15"/><note type="translator" source="mo"  
+                           corresp="comment_15">The same letter, transcribed and translated, in the Lili Elbe Digital Archive has medens.</note> min Indsats er en vis letbenet og tøset Filosofi<anchor type="commentRangeStart" n="16"/>  
+                        .<anchor type="commentRangeEnd" n="16"/><note type="translator" source="mo"  
+                           corresp="comment_16">The same letter, transcribed and translated, in the Lili Elbe Digital Archive has an exclamation mark.</note> (Du ser, det er i Virkeligheden en Nedskrivning af Aktiverne). Bed <persName key="magnusE">Herr Ervin Magnus</persName> at ville høre med Sympati på dette mit <anchor type="commentRangeStart" n="17"/>  
+                        forsvar<anchor type="commentRangeEnd" n="17"/><note type="translator" source="mo"  
+                           corresp="comment_17">The same letter, transcribed and translated, in the Lili Elbe Digital Archive has Forsvar.</note> for Bogens Form.</p>   
+      <!-- KEJ 2019-11-2: A blank line follows this paragraph to set off the body of the letter from the closing. Should I encode this blank space? If so, how? -->
+                  <p>Din stakkels Veninde</p>
+                     <p><persName key="lili">Lili</persName>”</p>   
+      <!-- KEJ 2019-11-2: Several blank lines follow this paragraph to set off the body of the foreword from the date the foreword was written. Should I encode this blank space? If so, how? -->
+                     <p><placeName key="??">Hellerup</placeName>, den 20 juli 1988</p>   
+      <!-- KEJ 2019-11-2: A blank line follows this paragraph to set off the date from Teit Ritzau's name. Should I encode this blank space? If so, how? -->             
+                     <p><persName key="ritzauT">Teit Ritzau</persName></p> 
+                  <pb n="8"/>
+                  <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->>
+<!--END PAGE 8--> 
+               </div><!--END FOREWORD IN DANISH-->
+            </body><!--END BODY OF FOREWORD IN DANISH-->           
+         </div><!--END DIVISION OF ORIGINAL DANISH-->
+      
+<!--BEGIN DIVISION OF TEXT IN ENGLISH TRANSLATION-->
+         <div type="translation">
+<!--TITLE PAGE INFORMATION -->
+            <front>
+               <div rend="title page"></div>
+               <!-- KEJC 2019-10-31: The text includes title page and then the foreword, so I included the title page as the front matter and the foreword as the body. Does that work? -->
+               <p><persName key="lili">Lili Elbe</persName></p>
+                  <p>From Man into Woman</p>
+               <p><p><persName key="lili">Lili Elbe</persName>’s Confessions</p>
+                  <p>Foreword by <persName key=""ritzauT">Teit Ritzau</persName></p>
+                  <p>Skippershoved</p>
+            </front>            
+<!--BEGIN FOREWORD IN ENGLISH-->           
+            <body>
+               <div rend="foreword">
+                  <head>
+                     <hi rend="italics">Foreword</hi>
+                  </head>
+      <!-- KEJ 2019-11-3: Several blank lines follow this title in order to set it off from the text that follows. Should I encode this blank space? If so, how? -->
+                  <p>When “From Man into Woman” was first published in 1931, it was highly controversial. The subject matter of the book, transsexuality, had been unknown to the majority of the readers of that time who no doubt considered it as a risqué story.</p>
+                  <p>A transsexual person is on bad terms with <anchor type="commentRangeStart" n="18"/>  
+                     his or her<anchor type="commentRangeEnd" n="18"/><note type="translator" source="mo"  
+                        corresp="comment_18">The pronoun sit in the Danish text is not gendered, but this is not remarkable but simply due to grammar. The gender of the pronoun is determined by the gender of the following noun (in this case køn (gender) which is neutrum in Danish).</note> biological gender. He wants to change his sex and like <persName key="sparreAn">Andreas Sparre</persName> in this book he is willing to go through all kinds of procedures, surgical, medical, and cosmetic, that can change his looks and appearance. For <persName key="sparreAn">Andreas Sparre</persName> when it comes to gender identity – understood as the view a person has of <anchor type="commentRangeStart" n="19"/>  
+                     him- or herself<anchor type="commentRangeEnd" n="19"/><note type="translator" source="mo"  
+                        corresp="comment_19">This is also not gendered in the Danish text as the pronoun sig can be both feminine and masculine.</note> as belonging to one gender or the other, regardless of which gender role you represent on the outside – he feels as a 100% woman who by “mistake” has been placed in a man’s body.</p>
+                  <p>The question of gender identity has had renewed relevance today, and the interest in the extreme part of the spectrum of gender identity – intersexual, transvestites, and transsexuals – is growing. The delimitation of the feminine and the masculine has always concerned humanity but has in our time been associated with a growing narcissism – in other contexts characterised as the weakness of modern man.</p>
+                  <p>“The body is not an object, it is a situation”, the French philosopher <persName key="merleauPonty">Merleau-Ponty</persName> wrote, and we have all experienced how the body has a special meaning in relation to its surroundings.</p>
+                  <p>The human body can become a curse through upbringing and environment. This is particularly evident in transsexual people, as the main character of this book, who are doomed to have a body and not be a body.</p>
+                  <p>But it is not only humans who have the problem of defining the boundary between the masculine and the feminine. “God”, the Jewish storyteller said, created humans in his own bisexual image. He created them as male and female because in him they were both united.</p>
+                  <p>The male protagonist of the book, <persName key="sparreAn">Andreas Sparre</persName>, was really named <persName key="wegenerE">Einer Wegener</persName>. He was a painter and married to the well-known illustrator <persName key="wegenerG">Gerda Wegener</persName> – in the book called <persName key="sparreGre">Grete</persName>. </p>
+                  <p>In connection with <persName key="wegenerE">Einer Wegener’s</persName> planned sex change operation he was examined at <placeName key ="??">Institut für</p><!--KEJ 2019-11-5: The name is continued on the next page. Is it OK for the closing tag for the place name to be on the next page? -->
+                  <pb n="1"/>
+                  <pb n="1"/>
+<!--END PAGE 1-->
+               <figure xml:id="i##" facs="URL"><!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
+                  <figDesc><hi rend="italics"><persName key="wegenerE">Einar</persName> and <perName key="wegenerG">Gerda Wegener</perName> in their home. They married in 1904. <persName key="wegenerE">Einar Wegener</persName> was born in 1882. Politiken Press Photo.</hi></figDesc>
+                  <note source="KEJ">The photo is at the top of the page and is credited to Politiken Press. It shows Einar and Gerda Wegener sitting in chairs a few feet apart in a room in their home that is filled with art and books.</note>
+               </figure>                 
+      <!-- KEJ 2019-11-3: Several blank lines follow this illustration and caption as a way of setting them off from the text that follows. Should I encode this blank space? If so, how? -->
+                  <p>Sexualwissenschaft</placeName> in <placeName key="berlin">Berlin</placeName> as described in the book. The founder of <placeName key="??">this the first institute of sexology</placeName> was professor <persName key="hirschfeld">Magnus Hirschfeld</persName> who is called <persName key="hardenfeld">Hardenfeld</persName> in the book. He was a pioneer within sexological research – in America referred to as the “Einstein of Sex” – and the centre of a peculiar and colourful milieu. A number of well-known cultural figures of the time flocked to his institute, among them the writer <persName key="??">Christopher Isherwood</persName> who mentions <persName key="hirschfeld">Hirschfeld</persName> and his <placeName key="??">institute</placeName> in his memoirs “Christopher and His Kind”. The film “Caberet”, incidentally, is based on Isherwood’s descriptions of <placeName key="berlin">Berlin</placeName>.</p>
+                  <p>As <persName key="hirschfeld">Hirschfeld</persName> in addition to being a sexologist was also a Jew, a pacifist, a socialist, and a homosexual, he quickly became a victim of Nazi persecution and had to go into exile. <placeName key="??">The institute</placeName> was stormed by the Nazis in 1933, the records burned and the furniture destroyed. Many probably remember the documentary film shots from the <placeName key="berlin">Berlin</placeName> of the 30s where the fanatically screaming Nazis carry a bust of <persName key="hirschfeld">Magnus Hirschfeld</persName> to the fire.</p>
+               <pb n="2"/>
+<!--END PAGE 2-->
+               <figure xml:id="i##" facs="URL"><!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
+                  <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName> and a nurse at <placeName key="womensClinic">Frauenklinik</placeName> in <placeName key="dresden">Dresden</placeName> after the sex change operation. The Royal Library, The Collection of Prints and Photographs.</hi></figDesc>
+                  <note source="KEJ">The photo, which takes up the whole page along with the caption, is credited to The Royal Library, The Collection of Prints and Photographs. It shows Lili Elbe dressed in dress, pumps, and hat outside the Frauenklinik in Dresden with a nurse after surgery.</note>
+               </figure>
+               <pb n="3"/>
+<!--END PAGE 3-->                  
+                  <p><persName key="wegenerE">Einer Wegener</persName> underwent the final sex change operation at <placeName key="womensClinic">Frauenklinik</placeName> in <placeName key="dresden">Dresden</placeName>, and under the name <persName key="lili">Lili Elbe</persName> she then returned to <placeName key="denmark">Denmark</placeName>. Here she met the German writer <persName key="harthernE">Ernst Harthern</persName>, who as a foreign correspondent had settled in <placeName key="copenhagen">Copenhagen</placeName>. <persName key="harternE">Harthern</persName> took it upon himself, as mentioned in the preface of the book where he signed himself <persName key="hoyerNiels">Niels Hoyer</persName>, to collect <persName key="lili">Lili Elbe</persName>’s notes in preparation for a book publication. His daughter, <persName key="ruth">Ruth Hanna Harthern-Thanning</persName>, who is also mentioned in the book, was 16 years old at that time. She tells the following about <persName key="lli">Lili Elbe</persName>:</p>
+      <!-- KEJ 2019-11-3: Several blank lines follow this paragraph as a way of setting off a multi-paragraph quote. Should I encode this blank space? If so, how? -->
+                  <p>“Yes, it was not her outer appearance (fox-red hair, bright red nails and mouth). No, it was her entire manner --- she was a real woman. For I had not known her as a man. It was agreed (<persName key="lili">Lili Elbe</persName> felt very lonely, I understood) that I should learn to paint with her. It was Whitsun the next day. The next morning, I left our flat in <placeName key="??">Havnegade</placeName> 47. With a light heart I walked through the sunny <placeName key="??">Nyhavn</placeName> to <placeName key="??">Kongens Nytorv</placeName> and went on by tram to <placeName key="??">Valby</placeName> where this <persName key="lili">Elbe</persName> had taken shelter in an attic flat in a nice villa with nice people. She had already put out an easel on which a prepared stretched canvas was placed, besides this there was paint and everything else that belonged to painting.</p>
+                  <p>In the few days of her life a self-portrait and two still lives materialised. It was probably also for other reasons that she let me in for the poor <anchor type="commentRangeStart" n="20"/>  
+                     woman<anchor type="commentRangeEnd" n="20"/><note type="translator" source="mo"  
+                        corresp="comment_20">Menneske in the Danish text is not gendered.</note> had fallen deeply in love with her benefactor: the <persName key="warnekros">professor</persName> from <placeName key="womensClinic">“Frauenklinik”</placeName> in <placeName key="dresden">Dresden</placeName>.</p>
+                  <p>Terribly sad. It was a good thing that already then, I so clearly understood that you cannot send such letters. What this doctor had done with that operation was perhaps not quite
+                     beneficial for this unhappy person. She struggled endlessly with herself.</p>
+                  <p>She thought I was embarrassed when I translated her love letters to him from Danish into German. In fact, I changed them into being only kind letters of thanks. Of course, it had to be unpleasant for the doctor. It did not amount to many letters.</p>
+                  <p>Suddenly she asked me not to come anymore. <persName key="lili">Lili Elbe</persName> had suddenly gone to <placeName key="dresden">Dresden</placeName>. That was probably the best thing. At the age of 48 <persName key="lili">Lile Elbe</persName> died on the 13 September 1931 at <placeName key="womensClinic">“Frauenklinik”</placeName> and is buried in <placeName key="dresden">Dresden</placeName> at the <placeName key="??">Trinitatis cemetery</placeName>. I have heard that the grave is in a state of great disrepair, that is the headstone has been turned over, but I have also heard that they are considering restoring it again.”</p>
+<!--END PAGE 4-->             
+                  <figure xml:id="i##" facs="URL"><!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
+                     <figDesc><hi rend="italics"><persName key="wegenerG">Gerda Wegener</persName> with her Italian husband <persName key="portaF">Fernando Porta</persName> – called <persName key="feruzziRi">Ridolfo Feruzzi</persName> in the book.<persName key="wegenerG">Gerda Wegener</persName> was considered “a really phenomenal drawing talent”. She won a position in <placeName key="paris">Paris</placeName> of the 20s and 30s like no other Danish artist. And as the art historian <persName key="??">Else Kai Sass</persName> writes: “On short visits in <placeName key="copenhagen">Copenhagen</placeName> she completely impressed her surroundings by conducting herself with an elegance and a provocative Parisian chic that was so far unknown <anchor type="commentRangeStart" n="21"/>  
+                        in these parts<anchor type="commentRangeEnd" n="21"/><note type="translator" source="mo"  
+                           corresp="comment_21">The Danish text has her på bjerget (literally: here on the mountain) which is difficult to translate. It refers to the satirical play Erasmus Montanus (1731) by the Danish/Norwegian writer Ludvig Holberg (1684-1754). The phrase “here on the mountain” is used by the people of the village called “Bjerget” in connection with their established beliefs which in the play exclude new ideas. The reference is so common in Danish that it is almost a ‘dead metaphor’.</note>.” <persName key="wegenerG">Gerda Wegener</persName> died in 1940, at the age of 55. Politiken Press Photo.</hi></figDesc>
+                     <note source="KEJ">The photo, which takes up the whole page along with the caption, is credited to Politiken Press. Gerda Wegener and husband Fernando Porta fill the frame of the photo, which seems to be outside, and they are dressed for going out.</note>
+                  </figure>
+               <pb n="5"/>
+<!--END PAGE 5-->
+                  <figure xml:id="i##" facs="URL"><!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
+                     <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName>, <persName key="knudsenP">Poul Knudsen</persName> and <persName key="wegenerG">Gerda Wegener</persName> (right) photographed together probably in <placeName key="berlin">Berlin</placeName>. <persName key="knudsenP">Poul Knudsen</persName> was a lawyer and a writer. He especially wrote many plays and film scripts, among other things he was the co-writer of Carl Th. Dreyer’s Day of Wrath. The Royal Library, The Collection of Prints and Photographs.</hi></figDesc>
+                     <note source="KEJ">The photo, which takes up the whole page along with the caption, is credited to ThPoul Knudsen and Gerda Wegener (right) photographed together probably in Berlin. Poul Knudsen was a lawyer and a writer. He especially wrote many plays and film scripts, among other things he was the co-writer of Carl Th. Dreyer’s Day of Wrath. The Royal Library, The Collection of Prints and Photographs.</hi></figDesc>
+                     <note source="KEJ">The photo, which takes up the whole page along with the caption, is credited e Royal Library, The Collection of Prints and Photographs. It captures Lili Elbe, Poul Knudsen and Gerda Wegener outside, most likely in Berlin, dressed in coats and hats.</note>
+                  </figure>
+                  <pb n="6"/>
+<!--END PAGE 6-->
+                  <p>“From Man into Woman” stands as a transsexual bible even today. As an example, the English writer <persName key="??">Jan Morris</persName> in her autobiography “Conundrum” mentions that the description of <persName key="sparreAn">Andreas Sparre</persName>/<persName key="wegenerE">Einer Wegener</persName>’s transformation into <persName key="lili">Lili Elbe</persName> affected her decision to undergo a sex change.</p>
+                  <p>About the reception of the book in <placeName key="england">England</placeName> <persName key="wegenerG">Gerda Wegener</persName> relates in a letter from 1933:</p>
+      <!-- KEJ 2019-11-2: A blank line follows this paragraph as a way of setting off an excerpt from a letter. Should I encode this blank space? If so, how? -->
+                  <p>““Dear <persName key="knudsenP">Poul</persName>,</p>
+                  <p>… Speaking of <hi rend="italics"><placeName key="england"><England/placeName>:</hi> An old English lady has let herself be introduced to me here to talk to me about <hi rend="italics">Lili’s Book</hi> that has recently been published in <placeName key="england">England</placeName> and is supposed to be a <hi rend="italics">tremendous success</hi> and the <hi rend="italics">main subject of conversation of the day</hi>. It is known in <placeName key="london">London</placeName> that it is me, <persName key="wegenerG">Gerda Wegener</persName>, who is <persName key="sparreGre">Grete</persName> in the book. And my old English friend deeply regretted that I was not able to come to <placeName key="london">London</placeName> at the moment as she claimed that I would be “the heroine of the day”.</p> 
+      <!-- KEJ 2019-11-2: A blank line follows this paragraph as a way of setting off an explanatory material. Should I encode this blank space? If so, how? -->
+                  <p><persName key="knudsenP">“Poul”</persName> was <persName key="wegenerG">Gerda Wegener</persName> and <persName key="lili">Lili Elbe</persName>’s mutual friend, the lawyer and writer <persName key="knudsenP">Poul Knudsen</persName> who is called <persName key="hvideNiels">Niels Hvide in the book.</p>                  
+                  <p>About the reason for the form of the book, which may seem a little overwrought and sensational, <persName key="lili">Lili Elbe</persName> explains in a letter to the said <persName key="knudsenP">Poul Knudsen</persName>:</p>
+      <!-- KEJ 2019-11-2: A blank line follows this paragraph as a way of setting off a letter that is reproduced in its entirety. Should I encode this blank space? If so, how? -->
+                  <p>“<placeName key="??">Lindevangen</placeName> 8-10, 22.I-31.</p>
+      <!-- KEJ 2019-11-2: A blank line follows this paragraph to set off the date from the rest of the letter. Should I encode this blank space? If so, how? -->
+                  <p>Dear big <persName key="knudsenP">Paul</persName>.</p>
+                  <p>Thank you so much for your letter.</p>
+                  <p>It is with regret that I will comply with your wish and change the name of the hero.</p>
+                  <p>He will then be called <persName key="hvideNiels">Hjalmar Hvide</persName> (later changed to <persName key="hvideNiels"Niels Hvide, T.R.</persName>) Do not be surprised that I write nicely and correctly about a friend – I do not really belong to the in crowd at home. How I look forward to hearing about <persName key="knudsenV">Vibeke</persName>’s triumphal trip during Christmas!</p>
+                  <p>The name of the wonderful person in <placeName key="dresden">Dresden</placeName> is <persName key="warnekros">Prof. <hi rend="italics">Kurt Warnekros</hi></persName>. It is even written with a W in my heart – yes even therein engraved!</p>
+                  <p>I am very pleased that <persName key="magnusE">Mr. Ervin Magnus</persName> believes in the book. But I must ask you to explain the following to him:</p>
+                  <p>When I have not written the book as a biography it is to</p>
+                  <pb n="7"/>
+<!--END PAGE 7-->
+                  <p>make it clear that it is about two people <hi rend="italics"><persName key="sparreAn">Andreas</persName> and <persName key="lili">Lili</persName> who are not mentally connected.</hi></p>
+                  <p>It is probably most apparent from the last part that there is a <hi rend="italics">duality</hi> – or was. First it is <persName key="sparreAn">Andreas</persName> who tells <persName key="knudsenP">Pou</persName>l his memories from when <persName key="sparreAn">Andreas</persName> was dominant after which <persName key="lili">Lili</persName> tells <persName key="knudsenP">Poul</persName> memories from the time when she began to work her way forward and got the greater part of the assets in their common estate – and eventually became the sole proprietor.</p>
+                  <p>It appears clearly from the last part that it is even of absolutely vital importance to <persName key="lili">Lili</persName> that spiritually she has nothing to do with <persName key="sparreAn">Andreas</persName> – and the <hi rend="italics">great miracle is that she feels reborn</hi> – pure and virginal – and mentally absolutely not a man who has become a girl!!!</p>
+                  <p>The second part also shows how <persName key="kreutz">Werner von Kreuz</persName> has always distinguished between the two.</p>
+                  <p>The main point of the book is that there were two souls in one body – and that a brilliant surgeon saves the girl from a <hi rend="italics">joint</hi> shipwreck. I am also afraid that the other form would weigh down the book and I precisely wish to show that I am coquettish, carefree, superficial and silly – and it has been important to me to show that what there is of artistic, philosophical, and serious male knowledge, comes from <persName key="sparreAn">Andreas</persName> who was an artist and an honourable man while my contribution is a certain shallow and girlish philosophy. (You see, it is really a devaluation of the assets). Ask <persName key="magnusE">Mr. Ervin Magnus</persName> to listen with sympathy to this my defence of the form of the book.</p>
+      <!-- KEJ 2019-11-2: A blank line follows this paragraph to set off the body of the letter from the closing. Should I encode this blank space? If so, how? -->
+                  <p>Your poor little friend</p>
+                  <p><persName key="lili">Lili</persName>”</p>   
+      <!-- KEJ 2019-11-2: Several blank lines follow this paragraph to set off the body of the foreword from the date the foreword was written. Should I encode this blank space? If so, how? -->
+                  <p><placeName key="??">Hellerup</placeName>, 20 July 1988</p>   
+      <!-- KEJ 2019-11-2: A blank line follows this paragraph to set off the date from Teit Ritzau's name. Should I encode this blank space? If so, how? -->             
+                  <p><persName key="ritzauT">Teit Ritzau</persName></p> 
+                  <pb n="8"/>
+<!--END PAGE 8-->                 
+               </div><!--END FOREWORD IN ENGLISH-->
+            </body><!--END BODY OF FOREWORD IN ENGLISH-->           
+         </div><!--END DIVISION OF TEXT IN ENGLISH TRANSLATION-->
+      </body><!--END BODY OF ENTIRE TEXT IN BOTH DANISH AND ENGLISH-->           
+   </text>
+</TEI>
