@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-    rendition="lilielbe.org/context/chapters/HAllatiniChapter.html"
+    rendition="lilielbe.org/context/Chapters/HAllatiniChapter.html"
     xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/readingViews/input/bookSections/HAllatiniChapter.xml">
     <teiHeader>
         <fileDesc>
@@ -88,7 +88,7 @@
                         <catDesc>1939</catDesc>
                     </category>
                     <category source="dcterms" xml:id="isPartOf" xml:lang="fre-B">
-                        <catDesc>Mosaïques</catDesc>
+                        <catDesc>Originally published in <hi rend="italics">Mosaïques</hi></catDesc>
                     </category>
                     <!--<category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
                     <catDesc><!-\- book or periodical title translated-\-></catDesc>
@@ -96,6 +96,9 @@
                 </taxonomy>
             </classDecl>
             <editorialDecl>
+                <interpretation>
+                    <p>We are in the process of re-encoding Allatini's chapter so that the French original and the English translation match paragraph by paragraph.  The revised version will be available by January 2020.</p>
+                </interpretation>
                 <hyphenation>
                     <p>We have removed the hyphenation that appears in the printed text during
                         digitization and encoding. Original hyphenation can be consulted in the
@@ -195,10 +198,10 @@ Kaj (fictional),  a character in “The Snow Queen” (1844), a fairy tale by Ha
                         famille, fut désigné pour représenter l'<placeName key="italy"
                             >Italy</placeName>. Dès son arrivée, il vint me voir, accompagné de son
                         officier d'ordonnance, le compte <!-- KK: 2019-04-01: Not in prosopography-->
-                        <persName key="carrobioM">Mario di Carrobio</persName>, beau comme un jeune dieu,
-                        drapé dans la superbe cape bleu de ciel de officier de cavalerie. A peine
-                        entré en conversation, <persName key="robilantM">adorable <pb style="page"
-                                n="201"
+                        <persName key="carrobioM">Mario di Carrobio</persName>, beau comme un jeune
+                        dieu, drapé dans la superbe cape bleu de ciel de officier de cavalerie. A
+                        peine entré en conversation, <persName key="robilantM">adorable <pb
+                                style="page" n="201"
                                 facs="http://lilielbe.org/media/books/Allatini_chapter_07.jpg"/>
                             <pb style="heading" rend="Mosaïques"/> général</persName>, me dit d'une
                         air malicieux: "Que diriez-vous si <persName key="allatiniE">Eric</persName>
@@ -419,16 +422,16 @@ Kaj (fictional),  a character in “The Snow Queen” (1844), a fairy tale by Ha
                         de révéler la vérité <pb style="page" n="207"
                             facs="http://lilielbe.org/media/books/Allatini_chapter_13.jpg"/>
                         <pb style="heading" rend="Mosaïques"/> à l'incandescent <persName
-                            key="marquis">marquis</persName>. Il le prit fort mal, déchira la
-                        photo, dans un accès de rage noire, et, pendant des semaines, n'adressa plus
-                        la parole à aucun de nous.</p>
+                            key="marquis">marquis</persName>. Il le prit fort mal, déchira la photo,
+                        dans un accès de rage noire, et, pendant des semaines, n'adressa plus la
+                        parole à aucun de nous.</p>
                     <p>Je ne
                         puis<!--BC: 2019-03-22: I think that the verb should be followed by the negative particle "pas".-->
                         m'empêcher de sortir encore une fois de mon sujet, pour vous raconter une
                         anecdote qui date d'environ cinquante ans et dont le héros est <persName
                             key="naplesArchbishop">l'archevêque</persName> de <placeName
-                            key="naples">Naples</placeName>, oncle de notre <persName
-                            key="marquis">marquis</persName></p>
+                            key="naples">Naples</placeName>, oncle de notre <persName key="marquis"
+                            >marquis</persName></p>
                     <p>Ce<persName key="naplesArchbishop">prélat</persName>, connu pour son avarice,
                         avait depuis des années un unique <persName>valet</persName>
                         <!--BC: 2019-03-22: Should this character be given a key ID?-->qui servait
@@ -925,8 +928,8 @@ Kaj (fictional),  a character in “The Snow Queen” (1844), a fairy tale by Ha
                             >Marcus Hirschfeld</persName> et quelques autres
                         somnités<!--BC: 2019-03-24: This is a misspelling. The correct form is "sommités."-->berlinoises,
                         avait subi, de la main du <persName key="gohrbandtE">professeur
-                        G.</persName>, l'ablation qui devait faire de lui une <persName key="lili"
-                            >Lily</persName> définitive.</p>
+                            G.</persName>, l'ablation qui devait faire de lui une <persName
+                            key="lili">Lily</persName> définitive.</p>
                     <p><persName key="wegenerG">Gerda</persName> emportait du linge de femme, une
                         robe de chambre rose et tout un arsenal de fards et de parfums: de quoi
                         réjouir <persName key="lili">Lily</persName> et lui donner son véritable
@@ -1489,12 +1492,13 @@ Kaj (fictional),  a character in “The Snow Queen” (1844), a fairy tale by Ha
                             key="allatiniE">husband’s</persName> commander and old friend of the
                         family, was appointed to represent <placeName key="italy">Italy</placeName>.
                         Upon his arrival, he came to see me, accompanied by his aide-de-camp
-                            <persName key="carrobioM">Count Mario di Carrobio</persName>, as handsome as a
-                        young god, cloaked in the superb blue cape worn by cavalry officers. Hardly
-                        into our conversation the <persName key="robilantM">adorable
-                            general</persName> asked me with a mischievous air: “What would you say
-                        if <persName key="allatiniE">Eric</persName> were named to <placeName
-                            key="versailles">Versailles</placeName>? Would you be annoyed?”</p>
+                            <persName key="carrobioM">Count Mario di Carrobio</persName>, as
+                        handsome as a young god, cloaked in the superb blue cape worn by cavalry
+                        officers. Hardly into our conversation the <persName key="robilantM"
+                            >adorable general</persName> asked me with a mischievous air: “What
+                        would you say if <persName key="allatiniE">Eric</persName> were named to
+                            <placeName key="versailles">Versailles</placeName>? Would you be
+                        annoyed?”</p>
                     <p>I almost threw my arms around his neck.</p>
                     <p>Several days later <persName key="allatiniE">my husband</persName> arrived in
                         Paris to take up his new post and shortly thereafter I got settled in
@@ -1609,8 +1613,8 @@ Kaj (fictional),  a character in “The Snow Queen” (1844), a fairy tale by Ha
                             >Einar</persName> during one of the sessions, and I begged her to bring
                         it to the restaurant where we planned to dine with our husbands and mutual
                         friends. We passed around the photo that amazed everyone. Our friend, the
-                            <persName key="marquiseSG">Marquise de S.G.</persName>, whose husband was
-                        late, cried out: “Let’s play a joke on <persName key="marquiseSG"
+                            <persName key="marquiseSG">Marquise de S.G.</persName>, whose husband
+                        was late, cried out: “Let’s play a joke on <persName key="marquiseSG"
                             >Emilio</persName>, he’ll be here any second.” <persName key="wegenerG"
                             >Gerda</persName> would show him the photo of one of her friends and see
                         if he recognized <persName key="wegenerE">Einar</persName>. Like a good

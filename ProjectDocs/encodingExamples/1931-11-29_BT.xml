@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="GitRepos/lilielbeArchive/lili-elbe-code/schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    rendition="lilielbe.org/context/Periodicals/1931-11-29_BT.html"
+    xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/readingViews/input/periodicals/1931-11-29_BT.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fra Mand til Kvinde in <hi rend="italics">B.T.</hi> (<date when="1931-11-29">29
+                        November 1931</date>)</title>
+                <title type="alternative">From Man into Woman in <hi rend="italics">B.T.</hi> (<date
+                        when="1931-11-29">29 November 1931</date>)</title>
+                <author>
+                    <persName key="leo" role="AUT">Leo</persName>
+                </author>
+                <respStmt>
+                    <resp>Translation completed by</resp>
+                    <persName ref="mo" role="TRL">Marianne Ølholm</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed by</resp>
+                    <persName ref="plc">Pamela L. Caughie</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed by </resp>
+                    <persName ref="mo">Marianne Ølholm</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="oe">Orion Elrod</persName>
+                    <persName ref="nma">Natasha Aranda</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="ccm">Caroline McCraw</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                            <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
+                        by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed by</resp>
+                    <persName ref="ccm">Caroline McCraw</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Images prepared by</resp>
+                    <persName ref="mg">Matthew Gallagher</persName>
+                </respStmt>
+                <sponsor>Loyola University Chicago Libraries</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="2019-07-06">July 6th, 2019</date>
+                <!-- CCM: Does this date need to change? RJP: No, we are leaving all of the texts publiction dates as the day of the launch since the facsimile images were made available on the site on that day-->
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern
+                            Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour
+                            Movement's Archives and Library)</orgName> in <placeName>Huddinge,
+                            Sweden</placeName>.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc source="Periodical" xml:lang="dan">
+                <p>A clipping affixed to a thin piece of paper shows a one-column article
+                    with the signatures by Einar Wegener and Lili Elbe used in the German edition at
+                    the top of the second column; the publication information is written in black
+                    ink across the top and a name written in what appears to be pencil on the
+                    righthand side of the paper; the name could be "Carl Jensen," who was a Danish
+                    newspaper illustrator, though no illustration appears in this article.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+                    <category source="collex" xml:id="discipline">
+                        <catDesc>History/Gender Studies</catDesc>
+                    </category>
+                    <category source="collex" xml:id="genre">
+                        <catDesc>Essay/Nonfiction</catDesc>
+                    </category>
+                    <category source="collex" xml:id="text">
+                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1931-11-29_BT.txt</catDesc>
+                    </category>
+                    <category source="dc" xml:id="date">
+                        <catDesc>1931</catDesc>
+                    </category>
+                    <category source="dcterms" xml:id="isPartOf" xml:lang="dan">
+                        <catDesc>Originally published in <hi rend="italics">B.T.</hi></catDesc>
+                    </category>
+                    <!--<category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
+                    <catDesc><!-\- book or periodical title translated-\-></catDesc>
+                </category>-->
+                </taxonomy>
+            </classDecl>
+            <editorialDecl>
+                <hyphenation>
+                    <p>We have removed the hyphenation that appears in the printed text during
+                        digitization and encoding. Original hyphenation can be consulted in the
+                        facsimile images.</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <div rend="head" style="periodical">
+                </div>
+                <div rend="headlines">
+                    <list>
+                        <item rend="primary">
+                            <hi rend="bold">Fra Mand til Kvinde.</hi>
+                        </item>
+                        <item>
+                            <hi rend="bold">
+                                <hi rend="italics">
+                                    <persName key="lili"> Lili Elbe</persName>s Bog, som udkommer
+                                    paa Onsdag.</hi>
+                            </hi>
+                        </item>
+                    </list>
+                </div>
+                <div rend="body">
+                    <p>Paa onsdag udkommer hos Hage og Clausen under Titlen “Fra Mand til Kvinde” en
+                        Række Optegnelser, som <persName key="lili">Lili Elbe</persName> har skrevet
+                        i de sidste Maaneder før sin Død i September i Aar, og hvori hun har søgt
+                        psykologisk at gøre Rede for den ejendommelige og tragiske Menneskeskæbne,
+                        der begynde som <persName key="wegenerE">Ejnar Wegener</persName> og
+                        afsluttedes som <persName key="lili">Lili Elbe</persName>.</p>
+                    <p>Det er “Berliner Lokalanzeiger”s herværende <persName key="harthernE"
+                            >Redaktør Ernst Harthern</persName>, som besørger Bogens Udgivelse, og
+                        vi har spurgt <persName key="harthernE">Red. Harthern</persName>, hvilken
+                        Tilknytning han havde til <persName key="lili">Lili Elbe</persName>.-</p>
+                    <p>– Maleren <persName key="wegenerE">Ejnar Wegener</persName> kendte jeg kun
+                        ganske flygtigt – men da <persName key="lili">Lili Elbe</persName> efter den
+                        store Operation, som <persName key="warnekros">Professor
+                            Warnekros</persName> i <placeName key="dresden">Dresden</placeName>
+                        havde foretaget, kom til <placeName key="copenhagen">København</placeName>,
+                        henvendte hun sig til mig og bad mig hjælpe hende med at udarbejde sine
+                        Optegnelser. <persName key="warnekros">Professor Warnekros</persName> havde
+                        opfordret hende til at nedskrive den ægtest mulige Skildring af sit indre
+                        Liv under alle de mærkelige Omskiftelser, men hun nærede Ængstelse for, at
+                        hun ikke kunne gøre det sandt nok.</p>
+                    <p>Jeg hjalp hende, og en stor del af Bogen blev til under lange, natlige
+                        Samtaler. Gennem stadige Spørgsmaal og Svar søgte vi at naa ind til hendes
+                        Sjælelivs dybeste Sandhed, mens min Sekretær stenograferede hvert Ord ned
+                        …</p>
+                    <p>– De nærede ingen Betænkeligheder for, at Bogens Hensigt skal blive
+                        misforstaaet?</p>
+                    <p>– I Begyndelsen var jeg ikke fri for det. Men efterhaanden som Bogen blev
+                        til, svandt min Angst. Den er, som <persName key="warnekros">Professor
+                            Warnekros</persName> har udtalt, Beretningen om en rystende, menneskelig
+                        Tragedie, men sandt og ægte fortalt af et Menneske paa et højt kulturelt og
+                        etisk Stade. Bogen er et Udtryk af <persName key="lili">Lili
+                        Elbe</persName>s evige Kamp for at faa Fred. Hun følte en enestaaende
+                        Befrielse og en Trang til at hjælpe og være god mod alle, men hun var
+                        samtidig uhyre menneskesky. Hendes største Rædsel var Sensation og Opsigt
+                        ….</p>
+                    <p>Hun var undergaaet en saa fuldstændig Forandring, som tænkes kan. Mens
+                            <persName key="wegenerE">Ejnar Wegener</persName> var en kompliceret og
+                        selvbevidst Natur, var <persName key="lili">Lili Elbe</persName> ganske
+                        usammensat og yderst beskeden, og nærede ingen Trang til at male.</p>
+                    <p>…. Men har jeg ikke gjort andet godt her i Verden, har jeg i hvert Fald gjort
+                            <persName key="lili">Lili Elbe</persName> Døden lettere. Hun bad mig
+                        indstændigt om at udgive den.</p>
+                    <p>Hun var begejstret for at kunne hjælpe Videnskaben, og hendes sidste Tanker
+                        drejede sig om Bogen. Hendes Hensigt med den var at takke alle dem, der
+                        havde været god imod hende og forklare Menneskeheden, at man ikke for
+                        ubetænksomt skal dømme et andet Menneske.</p>
+                    <p>
+                        <hi rend="italics"><persName key="leo">Leo</persName>.</hi>
+                    </p>
+                    <!-- CCM: Not sure what to do about this image? of handwriting... See JPEG. RJP: Emailed Greer and team to create media library image -->
+                    <figure facs="http://lilielbe.org/media/periodicals/1931-11-29_BT_i01.jpg">
+                    <figDesc>To Dedikationer fra en fransk Bog, den øverste skrevet af Maleren <persName
+                            key="wegenerE">Ejnar Wegener,</persName> den nederste af <persName
+                            key="lili">Lili Elbe</persName>.</figDesc>
+                    </figure>  
+                </div>
+            </div>
+            <div type="translation">
+                <div rend="head" style="periodical"> </div>
+                <div rend="headlines">
+                    <list>
+                        <item rend="primary">
+                            <hi rend="bold">From Man into Woman.</hi>
+                        </item>
+                        <item>
+                            <hi rend="bold">
+                                <hi rend="italics"><persName key="lili">Lili Elbe</persName>’s book
+                                    that is to be published on Wednesday.</hi>
+                            </hi>
+                        </item>
+                    </list>
+                </div>
+                <div rend="body">
+                    <p>On Wednesday, a number of notes will be published under the title “From Man
+                        into Woman” at Hage and Clausen, written by <persName key="lili">Lili
+                            Elbe</persName> during the last months before her death in September
+                        this year, and wherein she has tried psychologically to account for the
+                        remarkable and tragic fate that began as <persName key="wegenerE">Ejnar
+                            Wegener</persName> and ended as <persName key="lili">Lili
+                            Elbe</persName>.</p>
+                    <p>It is the local editor of “Berliner <anchor type="commentRangeStart" n="1"/>
+                            Lokalanzeiger<anchor type="commentRangeEnd" n="1"/><note type="editor"
+                            source="plc" corresp="comment_1">The Berliner Lokal-Anzeiger was a daily
+                            newspaper published in Berlin, with one of the highest national
+                            circulations of its time, according to Wikipedia. Its publisher was
+                            newspaper magnate August Scherl. Harthern was a correspondent in
+                            Copenhagen for Scherl publishing house.</note> ” <persName
+                            key="harthernE">Ernst Harthern</persName> who is in charge of the
+                        publication of the book and we have asked <persName key="harthernE">Ed.
+                            Harthern</persName> what connection he had to <persName key="lili">Lili
+                            Elbe</persName>. –</p>
+                    <p>– The painter <persName key="wegenerE">Einar Wegener</persName> I only knew
+                        quite superficially – but when <persName key="lili">Lili Elbe</persName>,
+                        after the surgery that <persName key="warnekros">Professor
+                            Warnekros</persName> had performed in <placeName key="dresden"
+                            >Dresden</placeName>, came to <placeName key="copenhagen"
+                            >Copenhagen</placeName>, she approached me and asked me to help her
+                        compile her notes. <persName key="warnekros">Professor Warnekros</persName>
+                        had encouraged her to write down the truest possible account of her inner
+                        life during all the extraordinary changes, but she was anxious that she
+                        could not make it true enough.</p>
+                    <p>I helped her, and a large part of the book came about during long nightly
+                        conversations. Through continual questions and answers we tried to reach the
+                        deepest truth of her mental life while my secretary took down every word in
+                        shorthand …</p>
+                    <p>– You did not have any concerns that the intention of the book will be
+                        misunderstood?</p>
+                    <p>– In the beginning, I was not free from them. But as the book materialised,
+                        my fear decreased. It is, as <persName key="warnekros">Prof.
+                            Warnekros</persName> has stated, the narrative of a shocking human
+                        tragedy, but truly and genuinely told by a highly cultured and ethical
+                        person. The book is an expression of <persName key="lili">Lili
+                            Elbe</persName>’s endless struggle to find peace. She felt an
+                        extraordinary liberation and an urge to help and be good to everyone, but at
+                        the same time she was extremely shy. Her greatest horror was sensation and
+                        attention ….</p>
+                    <p>She had undergone so complete a transformation as can be imagined. While
+                            <persName key="wegenerE">Einar Wegener</persName> was a complex and
+                        self-conscious character, <persName key="lili">Lili Elbe</persName> was
+                        quite uncomplicated and extremely modest, and felt no desire to paint.</p>
+                    <p>…. But if I have done nothing else good in this world, I have at least made
+                        death easier for <persName key="lili">Lili Elbe</persName>. She implored me
+                        to publish it.</p>
+                    <p>She was enthusiastic about being able to help science, and her last thoughts
+                        concerned the book. Her intention with it was to thank all those who had
+                        been good to her and to explain to humanity that you should not judge
+                        another human being too <anchor type="commentRangeStart" n="2"/>
+                            thoughtlessly<anchor type="commentRangeEnd" n="2"/><note
+                            type="translator" source="mo" corresp="comment_2">ubetænksomt can also
+                            mean inconsiderately or injudiciously.</note>.</p>
+                    <p>
+                        <hi rend="italics"><persName key="leo">Leo</persName>.</hi>
+                    </p>
+                    <figure facs="http://lilielbe.org/media/periodicals/1931-11-29_BT_i01.jpg">
+                    <figDesc> Two dedications from a French book, the top one written by the painter
+                            <persName key="wegenerE">Einar Wegener</persName>, the bottom one by
+                            <persName key="lili">Lili Elbe</persName>.</figDesc>
+                    </figure>  
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

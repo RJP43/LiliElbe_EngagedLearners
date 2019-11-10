@@ -1,4 +1,4 @@
 Letter Examples: [00000000ThomsenTHoyer.xml](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/00000000ThomsenTHoyer.xml), [19310306LEKnudsen.xml](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/19310306LEKnudsen.xml)  
 Edition Example: [A1.xml](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/A1.xml)  
 Book Section Examples: [LiliForeword.xml](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/LiliForeword.xml), [HAllatiniChapter.xml](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/HAllatiniChapter.xml)  
-Periodical Example: [Sanheden.xml](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/Sanheden.xml)
+Periodical Example: [Sanheden.xml](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/Sanheden.xml), [1931-11-29_BT.xml](https://github.com/cmccraw/LiliElbe_EngagedLearners/blob/master/ProjectDocs/encodingExamples/1931-11-29_BT.xml)

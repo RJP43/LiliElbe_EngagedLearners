@@ -4,8 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>"En bog om, hvordan Hr. Wegener blev til Frøken Wegener."</title>
-            <title type="alternative">"A Book About How Mr. Wegener Became Miss Wegener."</title>
+            <title>"En bog om, hvordan Hr. Wegener blev til Frøken Wegener." in <hi rend="italics">Sandheden</hi></title>
+            <title type="alternative">"A Book About How Mr. Wegener Became Miss Wegener." <hi rend="italics">Sandheden</hi></title>
             <author><persName role="AUT">Marius Wulff</persName></author>
             <respStmt>
                <resp>Photographed by</resp>
@@ -93,11 +93,12 @@
    <text>
       <body>
          <div type="original">
-            <pb facs="http://lilielbe.org/media/periodicals/Sandheden_02.jpg"/>
+            <pb source="Sandheden Front Cover" facs="http://lilielbe.org/media/periodicals/Sandheden_01.jpg"/>
+            <pb source="2-Page Article" facs="http://lilielbe.org/media/periodicals/Sandheden_02.jpg"/>
             <div rend="head" style="periodical">
-               <p><title>En Bog om, hvordan <persName key="wegenerE">Hr.
+              <ab>En Bog om, hvordan <persName key="wegenerE">Hr.
                            Wegener</persName> blev til <persName key="lili">Frøken
-                           Wegener.</persName></title></p>
+                           Wegener.</persName></ab>
             </div>
             <div rend="headlines">
                <list>
@@ -225,7 +226,7 @@
                <p>Det viste sig yderst vanskeligt at faa disse Papirer. Der krævedes et
                      Utal af Undersøgelser og Attester fra Embedslæger og Retslægeraad men omsider
                      faldt da Ministeriets Afgørelse, som gik ud paa, at naar hun faktisk <hi
-                        rend="italics">var</hi> Kvinde, saa skulde hun <cb n="2"/><pb/> ogsaa
+                        rend="italics">var</hi> Kvinde, saa skulde hun <cb n="2"/><pb n="2" facs="http://lilielbe.org/media/periodicals/Sandheden_02.jpg"/> ogsaa
                      have Papirer, der lød paa at hun var det. Hun antog da Navnet <hi
                         rend="italics"><persName key="lili">Lily Wegener</persName></hi>, og som
                      saadan blev hun ogsaa indført i Kirkebøgerne. <persName key="wegenerE">Manden
@@ -311,13 +312,12 @@
          </div>
          <!-- KEJ 2019-02-21: Notes end of  Danish version of article. -->
          <div type="translation">
-            <pb facs="http://lilielbe.org/media/periodicals/Sandheden_02.jpg"/>
             <!-- KEJ 2019-03-27: article translation-->
             <div rend="head" style="periodical">
-               <p><hi rend="bold">A Book About How <persName key="wegenerE">Mr.
+               <ab>A Book About How <persName key="wegenerE">Mr.
                            Wegener</persName> Became <persName key="lili">Miss
-                        Wegener</persName></hi>.
-               </p>
+                        Wegener</persName>.
+               </ab>
             </div>
             <div rend="headlines">
                <list>
@@ -450,7 +450,7 @@
                <p>It proved extremely difficult to get these papers. It took countless
                      examinations and certificates from community physicians and the Medico-legal
                      Council, but eventually the ministry arrived at its decision to the effect that
-                     when she actually <hi rend="italics">was</hi> a woman she should <cb n="2"/><pb/> also have papers stating that she was so. She then assumed the name
+                     when she actually <hi rend="italics">was</hi> a woman she should <cb n="2"/><pb n="2" facs="http://lilielbe.org/media/periodicals/Sandheden_02.jpg"/> also have papers stating that she was so. She then assumed the name
                         <hi rend="italics"><persName key="lili">Lily Wegener</persName></hi>, and as
                      such she was also entered into the parish registers. At the same time <persName
                         key="wegenerE">the man Wegener</persName> was struck from the parish
