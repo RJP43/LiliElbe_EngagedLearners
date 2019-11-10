@@ -319,6 +319,8 @@ _note: The LEDA project has decided to make no silent corrections; however, we w
   
 ### Encoding Tricky Transcriptions
 _note: The following elements can be used individually or in combination with each other within the `<subst>` element for encoding substitutions (when some text is deleted - whether that be erased, crossed out, written over, etc. - and some other text is inserted as replacement text._  
+
+For instances when a facsimile image or translated text uses `[sic]` use the following encoding `<del type="sic"><gap extent="X"/></del>` with an optional editor/translator's note after it.  
   
 **Substitutions**  
 ````
