@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="GitRepos/lilielbeArchive/lili-elbe-code/schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
     rendition="lilielbe.org/context/Periodicals/1931-11-29_BT.html"
     xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/readingViews/input/periodicals/1931-11-29_BT.xml">
@@ -55,7 +55,7 @@
                 <authority>Lili Elbe Digital Archive</authority>
                 <pubPlace>Chicago, IL, USA</pubPlace>
                 <date when="2019-07-06">July 6th, 2019</date>
-                <!-- CCM: Does this date need to change? RJP: No, we are leaving all of the texts publiction dates as the day of the launch since the facsimile images were made available on the site on that day-->
+                <!-- CCM: Does this date need to change? RJP: No, we are leaving all of the texts publication dates as the day of the launch since the facsimile images were made available on the site on that day-->
                 <availability>
                     <p>Reproduced by courtesy of the <orgName select="source">Ernst Harthern
                             Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour
@@ -172,9 +172,9 @@
                         drejede sig om Bogen. Hendes Hensigt med den var at takke alle dem, der
                         havde været god imod hende og forklare Menneskeheden, at man ikke for
                         ubetænksomt skal dømme et andet Menneske.</p>
-                    <p>
+                    <signed>
                         <hi rend="italics"><persName key="leo">Leo</persName>.</hi>
-                    </p>
+                    </signed>
                     <!-- CCM: Not sure what to do about this image? of handwriting... See JPEG. RJP: Emailed Greer and team to create media library image -->
                     <figure facs="http://lilielbe.org/media/periodicals/1931-11-29_BT_i01.jpg">
                     <figDesc>To Dedikationer fra en fransk Bog, den øverste skrevet af Maleren <persName
@@ -256,9 +256,9 @@
                             thoughtlessly<anchor type="commentRangeEnd" n="2"/><note
                             type="translator" source="mo" corresp="comment_2">ubetænksomt can also
                             mean inconsiderately or injudiciously.</note>.</p>
-                    <p>
+                    <signed>
                         <hi rend="italics"><persName key="leo">Leo</persName>.</hi>
-                    </p>
+                    </signed>
                     <figure facs="http://lilielbe.org/media/periodicals/1931-11-29_BT_i01.jpg">
                     <figDesc> Two dedications from a French book, the top one written by the painter
                             <persName key="wegenerE">Einar Wegener</persName>, the bottom one by
