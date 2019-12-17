@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   rendition="lilielbe.org/commentary/Editorials/TeitRitzauIntro.html"
+   xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/readingViews/input/bookSections/TeitRitzauIntro.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -34,10 +36,10 @@
                   by</resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
             </respStmt>
-            <respStmt>
+            <!--<respStmt>
                <resp>HTML proofing completed by</resp>
-               <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
-            </respStmt>
+               <persName ref=""><!-\- Insert Proofers name and initials in @ref-\-></persName>
+            </respStmt>-->
             <respStmt>
                <resp>Images prepared by</resp>
                <persName ref="mg">Matthew Gallagher</persName>
@@ -69,15 +71,14 @@
                <category source="collex" xml:id="genre">
                   <catDesc>Essay</catDesc>
                </category>
-               <!--KEJ 2019-11-3: The  text includes photographs. Since it is a published book, do I need to include a media library illustration URL? If so, what is it? -->
                <category source="collex" xml:id="image">
-                  <catDesc>http://lilielbe.org/media/periodicals/Ritzau_forord_i01.jpg</catDesc>
-                  <catDesc>http://lilielbe.org/media/periodicals/Ritzau_forord_i02.jpg</catDesc>
-                  <catDesc>http://lilielbe.org/media/periodicals/Ritzau_forord_i03.jpg</catDesc>
-                  <catDesc>http://lilielbe.org/media/periodicals/Ritzau_forord_i04.jpg</catDesc>
+                  <catDesc>http://www.lilielbe.org/media/editorials/Ritzau_forord_i01.jpg</catDesc>
+                  <catDesc>http://www.lilielbe.org/media/editorials/Ritzau_forord_i02.jpg</catDesc>
+                  <catDesc>http://www.lilielbe.org/media/editorials/Ritzau_forord_i03.jpg</catDesc>
+                  <catDesc>http://www.lilielbe.org/media/editorials/Ritzau_forord_i04.jpg</catDesc>
                </category>
                <category source="collex" xml:id="text">
-                  <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/filename.txt</catDesc>
+                  <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/TeitRitzauIntro.txt</catDesc>
                </category>
                <category source="dc" xml:id="date">
                   <catDesc>1988</catDesc>
@@ -87,7 +88,7 @@
                         Elbes bekendelser</hi></catDesc>
                </category>
                <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
-                  <catDesc>Originally published in <hi rend="italics">From Man into Woman: Lili
+                  <catDesc><hi rend="italics">From Man into Woman: Lili
                         Elbe’s Confessions</hi></catDesc>
                </category>
                <!--KEJ 2019-11-3: How do I code that the book is published by Skippershoved? RJP: we are not currently capturing this information in our metadata-->
@@ -106,7 +107,6 @@
       <body>
          <div type="original">
             <!--TITLE PAGE INFORMATION -->
-            <div rend="head">
                <pb source="Title Page"
                   facs="http://lilielbe.org/media/editorials/Ritzau_forord_01.jpg"/>
                <p><persName key="lili">Lili Elbe</persName></p>
@@ -114,10 +114,10 @@
                <p><persName key="lili">Lili Elbe</persName>s bekendelser</p>
                <p>Forord af <persName key="ritzauT">Teit Ritzau</persName></p>
                <p>Skippershoved</p>
-            </div>
             <!--BEGIN FOREWORD IN DANISH-->
             <div rend="body">
                <!-- KEJ 2019-11-2: Some paragraphs are not indented, especially when quote marks begin a paragraph or when a letter is reproduced. Do I need to indicate this difference so that the material is formatted correctly? RJP: we are not concerned with capturing every line return and space from the original. No need to make any change.-->
+               <pb n="1" facs="http://lilielbe.org/media/editorials/Ritzau_forord_02.jpg"/>
                <head>
                   <hi rend="italics">Forord</hi>
                </head>
@@ -162,12 +162,13 @@
                      key="sparreGre">Grete</persName>.</p>
                <p>I forbindelse med <persName key="wegenerE">Einer Wegener</persName>s forestående
                   kønsskifteoperation blev han som beskrevet i bogen undersøgt på <placeName
-                     key="??">Institut für Sexualwissenschaft</placeName></p><!-- KEJ 2019-11-5: The name is continued on the next page. Is it OK for the closing tag for the place name to be on the next page? RJP: No, we made a rule that if a named entity spans a page it get moves to the first page -->
-               <pb n="1" facs="http://lilielbe.org/media/editorials/Ritzau_forord_02.jpg"/>
+                     key="institutePsychiatry">Institut für Sexualwissenschaft</placeName></p><!-- KEJ 2019-11-5: The name is continued on the next page. Is it OK for the closing tag for the place name to be on the next page? RJP: No, we made a rule that if a named entity spans a page it get moves to the first page -->
+               
                <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->
                <!--END PAGE 1-->
+               <pb n="2" facs="http://lilielbe.org/media/editorials/Ritzau_forord_03.jpg"/>
                <figure xml:id="i01"
-                  facs="http://lilielbe.org/media/periodicals/Ritzau_forord_i01.jpg">
+                  facs="http://www.lilielbe.org/media/editorials/Ritzau_forord_i01.jpg">
                   <!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
                   <figDesc><hi rend="italics"><persName key="wegenerE">Einar</persName> og <persName
                            key="wegenerG">Gerda Wegener</persName> i deres hjem. De giftede sig i
@@ -178,32 +179,31 @@
                      apart in a room in their home that is filled with art and books.</note>
                </figure>
                <!-- KEJ 2019-11-3: Several blank lines follow this illustration and caption as a way of setting them off from the text that follows. Should I encode this blank space? If so, how? -->
-               <p>i <placeName key="berlin">Berlin</placeName>. Grundlæggeren af <placeName key="??"
+               <p>i <placeName key="berlin">Berlin</placeName>. Grundlæggeren af <placeName key="institutePsychiatry"
                      >dette verdens første sexologiske institut</placeName> var professor
                      <persName>key="hirschfeld">Magnus Hirschfeld</persName>, som i bogen kaldes
                      <persName key="hardenfeld">Hardenfeld</persName>. Han var pioner indenfor den
                   sexologiske forskning – i Amerika omtalt som “Einstein of Sex” – og midtpunkt i et
-                  særegent og farverigt miljø. På hans <placeName key="??">institut</placeName>
+                  særegent og farverigt miljø. På hans <placeName key="institutePsychiatry">institut</placeName>
                   flokkedes en række af datidens store kulturpersonligheder, bl.a. forfatteren
-                     <persName key="??">Christopher Isherwood</persName>, som omtaler <persName
-                     key="hirschfeld">Hirschfeld</persName> og hans <placeName key="??"
+                     <persName key="isherwoodC">Christopher Isherwood</persName>, som omtaler <persName
+                     key="hirschfeld">Hirschfeld</persName> og hans <placeName key="institutePsychiatry"
                      >institut</placeName> i erindringsbogen“Christopher og hans kreds”. I øvrigt
                   bygger filmen “Caberet” på samme Isherwoods skildringer fra <placeName
                      key="berlin">Berlin</placeName>.</p>
                <p>Da <persName key="hirschfeld">Hirschfeld</persName> foruden sexolog tillige var
                   jøde, pacifist, socialist og homosexuel, blev han hurtigt offer for nazistisk
-                  forfølgelse og måtte søge landflygtighed. <placeName key="??"
+                  forfølgelse og måtte søge landflygtighed. <placeName key="institutePsychiatry"
                      >Instituttet</placeName> blev i 1933 stormet af nazisterne, arkiverne brændt og
                   indboet ødelagt. Mange husker sikkert de dokumentariske filmoptagelser fra
                   30’ernes <placeName key="berlin">Berlin</placeName>, hvor de fanatisk skrigende
                   nazizter bærer en buste af <persName key="hirschfeld">Magnus Hirschfeld</persName>
                   til bålet.</p>
-               <pb n="2" facs="http://lilielbe.org/media/editorials/Ritzau_forord_03.jpg"/>
-               <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->
+               
                <!--END PAGE 2-->
+               <pb n="3" facs="http://lilielbe.org/media/editorials/Ritzau_forord_04.jpg"/>
                <figure xml:id="i02"
-                  facs="http://lilielbe.org/media/periodicals/Ritzau_forord_i02.jpg">
-                  <!-- KEJ 2019-11-3: What do I put for the facs="URL"?-->
+                  facs="http://www.lilielbe.org/media/editorials/Ritzau_forord_i02.jpg">
                   <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName> og en
                         sygeplejerske på <placeName key="womensClinic">Frauenklinik</placeName> i
                            <placeName key="dresden">Dresden</placeName> efter kønsskifteoperationen.
@@ -213,9 +213,8 @@
                      Photographs. It shows Lili Elbe dressed in dress, pumps, and hat outside the
                      Frauenklinik in Dresden with a nurse after surgery.</note>
                </figure>
-               <pb n="3" facs="http://lilielbe.org/media/editorials/Ritzau_forord_04.jpg"/>
-               <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->
                <!--END PAGE 3-->
+               <pb n="4" facs="http://lilielbe.org/media/editorials/Ritzau_forord_05.jpg"/>
                <p><persName key="wegenerE">Einer Wegener</persName> fik foretaget den endelige
                   kønsskifteoperation på <placeName key="womensClinic">Frauenklinik</placeName> i
                      <placeName key="dresden">Dresden</placeName>, og under navnet <persName
@@ -238,10 +237,10 @@
                      n="3"/><note type="translator" source="mo" corresp="comment_3">This letter is
                      also included in Hertoft’s and Ritzau’s text in Paradiset er ikke til salg
                      where Pinse (Whitsun) is written with a capital P.</note> næste dag. Næste
-                  morgen forlod jeg vores bolig i <placeName key="??">Havnegade</placeName> 47. Let
-                  om hjertet gik jeg gennem den solbeskinnede <placeName key="??">Nyhavn</placeName>
-                  til <placeName key="??">Kongens Nytorv</placeName> og kørte videre med sporvogn
-                  til <placeName key="??">Valby</placeName>, hvor denne <persName key="lili"
+                  morgen forlod jeg vores bolig i <placeName key="havnegade">Havnegade</placeName> 47. Let
+                  om hjertet gik jeg gennem den solbeskinnede <placeName key="nyhavn">Nyhavn</placeName>
+                  til <placeName key="kongensNytorv">Kongens Nytorv</placeName> og kørte videre med sporvogn
+                  til <placeName key="valby">Valby</placeName>, hvor denne <persName key="lili"
                      >Elbe</persName> havde søgt ly i en kvistlejlighed hos pæne mennesker i en pæn
                   villa. Hun havde allerede sat et staffeli frem, hvorpå der var placeret et
                   færdigstrukket lærred, desuden var der farve, og hvad der ellers hørte til at
@@ -268,25 +267,23 @@
                      key="lili">Lili Elbe</persName> den 13. september 1931 på <placeName
                      key="womensClinic">“Frauenklinik”</placeName> og er begravet i <placeName
                      key="dresden">Dresden</placeName> på <anchor type="commentRangeStart" n="5"
-                     /><placeName key="??">Trinitatis-kirkegården</placeName><anchor
+                     /><placeName key="trinitatisCemetery">Trinitatis-kirkegården</placeName><anchor
                      type="commentRangeEnd" n="5"/><note type="translator" source="mo"
                      corresp="comment_5">Written as one word without a hyphen in Paradiset er ikke
                      til salg.</note>. Jeg har hørt, at graven er meget forfalden, gravstenen er
                   nemlig væltet, men jeg har også hørt, at man tænker på at sætte den i stand
                   igen.”</p>
-               <pb n="4" facs="http://lilielbe.org/media/editorials/Ritzau_forord_05.jpg"/>
-               <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->
                <!--END PAGE 4-->
+               <pb n="5" facs="http://lilielbe.org/media/editorials/Ritzau_forord_06.jpg"/>
                <figure xml:id="i03"
-                  facs="http://lilielbe.org/media/periodicals/Ritzau_forord_i03.jpg">
-                  <!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
+                  facs="http://www.lilielbe.org/media/editorials/Ritzau_forord_i03.jpg">
                   <figDesc><hi rend="italics"><persName key="wegenerG">Gerda Wegener</persName> med
                         sin italienske mand <persName key="portaF">Fernando Porta</persName> – i
                         bogen kaldet <persName key="feruzziRi">Ridolfo Feruzzi</persName>. <persName
                            key="wegenerG">Gerda Wegener</persName> blev betragtet som “et virkelig
                         fænomenalt tegnetalent”. Hun vandt en position i 20’ – 30’ernes <placeName
                            key="paris">Paris</placeName> som ingen anden dansk kunstner. Og, som
-                        kunsthistorikeren <persName key="??">Else Kai Sass</persName> skriver: “På
+                        kunsthistorikeren <persName key="sassEK">Else Kai Sass</persName> skriver: “På
                         korte besøg i <placeName key="copenhagen">København</placeName> duperede hun
                         fuldstændig sine omgivelser med at optræde med en elegance og en udfordrende
                         parisisk chic, der var hidtil ukendt her på bjerget”. <persName
@@ -296,12 +293,11 @@
                      caption, is credited to Politiken Press. Gerda Wegener and husband Fernando
                      Porta fill the frame of the photo, which seems to be outside, and they are
                      dressed for going out.</note>
-               </figure>
-               <pb n="5" facs="http://lilielbe.org/media/editorials/Ritzau_forord_06.jpg"/>/> <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->
+               </figure>               
                <!--END PAGE 5-->
+               <pb n="6" facs="http://lilielbe.org/media/editorials/Ritzau_forord_07.jpg"/>
                <figure xml:id="i04"
-                  facs="http://lilielbe.org/media/periodicals/Ritzau_forord_i04.jpg">
-                  <!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
+                  facs="http://www.lilielbe.org/media/editorials/Ritzau_forord_i04.jpg">
                   <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName></hi>,
                         <persName key="knudsenP">Poul Knudsen</persName> og <persName key="wegenerG"
                         >Gerda Wegener</persName> t.h. fotograferet sammen formodentlig i <placeName
@@ -314,11 +310,11 @@
                      Photographs. It captures Lili Elbe, Poul Knudsen and Gerda Wegener outside,
                      most likely in Berlin, dressed in coats and hats.</note>
                </figure>
-               <pb n="6" facs="http://lilielbe.org/media/editorials/Ritzau_forord_07.jpg"/>
-               <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->
+               
                <!--END PAGE 6-->
+               <pb n="7" facs="http://lilielbe.org/media/editorials/Ritzau_forord_08.jpg"/>
                <p>“Fra mand til kvinde” står den dag i dag som en transsexuel bibel. Eksempelvis
-                  nævner den engelske forfatter <persName key="??">Jan Morris</persName> i sin
+                  nævner den engelske forfatter <persName key="morrisJ">Jan Morris</persName> i sin
                   selvbiografi “Conundrum”, at skildringen af <persName key="sparreAn">Andreas
                      Sparre</persName>/<persName key="wegenerE">Einer Wegener</persName>s
                   transformation til <persName key="lili">Lili Elbe</persName> indvirkede på hans
@@ -384,8 +380,9 @@
                <p>Det glæder mig meget at <persName key="magnusE">Herr Ervin Magnus</persName> tror
                   paa Bogen. Men jeg maa bede dig forklare ham følgende:</p>
                <p>Naar jeg ikke har skrevet Bogen som en Levnedsskildring er det for</p>
-               <pb n="7" facs="http://lilielbe.org/media/editorials/Ritzau_forord_08.jpg"/>/> <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->
+               
                <!--END PAGE 7-->
+               <pb n="8" facs="http://lilielbe.org/media/editorials/Ritzau_forord_09.jpg"/>
                <p>at faa frem, at det drejer sig om to Personer <hi rend="italics"><persName
                         key="sparreAn">Andreas</persName> og <persName key="lili">Lili</persName>,
                      der sjæleligt ikke hører sammen.</hi></p>
@@ -439,11 +436,9 @@
                <p>Din stakkels Veninde</p>
                <p><persName key="lili">Lili</persName>”</p>
                <!-- KEJ 2019-11-2: Several blank lines follow this paragraph to set off the body of the foreword from the date the foreword was written. Should I encode this blank space? If so, how? -->
-               <p><placeName key="??">Hellerup</placeName>, den 20 juli 1988</p>
+               <p><placeName key="hellerup">Hellerup</placeName>, den 20 juli 1988</p>
                <!-- KEJ 2019-11-2: A blank line follows this paragraph to set off the date from Teit Ritzau's name. Should I encode this blank space? If so, how? -->
                <p><persName key="ritzauT">Teit Ritzau</persName></p>
-               <pb n="8" facs="http://lilielbe.org/media/editorials/Ritzau_forord_09.jpg"/>
-               <!-- KEJ 2019-11-3: In the foreword encoding example, after the pb code is the following: facs="http://lilielbe.org/media/foreword/Lili_foreword_01.jpg" I couldn't find anything on the Lili Elbe TEI website to use as a URL. What should I do? -->
                <!--END PAGE 8-->
             </div>
             <!--END FOREWORD IN DANISH-->
@@ -452,17 +447,17 @@
 
          <!--BEGIN DIVISION OF TEXT IN ENGLISH TRANSLATION-->
          <div type="translation">
+            <pb source="Title Page"
+               facs="http://lilielbe.org/media/editorials/Ritzau_forord_01.jpg"/>
             <!--TITLE PAGE INFORMATION -->
-            <!--TITLE PAGE INFORMATION -->
-            <div rend="head">
                <p><persName key="lili">Lili Elbe</persName></p>
                <p>From Man into Woman</p>
                <p><persName key="lili">Lili Elbe</persName>’s Confessions</p>
                <p>Foreword by <persName key="ritzauT">Teit Ritzau</persName></p>
-               <p>Skippershoved</p>
-            </div>
+               <p>Skippershoved</p>            
             <!--BEGIN FOREWORD IN ENGLISH-->
             <div rend="body">
+               <pb n="1"/>
                <head>
                   <hi rend="italics">Foreword</hi>
                </head>
@@ -510,15 +505,13 @@
                      <persName key="wegenerG">Gerda Wegener</persName> – in the book called
                      <persName key="sparreGre">Grete</persName>. </p>
                <p>In connection with <persName key="wegenerE">Einer Wegener</persName>’s planned sex
-                  change operation he was examined at <placeName key="??">Institut für
+                  change operation he was examined at <placeName key="institutePsychiatry">Institut für
                      Sexualwissenschaft</placeName>
                </p>
-               <pb n="1"/>
-               <!--END PAGE 1-->
-               <figure facs="http://lilielbe.org/media/periodicals/Ritzau_forord_i01.jpg">
-                  <!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
-                  <figDesc><hi rend="italics"><persName key="wegenerE">Einar</persName> and <perName
-                           key="wegenerG">Gerda Wegener</perName> in their home. They married in
+               <pb n="2"/>
+               <figure facs="http://www.lilielbe.org/media/editorials/Ritzau_forord_i01.jpg">
+                  <figDesc><hi rend="italics"><persName key="wegenerE">Einar</persName> and <persName
+                           key="wegenerG">Gerda Wegener</persName> in their home. They married in
                         1904. <persName key="wegenerE">Einar Wegener</persName> was born in 1882.
                         Politiken Press Photo.</hi></figDesc>
                   <note source="kej">The photo is at the top of the page and is credited to
@@ -527,29 +520,27 @@
                </figure>
                <!-- KEJ 2019-11-3: Several blank lines follow this illustration and caption as a way of setting them off from the text that follows. Should I encode this blank space? If so, how? -->
                <p>in <placeName key="berlin">Berlin</placeName> as described in the book. The
-                  founder of <placeName key="??">this the first institute of sexology</placeName>
+                  founder of <placeName key="institutePsychiatry">this the first institute of sexology</placeName>
                   was professor <persName key="hirschfeld">Magnus Hirschfeld</persName> who is
                   called <persName key="hardenfeld">Hardenfeld</persName> in the book. He was a
                   pioneer within sexological research – in America referred to as the “Einstein of
                   Sex” – and the centre of a peculiar and colourful milieu. A number of well-known
                   cultural figures of the time flocked to his institute, among them the writer
-                     <persName key="??">Christopher Isherwood</persName> who mentions <persName
-                     key="hirschfeld">Hirschfeld</persName> and his <placeName key="??"
+                     <persName key="isherwoodC">Christopher Isherwood</persName> who mentions <persName
+                     key="hirschfeld">Hirschfeld</persName> and his <placeName key="institutePsychiatry"
                      >institute</placeName> in his memoirs “Christopher and His Kind”. The film
                   “Caberet”, incidentally, is based on Isherwood’s descriptions of <placeName
                      key="berlin">Berlin</placeName>.</p>
                <p>As <persName key="hirschfeld">Hirschfeld</persName> in addition to being a
                   sexologist was also a Jew, a pacifist, a socialist, and a homosexual, he quickly
-                  became a victim of Nazi persecution and had to go into exile. <placeName key="??"
+                  became a victim of Nazi persecution and had to go into exile. <placeName key="institutePsychiatry"
                      >The institute</placeName> was stormed by the Nazis in 1933, the records burned
                   and the furniture destroyed. Many probably remember the documentary film shots
                   from the <placeName key="berlin">Berlin</placeName> of the 30s where the
                   fanatically screaming Nazis carry a bust of <persName key="hirschfeld">Magnus
                      Hirschfeld</persName> to the fire.</p>
-               <pb n="2"/>
-               <!--END PAGE 2-->
-               <figure facs="http://lilielbe.org/media/periodicals/Ritzau_forord_i02.jpg">
-                  <!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
+               <pb n="3"/>
+               <figure facs="http://www.lilielbe.org/media/editorials/Ritzau_forord_i02.jpg">
                   <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName> and a nurse
                         at <placeName key="womensClinic">Frauenklinik</placeName> in <placeName
                            key="dresden">Dresden</placeName> after the sex change operation. The
@@ -559,8 +550,7 @@
                      Photographs. It shows Lili Elbe dressed in dress, pumps, and hat outside the
                      Frauenklinik in Dresden with a nurse after surgery.</note>
                </figure>
-               <pb n="3"/>
-               <!--END PAGE 3-->
+               <pb n="4"/>
                <p><persName key="wegenerE">Einer Wegener</persName> underwent the final sex change
                   operation at <placeName key="womensClinic">Frauenklinik</placeName> in <placeName
                      key="dresden">Dresden</placeName>, and under the name <persName key="lili">Lili
@@ -580,10 +570,10 @@
                   No, it was her entire manner --- she was a real woman. For I had not known her as
                   a man. It was agreed (<persName key="lili">Lili Elbe</persName> felt very lonely,
                   I understood) that I should learn to paint with her. It was Whitsun the next day.
-                  The next morning, I left our flat in <placeName key="??">Havnegade</placeName> 47.
-                  With a light heart I walked through the sunny <placeName key="??"
-                     >Nyhavn</placeName> to <placeName key="??">Kongens Nytorv</placeName> and went
-                  on by tram to <placeName key="??">Valby</placeName> where this <persName
+                  The next morning, I left our flat in <placeName key="havnegade">Havnegade</placeName> 47.
+                  With a light heart I walked through the sunny <placeName key="nyhavn"
+                     >Nyhavn</placeName> to <placeName key="kongensNytorv">Kongens Nytorv</placeName> and went
+                  on by tram to <placeName key="valby">Valby</placeName> where this <persName
                      key="lili">Elbe</persName> had taken shelter in an attic flat in a nice villa
                   with nice people. She had already put out an easel on which a prepared stretched
                   canvas was placed, besides this there was paint and everything else that belonged
@@ -609,20 +599,19 @@
                      >Dresden</placeName>. That was probably the best thing. At the age of 48
                      <persName key="lili">Lile Elbe</persName> died on the 13 September 1931 at
                      <placeName key="womensClinic">“Frauenklinik”</placeName> and is buried in
-                     <placeName key="dresden">Dresden</placeName> at the <placeName key="??"
+                     <placeName key="dresden">Dresden</placeName> at the <placeName key="trinitatisCemetery"
                      >Trinitatis cemetery</placeName>. I have heard that the grave is in a state of
                   great disrepair, that is the headstone has been turned over, but I have also heard
                   that they are considering restoring it again.”</p>
-               <!--END PAGE 4-->
-               <figure facs="http://lilielbe.org/media/periodicals/Ritzau_forord_i03.jpg">
-                  <!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
+               <pb n="5"/>
+               <figure facs="http://www.lilielbe.org/media/editorials/Ritzau_forord_i03.jpg">
                   <figDesc><hi rend="italics"><persName key="wegenerG">Gerda Wegener</persName> with
                         her Italian husband <persName key="portaF">Fernando Porta</persName> –
                         called <persName key="feruzziRi">Ridolfo Feruzzi</persName> in the
                            book.<persName key="wegenerG">Gerda Wegener</persName> was considered “a
                         really phenomenal drawing talent”. She won a position in <placeName
                            key="paris">Paris</placeName> of the 20s and 30s like no other Danish
-                        artist. And as the art historian <persName key="??">Else Kai Sass</persName>
+                        artist. And as the art historian <persName key="sassEK">Else Kai Sass</persName>
                         writes: “On short visits in <placeName key="copenhagen"
                            >Copenhagen</placeName> she completely impressed her surroundings by
                         conducting herself with an elegance and a provocative Parisian chic that was
@@ -642,10 +631,8 @@
                      Porta fill the frame of the photo, which seems to be outside, and they are
                      dressed for going out.</note>
                </figure>
-               <pb n="5"/>
-               <!--END PAGE 5-->
-               <figure facs="http://lilielbe.org/media/periodicals/Ritzau_forord_i04.jpg">
-                  <!-- KEJ 2019-11-3: What do I put for the xml:id and facs?-->
+               <pb n="6"/>
+               <figure facs="http://www.lilielbe.org/media/editorials/Ritzau_forord_i04.jpg">
                   <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName>, <persName
                            key="knudsenP">Poul Knudsen</persName> and <persName key="wegenerG">Gerda
                            Wegener</persName> (right) photographed together probably in <placeName
@@ -664,10 +651,9 @@
                      Photographs. It captures Lili Elbe, Poul Knudsen and Gerda Wegener outside,
                      most likely in Berlin, dressed in coats and hats.</note>
                </figure>
-               <pb n="6"/>
-               <!--END PAGE 6-->
+               <pb n="7"/>
                <p>“From Man into Woman” stands as a transsexual bible even today. As an example, the
-                  English writer <persName key="??">Jan Morris</persName> in her autobiography
+                  English writer <persName key="morrisJ">Jan Morris</persName> in her autobiography
                   “Conundrum” mentions that the description of <persName key="sparreAn">Andreas
                      Sparre</persName>/<persName key="wegenerE">Einer Wegener</persName>’s
                   transformation into <persName key="lili">Lili Elbe</persName> affected her
@@ -697,7 +683,7 @@
                   sensational, <persName key="lili">Lili Elbe</persName> explains in a letter to the
                   said <persName key="knudsenP">Poul Knudsen</persName>:</p>
                <!-- KEJ 2019-11-2: A blank line follows this paragraph as a way of setting off a letter that is reproduced in its entirety. Should I encode this blank space? If so, how? -->
-               <p>“<placeName key="??">Lindevangen</placeName> 8-10, 22.I-31.</p>
+               <p>“<placeName key="lindevangen">Lindevangen</placeName> 8-10, 22.I-31.</p>
                <!-- KEJ 2019-11-2: A blank line follows this paragraph to set off the date from the rest of the letter. Should I encode this blank space? If so, how? -->
                <p>Dear big <persName key="knudsenP">Paul</persName>.</p>
                <p>Thank you so much for your letter.</p>
@@ -715,8 +701,7 @@
                <p>I am very pleased that <persName key="magnusE">Mr. Ervin Magnus</persName>
                   believes in the book. But I must ask you to explain the following to him:</p>
                <p>When I have not written the book as a biography it is to</p>
-               <pb n="7"/>
-               <!--END PAGE 7-->
+               <pb n="8"/>
                <p>make it clear that it is about two people <hi rend="italics"><persName
                         key="sparreAn">Andreas</persName> and <persName key="lili">Lili</persName>
                      who are not mentally connected.</hi></p>
@@ -749,11 +734,9 @@
                <p>Your poor little friend</p>
                <p><persName key="lili">Lili</persName>”</p>
                <!-- KEJ 2019-11-2: Several blank lines follow this paragraph to set off the body of the foreword from the date the foreword was written. Should I encode this blank space? If so, how? -->
-               <p><placeName key="??">Hellerup</placeName>, 20 July 1988</p>
+               <p><placeName key="hellerup">Hellerup</placeName>, 20 July 1988</p>
                <!-- KEJ 2019-11-2: A blank line follows this paragraph to set off the date from Teit Ritzau's name. Should I encode this blank space? If so, how? -->
                <p><persName key="ritzauT">Teit Ritzau</persName></p>
-               <pb n="8"/>
-               <!--END PAGE 8-->
             </div>
             <!--END FOREWORD IN ENGLISH-->
          </div>

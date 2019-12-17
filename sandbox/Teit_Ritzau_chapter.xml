@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   rendition="lilielbe.org/commentary/Editorials/TeitRitzauChapter.html"
+   xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/readingViews/input/bookSections/TeitRitzauChapter.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>"Kapitel 5: Fra køn til køn: Lili Elbe" from <hi rend="italics">Paradiset er ikke til salg: Trangen til at være begge køn</hi>
+            <title>"Fra køn til køn: Lili Elbe"<!-- from <hi rend="italics">Paradiset er ikke til salg:
+                  Trangen til at være begge køn</hi>-->
             </title>
-            <title type="alternative">"From Gender to Gender: Lili Elbe" from <hi rend="italics">Paradise is not for sale: The urge to be both genders</hi>
-<!--KEJ 2019-11-30: I translated the book subtitle because it wasn't translated in the Word document.-->      
+            <title type="alternative">"From Gender to Gender: Lili Elbe"<!-- from <hi rend="italics"
+                  >Paradise is not for sale: The urge to be both genders</hi>-->
+               <!--KEJ 2019-11-30: I translated the book subtitle because it wasn't translated in the Word document.-->
             </title>
             <author>
                <persName key="ritzauT" role="AUT">Teit Ritzau</persName>
             </author>
             <respStmt>
-            <respStmt>
-                <resp>Photographed by</resp>
-                <persName>Ashley Howdeshell</persName>
-<!--KEJ 2019-11-30: Does Ashley Howdeshell need a code?-->    
-                <persName ref="mg">Matthew Gallagher</persName>
+               <resp>Photographed by</resp>
+               <persName ref="ah">Ashley Howdeshell</persName>
+               <persName ref="mg">Matthew Gallagher</persName>
             </respStmt>
-           <respStmt>
+            <respStmt>
                <resp>Images prepared by</resp>
                <persName ref="mg">Matthew Gallagher</persName>
             </respStmt>
-            <resp>Translation completed by</resp>
+            <respStmt>
+               <resp>Translation completed by</resp>
                <persName ref="mo" role="TRL">Marianne Ølholm</persName>
             </respStmt>
             <respStmt>
@@ -44,10 +47,10 @@
                   by</resp>
                <persName ref="rjp">Rebecca J. Parker</persName>
             </respStmt>
-            <respStmt>
+            <!--<respStmt>
                <resp>HTML proofing completed by</resp>
-               <persName ref=""><!-- Insert Proofers name and initials in @ref--></persName>
-            </respStmt>
+               <persName ref=""><!-\- Insert Proofers name and initials in @ref-\-></persName>
+            </respStmt>-->
             <sponsor>Loyola University Chicago Libraries</sponsor>
             <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
          </titleStmt>
@@ -56,14 +59,15 @@
             <pubPlace>Chicago, IL, USA</pubPlace>
             <date when="2019-07-06">July 6th, 2019</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName select="source">The Royal Library</orgName>
-                  in <placeName>Copenhagen</placeName>.</p>
+               <p>Reproduced by courtesy of the <orgName select="source"><placeName
+                        key="royalLibrary">The Royal Library</placeName></orgName> in
+                     <placeName>Copenhagen</placeName>.</p>
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                   4.0 International license.</licence>
             </availability>
          </publicationStmt>
          <sourceDesc source="Codex" xml:lang="dan">
-            <p>The eight-page introduction includes photographs and excerpts from letters.</p>
+            <p>Eight and a quarter pages of a 47-page chapter, with one photograph of Einar Wegener and two photographs of Lili Elbe, and excerpts from letters by Ruth Hanna Harthern-Thaning and Lili Elvenes.</p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -75,25 +79,26 @@
                <category source="collex" xml:id="genre">
                   <catDesc>Essay</catDesc>
                </category>
-<!--KEJ 2019-11-30: The  text includes photographs, but I don't have the URL's. The ones below are for the Teit Ritzau introduction. -->
                <category source="collex" xml:id="image">
-                  <catDesc>http://lilielbe.org/media/periodicals/Ritzau_forord_i01.jpg</catDesc>
-                  <catDesc>http://lilielbe.org/media/periodicals/Ritzau_forord_i02.jpg</catDesc>
-                  <catDesc>http://lilielbe.org/media/periodicals/Ritzau_forord_i03.jpg</catDesc>
-                  <catDesc>http://lilielbe.org/media/periodicals/Ritzau_forord_i04.jpg</catDesc>
+                  <catDesc>http://lilielbe.org/media/periodicals/TeitRitzauChapter_i01.jpg</catDesc>
+                  <catDesc>http://lilielbe.org/media/periodicals/TeitRitzauChapter_i02.jpg</catDesc>
+                  <catDesc>http://lilielbe.org/media/periodicals/TeitRitzauChapter_i03.jpg</catDesc>
+                  <catDesc>http://lilielbe.org/media/periodicals/TeitRitzauChapter_i04.jpg</catDesc>
+                  <catDesc>http://lilielbe.org/media/periodicals/TeitRitzauChapter_i05.jpg</catDesc>
                </category>
                <category source="collex" xml:id="text">
-                  <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/filename.txt</catDesc>
+                  <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/TeitRitzauChapter.txt</catDesc>
                </category>
-<!--KEJ 2019-11-30: What is the URL for the xml:id="text" above? -->
                <category source="dc" xml:id="date">
                   <catDesc>1984</catDesc>
                </category>
                <category source="dcterms" xml:id="isPartOf" xml:lang="dan">
-                  <catDesc>Originally published in <hi rend="italics">Paradiset er ikke til salg: Trangen til at være begge køn</hi></catDesc>
+                  <catDesc>Originally published in <hi rend="italics">Paradiset er ikke til salg:
+                        Trangen til at være begge køn</hi></catDesc>
                </category>
                <category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
-                  <catDesc>Originally published in <hi rend="italics">Paradise is not for sale: The urge to be both genders</hi></catDesc>
+                  <catDesc><hi rend="italics">Paradise is not for sale: The
+                        urge to be both genders</hi></catDesc>
                </category>
             </taxonomy>
          </classDecl>
@@ -110,411 +115,915 @@
       <body>
          <div type="original">
             <div rend="chapter">
-<!--KEJ 2019-11-30: There is no title page information in the PDF of the chapter. -->
-<!--BEGIN CHAPTER IN DANISH-->
+               <!--KEJ 2019-11-30: There is no title page information in the PDF of the chapter. -->
+               <pb source="Title Page"
+                  facs="http://lilielbe.org/media/editorials/HertoftRitzau_ParadisetErIkkeTilSalg_01.jpg"/>
+               <pb style="page" n="82"
+                  facs="http://lilielbe.org/media/editorials/HertoftRitzau_ParadisetErIkkeTilSalg_02.jpg"/>
+               <!--BEGIN CHAPTER IN DANISH-->
                <head>KAPITEL 5</head>
                <head><hi rend="bold">Fra køn til køn</hi></head>
                <head><hi rend="italics"><persName key="lili">Lili Elbe</persName></hi></head>
-<!--KEJ 2019-12-02: The chapter heading is on three lines. I couldn't find anything in the encoding guidelines on how to handle it, and using the paragraph code was getting error messages, so I tried this instead. -->               
-               <p><persName key="hirschfeld">Magnus Hirschfeld</persName> fik en dag på instituttet i <placeName key="berlin">Berlin</placeName> 1929 besøg af det der senere blev en af hans omtalte patienter. Denne patient var dansker, og her kan man tilføje, at der mærkværdig nok er meget få internationalt kendte transsexuelle, der ikke på et eller andet tidspunkt er kommet i berøring med <placeName key="denmark">Danmark</placeName>. Patienten hed <persName key="wegenerE">Einar Wegener</persName>. Uddannet kunstmaler, og gift med den meget populære illustrator <persName key="wegenerG">
-                  Gerda Wegener</persName>. Han skabte megen blæst omkring sit navn ved at skrive den internationale bestseller: Fra Mand til Kvinde – <persName key="lili">Lili Elbe</persName>s bekendelser. Udgivet første gang på Hage &amp; Clausens Forlag, <placeName key="copenhagen">København</placeName> 1931. En bog, der i dag kun findes i et begrænset antal, da den blev et oplagt emne for “bogudrensere” specielt før og under Verdenskrig II. I bogen står der bl.a. følgende selvbiografiske beskrivelse:.</p>
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <p><anchor type="commentRangeStart" n="1"/>
-                  “<persName key="sparreAn">Andreas</persName> (<persName key="wegenerE">Einar Wegener</persName>) havde allerede i mange år været syg, og de havde søgt talløse læger og specialister, men uden resultat. Nu var han træt, og livet var blevet ham for meget.
-                  <anchor type="commentRangeEnd" n="1"/><note type="translator" source="mo"  
-                     corresp="comment_1">This is from Chapter I page 11, but the last two words are different from the version of Fra Mand til Kvinde that I have translated from.</note> 
-                  <anchor type="commentRangeStart" n="2"/>
-                    Lægerne mente, at <persName key="sparreAn">Andreas</persName> var fuldstændig forrykt. Heri ville de fleste sikkert give dem ret,
-                  <anchor type="commentRangeEnd" n="2"/><note type="translator" source="mo"  
-                     corresp="comment_2">This resembles a sentence on page 11 in Chapter I, but there it refers to the opinion of one doctor.</note> 
-                  <anchor type="commentRangeStart" n="3"/>
-                    for <persName key="sparreAn">Andreas</persName> bestod af to væsener, af en mand: <persName key="sparreAn">Andreas</persName>, og af en kvinde: <persName key="lili">Lili</persName>.</p>
-                  <anchor type="commentRangeEnd" n="3"/><note type="translator" source="mo"  
-                     corresp="comment_3">This is from Chapter 1 page 13.</note> 
-                  <anchor type="commentRangeStart" n="4"/>
-                    <p><persName key="lili">Lili</persName> var blevet <persName key="wegenerG">Gerda Wegener</persName>s 
-                       <anchor type="commentRangeStart" n="5"/>
-                          ynglingsmodel.
-                       <anchor type="commentRangeEnd" n="5"/><note type="translator" source="mo"  
-                          corresp="comment_5">This should be spelt yndlingsmodel (a very common mistake, but it should be caught in a professional text). This mistake does not exist in the version of Fra Mand til Kvinde that I have translated from.</note> 
-                     Hendes slanke alfeskikkelse vandrede gennem alle <persName key="wegenerG">Gerda</persName>s bedste arbejder. Hun var allerede blevet en type, en moderne kvindetype, skabt af en kunstners fantasi.
-                  <anchor type="commentRangeEnd" n="4"/><note type="translator" source="mo" corresp="comment_4">This is from Chapter I page 13 near the end of the chapter.</note> 
-                  <anchor type="commentRangeStart" n="6"/>
-                       I mit legeme boede to skarpt adskilte væsener, der stod fremmede og næsten fjendtlig overfor hinanden, fordi hver af dem kun havde plads for den ene.”</p>               
-                  <anchor type="commentRangeEnd" n="6"/><note type="translator" source="mo"  
-                     corresp="comment_6">I haven’t been able to find this sentence in Fra Mand til Kvinde but elements of it can be found in chapter IX, page 65 near the end.</note> 
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <p>Den danske tandlæge <persName key="???">Ellen Bækgaard</persName> der ofte boede på <placeName key="institutePsychiatry">instituttet</placeName> og havde kendt den transsexuelle <persName key="???">Dorchen</persName>, måske verdens første opererede transsexuelle, hørte historien om <persName key="wegenerE">Einar Wegener</persName> på <placeName key="institutePsychiatry">“Sexualwissenschafliches Institut”</placeName> i <placeName key="berlin">Berlin</placeName>:</p>
-<!-- KEJ 2019-12-07: There is no key in the prosopography for Ellen Bækgaard or Dorchen. -->
-<!-- KEJ 2019-12-07: Alternate spelling in Gerrman for Institute for Sexual Science needs to be added to prosopography. -->
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <p>“Da <persName key="???"></persName>Dorchen var på <placeName key="institutePsychiatry">instituttet</placeName> som stuepige, kom <persName key="wegenerE">Einar Wegener</persName> der ned, og skulle testes før han kunne få sin operation udført på <placeName key="womensClinic">“Frauenklinik”</placeName> i <placeName key="dresden">Dresden</placeName>. Men for overhovedet at operere forlangte de, at han skulle testes på <placeName key="institutePsychiatry">instituttet</placeName> hos <persName key="hirschfeld">Hirschfeld</persName> i <placeName key="berlin">Berlin</placeName>, og have en udtalelse fra ham. Det har han i øvrigt også skrevet om i sin bog.</p>
-<!-- KEJ 2019-12-07: There is no key in the prosopography for Dorchen. -->
-               <p>Han kunne ikke lide <placeName key="institutePsychiatry">instituttet</placeName>, og det vidste de godt dernede, og de vidste hvad grunden var, for der blev sagt til ham en dag, at han skulle</p>
-               <pb style="page" n="82"/>
-<!--KEJ 2019-12-02: END OF PAGE 82-->   
-               <figure xml:id="i01" facs="URL">
-                  <!-- KEJ 2019-12-3: What do I put for the facs URL?-->
-                  <figDesc><hi rend="italics"><persName key="wegenerE">Einar Wegener</persName>, foto fra bogen “Lili Elbes Bekendelser” 1931</hi></figDesc>
-                  <note source="kej"><persName key="wegenerE">Einar Wegener</persName> is dressed in a suit and holds painting materials.</note>
+               <!--KEJ 2019-12-02: The chapter heading is on three lines. I couldn't find anything in the encoding guidelines on how to handle it, and using the paragraph code was getting error messages, so I tried this instead. -->
+               <p><persName key="hirschfeld">Magnus Hirschfeld</persName> fik en dag på instituttet
+                  i <placeName key="berlin">Berlin</placeName> 1929 besøg af det der senere blev en
+                  af hans omtalte patienter. Denne patient var dansker, og her kan man tilføje, at
+                  der mærkværdig nok er meget få internationalt kendte transsexuelle, der ikke på et
+                  eller andet tidspunkt er kommet i berøring med <placeName key="denmark"
+                     >Danmark</placeName>. Patienten hed <persName key="wegenerE">Einar
+                     Wegener</persName>. Uddannet kunstmaler, og gift med den meget populære
+                  illustrator <persName key="wegenerG"> Gerda Wegener</persName>. Han skabte megen
+                  blæst omkring sit navn ved at skrive den internationale bestseller: Fra Mand til
+                  Kvinde – <persName key="lili">Lili Elbe</persName>s bekendelser. Udgivet første
+                  gang på Hage &amp; Clausens Forlag, <placeName key="copenhagen"
+                     >København</placeName> 1931. En bog, der i dag kun findes i et begrænset antal,
+                  da den blev et oplagt emne for “bogudrensere” specielt før og under Verdenskrig
+                  II. I bogen står der bl.a. følgende selvbiografiske beskrivelse:.</p>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p><anchor type="commentRangeStart" n="1"/> “<persName key="sparreAn"
+                     >Andreas</persName> (<persName key="wegenerE">Einar Wegener</persName>) havde
+                  allerede i mange år været syg, og de havde søgt talløse læger og specialister, men
+                  uden resultat. Nu var han træt, og livet var blevet ham for meget. <anchor
+                     type="commentRangeEnd" n="1"/><note type="translator" source="mo"
+                     corresp="comment_1">This is from Chapter I page 11, but the last two words are
+                     different from the version of Fra Mand til Kvinde that I have translated
+                     from.</note>
+                  <anchor type="commentRangeStart" n="2"/> Lægerne mente, at <persName
+                     key="sparreAn">Andreas</persName> var fuldstændig forrykt. Heri ville de fleste
+                  sikkert give dem ret, <anchor type="commentRangeEnd" n="2"/><note
+                     type="translator" source="mo" corresp="comment_2">This resembles a sentence on
+                     page 11 in Chapter I, but there it refers to the opinion of one doctor.</note>
+                  <anchor type="commentRangeStart" n="3"/> for <persName key="sparreAn"
+                     >Andreas</persName> bestod af to væsener, af en mand: <persName key="sparreAn"
+                     >Andreas</persName>, og af en kvinde: <persName key="lili">Lili</persName>.</p>
+               <anchor type="commentRangeEnd" n="3"/>
+               <note type="translator" source="mo" corresp="comment_3">This is from Chapter 1 page
+                  13.</note>
+               <anchor type="commentRangeStart" n="4"/>
+               <p><persName key="lili">Lili</persName> var blevet <persName key="wegenerG">Gerda
+                     Wegener</persName>s <anchor type="commentRangeStart" n="5"/> ynglingsmodel.
+                     <anchor type="commentRangeEnd" n="5"/><note type="translator" source="mo"
+                     corresp="comment_5">This should be spelt yndlingsmodel (a very common mistake,
+                     but it should be caught in a professional text). This mistake does not exist in
+                     the version of Fra Mand til Kvinde that I have translated from.</note> Hendes
+                  slanke alfeskikkelse vandrede gennem alle <persName key="wegenerG"
+                     >Gerda</persName>s bedste arbejder. Hun var allerede blevet en type, en moderne
+                  kvindetype, skabt af en kunstners fantasi. <anchor type="commentRangeEnd" n="4"
+                     /><note type="translator" source="mo" corresp="comment_4">This is from Chapter
+                     I page 13 near the end of the chapter.</note>
+                  <anchor type="commentRangeStart" n="6"/> I mit legeme boede to skarpt adskilte
+                  væsener, der stod fremmede og næsten fjendtlig overfor hinanden, fordi hver af dem
+                  kun havde plads for den ene.”</p>
+               <anchor type="commentRangeEnd" n="6"/>
+               <note type="translator" source="mo" corresp="comment_6">I haven’t been able to find
+                  this sentence in Fra Mand til Kvinde but elements of it can be found in chapter
+                  IX, page 65 near the end.</note>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p>Den danske tandlæge <persName key="bækgaardE">Ellen Bækgaard</persName> der ofte
+                  boede på <placeName key="institutePsychiatry">instituttet</placeName> og havde
+                  kendt den transsexuelle <persName key="richterD">Dorchen</persName>, måske verdens
+                  første opererede transsexuelle, hørte historien om <persName key="wegenerE">Einar
+                     Wegener</persName> på <placeName key="institutePsychiatry"
+                     >“Sexualwissenschafliches Institut”</placeName> i <placeName key="berlin"
+                     >Berlin</placeName>:</p>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p>“Da <persName key="richterD">Dorchen</persName> var på <placeName
+                     key="institutePsychiatry">instituttet</placeName> som stuepige, kom <persName
+                     key="wegenerE">Einar Wegener</persName> der ned, og skulle testes før han kunne
+                  få sin operation udført på <placeName key="womensClinic"
+                     >“Frauenklinik”</placeName> i <placeName key="dresden">Dresden</placeName>. Men
+                  for overhovedet at operere forlangte de, at han skulle testes på <placeName
+                     key="institutePsychiatry">instituttet</placeName> hos <persName
+                     key="hirschfeld">Hirschfeld</persName> i <placeName key="berlin"
+                     >Berlin</placeName>, og have en udtalelse fra ham. Det har han i øvrigt også
+                  skrevet om i sin bog.</p>
+               <p>Han kunne ikke lide <placeName key="institutePsychiatry">instituttet</placeName>,
+                  og det vidste de godt dernede, og de vidste hvad grunden var, for der blev sagt
+                  til ham en dag, at han skulle</p>
+               <pb style="page" n="83"
+                  facs="http://lilielbe.org/media/editorials/HertoftRitzau_ParadisetErIkkeTilSalg_03.jpg"/>
+               <!--KEJ 2019-12-02: END OF PAGE 82-->
+               <figure xml:id="i01"
+                  facs="http://www.lilielbe.org/media/editorials/TeitRitzauChapter_i01.jpg">
+                  <figDesc><hi rend="italics"><persName key="wegenerE">Einar Wegener</persName>,
+                        foto fra bogen “Lili Elbes Bekendelser” 1931</hi></figDesc>
+                  <note source="kej"><persName key="wegenerE">Einar Wegener</persName> is dressed in
+                     a suit and holds painting materials.</note>
                </figure>
-               <figure xml:id="i02" facs="URL">
-                  <!-- KEJ 2019-12-3: What do I put for the facs URL?-->
-                  <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName>, fra bogen “Lili Elbes Bekendelser” 1931</hi></figDesc>
-                  <note source="kej"><persName key="lili">Lili Elbe</persName> is outside, sitting on a chair or bench and reading a book./note>
-               </figure>   
-<!--KEJ 2019-12-04: Photo captions are formatted as a second column to the right of the text. Should I encode for this? -->   
-               <p>lægge mærke til <persName key="???">Dorchen</persName>, for <persName key="???">Dorchen</persName> havde fået lavet den operation han gerne ville have lavet nu. Og det passede jo bestemt ikke maleren at blive sammenlignet med <persName key="???">Dorchen</persName> – en stuepige!”</p>
-<!-- KEJ 2019-12-07: There is no key in the prosopography for Dorchen. -->
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
-                <p>Og ganske rigtigt, det passede ikke <persName key="wegenerE">Einar Wegener</persName> at blive sammenlignet med <persName key="???s">Dorchen</persName>, eller som han selv skriver i sin bog: “Han følte et moralsk ubehag”:</p>
-<!-- KEJ 2019-12-07: There is no key in the prosopography for Dorchen. -->
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
-               <p>“Deres Ven” … Disse ord fik <persName key="sparreAn">'Andreas’</persName> (<persName key="wegenerE">Einar Wegener</persName>) hjerte til at banke, og da han lidt efter befandt sig i <persName key="hardenfeld">Professor Hardenfelds</persName> (<persName key="hirschfeld">Hirschfeld</persName>) imponerende <placeName key="institutePsychiatry">institut for Seksualforskning</placeName>, gentog han dem for sig selv – ellers havde han ganske sikkert tabt modet … Hvad har jeg her at gøre? Han følte et moralsk Ubehag ved det store Rum, som mere gjorde Indtryk af at være en Klub for seksuelt Abnorme: Kvinder, der saa ud som forklædte Mænd, og Mænd, om hvem man havde ondt ved at tro, at de virkelig var Mænd … Den Maade, hvorpaa disse Mennesker underholdt sig med hinanden, deres Bevægelser, deres Stemmer, deres Paaklædning, alt bød ham inderligt imod …</p>
-               <p>Endelig indfandt <persName key="hardenfeld">Professor Hardenfeld</persName> sig og førte ham ind i sit Arbejds-</p>
-               <pb style="page" n="83"/>
-<!--KEJ 2019-12-03: END OF PAGE 83-->          
-               <p>værelse, hvor han underkastede ham et timelangt Forhør. Det var en ubarmhjertig Inkvisition, en sjælelig Tortur for <persName key="sparreAn">Andreas</persName> (<persName key="wegenerE">Einar Wegener</persName>) … men det var vel nødvendigt. Da det var overstaaet, blev han affærdiget ganske kort: “I Morgen, samme Tid.”</p>
-<!-- KEJ 2019-12-07: There is no key in the prosopography for Jan Morris. -->
-               <p>Bogen om <persName key="lili">Lili Elbe</persName> står den dag i dag som en slags transsexuel bibel. Fx nævner den engelske forfatter <persName key="???">Jan Morris</persName> i sin selvbiografi “Conundrum”, at bogen om <persName key="lili">Lili Elbe</persName> var en medvirkende grund til hans eget ønske om en kønsskifteoperation. Bogen er nok lidt hysterisk i form og indhold, et forhold jeg fik bedre belyst, da jeg ved et tilfælde fandt <persName key="wegenerE">Einar Wegener</persName>s / <persName key="lili">Lili Elbe</persName>s helt ukendte breve på <placeName key="???">Det Kgl. Bibliotek</placeName>.</p>
-<!-- KEJ 2019-12-07: There is no key in the prosopography for Det Kgl. Bibliotek / Royal Library. -->
-               <p>Brevene er til en bogforlægger og skrevet i 1931 kort før hans død. De indeholder en række kommentarer til “transformationen”:</p>
-               <p>“Det store Mirakel er, at hun (<persName key="lili">Lili Elbe</persName>) føler sig nyskabt – ren og jomfruelig – og absolut ikke sjæleligt et Mandfolk, der er blevet til et Pigebarn!!!”</p>
-               <p>Og senere i samme brev et citat der ikke vil falde i god jord hos mange af de kvinder, han ellers ikke var bange for at sammenligne sig selv med:</p>
-               <p>““Jeg (Lili Elbe) ønsker netop at få frem, at jeg er koket, sorgløs, overfladisk og pjanket – og det har været mig om at faa frem, at hvad der er kunstnerisk, af Livsvisdom og alvorlig mandlig Viden, kommer fra <persName key="sparreAn">Andreas</persName> (<persName key="wegenerE">Einar Wegener</persName>), en rar Kunstner og et honnet Mandfolk, medens min indsats er en vis letbenet og tøset Filosofi! (Du ser, der er i Virkeligheden en Nedskrivning af Aktiverne).”</p>
+               <figure xml:id="i02"
+                  facs="http://www.lilielbe.org/media/editorials/TeitRitzauChapter_i02.jpg">
+                  <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName>, fra bogen
+                        “Lili Elbes Bekendelser” 1931</hi></figDesc>
+                  <note source="kej"><persName key="lili">Lili Elbe</persName> is outside, sitting
+                     on a chair or bench and reading a book.</note>
+               </figure>
+               <p>lægge mærke til <persName key="richterD">Dorchen</persName>, for <persName
+                     key="richterD">Dorchen</persName> havde fået lavet den operation han gerne
+                  ville have lavet nu. Og det passede jo bestemt ikke maleren at blive sammenlignet
+                  med <persName key="richterD">Dorchen</persName> – en stuepige!”</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>Og ganske rigtigt, det passede ikke <persName key="wegenerE">Einar
+                     Wegener</persName> at blive sammenlignet med <persName key="richterD"
+                     >Dorchen</persName>, eller som han selv skriver i sin bog: “Han følte et
+                  moralsk ubehag”:</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>“Deres Ven” … Disse ord fik <persName key="sparreAn">'Andreas’</persName>
+                     (<persName key="wegenerE">Einar Wegener</persName>) hjerte til at banke, og da
+                  han lidt efter befandt sig i <persName key="hardenfeld">Professor
+                     Hardenfelds</persName> (<persName key="hirschfeld">Hirschfeld</persName>)
+                  imponerende <placeName key="institutePsychiatry">institut for
+                     Seksualforskning</placeName>, gentog han dem for sig selv – ellers havde han
+                  ganske sikkert tabt modet … Hvad har jeg her at gøre? Han følte et moralsk Ubehag
+                  ved det store Rum, som mere gjorde Indtryk af at være en Klub for seksuelt
+                  Abnorme: Kvinder, der saa ud som forklædte Mænd, og Mænd, om hvem man havde ondt
+                  ved at tro, at de virkelig var Mænd … Den Maade, hvorpaa disse Mennesker
+                  underholdt sig med hinanden, deres Bevægelser, deres Stemmer, deres Paaklædning,
+                  alt bød ham inderligt imod …</p>
+               <p>Endelig indfandt <persName key="hardenfeld">Professor Hardenfeld</persName> sig og
+                  førte ham ind i sit Arbejds-</p>
+               <pb style="page" n="84"
+                  facs="http://lilielbe.org/media/editorials/HertoftRitzau_ParadisetErIkkeTilSalg_04.jpg"/>
+               <!--KEJ 2019-12-03: END OF PAGE 83-->
+               <p>værelse, hvor han underkastede ham et timelangt Forhør. Det var en ubarmhjertig
+                  Inkvisition, en sjælelig Tortur for <persName key="sparreAn">Andreas</persName>
+                     (<persName key="wegenerE">Einar Wegener</persName>) … men det var vel
+                  nødvendigt. Da det var overstaaet, blev han affærdiget ganske kort: “I Morgen,
+                  samme Tid.”</p>
+               <p>Bogen om <persName key="lili">Lili Elbe</persName> står den dag i dag som en slags
+                  transsexuel bibel. Fx nævner den engelske forfatter <persName key="morrisJ">Jan
+                     Morris</persName> i sin selvbiografi “Conundrum”, at bogen om <persName
+                     key="lili">Lili Elbe</persName> var en medvirkende grund til hans eget ønske om
+                  en kønsskifteoperation. Bogen er nok lidt hysterisk i form og indhold, et forhold
+                  jeg fik bedre belyst, da jeg ved et tilfælde fandt <persName key="wegenerE">Einar
+                     Wegener</persName>s / <persName key="lili">Lili Elbe</persName>s helt ukendte
+                  breve på <placeName key="royalLibrary">Det Kgl. Bibliotek</placeName>.</p>
+               <p>Brevene er til en bogforlægger og skrevet i 1931 kort før hans død. De indeholder
+                  en række kommentarer til “transformationen”:</p>
+               <p>“Det store Mirakel er, at hun (<persName key="lili">Lili Elbe</persName>) føler
+                  sig nyskabt – ren og jomfruelig – og absolut ikke sjæleligt et Mandfolk, der er
+                  blevet til et Pigebarn!!!”</p>
+               <p>Og senere i samme brev et citat der ikke vil falde i god jord hos mange af de
+                  kvinder, han ellers ikke var bange for at sammenligne sig selv med:</p>
+               <p>““Jeg (Lili Elbe) ønsker netop at få frem, at jeg er koket, sorgløs, overfladisk
+                  og pjanket – og det har været mig om at faa frem, at hvad der er kunstnerisk, af
+                  Livsvisdom og alvorlig mandlig Viden, kommer fra <persName key="sparreAn"
+                     >Andreas</persName> (<persName key="wegenerE">Einar Wegener</persName>), en rar
+                  Kunstner og et honnet Mandfolk, medens min indsats er en vis letbenet og tøset
+                  Filosofi! (Du ser, der er i Virkeligheden en Nedskrivning af Aktiverne).”</p>
                <p>Der er økonomi bag meget, og at det også er tilfældet her fremgår af følgende:</p>
-               <p>“Kære <persName key="knudsenP">Poul</persName>, jeg ejer nu lidt over 75 Kr. Saa Penge begynder at interessere mig. Der skal noget til de daglige Silkestømper.”</p>
-               <p>Det kan ikke undre, at der også fulgte en social deroute efter operationen på “<placeName key="womensClinic">Frauenklinik</placeName>” i <placeName key="dresden">Dresden</placeName>. <persName key="lili">Lili Elbe</persName> brugte for resten <persName key="lili">Elbe</persName> som efternavn, fordi floden <placeName key="elbeRiver">Die Elbe</placeName> passerer <placeName key="dresden">Dresden</placeName>.</p>
-               <p>Der er mange dunkle og uoplyste sider omkring maleren <persName key="wegenerE">Einar Wegener</persName>s transformation til <persName key="lili">Lili Elbe</persName>. En af de mest overraskende er nok, at <persName key="lili">Lili Elbe</persName> ikke skrev bogen om sig selv. Eller rettere sagt; hun gjorde det indirekte.</p>
-               <p>Bogen har et forord af en person med navnet <persName key="hoyerNiels">Niels Hoyer</persName>. Problemet er blot, at der aldrig har eksisteret nogen <persName key="hoyerNiels">Niels Hoyer</persName>. Bag dette navn skjuler der sig en tysk flygtning – <persName key="harthernE">Ernst Harthern</persName>. Han var i 1931 flygtet til <placeName key="denmark">Danmark</placeName> som følge af Nazisternes forfølgelser. Det var ham der skrev, eller rettere sagt redigerede, teksten om <persName key="lili">Lili Elbe</persName>. Denne oplysning blev verificeret, da hans datter fru <persName key="???">Ruth Hanna Harthern-Thanning</persName> skrev et langt brev til mig, hvor hun redegør for de nærmere omstændigheder omkring bogens</p>
-<!-- KEJ 2019-12-07: There is no key in the prosopography for Ruth Hanna Harthern-Thanning. -->
-               <pb style="page" n="84"/>
-<!--KEJ 2019-12-03: END OF PAGE 84-->                        
-               <figure xml:id="i03" facs="URL">
-<!-- KEJ 2019-12-3: What do I put for the facs URL?-->
-                  <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName> umiddelbart før rejsen til <placeName key="dresden">Dresden</placeName>, hvor hun døde i 1931. Pressefoto</hi></figDesc>
-                  <note source="kej"><persName key="lili">Lili Elbe</persName> stands outside with hands clasped in front and is dressed in a skir, shirt, hat, and dress shoes.</note>
-               </figure>                
-               <p>tilblivelse. Det gør ikke sagen mindre spændende, at hun fik et personligt og tæt forhold til <persName key="lili">Lili Elbe</persName>:</p>
-               <p>“Det var min far, <persName key="harthernE">Ernst Harthern</persName>, an den sich <persName key="lili">Lili Elbe</persName> wendete denn <persName key="harthernE">mein Vater</persName> … (, som <persName key="lili">Lili Elbe</persName> henvendte sig til, for <persName key="harthernE">min far</persName>) … var tysk korrespondent i <placeName key="denmark">Danmark</placeName> for Scherl-forlaget. Jeg var dengang 16 år gammel</p>
-               <pb style="page" n="85"/>
-<!--KEJ 2019-12-03: END OF PAGE 85-->
-<!--KEJ 2019-12-07: I coded "mein Vater" as Harthern. Is that correct? -->                 
-<!--KEJ 2019-12-04: Photo caption is formatted as a second column to the right of the photo. Should I encode for this? -->   
-               <p>og husker den dag i foråret 1931, da jeg desværre ikke mere kunne vende tilbage til min elskede skole i <placeName key="???">Stade</placeName> ved <placeName key="???">Hamburg</placeName>, for forholdene tillod det ikke, på grund af en vis <persName key="???">Adolf</persName>. Ikke mange dage efter kom min far ind i mit værelse, og det lykkedes ham endnu engang at fortælle mig noget mærkværdigt: Om lidt kommer der en dame, der engang var en mand … Da kimede dørklokken. Jeg løb straks tilbage til mit værelse. Jeg hørte en dyb stemme der lignede 
-               <anchor type="commentRangeStart" n="19"/>
-                  <persName key="???">Sarah Leanders</persName>.</p>
-               <anchor type="commentRangeEnd" n="19"/><note type="editor" source="plc"  
-                  corresp="comment_19">Ruth may be misremembering the name, or the translator made that change from Zarah to Sarah, but the person most likely is Zarah Leander (1907-1981), a Swedish singer popular in Nazi Germany.</note> 
-<!-- KEJ 2019-12-07: There is no key in the prosopography for Stade or for Hamburg or for Adolf Hitler or for Sarah Leanders. -->
-               <p>Tilsidst måtte jeg sidde med ved middagsbordet i spisestuen sammen med de andre. Ja, det var ikke hendes ydre fremtoning (ræverødt hår, knaldrøde negle og mund). Nej, det var hendes ganske væsen … hun var en ægte kvinde. For jeg havde ikke kendt hende som mand. Det blev aftalt (<persName key="lili">Lili Elbe</persName> følte sig meget ensom, forstod jeg), at jeg skulle lære at male hos hende. Det var Pinse næste dag. Næste morgen forlod jeg vores bolig i <placeName key="???">Havnegade 47</placeName>. Let om hjertet gik jeg gennem den solbeskinnede <placeName key="???">Nyhavn</placeName> til <placeName key="nytorv">Kongens Nytorv</placeName>, og kørte videre med sporvogn til Valby, hvor denne <persName key="lili">Elbe</persName> havde søgt ly i en kvistlejlighed hos pæne mennesker i en pæn villa. Hun havde allerede sat et staffeli frem, hvorpå der var placeret et færdigstrukket lærred, desuden var der farve, og hvad der ellers hørte til at male.</p>               
-<!-- KEJ 2019-12-07: There is no key in the prosopography for Havnegade or for Nyhavn. -->
-               <p>På de få dage i hendes liv blev det til et selvportræt og to stilleben. Det var sikkert også af andre grunde, at hun lod mig komme indenfor, thi det arme menneske havde forelsket sig stærkt i sin velgører: Professoren fra <placeName key="womensClinic">“Frauenklinik”</placeName> i <placeName key="dresden">Dresden</placeName>.</p>
-               <p>Frygtelig sørgeligt. Det var godt, at jeg allerede dengang så klart forstod, at man ikke kan sende sådanne breve. Hvad <persName key="warnekros">denne læge</persName> havde gjort med den operation var måske slet ikke så godt for dette ulykkelige menneske. Hun havde en evig kamp med sig selv.</p>
-               <p>Jeg skammede mig, troede hun, når jeg oversatte hendes kærlighedsbreve til ham fra dansk til tysk. I virkeligheden ændrede jeg dem til kun at være venlige takkebreve. Naturligvis måtte det være ubehageligt for <persName key="warnekros">lægen</persName>. Det blev ikke til mange breve.</p>
-               <p>Pludselig bad hun mig om ikke at komme mere. <persName key="lili">Lili Elbe</persName> var pludselig rejst til <placeName key="dresden">Dresden</placeName>. Det var vel det bedste. 48 år gammel døde <persName key="lili">Lili Elbe</persName> den 13.9.31 på “<placeName key="womensClinic">Frauenklinik</placeName>” og er begravet i <placeName key="dresden">Dresden</placeName> på <placeName key="???">Trinitatiskirkegården</placeName>. Jeg har hørt, at graven er meget forfalden, gravstenen er nemlig væltet, men jeg har også hørt, at man tænker på at sætte den i stand igen.</p>
-<!-- KEJ 2019-12-08: There is no key in the prosopography for Trinitatiskirkegården / Trinitatis cemetery. -->
-               <p>Hun var et hjertensgodt menneske. Sagde man f.eks.: “Jeg synes godt om Deres halskæde”. Straks ville hun skænke smykket til én, men naturligvis afviste man tilbuddet. Eller: “Gå hen til bageren, og køb en borgmesterstang”. Hvorefter hun serverede hvidvin. Så kunne jeg godt blive ganske svimmel. Hun var en boheme, men samtidigt et kært menneske.</p>
-               <p>Min ældre søster har mit selvportræt (af <persName key="lili">Lili Elbe</persName>) hængende på den bedste plads i en guldramme. Jeg kendte <persName key="???">Lili Elbes søster</persName>, og hun fortalte mig, at <persName key="wegenerE">Einar Wegener</persName> havde været en rigtig dreng, og aldrig havde leget med dukker. Hun var adskillige år ældre. <persName key="harthernE">Min far</persName> skrev bogen efter Lilis optegnelser, hun så aldrig den færdige bog.</p>
-<!-- KEJ 2019-12-08: There is no key in the prosopography for Christiane Wegener Thomsen, noted here as "Lili Elbes søster. -->
-               <p>Undskyld dette lange brev             <hi rend="italics"><persName key="???"></persName>Ruth Hanna Harthern-Thaning</hi>.”</p>
-<!-- KEJ 2019-12-08: There is no key in the prosopography for Ruth Hanna Harthern-Thaning. -->
-<!-- KEJ 2019-12-04: In the PDF of the chapter, there is a gap of space between the closing salutation and the name of the letter writer. I looked in the encoding guidelines and couldn't find a way to encode that space, so I just used the space key. -->
-               <pb style="page" n="86"/>
-<!--KEJ 2019-12-04: END OF PAGE 86-->  
-               <p>De sidste sider i bogen er en rystende, men samtidig en noget sentimental beskrivelse af en dødskamp:</p>      
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <p>“… Jeg kan ikke skrive noget om min sidste Operation – det var en Afgrund af Lidelser, godt at <persName key="wegenerG">Gerda</persName> intet vidste.”</p>
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <p>Og dog, <persName key="wegenerG">Gerda Wegener</persName> vidste nok mere end <persName key="lili">Lili Elbe</persName> antyder her. Hun havde året før giftet sig med <persName key="portaF">en italiener</persName>, og skrev i 1932 hjem til <placeName key="denmark">Danmark</placeName>, fra <placeName key="???">Casablanca</placeName> hvor hun og hendes <persName key="portaF">nye mand</persName> havde bosat sig, til den føromtalte forlægger: </p>              
-<!-- KEJ 2019-12-08: There is no key in the prosopography for Casablanca. -->
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p>“Kære <persName key="knudsenP">Poul</persName>, jeg ejer nu lidt over 75 Kr. Saa
+                  Penge begynder at interessere mig. Der skal noget til de daglige
+                  Silkestømper.”</p>
+               <p>Det kan ikke undre, at der også fulgte en social deroute efter operationen på
+                     “<placeName key="womensClinic">Frauenklinik</placeName>” i <placeName
+                     key="dresden">Dresden</placeName>. <persName key="lili">Lili Elbe</persName>
+                  brugte for resten <persName key="lili">Elbe</persName> som efternavn, fordi floden
+                     <placeName key="elbeRiver">Die Elbe</placeName> passerer <placeName
+                     key="dresden">Dresden</placeName>.</p>
+               <p>Der er mange dunkle og uoplyste sider omkring maleren <persName key="wegenerE"
+                     >Einar Wegener</persName>s transformation til <persName key="lili">Lili
+                     Elbe</persName>. En af de mest overraskende er nok, at <persName key="lili"
+                     >Lili Elbe</persName> ikke skrev bogen om sig selv. Eller rettere sagt; hun
+                  gjorde det indirekte.</p>
+               <p>Bogen har et forord af en person med navnet <persName key="hoyerNiels">Niels
+                     Hoyer</persName>. Problemet er blot, at der aldrig har eksisteret nogen
+                     <persName key="hoyerNiels">Niels Hoyer</persName>. Bag dette navn skjuler der
+                  sig en tysk flygtning – <persName key="harthernE">Ernst Harthern</persName>. Han
+                  var i 1931 flygtet til <placeName key="denmark">Danmark</placeName> som følge af
+                  Nazisternes forfølgelser. Det var ham der skrev, eller rettere sagt redigerede,
+                  teksten om <persName key="lili">Lili Elbe</persName>. Denne oplysning blev
+                  verificeret, da hans datter fru <persName key="harthernRuth">Ruth Hanna
+                     Harthern-Thanning</persName> skrev et langt brev til mig, hvor hun redegør for
+                  de nærmere omstændigheder omkring bogens</p>
+               <pb style="page" n="85"
+                  facs="http://lilielbe.org/media/editorials/HertoftRitzau_ParadisetErIkkeTilSalg_05.jpg"/>
+               <!--KEJ 2019-12-03: END OF PAGE 84-->
+               <figure xml:id="i03"
+                  facs="http://www.lilielbe.org/media/editorials/TeitRitzauChapter_i03.jpg">
+                  <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName> umiddelbart
+                        før rejsen til <placeName key="dresden">Dresden</placeName>, hvor hun døde i
+                        1931. Pressefoto</hi></figDesc>
+                  <note source="kej"><persName key="lili">Lili Elbe</persName> stands outside with
+                     hands clasped in front and is dressed in a skir, shirt, hat, and dress
+                     shoes.</note>
+               </figure>
+               <p>tilblivelse. Det gør ikke sagen mindre spændende, at hun fik et personligt og tæt
+                  forhold til <persName key="lili">Lili Elbe</persName>:</p>
+               <p>“Det var min far, <persName key="harthernE">Ernst Harthern</persName>, an den sich
+                     <persName key="lili">Lili Elbe</persName> wendete denn <persName
+                     key="harthernE">mein Vater</persName> … (, som <persName key="lili">Lili
+                     Elbe</persName> henvendte sig til, for <persName key="harthernE">min
+                     far</persName>) … var tysk korrespondent i <placeName key="denmark"
+                     >Danmark</placeName> for Scherl-forlaget. Jeg var dengang 16 år gammel</p>
+               <pb style="page" n="86"
+                  facs="http://lilielbe.org/media/editorials/HertoftRitzau_ParadisetErIkkeTilSalg_06.jpg"/>
+               <!--KEJ 2019-12-03: END OF PAGE 85-->
+               <!--KEJ 2019-12-07: I coded "mein Vater" as Harthern. Is that correct? -->
+               <p>og husker den dag i foråret 1931, da jeg desværre ikke mere kunne vende tilbage
+                  til min elskede skole i <placeName key="stade">Stade</placeName> ved <placeName
+                     key="hamburg">Hamburg</placeName>, for forholdene tillod det ikke, på grund af
+                  en vis <persName key="hitler">Adolf</persName>. Ikke mange dage efter kom min far
+                  ind i mit værelse, og det lykkedes ham endnu engang at fortælle mig noget
+                  mærkværdigt: Om lidt kommer der en dame, der engang var en mand … Da kimede
+                  dørklokken. Jeg løb straks tilbage til mit værelse. Jeg hørte en dyb stemme der
+                  lignede <anchor type="commentRangeStart" n="19"/>
+                  <persName key="leander">Sarah Leanders</persName>.</p>
+               <anchor type="commentRangeEnd" n="19"/>
+               <note type="editor" source="plc" corresp="comment_19">Ruth may be misremembering the
+                  name, or the translator made that change from Zarah to Sarah, but the person most
+                  likely is Zarah Leander (1907-1981), a Swedish singer popular in Nazi
+                  Germany.</note>
+               <p>Tilsidst måtte jeg sidde med ved middagsbordet i spisestuen sammen med de andre.
+                  Ja, det var ikke hendes ydre fremtoning (ræverødt hår, knaldrøde negle og mund).
+                  Nej, det var hendes ganske væsen … hun var en ægte kvinde. For jeg havde ikke
+                  kendt hende som mand. Det blev aftalt (<persName key="lili">Lili Elbe</persName>
+                  følte sig meget ensom, forstod jeg), at jeg skulle lære at male hos hende. Det var
+                  Pinse næste dag. Næste morgen forlod jeg vores bolig i <placeName key="havnegade"
+                     >Havnegade</placeName> 47. Let om hjertet gik jeg gennem den solbeskinnede
+                     <placeName key="nyhavn">Nyhavn</placeName> til <placeName key="kongensNytorv"
+                     >Kongens Nytorv</placeName>, og kørte videre med sporvogn til Valby, hvor denne
+                     <persName key="lili">Elbe</persName> havde søgt ly i en kvistlejlighed hos pæne
+                  mennesker i en pæn villa. Hun havde allerede sat et staffeli frem, hvorpå der var
+                  placeret et færdigstrukket lærred, desuden var der farve, og hvad der ellers hørte
+                  til at male.</p>
+               <p>På de få dage i hendes liv blev det til et selvportræt og to stilleben. Det var
+                  sikkert også af andre grunde, at hun lod mig komme indenfor, thi det arme menneske
+                  havde forelsket sig stærkt i sin velgører: Professoren fra <placeName
+                     key="womensClinic">“Frauenklinik”</placeName> i <placeName key="dresden"
+                     >Dresden</placeName>.</p>
+               <p>Frygtelig sørgeligt. Det var godt, at jeg allerede dengang så klart forstod, at
+                  man ikke kan sende sådanne breve. Hvad <persName key="warnekros">denne
+                     læge</persName> havde gjort med den operation var måske slet ikke så godt for
+                  dette ulykkelige menneske. Hun havde en evig kamp med sig selv.</p>
+               <p>Jeg skammede mig, troede hun, når jeg oversatte hendes kærlighedsbreve til ham fra
+                  dansk til tysk. I virkeligheden ændrede jeg dem til kun at være venlige
+                  takkebreve. Naturligvis måtte det være ubehageligt for <persName key="warnekros"
+                     >lægen</persName>. Det blev ikke til mange breve.</p>
+               <p>Pludselig bad hun mig om ikke at komme mere. <persName key="lili">Lili
+                     Elbe</persName> var pludselig rejst til <placeName key="dresden"
+                     >Dresden</placeName>. Det var vel det bedste. 48 år gammel døde <persName
+                     key="lili">Lili Elbe</persName> den 13.9.31 på “<placeName key="womensClinic"
+                     >Frauenklinik</placeName>” og er begravet i <placeName key="dresden"
+                     >Dresden</placeName> på <placeName key="trinitatisCemetery"
+                     >Trinitatiskirkegården</placeName>. Jeg har hørt, at graven er meget forfalden,
+                  gravstenen er nemlig væltet, men jeg har også hørt, at man tænker på at sætte den
+                  i stand igen.</p>
+               <p>Hun var et hjertensgodt menneske. Sagde man f.eks.: “Jeg synes godt om Deres
+                  halskæde”. Straks ville hun skænke smykket til én, men naturligvis afviste man
+                  tilbuddet. Eller: “Gå hen til bageren, og køb en borgmesterstang”. Hvorefter hun
+                  serverede hvidvin. Så kunne jeg godt blive ganske svimmel. Hun var en boheme, men
+                  samtidigt et kært menneske.</p>
+               <p>Min ældre søster har mit selvportræt (af <persName key="lili">Lili
+                  Elbe</persName>) hængende på den bedste plads i en guldramme. Jeg kendte <persName
+                     key="thomsenCW">Lili Elbes søster</persName>, og hun fortalte mig, at <persName
+                     key="wegenerE">Einar Wegener</persName> havde været en rigtig dreng, og aldrig
+                  havde leget med dukker. Hun var adskillige år ældre. <persName key="harthernE">Min
+                     far</persName> skrev bogen efter Lilis optegnelser, hun så aldrig den færdige
+                  bog.</p>
+               <p>Undskyld dette lange brev</p>
+               <p><hi rend="italics"><persName key="harthernRuth">Ruth Hanna
+                        Harthern-Thaning</persName></hi>.”</p>
+               <!-- KEJ 2019-12-04: In the PDF of the chapter, there is a gap of space between the closing salutation and the name of the letter writer. I looked in the encoding guidelines and couldn't find a way to encode that space, so I just used the space key. -->
+               <pb style="page" n="87"
+                  facs="http://lilielbe.org/media/editorials/HertoftRitzau_ParadisetErIkkeTilSalg_07.jpg"/>
+               <!--KEJ 2019-12-04: END OF PAGE 86-->
+               <p>De sidste sider i bogen er en rystende, men samtidig en noget sentimental
+                  beskrivelse af en dødskamp:</p>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p>“… Jeg kan ikke skrive noget om min sidste Operation – det var en Afgrund af
+                  Lidelser, godt at <persName key="wegenerG">Gerda</persName> intet vidste.”</p>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p>Og dog, <persName key="wegenerG">Gerda Wegener</persName> vidste nok mere end
+                     <persName key="lili">Lili Elbe</persName> antyder her. Hun havde året før
+                  giftet sig med <persName key="portaF">en italiener</persName>, og skrev i 1932
+                  hjem til <placeName key="denmark">Danmark</placeName>, fra <placeName
+                     key="casablanca">Casablanca</placeName> hvor hun og hendes <persName
+                     key="portaF">nye mand</persName> havde bosat sig, til den føromtalte
+                  forlægger:</p>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
                <p>“<placeName key="marrakech">Marrakech</placeName> 11.9 1933</p>
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
                <p>Kære <persName key="knudsenP">Poul</persName>,</p>
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <p>… Du som ved, hvor højt jeg elskede min <persName key="lili">Lili</persName>, vil bedre end de fleste forstaa, hvor stærkt jeg føler mig 
-                  <anchor type="commentRangeStart" n="7"/>
-                  attacheut               
-               <anchor type="commentRangeEnd" n="7"/><note type="translator" source="mo"  
-                  corresp="comment_7">This looks strange (attacheret would make sense).</note> 
-                  til dem, der var gode mod hende. Du hører jo også til dem, kære <persName key="knudsenP">Poul</persName>! – Imorgen, den 12te er det to Aar siden jeg mistede hende. Jeg er endnu aldrig kommet over det! – Jeg har ellers den sødeste og skønneste – Mand på denne Jord.”</p>
-<!-- KEJ 2019-12-08: Is the coding of Porta above correct? -->
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <p>Dette brev, som også findes i <placeName key="???">Det Kgl. Biblioteks Håndskriftsafdeling</placeName>, vidner om <persName key="wegenerG">Gerda Wegener</persName>s kendskab til den sidste del af <persName key="lili">Lili Elbe</persName>s liv. Men også hun ville have del i den succes <persName key="lili">Lili Elbe</persName>s bog opnåede. Det fik hun ikke, specielt ikke økonomisk, hvad hun også giver udtryk for i et brev til <persName key="knudsenP">Poul Knudsen</persName>:</p>
-<!-- KEJ 2019-12-08: There is no key in the prosopography for Det Kgl. Biblioteks Håndskriftsafdeling. -->
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p>… Du som ved, hvor højt jeg elskede min <persName key="lili">Lili</persName>, vil
+                  bedre end de fleste forstaa, hvor stærkt jeg føler mig <anchor
+                     type="commentRangeStart" n="7"/> attacheut <anchor type="commentRangeEnd" n="7"
+                     /><note type="translator" source="mo" corresp="comment_7">This looks strange
+                     (attacheret would make sense).</note> til dem, der var gode mod hende. Du hører
+                  jo også til dem, kære <persName key="knudsenP">Poul</persName>! – Imorgen, den
+                  12te er det to Aar siden jeg mistede hende. Jeg er endnu aldrig kommet over det! –
+                  Jeg har ellers den sødeste og skønneste – Mand på denne Jord.”</p>
+               <!-- KEJ 2019-12-08: Is the coding of Porta above correct? -->
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p>Dette brev, som også findes i <placeName key="royalLibrary">Det Kgl. Biblioteks
+                     Håndskriftsafdeling</placeName>, vidner om <persName key="wegenerG">Gerda
+                     Wegener</persName>s kendskab til den sidste del af <persName key="lili">Lili
+                     Elbe</persName>s liv. Men også hun ville have del i den succes <persName
+                     key="lili">Lili Elbe</persName>s bog opnåede. Det fik hun ikke, specielt ikke
+                  økonomisk, hvad hun også giver udtryk for i et brev til <persName key="knudsenP"
+                     >Poul Knudsen</persName>:</p>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
                <p>“<placeName key="marrakech">Marrakech</placeName> 22.10 1933</p>
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
                <p>Kære <persName key="knudsenP">Poul</persName>,</p>
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <p>… A propos <placeName key="england">England</placeName>: Saa har en gammel fin Englænderinde har ladet sig præsentere hos mig for at tale med mig om <persName key="lili">Lili</persName>s Bog, som for nyligt er udkommen i <placeName key="england">England</placeName>, og som skal have en stormende Succes og været Dagens store Samtaleemne. Man ved i <placeName key="london">London</placeName>, at det var mig, <persName key="wegenerG">Gerda Wegener</persName>, som er <persName key="sparreGre">Grete</persName> i Bogen. Og min engelske Veninde beklagede voldsomt, at jeg ikke kunne komme til <placeName key="london">London</placeName> i Øjeblikket, da hun paastod, at jeg ville blive “Dagens Heltinde”. Har du mulighed for at udnytte dette paa en eller anden Maade for en Edition eller lignende??? Men i saa Fald maatte det ikke vare for længe. Der skal jo altid smedes mens Jernet er varmt. Dette á <persName key="lili">Lilie</persName> d’indication – <persName key="lili">Lili</persName>s Bog (som jeg jo omtrent havde skrevet, og som kun er bleven banaliseret og omlavet af den skidne Jødetamp som hedder <persName key="hoyerNiels">Niels Højer</persName>) – giver mig saa at sige intet. Han har faaet det lavet saa snedigt; at jeg omtrent intet faar og han overholder ikke engang sin Kontrakt. Han skovler alt til sig. Min tidligere Svoger, Ingeniør <persName key="thomsenTC">T.L. Thomsen</persName>, som <persName>
-                  key="lili">Lili</persName> havde overdraget Forretningsførelsen af</p>    
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <pb style="page" n="87"/>
-<!--KEJ 2019-12-04: END OF PAGE 87-->  
-               <figure xml:id="i04" facs="URL">
-<!-- KEJ 2019-12-04: What do I put for the facs URL?-->
-                  <figDesc><hi rend="italics">Et af <persName key="lili">Lili Elbe</persName>s breve, skrevet otte måneder før hendes død (<placeName key="???">Det kongelige Bibliotek</placeName>). <persName key="lili">Lili Elbe</persName>s jonglering med navne kan godt virke noget forvirrende. I brevet kalder hun sit tidligere, mandlige jeg for <persName key="sparreAn">Andreas</persName>. I “<persName key="lili">Lili Elbe</persName>s bekendelser” kom han til at hedde <persName key="sparreAn">Andreas Sparre</persName>, ikke som nævnt i brevet 
-                     <anchor type="commentRangeStart" n="20"/>
-                     Hjalmar Hvide. 
-                     <anchor type="commentRangeEnd" n="20"/><note type="editor" source="plc"  
-                        corresp="comment_20">As Ritzau notes, this name does not refer to the hero. <persName key="hvideNiels">Hjalmar Hvide</persName> was the name Lili had in mind for <persName key="hvideNiels">Niels Hvide</persName></note> 
-                  <persName key="kreutz">Werner von Kreuz</persName> er bogens pseudonym for kirurgen <persName key="warnekros">Kurt Warnekros</persName>, som “skabte” <persName key="lili">Lili</persName>. Og hun underskriver sig <persName key="lili">Lili Elvenes</persName></hi></figDesc>
-                  <note source="kej">Letter written by <persName key="lili">Lili Elbe</persName> in <placeName key="denmark">Denmark</placeName> in 1931 to <persName key="knudsenP">Poul Knudsen</persName></note>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p>… A propos <placeName key="england">England</placeName>: Saa har en gammel fin
+                  Englænderinde har ladet sig præsentere hos mig for at tale med mig om <persName
+                     key="lili">Lili</persName>s Bog, som for nyligt er udkommen i <placeName
+                     key="england">England</placeName>, og som skal have en stormende Succes og
+                  været Dagens store Samtaleemne. Man ved i <placeName key="london"
+                     >London</placeName>, at det var mig, <persName key="wegenerG">Gerda
+                     Wegener</persName>, som er <persName key="sparreGre">Grete</persName> i Bogen.
+                  Og min engelske Veninde beklagede voldsomt, at jeg ikke kunne komme til <placeName
+                     key="london">London</placeName> i Øjeblikket, da hun paastod, at jeg ville
+                  blive “Dagens Heltinde”. Har du mulighed for at udnytte dette paa en eller anden
+                  Maade for en Edition eller lignende??? Men i saa Fald maatte det ikke vare for
+                  længe. Der skal jo altid smedes mens Jernet er varmt. Dette á <persName key="lili"
+                     >Lilie</persName> d’indication – <persName key="lili">Lili</persName>s Bog (som
+                  jeg jo omtrent havde skrevet, og som kun er bleven banaliseret og omlavet af den
+                  skidne Jødetamp som hedder <persName key="hoyerNiels">Niels Højer</persName>) –
+                  giver mig saa at sige intet. Han har faaet det lavet saa snedigt; at jeg omtrent
+                  intet faar og han overholder ikke engang sin Kontrakt. Han skovler alt til sig.
+                  Min tidligere Svoger, Ingeniør <persName key="thomsenTC">T.L. Thomsen</persName>,
+                  som <persName key="lili">Lili</persName> havde overdraget Forretningsførelsen
+                  af</p>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <pb style="page" n="88"
+                  facs="http://lilielbe.org/media/editorials/HertoftRitzau_ParadisetErIkkeTilSalg_08.jpg"/>
+               <!--KEJ 2019-12-04: END OF PAGE 87-->
+               <figure xml:id="i04"
+                  facs="http://www.lilielbe.org/media/editorials/TeitRitzauChapter_i04.jpg">
+                  <figDesc><hi rend="italics">Et af <persName key="lili">Lili Elbe</persName>s
+                        breve, skrevet otte måneder før hendes død (<placeName key="royalLibrary"
+                           >Det kongelige Bibliotek</placeName>). <persName key="lili">Lili
+                           Elbe</persName>s jonglering med navne kan godt virke noget forvirrende. I
+                        brevet kalder hun sit tidligere, mandlige jeg for <persName key="sparreAn"
+                           >Andreas</persName>. I “<persName key="lili">Lili Elbe</persName>s
+                        bekendelser” kom han til at hedde <persName key="sparreAn">Andreas
+                           Sparre</persName>, ikke som nævnt i brevet <anchor
+                           type="commentRangeStart" n="20"/> Hjalmar Hvide. <anchor
+                           type="commentRangeEnd" n="20"/><note type="editor" source="plc"
+                           corresp="comment_20">As Ritzau notes, this name does not refer to the
+                           hero. <persName key="hvideNiels">Hjalmar Hvide</persName> was the name
+                           Lili had in mind for <persName key="hvideNiels">Niels
+                           Hvide</persName></note>
+                        <persName key="kreutz">Werner von Kreuz</persName> er bogens pseudonym for
+                        kirurgen <persName key="warnekros">Kurt Warnekros</persName>, som “skabte”
+                           <persName key="lili">Lili</persName>. Og hun underskriver sig <persName
+                           key="lili">Lili Elvenes</persName></hi></figDesc>
+                  <note source="kej">Letter written by <persName key="lili">Lili Elbe</persName> in
+                        <placeName key="denmark">Denmark</placeName> in 1931 to <persName
+                        key="knudsenP">Poul Knudsen</persName></note>
                </figure>
-<!--KEJ 2019-12-08: I wasn't sure how to code Hjalmar Hvide, who is in the prosopography as the fictional name for Niels Hvide but who in this chapter refers to Andreas Sparre. -->
-<!--KEJ 2019-12-04: Caption is formatted as another column to the left of the illustration. Should I encode for this? -->   
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <p><hi rend="italics"><placeName key="lindevangen">Lindevangen</placeName> 8-10, 22-1-31.</hi></p> 
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <!--KEJ 2019-12-08: I wasn't sure how to code Hjalmar Hvide, who is in the prosopography as the fictional name for Niels Hvide but who in this chapter refers to Andreas Sparre. -->
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p><hi rend="italics"><placeName key="lindevangen">Lindevangen</placeName> 8-10,
+                     22-1-31.</hi></p>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
                <p><hi rend="italics">Kære store <persName key="knudsenP">Paul</persName></hi></p>
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <p><hi rend="italics">Tusind Tak for Dit Brev. Jeg skal med Sorg rette mig efter Dit Ønske og forandre Heltens Navn. Han kommer saa til at hedde <persName key="???">Hjalmar Hvide</persName>. Du skal ikke forbavses over, at jeg skriver pænt og korrekt om en Ven – jeg hører jo ikke rigtig med i <placeName key="???">Lumskebugten</placeName> herhjemme. Hvor jeg glæder mig til at høre om <persName key="knudsenV">Vibeke</persName>s Triumftur i Julen! Den vidunderlige i <placeName key="dresden">Dresden</placeName> hedder: <persName key="warnekros">Prof. Dr. 
-               <anchor type="commentRangeStart" n="16"/>
-                  Kurt.               
-                <anchor type="commentRangeEnd" n="16"/><note type="translator" source="mo"  
-                   corresp="comment_16">I don’t understand this full stop and I can’t see it in the handwritten letter. Perhaps it is a typo. There is no full stop in Kristin Jacobsen’s transcript.</note> 
-                  Warnekros</persName>. Det staar endogsaa skrevet med W i mit Hjærte – ja er endogsaa deri graveret! Det glæder mig meget at Herr <persName key="magnusE">Ervin Magnus</persName> tror paa Bogen. Men jeg må bede dig forklare ham følgende:</hi></p>
-<!-- KEJ 2019-12-08: Marianne, the translator, has included my name and previous translation decision in a note. I didn't code it because I wasn't sure how to do it. -->              
-<!--KEJ 2019-12-08: I wasn't sure how to code Hjalmar Hvide, who is in the prosopography as the fictional name for Niels Hvide but who in this chapter refers to Andreas Sparre. -->
-<!-- KEJ 2019-12-08: There is no key in the prosopography for Lumskebugten . -->
-               <p><hi rend="italics">Naar jeg ikke har skrevet Bogen som en Levnedsskildring, er det for at faa frem, at det drejer sig om to Personer <persName key="sparreAn">Andreas</persName> og <persName key="lili">Lili</persName>, der sjæleligt ikke hører sammen. Det fremgaar nok mest af sidste Del, at der er en Dualitet – eller var. Det er først <persName key="sparreAn">Andreas</persName>, der fortæller sine Erindringer til <persName key="knudsenP">Poul</persName> medens <persName key="sparreAn">Andreas</persName> havde overtaget, hvorpå <persName key="lili">Lili</persName> fortæller Erindringer til <persName key="knudsenP">Poul</persName> fra den Tid, hvor hun begyndte at arbejde sig frem og fik Hovedparten af Aktiverne i deres Fællesbo – og til sidst Eneindehaver.</hi></p>
-<!-- KEJ 2019-12-08: Lili mixes fictional characters and real people, but I coded them as they were written. -->               
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p><hi rend="italics">Tusind Tak for Dit Brev. Jeg skal med Sorg rette mig efter Dit
+                     Ønske og forandre Heltens Navn. Han kommer saa til at hedde <persName
+                        key="hvideNiels">Hjalmar Hvide</persName>. Du skal ikke forbavses over, at
+                     jeg skriver pænt og korrekt om en Ven – jeg hører jo ikke rigtig med i
+                        <placeName key="lumskebugten">Lumskebugten</placeName> herhjemme. Hvor jeg
+                     glæder mig til at høre om <persName key="knudsenV">Vibeke</persName>s Triumftur
+                     i Julen! Den vidunderlige i <placeName key="dresden">Dresden</placeName>
+                     hedder: <persName key="warnekros">Prof. Dr. <anchor type="commentRangeStart"
+                           n="16"/> Kurt. <anchor type="commentRangeEnd" n="16"/><note
+                           type="translator" source="mo" corresp="comment_16">I don’t understand
+                           this full stop and I can’t see it in the handwritten letter. Perhaps it
+                           is a typo. There is no full stop in Kristin Jacobsen’s transcript.</note>
+                        Warnekros</persName>. Det staar endogsaa skrevet med W i mit Hjærte – ja er
+                     endogsaa deri graveret! Det glæder mig meget at Herr <persName key="magnusE"
+                        >Ervin Magnus</persName> tror paa Bogen. Men jeg må bede dig forklare ham
+                     følgende:</hi></p>
+               <!-- KEJ 2019-12-08: Marianne, the translator, has included my name and previous translation decision in a note. I didn't code it because I wasn't sure how to do it. -->
+               <!--KEJ 2019-12-08: I wasn't sure how to code Hjalmar Hvide, who is in the prosopography as the fictional name for Niels Hvide but who in this chapter refers to Andreas Sparre. -->
+               <p><hi rend="italics">Naar jeg ikke har skrevet Bogen som en Levnedsskildring, er det
+                     for at faa frem, at det drejer sig om to Personer <persName key="sparreAn"
+                        >Andreas</persName> og <persName key="lili">Lili</persName>, der sjæleligt
+                     ikke hører sammen. Det fremgaar nok mest af sidste Del, at der er en Dualitet –
+                     eller var. Det er først <persName key="sparreAn">Andreas</persName>, der
+                     fortæller sine Erindringer til <persName key="knudsenP">Poul</persName> medens
+                        <persName key="sparreAn">Andreas</persName> havde overtaget, hvorpå
+                        <persName key="lili">Lili</persName> fortæller Erindringer til <persName
+                        key="knudsenP">Poul</persName> fra den Tid, hvor hun begyndte at arbejde sig
+                     frem og fik Hovedparten af Aktiverne i deres Fællesbo – og til sidst
+                     Eneindehaver.</hi></p>
+               <!-- KEJ 2019-12-08: Lili mixes fictional characters and real people, but I coded them as they were written. -->
                <p><hi rend="italics">Det fremgaar tydeligt af sidste Del, at det endogsaa </hi></p>
-               <pb style="page" n="88"/>
-<!--KEJ 2019-12-04: END OF PAGE 88-->  
-               <figure xml:id="i05" facs="URL">
-<!-- KEJ 2019-12-04: What do I put for the facs URL?-->
-                  <figDesc><hi rend="italics">I “<persName key="lili">Lili Elbe</persName>s Bekendelser” kaldes <persName key="warnekros">rofessor Warnekros</persName>p <persName key="kreutz">Werner Kreutz</persName>. <persName key="lili">Lili</persName> var ingen systematiker. I brevet staver hun <persName key="kreutz">Kreuz</persName>, i bogen <persName key="kreutz">Kreutz</persName></hi></figDesc>
+               <pb style="page" n="89"
+                  facs="http://lilielbe.org/media/editorials/HertoftRitzau_ParadisetErIkkeTilSalg_09.jpg"/>
+               <!--KEJ 2019-12-04: END OF PAGE 88-->
+               <figure xml:id="i05"
+                  facs="http://www.lilielbe.org/media/editorials/TeitRitzauChapter_i05.jpg">
+                  <figDesc><hi rend="italics">I “<persName key="lili">Lili Elbe</persName>s
+                        Bekendelser” kaldes <persName key="warnekros">rofessor Warnekros</persName>p
+                           <persName key="kreutz">Werner Kreutz</persName>. <persName key="lili"
+                           >Lili</persName> var ingen systematiker. I brevet staver hun <persName
+                           key="kreutz">Kreuz</persName>, i bogen <persName key="kreutz"
+                           >Kreutz</persName></hi></figDesc>
                </figure>
-<!--KEJ 2019-12-04: Caption is formatted as another column to the right of the illustration. Should I encode for this? -->   
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <p><hi rend="italics">er en absolut Livsbetingelse for <persName key="lili">Lili</persName>, at hun aandeligt intet har at skaffe med <persName key="sparreAn">Andreas</persName> – og det store Mirakel er, at hun føler sig nyskabt – ren og jomfruelig – og absolut ikke sjæleligt et Mandfolk, der er bleven til et Pigebarn!!! Anden del viser ogsaa, hvorledes <persName key="kreutz">Werner von Kreuz</persName> altid har holdt de to ude fra hinanden. Det er Hovedpointet i Bogen, at der var to sjæle i et Legeme – og at en genial Kirurg redder Pigebarnet ud af et fælles Skibbrud. Saa er jeg tilmed bange for, at den anden Form skulde tynge Bogen, og jeg ønsker netop at faa frem, at jeg er koket, sorgløs, overfladisk og pjanket – og det har været mig om at få frem, at hvad der er af kunstnerisk, af Livsvisdom og alvorlig mandig Viden, kommer fra<persName key="sparreAn">Andreas</persName>, der var Kunstner og et honnet Mandfolk, medens min Indsats er en vis letbenet og tøset Filosofi! (Du ser, det er i virkeligheden en nedskrivning af Aktierne). Bed Herr <persName key="magnusE">Ervin Magnus</persName> at ville høre med Sympati på dette mit Forsvar for Bogens Form.</hi></p>
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p><hi rend="italics">er en absolut Livsbetingelse for <persName key="lili"
+                        >Lili</persName>, at hun aandeligt intet har at skaffe med <persName
+                        key="sparreAn">Andreas</persName> – og det store Mirakel er, at hun føler
+                     sig nyskabt – ren og jomfruelig – og absolut ikke sjæleligt et Mandfolk, der er
+                     bleven til et Pigebarn!!! Anden del viser ogsaa, hvorledes <persName
+                        key="kreutz">Werner von Kreuz</persName> altid har holdt de to ude fra
+                     hinanden. Det er Hovedpointet i Bogen, at der var to sjæle i et Legeme – og at
+                     en genial Kirurg redder Pigebarnet ud af et fælles Skibbrud. Saa er jeg tilmed
+                     bange for, at den anden Form skulde tynge Bogen, og jeg ønsker netop at faa
+                     frem, at jeg er koket, sorgløs, overfladisk og pjanket – og det har været mig
+                     om at få frem, at hvad der er af kunstnerisk, af Livsvisdom og alvorlig mandig
+                     Viden, kommer fra<persName key="sparreAn">Andreas</persName>, der var Kunstner
+                     og et honnet Mandfolk, medens min Indsats er en vis letbenet og tøset Filosofi!
+                     (Du ser, det er i virkeligheden en nedskrivning af Aktierne). Bed Herr
+                        <persName key="magnusE">Ervin Magnus</persName> at ville høre med Sympati på
+                     dette mit Forsvar for Bogens Form.</hi></p>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
                <p><hi rend="italics">Din stakkels lille Veninde</hi></p>
-<!-- KEJ 2019-12-04: This line is centered. I remember reading somwhere that we are not capturing formatting, but I am adding this note to be sure. -->
-<p><hi rend="italics"><persName key="lili">Lili</persName></hi></p>               
-<!-- KEJ 2019-12-04: This line is centered. I remember reading somwhere that we are not capturing formatting, but I am adding this note to be sure. -->
-               <p><hi rend="italics"><persName key="lili">Lili Elvenes</persName>.	         Mille baisers á <persName key="knudsenV">Vibeke</persName></hi></p>
-<!-- KEJ 2019-12-04: In the PDF of the chapter, there is a gap of space between the name and the additional text. I looked in the encoding guidelines and couldn't find a way to encode that space, so I just used the space key. -->
-               <p><hi rend="italics">Lili</hi></p> 
-<!-- KEJ 2019-12-04: In the PDF, the name is all the way to the left. I remember reading somwhere that we are not capturing formatting, but I am adding this note to be sure. -->
-               <pb style="page" n="89"/>
-<!--KEJ 2019-12-04: END OF PAGE 89-->  
-               <p>Bogen med, synes at være i ledtog med <persName key="hoyerNiels">Højer</persName>. Hvad vil du have, at jeg skal gøre paa denne Afstand, kære? Jeg kan jo ikke sidde herfra, og lave <persName key="hoyerNiels">Højer</persName> en Proces! Du, som er jurist, sig mig om der er noget at stille op? –”</p>
-               <p>Men der var noget <persName key="wegenerG">Gerda Wegener</persName> sandsynligvis ikke vidste – under den sidste operation på <persName key="lili">Lili Elbe</persName> blev der, hvis historien ellers er sandfærdig, indopereret kvindelige kønsorganer. En fuldstændig vanvittig operation, også rent videnskabeligt, i 1933.</p>
-               <p>Derfor er der grund til at tro, at <persName key="lili">Lili Elbe</persName> døde af den autoimmune reaktion der følger implantation af vævsuforligelige organer.</p>
-<!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-               <p>“Nu ved jeg Døden kommer … Jeg har drømt om <persName key="wegenerAM">Mor</persName> i Nat … hun tog mig i sine Arme og sagde <persName key="lili">Lili</persName> til mig … og <persName key="wegenerV">Far</persName> var der også.”</p>
-               <pb style="page" n="90"/>
-<!--KEJ 2019-12-04: END OF PAGE 90-->  
+               <!-- KEJ 2019-12-04: This line is centered. I remember reading somwhere that we are not capturing formatting, but I am adding this note to be sure. -->
+               <p><hi rend="italics"><persName key="lili">Lili</persName></hi></p>
+               <!-- KEJ 2019-12-04: This line is centered. I remember reading somwhere that we are not capturing formatting, but I am adding this note to be sure. -->
+               <p><hi rend="italics"><persName key="lili">Lili Elvenes</persName>. Mille baisers á
+                        <persName key="knudsenV">Vibeke</persName></hi></p>
+               <!-- KEJ 2019-12-04: In the PDF of the chapter, there is a gap of space between the name and the additional text. I looked in the encoding guidelines and couldn't find a way to encode that space, so I just used the space key. -->
+               <p><hi rend="italics">Lili</hi></p>
+               <!-- KEJ 2019-12-04: In the PDF, the name is all the way to the left. I remember reading somwhere that we are not capturing formatting, but I am adding this note to be sure. -->
+               <pb style="page" n="90"
+                  facs="http://lilielbe.org/media/editorials/HertoftRitzau_ParadisetErIkkeTilSalg_10.jpg"/>
+               <!--KEJ 2019-12-04: END OF PAGE 89-->
+               <p>Bogen med, synes at være i ledtog med <persName key="hoyerNiels">Højer</persName>.
+                  Hvad vil du have, at jeg skal gøre paa denne Afstand, kære? Jeg kan jo ikke sidde
+                  herfra, og lave <persName key="hoyerNiels">Højer</persName> en Proces! Du, som er
+                  jurist, sig mig om der er noget at stille op? –”</p>
+               <p>Men der var noget <persName key="wegenerG">Gerda Wegener</persName> sandsynligvis
+                  ikke vidste – under den sidste operation på <persName key="lili">Lili
+                     Elbe</persName> blev der, hvis historien ellers er sandfærdig, indopereret
+                  kvindelige kønsorganer. En fuldstændig vanvittig operation, også rent
+                  videnskabeligt, i 1933.</p>
+               <p>Derfor er der grund til at tro, at <persName key="lili">Lili Elbe</persName> døde
+                  af den autoimmune reaktion der følger implantation af vævsuforligelige
+                  organer.</p>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <p>“Nu ved jeg Døden kommer … Jeg har drømt om <persName key="wegenerAM"
+                     >Mor</persName> i Nat … hun tog mig i sine Arme og sagde <persName key="lili"
+                     >Lili</persName> til mig … og <persName key="wegenerV">Far</persName> var der
+                  også.”</p>
+               <!--KEJ 2019-12-04: END OF PAGE 90-->
             </div>
             <!--END CHAPTER IN DANISH-->
-               </div>
+         </div>
          <!--END DIVISION OF ORIGINAL DANISH-->
          <!--BEGIN DIVISION OF TEXT IN ENGLISH TRANSLATION-->
          <div type="translation">
             <!--BEGIN CHAPTER IN ENGLISH TRANSLATION-->
-            <div rend="chapter"> 
-               <!--KEJ 2019-12-05: There is no title page information in the PDF of the chapter. -->
+            <div rend="chapter">
+               <pb style="page" n="82"/>
                <head>Chapter 5</head>
                <head><hi rend="bold">From Gender to Gender</hi></head>
                <head><hi rend="italics"><persName key="lili">Lili Elbe</persName></hi></head>
-<!--KEJ 2019-12-05: The chapter heading is on three lines. I couldn't find anything in the encoding guidelines on how to handle it, and using the paragraph code was getting error messages, so I tried this instead. -->               
-               <p>One day in 1929 <persName key="hirschfeld">Magnus Hirschfeld</persName> had a visit at the <placeName key="institutePsychiatry">institute</placeName> in <placeName key="berlin">Berlin</placeName> by what later became one of his most talked about patients. This patient was a Dane and one could add that oddly enough there are very few internationally known transsexuals who have not at some point been in touch with <placeName key="denmark">Denmark</placeName>. The patient’s name was <persName key="wegenerE">Einar Wegener</persName>. A skilled painter and married to the very popular illustrator <persName key="wegenerG">Gerda Wegener.</persName> He became the centre of controversy by writing the international best seller From Man into Woman – The Confessions of <persName key="lili">Lili Elbe</persName>. First published by Hage &amp; Clausen, <placeName key="copenhagen">Copenhagen</placeName> 1931. A book that today only exists in a limited number of copies as it became an obvious target for “book cleansers” especially before and during World War II. 
-               <anchor type="commentRangeStart" n="8"/>
-                  The book contains, among other things, this autobiographical description:</p>
-               <anchor type="commentRangeEnd" n="8"/><note type="translator" source="mo"  
-                  corresp="comment_8">This text is not a coherent quotation from the version of Fra Mand til Kvinde that I have translated. But the individual fragments can be found in different places in the book.</note> 
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
-               <p>“<persName key="sparreAn">Andreas</persName> (<persName key="wegenerE">Einar Wegener</persName>) had already been ill for many years and they had sought countless doctors and specialists but without result. Now he was tired and life had become too much for him. The doctors thought that <persName key="sparreAn">Andreas</persName> was completely mad. Most people would probably agree with them on this because For <persName key="sparreAn">Andreas</persName> consisted of two beings, of a man: <persName key="sparreAn">Andreas</persName>Andreas, and of a woman: <persName key="lili">Lili</persName>.</p>
-               <p><persName key="lili">Lili</persName> had become <persName key="sparreGre">Grete</persName>’s favourite model. Her slim elf’s figure walked through all of <persName key="sparreGre">Grete</persName>’s best works …… She had already become a type, a modern type of woman, created by the imagination of an artist. In my body lived two sharply separated beings who were alien and almost hostile to each other, because each of them only had room for one.”</p>               <p>“Da Dorchen var på instituttet som stuepige, kom Einar Wegener der ned, og skulle testes før han kunne få sin operation udført på “Frauenklinik” i Dresden. Men for overhovedet at operere forlangte de, at han skulle testes på instituttet hos Hirschfeld i Berlin, og have en udtalelse fra ham. Det har han i øvrigt også skrevet om i sin bog.</p>
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
-               <p>The Danish dentist <persName key="???">Ellen Bækgaard</persName> who often stayed at the <placeName key="instituttet">institute</placeName> and had known the transsexual <persName key="???">Dorchen</persName>, perhaps the first operated transsexual in the world, heard the story of <persName key="wegenerE">Einar Wegener</persName> at the “<placeName key="institutePsychiatry">Sexualwissenschaftliches Institut</placeName>” in <placeName key="berlin">Berlin</placeName>:</p>               
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
-               <p>“When <persName ke="???">Dorchen</persName> was at the institute as a maid, <persName key="wegenerE">Einar Wegener</persName> came down there to be tested before he could have his operation performed at “<placeName key="womensClinic">Frauenklinik</placeName>” in <placeName key="dresden">Dresden</placeName>. But to operate at all, they demanded that he should be tested by <persName key="hirschfeld">Hirschfeld</persName> at the <placeName key="institutePsychiatry">institute</placeName> in Berlin, and have an opinion from him. He has also written about this in his book.</p>
-               <p>He did not like the <placeName key="institutePsychiatry">institute</placeName> and they knew that down there, and they knew what the reason was, because he was told one day that he should </p>
-               <pb style="page" n="82"/>
-<!--KEJ 2019-12-05: END OF PAGE 82-->                  
-               <figure xml:id="i01" facs="URL">
-<!-- KEJ 2019-12-05: What do I put for the facs URL?-->
-                  <figDesc><hi rend="italics"><persName key="wegenerE">Einar Wegener</persName>, photo from the book “The confessions of <persName key="lili">Lili Elbe</persName>” 1931</hi></figDesc>
-                  <note source="kej"><persName key="wegenerE">Einar Wegener</persName> is dressed in a suit and holds painting materials.</note>
-               </figure>
-               <figure xml:id="i02" facs="URL">
-<!-- KEJ 2019-12-05: What do I put for the facs URL?-->
-                  <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName>, from the book “The confessions of <persName key="lili">Lili Elbe</persName>” 1931</hi></figDesc>
-                  <note source="kej"><persName key="lili">Lili Elbe</persName> is outside, sitting on a chair or bench and reading a book.</note>
-               </figure>   
-<!--KEJ 2019-12-05: Photo captions are formatted as a second column to the right of the text. Should I encode for this? -->   
-               <p>take notice of <persName key="???">Dorchen</persName>, because <persName key="???">Dorchen</persName> had had the operation done that he would like to have done now. And it did not at all suit the painter to be compared to <persName key="???">Dorchen</persName> – a maid!"</p>   
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
-               <p>And quite so, it did not suit <persName key="wegenerE">Einar Wegener</persName> to be compared to <persName key="???">Dorchen</persName>, or as he writes in his book himself: “He felt a moral discomfort”:</p>
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->   
-               <p>“Your friend” … These words made <persName key="sparreAn">Andreas</persName>’ (<persName key="wegenerE">Einar Wegener</persName>) heart beat, and when shortly afterwards he found himself in <persName key="hardenfeld">Professor Hardenfeld</persName>’s (<persName key="hirschfeld">Hirschfeld</persName>) <placeName key="institutePsychiatry">Institute of Sexual Science</placeName> he repeated them to himself – otherwise he would no doubt have lost courage ...... What am I doing here? He felt a moral discomfort with this large room that seemed more like a club for the sexually abnormal: Women who looked like men in disguise and men about whom it was hard to believe that they were really men ...... The manner in which these people conversed with each other, their movements, their voices, their attire, everything he disliked heartily ......</p>               
-               <p>At last <persName key="hardenfeld">Professor Hardenfeld</persName> appeared and led him into his study</p>
+               <!--KEJ 2019-12-05: The chapter heading is on three lines. I couldn't find anything in the encoding guidelines on how to handle it, and using the paragraph code was getting error messages, so I tried this instead. -->
+               <p>One day in 1929 <persName key="hirschfeld">Magnus Hirschfeld</persName> had a
+                  visit at the <placeName key="institutePsychiatry">institute</placeName> in
+                     <placeName key="berlin">Berlin</placeName> by what later became one of his most
+                  talked about patients. This patient was a Dane and one could add that oddly enough
+                  there are very few internationally known transsexuals who have not at some point
+                  been in touch with <placeName key="denmark">Denmark</placeName>. The patient’s
+                  name was <persName key="wegenerE">Einar Wegener</persName>. A skilled painter and
+                  married to the very popular illustrator <persName key="wegenerG">Gerda
+                     Wegener.</persName> He became the centre of controversy by writing the
+                  international best seller From Man into Woman – The Confessions of <persName
+                     key="lili">Lili Elbe</persName>. First published by Hage &amp; Clausen,
+                     <placeName key="copenhagen">Copenhagen</placeName> 1931. A book that today only
+                  exists in a limited number of copies as it became an obvious target for “book
+                  cleansers” especially before and during World War II. <anchor
+                     type="commentRangeStart" n="8"/> The book contains, among other things, this
+                  autobiographical description:</p>
+               <anchor type="commentRangeEnd" n="8"/>
+               <note type="translator" source="mo" corresp="comment_8">This text is not a coherent
+                  quotation from the version of Fra Mand til Kvinde that I have translated. But the
+                  individual fragments can be found in different places in the book.</note>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>“<persName key="sparreAn">Andreas</persName> (<persName key="wegenerE">Einar
+                     Wegener</persName>) had already been ill for many years and they had sought
+                  countless doctors and specialists but without result. Now he was tired and life
+                  had become too much for him. The doctors thought that <persName key="sparreAn"
+                     >Andreas</persName> was completely mad. Most people would probably agree with
+                  them on this because For <persName key="sparreAn">Andreas</persName> consisted of
+                  two beings, of a man: <persName key="sparreAn">Andreas</persName>Andreas, and of a
+                  woman: <persName key="lili">Lili</persName>.</p>
+               <p><persName key="lili">Lili</persName> had become <persName key="sparreGre"
+                     >Grete</persName>’s favourite model. Her slim elf’s figure walked through all
+                  of <persName key="sparreGre">Grete</persName>’s best works …… She had already
+                  become a type, a modern type of woman, created by the imagination of an artist. In
+                  my body lived two sharply separated beings who were alien and almost hostile to
+                  each other, because each of them only had room for one.”</p>
+               <p>“Da Dorchen var på instituttet som stuepige, kom Einar Wegener der ned, og skulle
+                  testes før han kunne få sin operation udført på “Frauenklinik” i Dresden. Men for
+                  overhovedet at operere forlangte de, at han skulle testes på instituttet hos
+                  Hirschfeld i Berlin, og have en udtalelse fra ham. Det har han i øvrigt også
+                  skrevet om i sin bog.</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>The Danish dentist <persName key="bækgaardE">Ellen Bækgaard</persName> who often
+                  stayed at the <placeName key="institutePsychiatry">institute</placeName> and had
+                  known the transsexual <persName key="richterD">Dorchen</persName>, perhaps the
+                  first operated transsexual in the world, heard the story of <persName
+                     key="wegenerE">Einar Wegener</persName> at the “<placeName
+                     key="institutePsychiatry">Sexualwissenschaftliches Institut</placeName>” in
+                     <placeName key="berlin">Berlin</placeName>:</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>“When <persName key="richterD">Dorchen</persName> was at the institute as a maid,
+                     <persName key="wegenerE">Einar Wegener</persName> came down there to be tested
+                  before he could have his operation performed at “<placeName key="womensClinic"
+                     >Frauenklinik</placeName>” in <placeName key="dresden">Dresden</placeName>. But
+                  to operate at all, they demanded that he should be tested by <persName
+                     key="hirschfeld">Hirschfeld</persName> at the <placeName
+                     key="institutePsychiatry">institute</placeName> in Berlin, and have an opinion
+                  from him. He has also written about this in his book.</p>
+               <p>He did not like the <placeName key="institutePsychiatry">institute</placeName> and
+                  they knew that down there, and they knew what the reason was, because he was told
+                  one day that he should </p>
                <pb style="page" n="83"/>
-<!--KEJ 2019-12-05: END OF PAGE 83-->          
-               <p>where he subjected him to an hour-long interview. It was a relentless inquisition, a mental torture for <persName key="sparreAn">Andreas</persName> ...... but it was probably necessary. When it was over, he was briefly dismissed: “Tomorrow, same time.”</p> 
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->   
-               <p>The book about <persName key="lili">Lili Elbe</persName> stands as a kind of transsexual bible even today. For instance, the English writer <persName key="??">Jan Morris</persName> mentions in his autobiography “Conundrum” that the book about <persName key="lili">Lili Elbe</persName> was a contributory reason for his own wish for a sex change operation. The book may be a little hysterical in form and content, a fact that became more obvious to me when by accident I found <persName key="wegenerE">Einar Wegener</persName>’s / <persName key="lili">Lili Elbe</persName>’s quite unknown letters at the <placeName key="???">Royal Library</placeName>.</p>
-               <p>The letters are to a publisher and written in 1931 shortly before his death. They contain a number of comments on the “transformation”.</p>   
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->   
-               <p>“The great miracle is that she (<persName key="lili">Lili Elbe</persName>) feels reborn – pure and virginal – and mentally absolutely not a man who has become a girl!!!”</p>
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->   
-               <p>And later in the same letter a quotation that will not be well received by many of the women he was otherwise not afraid to compare himself to:</p>
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->   
-               <p>“I (<persName key="lili">Lili Elbe</persName>) wish exactly to make known that I am coquette, carefree, superficial and silly – and I have been keen to make it known that what is artistic, of wisdom and serious male knowledge, comes from <persName key="sparreAn">Andreas</persName> (<persName key="wegenerE">Einar Wegener</persName>), a kind artist and an honourable man, while my contribution is a certain shallow and girlie philosophy! (You see, there really is a devaluation of the assets).”</p>
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->   
-               <p>Economy is behind many things and that this is also the case here is apparent from this:</p>
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->   
-               <p>“Dear <persName key="knudsenP">Poul</persName>, I now own a little more than 75 kroner. So money is beginning to interest me. It takes something to provide the daily silk stockings.</p>
-<!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->   
-               <p>It is not surprising that a social comedown also followed the operation at “<placeName key="womensClinic">Frauenklinik</placeName>” in <placeName key="dresden">Dresden</placeName>. Incidentally <persName key="lili">Lili Elbe</persName> used <persName key="lili">Elbe</persName> as her surname because the river <placeName key="elbeRiver">Die Elbe</placeName> passes through <placeName key="dresden">Dresden</placeName>.</p>
-               <p>There are many obscure and undisclosed sides to the painter <persName key="wegenerE">Einar Wegener</persName>’s transformation into <persName key="lili">Lili Elbe</persName>. One of the most surprising is probably that <persName key="lili">Lili Elbe</persName> did not write the book about herself. Or rather; she did so indirectly.</p>
-               <p>The book has a preface by a person with the name <persName key="hoyerNiels">Niels Hoyer</persName>. Only the problem is that a <persName key="hoyerNiels">Niels Hoyer</persName> has never existed. Behind this name hides a German refugee – <persName key="harthernE">Ernst Harthern</persName>. He had fled to <placeName key="denmark">Denmark</placeName> in 1931 as a result of the Nazis’ persecutions. He was the one who wrote or rather edited the text about <persName key="lili">Lili Elbe</persName>. This information was verified when his daughter Mrs. <persName key="???">Ruth Hanna Harthern-Thanning</persName> wrote a long letter to me where she accounts for the details around the</p>
+               <figure facs="http://www.lilielbe.org/media/editorials/TeitRitzauChapter_i01.jpg">
+                  <figDesc><hi rend="italics"><persName key="wegenerE">Einar Wegener</persName>,
+                        photo from the book “The confessions of <persName key="lili">Lili
+                           Elbe</persName>” 1931</hi></figDesc>
+                  <note source="kej"><persName key="wegenerE">Einar Wegener</persName> is dressed in
+                     a suit and holds painting materials.</note>
+               </figure>
+               <figure facs="http://www.lilielbe.org/media/editorials/TeitRitzauChapter_i02.jpg">
+                  <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName>, from the
+                        book “The confessions of <persName key="lili">Lili Elbe</persName>”
+                        1931</hi></figDesc>
+                  <note source="kej"><persName key="lili">Lili Elbe</persName> is outside, sitting
+                     on a chair or bench and reading a book.</note>
+               </figure>
+               <p>take notice of <persName key="richterD">Dorchen</persName>, because <persName
+                     key="richterD">Dorchen</persName> had had the operation done that he would like
+                  to have done now. And it did not at all suit the painter to be compared to
+                     <persName key="richterD">Dorchen</persName> – a maid!"</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>And quite so, it did not suit <persName key="wegenerE">Einar Wegener</persName> to
+                  be compared to <persName key="richterD">Dorchen</persName>, or as he writes in his
+                  book himself: “He felt a moral discomfort”:</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>“Your friend” … These words made <persName key="sparreAn">Andreas</persName>’
+                     (<persName key="wegenerE">Einar Wegener</persName>) heart beat, and when
+                  shortly afterwards he found himself in <persName key="hardenfeld">Professor
+                     Hardenfeld</persName>’s (<persName key="hirschfeld">Hirschfeld</persName>)
+                     <placeName key="institutePsychiatry">Institute of Sexual Science</placeName> he
+                  repeated them to himself – otherwise he would no doubt have lost courage ......
+                  What am I doing here? He felt a moral discomfort with this large room that seemed
+                  more like a club for the sexually abnormal: Women who looked like men in disguise
+                  and men about whom it was hard to believe that they were really men ...... The
+                  manner in which these people conversed with each other, their movements, their
+                  voices, their attire, everything he disliked heartily ......</p>
+               <p>At last <persName key="hardenfeld">Professor Hardenfeld</persName> appeared and
+                  led him into his study</p>
                <pb style="page" n="84"/>
-<!--KEJ 2019-12-05: END OF PAGE 84-->          
-               <figure xml:id="i03" facs="URL">
-<!-- KEJ 2019-12-05: What do I put for the facs URL?-->
-                  <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName> immediately before the journey to <placeName key="dresden">Dresden</placeName> where she died in 1931. Press photo</hi></figDesc>
-                  <note source="kej"><persName key="lili">Lili Elbe</persName> stands outside with hands clasped in front and is dressed in a skir, shirt, hat, and dress shoes.</note>
-               </figure> 
-<!--KEJ 2019-12-05: Photo caption is formatted as a second column to the right of the photo. Should I encode for this? -->               
-               <p>creation of the book. It does not make the case less interesting that she got a personal and close relationship to <persName key="lili">Lili Elbe</persName>:</p>
-               <p>“It was my father, <persName key="harthernE">Ernst Harthern</persName>, an den sich <persName key="lili">Lili Elbe</persName> wendete denn <persName key="harthernE">mein Vater</persName> … (who <persName key="lili">Lili Elbe</persName> turned to because <persName key="harthernE">my father</persName>) … was a German correspondent in <placeName key="denmark">Denmark</placeName> for the publishing company Scherl. I was 16 years old then</p>
+               <p>where he subjected him to an hour-long interview. It was a relentless inquisition,
+                  a mental torture for <persName key="sparreAn">Andreas</persName> ...... but it was
+                  probably necessary. When it was over, he was briefly dismissed: “Tomorrow, same
+                  time.”</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>The book about <persName key="lili">Lili Elbe</persName> stands as a kind of
+                  transsexual bible even today. For instance, the English writer <persName
+                     key="morrisJ">Jan Morris</persName> mentions in his autobiography “Conundrum”
+                  that the book about <persName key="lili">Lili Elbe</persName> was a contributory
+                  reason for his own wish for a sex change operation. The book may be a little
+                  hysterical in form and content, a fact that became more obvious to me when by
+                  accident I found <persName key="wegenerE">Einar Wegener</persName>’s / <persName
+                     key="lili">Lili Elbe</persName>’s quite unknown letters at the <placeName
+                     key="royalLibrary">Royal Library</placeName>.</p>
+               <p>The letters are to a publisher and written in 1931 shortly before his death. They
+                  contain a number of comments on the “transformation”.</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>“The great miracle is that she (<persName key="lili">Lili Elbe</persName>) feels
+                  reborn – pure and virginal – and mentally absolutely not a man who has become a
+                  girl!!!”</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>And later in the same letter a quotation that will not be well received by many of
+                  the women he was otherwise not afraid to compare himself to:</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>“I (<persName key="lili">Lili Elbe</persName>) wish exactly to make known that I
+                  am coquette, carefree, superficial and silly – and I have been keen to make it
+                  known that what is artistic, of wisdom and serious male knowledge, comes from
+                     <persName key="sparreAn">Andreas</persName> (<persName key="wegenerE">Einar
+                     Wegener</persName>), a kind artist and an honourable man, while my contribution
+                  is a certain shallow and girlie philosophy! (You see, there really is a
+                  devaluation of the assets).”</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>Economy is behind many things and that this is also the case here is apparent from
+                  this:</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>“Dear <persName key="knudsenP">Poul</persName>, I now own a little more than 75
+                  kroner. So money is beginning to interest me. It takes something to provide the
+                  daily silk stockings.</p>
+               <!-- KEJ 2019-12-05: Several blank lines follow this paragraph. -->
+               <p>It is not surprising that a social comedown also followed the operation at
+                     “<placeName key="womensClinic">Frauenklinik</placeName>” in <placeName
+                     key="dresden">Dresden</placeName>. Incidentally <persName key="lili">Lili
+                     Elbe</persName> used <persName key="lili">Elbe</persName> as her surname
+                  because the river <placeName key="elbeRiver">Die Elbe</placeName> passes through
+                     <placeName key="dresden">Dresden</placeName>.</p>
+               <p>There are many obscure and undisclosed sides to the painter <persName
+                     key="wegenerE">Einar Wegener</persName>’s transformation into <persName
+                     key="lili">Lili Elbe</persName>. One of the most surprising is probably that
+                     <persName key="lili">Lili Elbe</persName> did not write the book about herself.
+                  Or rather; she did so indirectly.</p>
+               <p>The book has a preface by a person with the name <persName key="hoyerNiels">Niels
+                     Hoyer</persName>. Only the problem is that a <persName key="hoyerNiels">Niels
+                     Hoyer</persName> has never existed. Behind this name hides a German refugee –
+                     <persName key="harthernE">Ernst Harthern</persName>. He had fled to <placeName
+                     key="denmark">Denmark</placeName> in 1931 as a result of the Nazis’
+                  persecutions. He was the one who wrote or rather edited the text about <persName
+                     key="lili">Lili Elbe</persName>. This information was verified when his
+                  daughter Mrs. <persName key="harthernRuth">Ruth Hanna Harthern-Thanning</persName>
+                  wrote a long letter to me where she accounts for the details around the</p>
                <pb style="page" n="85"/>
-<!--KEJ 2019-12-05: END OF PAGE 85-->   
-               <p>and remember the day in the spring of 1931 when unfortunately, I could no longer return to my beloved school in <placeName key="???">Stade</placeName> near <placeName key="???">Hamburg</placeName> because the conditions did not allow it on account of a certain <persName key="???">Adolf</persName>. Not many days later, my father came into my room and once again he succeeded in telling me something extraordinary: In a little while a lady will come who was once a man … Then the doorbell rang. I immediately ran back to my room. I heard a deep voice that sounded like <persName key="???">Sarah Leander</persName>’s.</p> 
-               <p>Finally I had to sit at the dinner table in the dining room with the others. Yes, it was not her outer appearance (fox-red hair, bright red nails and mouth). No, it was her entire being … she was a real woman. For I had not known her as a man. It was arranged (<persName key="lili">Lili Elbe</persName> felt very lonely, I understood) that I should learn to paint with her. It was Whitsun the next day. The next morning I left our 
-                  <anchor type="commentRangeStart" n="9"/>
-                  flat
-                  <anchor type="commentRangeEnd" n="9"/><note type="translator" source="mo"  
-                     corresp="comment_9">The Danish word bolig means dwelling and does not specify if it is a house or an apartment, but at the address in Havnegade is an apartment building that looks as if must have been there at the time.</note> 
-                  in <placeName key="???">Havnegade</placeName> 47. With a light heart I walked through the sunny <placeName key="???">Nyhavn</placeName> to <placeName key="nytorv">Kongens Nytorv</placeName> and went on by tram to Valby where this <persName key="lili">Elbe</persName> had taken shelter in an attic flat with nice people in a nice villa. She had already put out an easel on which a prepared stretched canvas was placed, besides this there was paint and everything else that belonged to painting.</p>
-               <p>In the few days of her life a self-portrait and two still lives materialised. It was probably also for other reasons that she let me in for the poor 
-                <anchor type="commentRangeStart" n="10"/>
-                  woman
-                <anchor type="commentRangeEnd" n="10"/><note type="translator" source="mo"  
-                   corresp="comment_10">The usual problem with translating menneske, which is not gendered.</note> 
-                  had fallen deeply in love with her benefactor: The <persName key="warnekros">Professor</persName> from “<placeName key="womensClinic">Frauenklinik</placeName>” in <placeName key="dresden">Frauenklinik</placeName>Dresden.</p>
-               <p>Terribly sad. It was a good thing that already then I so clearly understood that you cannot send such letters. What <persName key="warnekros">this doctor</persName> had done with the operation was perhaps not quite as
-                  beneficial for this unhappy person. She struggled endlessly with herself.</p> 
-               <p>I was embarrassed, she thought, when I translated her love letters to him from Danish into German. In fact, I changed them into being only kind letters of thanks. Of course, it had to be unpleasant for <persName key="warnekros">the doctor</persName>. 
-               <anchor type="commentRangeStart" n="11"/>
-                  It did not amount to many letters.</p>
-               <anchor type="commentRangeEnd" n="11"/><note type="translator" source="mo"  
-                  corresp="comment_11">I’m not sure if this works in English. Perhaps: Not many letters were translated.</note> 
-               <p>Suddenly she asked me not to come any more. <persName key="lili">Lili Elbe</persName> had suddenly gone to <placeName key="dresden">Dresden</placeName>. That was probably best. At the age of 48 <persName key="lili">Lili Elbe</persName> died on the 13th September 1931 at “<placeName key="womensClinic">Frauenklinik</placeName>” and is buried in <placeName key="dresden">Dresden</placeName> at the <placeName key="???">Trinitatis cemetery</placeName>. I have heard that the grave is very neglected, for the headstone has been turned over, but I have also heard that it is being considered to restore it again.</p>
-               <p>She was a kind-hearted person. If you said: “I like your necklace”. Immediately she would give the piece of jewellery to you, but of course, you would decline the offer. Or: “Go to the baker’s and buy a cake.” After which she would serve white wine. Then I could become quite dizzy. She was a bohemian but at the same time a dear person.</p>
-               <p>My older sister has my self-portrait (
-                <anchor type="commentRangeStart" n="12"/>
-                  of 
-               <anchor type="commentRangeEnd" n="12"/><note type="translator" source="mo"  
-                  corresp="comment_12">The Danish word "af" can mean both ‘by’ and ‘of’.</note> 
-               <persName key="lili">Lili Elbe</persName>) hanging in the best spot in a gold frame. I knew <persName key="???">Lili Elbe’s sister</persName> and she told me that <persName key="wegenerE">Einar Wegener</persName> had been a real boy and had never played with dolls. She was several years older. <persName key="harthernE">My father</persName> wrote the book from <persName key="lili">Lili</persName>’s notes, she never saw the finished book.</p>
-               <p>I apologise for this long letter.             <hi rend="italics"><persName key="???">Ruth Hanna Harthern-Thaning</persName></hi>.”</p>
-<!-- KEJ 2019-12-05: In the PDF of the chapter, there is a gap of space between the closing salutation and the name of the letter writer. I looked in the encoding guidelines and couldn't find a way to encode that space, so I just used the space key. -->
+               <figure facs="http://www.lilielbe.org/media/editorials/TeitRitzauChapter_i03.jpg">
+                  <figDesc><hi rend="italics"><persName key="lili">Lili Elbe</persName> immediately
+                        before the journey to <placeName key="dresden">Dresden</placeName> where she
+                        died in 1931. Press photo</hi></figDesc>
+                  <note source="kej"><persName key="lili">Lili Elbe</persName> stands outside with
+                     hands clasped in front and is dressed in a skir, shirt, hat, and dress
+                     shoes.</note>
+               </figure>
+               <p>creation of the book. It does not make the case less interesting that she got a
+                  personal and close relationship to <persName key="lili">Lili Elbe</persName>:</p>
+               <p>“It was my father, <persName key="harthernE">Ernst Harthern</persName>, an den
+                  sich <persName key="lili">Lili Elbe</persName> wendete denn <persName
+                     key="harthernE">mein Vater</persName> … (who <persName key="lili">Lili
+                     Elbe</persName> turned to because <persName key="harthernE">my
+                     father</persName>) … was a German correspondent in <placeName key="denmark"
+                     >Denmark</placeName> for the publishing company Scherl. I was 16 years old
+                  then</p>
                <pb style="page" n="86"/>
-<!--KEJ 2019-12-06: END OF PAGE 86-->  
-               <p>The last pages in the book is an appalling but at the same time a somewhat sentimental description of a death struggle:</p>
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p>“……I cannot write anything about my last operation – it was an abyss of suffering. It is a good thing that <persName key="sparreGre"></persName>Grete knew nothing.”</p>
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p>And yet, <persName key="wegenerG">Gerda Wegener </persName>probably knew more than <persName key="lili">Lili Elbe</persName> suggests here. She had married <persName key="portaF">an Italian</persName> the year before and wrote home to <placeName key="denmark">Denmark</placeName> in 1932, from <placeName key="???">Casablanca</placeName> where she and her <persName key="portaF">new husband</persName> had settled, to the aforementioned publisher:</p>
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p>“<placeName key="marrakech">Marrakech</placeName> 11.9 1933</p>
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p>Dear <persName key="knudsenP">Poul</persName>,</p>
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p>… You, who know how much I loved my <persName key="lili">Lili</persName>, will <hi rend="italics">understand</hi> better than most how strongly I feel attached to those who were kind to her. You are one of them too, dear <persName key="knudsenP">Poul</persName>! –
-                  Tomorrow the 12th it is two years since I lost her. I have still not gotten over it! – And I have the sweetest most wonderful – Man on this earth.”</p>
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p>This letter, which is also in the manuscript collection of the <placeName key="???">Royal Library</placeName>, shows <persName key="wegenerG">Gerda Wegener</persName>’s knowledge of the last part of <persName key="lili">Lili Elbe</persName>’s life. But she too wanted to have a share in the success that <persName key="lili">Lili Elbe</persName>’s book gained. She did not get that, particularly not financially which she also conveys in a letter to <persName key="knudsenP">Poul Knudsen</persName>: </p>
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p>“<placeName key="marrakech">Marrakech</placeName> 22.10 1933</p>
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p>Dear <persName key="knudsenP">Poul</persName>,</p>
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p>… Speaking of <placeName key="england">England</placeName>: An old English lady has let herself be introduced to me to talk to me about <persName key="lili">Lili</persName>’s Book that has recently been published in <placeName key="england">England</placeName> and is supposed to be a tremendous success and the main subject of conversation of the day. It is known in <placeName key="london">London</placeName> that it was me, <persName key="wegenerG">Gerda Wegener</persName>, who is <persName key="sparreGre">Grete</persName> in the book. And my English friend deeply regretted that I was not able to come to <placeName key="london">London</placeName> at the moment as she claimed that I would be “the heroine of the day”. Are you able to use this in some way for an edition or the like??? But in that case it should not take too long. You always have to strike while the iron is hot. This 
-               <anchor type="commentRangeStart" n="13"/>
-                  á <persName key="lili">Lilie</persName> d’indication 
-                 <anchor type="commentRangeEnd" n="13"/><note type="translator" source="mo"  
-                    corresp="comment_13">I don’t know what this term in French means.</note> 
-               – <persName key="lili">Lili</persName>’s book (which I had more or less written and which has only been trivialized and changed by the 
-               <anchor type="commentRangeStart" n="14"/>
-                  filthy Jew 
-               <anchor type="commentRangeEnd" n="14"/><note type="translator" source="mo"  
-                  corresp="comment_14">The Danish word Jødetamp is a derogatory term for Jew. I don’t know how to translate it. The first part of the word Jøde simply means Jew and for the second part tamp my dictionary suggest lout.</note> 
-                  called <persName key="hoyerNiels">Niels Højer</persName>) – gives me practically nothing. He has arranged things so cleverly that I get almost nothing and he does not even keep to his contract. He rakes everything in. My former brother in law engineer <persName key="thomsenTC">T.L. Thomsen</persName>, to whom <persName key="lili">Lili</persName> had handed over the marketing of</p>
+               <p>and remember the day in the spring of 1931 when unfortunately, I could no longer
+                  return to my beloved school in <placeName key="stade">Stade</placeName> near
+                     <placeName key="hamburg">Hamburg</placeName> because the conditions did not
+                  allow it on account of a certain <persName key="hitler">Adolf</persName>. Not many
+                  days later, my father came into my room and once again he succeeded in telling me
+                  something extraordinary: In a little while a lady will come who was once a man …
+                  Then the doorbell rang. I immediately ran back to my room. I heard a deep voice
+                  that sounded like <persName key="leander">Sarah Leander</persName>’s.</p>
+               <p>Finally I had to sit at the dinner table in the dining room with the others. Yes,
+                  it was not her outer appearance (fox-red hair, bright red nails and mouth). No, it
+                  was her entire being … she was a real woman. For I had not known her as a man. It
+                  was arranged (<persName key="lili">Lili Elbe</persName> felt very lonely, I
+                  understood) that I should learn to paint with her. It was Whitsun the next day.
+                  The next morning I left our <anchor type="commentRangeStart" n="9"/> flat <anchor
+                     type="commentRangeEnd" n="9"/><note type="translator" source="mo"
+                     corresp="comment_9">The Danish word bolig means dwelling and does not specify
+                     if it is a house or an apartment, but at the address in Havnegade is an
+                     apartment building that looks as if must have been there at the time.</note> in
+                     <placeName key="havnegade">Havnegade</placeName> 47. With a light heart I
+                  walked through the sunny <placeName key="nyhavn">Nyhavn</placeName> to <placeName
+                     key="kongensNytorv">Kongens Nytorv</placeName> and went on by tram to Valby
+                  where this <persName key="lili">Elbe</persName> had taken shelter in an attic flat
+                  with nice people in a nice villa. She had already put out an easel on which a
+                  prepared stretched canvas was placed, besides this there was paint and everything
+                  else that belonged to painting.</p>
+               <p>In the few days of her life a self-portrait and two still lives materialised. It
+                  was probably also for other reasons that she let me in for the poor <anchor
+                     type="commentRangeStart" n="10"/> woman <anchor type="commentRangeEnd" n="10"
+                     /><note type="translator" source="mo" corresp="comment_10">The usual problem
+                     with translating menneske, which is not gendered.</note> had fallen deeply in
+                  love with her benefactor: The <persName key="warnekros">Professor</persName> from
+                     “<placeName key="womensClinic">Frauenklinik</placeName>” in <placeName
+                     key="dresden">Frauenklinik</placeName>Dresden.</p>
+               <p>Terribly sad. It was a good thing that already then I so clearly understood that
+                  you cannot send such letters. What <persName key="warnekros">this
+                     doctor</persName> had done with the operation was perhaps not quite as
+                  beneficial for this unhappy person. She struggled endlessly with herself.</p>
+               <p>I was embarrassed, she thought, when I translated her love letters to him from
+                  Danish into German. In fact, I changed them into being only kind letters of
+                  thanks. Of course, it had to be unpleasant for <persName key="warnekros">the
+                     doctor</persName>. <anchor type="commentRangeStart" n="11"/> It did not amount
+                  to many letters.</p>
+               <anchor type="commentRangeEnd" n="11"/>
+               <note type="translator" source="mo" corresp="comment_11">I’m not sure if this works
+                  in English. Perhaps: Not many letters were translated.</note>
+               <p>Suddenly she asked me not to come any more. <persName key="lili">Lili
+                     Elbe</persName> had suddenly gone to <placeName key="dresden"
+                     >Dresden</placeName>. That was probably best. At the age of 48 <persName
+                     key="lili">Lili Elbe</persName> died on the 13th September 1931 at “<placeName
+                     key="womensClinic">Frauenklinik</placeName>” and is buried in <placeName
+                     key="dresden">Dresden</placeName> at the <placeName key="trinitatisCemetery"
+                     >Trinitatis cemetery</placeName>. I have heard that the grave is very
+                  neglected, for the headstone has been turned over, but I have also heard that it
+                  is being considered to restore it again.</p>
+               <p>She was a kind-hearted person. If you said: “I like your necklace”. Immediately
+                  she would give the piece of jewellery to you, but of course, you would decline the
+                  offer. Or: “Go to the baker’s and buy a cake.” After which she would serve white
+                  wine. Then I could become quite dizzy. She was a bohemian but at the same time a
+                  dear person.</p>
+               <p>My older sister has my self-portrait ( <anchor type="commentRangeStart" n="12"/>
+                  of <anchor type="commentRangeEnd" n="12"/><note type="translator" source="mo"
+                     corresp="comment_12">The Danish word "af" can mean both ‘by’ and ‘of’.</note>
+                  <persName key="lili">Lili Elbe</persName>) hanging in the best spot in a gold
+                  frame. I knew <persName key="thomsenCW">Lili Elbe’s sister</persName> and she told
+                  me that <persName key="wegenerE">Einar Wegener</persName> had been a real boy and
+                  had never played with dolls. She was several years older. <persName
+                     key="harthernE">My father</persName> wrote the book from <persName key="lili"
+                     >Lili</persName>’s notes, she never saw the finished book.</p>
+               <p>I apologise for this long letter. <hi rend="italics"><persName key="harthernRuth"
+                        >Ruth Hanna Harthern-Thaning</persName></hi>.”</p>
+               <!-- KEJ 2019-12-05: In the PDF of the chapter, there is a gap of space between the closing salutation and the name of the letter writer. I looked in the encoding guidelines and couldn't find a way to encode that space, so I just used the space key. -->
                <pb style="page" n="87"/>
-<!--KEJ 2019-12-06: END OF PAGE 87-->  
-               <figure xml:id="i04" facs="URL">
-<!-- KEJ 2019-12-06: What do I put for the facs URL?-->
-                  <figDesc><hi rend="italics">One of <persName key="lili">Lili Elbe</persName>'s letters written eight months before her death (the <placeName key="???">Royal Library</placeName>). <persName key="lili">Lili Elbe</persName>’s juggling of names can seem a little confusing. In the letter she calls her former male self <persName key="sparreAn">Andreas</persName>. In “The Confessions of <persName key="lili">Lili Elbe</persName>” he was called <persName key="sparreAn">Andreas Sparre</persName>, not <persName key="???">Hjalmar Hvide</persName> as mentioned in the letter. <persName key="kreutz">Werner von Kreutz</persName> is the book’s pseudonym for the surgeon <persName key="warnekros">Kurt Warnekros</persName> who “created” <persName key="lili">Lili</persName>. And she signs herself<persName key="lili">Lili Elvenes</persName></hi></figDesc>
-                  <note source="kej">Letter written by <persName key="lili">Lili Elbe</persName> in <placeName key="denmark">Denmark</placeName> in 1931 to <persName key="knudsenP">Poul Knudsen</persName></note>
-               </figure>
-<!--KEJ 2019-12-04: Caption is formatted as another column to the left of the illustration. Should I encode for this? -->   
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p><hi rend="italics"><placeName key="lindevangen">Lindevangen</placeName> 8-10, 22-1-31.</hi></p> 
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p><hi rend="italics">Dear big <persName key="knudsenP">Paul</persName></hi></p>
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p><hi rend="italics">Thank you so much for your letter. It is with regret that I will comply with your wish and change the name of the hero. He will then be called <persName key="???">Hjalmar Hvide</persName>. Do not be surprised that I write nicely and correctly about a friend – I do not really belong to 
-                   
-                <anchor type="commentRangeStart" n="15"/>
-                  <placeName key="???">Lumskebugten</placeName>                
-                 <anchor type="commentRangeEnd" n="15"/><note type="translator" source="mo"  
-                    corresp="comment_15">Lumskebugten is a restaurant in Copenhagen. According to Wikipedia it started as a sailor’s pub and was popular among artists. Kristin Jacobsen has translated this as “the in crowd”, which is probably a good idea.</note> 
-                  at home. How I look forward to hearing about <persName key="knudsenV">Vibeke</persName>’s triumphal trip during Christmas! The name of the wonderful person in <placeName key="dresden">Dresden</placeName> is <persName key="warnekros">Prof. Kurt Warnekros</persName>. It is even written with a W in my heart – yes even therein engraved! I am very pleased that Mr. <persName key="magnusE">Ervin Magnus</persName> believes in the book. But I must ask you to explain the following to him:</hi></p>
-<!-- KEJ 2019-12-08: Marianne, the translator, has included my name and previous translation decision in a note. I didn't code it because I wasn't sure how to do it. -->              
-               <p><hi rend="italics">When I have not written the book as a biography it is to make it known that it is about two people <persName key="sparreAn">Andreas</persName> and <persName key="lili">Lili</persName> who are not mentally connected. It is probably most apparent from the last part that there is a duality – or was. First it is <persName key="sparreAn">Andreas</persName> who tells <persName key="knudsenP">Poul</persName> his memories from when <persName key="sparreAn">Andreas</persName> was dominant after which <persName key="lili">Lili</persName> tells <persName key="knudsenP">Poul</persName> memories from the time when she began to work her way forward and got the greater part of the assets in their common estate – and eventually became the sole proprietor.</hi></p>               
-               <p><hi rend="italics">	It appears clearly from the last part that it is even</hi></p>
+               <p>The last pages in the book is an appalling but at the same time a somewhat
+                  sentimental description of a death struggle:</p>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p>“……I cannot write anything about my last operation – it was an abyss of suffering.
+                  It is a good thing that <persName key="sparreGre"/>Grete knew nothing.”</p>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p>And yet, <persName key="wegenerG">Gerda Wegener </persName>probably knew more than
+                     <persName key="lili">Lili Elbe</persName> suggests here. She had married
+                     <persName key="portaF">an Italian</persName> the year before and wrote home to
+                     <placeName key="denmark">Denmark</placeName> in 1932, from <placeName
+                     key="casablanca">Casablanca</placeName> where she and her <persName
+                     key="portaF">new husband</persName> had settled, to the aforementioned
+                  publisher:</p>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p>“<placeName key="marrakech">Marrakech</placeName> 11.9 1933</p>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p>Dear <persName key="knudsenP">Poul</persName>,</p>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p>… You, who know how much I loved my <persName key="lili">Lili</persName>, will <hi
+                     rend="italics">understand</hi> better than most how strongly I feel attached to
+                  those who were kind to her. You are one of them too, dear <persName key="knudsenP"
+                     >Poul</persName>! – Tomorrow the 12th it is two years since I lost her. I have
+                  still not gotten over it! – And I have the sweetest most wonderful – Man on this
+                  earth.”</p>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p>This letter, which is also in the manuscript collection of the <placeName
+                     key="royalLibrary">Royal Library</placeName>, shows <persName key="wegenerG"
+                     >Gerda Wegener</persName>’s knowledge of the last part of <persName key="lili"
+                     >Lili Elbe</persName>’s life. But she too wanted to have a share in the success
+                  that <persName key="lili">Lili Elbe</persName>’s book gained. She did not get
+                  that, particularly not financially which she also conveys in a letter to <persName
+                     key="knudsenP">Poul Knudsen</persName>: </p>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p>“<placeName key="marrakech">Marrakech</placeName> 22.10 1933</p>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p>Dear <persName key="knudsenP">Poul</persName>,</p>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p>… Speaking of <placeName key="england">England</placeName>: An old English lady
+                  has let herself be introduced to me to talk to me about <persName key="lili"
+                     >Lili</persName>’s Book that has recently been published in <placeName
+                     key="england">England</placeName> and is supposed to be a tremendous success
+                  and the main subject of conversation of the day. It is known in <placeName
+                     key="london">London</placeName> that it was me, <persName key="wegenerG">Gerda
+                     Wegener</persName>, who is <persName key="sparreGre">Grete</persName> in the
+                  book. And my English friend deeply regretted that I was not able to come to
+                     <placeName key="london">London</placeName> at the moment as she claimed that I
+                  would be “the heroine of the day”. Are you able to use this in some way for an
+                  edition or the like??? But in that case it should not take too long. You always
+                  have to strike while the iron is hot. This <anchor type="commentRangeStart" n="13"
+                  /> á <persName key="lili">Lilie</persName> d’indication <anchor
+                     type="commentRangeEnd" n="13"/><note type="translator" source="mo"
+                     corresp="comment_13">I don’t know what this term in French means.</note> –
+                     <persName key="lili">Lili</persName>’s book (which I had more or less written
+                  and which has only been trivialized and changed by the <anchor
+                     type="commentRangeStart" n="14"/> filthy Jew <anchor type="commentRangeEnd"
+                     n="14"/><note type="translator" source="mo" corresp="comment_14">The Danish
+                     word Jødetamp is a derogatory term for Jew. I don’t know how to translate it.
+                     The first part of the word Jøde simply means Jew and for the second part tamp
+                     my dictionary suggest lout.</note> called <persName key="hoyerNiels">Niels
+                     Højer</persName>) – gives me practically nothing. He has arranged things so
+                  cleverly that I get almost nothing and he does not even keep to his contract. He
+                  rakes everything in. My former brother in law engineer <persName key="thomsenTC"
+                     >T.L. Thomsen</persName>, to whom <persName key="lili">Lili</persName> had
+                  handed over the marketing of</p>
                <pb style="page" n="88"/>
-<!--KEJ 2019-12-06: END OF PAGE 88-->  
-               <figure xml:id="i05" facs="URL">
-<!-- KEJ 2019-12-06: What do I put for the facs URL?-->
-                  <figDesc><hi rend="italics">In “The Cofessions of <persName key="lili">Lili Elbe</persName>” <persName key="warnekros">professor Warnekros</persName> is called <persName key="kreutz">Werner Kreutz</persName>. <persName key="lili">Lili</persName> was no systematist. In the letter she spells <persName key="kreutz">Kreuz</persName>, in the book <persName key="kreutz">Kreutz</persName>.</hi></figDesc>
-                  <note source="kej">Continuation of 1931 letter written by <persName key="lili">Lili Elbe</persName>.</note>
+               <figure facs="http://www.lilielbe.org/media/editorials/TeitRitzauChapter_i04.jpg">
+                  <figDesc><hi rend="italics">One of <persName key="lili">Lili Elbe</persName>'s
+                        letters written eight months before her death (the <placeName
+                           key="royalLibrary">Royal Library</placeName>). <persName key="lili">Lili
+                           Elbe</persName>’s juggling of names can seem a little confusing. In the
+                        letter she calls her former male self <persName key="sparreAn"
+                           >Andreas</persName>. In “The Confessions of <persName key="lili">Lili
+                           Elbe</persName>” he was called <persName key="sparreAn">Andreas
+                           Sparre</persName>, not <persName key="hvideNiels">Hjalmar
+                           Hvide</persName> as mentioned in the letter. <persName key="kreutz"
+                           >Werner von Kreutz</persName> is the book’s pseudonym for the surgeon
+                           <persName key="warnekros">Kurt Warnekros</persName> who “created”
+                           <persName key="lili">Lili</persName>. And she signs herself<persName
+                           key="lili">Lili Elvenes</persName></hi></figDesc>
+                  <note source="kej">Letter written by <persName key="lili">Lili Elbe</persName> in
+                        <placeName key="denmark">Denmark</placeName> in 1931 to <persName
+                        key="knudsenP">Poul Knudsen</persName></note>
                </figure>
-<!--KEJ 2019-12-06: Caption is formatted as another column to the right of the illustration. Should I encode for this? -->   
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p><hi rend="italics">of absolutely vital importance to <persName key="lili">Lili</persName> that spiritually she has nothing to do with <persName key="sparreAn">Andreas</persName> – and the great miracle is that she feels reborn – pure and virginal – and mentally absolutely not a man who has become a girl!!! The second part also shows how <persName key="kreutz">Werner von Kreuz</persName> has always distinguished between the two. The main point of the book is that there were two souls in one body – and that a brilliant surgeon saves the girl from 
-                <anchor type="commentRangeStart" n="17"/>
-                  a joint shipwreck. 
-                <anchor type="commentRangeEnd" n="17"/><note type="translator" source="mo"  
-                   corresp="comment_17">Kristin Jacobsen translates this as “disaster”.</note> 
-<!-- KEJ 2019-12-08: Marianne, the translator, has included my name and previous translation decision in a note. I didn't code it because I wasn't sure how to do it. -->              
-                  I am also afraid that the other form would weigh down the book and I precisely wish to show that I am coquettish, carefree, superficial and silly – and it has been important to me to show that what there is, which is artistic, of wisdom and serious male knowledge, comes from <persName key="sparreAn">Andreas</persName> who was an artist and an honourable man while my contribution is a certain shallow and girlish philosophy! (You see, it is really a devaluation of the assets). Ask Mr. <persName key="magnusE">Ervin Magnus</persName>to listen with sympathy to this my defence of the form of the book.</hi></p>
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p><hi rend="italics">Your poor little friend</hi></p>
-<!-- KEJ 2019-12-06: The line above is centered. I remember reading somwhere that we are not capturing formatting, but I am adding this note to be sure. -->
-               <p><hi rend="italics"><persName key="lili">Lili</persName></hi></p>               
-<!-- KEJ 2019-12-06: The line above is centered. I remember reading somwhere that we are not capturing formatting, but I am adding this note to be sure. -->
-               <p><hi rend="italics"><persName key="lili">Lili Elvenes</persName>.	         
-               <anchor type="commentRangeStart" n="18"/>
-                  Mille baisers á <persName key="knudsenV">Vibeke</persName></hi></p>
-               <anchor type="commentRangeEnd" n="18"/><note type="translator" source="mo"  
-                  corresp="comment_18">Kristin Jacobsen  has translated this from French into “A thousand kisses to Vibeke”.</note> 
-<!-- KEJ 2019-12-08: Marianne, the translator, has included my name and previous translation decision in a note. I didn't code it because I wasn't sure how to do it. -->              
-<!-- KEJ 2019-12-06: In the PDF of the chapter, there is a gap of space between the name and the additional text. I looked in the encoding guidelines and couldn't find a way to encode that space, so I just used the space key. -->
-               <p><hi rend="italics"><persName key="lili">Lili</persName></hi></p> 
-<!-- KEJ 2019-12-06: In the PDF, the name is all the way to the left. I remember reading somwhere that we are not capturing formatting, but I am adding this note to be sure. -->
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p><hi rend="italics"><placeName key="lindevangen">Lindevangen</placeName> 8-10,
+                     22-1-31.</hi></p>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p><hi rend="italics">Dear big <persName key="knudsenP">Paul</persName></hi></p>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p><hi rend="italics">Thank you so much for your letter. It is with regret that I
+                     will comply with your wish and change the name of the hero. He will then be
+                     called <persName key="hvideNiels">Hjalmar Hvide</persName>. Do not be surprised
+                     that I write nicely and correctly about a friend – I do not really belong to
+                        <anchor type="commentRangeStart" n="15"/>
+                     <placeName key="lumskebugten">Lumskebugten</placeName>
+                     <anchor type="commentRangeEnd" n="15"/><note type="translator" source="mo"
+                        corresp="comment_15">Lumskebugten is a restaurant in Copenhagen. According
+                        to Wikipedia it started as a sailor’s pub and was popular among artists.
+                        Kristin Jacobsen has translated this as “the in crowd”, which is probably a
+                        good idea.</note> at home. How I look forward to hearing about <persName
+                        key="knudsenV">Vibeke</persName>’s triumphal trip during Christmas! The name
+                     of the wonderful person in <placeName key="dresden">Dresden</placeName> is
+                        <persName key="warnekros">Prof. Kurt Warnekros</persName>. It is even
+                     written with a W in my heart – yes even therein engraved! I am very pleased
+                     that Mr. <persName key="magnusE">Ervin Magnus</persName> believes in the book.
+                     But I must ask you to explain the following to him:</hi></p>
+               <!-- KEJ 2019-12-08: Marianne, the translator, has included my name and previous translation decision in a note. I didn't code it because I wasn't sure how to do it. -->
+               <p><hi rend="italics">When I have not written the book as a biography it is to make
+                     it known that it is about two people <persName key="sparreAn"
+                        >Andreas</persName> and <persName key="lili">Lili</persName> who are not
+                     mentally connected. It is probably most apparent from the last part that there
+                     is a duality – or was. First it is <persName key="sparreAn">Andreas</persName>
+                     who tells <persName key="knudsenP">Poul</persName> his memories from when
+                        <persName key="sparreAn">Andreas</persName> was dominant after which
+                        <persName key="lili">Lili</persName> tells <persName key="knudsenP"
+                        >Poul</persName> memories from the time when she began to work her way
+                     forward and got the greater part of the assets in their common estate – and
+                     eventually became the sole proprietor.</hi></p>
+               <p><hi rend="italics"> It appears clearly from the last part that it is even</hi></p>
                <pb style="page" n="89"/>
-<!--KEJ 2019-12-06: END OF PAGE 89-->  
-               <p>the book seemed to be acting in collusion with <persName key="hoyerNiels">Højer</persName>. What do you want me to do at this distance, dear? I cannot sit here and make a lawsuit against <persName key="hoyerNiels"></persName>Højer! You who are a lawyer tell me if there is anything to be done? – “</p>
-               <p>But there was something that <persName key="wegenerG">Gerda Wegener</persName> probably did not know – during the last operation on <persName key="lili">Lili Elbe</persName> female sexual organs were implanted, that is if the story is true. A completely mad operation, also scientifically, in 1933.</p>
-               <p>That is why there is reason to believe that <persName key="lili">Lili Elbe</persName> died from an autoimmune reaction following the implantation of tissue incompatible organs.</p><!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
-<!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
-               <p>“…… Now I know that death will come …… I dreamed of <persName key="wegenerAM">mother</persName> last night …… she took me in her arms and called me <persName key="lili">Lili</persName> ….. and <persName key="wegenerV">father</persName> was there too.”</p>
+               <figure facs="http://www.lilielbe.org/media/editorials/TeitRitzauChapter_i05.jpg">
+                  <figDesc><hi rend="italics">In “The Confessions of <persName key="lili">Lili
+                           Elbe</persName>” <persName key="warnekros">professor Warnekros</persName>
+                        is called <persName key="kreutz">Werner Kreutz</persName>. <persName
+                           key="lili">Lili</persName> was no systematist. In the letter she spells
+                           <persName key="kreutz">Kreuz</persName>, in the book <persName
+                           key="kreutz">Kreutz</persName>.</hi></figDesc>
+                  <note source="kej">Continuation of 1931 letter written by <persName key="lili"
+                        >Lili Elbe</persName>.</note>
+               </figure>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p><hi rend="italics">of absolutely vital importance to <persName key="lili"
+                        >Lili</persName> that spiritually she has nothing to do with <persName
+                        key="sparreAn">Andreas</persName> – and the great miracle is that she feels
+                     reborn – pure and virginal – and mentally absolutely not a man who has become a
+                     girl!!! The second part also shows how <persName key="kreutz">Werner von
+                        Kreuz</persName> has always distinguished between the two. The main point of
+                     the book is that there were two souls in one body – and that a brilliant
+                     surgeon saves the girl from <anchor type="commentRangeStart" n="17"/> a joint
+                     shipwreck. <anchor type="commentRangeEnd" n="17"/><note type="translator"
+                        source="mo" corresp="comment_17">Kristin Jacobsen translates this as
+                        “disaster”.</note>
+                     <!-- KEJ 2019-12-08: Marianne, the translator, has included my name and previous translation decision in a note. I didn't code it because I wasn't sure how to do it. -->
+                     I am also afraid that the other form would weigh down the book and I precisely
+                     wish to show that I am coquettish, carefree, superficial and silly – and it has
+                     been important to me to show that what there is, which is artistic, of wisdom
+                     and serious male knowledge, comes from <persName key="sparreAn"
+                        >Andreas</persName> who was an artist and an honourable man while my
+                     contribution is a certain shallow and girlish philosophy! (You see, it is
+                     really a devaluation of the assets). Ask Mr. <persName key="magnusE">Ervin
+                        Magnus</persName>to listen with sympathy to this my defence of the form of
+                     the book.</hi></p>
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p><hi rend="italics">Your poor little friend</hi></p>
+               <!-- KEJ 2019-12-06: The line above is centered. I remember reading somwhere that we are not capturing formatting, but I am adding this note to be sure. -->
+               <p><hi rend="italics"><persName key="lili">Lili</persName></hi></p>
+               <!-- KEJ 2019-12-06: The line above is centered. I remember reading somwhere that we are not capturing formatting, but I am adding this note to be sure. -->
+               <p><hi rend="italics"><persName key="lili">Lili Elvenes</persName>. <anchor
+                        type="commentRangeStart" n="18"/> Mille baisers á <persName key="knudsenV"
+                        >Vibeke</persName></hi></p>
+               <anchor type="commentRangeEnd" n="18"/>
+               <note type="translator" source="mo" corresp="comment_18">Kristin Jacobsen has
+                  translated this from French into “A thousand kisses to Vibeke”.</note>
+               <!-- KEJ 2019-12-08: Marianne, the translator, has included my name and previous translation decision in a note. I didn't code it because I wasn't sure how to do it. -->
+               <!-- KEJ 2019-12-06: In the PDF of the chapter, there is a gap of space between the name and the additional text. I looked in the encoding guidelines and couldn't find a way to encode that space, so I just used the space key. -->
+               <p><hi rend="italics"><persName key="lili">Lili</persName></hi></p>
+               <!-- KEJ 2019-12-06: In the PDF, the name is all the way to the left. I remember reading somwhere that we are not capturing formatting, but I am adding this note to be sure. -->
                <pb style="page" n="90"/>
-<!--KEJ 2019-12-04: END OF PAGE 90-->  
+               <p>the book seemed to be acting in collusion with <persName key="hoyerNiels"
+                     >Højer</persName>. What do you want me to do at this distance, dear? I cannot
+                  sit here and make a lawsuit against <persName key="hoyerNiels"/>Højer! You who are
+                  a lawyer tell me if there is anything to be done? – “</p>
+               <p>But there was something that <persName key="wegenerG">Gerda Wegener</persName>
+                  probably did not know – during the last operation on <persName key="lili">Lili
+                     Elbe</persName> female sexual organs were implanted, that is if the story is
+                  true. A completely mad operation, also scientifically, in 1933.</p>
+               <p>That is why there is reason to believe that <persName key="lili">Lili
+                     Elbe</persName> died from an autoimmune reaction following the implantation of
+                  tissue incompatible organs.</p>
+               <!-- KEJ 2019-12-04: Several blank lines follow this paragraph. -->
+               <!-- KEJ 2019-12-06: Several blank lines follow this paragraph. -->
+               <p>“…… Now I know that death will come …… I dreamed of <persName key="wegenerAM"
+                     >mother</persName> last night …… she took me in her arms and called me
+                     <persName key="lili">Lili</persName> ….. and <persName key="wegenerV"
+                     >father</persName> was there too.”</p>
             </div>
-               <!--END CHAPTER IN ENGLISH-->
-            </div>
-            <!--END DIVISION OF ENGLISH TRANSLATION-->               
-      <!--END BODY OF ENTIRE TEXT IN BOTH DANISH AND ENGLISH-->
-         </body>
+            <!--END CHAPTER IN ENGLISH-->
+         </div>
+         <!--END DIVISION OF ENGLISH TRANSLATION-->
+         <!--END BODY OF ENTIRE TEXT IN BOTH DANISH AND ENGLISH-->
+      </body>
    </text>
 </TEI>
