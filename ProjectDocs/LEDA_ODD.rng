@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-11-06T01:38:28Z. .
+Schema generated from ODD source 2019-12-17T02:38:30Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -2713,6 +2713,8 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>overtype</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>sic</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>transposition</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
@@ -4793,6 +4795,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
             <attribute name="key">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
+                  <value>alexanderPF</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Philipp Friedrich
+                              Alexander | Note: Prince of Eulenburg (1847-1921), Philipp Friedrich
+                              Alexander, German diplomat) </a:documentation>
                   <value>allatiniE</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Eric Moïse Allatini |
                               Note: Eric Allatini (1886–1943), friend of the Wegeners, a writer of
@@ -4829,6 +4835,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Bach | Note: Bach
                               (historical), Johann Sebastian Bach (1685–1750), a German
                               composer) </a:documentation>
+                  <value>bækgaardE</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Ellen Bækgaard | Note:
+                              Ellen Bækgaard (1895-c. 1982), a Danish dentist, friend of Magnus
+                              Hirschfeld, and a member of the World League of Sexual Reform ) </a:documentation>
                   <value>bangCA</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): C. A. Bang | Note: C.
                               A. Bang (historical), unidentified) </a:documentation>
@@ -5021,6 +5031,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               (1884–1969), German writer and editor of Man into Woman under the
                               pseudonym, Niels Hoyer; Lili’s German friend in the narrative | Linked
                               Keys: #hoyerNiels) </a:documentation>
+                  <value>harthernRuth</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Ruth | Note: Ruth Hanna
+                              Hathern-Thaning (1915-1993), daughter of Ernst Harthern | Linked Keys:
+                              #ruth) </a:documentation>
                   <value>hauwitz</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Hauwitz | Note: Hauwitz
                               (fictional), no known historical model) </a:documentation>
@@ -5043,6 +5057,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               physician and one of the most influential sexologists of the time;
                               Einar Wegener was examined at his Institute in March 1930 | Linked
                               Keys: #hardenfeld) </a:documentation>
+                  <value>hitler</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Adolf Hitler | Note:
+                              Adolf Hitler (1889-1945), Chancellor then Führer of Germany,
+                              1933-1945, and leader of the Nazi Party) </a:documentation>
                   <value>hn</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Hn. | Note: Hn.
                               (historical), unidentified) </a:documentation>
@@ -5069,6 +5087,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               J. P. Jacobsen (1847-1885), Danish novelist Jens Peter Jacobsen who
                               went by J.P. Jacobsen and was part of the “Modern Breakthrough”
                               movement in Danish literature) </a:documentation>
+                  <value>isherwoodC</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Christopher Isherwood |
+                              Note: Christopher Isherwood (1904-1986), a British-born writer whose
+                              Goodbye to Berlin (1939) chronicles his life in Berlin, beginning in
+                              1929 when he stayed at Magnus Hirschfeld’s Institute) </a:documentation>
                   <value>jager</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Hans Henrik Jæger, Hans
                               Jager | Note: Hans Henrik Jæger (1854-1910), a Norweigen writer and
@@ -5101,7 +5124,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Kreutz Werner, Kreutz,
                               the professor, Professor Werner, deutschen Professor, der Professor,
                               Der/Des deutsche(n) Arzt(es) | Note: Professor Werner Kreutz
-                              (fictional), modelled on Kurt Warenkros (1882–1949), a German
+                              (fictional), modelled on Kurt Warnekros (1882–1949), a German
                               gynecologist | Linked Keys: #warnekros) </a:documentation>
                   <value>larsen</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Anna Larsen, the actress
@@ -5111,6 +5134,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Anna Larssen | Note:
                               Anna Larssen (1875-1955), a Danish actress, friend of the
                               Wegeners) </a:documentation>
+                  <value>leander</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Zarah Leander, Sarah
+                              Leanders | Note: Zarah Leander (1907-1981), a Swedish singer popular
+                              in Nazi Germany.) </a:documentation>
                   <value>lejeuneClaude</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Claude Lejeune, Claude
                               Lejenne, Claude | Note: Claude Lejeune (fictional), modeled on Claude
@@ -5185,6 +5212,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Maurice Merleau-Ponty |
                               Note: Maurice Merleau-Ponty (1908-1961), a French
                               phenomenologist) </a:documentation>
+                  <value>morrisJ</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Jan Morris | Note: Jan
+                              Morris (b. 1926), British travel writer whose 1974 memoir, Conundrum,
+                              is an often-cited narrative of transgender ) </a:documentation>
                   <value>mother</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): mother, mo'r, mutter |
                               Note: Mother (fictional), modeled on Einar Wegener’s mother, Ane Marie
@@ -5296,6 +5327,15 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>rex</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Rex. | Note: Rex.
                               (historical), unidentified) </a:documentation>
+                  <value>richterD</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Dorchen Richter, Dora
+                              Richter | Note: Dorchen (Dora) Richter (1891-1933), the first person
+                              to undergo genital transformation surgery at Hirschfeld’s
+                              Institute) </a:documentation>
+                  <value>ritzauT</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Teit Ritzau | Note:
+                              Teit Ritzau (b. 1956) is a Danish writer and filmmaker, co-author of
+                              Paradiset er ikke til salg (1984)) </a:documentation>
                   <value>robilantM</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Mario Nicolis di
                               Robilant, général Nicolis de Robilant | Note: General Nicolis di
@@ -5313,8 +5353,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Linked Keys: #allatiniE) </a:documentation>
                   <value>ruth</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Ruth | Note: Ruth
-                              (fictional and historical), modeled on Ruth Hanna Hathern-Thaning
-                              (dates unknown), daughter of Ernst Harthern) </a:documentation>
+                              (fictional), modeled on Ruth Hanna Hathern-Thaning (1915-1993),
+                              daughter of Ernst Harthern | Linked Keys: #harthernRuth) </a:documentation>
+                  <value>sassEK</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Else Kai Sass | Note:
+                              Else Kai Sass (1912-1987), a Danish art historian) </a:documentation>
                   <value>saunders</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Fraulein Saunders |
                               Note: Fraulein Saunders (historical), unidentified) </a:documentation>
@@ -5323,6 +5366,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Baronin Schildt (fictional), modeled on Marie-Anne von
                               Goldschmidt-Rothschild (née Friedländer-Fuld, 1892-1973), known as
                               Baroness Rotschildt; a friend of Kurt Warnekros) </a:documentation>
+                  <value>schottW</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Walter Schott | Note:
+                              Walter Schott (1861-1938), German sculptor) </a:documentation>
                   <value>schrembsCarl</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Carl Schrembs | Note:
                               Carl Schrembs (historical), private person, unidentified) </a:documentation>
@@ -5343,7 +5389,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>sister</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): sister, søster,
                               schwester | Note: Sister (fictional), modeled on Einar Wegener’s
-                              sister, Christiane Thomsen (1881–1954) </a:documentation>
+                              sister, Christiane Thomsen (1881–1954)) </a:documentation>
                   <value>sisterInLaw</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): sister-in-law,
                               svigerinde, schwägerin, frau des bruders | Note: Sister-in-law
@@ -5388,6 +5434,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Gabriele Tergit (1894-1982), a writer and journalist born in Berlin
                               who was a courtroom reporter for the Berliner Tageblatt and published
                               the novel Käsebier erobert den Kurfürstendamm in 1932) </a:documentation>
+                  <value>thomsenCW</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Christiane Wegener
+                              Thomsen | Note: Christiane Wegener Thomsen (1881–1954), Einar
+                              Wegener’s only sister | Linked Keys: #sister) </a:documentation>
                   <value>thomsenTC</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): TC Thomsen | Note:
                               Thomas Christian Thomsen (1883-1963), married to Einar’s sister,
@@ -5579,6 +5629,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>capri</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Capri | Note: Capri (histoical), island off
                               Italy in the Gulf of Naples) </a:documentation>
+                  <value>casablanca</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Casablanca | Note: Casablanca (historical),
+                              port city in Morocco) </a:documentation>
                   <value>cathedralSeville</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Cathedral in Seville, Cathedral of Seville,
                               Katedralen i Sevilla, Kathedrale in Sevilla | Note: Cathedral of
@@ -5658,13 +5711,13 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               | Note: Northern France (historical), France is a western European
                               country. We had to distinguish Northern France from France because in
                               some languages Northern France is one word and can signify a specific
-                              identity.) </a:documentation>
+                              region with its unique identity.) </a:documentation>
                   <value>franceSouth</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Southern France, Südfrankreich | Note:
                               Southern France (historical), France is a western European country. We
                               had to distinguish Southern France from France because in some
                               languages Southern France is one word and can signify a specific
-                              identity.) </a:documentation>
+                              region with its unique identity.) </a:documentation>
                   <value>friedrichsstrasse</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Friedrichsstrasse, Friedrichstrasse,
                               Friedrichstraße | Note: Friedrichsstrasse (historical), a street in
@@ -5690,13 +5743,13 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               | Note: Southern German (historical), Germany is a western European
                               country. We had to distinguish South Germany from Germany because in
                               some languages South Germany is one word and can signify a specific
-                              identity.) </a:documentation>
+                              region with its unique identity.) </a:documentation>
                   <value>germanyNorth</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Northern Germany, Norddeutschland | Note:
                               Northern Germany (historical), Germany is a western European country.
                               We had to distinguish North Germany from Germany because in some
-                              languages North Germany is one word and can signify a specific
-                              identity.) </a:documentation>
+                              languages North Germany is one word and can signify a specific region
+                              with its unique identity.) </a:documentation>
                   <value>gipsyBar</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Gipsy Bar | Note: Gipsy Bar (fictional), no
                               known historical analogue) </a:documentation>
@@ -5712,12 +5765,21 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>hague</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): The Hague | Note: The Hague (historical), city
                               in the Netherlands) </a:documentation>
+                  <value>hamburg</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Hamburg | Note: Hamburg (historical), city in
+                              Germany) </a:documentation>
                   <value>hanover</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Hanover, Hannover | Note: Hanover
                               (historical), also spelled Hannover, city in Germany) </a:documentation>
                   <value>haralaching</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Haralaching | Note: Haralaching (historical),
                               a district of Munich, Germany) </a:documentation>
+                  <value>havnegade</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Havnegade | Note: Havnegade (historical), a
+                              promenade in Copenhagen and port for ferries to Sweden.) </a:documentation>
+                  <value>hellerup</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Hellerup | Note: Hellerup (historical), a
+                              district in the suburbs of Copenhagen) </a:documentation>
                   <value>hindustan</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Hindustan | Note: Hindustan (historical), a
                               Persian name for India) </a:documentation>
@@ -5743,10 +5805,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>institutePsychiatry</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Institute for Psychiatry, Institut for
                               Seksualforskning, Institut für Seelenkunde, Institut von Dr.
-                              Hardenfeld, Institute of Sexual Science | Note: Institute for
-                              Psychiatry (fictional), modeled on the Institut Für Sexualwissenschaft
-                              (Institute for Sexual Science) in Berlin, founded by Magnus Hirschfeld
-                              in 1919; Einar Wegener was initially examined there) </a:documentation>
+                              Hardenfeld, Institute of Sexual Science, Sexualwissenschafliches
+                              Institut | Note: Institute for Psychiatry (fictional), modeled on the
+                              Institut Für Sexualwissenschaft (Institute for Sexual Science) in
+                              Berlin, founded by Magnus Hirschfeld in 1919; Einar Wegener was
+                              initially examined there) </a:documentation>
                   <value>italy</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Italy, Italien | Note: Italy is a European
                               country whose capital is Rome.) </a:documentation>
@@ -5762,6 +5825,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Kurfürstendamm | Note: Kurfuürstendamm
                               (historical), an upscale avenue in Berlin whose Jewish-owned shops
                               were targeted during Kristallnacht in 1938) </a:documentation>
+                  <value>kongensNytorv</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Kongens Nytorv | Note: Kongens Nytorv
+                              (historical), a public square in Copenhagen) </a:documentation>
                   <value>laboratoriumKar</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Dr. Karner's laboratory, Doktor Karners
                               Laboratorium, Doktorens biokemiske Laboratorium, dem Laboratorium des
@@ -5777,6 +5843,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Leipziger Strasse, Leipzigerstrassev,
                               Leipzigerstrasse, Leipziger Straße, Leipzig | Note: Leipziger Strasse
                               (historical), a major boulevard in Berlin) </a:documentation>
+                  <value>lindevang</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Lindevang | Note: Lindevang (historical) is a
+                              metro station in Frederiksberg, Denmark) </a:documentation>
                   <value>lindevangen</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Lindevangen | Note: Lindevangen (historical),
                               a street in Frederiksberg, Denmark) </a:documentation>
@@ -5789,6 +5858,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>london</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): London | Note: London (historical), capital of
                               England) </a:documentation>
+                  <value>lumskebugten</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Lumskebugten | Note: Lumskebugten
+                              (historical), one of the oldest restaurants in Copenhagen) </a:documentation>
                   <value>madrid</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Madrid | Note: Madrid (historical), capital of
                               Spain) </a:documentation>
@@ -5833,6 +5905,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>norway</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Norway, Norwegen, Norge | Note: Norway is a
                               Scandinavian country in northern Europe whose capital is Oslo.) </a:documentation>
+                  <value>nyhavn</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Nyhavn | Note: Nyhavn (historical), a district
+                              of Copenhagen) </a:documentation>
                   <value>oleHaslandHus</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Ole Hasland Hus | Note: Ole Hasland Hus
                               (historical), art gallery in Copenhagen where the Wegeners
@@ -5919,6 +5994,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>rothenburg</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Rothenburg | Note: Rothenburg (historical), a
                               medieval town in Bavaria) </a:documentation>
+                  <value>royalLibrary</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Det Kongelige Bibliotek, The Royal Library |
+                              Note: Det Kongelige Bibliotek (The Royal Library) is the national
+                              library of Denmark located in Copenhagen) </a:documentation>
                   <value>sacreCoeur</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Sacré-Coeur, Sacré Cœur | Note: Sacré-Coeur
                               (historical), a Roman Catholic church in Paris) </a:documentation>
@@ -5955,6 +6034,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>spain</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Spain, Spanien | Note: Spain is a European
                               country on the Iberian Peninsula whose capital is Madrid.) </a:documentation>
+                  <value>stade</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Stade | Note: Stade (historical), city in
+                              Germany) </a:documentation>
                   <value>stationGareNord</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Gare du Nord | Note: Gare du Nord
                               (historical), a train station in Paris) </a:documentation>
@@ -5999,6 +6081,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>trianon</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Trianon | Note: Grand Trianon (historical), a
                               palace on the estate of Versailles outside Paris) </a:documentation>
+                  <value>trinitatisCemetery</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Trinitatiskirkegården, Trinitatisfriedhof,
+                              Trinitatis Cemetery | Note: Trinitatisfriedhof (Trinitatis Cemetery)
+                              is the cemetery near the Women’s Clinic, where Lili Elvenes is
+                              buried.) </a:documentation>
                   <value>turkey</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Turkey, Tyrkiet, Türkei | Note: Turkey
                               (historical), a country in the Middle East whose capital is
@@ -6009,6 +6096,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>unterLinden</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Unter den Linden | Note: Unter den Linden
                               (historical), a street in Berlin) </a:documentation>
+                  <value>valby</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Valby | Note: Valby (historical), a district
+                              of Copenhagen (historical), a district of Copenhagen) </a:documentation>
                   <value>vejle</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Veijle, Vejle | Note: Vejle (historical),
                               Einar Wegener’s birthplace in the Jutland region of Denmark) </a:documentation>
@@ -6038,7 +6128,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Frauenklinik, Frauenklinik, Staatliche Frauenklinik, Frauenklinik de
                               Dresde, LA CLINIQUE FÉMININE DE DRESDE | Note: Municipal Women’s
                               Clinic (fictional), modeled on Staatliche Frauenklinik in Dresden,
-                              directed by Professor Kurt Warenkros at the time) </a:documentation>
+                              directed by Professor Kurt Warnekros at the time) </a:documentation>
                   <value>zurich</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Zürich | Note: Zürich (historical), city in
                               northern Switzerland) </a:documentation>

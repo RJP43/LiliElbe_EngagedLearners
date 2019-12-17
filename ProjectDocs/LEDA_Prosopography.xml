@@ -175,6 +175,10 @@
                <placeName>Capri</placeName>
                <note>Capri (histoical), island off Italy in the Gulf of Naples</note>
             </place>
+            <place xml:id="casablanca">
+               <placeName>Casablanca</placeName>
+               <note>Casablanca (historical), port city in Morocco</note>
+            </place>
             <place xml:id="cathedralSeville">
                <placeName source="#A1 #D1-TR">Cathedral in Seville</placeName>
                <placeName source="#A1">Cathedral of Seville</placeName>
@@ -301,14 +305,14 @@
                <placeName source="#D1">Nordfrankrig</placeName>
                <note>Northern France (historical), France is a western European country. We had to
                   distinguish Northern France from France because in some languages Northern France
-                  is one word and can signify a specific identity.</note>
+                  is one word and can signify a specific region with its unique identity.</note>
             </place>
             <place xml:id="franceSouth">
                <placeName source="#A1">Southern France</placeName>
                <placeName source="#G1">Südfrankreich</placeName>
                <note>Southern France (historical), France is a western European country. We had to
                   distinguish Southern France from France because in some languages Southern France
-                  is one word and can signify a specific identity.</note>
+                  is one word and can signify a specific region with its unique identity.</note>
             </place>
             <place xml:id="friedrichsstrasse">
                <placeName source="#A1 #D1 #D1-TR">Friedrichsstrasse</placeName>
@@ -350,14 +354,14 @@
                <placeName source="#G1">Süddeutschland</placeName>
                <note>Southern German (historical), Germany is a western European country. We had to
                   distinguish South Germany from Germany because in some languages South Germany is
-                  one word and can signify a specific identity.</note>
+                  one word and can signify a specific region with its unique identity.</note>
             </place>
             <place xml:id="germanyNorth">
                <placeName source="#A1">Northern Germany</placeName>
                <placeName source="#G1">Norddeutschland</placeName>
                <note>Northern Germany (historical), Germany is a western European country. We had to
                   distinguish North Germany from Germany because in some languages North Germany is
-                  one word and can signify a specific identity.</note>
+                  one word and can signify a specific region with its unique identity.</note>
             </place>
             <place xml:id="gipsyBar">
                <placeName>Gipsy Bar</placeName>
@@ -380,6 +384,10 @@
                <placeName>The Hague</placeName>
                <note>The Hague (historical), city in the Netherlands</note>
             </place>
+            <place xml:id="hamburg">
+               <placeName>Hamburg</placeName>
+               <note>Hamburg (historical), city in Germany</note>
+            </place>
             <place xml:id="hanover">
                <placeName source="#A1 #D1-TR">Hanover</placeName>
                <placeName source="#D1 #G1">Hannover</placeName>
@@ -388,6 +396,14 @@
             <place xml:id="haralaching">
                <placeName>Haralaching</placeName>
                <note>Haralaching (historical), a district of Munich, Germany</note>
+            </place>
+            <place xml:id="havnegade">
+               <placeName>Havnegade</placeName>
+               <note>Havnegade (historical), a promenade in Copenhagen and port for ferries to Sweden.</note>
+            </place>
+            <place xml:id="hellerup">
+               <placeName>Hellerup</placeName>
+               <note>Hellerup (historical), a district in the suburbs of Copenhagen</note>
             </place>
             <place xml:id="hindustan">
                <placeName source="#A1 #D1 #D1-TR">Hindustan</placeName>
@@ -426,6 +442,7 @@
                <placeName source="#G1">Institut für Seelenkunde</placeName>
                <placeName source="#G1">Institut von Dr. Hardenfeld</placeName>
                <placeName source="#D1-TR">Institute of Sexual Science</placeName>
+               <placeName>Sexualwissenschafliches Institut</placeName>
                <note>Institute for Psychiatry (fictional), modeled on the Institut Für
                   Sexualwissenschaft (Institute for Sexual Science) in Berlin, founded by Magnus
                   Hirschfeld in 1919; Einar Wegener was initially examined there</note>
@@ -453,6 +470,10 @@
                <placeName>Kurfürstendamm</placeName>
                <note>Kurfuürstendamm (historical), an upscale avenue in Berlin whose Jewish-owned
                   shops were targeted during Kristallnacht in 1938</note>
+            </place>
+            <place xml:id="kongensNytorv">
+               <placeName>Kongens Nytorv</placeName>
+               <note>Kongens Nytorv (historical), a public square in Copenhagen</note>
             </place>
             <place xml:id="laboratoriumKar">
                <placeName source="#A1 #D1-TR"><persName key="karner">Dr. Karner</persName>'s
@@ -482,6 +503,10 @@
                <placeName source="#G1">Leipzig</placeName>
                <note>Leipziger Strasse (historical), a major boulevard in Berlin</note>
             </place>
+            <place xml:id="lindevang">
+               <placeName>Lindevang</placeName>
+               <note>Lindevang (historical) is a metro station in Frederiksberg, Denmark</note>
+            </place>
             <place xml:id="lindevangen">
                <placeName>Lindevangen</placeName>
                <note>Lindevangen (historical), a street in Frederiksberg, Denmark</note>
@@ -498,6 +523,10 @@
             <place xml:id="london">
                <placeName>London</placeName>
                <note>London (historical), capital of England</note>
+            </place>
+            <place xml:id="lumskebugten">
+               <placeName>Lumskebugten</placeName>
+               <note>Lumskebugten (historical), one of the oldest restaurants in Copenhagen</note>
             </place>
             <place xml:id="madrid">
                <placeName>Madrid</placeName>
@@ -563,6 +592,10 @@
                <placeName source="#G1">Norge</placeName>
                <note>Norway is a Scandinavian country in northern Europe whose capital is
                   Oslo.</note>
+            </place>
+            <place xml:id="nyhavn">
+               <placeName>Nyhavn</placeName>
+               <note>Nyhavn (historical), a district of Copenhagen</note>
             </place>
             <place xml:id="oleHaslandHus">
                <placeName>Ole Hasland Hus</placeName>
@@ -684,6 +717,11 @@
                <placeName>Rothenburg</placeName>
                <note>Rothenburg (historical), a medieval town in Bavaria</note>
             </place>
+            <place xml:id="royalLibrary">
+               <placeName>Det Kongelige Bibliotek</placeName>
+               <placeName>The Royal Library</placeName>
+               <note>Det Kongelige Bibliotek (The Royal Library) is the national library of Denmark located in Copenhagen</note>
+            </place>
             <place xml:id="sacreCoeur">
                <placeName source="#A1 #D1 #D1-TR">Sacré-Coeur</placeName>
                <placeName source="#G1">Sacré Cœur</placeName>
@@ -736,6 +774,10 @@
                <placeName source="#D1 #G1">Spanien</placeName>
                <note>Spain is a European country on the Iberian Peninsula whose capital is
                   Madrid.</note>
+            </place>
+            <place xml:id="stade">
+               <placeName>Stade</placeName>
+               <note>Stade (historical), city in Germany</note>
             </place>
             <place xml:id="stationGareNord">
                <placeName>Gare du Nord</placeName>
@@ -801,6 +843,12 @@
                <note>Grand Trianon (historical), a palace on the estate of Versailles outside
                   Paris</note>
             </place>
+            <place xml:id="trinitatisCemetery">
+               <placeName>Trinitatiskirkegården</placeName>
+               <placeName>Trinitatisfriedhof</placeName>
+               <placeName>Trinitatis Cemetery</placeName>
+               <note>Trinitatisfriedhof (Trinitatis Cemetery) is the cemetery near the Women’s Clinic, where Lili Elvenes is buried.</note>
+            </place>
             <place xml:id="turkey">
                <placeName source="#A1 #D1-TR">Turkey</placeName>
                <placeName source="#D1">Tyrkiet</placeName>
@@ -816,6 +864,10 @@
             <place xml:id="unterLinden">
                <placeName>Unter den Linden</placeName>
                <note>Unter den Linden (historical), a street in Berlin</note>
+            </place>
+            <place xml:id="valby">
+               <placeName>Valby</placeName>
+               <note>Valby (historical), a district of Copenhagen (historical), a district of Copenhagen</note>
             </place>
             <place xml:id="vejle">
                <placeName source="#A1">Veijle</placeName>
@@ -865,7 +917,7 @@
                      >Dresde</placeName></placeName>
                <placeName source="#frenchSupp">LA CLINIQUE FÉMININE DE DRESDE</placeName>
                <note>Municipal Women’s Clinic (fictional), modeled on Staatliche Frauenklinik in
-                  Dresden, directed by Professor Kurt Warenkros at the time</note>
+                  Dresden, directed by Professor Kurt Warnekros at the time</note>
             </place>
             <place xml:id="zurich">
                <placeName>Zürich</placeName>
@@ -874,6 +926,10 @@
          </listPlace>
          <listPerson>
             <head>List of people mentioned in Lili Elbe Digital Archive</head>
+            <person xml:id="alexanderPF" source="historical">
+               <persName>Philipp Friedrich Alexander</persName>
+               <note>Prince of Eulenburg (1847-1921), Philipp Friedrich Alexander, German diplomat</note>
+            </person>
             <person xml:id="allatiniE" source="historical" synch="#rossiniEr">
                <persName>Eric Moïse Allatini</persName>
                <note>Eric Allatini (1886–1943), friend of the Wegeners, a writer of fairy tales and
@@ -917,6 +973,12 @@
             <person xml:id="bach" source="historical">
                <persName>Bach</persName>
                <note>Bach (historical), Johann Sebastian Bach (1685–1750), a German composer</note>
+            </person>
+            <person xml:id="bækgaardE" source="historical">
+               <persName>Ellen Bækgaard</persName>
+               <note>Ellen Bækgaard (1895-c. 1982), a Danish dentist, friend of Magnus Hirschfeld,
+                  and a member of the World League of Sexual Reform
+               </note>
             </person>
             <person xml:id="bangCA" source="historical">
                <persName>C. A. Bang</persName>
@@ -1201,6 +1263,10 @@
                   Man into Woman under the pseudonym, Niels Hoyer; Lili’s German friend in the
                   narrative</note>
             </person>
+            <person xml:id="harthernRuth" source="historical" synch="#ruth">
+               <persName>Ruth</persName>
+               <note>Ruth Hanna Hathern-Thaning (1915-1993), daughter of Ernst Harthern</note>
+            </person>
             <person xml:id="hauwitz" source="fictional">
                <persName>Hauwitz</persName>
                <note>Hauwitz (fictional), no known historical model</note>
@@ -1227,6 +1293,10 @@
                <note>Magnus Hirschfeld (1868–1935), a German physician and one of the most
                   influential sexologists of the time; Einar Wegener was examined at his Institute
                   in March 1930</note>
+            </person>
+            <person xml:id="hitler" source="historical">
+               <persName>Adolf Hitler</persName>
+               <note>Adolf Hitler (1889-1945), Chancellor then Führer of Germany, 1933-1945, and leader of the Nazi Party</note>
             </person>
             <person xml:id="hn" source="historical">
                <persName>Hn.</persName>
@@ -1262,6 +1332,10 @@
             <person xml:id="jacobsenJP" source="historical">
                <persName>J. P. Jacobsen</persName>
                <note>J. P. Jacobsen (1847-1885), Danish novelist Jens Peter Jacobsen who went by J.P. Jacobsen and was part of the “Modern Breakthrough” movement in Danish literature</note>
+            </person>
+            <person xml:id="isherwoodC" source="historical">
+               <persName>Christopher Isherwood</persName>
+               <note>Christopher Isherwood (1904-1986), a British-born writer whose Goodbye to Berlin (1939) chronicles his life in Berlin, beginning in 1929 when he stayed at Magnus  Hirschfeld’s Institute</note>
             </person>
             <person xml:id="jager" source="historical">
                <persName>Hans Henrik Jæger</persName>
@@ -1309,7 +1383,7 @@
                <persName source="#G1">deutschen Professor</persName>
                <persName source="#G1">der Professor</persName>
                <persName source="#G1">Der/Des deutsche(n) Arzt(es)</persName>
-               <note>Professor Werner Kreutz (fictional), modelled on Kurt Warenkros (1882–1949), a
+               <note>Professor Werner Kreutz (fictional), modelled on Kurt Warnekros (1882–1949), a
                   German gynecologist</note>
             </person>
             <person xml:id="larsen" source="fictional">
@@ -1321,6 +1395,11 @@
             <person xml:id="larssen" source="historical">
                <persName source="#A1 #G1">Anna Larssen</persName>
                <note>Anna Larssen (1875-1955), a Danish actress, friend of the Wegeners</note>
+            </person>
+            <person xml:id="leander" source="historical">
+               <persName>Zarah Leander</persName>
+               <persName>Sarah Leanders</persName>
+               <note>Zarah Leander (1907-1981), a Swedish singer popular in Nazi Germany.</note>
             </person>
             <person xml:id="lejeuneClaude" source="fictional" synch="#prevostClaude">
                <persName>Claude Lejeune</persName>
@@ -1425,6 +1504,12 @@
             <person xml:id="merleauPonty" source="historical">
                <persName>Maurice Merleau-Ponty</persName>
                <note>Maurice Merleau-Ponty (1908-1961), a French phenomenologist</note>
+            </person>
+            <person xml:id="morrisJ" source="historical">
+               <persName>Jan Morris</persName>
+               <note>Jan Morris (b. 1926), British travel writer whose 1974 memoir, Conundrum, is an
+                  often-cited narrative of transgender
+               </note>
             </person>
             <person xml:id="mother" source="fictional" synch="#wegenerAM">
                <persName source="#A1 #D1-TR">mother</persName>
@@ -1577,6 +1662,15 @@
                <persName>Rex.</persName>
                <note>Rex. (historical), unidentified</note>
             </person>
+            <person xml:id="richterD" source="historical">
+               <persName>Dorchen Richter</persName>
+               <persName>Dora Richter</persName>
+               <note>Dorchen (Dora) Richter (1891-1933), the first person to undergo genital transformation surgery at Hirschfeld’s Institute</note>
+            </person>
+            <person xml:id="ritzauT" source="historical">
+               <persName>Teit Ritzau</persName>
+               <note>Teit Ritzau (b. 1956) is a Danish writer and filmmaker, co-author of Paradiset er ikke til salg (1984)</note>
+            </person>
             <person xml:id="robilantM" source="historical">
                <persName source="#frenchSupp">Mario Nicolis di Robilant</persName>
                <persName source="#frenchSupp">général Nicolis de Robilant</persName>
@@ -1595,10 +1689,13 @@
                <note>Ernesto Rossini (fictional), modeled on Eric Allatini (1886–1943), friend of
                   the Wegeners; married to Hélène Allatini</note>
             </person>
-            <person xml:id="ruth" source="fictional">
+            <person xml:id="ruth" source="fictional" synch="#harthernRuth">
                <persName>Ruth</persName>
-               <note>Ruth (fictional and historical), modeled on Ruth Hanna Hathern-Thaning (dates
-                  unknown), daughter of Ernst Harthern</note>
+               <note>Ruth (fictional), modeled on Ruth Hanna Hathern-Thaning (1915-1993), daughter of Ernst Harthern</note>
+            </person>
+            <person xml:id="sassEK" source="historical">
+               <persName>Else Kai Sass</persName>
+               <note>Else Kai Sass (1912-1987), a Danish art historian</note>
             </person>
             <person xml:id="saunders" source="historical">
                <persName>Fraulein Saunders</persName>
@@ -1609,6 +1706,10 @@
                <note>Baronin Schildt (fictional), modeled on Marie-Anne von Goldschmidt-Rothschild
                   (née Friedländer-Fuld, 1892-1973), known as Baroness Rotschildt; a friend of Kurt
                   Warnekros</note>
+            </person>
+            <person xml:id="schottW" source="historical">
+               <persName>Walter Schott</persName>
+               <note>Walter Schott (1861-1938), German sculptor</note>
             </person>
             <person xml:id="schrembsCarl" source="historical">
                <persName>Carl Schrembs</persName>
@@ -1637,7 +1738,7 @@
                <persName source="#D1">søster</persName>
                <persName source="#G1">schwester</persName>
                <note>Sister (fictional), modeled on Einar Wegener’s sister, Christiane Thomsen
-                  (1881–1954</note>
+                  (1881–1954)</note>
             </person>
             <person xml:id="sisterInLaw" source="fictional" synch="#wegenerM">
                <persName source="#A1 #D1-TR">sister-in-law</persName>
@@ -1700,6 +1801,10 @@
                <note>Gabriele Tergit (1894-1982), a writer and journalist born in Berlin who was a
                   courtroom reporter for the Berliner Tageblatt and published the novel Käsebier
                   erobert den Kurfürstendamm in 1932</note>
+            </person>
+            <person xml:id="thomsenCW" source="historical" synch="#sister">
+               <persName>Christiane Wegener Thomsen</persName>
+               <note>Christiane Wegener Thomsen (1881–1954), Einar Wegener’s only sister</note>
             </person>
             <person xml:id="thomsenTC" source="historical" synch="#brotherChris">
                <persName>TC Thomsen</persName>
