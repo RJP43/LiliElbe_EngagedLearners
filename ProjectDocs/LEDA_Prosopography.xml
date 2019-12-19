@@ -813,6 +813,10 @@
                <placeName>Sweden</placeName>
                <note>Sweden (historical), a Scandinavian country in Northern Europe</note>
             </place>
+            <place xml:id="switzerland">
+               <placeName>Switzerland</placeName>
+               <note>Switzerland (historical), a Central European nation bordered by Germany, France and Italy.</note>
+            </place>
             <place xml:id="sydney">
                <placeName>Sydney</placeName>
                <note>Sydney (historical), a city in Australia</note>
@@ -1645,9 +1649,9 @@
                <note>Claude Prévost (historical), friend of Lili’s whom Gerda Wegener painted in
                   1923</note>
             </person>
-            <person xml:id="rasmussenKund" source="historical">
-               <persName>Kund Rasmussen</persName>
-               <note>Kund Rasmussen (1879-1933), the Danish polar explorer </note>
+            <person xml:id="rasmussenKnud" source="historical">
+               <persName>Knud Rasmussen</persName>
+               <note>Knud Rasmussen (1879-1933), the Danish polar explorer </note>
             </person>
             <person xml:id="reissnerCarl" source="historical">
                <persName>Carl Reißner</persName>
@@ -1696,6 +1700,10 @@
             <person xml:id="sassEK" source="historical">
                <persName>Else Kai Sass</persName>
                <note>Else Kai Sass (1912-1987), a Danish art historian</note>
+            </person>
+            <person xml:id="sandKnud" source="historical">
+               <persName>Knud Sand</persName>
+               <note>Knud Sand (1887-1968), a Danish doctor and a professor of forensic medicine at the University of Copenhagen who researched sex glands and gender transformation and was a proponent of the Sterilization Act of 1929 (Sterilisationsloven af 1929). He was interviewed on Lili Elbe’s case by Politiken (1 March 1931).</note>
             </person>
             <person xml:id="saunders" source="historical">
                <persName>Fraulein Saunders</persName>

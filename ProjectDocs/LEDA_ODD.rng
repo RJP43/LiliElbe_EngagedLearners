@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-12-17T02:38:30Z. .
+Schema generated from ODD source 2019-12-19T17:52:05Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -5314,9 +5314,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Claude Prévost | Note:
                               Claude Prévost (historical), friend of Lili’s whom Gerda Wegener
                               painted in 1923 | Linked Keys: #lejeuneClaude) </a:documentation>
-                  <value>rasmussenKund</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Kund Rasmussen | Note:
-                              Kund Rasmussen (1879-1933), the Danish polar explorer ) </a:documentation>
+                  <value>rasmussenKnud</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Knud Rasmussen | Note:
+                              Knud Rasmussen (1879-1933), the Danish polar explorer ) </a:documentation>
                   <value>reissnerCarl</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Carl Reißner | Note:
                               Carl Reissner (historical), a German publisher in Dresden) </a:documentation>
@@ -5358,6 +5358,13 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>sassEK</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Else Kai Sass | Note:
                               Else Kai Sass (1912-1987), a Danish art historian) </a:documentation>
+                  <value>sandKnud</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Knud Sand | Note: Knud
+                              Sand (1887-1968), a Danish doctor and a professor of forensic medicine
+                              at the University of Copenhagen who researched sex glands and gender
+                              transformation and was a proponent of the Sterilization Act of 1929
+                              (Sterilisationsloven af 1929). He was interviewed on Lili Elbe’s case
+                              by Politiken (1 March 1931).) </a:documentation>
                   <value>saunders</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Fraulein Saunders |
                               Note: Fraulein Saunders (historical), unidentified) </a:documentation>
@@ -6060,6 +6067,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>sweden</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Sweden | Note: Sweden (historical), a
                               Scandinavian country in Northern Europe) </a:documentation>
+                  <value>switzerland</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Switzerland | Note: Switzerland (historical),
+                              a Central European nation bordered by Germany, France and
+                              Italy.) </a:documentation>
                   <value>sydney</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Sydney | Note: Sydney (historical), a city in
                               Australia) </a:documentation>
