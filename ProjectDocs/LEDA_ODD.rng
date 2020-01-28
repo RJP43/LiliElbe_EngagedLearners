@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-12-19T17:52:05Z. .
+Schema generated from ODD source 2020-01-28T15:46:28Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -4873,6 +4873,12 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>bride</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): bride of Pianist XX of
                               Hanover | Note: bride (fictional), no known historical model) </a:documentation>
+                  <value>briffautG</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Georges Briffaut |
+                              Note: Georges Briffaut (1886-1873), founder of a French publishing
+                              house with his brother Robert Briffaut. Gerda Wegener illustrated Une
+                              Aventure d’Amour à Venise (1927), published in Le Livre du
+                              Bibliophile, edited by George Briffaut.) </a:documentation>
                   <value>brotherChris</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): brother-in-law,
                               Christian, svoger, de Mann seiner Schwester, des Schwagers | Note:
@@ -4956,6 +4962,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Note: Dr. Feuchtwanger (historical), likely Lion Feuchtwanger
                               (1884-1958), a German-Jewish author well known in Weimar Germany and
                               highly critical of the National Socialists) </a:documentation>
+                  <value>fischerE</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Erich Fischer | Note:
+                              Erich Fischer was “Oberarzt“ or head doctor at Staatliche Frauenklinik
+                              in Dresden and supervised Lili’s care when Warnekros was
+                              absent.) </a:documentation>
                   <value>francois</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Monsieur François,
                               François | Note: Favio (fictional), no known historical model) </a:documentation>
@@ -5291,6 +5302,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>pianistXX</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: | Identified Name(s): pianist XX of Hanover | Note:
                               Pianist XX (fictional), no known historical model) </a:documentation>
+                  <value>piazza</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Piazza | Note: Piazza
+                              (historical, dates unknown), likely the Paris publisher, L’Edition
+                              d’Art H. Piazza, who published Le Livre des Mille Nuits et Une Nuit
+                              (The Book of One Thousand and One Nights), 1926-1932.) </a:documentation>
                   <value>plato</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Plato, Platon | Note:
                               Plato (b. 429 BC), an Athenian philosopher) </a:documentation>
@@ -5830,8 +5846,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Jutland is one word and can signify a specific identity.) </a:documentation>
                   <value>kurfurstendamm</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Kurfürstendamm | Note: Kurfuürstendamm
-                              (historical), an upscale avenue in Berlin whose Jewish-owned shops
-                              were targeted during Kristallnacht in 1938) </a:documentation>
+                              (historical), an upscale avenue in Berlin whose cafés and theaters
+                              were the center of Berlin’s cultural scene in the 1920s. Its
+                              Jewish-owned shops were targeted during Kristallnacht in 1938.) </a:documentation>
                   <value>kongensNytorv</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Kongens Nytorv | Note: Kongens Nytorv
                               (historical), a public square in Copenhagen) </a:documentation>

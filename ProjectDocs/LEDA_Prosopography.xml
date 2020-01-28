@@ -468,8 +468,7 @@
             </place>
             <place xml:id="kurfurstendamm">
                <placeName>Kurfürstendamm</placeName>
-               <note>Kurfuürstendamm (historical), an upscale avenue in Berlin whose Jewish-owned
-                  shops were targeted during Kristallnacht in 1938</note>
+               <note>Kurfuürstendamm (historical), an upscale avenue in Berlin whose cafés and theaters were the center of Berlin’s cultural scene in the 1920s. Its Jewish-owned shops were targeted during Kristallnacht in 1938.</note>
             </place>
             <place xml:id="kongensNytorv">
                <placeName>Kongens Nytorv</placeName>
@@ -1024,6 +1023,10 @@
                <persName>bride of Pianist XX of <placeName key="hanover">Hanover</placeName></persName>
                <note>bride (fictional), no known historical model</note>
             </person>
+            <person xml:id="briffautG" source="historical">
+               <persName>Georges Briffaut</persName>
+               <note>Georges Briffaut (1886-1873), founder of a French publishing house with his brother Robert Briffaut. Gerda Wegener illustrated Une Aventure d’Amour à Venise (1927), published in Le Livre du Bibliophile, edited by George Briffaut.</note>
+            </person>
             <person xml:id="brotherChris" source="fictional" synch="#thomsenTC">
                <persName source="#A1 #D1-TR">brother-in-law</persName>
                <persName source="#A1 #G1">Christian</persName>
@@ -1150,6 +1153,10 @@
             <person xml:id="feuchtwanger" source="historical">
                <persName>Dr. Feuchtwanger</persName>
                <note>Dr. Feuchtwanger (historical), likely Lion Feuchtwanger (1884-1958), a German-Jewish author well known in Weimar Germany and highly critical of the National Socialists</note>
+            </person>
+            <person xml:id="fischerE" source="historical">
+               <persName>Erich Fischer</persName>
+               <note>Erich Fischer was “Oberarzt“ or head doctor at Staatliche Frauenklinik in Dresden and supervised Lili’s care when Warnekros was absent.</note>
             </person>
             <person xml:id="francois" source="fictional">
                <persName source="#A1 #D1 #D1-TR">Monsieur François</persName>
@@ -1620,6 +1627,10 @@
             <person xml:id="pianistXX">
                <persName>pianist XX of <placeName key="hanover">Hanover</placeName></persName>
                <note>Pianist XX (fictional), no known historical model</note>
+            </person>
+            <person xml:id="piazza" source="historical">
+               <persName>Piazza</persName>
+               <note>Piazza (historical, dates unknown), likely the Paris publisher, L’Edition d’Art H. Piazza, who published Le Livre des Mille Nuits et Une Nuit (The Book of One Thousand and One Nights),  1926-1932.</note>
             </person>
             <person xml:id="plato" source="historical">
                <persName source="#A1 #D1 #D1-TR">Plato</persName>
