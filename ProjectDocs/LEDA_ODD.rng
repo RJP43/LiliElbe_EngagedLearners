@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-01-28T15:46:28Z. .
+Schema generated from ODD source 2020-01-28T17:37:44Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -4795,6 +4795,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
             <attribute name="key">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
+                  <value>achenG</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Georg Achen | Note:
+                              Georg Achen (1860-1912), a Danish artist of domestic interior
+                              scenes) </a:documentation>
                   <value>alexanderPF</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Philipp Friedrich
                               Alexander | Note: Prince of Eulenburg (1847-1921), Philipp Friedrich
@@ -4821,6 +4825,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Aphrodite | Note:
                               Aphrodites (fictional), in Greek mythology, the goddess of love and
                               beauty proclaimed by Homer to be the daughter of Zeus) </a:documentation>
+                  <value>apollinaireG</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Guillaume Apollinaire |
+                              Note: Guillaume Apollinaire (1880-1918), a famous French avant-garde
+                              poet and critic) </a:documentation>
                   <value>arcJoan</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Joan of Arc, Jeanne
                               D'Arc | Note: Joan of Arc (1412-1431), soldier in the Hundred Years’
@@ -4850,6 +4858,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Jørgen Bast (1894-1965), born in Vejle, Denmark, a journalist for
                               Berlingske Tidende and co-editor of its sister newspaper B.T. from
                               1926-1936) </a:documentation>
+                  <value>bentsonV</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Viggo Bentson | Note:
+                              Viggo Bentson (1861-1937), a law professor at the University of
+                              Copenhagen) </a:documentation>
                   <value>bonsels</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Bonsels | Note: Bonsels
                               (historical), possibly Waldemar Bonsels (1880-1952), a German author,
@@ -4866,6 +4878,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>bramsonK</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Karen Bramson | Note:
                               Karen Bramson (1875-1936), a Danish author) </a:documentation>
+                  <value>brandesG</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Georg Brandes | Note:
+                              Georg Brandes (1842-1927), a Danish art critic and leading influence
+                              on the "Modern Breakthrough" in Scandinavian art and culture in the
+                              late 19th century) </a:documentation>
                   <value>brandstetterO</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Oscar Brandstetter |
                               Note: Oscar Brandstetter Verlag (historical), a German
@@ -5093,16 +5110,20 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Nils, Hjalmar Hvide | Note: Niels Hvide (fictional), modeled on Poul
                               Knudsen (1889-1974), Danish lawyer and writer, friend of the Wegeners,
                               married to Vibeke 1925-1938 | Linked Keys: #knudsenP) </a:documentation>
-                  <value>jacobsenJP</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): J. P. Jacobsen | Note:
-                              J. P. Jacobsen (1847-1885), Danish novelist Jens Peter Jacobsen who
-                              went by J.P. Jacobsen and was part of the “Modern Breakthrough”
-                              movement in Danish literature) </a:documentation>
+                  <value>ilstedP</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Peter Ilsted | Note:
+                              Peter Ilsted (1861-1933), a Danish artist of domestic interior
+                              scenes) </a:documentation>
                   <value>isherwoodC</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Christopher Isherwood |
                               Note: Christopher Isherwood (1904-1986), a British-born writer whose
                               Goodbye to Berlin (1939) chronicles his life in Berlin, beginning in
                               1929 when he stayed at Magnus Hirschfeld’s Institute) </a:documentation>
+                  <value>jacobsenJP</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): J. P. Jacobsen | Note:
+                              J. P. Jacobsen (1847-1885), Danish novelist Jens Peter Jacobsen who
+                              went by J.P. Jacobsen and was part of the “Modern Breakthrough”
+                              movement in Danish literature) </a:documentation>
                   <value>jager</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Hans Henrik Jæger, Hans
                               Jager | Note: Hans Henrik Jæger (1854-1910), a Norweigen writer and
@@ -5110,6 +5131,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>jean</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Jean | Note: Jean
                               (fictional), no known historical model) </a:documentation>
+                  <value>jensenZ</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Dr. Rank, Zacharias
+                              Jensen | Note: Dr. Rank (historical), a pseudonym for Zacharias
+                              Jensen, a journalist at Ekstra Bladet ) </a:documentation>
                   <value>karner</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Dr. Karner, Doktor
                               Karner | Note: Dr. Karner (fictional), historical figure
@@ -5137,6 +5162,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Der/Des deutsche(n) Arzt(es) | Note: Professor Werner Kreutz
                               (fictional), modelled on Kurt Warnekros (1882–1949), a German
                               gynecologist | Linked Keys: #warnekros) </a:documentation>
+                  <value>kroyerPS</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Peder Severin Krøyer |
+                              Note: Peder Severin Krøyer (1851-1909), a Danish painter) </a:documentation>
                   <value>larsen</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Anna Larsen, the actress
                               | Note: Anna Larsen (fictional), modeled on Anna Larssen, a Danish
@@ -5249,6 +5277,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): niece | Note: niece
                               (fictional), possibly modelled on Else, daughter of Einar Wegener’s
                               sister) </a:documentation>
+                  <value>nielsdatterJK</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Johanne Katrine
+                              Nielsdatter | Note: Johanne Katrine Nielsdatter (historical)
+                              unidentified beyond this article) </a:documentation>
                   <value>nino</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Nino | Note: Nino
                               (fictional), no known historical model) </a:documentation>
@@ -5289,6 +5321,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>paquet</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Dr. Paquet | Note: Dr.
                               Paquet (historical), unidentified) </a:documentation>
+                  <value>paulsenJ</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Julius Paulsen | Note:
+                              Julius Paulsen (1860-1940), a Danish painter and a professor at the
+                              Royal Danish Academy of Fine Arts, where the Wegeners studied) </a:documentation>
                   <value>persenEb</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Ebba Persen, the
                               beautiful dancer | Note: Ebba Persen (fictional), modeled on Ulla
@@ -5447,6 +5483,12 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>tb</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): T.B. | Note: T. B.
                               (historical), an unidentified Danish diplomat) </a:documentation>
+                  <value>tegnerR</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Rudolph Tegner | Note:
+                              Rudolph Tegner (1873-1950), a controversial Danish sculptor of the
+                              early 20th century, influenced by Nietzsche and the writings of Georg
+                              Brandes. A museum named for him is located north of
+                              Copenhagen.) </a:documentation>
                   <value>tempeteJean</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Jean Tempete, Jean
                               Tempète, Jean Tempête, Jean Tempéte, Tempète | Note: Jean Tempête
@@ -5470,6 +5512,11 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Toller | Note: Toller
                               (historical), possibly Ernst Toller (1893-1939), a German
                               Expressionist playwright) </a:documentation>
+                  <value>thorvaldsenB</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Bertel Thorvaldsen |
+                              Note: Bertel Thorvaldsen (1770–1844), a Danish artist who lived
+                              primarily in Italy. A museum dedicated to his work is located in
+                              central Copenhagen.) </a:documentation>
                   <value>trempe</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Count de la Trempe,
                               Graf, le Comte de Trempe, Grev de la Trempe | Note: Comte de Trempe
@@ -5546,6 +5593,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Marius Wulff | Note:
                               Marius Wulff (1881-1953), a Danish journalist, editor of
                               Sandheden) </a:documentation>
+                  <value>zornA</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Anders Zorn | Note:
+                              Anders Zorn (1860-1920), a Swedish artist) </a:documentation>
                   <value>zuckmayer</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Zuckmayer | Note:
                               Zuckmayer (historical), likely Carl Zuckmayer (1896-1977), a German
@@ -5717,6 +5767,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>erzgebirge</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Erzgebirge | Note: Erzgebirge (historical),
                               mountain range in eastern Germany) </a:documentation>
+                  <value>esbjerg</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Esbjerg | Note: Esbjerg (historical), a
+                              seaport town in Jutland, Denmark) </a:documentation>
                   <value>europe</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Europe, Europa | Note: Europe (historical), a
                               continent in the Northern Hemisphere) </a:documentation>
@@ -5810,6 +5863,10 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Holland | Note: Holland (the Netherlands,
                               historical), a country in northwestern Europe whose capital is
                               Amsterdam.) </a:documentation>
+                  <value>horbyParish</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Horby Parish | Note: Horby Parish
+                              (historical), located in Hjørring, a town in northern Jutland,
+                              Denmark) </a:documentation>
                   <value>hotelDAlsace</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): one of the numerous small hotels in Paris, the
                               hotel, Hotellet | Note: Hôtel D’Alsace (historical), small hotel in
@@ -5885,6 +5942,12 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>lumskebugten</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Lumskebugten | Note: Lumskebugten
                               (historical), one of the oldest restaurants in Copenhagen) </a:documentation>
+                  <value>luxembourg</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Luxembourg | Note: Luxembourg (historical), a
+                              European country bordered by France, Belgium, and Germany) </a:documentation>
+                  <value>luxembourgMuseum</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Luxembourg Museum | Note: Luxembourg Museum
+                              (historical), a museum of contemporary art located in Paris) </a:documentation>
                   <value>madrid</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Madrid | Note: Madrid (historical), capital of
                               Spain) </a:documentation>
@@ -5936,9 +5999,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Ole Hasland Hus | Note: Ole Hasland Hus
                               (historical), art gallery in Copenhagen where the Wegeners
                               exhibited) </a:documentation>
-                  <value>oslo</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Oslo | Note: Oslo (historical), capital of
-                              Norway) </a:documentation>
+                  <value>orphanage</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): orphanage | Note: local orphanage
+                              (historical), unidentified) </a:documentation>
                   <value>oresund</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Øresund, Öresund | Note: Öresund (historical),
                               also spelled Øresund; a strait running between Denmark and
@@ -5946,6 +6009,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>orvieto</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Orvieto | Note: Orvieto (historical), hilltop
                               city in Italy) </a:documentation>
+                  <value>oslo</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Oslo | Note: Oslo (historical), capital of
+                              Norway) </a:documentation>
                   <value>ostergade</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Østergade | Note: Østergade (historical), a
                               street in the old town section of Copenhagen) </a:documentation>
@@ -5976,8 +6042,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               (historical), site of the famous Column of Marcus Aurelius in
                               Rome) </a:documentation>
                   <value>piazzaLEdition</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): L'Edition d'Art H. Piazza | Note: L'Edition
-                              d'Art H. Piazza (historical), French publisher) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): L'Edition d'Art H. Piazza, Piazza's | Note:
+                              L'Edition d'Art H. Piazza (historical), a publishing house in
+                              Paris) </a:documentation>
                   <value>piazzaSpagna</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Piazza di Spagna | Note: Piazza de Spagna
                               (historical), a piazza at the bottom of the Spanish Steps in

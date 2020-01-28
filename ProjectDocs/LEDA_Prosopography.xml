@@ -280,6 +280,10 @@
                <placeName>Erzgebirge</placeName>
                <note>Erzgebirge (historical), mountain range in eastern Germany</note>
             </place>
+            <place xml:id="esbjerg">
+               <placeName>Esbjerg</placeName>
+               <note>Esbjerg (historical), a seaport town in Jutland, Denmark</note>
+            </place>
             <place xml:id="europe">
                <placeName>Europe</placeName>
                <placeName>Europa</placeName>
@@ -414,6 +418,10 @@
                <note>Holland (the Netherlands, historical), a country in northwestern Europe whose
                   capital is Amsterdam.</note>
             </place>
+            <place xml:id="horbyParish">
+               <placeName>Horby Parish</placeName>
+               <note>Horby Parish (historical), located in Hjørring, a town in northern Jutland, Denmark</note>
+            </place>
             <place xml:id="hotelDAlsace">
                <placeName>one of the numerous small hotels in <placeName key="paris"
                      >Paris</placeName></placeName>
@@ -527,6 +535,14 @@
                <placeName>Lumskebugten</placeName>
                <note>Lumskebugten (historical), one of the oldest restaurants in Copenhagen</note>
             </place>
+            <place xml:id="luxembourg">
+               <placeName>Luxembourg</placeName>
+               <note>Luxembourg (historical), a European country bordered by France, Belgium, and Germany</note>
+            </place>
+            <place xml:id="luxembourgMuseum">
+               <placeName>Luxembourg Museum</placeName>
+               <note>Luxembourg Museum (historical), a museum of contemporary art located in Paris</note>
+            </place>
             <place xml:id="madrid">
                <placeName>Madrid</placeName>
                <note>Madrid (historical), capital of Spain</note>
@@ -600,9 +616,9 @@
                <placeName>Ole Hasland Hus</placeName>
                <note>Ole Hasland Hus (historical), art gallery in Copenhagen where the Wegeners exhibited</note>
             </place>
-            <place xml:id="oslo">
-               <placeName>Oslo</placeName>
-               <note>Oslo (historical), capital of Norway</note>
+            <place xml:id="orphanage">
+               <placeName>orphanage</placeName>
+               <note>local orphanage (historical), unidentified</note>
             </place>
             <place xml:id="oresund">
                <placeName source="#A1 #D1 #D1-TR">Øresund</placeName>
@@ -613,6 +629,10 @@
             <place xml:id="orvieto">
                <placeName>Orvieto</placeName>
                <note>Orvieto (historical), hilltop city in Italy</note>
+            </place>
+            <place xml:id="oslo">
+               <placeName>Oslo</placeName>
+               <note>Oslo (historical), capital of Norway</note>
             </place>
             <place xml:id="ostergade">
                <placeName>Østergade</placeName>
@@ -657,7 +677,8 @@
             </place>
             <place xml:id="piazzaLEdition">
                <placeName>L'Edition d'Art H. Piazza</placeName>
-               <note>L'Edition d'Art H. Piazza (historical), French publisher</note>
+               <placeName>Piazza's</placeName>
+               <note>L'Edition d'Art H. Piazza (historical), a publishing house in Paris</note>
             </place>
             <place xml:id="piazzaSpagna">
                <placeName>Piazza di Spagna</placeName>
@@ -929,6 +950,10 @@
          </listPlace>
          <listPerson>
             <head>List of people mentioned in Lili Elbe Digital Archive</head>
+            <person xml:id="achenG" source="historical">
+               <persName>Georg Achen</persName>
+               <note>Georg Achen (1860-1912), a Danish artist of domestic interior scenes</note>
+            </person>
             <person xml:id="alexanderPF" source="historical">
                <persName>Philipp Friedrich Alexander</persName>
                <note>Prince of Eulenburg (1847-1921), Philipp Friedrich Alexander, German diplomat</note>
@@ -959,6 +984,10 @@
                <persName>Aphrodite</persName>
                <note>Aphrodites (fictional), in Greek mythology, the goddess of love and beauty
                   proclaimed by Homer to be the daughter of Zeus</note>
+            </person>
+            <person xml:id="apollinaireG" source="historical">
+               <persName>Guillaume Apollinaire</persName>
+               <note>Guillaume Apollinaire (1880-1918), a famous French avant-garde poet and critic</note>
             </person>
             <person xml:id="arcJoan" source="historical">
                <persName source="#A1">Joan of Arc</persName>
@@ -995,6 +1024,10 @@
                <persName>Jørgen Bast</persName>
                <note>Jørgen Bast (1894-1965), born in Vejle, Denmark, a journalist for Berlingske Tidende and co-editor of its sister newspaper B.T. from 1926-1936</note>
             </person>
+            <person xml:id="bentsonV" source="historical">
+               <persName>Viggo Bentson</persName>
+               <note>Viggo Bentson (1861-1937), a law professor at the University of Copenhagen</note>
+            </person>
             <person xml:id="bonsels" source="historical">
                <persName>Bonsels</persName>
                <note>Bonsels (historical), possibly Waldemar Bonsels (1880-1952), a German author, though he was an avowed anti-Semite and approved the Nazis policies toward Jews</note>
@@ -1014,6 +1047,10 @@
             <person xml:id="bramsonK" source="historical">
                <persName>Karen Bramson</persName>
                <note>Karen Bramson (1875-1936), a Danish author</note>
+            </person>
+            <person xml:id="brandesG" source="historical">
+               <persName>Georg Brandes</persName>
+               <note>Georg Brandes (1842-1927), a Danish art critic and leading influence on the "Modern Breakthrough" in Scandinavian art and culture in the late 19th century</note>
             </person>
             <person xml:id="brandstetterO" source="historical">
                <persName>Oscar Brandstetter</persName>
@@ -1340,13 +1377,17 @@
                <note>Niels Hvide (fictional), modeled on Poul Knudsen (1889-1974), Danish lawyer and
                   writer, friend of the Wegeners, married to Vibeke 1925-1938</note>
             </person>
-            <person xml:id="jacobsenJP" source="historical">
-               <persName>J. P. Jacobsen</persName>
-               <note>J. P. Jacobsen (1847-1885), Danish novelist Jens Peter Jacobsen who went by J.P. Jacobsen and was part of the “Modern Breakthrough” movement in Danish literature</note>
+            <person xml:id="ilstedP" source="historical">
+               <persName>Peter Ilsted</persName>
+               <note>Peter Ilsted (1861-1933), a Danish artist of domestic interior scenes</note>
             </person>
             <person xml:id="isherwoodC" source="historical">
                <persName>Christopher Isherwood</persName>
                <note>Christopher Isherwood (1904-1986), a British-born writer whose Goodbye to Berlin (1939) chronicles his life in Berlin, beginning in 1929 when he stayed at Magnus  Hirschfeld’s Institute</note>
+            </person>
+            <person xml:id="jacobsenJP" source="historical">
+               <persName>J. P. Jacobsen</persName>
+               <note>J. P. Jacobsen (1847-1885), Danish novelist Jens Peter Jacobsen who went by J.P. Jacobsen and was part of the “Modern Breakthrough” movement in Danish literature</note>
             </person>
             <person xml:id="jager" source="historical">
                <persName>Hans Henrik Jæger</persName>
@@ -1358,6 +1399,12 @@
             <person xml:id="jean" source="fictional">
                <persName>Jean</persName>
                <note>Jean (fictional), no known historical model</note>
+            </person>
+            <person xml:id="jensenZ" source="historical">
+               <persName>Dr. Rank</persName>
+               <persName>Zacharias Jensen</persName>
+               <note>Dr. Rank (historical), a pseudonym for Zacharias Jensen, a journalist at Ekstra Bladet
+               </note>
             </person>
             <person xml:id="karner" source="fictional">
                <persName source="#A1 #D1 #D1-TR">Dr. Karner</persName>
@@ -1396,6 +1443,10 @@
                <persName source="#G1">Der/Des deutsche(n) Arzt(es)</persName>
                <note>Professor Werner Kreutz (fictional), modelled on Kurt Warnekros (1882–1949), a
                   German gynecologist</note>
+            </person>
+            <person xml:id="kroyerPS" source="historical">
+               <persName>Peder Severin Krøyer</persName>
+               <note>Peder Severin Krøyer (1851-1909), a Danish painter</note>
             </person>
             <person xml:id="larsen" source="fictional">
                <persName source="#A1 #G1">Anna Larsen</persName>
@@ -1553,6 +1604,10 @@
                <note>niece (fictional), possibly modelled on Else, daughter of Einar Wegener’s
                   sister</note>
             </person>
+            <person xml:id="nielsdatterJK" source="historical">
+               <persName>Johanne Katrine Nielsdatter</persName>
+               <note>Johanne Katrine Nielsdatter (historical) unidentified beyond this article</note>
+            </person>
             <person xml:id="nino" source="fictional">
                <persName>Nino</persName>
                <note>Nino (fictional), no known historical model</note>
@@ -1611,6 +1666,10 @@
             <person xml:id="paquet" source="historical">
                <persName>Dr. Paquet</persName>
                <note>Dr. Paquet (historical), unidentified</note>
+            </person>
+            <person xml:id="paulsenJ" source="historical">
+               <persName>Julius Paulsen</persName>
+               <note>Julius Paulsen (1860-1940), a Danish painter and a professor at the Royal Danish Academy of Fine Arts, where the Wegeners studied</note>
             </person>
             <person xml:id="persenEb" source="fictional" synch="#poulsenU">
                <persName source="#A1 #G1">Ebba Persen</persName>
@@ -1806,6 +1865,10 @@
                <persName>T.B.</persName>
                <note>T. B. (historical), an unidentified Danish diplomat</note>
             </person>
+            <person xml:id="tegnerR" source="historical">
+               <persName>Rudolph Tegner</persName>
+               <note>Rudolph Tegner (1873-1950), a controversial Danish sculptor of the early 20th century, influenced by Nietzsche and the writings of Georg Brandes. A museum named for him is located north of Copenhagen.</note>
+            </person>
             <person xml:id="tempeteJean" source="fictional">
                <persName>Jean Tempete</persName>
                <persName>Jean Tempète</persName>
@@ -1833,6 +1896,10 @@
             <person xml:id="toller" source="historical">
                <persName>Toller</persName>
                <note>Toller (historical), possibly Ernst Toller (1893-1939), a German Expressionist playwright</note>
+            </person>
+            <person xml:id="thorvaldsenB" source="historical">
+               <persName>Bertel Thorvaldsen</persName>
+               <note>Bertel Thorvaldsen (1770–1844), a Danish artist who lived primarily in Italy. A museum dedicated to his work is located in central Copenhagen.</note>
             </person>
             <person xml:id="trempe" source="fictional">
                <persName source="#A1 #D1-TR">Count de la Trempe</persName>
@@ -1940,6 +2007,10 @@
             <person xml:id="wulffMarius" source="historical">
                <persName>Marius Wulff</persName>
                <note>Marius Wulff (1881-1953), a Danish journalist, editor of Sandheden</note>
+            </person>
+            <person xml:id="zornA" source="historical">
+               <persName>Anders Zorn</persName>
+               <note>Anders Zorn (1860-1920), a Swedish artist</note>
             </person>
             <person xml:id="zuckmayer" source="historical">
                <persName>Zuckmayer</persName>
