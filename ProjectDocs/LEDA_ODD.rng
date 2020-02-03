@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-01-28T17:37:44Z. .
+Schema generated from ODD source 2020-02-03T01:29:47Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -4895,7 +4895,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                               Note: Georges Briffaut (1886-1873), founder of a French publishing
                               house with his brother Robert Briffaut. Gerda Wegener illustrated Une
                               Aventure d’Amour à Venise (1927), published in Le Livre du
-                              Bibliophile, edited by George Briffaut.) </a:documentation>
+                              Bibliophile, edited by- Georges Briffaut.) </a:documentation>
                   <value>brotherChris</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): brother-in-law,
                               Christian, svoger, de Mann seiner Schwester, des Schwagers | Note:
@@ -5339,10 +5339,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: | Identified Name(s): pianist XX of Hanover | Note:
                               Pianist XX (fictional), no known historical model) </a:documentation>
                   <value>piazza</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Piazza | Note: Piazza
-                              (historical, dates unknown), likely the Paris publisher, L’Edition
-                              d’Art H. Piazza, who published Le Livre des Mille Nuits et Une Nuit
-                              (The Book of One Thousand and One Nights), 1926-1932.) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Henri Jules Piazza |
+                              Note: Henri Jules Piazza (1861-1929), founder of the publishing house
+                              L’Édition d’art H. Piazza) </a:documentation>
                   <value>plato</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Plato, Platon | Note:
                               Plato (b. 429 BC), an Athenian philosopher) </a:documentation>
@@ -6085,6 +6084,12 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>rothenburg</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Rothenburg | Note: Rothenburg (historical), a
                               medieval town in Bavaria) </a:documentation>
+                  <value>royalAcademy</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): The Royal Danish Academy of Fine Arts | Note:
+                              The Royal Danish Academy of Fine Arts (historical), founded in 1754
+                              and located in the Charlottenborg Palace in Copenhagen, it is the
+                              premier academy of arts in Denmark, where the Wegeners both
+                              studied.) </a:documentation>
                   <value>royalLibrary</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Det Kongelige Bibliotek, The Royal Library |
                               Note: Det Kongelige Bibliotek (The Royal Library) is the national

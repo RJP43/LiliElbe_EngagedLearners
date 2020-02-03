@@ -737,6 +737,10 @@
                <placeName>Rothenburg</placeName>
                <note>Rothenburg (historical), a medieval town in Bavaria</note>
             </place>
+            <place xml:id="royalAcademy">
+               <placeName>The Royal Danish Academy of Fine Arts</placeName>
+               <note>The Royal Danish Academy of Fine Arts (historical), founded in 1754 and located in the Charlottenborg Palace in Copenhagen, it is the premier academy of arts in Denmark, where the Wegeners both studied.</note>
+            </place>
             <place xml:id="royalLibrary">
                <placeName>Det Kongelige Bibliotek</placeName>
                <placeName>The Royal Library</placeName>
@@ -1062,7 +1066,7 @@
             </person>
             <person xml:id="briffautG" source="historical">
                <persName>Georges Briffaut</persName>
-               <note>Georges Briffaut (1886-1873), founder of a French publishing house with his brother Robert Briffaut. Gerda Wegener illustrated Une Aventure d’Amour à Venise (1927), published in Le Livre du Bibliophile, edited by George Briffaut.</note>
+               <note>Georges Briffaut (1886-1873), founder of a French publishing house with his brother Robert Briffaut. Gerda Wegener illustrated Une Aventure d’Amour à Venise (1927), published in Le Livre du Bibliophile, edited by- Georges Briffaut.</note>
             </person>
             <person xml:id="brotherChris" source="fictional" synch="#thomsenTC">
                <persName source="#A1 #D1-TR">brother-in-law</persName>
@@ -1688,8 +1692,8 @@
                <note>Pianist XX (fictional), no known historical model</note>
             </person>
             <person xml:id="piazza" source="historical">
-               <persName>Piazza</persName>
-               <note>Piazza (historical, dates unknown), likely the Paris publisher, L’Edition d’Art H. Piazza, who published Le Livre des Mille Nuits et Une Nuit (The Book of One Thousand and One Nights),  1926-1932.</note>
+               <persName>Henri Jules Piazza</persName>
+               <note>Henri Jules Piazza (1861-1929), founder of the publishing house L’Édition d’art H. Piazza</note>
             </person>
             <person xml:id="plato" source="historical">
                <persName source="#A1 #D1 #D1-TR">Plato</persName>
