@@ -176,9 +176,7 @@
                   <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/filename.txt</catDesc><!-- insert correct URL -->
                </category>
                <category source="dc" xml:id="date">
-                  <catDesc>
-                     <![CDATA[<dc:date>date metadata</dc:date>]]><!-- Do not forget to change the text between the dc:date tags AND include the <![CDATA[ before the dc:date tage and ]]> after it. -->
-                  </catDesc>
+                  <catDesc><!-- year of original document --></catDesc>
                </category>
                <!-- Use the following category only when encoding a book section or periodical -->
                <category source="dcterms" xml:id="isPartOf" xml:lang="dan"><!-- be sure to correct the xml:lang attribute value on the sourceDesc element to match your document's metadata -->
