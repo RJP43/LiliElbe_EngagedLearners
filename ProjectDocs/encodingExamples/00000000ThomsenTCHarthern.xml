@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Letters/0000-00-00ThomsenTHoyer.html" xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/0000-00-00ThomsenTHoyer.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Letters/0000-00-00ThomsenTHoyer.html" xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/00000000ThomsenTHoyer.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>
-               <date>(undated)</date> Letter to <persName key="hoyerNiels">Niels Hoyer</persName>
+               (undated) Letter to <persName key="hoyerNiels">Niels Hoyer</persName>
             </title>
             <author>
                <persName key="thomsenTC" role="AUT">TC Thomsen</persName>

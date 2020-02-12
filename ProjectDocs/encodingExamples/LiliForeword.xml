@@ -5,8 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>"Vorwort" (unpublished)</title>
-                <title type="alternative">"Foreword" (unpublished)</title>
+                <title>Vorwort (unpublished)</title>
+                <title type="alternative">Foreword (unpublished)</title>
                 <author>
                     <persName key="lili" role="AUT">Lili Elbe</persName>
                 </author>
@@ -68,7 +68,7 @@
             <sourceDesc source="Manuscript" xml:lang="ger-B">
                 <p>Three typed pages with page numbers in Roman numerals in the top left hand corner
                     of each, with crossed out passages and both typed and handwritten insertions, and
-                    two parallel lines drawn at the top of the third page.</p>
+                    two parallel lines drawn at the top of the third page. This foreword was never published.</p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>

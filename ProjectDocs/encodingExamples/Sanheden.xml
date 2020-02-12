@@ -4,8 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>"En bog om, hvordan Hr. Wegener blev til Frøken Wegener." in <hi rend="italics">Sandheden</hi></title>
-            <title type="alternative">"A Book About How Mr. Wegener Became Miss Wegener." <hi rend="italics">Sandheden</hi></title>
+            <title>"En bog om, hvordan Hr. Wegener blev til Frøken Wegener."</title>
+            <title type="alternative">"A Book About How Mr. Wegener Became Miss Wegener."</title>
             <author><persName role="AUT">Marius Wulff</persName></author>
             <respStmt>
                <resp>Photographed by</resp>
@@ -108,7 +108,7 @@
             </div>
             <div rend="body">
                <p>SPEKULATIONEN i Tryksager, som berører det kønslige Omraade, har
-                     efterhaanden faaet saadan et Omfang, at man skulde tro, at Politidirektøren sov
+                     efterhaanden faaet et saadant Omfang, at man skulde tro, at Politidirektøren sov
                      og lod <anchor type="commentRangeStart" n="1"/>Anstødelighedsparagraffer
                         <anchor type="commentRangeEnd" n="1"/>
                      <note type="translator" source="mo" corresp="comment_1">This likely refers to
@@ -144,7 +144,7 @@
                         key="hasselbalchS">Hasselbalch</persName>, og den er en saa oplagt
                      Spekulation i Folks Nyfigenhed overfor de seksuelle Spørgsmaal, at der absolut
                      er Grund til Indskriden.</p>
-               <p>Bogen er skrevet af <persName key="wegenerE">Maleren <hi
+               <p>Bogen er skrevet af <persName key="wegenerE">Maleren<hi
                            rend="italics">Wegener</hi></persName>, der tidligere var <persName
                         key="wegenerE"><persName key="wegenerG">Gerda Wegener</persName>s
                         Mand</persName>. Den handler om <persName key="wegenerE">Maleren</persName>s
@@ -156,13 +156,13 @@
                <list>
                   <item><hi rend="bold">Et ulykkeligt Ægteskab.</hi></item>
                </list>
-               <p>Malerens Ægteskab var ulykkeligt. Han var ikke en rask og naturlig
+               <p><persName key="wegenerE">Maleren</persName>s Ægteskab var ulykkeligt. Han var ikke en rask og naturlig
                      Mand. Halvvejs var han Kvinde, og dette medførte voldsomme Brydninger i
                      Hjemmet. <persName key="wegenerE">Wegener</persName> led meget under de
                      fortvivlede Forhold i Hjemmet. Han elskede <persName key="wegenerG">sin
                         Hustru</persName> med dyb og ægte Hengivenhed, men han havde ikke imod hende
                      det naturlige mandige Begær, som en rigtig Mand føler overfor den Kvinde, han
-                     elsker. Han kæmper samtidigt en fortvivlet Kamp mod en Dragelse mod andre Mænd,
+                     elsker. Han kæmpede samtidigt en fortvivlet Kamp mod en Dragelse mod andre Mænd,
                      som han følte i sig.</p>
                <p>Han grublede mere og mere over disse Forhold, indtil han en Dag hørte
                      om de Operationer, tyske Videnskabsmænd foretager, og som gør Mennesker af hans
@@ -180,7 +180,7 @@
                      han ikke satte umaadelig Pris paa <persName key="wegenerG">sin
                         Hustru</persName> – for <cb n="1"/>det gjorde han, – men fordi Drifterne i
                      hans Krop ikke længere var vendt imod hendes.</p>
-               <p>Han fandt nu, at det bedste, han kunne gøre, var at rejse til
+               <p>Han fandt nu, at det bedste, han kunde gøre, var at rejse til
                         <placeName key="germany">Tyskland</placeName> og der underkaste sig den
                      Operation, der kunde forandre ham til en rigtig Kvinde.</p>
                <p>Han realiserede sin Plan og stod nogle Uger senere udenfor en
@@ -203,7 +203,7 @@
                <p><persName key="wegenerE">Wegener</persName> lod sig derpaa indlægge
                      paa <placeName key="gebhardSanatorium">Kliniken</placeName>, og et Par Dage
                      efter fandt Operationen Sted.</p>
-               <p>Wegeners Baare blev kørt ind i Operationsstuen, der blev lagt en
+               <p><persName key="wegenerE">Wegener</persName>s Baare blev kørt ind i Operationsstuen, der blev lagt en
                      Kloroformmaske paa hans Ansigt, og for sidste Gang sov han ind som
                   Mand.</p>
                <p>Da han vaagnede i sin Seng, var han Kvinde. Operationen var
@@ -367,8 +367,8 @@
                      absolutely cause for intervention. </p>
                <!-- KEJ 2019-04-01: Should I tag the commissioner of police? -->
                <!-- KEJ 2019-04-01: I deleted the "a" before "such." Does it need to be corrected anywhere else? -->
-               <p>The book is written by the painter <persName key="wegenerE"><hi
-                           rend="italics">Wegener</hi></persName>, who was formerly <persName
+               <p>The book is written by <persName key="wegenerE">the painter <hi
+                  rend="italics">Wegener</hi></persName>, who was formerly <persName
                         key="wegenerE"><persName key="wegenerG">Gerda Wegener</persName>'s
                         husband</persName>. It is about <persName key="wegenerE">the
                         painter</persName>’s experiences during the transformation from man into
@@ -380,7 +380,7 @@
                <list>
                   <item><hi rend="bold">An Unhappy Marriage.</hi></item>
                </list>
-               <p>The painter’s marriage was unhappy. He was not a well and natural
+               <p><persName key="wegenerE">The painter</persName>’s marriage was unhappy. He was not a well and natural
                      man. He was halfway woman and this caused severe conflicts in the home.
                         <persName key="wegenerE">Wegener</persName> suffered greatly under the
                      desperate conditions in the home. He loved <persName key="wegenerG">his
@@ -401,7 +401,7 @@
                      thought that it must be better to change sex than to remain unhappy. <persName
                         key="wegenerG">His wife</persName> now filed for a divorce and <persName
                         key="wegenerE">Wegener</persName> willingly agreed to this. Not because he
-                     did not appreciate <persName key="wegenerG">his wife</persName> – <cb n="1"/>he
+                     did not appreciate <persName key="wegenerG">his wife</persName> – <cb n="1"/> immensely he
                      did, – but because the instincts in his body were no longer turned towards
                      hers.</p>
                <p>He now found that the best he could do was to travel to <placeName
@@ -427,7 +427,7 @@
                <p><persName key="wegenerE">Wegener</persName> then admitted himself to
                         <placeName key="gebhardSanatorium">the clinic</placeName>, and a few days
                      later the operation took place. </p>
-               <p>Wegener’s gurney was pushed into the operating room, a chloroform
+               <p><persName key="wegenerE">Wegener</persName>’s gurney was pushed into the operating room, a chloroform
                      mask was put on his face, and for the last time he fell asleep as a
                   man.</p>
                <p>When he woke up in his bed, he was a woman. The operation was over
@@ -515,7 +515,7 @@
                <p>The book will appear in <persName key="lili">Miss
                      Wegener</persName>'s name, but <hi rend="italics"><persName key="louLou">Loulou
                            Lassen</persName></hi> from “Politiken” has written it for her and it
-                     gives an unnecessarily detailed description of the erotic feelings that the
+                     gives an unnecessarily detailed description of the erotic feelings that
                         <anchor type="commentRangeStart" n="5"/><persName>the person
                         Wegener</persName>
                      <anchor type="commentRangeEnd" n="5"/><note type="editor" source="kej"

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
     rendition="lilielbe.org/context/Periodicals/1931-11-29_BT.html"
     xml:base="https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/readingViews/input/periodicals/1931-11-29_BT.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fra Mand til Kvinde in <hi rend="italics">B.T.</hi> (<date when="1931-11-29">29
+                <title>Fra <hi rend="italics">Mand til Kvinde. <persName key="lili"> Lili Elbe</persName>s Bog, som udkommer
+                    paa Onsdag.</hi> (<date when="1931-11-29">29
                         November 1931</date>)</title>
-                <title type="alternative">From Man into Woman in <hi rend="italics">B.T.</hi> (<date
+                <title type="alternative">From <hi rend="italics">Man into Woman. <persName key="lili">Lili Elbe</persName>’s book that is to be published on Wednesday.</hi> (<date
                         when="1931-11-29">29 November 1931</date>)</title>
                 <author>
                     <persName key="leo" role="AUT">Leo</persName>
@@ -43,6 +44,7 @@
                 <respStmt>
                     <resp>HTML proofing completed by</resp>
                     <persName ref="ccm">Caroline McCraw</persName>
+                    <persName ref="drr">Danielle Richards</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Images prepared by</resp>
@@ -83,6 +85,9 @@
                     <category source="collex" xml:id="genre">
                         <catDesc>Essay/Nonfiction</catDesc>
                     </category>
+                    <category source="collex" xml:id="image">
+                        <catDesc>http://lilielbe.org/media/periodicals/1931-11-29_BT_i01.jpg</catDesc>
+                    </category>
                     <category source="collex" xml:id="text">
                         <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1931-11-29_BT.txt</catDesc>
                     </category>
@@ -106,9 +111,10 @@
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
-    <text>
+    <text>       
         <body>
             <div type="original">
+                <pb facs="http://lilielbe.org/media/letters/1931-11-29B.T.jpg"/>
                 <div rend="head" style="periodical">
                 </div>
                 <div rend="headlines">
@@ -203,7 +209,7 @@
                         into Woman” at Hage and Clausen, written by <persName key="lili">Lili
                             Elbe</persName> during the last months before her death in September
                         this year, and wherein she has tried psychologically to account for the
-                        remarkable and tragic fate that began as <persName key="wegenerE">Ejnar
+                        remarkable and tragic fate that began as <persName key="wegenerE">Einar
                             Wegener</persName> and ended as <persName key="lili">Lili
                             Elbe</persName>.</p>
                     <p>It is the local editor of “Berliner <anchor type="commentRangeStart" n="1"/>
