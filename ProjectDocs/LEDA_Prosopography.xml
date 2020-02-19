@@ -763,7 +763,7 @@
                <placeName>Saxony</placeName>
                <note>Saxony (historical), a state in eastern Germany</note>
             </place>
-            <place>
+            <place xml:id="scandinavia">
                <placeName>Scandinavia</placeName>
                <note>Scandinavia (historical), a region in northern Europe encompassing the
                   countries of Denmark, Norway, and Sweden</note>
