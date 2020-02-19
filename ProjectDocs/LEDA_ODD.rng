@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-02-03T01:29:47Z. .
+Schema generated from ODD source 2020-02-19T14:32:59Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -6106,7 +6106,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>saxony</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Saxony | Note: Saxony (historical), a state in
                               eastern Germany) </a:documentation>
-                  <value/>
+                  <value>scandinavia</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Scandinavia | Note: Scandinavia (historical),
                               a region in northern Europe encompassing the countries of Denmark,
                               Norway, and Sweden) </a:documentation>
