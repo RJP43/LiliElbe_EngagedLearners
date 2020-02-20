@@ -4,8 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>"En bog om, hvordan Hr. Wegener blev til Frøken Wegener."</title>
-            <title type="alternative">"A Book About How Mr. Wegener Became Miss Wegener."</title>
+            <title>En bog om, hvordan Hr. Wegener blev til Frøken Wegener.</title>
+            <title type="alternative">A Book About How Mr. Wegener Became Miss Wegener.</title>
             <author><persName role="AUT">Marius Wulff</persName></author>
             <respStmt>
                <resp>Photographed by</resp>
@@ -322,7 +322,7 @@
             <div rend="headlines">
                <list>
                   <item rend="primary"><hi rend="bold"><persName key="hasselbalchS"
-                              >Hasselbalch </persName>Publishes the Scandalous
+                              >Hasselbalch</persName> Publishes the Scandalous
                      Book.</hi></item>
                </list>
             </div>

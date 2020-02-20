@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-  rendition="lilielbe.org/context/Letters/1931-03-06LEKnudsen.html"
-  xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/19310306LEKnudsen.xml">
+  rendition="lilielbe.org/context/Letters/1931-03-06ElbeKnudsen.html"
+  xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/19310306ElbeKnudsen.xml">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
-          <date when="1931-03-06">1931-03-06</date> Letter to <persName key="knudsenP">Paul
+          <date when="1931-03-06">1931-03-06</date> Letter to <persName key="knudsenP">Poul
             Knudsen</persName>
         </title>
         <author>

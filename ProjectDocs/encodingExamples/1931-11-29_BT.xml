@@ -6,11 +6,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Fra <hi rend="italics">Mand til Kvinde. <persName key="lili"> Lili Elbe</persName>s Bog, som udkommer
-                    paa Onsdag.</hi> (<date when="1931-11-29">29
-                        November 1931</date>)</title>
-                <title type="alternative">From <hi rend="italics">Man into Woman. <persName key="lili">Lili Elbe</persName>’s book that is to be published on Wednesday.</hi> (<date
-                        when="1931-11-29">29 November 1931</date>)</title>
+                <title>Fra <hi rend="italics">Mand til Kvinde.</hi> <!--<persName key="lili"> Lili Elbe</persName>s Bog, som udkommer
+                    paa Onsdag.</hi>--></title>
+                <title type="alternative">From <hi rend="italics">Man into Woman.</hi> <!--<persName key="lili">Lili Elbe</persName>’s book that is to be published on Wednesday.--></title>
                 <author>
                     <persName key="leo" role="AUT">Leo</persName>
                 </author>
@@ -95,7 +93,7 @@
                         <catDesc>1931</catDesc>
                     </category>
                     <category source="dcterms" xml:id="isPartOf" xml:lang="dan">
-                        <catDesc>Originally published in <hi rend="italics">B.T.</hi></catDesc>
+                        <catDesc>Originally published in <hi rend="italics">B.T.</hi> (1931-11-29)</catDesc>
                     </category>
                     <!--<category source="dcterms" xml:id="isPartOf_trans" xml:lang="eng">
                     <catDesc><!-\- book or periodical title translated-\-></catDesc>
@@ -114,7 +112,7 @@
     <text>       
         <body>
             <div type="original">
-                <pb facs="http://lilielbe.org/media/letters/1931-11-29B.T.jpg"/>
+                <pb facs="http://www.lilielbe.org/media/periodicals/1931-11-29B.T.jpg"/>
                 <div rend="head" style="periodical">
                 </div>
                 <div rend="headlines">
@@ -182,7 +180,7 @@
                         <hi rend="italics"><persName key="leo">Leo</persName>.</hi>
                     </signed>
                     <!-- CCM: Not sure what to do about this image? of handwriting... See JPEG. RJP: Emailed Greer and team to create media library image -->
-                    <figure facs="http://lilielbe.org/media/periodicals/1931-11-29_BT_i01.jpg">
+                    <figure facs="http://www.lilielbe.org/media/periodicals/1931-11-29_BT_i01.jpg">
                     <figDesc>To Dedikationer fra en fransk Bog, den øverste skrevet af Maleren <persName
                             key="wegenerE">Ejnar Wegener,</persName> den nederste af <persName
                             key="lili">Lili Elbe</persName>.</figDesc>
@@ -265,7 +263,7 @@
                     <signed>
                         <hi rend="italics"><persName key="leo">Leo</persName>.</hi>
                     </signed>
-                    <figure facs="http://lilielbe.org/media/periodicals/1931-11-29_BT_i01.jpg">
+                    <figure facs="http://www.lilielbe.org/media/periodicals/1931-11-29_BT_i01.jpg">
                     <figDesc> Two dedications from a French book, the top one written by the painter
                             <persName key="wegenerE">Einar Wegener</persName>, the bottom one by
                             <persName key="lili">Lili Elbe</persName>.</figDesc>
