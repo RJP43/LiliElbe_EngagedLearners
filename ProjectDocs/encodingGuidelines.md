@@ -350,11 +350,11 @@ _note: Use this encoding for stretches of illegible or missing text (cutaways, h
 "overtype"  
 "transposition"
   
-`@rend`
-"pencil"   
-"blackInk"  
-"blueInk"
-"redCrayon"   
+`@rend`  
+"pencil"    
+"blackInk"    
+"blueInk"  
+"redCrayon"     
 "redPencil"    
 			 
 **Deletions**  
