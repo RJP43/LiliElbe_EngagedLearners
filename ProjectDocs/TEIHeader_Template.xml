@@ -176,7 +176,9 @@
                   <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/filename.txt</catDesc><!-- insert correct URL -->
                </category>
                <category source="dc" xml:id="date">
-                  <catDesc><!-- year of original document --></catDesc>
+                  <catDesc>
+                     <![CDATA[<dc:date>date metadata</dc:date>]]><!-- Do not forget to change the text between the dc:date tags AND include the <![CDATA[ before the dc:date tage and ]]> after it. -->
+                  </catDesc>
                </category>
                <!-- Use the following category only when encoding a book section or periodical -->
                <category source="dcterms" xml:id="isPartOf" xml:lang="dan"><!-- be sure to correct the xml:lang attribute value on the sourceDesc element to match your document's metadata -->
@@ -194,6 +196,10 @@
                   digitization and encoding. Original hyphenation can be consulted in the facsimile
                   images.</p>
             </hyphenation>
+            <!-- As per ED 7/24/2020: Please note that the hyphenation statement is not always required but the page breaks and paragraphs statement (BELOW) is always required.  -->
+            <segmentation>
+               <p>When paragraphs line up between the two columns, we have not repeated translator and editor notes. When the paragraphs do not line up, we have included editor notes in both places. We have prioritized readability. Page breaks may not be consistent between the translation and the transcription due to word order differences in the translations.</p>
+            </segmentation>
          </editorialDecl>
       </encodingDesc>
    </teiHeader>
