@@ -46,6 +46,7 @@
                     <resp>Encoding assistance and/or XML proofing completed by</resp>
                     <persName ref="rjp">Rebecca J. Parker</persName>
                     <persName ref="am">Anna McCue</persName>
+                    <persName ref="db">Darcy Brady</persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
@@ -55,6 +56,7 @@
                 <respStmt>
                     <resp>HTML proofing completed by</resp>
                     <persName ref="bc">Cristiana Bertola</persName>
+                    <persName ref="db">Darcy Brady</persName>
                 </respStmt>
                 <sponsor>Loyola University Chicago</sponsor>
                 <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -971,7 +973,7 @@ Kaj (fictional),  a character in “The Snow Queen” (1844), a fairy tale by Ha
                             adore. <persName key="lili"
                         >Lily</persName></hi>.<!--BC: 2019-03-24: I think that "Lily" is just the signature, not the beginning of a new line. If so, how should it be marked up?--></p>
                     <!--BC: 2019-03-24: There is a free line between these two paragraphs. How should it be marked up?-->
-                    <p style="return"/>
+                    <!-- I removed the paragraph element for the free line between these two paragraphs so the paragraph numbers line up across the French and English translation DB 4.14.2020-->
                     <p>P. S. — <hi rend="italics"><persName key="wegenerE">Bé</persName> a fêté
                             l'enterrement de sa vie de garçon. »</hi></p>
                     <!--BC: 2019-03-24: There is a free line between these two paragraphs. How should it be marked up?-->
@@ -987,7 +989,7 @@ Kaj (fictional),  a character in “The Snow Queen” (1844), a fairy tale by Ha
                                 key="warnekros">le professeur W.</persName> va lui porter le coup de
                             grâce.</hi> »</p>
                     <!--BC: 2019-03-24: There is a free line between these two paragraphs. How should it be marked up?-->
-                    <p style="return"/>
+                    <!--I removed the paragraph element for the free line between these two paragraphs so the paragraph numbers line up across the French and English translation DB 4.14.2020-->
                     <p>Quelques semaines plus tard, deux élégantes <persName>jeunes
                             femmes</persName><!--These two "young women" are Gerda and Lili. How should this plural noun be marked up? Should it be given a key ID?--> débarquaient
                         à la <placeName key="womensClinic">Frauenklinik</placeName> de <placeName
@@ -2398,9 +2400,8 @@ Kaj (fictional),  a character in “The Snow Queen” (1844), a fairy tale by Ha
                     <p>I believe in so doing to make myself worthy of a memory that is so profoundly
                         dear to me and of a friendship that I place among the most beautiful that I
                         possess.</p>
-                    <p>Translated by Anne M. Callahan Professor Emerita of French Loyola University
-                        Chicago</p>
                     <!-- do we need this here since the translator is credited in the TEI header? AM 12.2.19 -->
+                    <!-- removed the translator reference so the par. numbers line up across the French and English translation DB 4.14.20 -->
                 </div>
             </div>
         </body>

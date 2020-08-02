@@ -1,153 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../../schema/out/LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="lilielbe.org/context/Letters/0000-00-00ThomsenTCHarthern.html" xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/00000000ThomsenTCHarthern.xml">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>
-               (undated) Letter to Niels Hoyer (<persName key="harthernE">Ernst Harthern</persName>)
-            </title>
-            <author>
-               <persName key="thomsenTC" role="AUT">TC Thomsen</persName>
-            </author>
-            <respStmt>
-               <resp>Photographed by</resp>
-               <persName ref="plc">Pamela L. Caughie</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Images prepared by</resp>
-               <persName ref="mg">Matthew Gallagher</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Transcription completed by</resp>
-               <persName ref="kej">Kristin Jacobsen</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Translation completed by</resp>
-               <persName ref="kej" role="TRL">Kristin Jacobsen</persName>
-               <persName ref="mb">Maiken Boysen</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Translation reviewed by</resp>
-               <persName ref="mo">Marianne Ølholm</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Encoding completed by</resp>
-               <persName ref="tnm">Tyler Monaghan</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Encoding assistance and/or XML proofing completed by</resp>
-               <persName ref="rjp">Rebecca J. Parker</persName>
-               <persName ref="nw">Nikolaus Wasmoen</persName>
-               </respStmt>
-            <respStmt>
-               <resp>XML transformed into HTML
-                  <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
-               <persName ref="rjp">Rebecca J. Parker</persName>
-            </respStmt>
-            <respStmt>
-               <resp>HTML proofing completed by</resp>
-               <persName ref="aa">Adeline Azungue</persName>
-               </respStmt>            
-            <sponsor>Loyola University Chicago Libraries</sponsor>
-            <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Lili Elbe Digital Archive</authority>
-            <pubPlace>Chicago, IL, USA</pubPlace>
-            <date when="2019-07-06">July 6th, 2019</date>
-            <availability>
-               <p>Reproduced by courtesy of the <orgName select="source" key="EHA">Ernst Harthern Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
-               <licence>Distributed under a Creative Commons
-                  Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
-            </availability>
-         </publicationStmt>
-         <sourceDesc source="Manuscript" xml:lang="dan">
-            <p>The paper is folded into fourths. The name Thomsen is written in the upper left corner in what appears to be pencil. There are two hole punches on the left margin of the page. There appears to be what looks like an imprint of a logo or picture on the page itself underneath the writing in very light ink.</p>
-         </sourceDesc>         
-      </fileDesc>
-      <encodingDesc>
-         <classDecl>
-            <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
-               <category source="collex" xml:id="discipline">
-                  <catDesc>History/Book History</catDesc>
-               </category>
-               <category source="collex" xml:id="genre">
-                  <catDesc>Correspondence</catDesc>
-               </category>               
-               <category source="collex" xml:id="text">
-                  <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/0000-00-00ThomsenTCHarthern.txt</catDesc>
-               </category>
-               <category source="dc" xml:id="date">
-                  <catDesc>nodate</catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
-         <editorialDecl>
-            <hyphenation>
-               <p>We have removed the hyphenation that appears in the printed text during
-                  digitization and encoding. Original hyphenation can be consulted in the facsimile
-                  images.</p>
-            </hyphenation>
-         </editorialDecl>
-      </encodingDesc>      
-   </teiHeader>
-   <text>
-      <body>
-         <div type="original">
-            <pb facs="http://lilielbe.org/media/letters/0000-00-00ThomsenHoyer.jpg"/>
-            <div rend="head" style="letter">
-               <p><anchor type="commentRangeStart" n="1"/><add place="leftMargin" type="insertion" rend="pencil"><persName key="thomsenTC">Thomsen</persName></add><anchor type="commentRangeEnd" n="1"/><note type="translator" source="kej" corresp="comment_1">Written in the top left corner in another hand.</note></p>
-               <p>Gentoftegade 14. Gentofte Tlf. Gentofte 144</p>
-            </div>
-            <div rend="body">
-               <p>Hr. <persName key="hoyerNiels">Niels Hoyer</persName></p>
-               <p><placeName>Havnegade</placeName>
-                  47 <placeName key="copenhagen">København</placeName></p>
-               <p>Efter Aftale med <persName key="lili">Fru Lili Elvenes</persName>
-                     sender jeg Dem hermed et Billede (som jeg gerne ønsker <hi rend="underline"
-                        >retur</hi>, da det er det eneste, jeg ejer) af min Svoger Kunstmaler
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    (undated) Letter to Niels Hoyer (<persName key="harthernE">Ernst Harthern</persName>)
+                </title>
+                <author>
+                    <persName key="thomsenTC" role="AUT">TC Thomsen</persName>
+                </author>
+                <respStmt>
+                    <resp>Photographed by</resp>
+                    <persName ref="plc">Pamela L. Caughie</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Images prepared by</resp>
+                    <persName ref="mg">Matthew Gallagher</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="kej">Kristin Jacobsen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation completed by</resp>
+                    <persName ref="kej" role="TRL">Kristin Jacobsen</persName>
+                    <persName ref="mb">Maiken Boysen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed by</resp>
+                    <persName ref="mo">Marianne Ølholm</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="tnm">Tyler Monaghan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <persName ref="nw">Nikolaus Wasmoen</persName>
+                    <persName ref="oe">Orion Elrod</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                        <date when="2020-07-30">July 30, 2020</date> by</resp>
+                    <persName ref="gm">Greer Martin</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed by</resp>
+                    <persName ref="aa">Adeline Azungue</persName>
+                    <persName ref="ed">Emily Datskou</persName>
+                </respStmt>            
+                <sponsor>Loyola University Chicago Libraries</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="2019-07-06">July 6th, 2019</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName select="source" key="EHA">Ernst Harthern Archives, Arbetarrörelsens Arkiv och Bibliotek (Swedish Labour Movement's Archives and Library)</orgName> in <placeName>Huddinge, Sweden</placeName>.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc source="Manuscript" xml:lang="dan">
+                <p>The paper is folded into fourths. The name Thomsen is written in the upper left corner in what appears to be pencil. There are two hole punches on the left margin of the page. There appears to be what looks like an imprint of a logo or picture on the page itself underneath the writing in very light ink.</p>
+            </sourceDesc>         
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+                    <category source="collex" xml:id="discipline">
+                        <catDesc>History/Book History</catDesc>
+                    </category>
+                    <category source="collex" xml:id="genre">
+                        <catDesc>Correspondence</catDesc>
+                    </category>               
+                    <category source="collex" xml:id="text">
+                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/0000-00-00ThomsenTCHarthern.txt</catDesc>
+                    </category>
+                    <category source="dc" xml:id="date">
+                        <catDesc>nodate</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <editorialDecl>
+                <segmentation>
+                    <p>When paragraphs line up between the two columns, we have not repeated translator and editor notes. When the paragraphs do not line up, we have included editor notes in both places. We have prioritized readability. Page breaks may not be consistent between the translation and the transcription due to word order differences in the translations.</p>
+                </segmentation>
+            </editorialDecl>
+        </encodingDesc>      
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <pb facs="http://lilielbe.org/media/letters/0000-00-00ThomsenHoyer.jpg"/>
+                <div rend="head" style="letter">
+                    <p><anchor type="commentRangeStart" n="1"/><add place="leftMargin" type="insertion" rend="pencil"><persName key="thomsenTC">Thomsen</persName></add><anchor type="commentRangeEnd" n="1"/><note type="translator" source="kej" corresp="comment_1">Written in the top left corner in another hand.</note></p>
+                    <p>Gentoftegade 14. Gentofte Tlf. Gentofte 144</p>
+                </div>
+                <div rend="body">
+                    <p>Hr. <persName key="hoyerNiels">Niels Hoyer</persName></p>
+                    <p><placeName>Havnegade</placeName>
+                        47 <placeName key="copenhagen">København</placeName></p>
+                    <p>Efter Aftale med <persName key="lili">Fru Lili Elvenes</persName>
+                        sender jeg Dem hermed et Billede (som jeg gerne ønsker <hi rend="underline"
+                            >retur</hi>, da det er det eneste, jeg ejer) af min Svoger Kunstmaler
                         <persName key="wegenerE">Einar Wegener</persName>.</p>
-               <p>Jeg beder Dem tale med mig <hi rend="underline">inden</hi> De sender
-                     noget uddrag af Manuskriptet til <placeName key="germany">Tyskland</placeName>
-                  – min Telefon er efter 6.30 Gentofte 144, og i Løbet
-                     af Dagen er det : Central 4726.</p>
-           
-               <p>Med megen Agtelse</p>
-               <signed><hi rend="underline"><persName key="thomsenTC">TC Thomsen</persName></hi></signed>
-            
-               <postscript>
-                  <p><hi rend="underline">Ingeniør</hi></p>
-               </postscript>
+                    <p>Jeg beder Dem tale med mig <hi rend="underline">inden</hi> De sender
+                        noget uddrag af Manuskriptet til <placeName key="germany">Tyskland</placeName>
+                        – min Telefon er efter 6.30 Gentofte 144, og i Løbet
+                        af Dagen er det: Central 4726.</p>
+                    
+                    <p>Med megen Agtelse</p>
+                    <signed><hi rend="underline"><persName key="thomsenTC">TC Thomsen</persName></hi></signed>
+                    
+                    <postscript>
+                        <p><hi rend="underline">Ingeniør</hi></p>
+                    </postscript>
+                </div>
             </div>
-         </div>
-         <div type="translation">
-            <div rend="head" style="letter">
-               <p><anchor type="commentRangeStart" n="1"/><add place="leftMargin" type="insertion" rend="pencil"><persName key="thomsenTC">Thomsen</persName></add><anchor type="commentRangeEnd" n="1"/><note type="translator" source="kej" corresp="comment_1">Written in the top left corner in another hand.</note></p>
-               <p>Gentoftegade 14. Gentofte Tel. Gentofte 144</p>
-            </div>
-            <div rend="body">
-               <p>Sir. <persName key="hoyerNiels">Niels Hoyer</persName></p>
-               <p><placeName>Harbor Street</placeName>
-                  47 <placeName key="copenhagen">Copenhagan</placeName></p>
-               <p>As agreed with <persName key="lili">Mrs. Lili
+            <div type="translation">
+                <div rend="head" style="letter">
+                    <p><anchor type="commentRangeStart" n="2"/><add place="leftMargin" type="insertion" rend="pencil"><persName key="thomsenTC">Thomsen</persName></add><anchor type="commentRangeEnd" n="2"/><note type="translator" source="kej" corresp="comment_2">Written in the top left corner in another hand.</note></p>
+                    <p>Gentoftegade 14. Gentofte Tel. Gentofte 144</p>
+                </div>
+                <div rend="body">
+                    <p>Sir. <persName key="hoyerNiels">Niels Hoyer</persName></p>
+                    <p><placeName>Harbor Street</placeName>
+                        47 <placeName key="copenhagen">Copenhagan</placeName></p>
+                    <p>As agreed with <persName key="lili">Mrs. Lili
                         Elvenes</persName> I hereby send you a picture (which I would like you to
                         <hi rend="underline">return</hi> as it is the only one I own) of my
-                     brother-in-law painter <persName key="wegenerE">Einar
-                  Wegener</persName>.</p>
-               <p>I ask you to talk to me <hi rend="underline">before</hi>
-                     sending any transcript of the manuscript to <placeName key="germany"
-                        >Germany</placeName> – my telephone number after 6:30 is Gentofte 144, and
-                     during the day it is : Central 4726.</p>            
-            
-               <p>With much respect</p>
-               <signed><hi rend="underline"><persName key="thomsenTC">TC Thomsen</persName></hi></signed>
-            
-            <postscript>
-               <p><hi rend="underline">Engineer</hi></p>
-            </postscript>
+                        brother-in-law painter <persName key="wegenerE">Einar
+                            Wegener</persName>.</p>
+                    <p>I ask you to talk to me <hi rend="underline">before</hi>
+                        sending any transcript of the manuscript to <placeName key="germany"
+                            >Germany</placeName> – my telephone number after 6:30 is Gentofte 144, and
+                        during the day it is: Central 4726.</p>            
+                    
+                    <p>With much respect</p>
+                    <signed><hi rend="underline"><persName key="thomsenTC">TC Thomsen</persName></hi></signed>
+                    
+                    <postscript>
+                        <p><hi rend="underline">Engineer</hi></p>
+                    </postscript>
+                </div>
             </div>
-         </div>
-      </body>
-   </text>
+        </body>
+    </text>
 </TEI>
+
+
+

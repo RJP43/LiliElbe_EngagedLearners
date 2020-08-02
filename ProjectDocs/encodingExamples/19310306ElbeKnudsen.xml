@@ -3,180 +3,181 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
   rendition="lilielbe.org/context/Letters/1931-03-06ElbeKnudsen.html"
   xml:base="https://gitlab.com/ctsdh/lili-elbe-code/blob/master/XSLT_sandbox/readingViews/input/letters/19310306ElbeKnudsen.xml">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>
-          <date when="1931-03-06">1931-03-06</date> Letter to <persName key="knudsenP">Poul
-            Knudsen</persName>
-        </title>
-        <author>
-          <persName key="lili" role="AUT">Lili Elbe</persName>
-        </author>
-        <respStmt>
-          <resp>Translation completed by</resp>
-          <persName ref="kej" role="TRL">Kristin Jacobsen</persName>
-        </respStmt>
-        <respStmt>
-          <resp>Translation reviewed by</resp>
-          <persName ref="mo">Marianne Ølholm</persName>
-          <persName ref="mb">Maiken Boysen</persName>
-        </respStmt>
-        <respStmt>
-          <resp>Transcription completed by </resp>
-          <persName ref="kej">Kristin Jacobsen</persName>
-        </respStmt>
-        <respStmt>
-          <resp>Encoding completed by</resp>
-          <persName ref="mek">Molly Kaull</persName>
-          <persName ref="bt">Brenda Torres</persName>
-          <persName ref="dlr">Dove Rebmann</persName>
-          <persName ref="mf">Megan Fries</persName>
-          <persName ref="mn">Maddie Nesbitt</persName>
-          <persName ref="me">Melissa Elezovic</persName>
-          <persName ref="mos">Malone Simmons</persName>
-          <persName ref="kd">Kritika Dabral</persName>
-        </respStmt>
-        <respStmt>
-          <resp>Encoding assistance and/or XML proofing completed by</resp>
-          <persName ref="ccm">Caroline McCraw</persName>
-        </respStmt>
-        <respStmt>
-          <resp>XML transformed into HTML
-              <date><!-- exact transformation date generated during transformation; leave this one alone --></date>
-            by</resp>
-          <persName ref="rjp">Rebecca J. Parker</persName>
-        </respStmt>
-        <respStmt>
-          <resp>HTML proofing completed by</resp>
-          <persName ref="ccm">Caroline McCraw</persName>
-        </respStmt>
-        <respStmt>
-          <resp>Images prepared by</resp>
-          <persName ref="mg">Matthew Gallagher</persName>
-        </respStmt>
-        <sponsor>Loyola University Chicago Libraries</sponsor>
-        <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
-      </titleStmt>
-      <publicationStmt>
-        <authority>Lili Elbe Digital Archive</authority>
-        <pubPlace>Chicago, IL, USA</pubPlace>
-        <date when="2019-07-06">July 6th, 2019</date>
-        <availability>
-          <p>Reproduced by courtesy of the <orgName select="source" key="NKS">The Royal Library</orgName> in <placeName>Copenhagen</placeName>.</p>
-          <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-            International license.</licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc source="Manuscript" xml:lang="dan">
-        <p>One-page, one-sided handwritten letter on beige paper with writing extending to the
-          margins and a comment written sideways down the lefthand margin; appears to have been
-          folded into eighths</p>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
-          <category source="collex" xml:id="discipline">
-            <catDesc>History/Book History</catDesc>
-          </category>
-          <category source="collex" xml:id="genre">
-            <catDesc>Correspondence</catDesc>
-          </category>
-          <category source="collex" xml:id="text">
-            <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1931-03-06ElbeKnudsen.txt</catDesc>
-          </category>
-          <category source="dc" xml:id="date">
-            <catDesc>1931</catDesc>
-          </category>
-        </taxonomy>
-      </classDecl>
-      <editorialDecl>
-        <hyphenation>
-          <p>We have removed the hyphenation that appears in the printed text during digitization
-            and encoding. Original hyphenation can be consulted in the facsimile images.</p>
-        </hyphenation>
-      </editorialDecl>
-    </encodingDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="original">
-        <pb style="page" facs="http://lilielbe.org/media/letters/1931-03-06ElbeKnudsen.jpg"/>
-        <div rend="head" style="letter">
-          <p>
-            <placeName key="lindevangen">Lindevangen</placeName> 10. <date>6 Mars 1931</date>.</p>
-        </div>
-        <div rend="body">
-          <p>Kære <persName key="knudsenP">Poul</persName>.</p>
-          <p>Tusind Tak for Dit Brev, - og undskyld mig at jeg først nu svarer derpaa; men Affairen
-            med Bogen havde taget saa <anchor type="commentRangeStart" n="1"/>stærk<anchor
-              type="commentRangeEnd" n="1"/><note type="translator" source="kej" corresp="comment_1"
-              >Should be stærkt.</note> paa mig at jeg blev syg, derpaa kom <persName key="wegenerG"
-              >Gerda</persName> hjem, og jeg har haft saa meget at gøre med Udstillingen.</p>
-          <p>Da jeg mærkede, hvor daarligt Resultatet truede med at blive, trak jeg Bogen helt
-            tilbage.</p>
-          <p><persName key="hasselbalchS">Hasselbalch</persName> gav som en af de vægtige Grunde til
-            ikke at udgive Bogen den: at en Smædeskriver i sit Blad havde skrevet noget om mig, som
-            jeg iøvrigt aldrig har læst.</p>
-          <p>Jeg har levet her i <placeName key="copenhagen">København</placeName> som i en
-            Gifttaage af fæl og ondsindet Sladder. Du kan tro, det har været slemt for en stakkels
-            syg og svag Pige. Jeg ønskede bare at dø. Men nu har Bladet vendt sig. Folk bevidner mig
-            deres Medfølelse – jeg havde gerne undværet begge Dele, baade: at de var onde paa mig og
-            at de nu har ondt af mig.</p>
-          <p>Flere Forlæggere har nu henvendt sig til mig, og jeg er klar over, at jeg kan faa min
-            Bog ud, naar jeg vil – ogsaa fra Udlandet er der sket Henvendelser.</p>
-          <p>Du viste Dig atter som min gode Ven, da Du skrev til mig! Det er meget muligt, jeg om
-            kort Tid henvender mig til Dig, men ikke igennem Forlægger.</p>
-
-          <p>De allerhjærteligste Hilsner fra Din</p>
-          <signed>
-            <persName key="lili">Lili</persName>
-          </signed>
-          <postscript>
-            <p><anchor type="commentRangeStart" n="2"/> Jeg længes saa meget efter <persName
-                key="knudsenV">Vibeke</persName>. Hils hende fra mig og sig hende at jeg finder
-              hendes Portrait et af Gerdas bedste Billeder.<anchor type="commentRangeEnd" n="2"
-                /><note type="translator" source="kej" corresp="comment_2">Written along left edge
-                of letter.</note></p>
-          </postscript>
-        </div>
-      </div>
-      <div type="translation">
-        <div rend="head" style="letter">
-          <p><placeName key="lindevangen">Lindevagen</placeName> 10. <date>6 March 1931</date>.</p>
-        </div>
-        <div rend="body">
-          <p>Dear <persName key="knudsenP">Poul.</persName></p>
-          <p> A thousand thanks for your letter, – and I’m sorry that I am just now answering; but the
-            affair with the book was so intense that I was drained and I became ill, then <persName
-              key="wegenerG">Gerda</persName> came home, and I have had so much to do with the
-            exhibition.</p>
-          <p>When I realized how bad the result threatened to become, I withdrew the book
-            altogether.</p>
-          <p><persName key="hasselbalchS">Hasselbach</persName> gave as one of his weightiest
-            reasons not to publish the book: that a libeler in his newspaper had written something
-            about me, which incidentally I have never read.</p>
-          <p>I have lived here in <placeName key="copenhagen">Copenhagen</placeName> in a poison fog
-            of ugly and malicious gossip. Believe me, it has been bad for a poor sick and weak girl.
-            I just wanted to die. But now the table has turned. People express to me their sympathy
-            – I would have preferred to do without both parts, first: that they were mean to me as
-            well as that they now feel sorry for me.</p>
-          <p>Several publishers have now approached me and I am aware that I can get my book out
-            when I want – there have also been approaches from abroad.</p>
-          <p>You showed yourself again as my good friend, when you wrote to me! It is very possible
-            I will approach you shortly, but not through a publisher.</p>
-          <p> Very heartfelt greetings from your</p>
-          <signed>
-            <persName key="lili">Lili</persName>
-          </signed>
-          <postscript>
-            <p>I long so much for <persName key="knudsenV">Vibeke</persName>. Greet her for me and
-              tell her that I find her portrait one of <persName key="wegenerG">Gerda's</persName>
-              best pictures.</p>
-          </postscript>
-        </div>
-      </div>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <date when="1931-03-06">1931-03-06</date> Letter to <persName key="knudsenP">Poul
+                        Knudsen</persName>
+                </title>
+                <author>
+                    <persName key="lili" role="AUT">Lili Elbe</persName>
+                </author>
+                <respStmt>
+                    <resp>Translation completed by</resp>
+                    <persName ref="kej" role="TRL">Kristin Jacobsen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed by</resp>
+                    <persName ref="mo">Marianne Ølholm</persName>
+                    <persName ref="mb">Maiken Boysen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed by </resp>
+                    <persName ref="kej">Kristin Jacobsen</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="mek">Molly Kaull</persName>
+                    <persName ref="bt">Brenda Torres</persName>
+                    <persName ref="dlr">Dove Rebmann</persName>
+                    <persName ref="mf">Megan Fries</persName>
+                    <persName ref="mn">Maddie Nesbitt</persName>
+                    <persName ref="me">Melissa Elezovic</persName>
+                    <persName ref="mos">Malone Simmons</persName>
+                    <persName ref="kd">Kritika Dabral</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="ccm">Caroline McCraw</persName>
+                    <persName ref="oe">Orion Elrod</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                        <date when="2020-07-30">July 30th, 2020</date>
+                        by</resp>
+                    <persName ref="gm">Greer Martin</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed by</resp>
+                    <persName ref="ccm">Caroline McCraw</persName>
+                    <persName ref="ed">Emily Datskou</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Images prepared by</resp>
+                    <persName ref="mg">Matthew Gallagher</persName>
+                </respStmt>
+                <sponsor>Loyola University Chicago Libraries</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="2019-07-06">July 6th, 2019</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName select="source" key="NKS">The Royal Library</orgName> in <placeName>Copenhagen</placeName>.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+                        International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc source="Manuscript" xml:lang="dan">
+                <p>One-page, one-sided handwritten letter on beige paper with writing extending to the
+                    margins and a comment written sideways down the lefthand margin; appears to have been
+                    folded into eighths.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy source="https://arc-staging.dh.tamu.edu/index.php/Submitting_RDF">
+                    <category source="collex" xml:id="discipline">
+                        <catDesc>History/Book History</catDesc>
+                    </category>
+                    <category source="collex" xml:id="genre">
+                        <catDesc>Correspondence</catDesc>
+                    </category>
+                    <category source="collex" xml:id="text">
+                        <catDesc>https://gitlab.com/ctsdh/lili-elbe-code/raw/master/XSLT_sandbox/plainText/output/1931-03-06ElbeKnudsen.txt</catDesc>
+                    </category>
+                    <category source="dc" xml:id="date">
+                        <catDesc>1931</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <editorialDecl>
+                <segmentation>
+                    <p>When paragraphs line up between the two columns, we have not repeated translator and editor notes. When the paragraphs do not line up, we have included editor notes in both places. We have prioritized readability. Page breaks may not be consistent between the translation and the transcription due to word order differences in the translations..</p>
+                </segmentation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <pb facs="http://lilielbe.org/media/letters/1931-03-06ElbeKnudsen.jpg"/>
+                <div rend="head" style="letter">
+                    <p>
+                        <placeName key="lindevangen">Lindevangen</placeName> 10. <date>6 Mars 1931</date>.</p>
+                </div>
+                <div rend="body">
+                    <p>Kære <persName key="knudsenP">Poul</persName>.</p>
+                    <p>Tusind Tak for Dit Brev, - og undskyld mig at jeg først nu svarer derpaa; men Affairen
+                        med Bogen havde taget saa <anchor type="commentRangeStart" n="1"/>stærk<anchor
+                            type="commentRangeEnd" n="1"/><note type="translator" source="kej" corresp="comment_1"
+                                >Should be stærkt.</note> paa mig at jeg blev syg, derpaa kom <persName key="wegenerG"
+                                    >Gerda</persName> hjem, og jeg har haft saa meget at gøre med Udstillingen.</p>
+                    <p>Da jeg mærkede, hvor daarligt Resultatet truede med at blive, trak jeg Bogen helt
+                        tilbage.</p>
+                    <p><persName key="hasselbalchS">Hasselbalch</persName> gav som en af de vægtige Grunde til
+                        ikke at udgive Bogen den: at en Smædeskriver i sit Blad havde skrevet noget om mig, som
+                        jeg iøvrigt aldrig har læst.</p>
+                    <p>Jeg har levet her i <placeName key="copenhagen">København</placeName> som i en
+                        Gifttaage af fæl og ondsindet Sladder. Du kan tro, det har været slemt for en stakkels
+                        syg og svag Pige. Jeg ønskede bare at dø. Men nu har Bladet vendt sig. Folk bevidner mig
+                        deres Medfølelse – jeg havde gerne undværet begge Dele, baade: at de var onde paa mig og
+                        at de nu har ondt af mig.</p>
+                    <p>Flere Forlæggere har nu henvendt sig til mig, og jeg er klar over, at jeg kan faa min
+                        Bog ud, naar jeg vil – ogsaa fra Udlandet er der sket Henvendelser.</p>
+                    <p>Du viste Dig atter som min gode Ven, da Du skrev til mig! Det er meget muligt, jeg om
+                        kort Tid henvender mig til Dig, men ikke igennem Forlægger.</p>
+                    
+                    <p>De allerhjærteligste Hilsner fra Din</p>
+                    <signed>
+                        <persName key="lili">Lili</persName>
+                    </signed>
+                    <postscript>
+                        <p><anchor type="commentRangeStart" n="2"/> Jeg længes saa meget efter <persName
+                            key="knudsenV">Vibeke</persName>. Hils hende fra mig og sig hende at jeg finder
+                            hendes Portrait et af <persName key="wegenerG">Gerdas</persName> bedste Billeder.<anchor type="commentRangeEnd" n="2"
+                            /><note type="translator" source="kej" corresp="comment_2">Written along left edge
+                                of letter.</note></p>
+                    </postscript>
+                </div>
+            </div>
+            <div type="translation">
+                <div rend="head" style="letter">
+                    <p><placeName key="lindevangen">Lindevagen</placeName> 10. <date>6 March 1931</date>.</p>
+                </div>
+                <div rend="body">
+                    <p>Dear <persName key="knudsenP">Poul.</persName></p>
+                    <p> A thousand thanks for your letter, – and I’m sorry that I am just now answering; but the
+                        affair with the book was so intense that I was drained and I became ill, then <persName
+                            key="wegenerG">Gerda</persName> came home, and I have had so much to do with the
+                        exhibition.</p>
+                    <p>When I realized how bad the result threatened to become, I withdrew the book
+                        altogether.</p>
+                    <p><persName key="hasselbalchS">Hasselbach</persName> gave as one of his weightiest
+                        reasons not to publish the book: that a libeler in his newspaper had written something
+                        about me, which incidentally I have never read.</p>
+                    <p>I have lived here in <placeName key="copenhagen">Copenhagen</placeName> in a poison fog
+                        of ugly and malicious gossip. Believe me, it has been bad for a poor sick and weak girl.
+                        I just wanted to die. But now the table has turned. People express to me their sympathy
+                        – I would have preferred to do without both parts, first: that they were mean to me as
+                        well as that they now feel sorry for me.</p>
+                    <p>Several publishers have now approached me and I am aware that I can get my book out
+                        when I want – there have also been approaches from abroad.</p>
+                    <p>You showed yourself again as my good friend, when you wrote to me! It is very possible
+                        I will approach you shortly, but not through a publisher.</p>
+                    <p> Very heartfelt greetings from your</p>
+                    <signed>
+                        <persName key="lili">Lili</persName>
+                    </signed>
+                    <postscript>
+                        <p>I long so much for <persName key="knudsenV">Vibeke</persName>. Greet her for me and
+                            tell her that I find her portrait one of <persName key="wegenerG">Gerda's</persName>
+                            best pictures.</p>
+                    </postscript>
+                </div>
+            </div>
+        </body>
+    </text>
 </TEI>

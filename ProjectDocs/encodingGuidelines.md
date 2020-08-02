@@ -106,9 +106,10 @@ _See [0000-00-00ThomsenTHoyer.xml](https://github.com/RJP43/LiliElbe_EngagedLear
   <!--letter head; often includes address lines (with <placeName> elements) and date (in <date> elements)use <p> elements to separate lines -->
 </div>
 <div rend="body">
-  <p><!--salutation; dear so and so--></p>
+  <p><!--salutation; dear so and so; if a person's name be sure to use <persName>--></p>
   <!--<p> elements should be used for each of the paragraphs making up the letter body-->
-    <signed><!--transcription of signature in a linked <persName> element--></signed>  
+<p><!--closer; yours truly--></p>  
+    <signed><!--transcription of signature in a linked <persName> element; only the name do not include closers (i.e. Sincerely)--></signed>  
   <postscript>
     <!--transcription of content written after signature by letter author; ps-->
     <!--<p> elements should be used for each of the paragraphs making up postcript--> 
@@ -169,11 +170,8 @@ _Capture artificial page numbers (either of the Word Document transcriptions or 
 _In articles, there are sometime columns. At the end of each column use the `<cb/>` self-closing element with the `@n` attribute and attribute-value matching the number of column break it is. Column numbering should be based on the article as a whole rather than individual pages._    
 `<cb n="#"/>`  
   
-_note: When transcribing a text we have made the decision as a project to remove line break hyphenation. Therefore, if a word in the print rendition of a text is hyphenated because there was not enough room in the print rendition to fit the entire word on a single line simply remove the hyphenation. **When a word is split over a page break/beginning - `<pb/>` take the second part of the word (after the hyphenation) and paste it directly after the first part of the word (removing the hyphenation) and then proceed with the `<pb>` encoding.**_    
-  
-_To clarify --- When a text is just one page long then the following needs included as the first element within the div @type="original" **ONLY**: `<pb facs="http://lilielbe.org/media/letters/0000-00-00ThomsenHoyer.jpg"/>` with the facs attribute linking to the appropriate facsimile image in the media library
-BUT if there are multiple pages in a text then the pb elements in the div @type="original" should look like this: `<pb facs="http://lilielbe.org/media/letters/1931-06-16ElbeGarland02.jpg" style="page" n="1"/>` with the n attribute changing with the page number and the facs attribute linking to the appropriate facsimile image in the media library then in the div @type="translation" the pb elements should look like this:  `<pb style="page" n="1"/>` with the n attribute changing with the page number_  
-  
+_note: When transcribing a text we have made the decision as a project to remove line break hyphenation. Therefore, if a word in the print rendition of a text is hyphenated because there was not enough room in the print rendition to fit the entire word on a single line simply remove the hyphenation. **When a word is split over a page break/beginning - `<pb/>` take the second part of the word (after the hyphenation) and paste it directly after the first part of the word (removing the hyphenation) and then proceed with the `<pb>` encoding.**_   
+
 ### Figures, Photos, Illustrations, Images  
 _note: In the main editions we have assigned image XML:IDs so that if an image is referenced anywhere else in the document we can link such instances by providing a corresp attribute value containing the XML:ID preceded by a hashtag (like this: `<p corresp=”#i00>Reference to image.</p>`). When assigning an XML:ID for images start with `i` which stands for image. Follow this with a two digit representation of the number image in the parent text; So the first image would be `i01`._ See example below.
 
@@ -319,8 +317,6 @@ _note: The LEDA project has decided to make no silent corrections; however, we w
   
 ### Encoding Tricky Transcriptions
 _note: The following elements can be used individually or in combination with each other within the `<subst>` element for encoding substitutions (when some text is deleted - whether that be erased, crossed out, written over, etc. - and some other text is inserted as replacement text._  
-
-For instances when a facsimile image or translated text uses `[sic]` use the following encoding `<del type="sic"><gap extent="X"/></del>` with an optional editor/translator's note after it.  
   
 **Substitutions**  
 ````
@@ -350,11 +346,11 @@ _note: Use this encoding for stretches of illegible or missing text (cutaways, h
 "overtype"  
 "transposition"
   
-`@rend`  
-"pencil"    
-"blackInk"    
-"blueInk"  
-"redCrayon"     
+`@rend`
+"pencil"   
+"blackInk"  
+"blueInk"
+"redCrayon"   
 "redPencil"    
 			 
 **Deletions**  

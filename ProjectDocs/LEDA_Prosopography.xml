@@ -130,9 +130,9 @@
                <note>Belgium (historical), a country in western Europe whose capital is
                   Brussels.</note>
             </place>
-            <place xml:id="belgrad">
-               <placeName>Belgrad</placeName>
-               <note>Belgrad (historical), capital of Serbia</note>
+            <place xml:id="belgrade">
+               <placeName>belgrade</placeName>
+               <note>Belgrade (historical), capital of Serbia</note>
             </place>
             <place xml:id="berlin">
                <placeName>Berlin</placeName>
@@ -454,6 +454,11 @@
                <note>Institute for Psychiatry (fictional), modeled on the Institut Für
                   Sexualwissenschaft (Institute for Sexual Science) in Berlin, founded by Magnus
                   Hirschfeld in 1919; Einar Wegener was initially examined there</note>
+            </place>
+            <place xml:id="institutSexualwissenschaft">
+               <placeName>Institute for Sexual Science</placeName>
+               <placeName>Institut Für Sexualwissenschaft</placeName>
+               <note>Institute for Sexual Science (historical), Berlin, founded by Magnus Hirschfeld in 1919; Einar Wegener was initially examined there in 1930.</note>
             </place>
             <place xml:id="italy">
                <placeName source="#A1 #D1-TR">Italy</placeName>
@@ -799,6 +804,10 @@
                <note>Spain is a European country on the Iberian Peninsula whose capital is
                   Madrid.</note>
             </place>
+            <place xml:id="staatlicheFrauenklinik">
+               <placeName>Staatliche Frauenklinik</placeName>
+               <note>Staatliche Frauenklinik (historical)<!-- need note from Pamela --></note>
+            </place>
             <place xml:id="stade">
                <placeName>Stade</placeName>
                <note>Stade (historical), city in Germany</note>
@@ -944,8 +953,7 @@
                <placeName source="#frenchSupp">Frauenklinik de <placeName key="dreseden"
                      >Dresde</placeName></placeName>
                <placeName source="#frenchSupp">LA CLINIQUE FÉMININE DE DRESDE</placeName>
-               <note>Municipal Women’s Clinic (fictional), modeled on Staatliche Frauenklinik in
-                  Dresden, directed by Professor Kurt Warnekros at the time</note>
+               <note>Municipal Women's Clinic (fictional and historical) is the Staatliche Frauenklinik in Dresden, directed by Professor Kurt Warnekros from 1925 to 1948."</note>
             </place>
             <place xml:id="zurich">
                <placeName>Zürich</placeName>
@@ -1066,7 +1074,7 @@
             </person>
             <person xml:id="briffautG" source="historical">
                <persName>Georges Briffaut</persName>
-               <note>Georges Briffaut (1886-1873), founder of a French publishing house with his brother Robert Briffaut. Gerda Wegener illustrated Une Aventure d’Amour à Venise (1927), published in Le Livre du Bibliophile, edited by- Georges Briffaut.</note>
+               <note>Georges Briffaut (1886-1873), founder of a French publishing house with his brother Robert Briffaut. Gerda Wegener illustrated Une Aventure d’Amour à Venise (1927), published in Le Livre du Bibliophile, edited by Georges Briffaut.</note>
             </person>
             <person xml:id="brotherChris" source="fictional" synch="#thomsenTC">
                <persName source="#A1 #D1-TR">brother-in-law</persName>
