@@ -109,6 +109,9 @@
                         digitization and encoding. Original hyphenation can be consulted in the
                         facsimile images.</p>
                 </hyphenation>
+                <segmentation>
+                    <p>When paragraphs line up between the two columns, we have not repeated translator and editor notes. When the paragraphs do not line up, we have included editor notes in both places. We have prioritized readability. Page breaks may not be consistent between the translation and the transcription due to word order differences in the translations.</p>
+                </segmentation>
             </editorialDecl>
         </encodingDesc>
     </teiHeader>

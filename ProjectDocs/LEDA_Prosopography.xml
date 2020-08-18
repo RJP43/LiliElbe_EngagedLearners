@@ -371,6 +371,10 @@
                <placeName>Gipsy Bar</placeName>
                <note>Gipsy Bar (fictional), no known historical analogue</note>
             </place>
+            <place xml:id="Gohrbandtclinic">
+               <placeName>Gohrbandt's clinic</placeName>
+               <note>Erwin Gohrbandt's private clinic (historical) at Augsburger Str. 66, Berlin</note>
+            </place>
             <place xml:id="greatMissenden">
                <placeName>Great Missenden</placeName>
                <note>Great Missenden (historical), village in  Buckinghamshire, England</note>
@@ -1125,6 +1129,11 @@
                   “newspaper boy” or “red-haired fellow” because it is precisely his hump that makes
                   this character important to Andreas.</note>
             </person>
+            <person xml:id="ChristianX" source="historical">
+               <persName>Christian Carl Frederik Albert Alexander Vilhelm</persName>
+               <persName>King of Denmark</persName>
+               <note>Christian Carl Frederik Albert Alexander Vilhelm (historical) (1870 – 1947), King of Denmark from 1912-1947</note>
+            </person>
             <person xml:id="countT" source="historical" synch="#trempe">
                <persName>Colonel de T.</persName>
                <persName>Count de T.</persName>
@@ -1166,7 +1175,11 @@
             <person xml:id="doctorF" source="historical">
                <persName>Doctor F.</persName>
                <!--<note>Mentioned in <persName key="allatiniH">Allatini</persName>'s memoir</note>-->
-               <note>Doctor F. (historical), historical figure unidentified</note>
+               <note>Doctor F. (historical), unidentified</note>
+            </person>
+            <person xml:id="Dreyer" source="historical">
+               <persName>Carl Th. Dreyer</persName>
+               <note>Carl Th. Dreyer (1889-1968), a Danish film director</note>
             </person>
             <person xml:id="einsiedelW" source="historical">
                <persName>Wolfgang von Einsiedel</persName>
@@ -1442,8 +1455,7 @@
             </person>
             <person xml:id="knudsenV" source="historical" synch="#hvideIng">
                <persName>Vibeke Knudsen</persName>
-               <note>Vibeke Knudsen (dates unknown), married to Poul Knudsen from 1925 to
-                  1938</note>
+               <note>Vibeke Knudsen (neé Edmund, 1894-1961), a Danish singer married to Poul Knudsen from 1925 to 1938.</note>
             </person>
             <person xml:id="kreutz" source="fictional" synch="#warnekros">
                <persName source="#A1 #D1 #G1 #D1-TR">Kreutz Werner</persName>
@@ -1537,8 +1549,7 @@
             </person>
             <person xml:id="magnusE" source="historical">
                <persName>Erwin Magnus</persName>
-               <note>Erwin Magnus (historical), a German literary agent, author, and
-                  translator</note>
+               <note>Erwin Magnus (1881-1947), a German literary agent, author, and translator, born in Hamburg, died in Copenhagen.</note>
             </person>
             <person xml:id="magreM" source="historical">
                <persName>Maurice Magre</persName>
@@ -1774,6 +1785,10 @@
                <persName>Ernesto</persName>
                <note>Ernesto Rossini (fictional), modeled on Eric Allatini (1886–1943), friend of
                   the Wegeners; married to Hélène Allatini</note>
+            </person>
+            <person xml:id="Rothschild" source="historical">
+               <persName>Marie-Anne von Goldschmidt-Rothschild</persName>
+               <note>Marie-Anne von Goldschmidt-Rothschild (historical), (née Friedlander-Fuld, 1892-1973), known as Baroness Rotschildt; a friend of Kurt Warnekros</note>
             </person>
             <person xml:id="ruth" source="fictional" synch="#harthernRuth">
                <persName>Ruth</persName>

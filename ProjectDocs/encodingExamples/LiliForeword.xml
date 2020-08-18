@@ -35,10 +35,11 @@
                     <persName ref="twj">Tatjana Willms-Jones</persName>
                 </respStmt>
                 <respStmt>
-                    <resp>Encoding assistance and/or proofing by</resp>
+                    <resp>Encoding assistance and/or XML proofing by</resp>
                     <persName ref="rjp">Rebecca J. Parker</persName>
                     <persName ref="zo">Zanabe Othman</persName>
                     <persName ref="sr">Samantha Riker</persName>
+                    <persName ref="oe">Orion Elrod</persName>
                 </respStmt>
                 <respStmt>
                     <resp>XML transformed into HTML
@@ -48,6 +49,7 @@
                 <respStmt>
                     <resp>HTML proofing completed by</resp>
                     <persName ref="ccm">Caroline McCraw</persName>
+                    <persName ref="plc">Pamela L. Caughie</persName>
                 </respStmt>
                 <sponsor>Loyola University Chicago Libraries</sponsor>
                 <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
@@ -94,6 +96,9 @@
                         digitization and encoding. Original hyphenation can be consulted in the
                         facsimile images.</p>
                 </hyphenation>
+                <segmentation><p>
+                    When paragraphs line up between the two columns, we have not repeated translator and editor notes. When the paragraphs do not line up, we have included editor notes in both places. We have prioritized readability. Page breaks may not be consistent between the translation and the transcription due to word order differences in the translations.
+                </p></segmentation>
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
@@ -212,10 +217,7 @@
                     trotz aller Mängel, die meiner Confessio, -denn das ist letzten Endes diese
                     Niederschrift, -anhaften mögen, glaube ich doch, dass ich mancheinem, der diese
                     Seiten liest, da und dort etwas Neuland der Seele entdeckt habe. </p>
-                <p>Auch wollte ich mit diesem Buch etwas Dankesschuld abtragen meinem <persName
-                        key="kreutz">Helfer</persName> und eigentlichen <persName key="kreutz"
-                        >Erschaffer</persName>, dem grossen deutschen <persName key="kreutz"
-                        >Arzt</persName> und <persName key="kreutz">Menschenfreund</persName> in
+                <p>Auch wollte ich mit diesem Buch etwas Dankesschuld abtragen meinem Helfer und eigentlichen Erschaffer, dem grossen deutschen Arztund Menschenfreund in
                     Not, dessen Namen ich hinter dem <persName key="kreutz">Professor
                         Kreutz</persName> meines Buches verborgen habe. –Dass ich wie ihm allen
                     Personen, die durch mein Buch gehen, Decknamen gegeben habe, entsprang, -muss es
@@ -226,6 +228,7 @@
                 </p>
             </div>
             <div type="translation">
+            <pb n="1"/>
                 <head>
                     <hi rend="underline">Foreword</hi>
                 </head>
@@ -273,7 +276,7 @@
                 </p>
                 <p>A young and rejuvenated woman is resurrected out of <persName key="sparreAn"
                         >Andreas</persName>' "sick and decrepit body." </p>
-                <p>A year has passed. It was a difficult year, because within a society that is
+                <p>A year has passed. It was a difficult year, because within <pb n="2"/>a society that is
                     only accustomed to the normal, conventional and everyday things I am the only
                     being existing outside of any law, meaning not having previously been taken into
                     consideration by any lawmakers. </p>
@@ -319,13 +322,13 @@
                         Sparre</persName>'s life and feelings has gradually almost completely
                     vanished, so that oftentimes, in the part of the book dealing with <persName
                         key="sparreAn">Andreas</persName>, I would have to turn to <persName
-                        key="wegenerG">Grete</persName>, his former wife until his extinction, and
+                        key="sparreGre">Grete</persName>, his former wife until his extinction, and
                     her memories of him, – I still believe that emotionally I am able to understand
                     him better than other people could. And perhaps there is a bridge of
                     consciousness inside of me that conquers the abyss that usually separates man
                     and woman. And the consciousness of this emotional connection between the two
                     sexes, this consciousness in my blood, which now flows through a woman's heart,
-                        <hi rend="italics">my</hi> heart, just like it previously flowed through a
+                        <pb n="3"/><hi rend="emphasis">my</hi> heart, just like it previously flowed through a
                     man's heart, <persName key="sparreAn">Andreas Sparre</persName>'s heart, which
                     from time to time through colorful, aching mists swelled up into cringing
                     knowledge, this foreboding knowledge I carried into my fated confession –
@@ -335,10 +338,8 @@
                     flaws in my confession, because after all, this is a confession, I
                     still believe that here and there I have disclosed some virgin soil of the soul
                     to some who are reading these pages. </p>
-                <p>With this book I also wanted to thank my <persName key="kreutz"
-                        >helper</persName> and actual <persName key="kreutz">creator</persName>, the
-                    great German <persName key="kreutz">doctor</persName> and <persName key="kreutz"
-                        >humanitarian</persName> in my hour of need, whose name I have concealed
+                <p>With this book I also wanted to thank my helper and actual creator, the
+                    great German doctor and humanitarian in my hour of need, whose name I have concealed
                     behind the <persName key="kreutz">Professor Kreutz</persName> of my book. I have
                     given him and all other people wandering through my book aliases – need I even
                     mention why?- out of an easily explained discretion. </p>

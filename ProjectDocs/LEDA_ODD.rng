@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-08-02T17:05:40Z. .
+Schema generated from ODD source 2020-08-18T00:24:09Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -4871,6 +4871,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): the cripple, red-haired cripple, red-haired fellow, hunchback, rothaarigen Krüppel, Krüppel, Rothaarige, [der] Buckel | Note: the Cripple (fictional), no known historical model. We chose this epithet over
                   “newspaper boy” or “red-haired fellow” because it is precisely his hump that makes
                   this character important to Andreas.) </a:documentation>
+                  <value>ChristianX</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Christian Carl Frederik Albert Alexander Vilhelm, King of Denmark | Note: Christian Carl Frederik Albert Alexander Vilhelm (historical) (1870 – 1947), King of Denmark from 1912-1947) </a:documentation>
                   <value>countT</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Colonel de T., Count de T. | Note: Colonel de T. (fictional), the historical figure mentioned in Allatini’s memoir
                   is unidentified | Linked Keys: #trempe) </a:documentation>
@@ -4885,7 +4887,9 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>director</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Herr Director, Sir Director | Note: Director (historical), unidentified) </a:documentation>
                   <value>doctorF</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Doctor F. | Note: Doctor F. (historical), historical figure unidentified) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Doctor F. | Note: Doctor F. (historical), unidentified) </a:documentation>
+                  <value>Dreyer</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Carl Th. Dreyer | Note: Carl Th. Dreyer (1889-1968), a Danish film director) </a:documentation>
                   <value>einsiedelW</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Wolfgang von Einsiedel | Note: Wolfgang von Einsiedel (historical), German writer who reviewed the German
                   edition in November 1932) </a:documentation>
@@ -5010,8 +5014,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Poul Knudsen | Note: Poul Knudsen (1889-1974), Danish lawyer and writer, friend of the Wegeners,
                   married to Vibeke from 1925 to 1938 | Linked Keys: #hvideNiels) </a:documentation>
                   <value>knudsenV</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Vibeke Knudsen | Note: Vibeke Knudsen (dates unknown), married to Poul Knudsen from 1925 to
-                  1938 | Linked Keys: #hvideIng) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Vibeke Knudsen | Note: Vibeke Knudsen (neé Edmund, 1894-1961), a Danish singer married to Poul Knudsen from 1925 to 1938. | Linked Keys: #hvideIng) </a:documentation>
                   <value>kreutz</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Kreutz Werner, Kreutz, the professor, Professor Werner, deutschen Professor, der Professor, Der/Des deutsche(n) Arzt(es) | Note: Professor Werner Kreutz (fictional), modelled on Kurt Warnekros (1882–1949), a
                   German gynecologist | Linked Keys: #warnekros) </a:documentation>
@@ -5046,8 +5049,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>madameB</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Madame de B. | Note: Madame de B. (historical), unidentified) </a:documentation>
                   <value>magnusE</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Erwin Magnus | Note: Erwin Magnus (historical), a German literary agent, author, and
-                  translator) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Erwin Magnus | Note: Erwin Magnus (1881-1947), a German literary agent, author, and translator, born in Hamburg, died in Copenhagen.) </a:documentation>
                   <value>magreM</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Maurice Magre | Note: Maurice Magre (1877-1941), a French author) </a:documentation>
                   <value>mannT</value>
@@ -5162,6 +5164,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <value>rossiniEr</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Ernesto Rossini, Ernesto | Note: Ernesto Rossini (fictional), modeled on Eric Allatini (1886–1943), friend of
                   the Wegeners; married to Hélène Allatini | Linked Keys: #allatiniE) </a:documentation>
+                  <value>Rothschild</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Marie-Anne von Goldschmidt-Rothschild | Note: Marie-Anne von Goldschmidt-Rothschild (historical), (née Friedlander-Fuld, 1892-1973), known as Baroness Rotschildt; a friend of Kurt Warnekros) </a:documentation>
                   <value>ruth</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Ruth | Note: Ruth (fictional), modeled on Ruth Hanna Hathern-Thaning (1915-1993), daughter of Ernst Harthern | Linked Keys: #harthernRuth) </a:documentation>
                   <value>sassEK</value>
@@ -5440,6 +5444,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   one word and can signify a specific region with its unique identity.) </a:documentation>
                   <value>gipsyBar</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Gipsy Bar | Note: Gipsy Bar (fictional), no known historical analogue) </a:documentation>
+                  <value>Gohrbandtclinic</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Gohrbandt's clinic | Note: Erwin Gohrbandt's private clinic (historical) at Augsburger Str. 66, Berlin) </a:documentation>
                   <value>greatMissenden</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Identified Name(s): Great Missenden | Note: Great Missenden (historical), village in  Buckinghamshire, England) </a:documentation>
                   <value>greece</value>
