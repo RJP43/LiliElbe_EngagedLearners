@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-08-18T00:24:09Z. .
+Schema generated from ODD source 2020-09-14T01:17:43Z. .
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -5014,7 +5014,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Poul Knudsen | Note: Poul Knudsen (1889-1974), Danish lawyer and writer, friend of the Wegeners,
                   married to Vibeke from 1925 to 1938 | Linked Keys: #hvideNiels) </a:documentation>
                   <value>knudsenV</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Vibeke Knudsen | Note: Vibeke Knudsen (neé Edmund, 1894-1961), a Danish singer married to Poul Knudsen from 1925 to 1938. | Linked Keys: #hvideIng) </a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: historical | Identified Name(s): Vibeke Knudsen | Note: Vibeke Knudsen (née Edmund, 1894-1961), a Danish singer married to Poul Knudsen from 1925 to 1938. | Linked Keys: #hvideIng) </a:documentation>
                   <value>kreutz</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(Category: fictional | Identified Name(s): Kreutz Werner, Kreutz, the professor, Professor Werner, deutschen Professor, der Professor, Der/Des deutsche(n) Arzt(es) | Note: Professor Werner Kreutz (fictional), modelled on Kurt Warnekros (1882–1949), a
                   German gynecologist | Linked Keys: #warnekros) </a:documentation>
